@@ -1,0 +1,38 @@
+GROUP 10 — University Administrative Copilot (Roll No. J054 J055 J056 J057 J059)
+
+Problem:
+    Students and faculty ask administrative questions in natural language, while institutional processes are often
+    distributed across documents and systems.
+
+Objective:
+Build an NLP component capable of understanding and routing administrative requests.
+
+Example:
+    “I lost my ID card. What should I do?”
+
+    Output:
+        Intent: ID Card Replacement
+        Department: Academic Administration
+        Required Documents: ...
+        Next Action: Submit replacement request
+
+Expected NLP Components:
+    intent classification
+    NER
+    information extraction
+    semantic search
+    RAG
+
+Possible Intents:
+    certificates
+    transcripts
+    ID cards
+    hostel
+    examinations
+    fees
+    scholarships
+    attendance
+    academic registration
+
+Stretch Goal:
+    Automatically generate a structured service request from the student's message.
