@@ -1,0 +1,81 @@
+{"query": "I need proof that I study here for my education loan", "doc_id": "cert_bonafide", "intent": "certificates"}
+{"query": "how much does a bonafide cost and when can i collect it", "doc_id": "cert_bonafide", "intent": "certificates"}
+{"query": "Can I get a student verification letter today itself? my visa appointment is tomorrow", "doc_id": "cert_bonafide", "intent": "certificates"}
+{"query": "I'm joining another university for masters, what paper do I need from here", "doc_id": "cert_migration_tc", "intent": "certificates"}
+{"query": "how to get leaving certificate after final year", "doc_id": "cert_migration_tc", "intent": "certificates"}
+{"query": "lost my migration certificate, can I get another one", "doc_id": "cert_migration_tc", "intent": "certificates"}
+{"query": "company wants a no objection letter for my summer internship", "doc_id": "cert_noc_character", "intent": "certificates"}
+{"query": "need a conduct certificate for a job application", "doc_id": "cert_noc_character", "intent": "certificates"}
+{"query": "permission letter from college for participating in hackathon abroad", "doc_id": "cert_noc_character", "intent": "certificates"}
+{"query": "results are out, how do i get the provisional degree", "doc_id": "cert_degree_provisional", "intent": "certificates"}
+{"query": "my surname is misspelled on the degree certificate", "doc_id": "cert_degree_provisional", "intent": "certificates"}
+{"query": "cannot attend convocation, will my degree be posted", "doc_id": "cert_degree_provisional", "intent": "certificates"}
+{"query": "how to request official academic transcripts for grad school", "doc_id": "tr_official_transcript", "intent": "transcripts"}
+{"query": "is a transcript downloaded from portal valid for applications", "doc_id": "tr_official_transcript", "intent": "transcripts"}
+{"query": "fee for 3 copies of transcript", "doc_id": "tr_official_transcript", "intent": "transcripts"}
+{"query": "WES needs my records sent directly by the university", "doc_id": "tr_wes_dispatch", "intent": "transcripts"}
+{"query": "can transcripts be sent electronically to credential evaluation", "doc_id": "tr_wes_dispatch", "intent": "transcripts"}
+{"query": "how do i send sealed transcripts to a university in Canada", "doc_id": "tr_wes_dispatch", "intent": "transcripts"}
+{"query": "lost my sem 3 marksheet", "doc_id": "tr_marksheet_duplicate", "intent": "transcripts"}
+{"query": "need percentage equivalent of my CGPA for a job form", "doc_id": "tr_marksheet_duplicate", "intent": "transcripts"}
+{"query": "get one consolidated grade card for all semesters", "doc_id": "tr_marksheet_duplicate", "intent": "transcripts"}
+{"query": "I lost my ID card. What should I do?", "doc_id": "id_lost_replacement", "intent": "id_cards"}
+{"query": "someone stole my wallet with my college identity card", "doc_id": "id_lost_replacement", "intent": "id_cards"}
+{"query": "need a temporary id while new card is printed", "doc_id": "id_lost_replacement", "intent": "id_cards"}
+{"query": "the gate scanner doesn't read my card anymore", "doc_id": "id_damaged_correction", "intent": "id_cards"}
+{"query": "wrong date of birth printed on my student card", "doc_id": "id_damaged_correction", "intent": "id_cards"}
+{"query": "want to change the photo on my id", "doc_id": "id_damaged_correction", "intent": "id_cards"}
+{"query": "joined 2 months ago still no id card", "doc_id": "id_new_renewal", "intent": "id_cards"}
+{"query": "id card expired library not letting me in", "doc_id": "id_new_renewal", "intent": "id_cards"}
+{"query": "forgot id at home how to enter campus", "doc_id": "id_new_renewal", "intent": "id_cards"}
+{"query": "how to get a room in the hostel as a first year", "doc_id": "hostel_admission_allotment", "intent": "hostel"}
+{"query": "when is the hostel allotment list published", "doc_id": "hostel_admission_allotment", "intent": "hostel"}
+{"query": "difference in fee between single and shared hostel room", "doc_id": "hostel_admission_allotment", "intent": "hostel"}
+{"query": "can i go home this weekend from hostel, what permission is needed", "doc_id": "hostel_rules_leave", "intent": "hostel"}
+{"query": "what time do hostel gates close", "doc_id": "hostel_rules_leave", "intent": "hostel"}
+{"query": "want to stay in hostel during summer internship", "doc_id": "hostel_rules_leave", "intent": "hostel"}
+{"query": "geyser in my room is broken for three days", "doc_id": "hostel_complaints_vacating", "intent": "hostel"}
+{"query": "leaving hostel next month, how do I get my deposit back", "doc_id": "hostel_complaints_vacating", "intent": "hostel"}
+{"query": "problem with my roommate who do i talk to", "doc_id": "hostel_complaints_vacating", "intent": "hostel"}
+{"query": "where do i download admit card for end sems", "doc_id": "exam_registration_hallticket", "intent": "examinations"}
+{"query": "two of my exams are on the same day", "doc_id": "exam_registration_hallticket", "intent": "examinations"}
+{"query": "last date for exam form and late fee", "doc_id": "exam_registration_hallticket", "intent": "examinations"}
+{"query": "not happy with my marks, can the paper be rechecked", "doc_id": "exam_revaluation_results", "intent": "examinations"}
+{"query": "want to see my answer script", "doc_id": "exam_revaluation_results", "intent": "examinations"}
+{"query": "result shows absent but I wrote the exam", "doc_id": "exam_revaluation_results", "intent": "examinations"}
+{"query": "I failed a subject how do I clear it", "doc_id": "exam_supplementary_makeup", "intent": "examinations"}
+{"query": "was hospitalised during the exam, can i write it later", "doc_id": "exam_supplementary_makeup", "intent": "examinations"}
+{"query": "can i improve my grade by rewriting the paper", "doc_id": "exam_supplementary_makeup", "intent": "examinations"}
+{"query": "can I pay tuition with UPI", "doc_id": "fee_payment_modes", "intent": "fees"}
+{"query": "what if I pay fees after the due date", "doc_id": "fee_payment_modes", "intent": "fees"}
+{"query": "is paying semester fee in two parts allowed", "doc_id": "fee_payment_modes", "intent": "fees"}
+{"query": "amount debited but portal still shows fee unpaid", "doc_id": "fee_failed_refund", "intent": "fees"}
+{"query": "i was charged double for this semester", "doc_id": "fee_failed_refund", "intent": "fees"}
+{"query": "cancelled my admission, how to get my fees back", "doc_id": "fee_failed_refund", "intent": "fees"}
+{"query": "my family income is low, is there any fee reduction", "doc_id": "fee_concession_waiver", "intent": "fees"}
+{"query": "my brother also studies here, any sibling discount", "doc_id": "fee_concession_waiver", "intent": "fees"}
+{"query": "discount on fees for children of university staff", "doc_id": "fee_concession_waiver", "intent": "fees"}
+{"query": "scholarship for toppers", "doc_id": "sch_merit", "intent": "scholarships"}
+{"query": "what CGPA do I need to keep my merit scholarship", "doc_id": "sch_merit", "intent": "scholarships"}
+{"query": "can I have merit scholarship along with bank loan", "doc_id": "sch_merit", "intent": "scholarships"}
+{"query": "how to apply for SC ST scholarship", "doc_id": "sch_government", "intent": "scholarships"}
+{"query": "my NSP scholarship has not come yet", "doc_id": "sch_government", "intent": "scholarships"}
+{"query": "freeship for OBC students", "doc_id": "sch_government", "intent": "scholarships"}
+{"query": "financial aid for students from poor families", "doc_id": "sch_need_based", "intent": "scholarships"}
+{"query": "i play state level cricket, any scholarship", "doc_id": "sch_need_based", "intent": "scholarships"}
+{"query": "fellowship for undergrad research project", "doc_id": "sch_need_based", "intent": "scholarships"}
+{"query": "my attendance is 70 percent will I be allowed to write exams", "doc_id": "att_rules_condonation", "intent": "attendance"}
+{"query": "how to apply for attendance condonation", "doc_id": "att_rules_condonation", "intent": "attendance"}
+{"query": "what is minimum attendance needed", "doc_id": "att_rules_condonation", "intent": "attendance"}
+{"query": "I was marked absent even though I attended", "doc_id": "att_corrections_duty_leave", "intent": "attendance"}
+{"query": "will attendance be given for days i was at a college fest", "doc_id": "att_corrections_duty_leave", "intent": "attendance"}
+{"query": "how do faculty upload attendance for the whole class", "doc_id": "att_corrections_duty_leave", "intent": "attendance"}
+{"query": "when does course registration open for next sem", "doc_id": "reg_course_registration", "intent": "academic_registration"}
+{"query": "missed registration because the portal crashed", "doc_id": "reg_course_registration", "intent": "academic_registration"}
+{"query": "how many credits can i take this semester", "doc_id": "reg_course_registration", "intent": "academic_registration"}
+{"query": "how to apply for a minor in data science", "doc_id": "reg_electives_minor", "intent": "academic_registration"}
+{"query": "the elective I want is full", "doc_id": "reg_electives_minor", "intent": "academic_registration"}
+{"query": "can I take a course from another department", "doc_id": "reg_electives_minor", "intent": "academic_registration"}
+{"query": "want to shift from mechanical to computer engineering", "doc_id": "reg_branch_change_withdrawal", "intent": "academic_registration"}
+{"query": "need to drop the semester for medical reasons", "doc_id": "reg_branch_change_withdrawal", "intent": "academic_registration"}
+{"query": "returning after a year gap, how to rejoin", "doc_id": "reg_branch_change_withdrawal", "intent": "academic_registration"}

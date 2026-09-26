@@ -1,0 +1,139 @@
+{
+  "intent": {
+    "tfidf_logreg (week 2)": {
+      "val": 0.9305,
+      "test": 0.973,
+      "test_noisy": 0.9572,
+      "test_seed": 0.9034,
+      "clinc_oos_recall": 0.959
+    },
+    "minilm_logreg": {
+      "val": 0.9598,
+      "test": 0.949,
+      "test_noisy": 0.9321,
+      "test_seed": 0.9411,
+      "clinc_oos_recall": 0.959
+    },
+    "bge_small_logreg": {
+      "val": 0.9503,
+      "test": 0.9678,
+      "test_noisy": 0.9355,
+      "test_seed": 0.9596,
+      "clinc_oos_recall": 0.9499
+    },
+    "ensemble_tfidf_minilm": {
+      "val": 0.9593,
+      "test": 0.9522,
+      "test_noisy": 0.9596,
+      "test_seed": 0.9596,
+      "clinc_oos_recall": 0.978
+    }
+  },
+  "intent_selected": "minilm_logreg",
+  "ner": {
+    "gazetteer": {
+      "val": 0.7561,
+      "test": 0.7764
+    },
+    "crf": {
+      "val": 0.881,
+      "test": 0.9071
+    },
+    "crf+gazetteer (full)": {
+      "val": 0.816,
+      "test": 0.8208
+    },
+    "crf+gazetteer (value crossfit, 5)": {
+      "val": 0.8929,
+      "test": 0.9003
+    }
+  },
+  "ner_selected": "crf+gazetteer (value crossfit, 5)",
+  "retrieval": {
+    "bm25": {
+      "R@1": 0.7901,
+      "R@3": 0.9506,
+      "MRR": 0.8669
+    },
+    "dense": {
+      "R@1": 0.8519,
+      "R@3": 0.963,
+      "MRR": 0.9088
+    },
+    "hybrid": {
+      "R@1": 0.8765,
+      "R@3": 0.9753,
+      "MRR": 0.9291
+    }
+  },
+  "e2e": {
+    "n": 81,
+    "intent_acc": 0.8025,
+    "procedure_acc": 0.7284,
+    "doc_in_top3": 0.8642,
+    "status_counts": {
+      "needs_information": 40,
+      "ready": 26,
+      "needs_confirmation": 8,
+      "oos": 7
+    },
+    "oos_declined_200": 0.96,
+    "latency_ms_median": 5.1,
+    "latency_ms_p95": 5.5
+  },
+  "example": {
+    "answer": "Lost or Stolen ID Card Replacement is handled by the Academic Administration (ID Card Cell). 1. Report the loss on the student portal (ID Card > Report lost) to block the card. This prevents misuse of library and access privileges.\n\nRequired documents: FIR or online lost report; Duplicate ID card form AD-07; One passport size photograph; Payment receipt.\nFee: Rs. 300. Processing time: 5 working days.\nNext step: File an online lost report, then submit form AD-07 with the fee.",
+    "service_request": {
+      "intent": "id_cards",
+      "department": "Academic Administration (ID Card Cell)",
+      "procedure_id": "id_lost_replacement",
+      "procedure_title": "Lost or Stolen ID Card Replacement",
+      "required_documents": [
+        "FIR or online lost report",
+        "Duplicate ID card form AD-07",
+        "One passport size photograph",
+        "Payment receipt"
+      ],
+      "fee": "Rs. 300",
+      "processing_time": "5 working days",
+      "next_action": "File an online lost report, then submit form AD-07 with the fee",
+      "extracted_details": {
+        "DOCUMENT": [
+          "ID card"
+        ],
+        "DATE": [
+          "yesterday"
+        ],
+        "STUDENT_ID": [
+          "J054"
+        ]
+      },
+      "missing_information": [],
+      "priority": "high",
+      "status": "ready"
+    },
+    "entities": [
+      {
+        "label": "DOCUMENT",
+        "text": "ID card",
+        "start": 10,
+        "end": 17,
+        "source": "crf"
+      },
+      {
+        "label": "DATE",
+        "text": "yesterday",
+        "start": 18,
+        "end": 27,
+        "source": "rule"
+      },
+      {
+        "label": "STUDENT_ID",
+        "text": "J054",
+        "start": 37,
+        "end": 41,
+        "source": "rule"
+      }
+    ]
+  }
+}
