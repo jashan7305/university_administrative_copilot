@@ -1,0 +1,919 @@
+text,intent,source,clean_text
+Tell me about the minority scholarship scheme.,scholarships,original,tell me about the minority scholarship scheme
+Tell me about the minority scholarship shceme thank you,scholarships,augmented,tell me about the minority scholarship shceme thank you
+tell me about the minority scholarship scheme.,scholarships,augmented,tell me about the minority scholarship scheme
+"hey, tell me about the minority scholarship scheme thank you",scholarships,augmented,hey tell me about the minority scholarship scheme thank you
+"excuse me, tell me about the minority scholarship scheme.",scholarships,augmented,excuse me tell me about the minority scholarship scheme
+please help: tell me about the minority scholarship sheme,scholarships,augmented,please help tell me about the minority scholarship sheme
+Where can I apply for a character certificate?,certificates,original,where can i apply for a character certificate
+"hey, where can I apply for a charaacter certificate thanks",certificates,augmented,hey where can i apply for a charaacter certificate thanks
+"hello, where can I apply for a character certificate",certificates,augmented,hello where can i apply for a character certificate
+where can i apply for a character certificate,certificates,augmented,where can i apply for a character certificate
+"madam, where can i apply for a characteer certificate",certificates,augmented,madam where can i apply for a characteer certificate
+How can faculty upload attendance for a batch?,attendance,original,how can faculty upload attendance for a batch
+how can faculty upload attendance for a batch kindly guide me,attendance,augmented,how can faculty upload attendance for a batch kindly guide me
+How can fcaulty upload attedance for a batch thanks,attendance,augmented,how can fcaulty upload attedance for a batch thanks
+how can faculty upload attendance for a batch,attendance,augmented,how can faculty upload attendance for a batch
+"hello, how can faculty upload atetndance for a btach thanks",attendance,augmented,hello how can faculty upload atetndance for a btach thanks
+"hi, how can faculty upload attendance for a batch please",attendance,augmented,hi how can faculty upload attendance for a batch please
+Are calculators allowed in the end semester examination?,examinations,original,are calculators allowed in the end semester examination
+Are calculatoors allowed in the end semester exaamination,examinations,augmented,are calculatoors allowed in the end semester exaamination
+are caculators allowed in the end semester examination,examinations,augmented,are caculators allowed in the end semester examination
+Are calculators alloweed in the end semester examination?,examinations,augmented,are calculators alloweed in the end semester examination
+please help: are calculators allowed in the end semester examination?,examinations,augmented,please help are calculators allowed in the end semester examination
+are calculators allowed in the end semester examination thank you,examinations,augmented,are calculators allowed in the end semester examination thank you
+How much is the fee for the second year?,fees,original,how much is the fee for the second year
+please help: how much is the fee for the second year thank you,fees,augmented,please help how much is the fee for the second year thank you
+how much is the fee for the second year?,fees,augmented,how much is the fee for the second year
+How much is the fee for the secnd year asap,fees,augmented,how much is the fee for the secnd year asap
+how much is the fee for the second year thank you,fees,augmented,how much is the fee for the second year thank you
+My student ID card got stolen yesterday.,id_cards,original,my student id card got stolen yesterday
+urgent: my student id card got stolen yesterday.,id_cards,augmented,urgent my student id card got stolen yesterday
+my student id card got stolen yesterday.,id_cards,augmented,my student id card got stolen yesterday
+"hi, my student id card got stolen yesterday thanks",id_cards,augmented,hi my student id card got stolen yesterday thanks
+My student ID card got stolen yestrday.,id_cards,augmented,my student id card got stolen yestrday
+"excuse me, my student ID card got stolen yesterday.",id_cards,augmented,excuse me my student id card got stolen yesterday
+How do I apply for attendance condonation?,attendance,original,how do i apply for attendance condonation
+urgent: how do I apply for attendance condonation please,attendance,augmented,urgent how do i apply for attendance condonation please
+How do I apply for attendance condonation,attendance,augmented,how do i apply for attendance condonation
+"sir, how do i apply for attendace condonation thank you",attendance,augmented,sir how do i apply for attendace condonation thank you
+how do i aply for attendance condonation?,attendance,augmented,how do i aply for attendance condonation
+how do i appply for attendance condonation,attendance,augmented,how do i appply for attendance condonation
+"The elective I wanted is full, can I get added to the waitlist?",academic_registration,original,the elective i wanted is full can i get added to the waitlist
+"The elective I wanted is full, can I get added to the waitlist asap",academic_registration,augmented,the elective i wanted is full can i get added to the waitlist asap
+"the electiev i wanted is flul, can i get added to the waitlist thank you",academic_registration,augmented,the electiev i wanted is flul can i get added to the waitlist thank you
+"The elective I wanted is full, can I get added to the waitlist please",academic_registration,augmented,the elective i wanted is full can i get added to the waitlist please
+"the elective i wanted is full, can i get added to the waitlist",academic_registration,augmented,the elective i wanted is full can i get added to the waitlist
+I need a fee structure document for my education loan.,fees,original,i need a fee structure document for my education loan
+"sir, i need a fee structure document for my education lona",fees,augmented,sir i need a fee structure document for my education lona
+i need a fee structure document for my education loan kindly guide me,fees,augmented,i need a fee structure document for my education loan kindly guide me
+quick question: i need a fee structure document for my education looan please,fees,augmented,quick question i need a fee structure document for my education looan please
+I need a fee structure document for my education loa.n,fees,augmented,i need a fee structure document for my education loa n
+Can the university send my transcript directly to WES?,transcripts,original,can the university send my transcript directly to wes
+"hello, can the university send my transcript directly to wes thanks",transcripts,augmented,hello can the university send my transcript directly to wes thanks
+can the university send my transcript direectly to wes,transcripts,augmented,can the university send my transcript direectly to wes
+Can the university snd my transcript directly to WES?,transcripts,augmented,can the university snd my transcript directly to wes
+"hey, can the university send my transcript drectly to wes any help is appreciatd",transcripts,augmented,hey can the university send my transcript drectly to wes any help is appreciatd
+My professor did not update my attendance for the last month.,attendance,original,my professor did not update my attendance for the last month
+quick question: my professor did not update my attendance for the last month.,attendance,augmented,quick question my professor did not update my attendance for the last month
+my professor did not update my attendance for the last month.,attendance,augmented,my professor did not update my attendance for the last month
+urgent: my professor did not update my attendance for the last month.,attendance,augmented,urgent my professor did not update my attendance for the last month
+My professor did not update my attendance for the last month plese,attendance,augmented,my professor did not update my attendance for the last month plese
+What is the maximum number of credits I can register for?,academic_registration,original,what is the maximum number of credits i can register for
+"madam, what is the maximum number of creidts I can register for",academic_registration,augmented,madam what is the maximum number of creidts i can register for
+wat is the maximum number of credits i can register for?,academic_registration,augmented,wat is the maximum number of credits i can register for
+"sir, what is the maximum numbber of credits I can register for",academic_registration,augmented,sir what is the maximum numbber of credits i can register for
+"madam, what is the maximum number of credits i can register for?",academic_registration,augmented,madam what is the maximum number of credits i can register for
+what is the maximum number of credits i can register for any help is appreciated,academic_registration,augmented,what is the maximum number of credits i can register for any help is appreciated
+What happens if my attendance falls below 75 percent?,attendance,original,what happens if my attendance falls below 75 percent
+What happens if my attendance falls below 75 percent,attendance,augmented,what happens if my attendance falls below 75 percent
+"excuse me, what happens if my atendance falls below 75 percent",attendance,augmented,excuse me what happens if my atendance falls below 75 percent
+what happens if my attendance falls below 75 percent,attendance,augmented,what happens if my attendance falls below 75 percent
+quick question: what happens if my attendance falls below 75 percent thanks,attendance,augmented,quick question what happens if my attendance falls below 75 percent thanks
+"madam, what happens if my attendance falls below 75 percent asap",attendance,augmented,madam what happens if my attendance falls below 75 percent asap
+When will the end semester exam timetable be released?,examinations,original,when will the end semester exam timetable be released
+Whne will the end semester exam timetable be released?,examinations,augmented,whne will the end semester exam timetable be released
+when will the end semester exam timetable be released thakns,examinations,augmented,when will the end semester exam timetable be released thakns
+"hello, when will the end semesteer exam timetable be released",examinations,augmented,hello when will the end semesteer exam timetable be released
+quick question: when will the end semester exam timetable be released please,examinations,augmented,quick question when will the end semester exam timetable be released please
+when will the end semester exam timetable be released?,examinations,augmented,when will the end semester exam timetable be released
+When will the hostel room allotment list be released?,hostel,original,when will the hostel room allotment list be released
+When will the hostel room allotment lisst be released?,hostel,augmented,when will the hostel room allotment lisst be released
+when will the hostel room allotment list be released?,hostel,augmented,when will the hostel room allotment list be released
+when will the hostel room allotmeent list be released,hostel,augmented,when will the hostel room allotmeent list be released
+please help: when wll the hostel room allotment list be released,hostel,augmented,please help when wll the hostel room allotment list be released
+When will the hostel room allotment list be released,hostel,augmented,when will the hostel room allotment list be released
+How do I enroll in a minor program?,academic_registration,original,how do i enroll in a minor program
+how do i enroll in a minor program asap,academic_registration,augmented,how do i enroll in a minor program asap
+how do i enroll in a minor program kindly guide me,academic_registration,augmented,how do i enroll in a minor program kindly guide me
+"madam, how do i enroll in a minnor program kindly guide me",academic_registration,augmented,madam how do i enroll in a minnor program kindly guide me
+How do I enroll in a minor program any help is appreciated,academic_registration,augmented,how do i enroll in a minor program any help is appreciated
+I need a bonafide certificate for my bank loan.,certificates,original,i need a bonafide certificate for my bank loan
+"helo, i need a bonafide certificate for my bank loan asap",certificates,augmented,helo i need a bonafide certificate for my bank loan asap
+quick question: i need a bonafide certificate for my bank loan,certificates,augmented,quick question i need a bonafide certificate for my bank loan
+I nede a bonafide certificate for my bank loan thank you,certificates,augmented,i nede a bonafide certificate for my bank loan thank you
+"hey, i need a bonafide certificate for my bank loan any help is appreciated",certificates,augmented,hey i need a bonafide certificate for my bank loan any help is appreciated
+i need a bonafide certificate for my bank loaan,certificates,augmented,i need a bonafide certificate for my bank loaan
+Do I need to file an FIR for a lost ID card?,id_cards,original,do i need to file an fir for a lost id card
+pleaase help: do i need to file an fir for a lost id card?,id_cards,augmented,pleaase help do i need to file an fir for a lost id card
+do i need to file an fir for a lost id card,id_cards,augmented,do i need to file an fir for a lost id card
+urgent: do i need to file an fir for a lost id card asap,id_cards,augmented,urgent do i need to file an fir for a lost id card asap
+quick question: do I nede to file an FIR for a lost ID card,id_cards,augmented,quick question do i nede to file an fir for a lost id card
+quicck question: do I need to file an FIR for a lost ID card,id_cards,augmented,quicck question do i need to file an fir for a lost id card
+Can I take a course from another department as an open elective?,academic_registration,original,can i take a course from another department as an open elective
+"hey, can I take a course from another department as an open elective",academic_registration,augmented,hey can i take a course from another department as an open elective
+can i take a course form another department as an open electiev?,academic_registration,augmented,can i take a course form another department as an open electiev
+"madam, can i take a course from another department as an open elective thank you",academic_registration,augmented,madam can i take a course from another department as an open elective thank you
+"sir, can i take a course from another department as an open elective kindly guide me",academic_registration,augmented,sir can i take a course from another department as an open elective kindly guide me
+can i take a course frrom another department as an open elective,academic_registration,augmented,can i take a course frrom another department as an open elective
+I lost my ID card. What should I do?,id_cards,original,i lost my id card what should i do
+i lost my id card. what should i do thanks,id_cards,augmented,i lost my id card what should i do thanks
+quick question: i lost my id card. what should i do,id_cards,augmented,quick question i lost my id card what should i do
+"excuse me, i lost my ID card. What shoulld I do?",id_cards,augmented,excuse me i lost my id card what shoulld i do
+"madam, i lost my id card. what should i do",id_cards,augmented,madam i lost my id card what should i do
+please help: i lost my ID card. What should I do any help is appreciated,id_cards,augmented,please help i lost my id card what should i do any help is appreciated
+I could not register on time because of a portal error.,academic_registration,original,i could not register on time because of a portal error
+"hi, i could not register on time because of a portal error.",academic_registration,augmented,hi i could not register on time because of a portal error
+I could not register on time because of a portal error please,academic_registration,augmented,i could not register on time because of a portal error please
+"hello, i could not register on time because of a portal error thanks",academic_registration,augmented,hello i could not register on time because of a portal error thanks
+"hello, i could not regisster on time because of a portal error.",academic_registration,augmented,hello i could not regisster on time because of a portal error
+"hey, i coud not register on time because of a portal error kindly guide me",academic_registration,augmented,hey i coud not register on time because of a portal error kindly guide me
+What documents are required for a need-based financial aid application?,scholarships,original,what documents are required for a need based financial aid application
+please help: what documents are required for a need-based financial aid application,scholarships,augmented,please help what documents are required for a need based financial aid application
+Whaat documents are required for a need-based financial aid application?,scholarships,augmented,whaat documents are required for a need based financial aid application
+"hi, what documents are required for a need-based financial aid application?",scholarships,augmented,hi what documents are required for a need based financial aid application
+quick queestion: what documents are required for a need-based financial aid application?,scholarships,augmented,quick queestion what documents are required for a need based financial aid application
+what documents are required for a need-based financial aid application?,scholarships,augmented,what documents are required for a need based financial aid application
+What is the passing criteria for the semester exams?,examinations,original,what is the passing criteria for the semester exams
+what is the passing criteria for the semestre exams please,examinations,augmented,what is the passing criteria for the semestre exams please
+urgent: what is the passing criteria for the semeter exams kindly guide me,examinations,augmented,urgent what is the passing criteria for the semeter exams kindly guide me
+quick question: what is the passing criteria for the semester exams?,examinations,augmented,quick question what is the passing criteria for the semester exams
+"hi, what is the passing criteria for the semester exams?",examinations,augmented,hi what is the passing criteria for the semester exams
+How long will it take to receive my transcript after applying?,transcripts,original,how long will it take to receive my transcript after applying
+how long will it take to receive my transcript after applying,transcripts,augmented,how long will it take to receive my transcript after applying
+How long willl it take to receive my transcript after applying?,transcripts,augmented,how long willl it take to receive my transcript after applying
+How long will it take to receive my transcript after applying thanks,transcripts,augmented,how long will it take to receive my transcript after applying thanks
+quick question: how long will it take to receive my transcript after applying,transcripts,augmented,quick question how long will it take to receive my transcript after applying
+please hellp: how long will it take to receeive my transcript after appliyng,transcripts,augmented,please hellp how long will it take to receeive my transcript after appliyng
+How is attendance calculated for the semester?,attendance,original,how is attendance calculated for the semester
+"hey, how is attendance calculated for the semester asap",attendance,augmented,hey how is attendance calculated for the semester asap
+"excuse me, how is attendance calculated for the semester?",attendance,augmented,excuse me how is attendance calculated for the semester
+How is attendance calcluated for the semester any hlp is appreciated,attendance,augmented,how is attendance calcluated for the semester any hlp is appreciated
+"sir, how is attendance calculated for the semester any help is appreciated",attendance,augmented,sir how is attendance calculated for the semester any help is appreciated
+how is attendance calculated for the semester,attendance,augmented,how is attendance calculated for the semester
+What time is it in London?,out_of_scope,original,what time is it in london
+what time is it in london thanks,out_of_scope,augmented,what time is it in london thanks
+"hello, what time is it in London",out_of_scope,augmented,hello what time is it in london
+what time is it in lonndon?,out_of_scope,augmented,what time is it in lonndon
+"excuse me, what time is it in london?",out_of_scope,augmented,excuse me what time is it in london
+quick question: what tiime is it in london,out_of_scope,augmented,quick question what tiime is it in london
+Who is the prime minister of India?,out_of_scope,original,who is the prime minister of india
+"hey, who is the prime minister of india?",out_of_scope,augmented,hey who is the prime minister of india
+please help: who is the prrime mnister of india,out_of_scope,augmented,please help who is the prrime mnister of india
+quick question: who is the prime minister of India kindly guide me,out_of_scope,augmented,quick question who is the prime minister of india kindly guide me
+Who is the prime minister of Inia please,out_of_scope,augmented,who is the prime minister of inia please
+who is the prime minister of inndia,out_of_scope,augmented,who is the prime minister of inndia
+Can I apply for a certificate online or do I have to visit the office?,certificates,original,can i apply for a certificate online or do i have to visit the office
+"madam, can I appply for a cerrtificate online or do I have to visit the office",certificates,augmented,madam can i appply for a cerrtificate online or do i have to visit the office
+please help: can I apply for a certificate onlnie or do I have to visit the office?,certificates,augmented,please help can i apply for a certificate onlnie or do i have to visit the office
+"excuse me, can i apply for a certificate online or do i have to viit the office asap",certificates,augmented,excuse me can i apply for a certificate online or do i have to viit the office asap
+can i apply for a certificate online or do i have to visit the office,certificates,augmented,can i apply for a certificate online or do i have to visit the office
+"hello, can I apply for a certificate online or do I have to visit the office thank you",certificates,augmented,hello can i apply for a certificate online or do i have to visit the office thank you
+I need a sealed transcript envelope for my master's application.,transcripts,original,i need a sealed transcript envelope for my master's application
+"excuse me, i need a sealed transcript envelope for my master's application.",transcripts,augmented,excuse me i need a sealed transcript envelope for my master's application
+urgent: i need a sealed transcript envelope for my master's application any help is appreciatted,transcripts,augmented,urgent i need a sealed transcript envelope for my master's application any help is appreciatted
+I need a sealed transcript envelope for my master's application,transcripts,augmented,i need a sealed transcript envelope for my master's application
+i need a sealed transrcipt envelope for my master's application.,transcripts,augmented,i need a sealed transrcipt envelope for my master's application
+i ned a sealed transcript envelope for my master's application,transcripts,augmented,i ned a sealed transcript envelope for my master's application
+Book me a flight to Delhi.,out_of_scope,original,book me a flight to delhi
+quikc quesstion: book me a flight to delhi thank you,out_of_scope,augmented,quikc quesstion book me a flight to delhi thank you
+book me a flight to delhi any help is appreciated,out_of_scope,augmented,book me a flight to delhi any help is appreciated
+book me a flight to delhi thank you,out_of_scope,augmented,book me a flight to delhi thank you
+please help: book me a flight to Delhi.,out_of_scope,augmented,please help book me a flight to delhi
+please help: book me a flight to delhi.,out_of_scope,augmented,please help book me a flight to delhi
+My fee receipt shows the wrong amount.,fees,original,my fee receipt shows the wrong amount
+my fee receipt shows the wrong amount.,fees,augmented,my fee receipt shows the wrong amount
+please help: my fee receipt shows the wrong amount please,fees,augmented,please help my fee receipt shows the wrong amount please
+My fee receipt shows the wrong amount,fees,augmented,my fee receipt shows the wrong amount
+My fee receipt shows the wrong amount thank you,fees,augmented,my fee receipt shows the wrong amount thank you
+please help: my fee receipt shows the wrong amount.,fees,augmented,please help my fee receipt shows the wrong amount
+What is the hostel curfew timing?,hostel,original,what is the hostel curfew timing
+what is the hosttel curfew timing?,hostel,augmented,what is the hosttel curfew timing
+urgent: what is the hostel curfew timing?,hostel,augmented,urgent what is the hostel curfew timing
+what is the hostel curfew timing,hostel,augmented,what is the hostel curfew timing
+what is the hostle curfew timing asap,hostel,augmented,what is the hostle curfew timing asap
+How much does a transcript cost?,transcripts,original,how much does a transcript cost
+please help: how much does a transcript cost?,transcripts,augmented,please help how much does a transcript cost
+how much does a transscript cost?,transcripts,augmented,how much does a transscript cost
+How much dose a transcript cost,transcripts,augmented,how much dose a transcript cost
+how much does a trascript cost?,transcripts,augmented,how much does a trascript cost
+how much does a transcript cost,transcripts,augmented,how much does a transcript cost
+Where can I get a new identity card made?,id_cards,original,where can i get a new identity card made
+where can i get a new identity card made any help is appreciated,id_cards,augmented,where can i get a new identity card made any help is appreciated
+Where can I get a new identity card made,id_cards,augmented,where can i get a new identity card made
+Where can I get a new identtity card made,id_cards,augmented,where can i get a new identtity card made
+urgent: where can I get a new identity card made,id_cards,augmented,urgent where can i get a new identity card made
+"excuse me, where can I get a new identity cad made please",id_cards,augmented,excuse me where can i get a new identity cad made please
+Can duty leave be counted as present?,attendance,original,can duty leave be counted as present
+"sir, can duty leave be counted as present?",attendance,augmented,sir can duty leave be counted as present
+please help: can duty leave be counted as preent thank you,attendance,augmented,please help can duty leave be counted as preent thank you
+can duty leave be counted as present?,attendance,augmented,can duty leave be counted as present
+"excuse me, can duty leave be counted as prsent",attendance,augmented,excuse me can duty leave be counted as prsent
+can duty leave be counted as present,attendance,augmented,can duty leave be counted as present
+What is the late registration fee?,academic_registration,original,what is the late registration fee
+"madam, whta is the late registration fee",academic_registration,augmented,madam whta is the late registration fee
+What is the late registration fee,academic_registration,augmented,what is the late registration fee
+What is the late regsitration fee?,academic_registration,augmented,what is the late regsitration fee
+"madam, what is the late registration fee thank you",academic_registration,augmented,madam what is the late registration fee thank you
+quick question: what is the late registration fee please,academic_registration,augmented,quick question what is the late registration fee please
+What documents are needed for hostel admission?,hostel,original,what documents are needed for hostel admission
+"si, what documents are needed for hostel admissino thanks",hostel,augmented,si what documents are needed for hostel admissino thanks
+"hi, what documents are needed for hostel admission",hostel,augmented,hi what documents are needed for hostel admission
+please help: what documents are needed for hostel admission kindly guide me,hostel,augmented,please help what documents are needed for hostel admission kindly guide me
+"madam, what documents are needed for hostel admisison",hostel,augmented,madam what documents are needed for hostel admisison
+When does the course registration window open?,academic_registration,original,when does the course registration window open
+"excuse me, when does the couurse registration window open?",academic_registration,augmented,excuse me when does the couurse registration window open
+"madam, when doees the course registration window open",academic_registration,augmented,madam when doees the course registration window open
+"hello, when deos the course registration window oppen kindly guide me",academic_registration,augmented,hello when deos the course registration window oppen kindly guide me
+"hey, when does the course registration window open?",academic_registration,augmented,hey when does the course registration window open
+when does the course registration window open?,academic_registration,augmented,when does the course registration window open
+Where can I download my fee receipt?,fees,original,where can i download my fee receipt
+where can i download my fee receipt,fees,augmented,where can i download my fee receipt
+"hello, where can i download my fee receipt thank you",fees,augmented,hello where can i download my fee receipt thank you
+"hey, where can I download my fee receipt?",fees,augmented,hey where can i download my fee receipt
+quick question: where can I download my fee receipt please,fees,augmented,quick question where can i download my fee receipt please
+"hi, where can I download my fee receipt?",fees,augmented,hi where can i download my fee receipt
+I want to apply for a research fellowship at the university.,scholarships,original,i want to apply for a research fellowship at the university
+i want to apply for a research fellowship at the univversity please,scholarships,augmented,i want to apply for a research fellowship at the univversity please
+"hey, i want to apply for a reserch fellowship at the university",scholarships,augmented,hey i want to apply for a reserch fellowship at the university
+I want to appply for a research fellowship at the unniversity.,scholarships,augmented,i want to appply for a research fellowship at the unniversity
+I want to apply for a research felllowship at the university,scholarships,augmented,i want to apply for a research felllowship at the university
+i want to apply for a research fellowship at the university,scholarships,augmented,i want to apply for a research fellowship at the university
+How do I get a hostel leave permission for the weekend?,hostel,original,how do i get a hostel leave permission for the weekend
+how do i get a hostel leave permission for the weekend,hostel,augmented,how do i get a hostel leave permission for the weekend
+"hey, how do I get a hostel leave permission for the weekend thank you",hostel,augmented,hey how do i get a hostel leave permission for the weekend thank you
+"hey, how do I get a hostel laeve permission for the weekend",hostel,augmented,hey how do i get a hostel laeve permission for the weekend
+"excuse me, how do I get a hostel leave permision for the weekend",hostel,augmented,excuse me how do i get a hostel leave permision for the weekend
+"sir, how do i get a hostel leave permission for the weeken?d",hostel,augmented,sir how do i get a hostel leave permission for the weeken d
+Are first year students allowed to stay in the hostel?,hostel,original,are first year students allowed to stay in the hostel
+"hi, are first year students allowed to stay in the hostel kindly guide me",hostel,augmented,hi are first year students allowed to stay in the hostel kindly guide me
+"sir, are first year students allowed to stay in the hostel pleasse",hostel,augmented,sir are first year students allowed to stay in the hostel pleasse
+quick question: are firsst year students allowed to stay in the hostel,hostel,augmented,quick question are firsst year students allowed to stay in the hostel
+are first year students allowed to stay in the hostel?,hostel,augmented,are first year students allowed to stay in the hostel
+"madam, are first year students allowed to stay in the hostel kindly giude me",hostel,augmented,madam are first year students allowed to stay in the hostel kindly giude me
+What are the hostel fees for a single occupancy room?,hostel,original,what are the hostel fees for a single occupancy room
+What are the hostel fees for a singe occupancy room,hostel,augmented,what are the hostel fees for a singe occupancy room
+"hi, what are the hostel fees for a single occupancy room",hostel,augmented,hi what are the hostel fees for a single occupancy room
+"madam, what are the hostel fees for a single ocupancy room",hostel,augmented,madam what are the hostel fees for a single ocupancy room
+"I need an NOC for an internship, whom do I contact?",certificates,original,i need an noc for an internship whom do i contact
+"i need an noc for an internship, whom do i contact any help is appreciated",certificates,augmented,i need an noc for an internship whom do i contact any help is appreciated
+"hey, i need an NOC for an internship, whom do I contact pease",certificates,augmented,hey i need an noc for an internship whom do i contact pease
+"i need an noc for an internship, whom do i contact please",certificates,augmented,i need an noc for an internship whom do i contact please
+"sir, i need an NOC for an internship, whom do I contact",certificates,augmented,sir i need an noc for an internship whom do i contact
+"i need an noc for an internship, whom do i contact asap",certificates,augmented,i need an noc for an internship whom do i contact asap
+What is the last date to submit the attendance condonation form?,attendance,original,what is the last date to submit the attendance condonation form
+"helllo, what is the last date to submit the attendance condonation form thank you",attendance,augmented,helllo what is the last date to submit the attendance condonation form thank you
+what is the last date to submit the attendance condonation forrm?,attendance,augmented,what is the last date to submit the attendance condonation forrm
+"hello, wht is the last date to submit the attendance condonation form?",attendance,augmented,hello wht is the last date to submit the attendance condonation form
+What is the last date to submit the attendaance condonation form?,attendance,augmented,what is the last date to submit the attendaance condonation form
+please help: what is the last date to submit the attendance condonation formm?,attendance,augmented,please help what is the last date to submit the attendance condonation formm
+Is there any relaxation in attendance for sports representatives?,attendance,original,is there any relaxation in attendance for sports representatives
+urrgent: is there any relaxation in attendance for sports representatives asap,attendance,augmented,urrgent is there any relaxation in attendance for sports representatives asap
+Is there any relaxation in attendance for sports representatives kindly guide me,attendance,augmented,is there any relaxation in attendance for sports representatives kindly guide me
+Is there any relaxation in attendance for sports representatives,attendance,augmented,is there any relaxation in attendance for sports representatives
+"madam, is there any relaxation in attendance for soprts representatives",attendance,augmented,madam is there any relaxation in attendance for soprts representatives
+please help: is there any relaxation in attendance for sports representatives?,attendance,augmented,please help is there any relaxation in attendance for sports representatives
+I want to switch from a shared room to a single room.,hostel,original,i want to switch from a shared room to a single room
+urgent: i want to switch from a shared room to a single room.,hostel,augmented,urgent i want to switch from a shared room to a single room
+i want to switch from a shared room to a single room,hostel,augmented,i want to switch from a shared room to a single room
+I wannt to swittch frm a shared rooom to a sigle room kindly guide me,hostel,augmented,i wannt to swittch frm a shared rooom to a sigle room kindly guide me
+urgent: i want to switch from a shared room to a single room,hostel,augmented,urgent i want to switch from a shared room to a single room
+i want to switch fom a shared room to a snigle room kindly guide me,hostel,augmented,i want to switch fom a shared room to a snigle room kindly guide me
+How can I get my official transcript?,transcripts,original,how can i get my official transcript
+how can i get my official transcript,transcripts,augmented,how can i get my official transcript
+how can i get my official traanscript?,transcripts,augmented,how can i get my official traanscript
+"hi, how can i get my official transcript?",transcripts,augmented,hi how can i get my official transcript
+urgent: how can I get my official transcript any help is appreciated,transcripts,augmented,urgent how can i get my official transcript any help is appreciated
+"hey, how can i get my official transcript",transcripts,augmented,hey how can i get my official transcript
+Can I get attendance for the days I participated in a college fest?,attendance,original,can i get attendance for the days i participated in a college fest
+Can I get attendance for the days I participated in a college fest thanks,attendance,augmented,can i get attendance for the days i participated in a college fest thanks
+"hello, can I get attendance for the days I partciipated in a college fest",attendance,augmented,hello can i get attendance for the days i partciipated in a college fest
+quick question: can i get attendance for the days i participated in a college fest thank you,attendance,augmented,quick question can i get attendance for the days i participated in a college fest thank you
+urgent: can i get attendance for the days i participated in a college fest?,attendance,augmented,urgent can i get attendance for the days i participated in a college fest
+please help: can I get attendanec for the daays I participated in a colelge fest?,attendance,augmented,please help can i get attendanec for the daays i participated in a colelge fest
+I have not received my ID card yet even after two months of admission.,id_cards,original,i have not received my id card yet even after two months of admission
+I have not received my ID card yet even after two months of admission kidly guide me,id_cards,augmented,i have not received my id card yet even after two months of admission kidly guide me
+"madam, i have not received my ID card yet even after two months of admission",id_cards,augmented,madam i have not received my id card yet even after two months of admission
+please help: i have not received my ID card yet even after two months of admission.,id_cards,augmented,please help i have not received my id card yet even after two months of admission
+"madam, i have not receivved my ID card yet even after two months of admission.",id_cards,augmented,madam i have not receivved my id card yet even after two months of admission
+I have not receied my ID card yet even after two months of admission any help is appreciated,id_cards,augmented,i have not receied my id card yet even after two months of admission any help is appreciated
+Can I get a provisional degree certificate before convocation?,certificates,original,can i get a provisional degree certificate before convocation
+"hi, can i get a provisional degree certificate before convocation",certificates,augmented,hi can i get a provisional degree certificate before convocation
+"hey, can I get a provisional degree certificate before convocation?",certificates,augmented,hey can i get a provisional degree certificate before convocation
+Can I get a provisional degree certificate before convocation,certificates,augmented,can i get a provisional degree certificate before convocation
+please help: can i get a provisional degree certificate before convocation?,certificates,augmented,please help can i get a provisional degree certificate before convocation
+quick question: can I get a provisional degree certificate beffore conovcation?,certificates,augmented,quick question can i get a provisional degree certificate beffore conovcation
+How do I pay my semester fee online?,fees,original,how do i pay my semester fee online
+"hey, how do I pay my semester fee online",fees,augmented,hey how do i pay my semester fee online
+How do I pay my semester fee online,fees,augmented,how do i pay my semester fee online
+"sir, how do I pay my semester fee online any help is appreciated",fees,augmented,sir how do i pay my semester fee online any help is appreciated
+"excuse me, how do i pay my semester fee online?",fees,augmented,excuse me how do i pay my semester fee online
+"There is a roommate issue in my hostel, whom do I report to?",hostel,original,there is a roommate issue in my hostel whom do i report to
+"hello, there is a roommate isue in my hostel, whom do i report to please",hostel,augmented,hello there is a roommate isue in my hostel whom do i report to please
+"hey, there is a roommate issue in my hostel, wom do I report to",hostel,augmented,hey there is a roommate issue in my hostel wom do i report to
+"madam, there is a roommate issue in my hostel, whom do I report to asap",hostel,augmented,madam there is a roommate issue in my hostel whom do i report to asap
+"hi, there is a roommate issue in my hoostel, whom do i report to asap",hostel,augmented,hi there is a roommate issue in my hoostel whom do i report to asap
+"there is a roommate issue in my hostel, whom do i report to",hostel,augmented,there is a roommate issue in my hostel whom do i report to
+Write a poem about the ocean.,out_of_scope,original,write a poem about the ocean
+write a poem about the ocean.,out_of_scope,augmented,write a poem about the ocean
+"madam, write a poem about the ocean thank you",out_of_scope,augmented,madam write a poem about the ocean thank you
+write a poem about the ocean thankks,out_of_scope,augmented,write a poem about the ocean thankks
+Write a poem about the ocean,out_of_scope,augmented,write a poem about the ocean
+urgnt: write a poem about the ocean.,out_of_scope,augmented,urgnt write a poem about the ocean
+What is the best programming language to learn?,out_of_scope,original,what is the best programming language to learn
+what is the best programming language to learn,out_of_scope,augmented,what is the best programming language to learn
+please help: what is the best programming language to learn please,out_of_scope,augmented,please help what is the best programming language to learn please
+What is the best programming language to learn kindly guide me,out_of_scope,augmented,what is the best programming language to learn kindly guide me
+urgent: what is the best progamming language to learn please,out_of_scope,augmented,urgent what is the best progamming language to learn please
+How can I drop a course after registration?,academic_registration,original,how can i drop a course after registration
+pleaes help: how can i drop a course after registration asap,academic_registration,augmented,pleaes help how can i drop a course after registration asap
+how can i drop a course afteer registration,academic_registration,augmented,how can i drop a course afteer registration
+"hi, how can I drop a course after reegistration",academic_registration,augmented,hi how can i drop a course after reegistration
+how can i drop a course aftter registration please,academic_registration,augmented,how can i drop a course aftter registration please
+urgent: how can i drop a course after registration,academic_registration,augmented,urgent how can i drop a course after registration
+"There is a clash between two of my exam papers, what should I do?",examinations,original,there is a clash between two of my exam papers what should i do
+"There is a clash between two of my exam papers, what should I do thanks",examinations,augmented,there is a clash between two of my exam papers what should i do thanks
+"excuse me, there is a clash between two of my exam paeprs, what should I do please",examinations,augmented,excuse me there is a clash between two of my exam paeprs what should i do please
+"There is a cllash between two of my exm papers, whaat sould I do",examinations,augmented,there is a cllash between two of my exm papers whaat sould i do
+"hey, there is a clash between two of my exam papers, what should I do kindly guide me",examinations,augmented,hey there is a clash between two of my exam papers what should i do kindly guide me
+"there is a clash between two of my exam papers, what should i do",examinations,augmented,there is a clash between two of my exam papers what should i do
+I want to change my hostel room.,hostel,original,i want to change my hostel room
+please help: i want to change my hostel room.,hostel,augmented,please help i want to change my hostel room
+"hi, i want to change my hostel room",hostel,augmented,hi i want to change my hostel room
+quick question: i want to change my hostel room any help is appreciated,hostel,augmented,quick question i want to change my hostel room any help is appreciated
+i want to cange my hostel room,hostel,augmented,i want to cange my hostel room
+I want to change my hostel room asap,hostel,augmented,i want to change my hostel room asap
+Who do I contact for an ID card correction?,id_cards,original,who do i contact for an id card correction
+"hey, who do i contact for an id card correction?",id_cards,augmented,hey who do i contact for an id card correction
+"hello, who do I conatct for an ID card correction aasp",id_cards,augmented,hello who do i conatct for an id card correction aasp
+Who do I contact for an ID card correction any help is appreciated,id_cards,augmented,who do i contact for an id card correction any help is appreciated
+please help: who do I conntact for an ID carrd correction?,id_cards,augmented,please help who do i conntact for an id carrd correction
+who do i contact for an id card correction any help is appreciatd,id_cards,augmented,who do i contact for an id card correction any help is appreciatd
+What is the fee for the re-admission after a break?,fees,original,what is the fee for the re admission after a break
+"madam, what is the fee for the re-admission after a break",fees,augmented,madam what is the fee for the re admission after a break
+"hey, what is the fee for the re-admission after a break",fees,augmented,hey what is the fee for the re admission after a break
+urgent: what is the fee for the re-admission after a break?,fees,augmented,urgent what is the fee for the re admission after a break
+what is the fee for the re-admission after a break thanks,fees,augmented,what is the fee for the re admission after a break thanks
+What is the fee for the re-admission after a break,fees,augmented,what is the fee for the re admission after a break
+I need a transcript for my graduate school admission.,transcripts,original,i need a transcript for my graduate school admission
+I need a transcript for my graduate school admission,transcripts,augmented,i need a transcript for my graduate school admission
+I need a transcript for my graduae school admission.,transcripts,augmented,i need a transcript for my graduae school admission
+I ned a transcript for my graduate school admissioon.,transcripts,augmented,i ned a transcript for my graduate school admissioon
+quick question: i need a transcript for my graduate school admission thank you,transcripts,augmented,quick question i need a transcript for my graduate school admission thank you
+"madam, i need a transcript for my graduate school admission",transcripts,augmented,madam i need a transcript for my graduate school admission
+Play some music.,out_of_scope,original,play some music
+"madam, play some music any help is appreciated",out_of_scope,augmented,madam play some music any help is appreciated
+plese help: play some music any help is appreciated,out_of_scope,augmented,plese help play some music any help is appreciated
+"hi, play some music.",out_of_scope,augmented,hi play some music
+urgent: play smoe music any help is appreciated,out_of_scope,augmented,urgent play smoe music any help is appreciated
+"hey, play some music.",out_of_scope,augmented,hey play some music
+"My scholarship was rejected, how can I appeal?",scholarships,original,my scholarship was rejected how can i appeal
+"my scholrship was rejected, how can i appeal?",scholarships,augmented,my scholrship was rejected how can i appeal
+"urgent: my scholarshpi was rejected, how can i appeal?",scholarships,augmented,urgent my scholarshpi was rejected how can i appeal
+"my scholarship was rejected, how can i appeal thanks",scholarships,augmented,my scholarship was rejected how can i appeal thanks
+"my scholarship was rejeected, how can i appeal",scholarships,augmented,my scholarship was rejeected how can i appeal
+"urgent: my scholarship was rejected, how can i appeal please",scholarships,augmented,urgent my scholarship was rejected how can i appeal please
+How do I lose weight fast?,out_of_scope,original,how do i lose weight fast
+please help: how do I lose weight fast,out_of_scope,augmented,please help how do i lose weight fast
+how do i lse weight fast any help is appreciated,out_of_scope,augmented,how do i lse weight fast any help is appreciated
+how do i lose weight fast thank you,out_of_scope,augmented,how do i lose weight fast thank you
+"excuse me, how do I lose weight fast",out_of_scope,augmented,excuse me how do i lose weight fast
+How do I lose weight fast,out_of_scope,augmented,how do i lose weight fast
+"My ID card expired, how do I renew it?",id_cards,original,my id card expired how do i renew it
+"my id card expireed, how do i renew it",id_cards,augmented,my id card expireed how do i renew it
+"my id card expired, how do i renew it?",id_cards,augmented,my id card expired how do i renew it
+"my id card expired, how do i reenw it?",id_cards,augmented,my id card expired how do i reenw it
+"My ID card expired, how do I rennew it?",id_cards,augmented,my id card expired how do i rennew it
+"quick question: my id card expired, how do i renew it any help is appreciated",id_cards,augmented,quick question my id card expired how do i renew it any help is appreciated
+I need my transcripts sent to a university abroad.,transcripts,original,i need my transcripts sent to a university abroad
+"madam, i need my transcripts sent to a university abroad.",transcripts,augmented,madam i need my transcripts sent to a university abroad
+I need my transcripts sent to a university abroad thank you,transcripts,augmented,i need my transcripts sent to a university abroad thank you
+I need my traanscripts sent to a university abroad please,transcripts,augmented,i need my traanscripts sent to a university abroad please
+"hey, i need my transcripts sent to a university abroad.",transcripts,augmented,hey i need my transcripts sent to a university abroad
+What is the late fee penalty for delayed payment?,fees,original,what is the late fee penalty for delayed payment
+what is the late fee penalty for delayed payment thank you,fees,augmented,what is the late fee penalty for delayed payment thank you
+What is the late fee penalty for delayed payment any help is appreciated,fees,augmented,what is the late fee penalty for delayed payment any help is appreciated
+"hey, what is the late fee penalty for delayed payment?",fees,augmented,hey what is the late fee penalty for delayed payment
+what is the late fee penalty for delayed payment?,fees,augmented,what is the late fee penalty for delayed payment
+quick question: what is the late fee penalty for delayed payment,fees,augmented,quick question what is the late fee penalty for delayed payment
+Need a new library card and ID card.,id_cards,original,need a new library card and id card
+"sir, need a new library card and ID card please",id_cards,augmented,sir need a new library card and id card please
+please help: need a new liibrary card and ID card,id_cards,augmented,please help need a new liibrary card and id card
+quick question: need a new library cad and ID card,id_cards,augmented,quick question need a new library cad and id card
+Need a new library card and ID card thannk you,id_cards,augmented,need a new library card and id card thannk you
+How do I get my course registration form signed by my faculty advisor?,academic_registration,original,how do i get my course registration form signed by my faculty advisor
+how do i get my course registration form signed by my faculty advisor thank you,academic_registration,augmented,how do i get my course registration form signed by my faculty advisor thank you
+quick question: how do i get my course registration form signed by my faculty advisor any help is appreciated,academic_registration,augmented,quick question how do i get my course registration form signed by my faculty advisor any help is appreciated
+how do i get my course registration frm signed by my faculty advisor?,academic_registration,augmented,how do i get my course registration frm signed by my faculty advisor
+"hey, how do i get my course reggistration form signed by my faculty addvisor asap",academic_registration,augmented,hey how do i get my course reggistration form signed by my faculty addvisor asap
+"hi, how do I get my course registraiton form signed by my faculty advisor",academic_registration,augmented,hi how do i get my course registraiton form signed by my faculty advisor
+"The last date for the scholarship application has passed, can I still apply?",scholarships,original,the last date for the scholarship application has passed can i still apply
+"The last date for the scholarsship application has passed, can I still apply",scholarships,augmented,the last date for the scholarsship application has passed can i still apply
+"excse me, the last date for the scholarship aplpication has passed, can I still apply?",scholarships,augmented,excse me the last date for the scholarship aplpication has passed can i still apply
+"pelase help: the last daet for the scholarship application has passed, can I still apply?",scholarships,augmented,pelase help the last daet for the scholarship application has passed can i still apply
+"the last date for the scholarship application has passed, can i still apply any heelp is appreciated",scholarships,augmented,the last date for the scholarship application has passed can i still apply any heelp is appreciated
+"please help: the last date for the scholarship application has passed, can I still apply",scholarships,augmented,please help the last date for the scholarship application has passed can i still apply
+"My degree certificate has a spelling mistake in my name, how do I correct it?",certificates,original,my degree certificate has a spelling mistake in my name how do i correct it
+"my degree certificate has a spelling mistake in my name, how do i correct it asap",certificates,augmented,my degree certificate has a spelling mistake in my name how do i correct it asap
+"my degree certificate has a spelling mistake in my name, how do i correct it any help is appreciated",certificates,augmented,my degree certificate has a spelling mistake in my name how do i correct it any help is appreciated
+"excuse me, my degree certificate has a spelling mistake in my name, how do i correct it",certificates,augmented,excuse me my degree certificate has a spelling mistake in my name how do i correct it
+"My degree certificate has a spelling mistake in my name, how do I correct it",certificates,augmented,my degree certificate has a spelling mistake in my name how do i correct it
+"My degree certificate has a spelling mistake in my namme, how do I correct it",certificates,augmented,my degree certificate has a spelling mistake in my namme how do i correct it
+When will my scholarship amount be credited?,scholarships,original,when will my scholarship amount be credited
+urgent: when will my scholarship amount be credited,scholarships,augmented,urgent when will my scholarship amount be credited
+When will my scholarship amount be credited,scholarships,augmented,when will my scholarship amount be credited
+When wil my scholarship amount be credited any help is appreciated,scholarships,augmented,when wil my scholarship amount be credited any help is appreciated
+"he,y when will my scholarship amount be credited kindly guide me",scholarships,augmented,he y when will my scholarship amount be credited kindly guide me
+When will my scholarship amont be credited,scholarships,augmented,when will my scholarship amont be credited
+What is the process to apply for a semester-wise transcript?,transcripts,original,what is the process to apply for a semester wise transcript
+what is the process to apply for a semester-wise transcript,transcripts,augmented,what is the process to apply for a semester wise transcript
+what is the process to apply for a semester-wise transcript thanks,transcripts,augmented,what is the process to apply for a semester wise transcript thanks
+"hello, what is the process to apply for a semester-wise transcript thanks",transcripts,augmented,hello what is the process to apply for a semester wise transcript thanks
+What is the process to apply for a semester-wise transcript thank you,transcripts,augmented,what is the process to apply for a semester wise transcript thank you
+"hi, what is the process to apply for a semester-wise transcript",transcripts,augmented,hi what is the process to apply for a semester wise transcript
+I want to see my evaluated answer script.,examinations,original,i want to see my evaluated answer script
+i want to see my evaluated answer scrip.t,examinations,augmented,i want to see my evaluated answer scrip t
+I waant to see my evaluated answer script.,examinations,augmented,i waant to see my evaluated answer script
+i want to see my evaluated answer script asap,examinations,augmented,i want to see my evaluated answer script asap
+i want to see my evaluated answer script.,examinations,augmented,i want to see my evaluated answer script
+Can you recommend a good movie?,out_of_scope,original,can you recommend a good movie
+"hello, can you recomend a good movie thank you",out_of_scope,augmented,hello can you recomend a good movie thank you
+please help: can you recommend a good movie,out_of_scope,augmented,please help can you recommend a good movie
+quick question: can you recommend a good movie any help is appreciated,out_of_scope,augmented,quick question can you recommend a good movie any help is appreciated
+"hello, can you recmmend a good movie any help is appreciated",out_of_scope,augmented,hello can you recmmend a good movie any help is appreciated
+What GPA do I need to keep my scholarship?,scholarships,original,what gpa do i need to keep my scholarship
+"madam, what GPA do I need to keep my scholarship kindly guide me",scholarships,augmented,madam what gpa do i need to keep my scholarship kindly guide me
+what gpa do i need to kep my scholarship?,scholarships,augmented,what gpa do i need to kep my scholarship
+What GPA do I need to keep my scholarship,scholarships,augmented,what gpa do i need to keep my scholarship
+What GPA do I need to kep my scholarship pelase,scholarships,augmented,what gpa do i need to kep my scholarship pelase
+whhat gpa do i need to keep my scholarship thank you,scholarships,augmented,whhat gpa do i need to keep my scholarship thank you
+How do I apply for revaluation of my answer sheet?,examinations,original,how do i apply for revaluation of my answer sheet
+"sri, how do i apply for revaluation of my answer sheet kindly guide me",examinations,augmented,sri how do i apply for revaluation of my answer sheet kindly guide me
+how do i apply for revaluation of my answer sheet,examinations,augmented,how do i apply for revaluation of my answer sheet
+how do i apply for revaluatiion of my answer sheet,examinations,augmented,how do i apply for revaluatiion of my answer sheet
+how do i apply for revaluation of my answer sheet thanks,examinations,augmented,how do i apply for revaluation of my answer sheet thanks
+Tell me a joke.,out_of_scope,original,tell me a joke
+"helo, tell me a joke.",out_of_scope,augmented,helo tell me a joke
+tell me a joke please,out_of_scope,augmented,tell me a joke please
+"sir, tell me a joke",out_of_scope,augmented,sir tell me a joke
+Tell me a joe,out_of_scope,augmented,tell me a joe
+My registration is stuck at pending approval from the advisor.,academic_registration,original,my registration is stuck at pending approval from the advisor
+My registratino is stuck at pending approval from the advisor,academic_registration,augmented,my registratino is stuck at pending approval from the advisor
+"excuse me, my registration is stuck at pendiing approval from the advisor any help is appreciated",academic_registration,augmented,excuse me my registration is stuck at pendiing approval from the advisor any help is appreciated
+my registration is stuck at pending approval from the advisor asap,academic_registration,augmented,my registration is stuck at pending approval from the advisor asap
+My registration is stuck at pending approal from the adviisor,academic_registration,augmented,my registration is stuck at pending approal from the adviisor
+My registration is stuck at pending approval from the advisor asap,academic_registration,augmented,my registration is stuck at pending approval from the advisor asap
+How do I request a duplicate degree certificate? I lost the original.,certificates,original,how do i request a duplicate degree certificate i lost the original
+how do i request a duplicate degree certiicate? i lost the original,certificates,augmented,how do i request a duplicate degree certiicate i lost the original
+"sir, how do I rquest a duplicate degree certificate? I lost the original",certificates,augmented,sir how do i rquest a duplicate degree certificate i lost the original
+urgent: how do i request a duplicate degree certificate? i lost the original,certificates,augmented,urgent how do i request a duplicate degree certificate i lost the original
+please help: how do I request a duplicate degree certificate? I lost the original thank you,certificates,augmented,please help how do i request a duplicate degree certificate i lost the original thank you
+Who issues the medium of instruction certificate?,certificates,original,who issues the medium of instruction certificate
+who issues the medium of instruction certificate?,certificates,augmented,who issues the medium of instruction certificate
+"excuse me, who issues the medium of instruction certificate?",certificates,augmented,excuse me who issues the medium of instruction certificate
+Who issues the medium of instruction certificate,certificates,augmented,who issues the medium of instruction certificate
+"hi, who issues the medium of instruction certificate?",certificates,augmented,hi who issues the medium of instruction certificate
+Who marks the attendance for lab sessions?,attendance,original,who marks the attendance for lab sessions
+who marks the attendance for lab sessions?,attendance,augmented,who marks the attendance for lab sessions
+"sir, who marks the attendance for lab sessions asap",attendance,augmented,sir who marks the attendance for lab sessions asap
+"sir, who marks the attendance for lab sessions",attendance,augmented,sir who marks the attendance for lab sessions
+who marks the attendance for lab sessions,attendance,augmented,who marks the attendance for lab sessions
+The result shows absent even though I appeared for the paper.,examinations,original,the result shows absent even though i appeared for the paper
+The result shows absent even though I appeared for the papre any help is appreciated,examinations,augmented,the result shows absent even though i appeared for the papre any help is appreciated
+the resut shows absent even though i appeared for the paper,examinations,augmented,the resut shows absent even though i appeared for the paper
+please help: the result shows abesnt even thoguh i appeared for the papper asap,examinations,augmented,please help the result shows abesnt even thoguh i appeared for the papper asap
+the result shows absent even though i appeared for the paper thank you,examinations,augmented,the result shows absent even though i appeared for the paper thank you
+Who do I contact about the mid semester exam schedule?,examinations,original,who do i contact about the mid semester exam schedule
+Who do I contact about the mid semester exam schedule,examinations,augmented,who do i contact about the mid semester exam schedule
+who do i contact about the mid semester exam schedule?,examinations,augmented,who do i contact about the mid semester exam schedule
+"hi, who do I contact about the mid semester exam schedule?",examinations,augmented,hi who do i contact about the mid semester exam schedule
+"sir, who do I contact about the mid semester exam schedule",examinations,augmented,sir who do i contact about the mid semester exam schedule
+who do i conact about the mid semester exam schedule,examinations,augmented,who do i conact about the mid semester exam schedule
+How do I cook pasta?,out_of_scope,original,how do i cook pasta
+quick question: how do I cook pasta thanks,out_of_scope,augmented,quick question how do i cook pasta thanks
+"sir, how do i cook pasta kindly guide me",out_of_scope,augmented,sir how do i cook pasta kindly guide me
+quick question: how do I cook pasta,out_of_scope,augmented,quick question how do i cook pasta
+How do I cook pasta please,out_of_scope,augmented,how do i cook pasta please
+how do i cook pasta,out_of_scope,augmented,how do i cook pasta
+How do I register for next semester's courses?,academic_registration,original,how do i register for next semester's courses
+how do i register for next semester's courses?,academic_registration,augmented,how do i register for next semester's courses
+"hey, how do i regisster for next semester's courses thanks",academic_registration,augmented,hey how do i regisster for next semester's courses thanks
+"hey, how do I register for next semester's courses",academic_registration,augmented,hey how do i register for next semester's courses
+"sir, how do I register for next semester's courses?",academic_registration,augmented,sir how do i register for next semester's courses
+How do I cancel my hostel booking?,hostel,original,how do i cancel my hostel booking
+"hey, how do I cancel my hostel booking",hostel,augmented,hey how do i cancel my hostel booking
+quick question: how do I cancel my hostel booking asap,hostel,augmented,quick question how do i cancel my hostel booking asap
+"hello, how do i cancel my hostel booking?",hostel,augmented,hello how do i cancel my hostel booking
+how do i cancel my hostel booking?,hostel,augmented,how do i cancel my hostel booking
+Can I get an unofficial transcript instantly?,transcripts,original,can i get an unofficial transcript instantly
+Can I get an unofficial transcript instanty any help is appreciated,transcripts,augmented,can i get an unofficial transcript instanty any help is appreciated
+can i get an unofficial transcript instantly kindly guide me,transcripts,augmented,can i get an unofficial transcript instantly kindly guide me
+Can I get an unnofficial transcript instantly?,transcripts,augmented,can i get an unnofficial transcript instantly
+can i get an unofficial transcript instantly,transcripts,augmented,can i get an unofficial transcript instantly
+Need a conduct certificate for a scholarship form.,certificates,original,need a conduct certificate for a scholarship form
+Need a conduct certificate for a scholarship form,certificates,augmented,need a conduct certificate for a scholarship form
+need a conducct certificate for a scholarship form thank you,certificates,augmented,need a conducct certificate for a scholarship form thank you
+"hello, nede a conduct certificate for a scholarship form",certificates,augmented,hello nede a conduct certificate for a scholarship form
+need a conduct certificate for a scholarship form.,certificates,augmented,need a conduct certificate for a scholarship form
+need a conduct certificae for a scholarship form please,certificates,augmented,need a conduct certificae for a scholarship form please
+How do I get a bonafide certificate?,certificates,original,how do i get a bonafide certificate
+How do I get a bonafide certificate,certificates,augmented,how do i get a bonafide certificate
+quick question: how do i get a boanfide certificate thanks,certificates,augmented,quick question how do i get a boanfide certificate thanks
+how do i get a bonafide certificae kndly guide me,certificates,augmented,how do i get a bonafide certificae kndly guide me
+please help: how do i get a bonafide certificate,certificates,augmented,please help how do i get a bonafide certificate
+Do you provide transcripts in a sealed cover with the university stamp?,transcripts,original,do you provide transcripts in a sealed cover with the university stamp
+urgent: do you provide transcripts in a sealed cover with the university stamp kindly guide me,transcripts,augmented,urgent do you provide transcripts in a sealed cover with the university stamp kindly guide me
+Do you provide transcrips in a sealed cover with the university stamp?,transcripts,augmented,do you provide transcrips in a sealed cover with the university stamp
+"mada,m do you provide transcripts in a sealed cover with the university stamp any hellp is appreciated",transcripts,augmented,mada m do you provide transcripts in a sealed cover with the university stamp any hellp is appreciated
+Do you provide transcripts in a sealed cover with the university stamp kindly guide me,transcripts,augmented,do you provide transcripts in a sealed cover with the university stamp kindly guide me
+quick question: do you provide transcripts in a sealed cover with the university stamp,transcripts,augmented,quick question do you provide transcripts in a sealed cover with the university stamp
+I was charged twice for the same semester fee.,fees,original,i was charged twice for the same semester fee
+"hello, i was charged twice for the same semester fee",fees,augmented,hello i was charged twice for the same semester fee
+i was chaarged twice for the sme semester fee thanks,fees,augmented,i was chaarged twice for the sme semester fee thanks
+i was charged twiice for the same semester fee thank you,fees,augmented,i was charged twiice for the same semester fee thank you
+"excuse me, i was charged twice for the same semmester fee any help is appreciated",fees,augmented,excuse me i was charged twice for the same semmester fee any help is appreciated
+I misplaced my identity card in the canteen.,id_cards,original,i misplaced my identity card in the canteen
+i misplaced my identity card in the canteen.,id_cards,augmented,i misplaced my identity card in the canteen
+"hey, i misplaced my identity carrd in the canteen any help is appreciated",id_cards,augmented,hey i misplaced my identity carrd in the canteen any help is appreciated
+"excuse me, i misplaced my identity card in the canteen thank you",id_cards,augmented,excuse me i misplaced my identity card in the canteen thank you
+i misplaced my identity card in the cantteen,id_cards,augmented,i misplaced my identity card in the cantteen
+I misplaced my identity card in the canteen,id_cards,augmented,i misplaced my identity card in the canteen
+Recommend a good restaurant near me.,out_of_scope,original,recommend a good restaurant near me
+Recomend a good restaurant near me,out_of_scope,augmented,recomend a good restaurant near me
+"excuse me, recommend a good restaurant near me please",out_of_scope,augmented,excuse me recommend a good restaurant near me please
+Recommend a good restaurant near me thank you,out_of_scope,augmented,recommend a good restaurant near me thank you
+recommend a good restaurant near me.,out_of_scope,augmented,recommend a good restaurant near me
+Recommend a good restaurant near me please,out_of_scope,augmented,recommend a good restaurant near me please
+Is there a fee waiver for students with financial difficulty?,fees,original,is there a fee waiver for students with financial difficulty
+please help: is there a fee waiver for students with financial difficulty please,fees,augmented,please help is there a fee waiver for students with financial difficulty please
+urgent: is there a fee waiver for students with financial difficulty thank you,fees,augmented,urgent is there a fee waiver for students with financial difficulty thank you
+Is there a fee waiver for students with financial difficulty,fees,augmented,is there a fee waiver for students with financial difficulty
+urgent: is there a fee waiveer for students with financial difficulty,fees,augmented,urgent is there a fee waiveer for students with financial difficulty
+What scholarships are available for undergraduate students?,scholarships,original,what scholarships are available for undergraduate students
+what scholarships are available for undergraduate students,scholarships,augmented,what scholarships are available for undergraduate students
+"hey, what scholarships are available for undergraduate students?",scholarships,augmented,hey what scholarships are available for undergraduate students
+quick question: what scholarsihps are aailable for undergraduate students?,scholarships,augmented,quick question what scholarsihps are aailable for undergraduate students
+"hello, what scholarships are available for undergraduate students kindly guide me",scholarships,augmented,hello what scholarships are available for undergraduate students kindly guide me
+"sir, what scholarships are available for undergraduate students thank you",scholarships,augmented,sir what scholarships are available for undergraduate students thank you
+Where can I check my subject-wise attendance?,attendance,original,where can i check my subject wise attendance
+urgent: where can i check my subject-wise attendance,attendance,augmented,urgent where can i check my subject wise attendance
+Where can I chek my subject-wise attendance thanks,attendance,augmented,where can i chek my subject wise attendance thanks
+"hi, where can i check my subject-wise attendance",attendance,augmented,hi where can i check my subject wise attendance
+where can i check my subject-wise attendance asap,attendance,augmented,where can i check my subject wise attendance asap
+please help: where can i check my subject-wise attendance asap,attendance,augmented,please help where can i check my subject wise attendance asap
+I need attested copies of my degree certificate.,certificates,original,i need attested copies of my degree certificate
+"hello, i need attested copies of my degree certificate thanks",certificates,augmented,hello i need attested copies of my degree certificate thanks
+"hello, i need attested copies of my degree certificate",certificates,augmented,hello i need attested copies of my degree certificate
+"hi, i need attested copies of my degree certificate thanks",certificates,augmented,hi i need attested copies of my degree certificate thanks
+"madam, i need attested copies of my degree certificate",certificates,augmented,madam i need attested copies of my degree certificate
+Faculty ID card renewal process please.,id_cards,original,faculty id card renewal process please
+faculty id caard renewal process please any help is appreciated,id_cards,augmented,faculty id caard renewal process please any help is appreciated
+"helol, faculty id card renewal process please.",id_cards,augmented,helol faculty id card renewal process please
+Faculty ID card renewal process pleaes,id_cards,augmented,faculty id card renewal process pleaes
+"hello, faculty id card renewal process please please",id_cards,augmented,hello faculty id card renewal process please please
+"hello, faculty id card renewal process please",id_cards,augmented,hello faculty id card renewal process please
+"I was on medical leave, how can I get my attendance adjusted?",attendance,original,i was on medical leave how can i get my attendance adjusted
+"madam, i was on medical leve, how can I get my attendance adjusted thanks",attendance,augmented,madam i was on medical leve how can i get my attendance adjusted thanks
+"i was on medical leave, how can i get my attendance adjusted?",attendance,augmented,i was on medical leave how can i get my attendance adjusted
+"hi, i was on medical leve, how can i get my attendance adjusted kindly guide me",attendance,augmented,hi i was on medical leve how can i get my attendance adjusted kindly guide me
+"hey, i was on medical leave, how can i get my attendance adjusted",attendance,augmented,hey i was on medical leave how can i get my attendance adjusted
+"qiuck question: i was on medical leave, how can I get my attendance adjusted thanks",attendance,augmented,qiuck question i was on medical leave how can i get my attendance adjusted thanks
+What is the process for re-registering after a semester break?,academic_registration,original,what is the process for re registering after a semester break
+What is the process for re-registering after a semester break,academic_registration,augmented,what is the process for re registering after a semester break
+"sir, what is the process for re-registering affter a semester break?",academic_registration,augmented,sir what is the process for re registering affter a semester break
+what is the process for re-registering after a smester break?,academic_registration,augmented,what is the process for re registering after a smester break
+what is the process for re-regitering after a semeester break?,academic_registration,augmented,what is the process for re regitering after a semeester break
+quick question: what is the process for re-registering after a semester break?,academic_registration,augmented,quick question what is the process for re registering after a semester break
+The chip on my ID card is not working at the gate.,id_cards,original,the chip on my id card is not working at the gate
+"hey, the chip on my ID card is not working at the gate thank you",id_cards,augmented,hey the chip on my id card is not working at the gate thank you
+quick question: the chip on my ID card is not working at the gate please,id_cards,augmented,quick question the chip on my id card is not working at the gate please
+The chip on my ID card is not woking at the gaet.,id_cards,augmented,the chip on my id card is not woking at the gaet
+"excse me, the chip on my id card is not working at the gate",id_cards,augmented,excse me the chip on my id card is not working at the gate
+the chip on my id card is not working at the gate.,id_cards,augmented,the chip on my id card is not working at the gate
+How do I pay my hostel security deposit?,hostel,original,how do i pay my hostel security deposit
+How do I pay my hostel security deposit,hostel,augmented,how do i pay my hostel security deposit
+quick question: how do i pay my hostel security deposit?,hostel,augmented,quick question how do i pay my hostel security deposit
+urgent: how do i pay my hostel security deposit?,hostel,augmented,urgent how do i pay my hostel security deposit
+"madam, how do i pay my hostel security deposit?",hostel,augmented,madam how do i pay my hostel security deposit
+What is the stock price of Tata Motors?,out_of_scope,original,what is the stock price of tata motors
+what is the stock price of tata motors please,out_of_scope,augmented,what is the stock price of tata motors please
+urgent: what is the stock price of tata motors asap,out_of_scope,augmented,urgent what is the stock price of tata motors asap
+what is the stock price of tata motors?,out_of_scope,augmented,what is the stock price of tata motors
+quick question: what is the stock price of Tata Motors?,out_of_scope,augmented,quick question what is the stock price of tata motors
+what is the stock price of tata motors,out_of_scope,augmented,what is the stock price of tata motors
+How many copies of the transcript can I order at once?,transcripts,original,how many copies of the transcript can i order at once
+"hello, how many copies of the transcript can i order at once",transcripts,augmented,hello how many copies of the transcript can i order at once
+how many copies of the transcript can i order at once thanks,transcripts,augmented,how many copies of the transcript can i order at once thanks
+quick question: how many copies of the transcript can I order at once please,transcripts,augmented,quick question how many copies of the transcript can i order at once please
+quick question: how many copies of the transcript can I order at once?,transcripts,augmented,quick question how many copies of the transcript can i order at once
+quick question: how many copies of the transcript can i order at once?,transcripts,augmented,quick question how many copies of the transcript can i order at once
+Can I pay the exam fee via demand draft?,fees,original,can i pay the exam fee via demand draft
+can i pay the exam fee via demad draft,fees,augmented,can i pay the exam fee via demad draft
+urgent: can i pay the exam fee via demaand draft please,fees,augmented,urgent can i pay the exam fee via demaand draft please
+Can I pay the eaxm fee via demand draft?,fees,augmented,can i pay the eaxm fee via demand draft
+"hey, can I pay the exam fee via demand draft thank you",fees,augmented,hey can i pay the exam fee via demand draft thank you
+My ID card is damaged and the barcode does not scan.,id_cards,original,my id card is damaged and the barcode does not scan
+"madam, my ID card is damaegd and the barcode does not scan",id_cards,augmented,madam my id card is damaegd and the barcode does not scan
+please help: my id card is damaged and the barcode does not scan any help is appreciated,id_cards,augmented,please help my id card is damaged and the barcode does not scan any help is appreciated
+My ID card is damaged and the barcode does not sca,id_cards,augmented,my id card is damaged and the barcode does not sca
+Do I get attendance for the guest lecture?,attendance,original,do i get attendance for the guest lecture
+do i get attendance for the guest lecture?,attendance,augmented,do i get attendance for the guest lecture
+urgent: do I get attendacne for the guest lecture?,attendance,augmented,urgent do i get attendacne for the guest lecture
+do i get attendance for the guest lecture,attendance,augmented,do i get attendance for the guest lecture
+urgent: do i get attendance for the guest lecture?,attendance,augmented,urgent do i get attendance for the guest lecture
+"I want to withdraw from the semester, what is the procedure?",academic_registration,original,i want to withdraw from the semester what is the procedure
+"quick question: i wnat to withraw from the semester, what is the procedure?",academic_registration,augmented,quick question i wnat to withraw from the semester what is the procedure
+"madam, i want to withdraw from the semester, what is the procedure?",academic_registration,augmented,madam i want to withdraw from the semester what is the procedure
+"quick question: i want to withdraw from the semester, waht is the procedure",academic_registration,augmented,quick question i want to withdraw from the semester waht is the procedure
+"excuse me, i want to withdraw from the semester, waht is the procedure asap",academic_registration,augmented,excuse me i want to withdraw from the semester waht is the procedure asap
+What are the rules for hostel night out?,hostel,original,what are the rules for hostel night out
+quick question: what are the rules for hostel night out thank you,hostel,augmented,quick question what are the rules for hostel night out thank you
+"hello, what are the rules for hostel night out any help is appreciated",hostel,augmented,hello what are the rules for hostel night out any help is appreciated
+"sir, whhat are the rules for hostel nigght out",hostel,augmented,sir whhat are the rules for hostel nigght out
+please help: what are the rules for hostel night out kindly guide me,hostel,augmented,please help what are the rules for hostel night out kindly guide me
+How do I renew my scholarship for the next year?,scholarships,original,how do i renew my scholarship for the next year
+"sir, how do I renew my scholarrship for the next year?",scholarships,augmented,sir how do i renew my scholarrship for the next year
+"sir, how do I renew my schholarship for the next year please",scholarships,augmented,sir how do i renew my schholarship for the next year please
+"sir, how do i renew my scholarship for the next year any help is appreciated",scholarships,augmented,sir how do i renew my scholarship for the next year any help is appreciated
+"hey, how do i renew my scholarship for the nxt year",scholarships,augmented,hey how do i renew my scholarship for the nxt year
+How do I renew my scholarship for the next year,scholarships,augmented,how do i renew my scholarship for the next year
+How do I apply for a replacement ID card?,id_cards,original,how do i apply for a replacement id card
+quick question: how do i apply for a replacement id card,id_cards,augmented,quick question how do i apply for a replacement id card
+"excuse me, how do I apply for a replacement ID card",id_cards,augmented,excuse me how do i apply for a replacement id card
+how do i apply for a replacement id card please,id_cards,augmented,how do i apply for a replacement id card please
+"hey, how do i apply for a replacement id card?",id_cards,augmented,hey how do i apply for a replacement id card
+What is the last date to pay tuition fees without a fine?,fees,original,what is the last date to pay tuition fees without a fine
+what is the last date to pay tuition fees without a fine asap,fees,augmented,what is the last date to pay tuition fees without a fine asap
+quick quetion: what is the last date to pay tuition fees without a fine?,fees,augmented,quick quetion what is the last date to pay tuition fees without a fine
+"hi, whhat is the last date to pay tuition fese without a fine?",fees,augmented,hi whhat is the last date to pay tuition fese without a fine
+"madam, waht is the last date to pay tuition fees without a fine",fees,augmented,madam waht is the last date to pay tuition fees without a fine
+please help: what is the last date to pay tuition fees without a fine please,fees,augmented,please help what is the last date to pay tuition fees without a fine please
+The portal shows me absent although I was present in class.,attendance,original,the portal shows me absent although i was present in class
+The portal shows me absent although I was preesnt in class plesae,attendance,augmented,the portal shows me absent although i was preesnt in class plesae
+The portal shows me absent although I was present in class,attendance,augmented,the portal shows me absent although i was present in class
+urget: the portal shows me absent although i was present in class thanks,attendance,augmented,urget the portal shows me absent although i was present in class thanks
+the portal shows me absent although i was present in class.,attendance,augmented,the portal shows me absent although i was present in class
+please help: the portal shows me absent although i was present in clas,attendance,augmented,please help the portal shows me absent although i was present in clas
+What is the fee for a bonafide certificate?,certificates,original,what is the fee for a bonafide certificate
+what is the fee for a bonafide certificate asap,certificates,augmented,what is the fee for a bonafide certificate asap
+what is the fee for a bonafide certificate?,certificates,augmented,what is the fee for a bonafide certificate
+"excuse me, what is the fee for a bonafide certificate?",certificates,augmented,excuse me what is the fee for a bonafide certificate
+What is the fee for a bonafide certificate thanks,certificates,augmented,what is the fee for a bonafide certificate thanks
+"hi, what is the fee for a bonafide certificate",certificates,augmented,hi what is the fee for a bonafide certificate
+Is attendance mandatory for the online classes?,attendance,original,is attendance mandatory for the online classes
+"hi, is attendance mandatory for the online classes?",attendance,augmented,hi is attendance mandatory for the online classes
+Is attendance mandatory for the online classes please,attendance,augmented,is attendance mandatory for the online classes please
+Is attendance mandatory for the online classes any help is appreciated,attendance,augmented,is attendance mandatory for the online classes any help is appreciated
+quick question: is attendance mandatory for the online classes?,attendance,augmented,quick question is attendance mandatory for the online classes
+is attendance mandatory for the online classes any help is appreciated,attendance,augmented,is attendance mandatory for the online classes any help is appreciated
+How do I check my exam results?,examinations,original,how do i check my exam results
+How do I check my exam results,examinations,augmented,how do i check my exam results
+"hey, how do I check my exam results kindly guide me",examinations,augmented,hey how do i check my exam results kindly guide me
+how do i check my exam results,examinations,augmented,how do i check my exam results
+"excuse me, how do I check my exam results",examinations,augmented,excuse me how do i check my exam results
+how do i check my exam results?,examinations,augmented,how do i check my exam results
+Who do I talk to about fee concessions?,fees,original,who do i talk to about fee concessions
+"hi, who do i talk to about fee concessions thank you",fees,augmented,hi who do i talk to about fee concessions thank you
+"hey, who do I talk to about fee concessions?",fees,augmented,hey who do i talk to about fee concessions
+urgent: who do i talk to about fee concessoins thank you,fees,augmented,urgent who do i talk to about fee concessoins thank you
+"excuse me, who do I talk to aobut fee concessions",fees,augmented,excuse me who do i talk to aobut fee concessions
+"hello, who do i talk to about fee concessions thank you",fees,augmented,hello who do i talk to about fee concessions thank you
+My hall ticket has the wrong subject code.,examinations,original,my hall ticket has the wrong subject code
+my hall ticket has the wrong subject code,examinations,augmented,my hall ticket has the wrong subject code
+My hall ticket has the wrong subject code thanks,examinations,augmented,my hall ticket has the wrong subject code thanks
+my hall ticket has the wrong subject code thanks,examinations,augmented,my hall ticket has the wrong subject code thanks
+quick question: my hall ticket has the wrong sujbect code,examinations,augmented,quick question my hall ticket has the wrong sujbect code
+Is GST charged on the tuition fee?,fees,original,is gst charged on the tuition fee
+is gst charged on the tuition fee,fees,augmented,is gst charged on the tuition fee
+please help: is GST charged on the tuition fee?,fees,augmented,please help is gst charged on the tuition fee
+"sir, is gst charged on the tuition fee",fees,augmented,sir is gst charged on the tuition fee
+"hi, is GST charged on the tuition fee?",fees,augmented,hi is gst charged on the tuition fee
+is gst charged on the tuition fee asap,fees,augmented,is gst charged on the tuition fee asap
+How far is the moon from the earth?,out_of_scope,original,how far is the moon from the earth
+"hello, how far is the moon from the earth",out_of_scope,augmented,hello how far is the moon from the earth
+"hi, how far is the moon from the earht thank you",out_of_scope,augmented,hi how far is the moon from the earht thank you
+"madam, how far is the moon from the earth?",out_of_scope,augmented,madam how far is the moon from the earth
+"excuse me, how far is the moon from the earth?",out_of_scope,augmented,excuse me how far is the moon from the earth
+Do I need an income certificate to apply for a scholarship?,scholarships,original,do i need an income certificate to apply for a scholarship
+Do I need an income certificate to apply for a scholarship,scholarships,augmented,do i need an income certificate to apply for a scholarship
+please help: do i need an incoem certificate to apply for a scholarship,scholarships,augmented,please help do i need an incoem certificate to apply for a scholarship
+"he, do I need an income certificate to apply for a scholarship?",scholarships,augmented,he do i need an income certificate to apply for a scholarship
+"hi, do i need an income certificate to apply for a scholarship",scholarships,augmented,hi do i need an income certificate to apply for a scholarship
+do i need an income certificate to apply for a scholarship,scholarships,augmented,do i need an income certificate to apply for a scholarship
+I want a refund of my fee since I withdrew from the course.,fees,original,i want a refund of my fee since i withdrew from the course
+I watn a refund of my fee snce I withdrew from the course,fees,augmented,i watn a refund of my fee snce i withdrew from the course
+"hello, i want a refund of my fee since i withdrew from the course any help is appreciated",fees,augmented,hello i want a refund of my fee since i withdrew from the course any help is appreciated
+please help: i want a refund of my fee since I withdrew from the course please,fees,augmented,please help i want a refund of my fee since i withdrew from the course please
+"hey, i want a refund of my fee since i withdrew fom the course.",fees,augmented,hey i want a refund of my fee since i withdrew fom the course
+qiuck question: i watn a refund of my fee since i withdrew from the course thank you,fees,augmented,qiuck question i watn a refund of my fee since i withdrew from the course thank you
+I want a certificate stating I am a student here for my visa application.,certificates,original,i want a certificate stating i am a student here for my visa application
+"excuse me, i want a certificate stating i am a student here for my visa application thank you",certificates,augmented,excuse me i want a certificate stating i am a student here for my visa application thank you
+please help: i want a certificate stating i am a student heer for my visa application asap,certificates,augmented,please help i want a certificate stating i am a student heer for my visa application asap
+i want a certificate stating i am a student here for my visa application asap,certificates,augmented,i want a certificate stating i am a student here for my visa application asap
+i want a certificate stating i am a student here for my visa application,certificates,augmented,i want a certificate stating i am a student here for my visa application
+I want a certificate stating I am a student here for my visa application,certificates,augmented,i want a certificate stating i am a student here for my visa application
+Can I bring a guest to the hostel?,hostel,original,can i bring a guest to the hostel
+"hi, can i bring a guest to the hostel any help is appreciated",hostel,augmented,hi can i bring a guest to the hostel any help is appreciated
+qucik question: can I brnig a guest to the hostel asap,hostel,augmented,qucik question can i brnig a guest to the hostel asap
+Can I bring a guest to the hostel please,hostel,augmented,can i bring a guest to the hostel please
+can i bring a guest to the hostel?,hostel,augmented,can i bring a guest to the hostel
+Where do I collect my passing certificate?,certificates,original,where do i collect my passing certificate
+where do i collect my passing certiifcate?,certificates,augmented,where do i collect my passing certiifcate
+"madam, where do i collect my passing certificate",certificates,augmented,madam where do i collect my passing certificate
+"excuse me, where do i collect my passing certificate?",certificates,augmented,excuse me where do i collect my passing certificate
+please help: where do I collect my passing certificate?,certificates,augmented,please help where do i collect my passing certificate
+"hey, where do i collect my passing certiicate",certificates,augmented,hey where do i collect my passing certiicate
+How do I apply for a backlog exam?,examinations,original,how do i apply for a backlog exam
+how do i apply for a baacklog exam thank you,examinations,augmented,how do i apply for a baacklog exam thank you
+"maddam, how do I apply for a backlog exam?",examinations,augmented,maddam how do i apply for a backlog exam
+How do I apply for a backlog eam please,examinations,augmented,how do i apply for a backlog eam please
+"exccuse me, how do i apply for a backlog exam please",examinations,augmented,exccuse me how do i apply for a backlog exam please
+Who is the coordinator for the scholarship cell?,scholarships,original,who is the coordinator for the scholarship cell
+"hi, who is the coordinator for the scholarship cell",scholarships,augmented,hi who is the coordinator for the scholarship cell
+who is the coordinator for the scholarship cell,scholarships,augmented,who is the coordinator for the scholarship cell
+Who is the coordinator for the schollarship cell?,scholarships,augmented,who is the coordinator for the schollarship cell
+"hi, who is the coordinator for the scholarship cll kindly guide me",scholarships,augmented,hi who is the coordinator for the scholarship cll kindly guide me
+Where can I check the status of my scholarship application?,scholarships,original,where can i check the status of my scholarship application
+"hi, where can I check the stats of my scholarship application?",scholarships,augmented,hi where can i check the stats of my scholarship application
+Where can I check the status of my scholarship appliaction kindly guide me,scholarships,augmented,where can i check the status of my scholarship appliaction kindly guide me
+"sir, where can I check the status of my scholarship application",scholarships,augmented,sir where can i check the status of my scholarship application
+where can i check the status of my scholarship application please,scholarships,augmented,where can i check the status of my scholarship application please
+wherre can i chekc the status of my scholarship application any help is appreciated,scholarships,augmented,wherre can i chekc the status of my scholarship application any help is appreciated
+How do I apply for the merit scholarship?,scholarships,original,how do i apply for the merit scholarship
+how do i aply for the merit scholarship thank you,scholarships,augmented,how do i aply for the merit scholarship thank you
+How do I apply for the merit scholarship please,scholarships,augmented,how do i apply for the merit scholarship please
+"hi, how do I apply for the merit scholarship?",scholarships,augmented,hi how do i apply for the merit scholarship
+urgent: how do I apply for the merit scholarship,scholarships,augmented,urgent how do i apply for the merit scholarship
+"hello, how do I apply for the merit scholarship",scholarships,augmented,hello how do i apply for the merit scholarship
+Can I get an off-campus permission instead of the hostel?,hostel,original,can i get an off campus permission instead of the hostel
+Can I get an off-campus permission instead of the hostel,hostel,augmented,can i get an off campus permission instead of the hostel
+"excuse me, can I get an off-campus permission instaed of the hostel?",hostel,augmented,excuse me can i get an off campus permission instaed of the hostel
+Can I get an off-campus permission instead of the hosel asap,hostel,augmented,can i get an off campus permission instead of the hosel asap
+quick question: can I get an off-cammpus permission instead of the hostel,hostel,augmented,quick question can i get an off cammpus permission instead of the hostel
+"madam, can I get an off-campus permission instead of the hostel kindly guide me",hostel,augmented,madam can i get an off campus permission instead of the hostel kindly guide me
+Can I get an exam center change?,examinations,original,can i get an exam center change
+"hello, can i get an exam center change asap",examinations,augmented,hello can i get an exam center change asap
+Can I get an exam ceter change please,examinations,augmented,can i get an exam ceter change please
+Can I get an exam center change please,examinations,augmented,can i get an exam center change please
+can i get an exam center change?,examinations,augmented,can i get an exam center change
+can i get an exam center cahnge please,examinations,augmented,can i get an exam center cahnge please
+I need a marksheet copy for all eight semesters.,transcripts,original,i need a marksheet copy for all eight semesters
+i need a marksheet copy for all eight semesters thanks,transcripts,augmented,i need a marksheet copy for all eight semesters thanks
+i need a marksheet copy for all eight semesters any help is appreciated,transcripts,augmented,i need a marksheet copy for all eight semesters any help is appreciated
+"hello, i need a marksheet copy for all eight semesters",transcripts,augmented,hello i need a marksheet copy for all eight semesters
+I need a markksheet copy for all eight semesters,transcripts,augmented,i need a markksheet copy for all eight semesters
+i neeed a marksheet coy for all eight semesters.,transcripts,augmented,i neeed a marksheet coy for all eight semesters
+Where can I see the list of courses offered this semester?,academic_registration,original,where can i see the list of courses offered this semester
+wheer can i see the list of courses offered this semester kindly guide me,academic_registration,augmented,wheer can i see the list of courses offered this semester kindly guide me
+Where can I see the list of courses offred tihs semester thanks,academic_registration,augmented,where can i see the list of courses offred tihs semester thanks
+"si,r wherre can i see the list of courses offered this semester",academic_registration,augmented,si r wherre can i see the list of courses offered this semester
+where can i see the list of courses offered this semester?,academic_registration,augmented,where can i see the list of courses offered this semester
+Can I download my transcript from the student portal?,transcripts,original,can i download my transcript from the student portal
+can i download my transcript from the student portal asap,transcripts,augmented,can i download my transcript from the student portal asap
+"hi, can i download my transcript from the student portal thanks",transcripts,augmented,hi can i download my transcript from the student portal thanks
+"hi, can I download my transcript from the student portal any hlp is appreciated",transcripts,augmented,hi can i download my transcript from the student portal any hlp is appreciated
+"madam, can I download my transcript from the student portal?",transcripts,augmented,madam can i download my transcript from the student portal
+can i download my tanscript from the student portal any help is appreciatde,transcripts,augmented,can i download my tanscript from the student portal any help is appreciatde
+I need to extend my stay at the hostel during summer vacation.,hostel,original,i need to extend my stay at the hostel during summer vacation
+"sir, i need to extend my stay at the hostel during summer vacation.",hostel,augmented,sir i need to extend my stay at the hostel during summer vacation
+I need to extend my stay at the hostel during summer vacation,hostel,augmented,i need to extend my stay at the hostel during summer vacation
+"hi, i need to extend my stay at the hostel during summer vacation plaese",hostel,augmented,hi i need to extend my stay at the hostel during summer vacation plaese
+i need to extend my stay at the hostel during summer vacation.,hostel,augmented,i need to extend my stay at the hostel during summer vacation
+i need to exted my sty at the hostel during summer vacaation,hostel,augmented,i need to exted my sty at the hostel during summer vacaation
+"My transcript request is still pending, who do I follow up with?",transcripts,original,my transcript request is still pending who do i follow up with
+"My transcript requeest is still pending, who do I foollow up with any help is appreciated",transcripts,augmented,my transcript requeest is still pending who do i foollow up with any help is appreciated
+"my transcript request is still pending, who do i follow up with please",transcripts,augmented,my transcript request is still pending who do i follow up with please
+"hi, my transcript requets is still pending, who do i follow up with kindly guide me",transcripts,augmented,hi my transcript requets is still pending who do i follow up with kindly guide me
+"hello, my transcript reqest is still pending, who do i follow up with kinldy guide me",transcripts,augmented,hello my transcript reqest is still pending who do i follow up with kinldy guide me
+"excuse me, my transcript request is still pending, who do I follow up with thank you",transcripts,augmented,excuse me my transcript request is still pending who do i follow up with thank you
+Can I get a temporary ID card while the new one is being printed?,id_cards,original,can i get a temporary id card while the new one is being printed
+"madam, can i get a temporary id caard while the new one is being printed?",id_cards,augmented,madam can i get a temporary id caard while the new one is being printed
+can i get a temporary id card while the new one is being printed?,id_cards,augmented,can i get a temporary id card while the new one is being printed
+"madam, can I get a temporary ID card while the new one is being printed?",id_cards,augmented,madam can i get a temporary id card while the new one is being printed
+can i get a tmporary id card while the new one is being printed?,id_cards,augmented,can i get a tmporary id card while the new one is being printed
+"excuse me, can I get a temporary ID card while the new one is being printed kindly guide me",id_cards,augmented,excuse me can i get a temporary id card while the new one is being printed kindly guide me
+I want a CGPA to percentage conversion letter along with my transcript.,transcripts,original,i want a cgpa to percentage conversion letter along with my transcript
+"hello, i want a CGPA to percentage conversion letter along with my transcript any help is appreciated",transcripts,augmented,hello i want a cgpa to percentage conversion letter along with my transcript any help is appreciated
+"hey, i want a cgpa to percentage conversion letter along with my transcript",transcripts,augmented,hey i want a cgpa to percentage conversion letter along with my transcript
+i want a cgpa to percentage conversion letter along with my transcript thakns,transcripts,augmented,i want a cgpa to percentage conversion letter along with my transcript thakns
+"madam, i watn a cgpa to percentage coversion letter along with my transcript thank you",transcripts,augmented,madam i watn a cgpa to percentage coversion letter along with my transcript thank you
+What is the eligibility for the government scholarship for SC/ST students?,scholarships,original,what is the eligibility for the government scholarship for sc st students
+quick question: what is the eligibility for the government scholarship for SC/ST students,scholarships,augmented,quick question what is the eligibility for the government scholarship for sc st students
+what is the eligibility for the government scholarship for sc/st students?,scholarships,augmented,what is the eligibility for the government scholarship for sc st students
+what is the eligibility for the government scholarship for sc/st students please,scholarships,augmented,what is the eligibility for the government scholarship for sc st students please
+please help: what is the eligibility for the government scholarship for SC/ST students asap,scholarships,augmented,please help what is the eligibility for the government scholarship for sc st students asap
+"madam, what is the eligibility for the government scholarship for sc/st students?",scholarships,augmented,madam what is the eligibility for the government scholarship for sc st students
+Is there any scholarship for girl students in engineering?,scholarships,original,is there any scholarship for girl students in engineering
+Is there any scholarship for girl students in engineering thank you,scholarships,augmented,is there any scholarship for girl students in engineering thank you
+Is there any scholarship for girl students in engineering please,scholarships,augmented,is there any scholarship for girl students in engineering please
+is there any scholarship for girl students in engineering,scholarships,augmented,is there any scholarship for girl students in engineering
+urgent: is there any scholarship for girl students in engineering?,scholarships,augmented,urgent is there any scholarship for girl students in engineering
+How long does it take to get a no objection certificate?,certificates,original,how long does it take to get a no objection certificate
+how long does it take to get a no objection certificate,certificates,augmented,how long does it take to get a no objection certificate
+How long does it take to get a no objection ceertificate?,certificates,augmented,how long does it take to get a no objection ceertificate
+"excuse me, how logn does it take to get a no obejction certificate?",certificates,augmented,excuse me how logn does it take to get a no obejction certificate
+I want to add an elective after the registration deadline.,academic_registration,original,i want to add an elective after the registration deadline
+I want to add an elective after the registration deadline,academic_registration,augmented,i want to add an elective after the registration deadline
+"excuse me, i want to add an elective after the registration deadline",academic_registration,augmented,excuse me i want to add an elective after the registration deadline
+i want to add an elctive after the registration deadline,academic_registration,augmented,i want to add an elctive after the registration deadline
+"hi, i want to add an elective after the registratiion deadline",academic_registration,augmented,hi i want to add an elective after the registratiion deadline
+i want to add an elective after the registration deadline,academic_registration,augmented,i want to add an elective after the registration deadline
+What is the process to apply for a supplementary exam?,examinations,original,what is the process to apply for a supplementary exam
+what is the process to apply for a supplementary exam?,examinations,augmented,what is the process to apply for a supplementary exam
+quick question: what is the procses to apply for a supplementary exam please,examinations,augmented,quick question what is the procses to apply for a supplementary exam please
+please help: what is the process to apply for a supplementary exam asap,examinations,augmented,please help what is the process to apply for a supplementary exam asap
+"hello, what is the process to apply for a supplementary exam",examinations,augmented,hello what is the process to apply for a supplementary exam
+I paid the fees but it is not reflecting on the portal.,fees,original,i paid the fees but it is not reflecting on the portal
+"sir, i paid the fees but it is not reflecting on the portal thank you",fees,augmented,sir i paid the fees but it is not reflecting on the portal thank you
+I paid the fees but it is not reflecting on the portal any hlp is appreciated,fees,augmented,i paid the fees but it is not reflecting on the portal any hlp is appreciated
+i paid the fees but it is not reflecting on the portal.,fees,augmented,i paid the fees but it is not reflecting on the portal
+"hey, i paid the fees but it is not reflecting on the portal.",fees,augmented,hey i paid the fees but it is not reflecting on the portal
+What is the meaning of life?,out_of_scope,original,what is the meaning of life
+quick queston: whta is the meaning of life,out_of_scope,augmented,quick queston whta is the meaning of life
+"hello, what is the meaning of life?",out_of_scope,augmented,hello what is the meaning of life
+what is the meaning of lifee?,out_of_scope,augmented,what is the meaning of lifee
+what is the meannig of life?,out_of_scope,augmented,what is the meannig of life
+"I forgot my ID card at home, can I still enter the library?",id_cards,original,i forgot my id card at home can i still enter the library
+"please help: i forrgot my ID card at home, can I still enter the library thansk",id_cards,augmented,please help i forrgot my id card at home can i still enter the library thansk
+"excuse me, i forgot my id card at home, can i still enter the library asap",id_cards,augmented,excuse me i forgot my id card at home can i still enter the library asap
+"I forgot my ID card at home, can I stil enter the library?",id_cards,augmented,i forgot my id card at home can i stil enter the library
+"sir, i forgot my ID card at home, can I still enter the library",id_cards,augmented,sir i forgot my id card at home can i still enter the library
+"urgent: i forgot my ID card at home, can I still enter the library",id_cards,augmented,urgent i forgot my id card at home can i still enter the library
+Explain quantum computing to me.,out_of_scope,original,explain quantum computing to me
+explaain quantum computing to me,out_of_scope,augmented,explaain quantum computing to me
+quick question: explain quantum computing to me,out_of_scope,augmented,quick question explain quantum computing to me
+urgent: explain quantum computing to me kindly guide me,out_of_scope,augmented,urgent explain quantum computing to me kindly guide me
+Explain quantum computing to me kindly guide me,out_of_scope,augmented,explain quantum computing to me kindly guide me
+Explain quantum computing to me asap,out_of_scope,augmented,explain quantum computing to me asap
+What is the last date to fill the examination form?,examinations,original,what is the last date to fill the examination form
+Waht is the last date to fill the examination form any help is appreciated,examinations,augmented,waht is the last date to fill the examination form any help is appreciated
+please help: what is the last date to flil the examination form asap,examinations,augmented,please help what is the last date to flil the examination form asap
+"hey, what is the last date to fill the examination form?",examinations,augmented,hey what is the last date to fill the examination form
+What is the last date to fill the examination form,examinations,augmented,what is the last date to fill the examination form
+What is the last dae to fill the examination form,examinations,augmented,what is the last dae to fill the examination form
+What is the fee for revaluation?,examinations,original,what is the fee for revaluation
+urgent: what is the fee for revaluation?,examinations,augmented,urgent what is the fee for revaluation
+what is the fee for revaluation?,examinations,augmented,what is the fee for revaluation
+"hey, what is the fee for revaluation any help is appreciated",examinations,augmented,hey what is the fee for revaluation any help is appreciated
+What is the fee for revaluation,examinations,augmented,what is the fee for revaluation
+What is the fee for revaluation any help is appreciated,examinations,augmented,what is the fee for revaluation any help is appreciated
+how many countries in the world are democracies,out_of_scope,clinc150,how many countries in the world are democracies
+is android better than iphone,out_of_scope,clinc150,is android better than iphone
+what does it mean if i dream of falling off a building,out_of_scope,clinc150,what does it mean if i dream of falling off a building
+can i mix antifreeze with water,out_of_scope,clinc150,can i mix antifreeze with water
+how long will it take me to pay off my card if i pay an extra $50 a month over the minimum,out_of_scope,clinc150,how long will it take me to pay off my card if i pay an extra 50 a month over the minimum
+how many planets have we discovered,out_of_scope,clinc150,how many planets have we discovered
+what cryptocurrency gained the most in 2018,out_of_scope,clinc150,what cryptocurrency gained the most in 2018
+what city is the super bowl,out_of_scope,clinc150,what city is the super bowl
+when was nintendo created,out_of_scope,clinc150,when was nintendo created
+do ducks sleep,out_of_scope,clinc150,do ducks sleep
+what brand of earphones is the best reviewed of 2019,out_of_scope,clinc150,what brand of earphones is the best reviewed of 2019
+when is the next nintendo direct,out_of_scope,clinc150,when is the next nintendo direct
+can you tell me something about the nfl,out_of_scope,clinc150,can you tell me something about the nfl
+what is the cheapest electric guitar,out_of_scope,clinc150,what is the cheapest electric guitar
+find out for me as to why people get autism,out_of_scope,clinc150,find out for me as to why people get autism
+what do you call someone who was born in segovia,out_of_scope,clinc150,what do you call someone who was born in segovia
+what does it mean to have equality,out_of_scope,clinc150,what does it mean to have equality
+why is there fake news,out_of_scope,clinc150,why is there fake news
+where do eggs come from,out_of_scope,clinc150,where do eggs come from
+what is the next football game,out_of_scope,clinc150,what is the next football game
+how fast does an airplane travel,out_of_scope,clinc150,how fast does an airplane travel
+where is the dipstick,out_of_scope,clinc150,where is the dipstick
+what are some deals on amazon,out_of_scope,clinc150,what are some deals on amazon
+what is the purpose or benefit of a cash advance,out_of_scope,clinc150,what is the purpose or benefit of a cash advance
+who was the first capcom character,out_of_scope,clinc150,who was the first capcom character
+the birds fly with there wings,out_of_scope,clinc150,the birds fly with there wings
+is cnn really fake news,out_of_scope,clinc150,is cnn really fake news
+what's the runtime of all the lord of the rings movies combined,out_of_scope,clinc150,what's the runtime of all the lord of the rings movies combined
+where does cannabis originate from,out_of_scope,clinc150,where does cannabis originate from
+are any earning reports due,out_of_scope,clinc150,are any earning reports due
+what's the best price on super smash bros ultimate right now,out_of_scope,clinc150,what's the best price on super smash bros ultimate right now
+can you give me the standard tuning notes,out_of_scope,clinc150,can you give me the standard tuning notes
+how do you know when your dog is ill,out_of_scope,clinc150,how do you know when your dog is ill
+is it possible to survive in a black hole,out_of_scope,clinc150,is it possible to survive in a black hole
+what game has the best odds at a casino,out_of_scope,clinc150,what game has the best odds at a casino
+where do black holes come from,out_of_scope,clinc150,where do black holes come from
+what does it mean to be an alpha male,out_of_scope,clinc150,what does it mean to be an alpha male
+how is crypto legal,out_of_scope,clinc150,how is crypto legal
+is flu contagious,out_of_scope,clinc150,is flu contagious
+what animals have alpha males,out_of_scope,clinc150,what animals have alpha males
+what is the formula for the circumference of a circle,out_of_scope,clinc150,what is the formula for the circumference of a circle
+should i hit or stay at 17 in blackjack,out_of_scope,clinc150,should i hit or stay at 17 in blackjack
+what trees change color in autumn,out_of_scope,clinc150,what trees change color in autumn
+is the united states a democracy,out_of_scope,clinc150,is the united states a democracy
+what dog breed sold the most in 2018,out_of_scope,clinc150,what dog breed sold the most in 2018
+can you tell me the latest georgia news,out_of_scope,clinc150,can you tell me the latest georgia news
+how long do wire transfers take,out_of_scope,clinc150,how long do wire transfers take
+what were some of ben franklin's notable accomplishments,out_of_scope,clinc150,what were some of ben franklin's notable accomplishments
+when's the next movie starring thor set to come out,out_of_scope,clinc150,when's the next movie starring thor set to come out
+how many students attend ucsb,out_of_scope,clinc150,how many students attend ucsb
+is the brexit finalized yet,out_of_scope,clinc150,is the brexit finalized yet
+what is the friendliest breed,out_of_scope,clinc150,what is the friendliest breed
+set a warning for when my bank account starts running low,out_of_scope,clinc150,set a warning for when my bank account starts running low
+how high does my sat score need to be to get into harvard,out_of_scope,clinc150,how high does my sat score need to be to get into harvard
+what year was star trek released,out_of_scope,clinc150,what year was star trek released
+show me the channel guide,out_of_scope,clinc150,show me the channel guide
+how do i compute the median of a set of numbers,out_of_scope,clinc150,how do i compute the median of a set of numbers
+is it true that nicotine is harder to kick than heroin,out_of_scope,clinc150,is it true that nicotine is harder to kick than heroin
+what is the most popular airline,out_of_scope,clinc150,what is the most popular airline
+who has the best record in the nfl,out_of_scope,clinc150,who has the best record in the nfl
+what site publishes the most fake news,out_of_scope,clinc150,what site publishes the most fake news
+any headlines from my area,out_of_scope,clinc150,any headlines from my area
+can you list me tiger wood's stats,out_of_scope,clinc150,can you list me tiger wood's stats
+what year was saxaphone first played,out_of_scope,clinc150,what year was saxaphone first played
+suo2,out_of_scope,clinc150,suo2
+what do geese eat,out_of_scope,clinc150,what do geese eat
+what act score is considered good,out_of_scope,clinc150,what act score is considered good
+what are some of picasso's most famous works,out_of_scope,clinc150,what are some of picasso's most famous works
+what is the name of the 13th president,out_of_scope,clinc150,what is the name of the 13th president
+what is the largest state in the us,out_of_scope,clinc150,what is the largest state in the us

@@ -1,0 +1,30 @@
+{
+  "majority_class": {
+    "test": {
+      "accuracy": 0.1,
+      "macro_f1": 0.01818181818181818
+    },
+    "test_noisy": {
+      "accuracy": 0.1,
+      "macro_f1": 0.01818181818181818
+    },
+    "test_clinc_oos": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    }
+  },
+  "tfidf_logreg": {
+    "test": {
+      "accuracy": 0.74,
+      "macro_f1": 0.7570183033340927
+    },
+    "test_noisy": {
+      "accuracy": 0.72,
+      "macro_f1": 0.7370183033340927
+    },
+    "test_clinc_oos": {
+      "accuracy": 0.965,
+      "macro_f1": 0.09821882951653944
+    }
+  }
+}

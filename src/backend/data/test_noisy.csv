@@ -1,0 +1,51 @@
+text,intent,source,clean_text
+how do i apply for hostel accommodation,hostel,noisy,how do i apply for hostel accommodation
+How long does it take to get a new student ID?,id_cards,noisy,how long does it take to get a new student id
+where can i download my hall tiicket?,examinations,noisy,where can i download my hall tiicket
+how do i get a duplicate marksheet,transcripts,noisy,how do i get a duplicate marksheet
+How do I register for the project or tehsis creditss?,academic_registration,noisy,how do i register for the project or tehsis creditss
+How do I change my major or branch?,academic_registration,noisy,how do i change my major or branch
+"I missed my exam due to illenss, can I get a re-exam",examinations,noisy,i missed my exam due to illenss can i get a re exam
+"I failed one subject, how do I reappear for the exam?",examinations,noisy,i failed one subject how do i reappear for the exam
+where is the hostel warden's office?,hostel,noisy,where is the hostel warden's office
+i need a migration certiificate after finishinng my degree.,certificates,noisy,i need a migration certiificate after finishinng my degree
+How many days for a study certificate to be issued,certificates,noisy,how many days for a study certificate to be issued
+What is the capital of France,out_of_scope,noisy,what is the capital of france
+"i have shortage of attendance in one subject, what are my options?",attendance,noisy,i have shortage of attendance in one subject what are my options
+what documents do i submit to get my mark statement?,transcripts,noisy,what documents do i submit to get my mark statement
+Is a boonafide letter avialable the same day,certificates,noisy,is a boonafide letter avialable the same day
+what is the minimmum attendance required to sit for exams,attendance,noisy,what is the minimmum attendance required to sit for exams
+How do I regster for a summer coures,academic_registration,noisy,how do i regster for a summer coures
+are there any foreign stuyd scholarhips lisetd by the university,scholarships,noisy,are there any foreign stuyd scholarhips lisetd by the university
+How do I apply for makeup exams for meical reeasons?,examinations,noisy,how do i apply for makeup exams for meical reeasons
+"The water heater in my hostel rom is not working, who should I complain to?",hostel,noisy,the water heater in my hostel rom is not working who should i complain to
+"my attendance is 68 percent, will i be detained?",attendance,noisy,my attendance is 68 percent will i be detained
+What are the prerequisites for registering for advanced algorithms?,academic_registration,noisy,what are the prerequisites for registering for advanced algorithms
+which phone shuld i buy,out_of_scope,noisy,which phone shuld i buy
+Tanslate hello into Spanish.,out_of_scope,noisy,tanslate hello into spanish
+please tell me the process to obtain a domicile verification letter from the university.,certificates,noisy,please tell me the process to obtain a domicile verification letter from the university
+Is a fee waiver scholarship avaiilable for sports acheivers,scholarships,noisy,is a fee waiver scholarship avaiilable for sports acheivers
+I did not recevie my scholraship this semester,scholarships,noisy,i did not recevie my scholraship this semester
+Whta documents are reqquired for a course completion certificate?,certificates,noisy,whta documents are reqquired for a course completion certificate
+how do i report a mistake in my attendance record?,attendance,noisy,how do i report a mistake in my attendance record
+What is the weather like today,out_of_scope,noisy,what is the weather like today
+I need a hostel no dues certificate before vacating,hostel,noisy,i need a hostel no dues certificate before vacating
+Do I hvae to pay hstel fees aong wtih tuition fees,fees,noisy,do i hvae to pay hstel fees aong wtih tuition fees
+can i get both a merit shcolarship and an education loan?,scholarships,noisy,can i get both a merit shcolarship and an education loan
+Can I pay my fes in installments,fees,noisy,can i pay my fes in installments
+When will the intrenal asessment marks be published,examinations,noisy,when will the intrenal asessment marks be published
+"I am a new sudent, how do I complete my admisson registration",academic_registration,noisy,i am a new sudent how do i complete my admisson registration
+Where do I request a consolidated grade card,transcripts,noisy,where do i request a consolidated grade card
+How can I check my pending dues,fees,noisy,how can i check my pending dues
+Whree do I submit the form for a lost ID,id_cards,noisy,whree do i submit the form for a lost id
+Money got deducted from my accoutn but the payment failed.,fees,noisy,money got deducted from my accoutn but the payment failed
+"I broke my ID card, please help me get another one.",id_cards,noisy,i broke my id card please help me get another one
+Please guiide me on requesting a transcript for higher studies in Germany.,transcripts,noisy,please guiide me on requesting a transcript for higher studies in germany
+"my photo on the id card is wrong, how can i change it",id_cards,noisy,my photo on the id card is wrong how can i change it
+Is tere a mess fee refund if I leave the hostel midway,hostel,noisy,is tere a mess fee refund if i leave the hostel midway
+What payment modse are accetped by the accounnts office?,fees,noisy,what payment modse are accetped by the accounnts office
+who won the cricekt match yesterdy,out_of_scope,noisy,who won the cricekt match yesterdy
+wht is the scholarship amount for toppers of the department,scholarships,noisy,wht is the scholarship amount for toppers of the department
+What is the fee for a duplicate ID card,id_cards,noisy,what is the fee for a duplicate id card
+i need to submit a medcial certificate for my absnece,attendance,noisy,i need to submit a medcial certificate for my absnece
+who signs the officiaal academic transcrip?t,transcripts,noisy,who signs the officiaal academic transcrip t
