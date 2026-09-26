@@ -1,0 +1,1000 @@
+text,intent,source,group,n_tokens
+are there cameras hidden in stop lights,out_of_scope,clinc150,clinc::are there cameras hidden in stop lights,7
+look up the most requested famous person for quotes,out_of_scope,clinc150,clinc::look up the most requested famous person for quotes,9
+i want to find new cyberpunk fiction books,out_of_scope,clinc150,clinc::i want to find new cyberpunk fiction books,8
+what should i wear to hike,out_of_scope,clinc150,clinc::what should i wear to hike,6
+what are the words to the chorus for this song,out_of_scope,clinc150,clinc::what are the words to the chorus for this song,10
+create a portrait for me using post modern art,out_of_scope,clinc150,clinc::create a portrait for me using post modern art,9
+who plays han solo,out_of_scope,clinc150,clinc::who plays han solo,4
+who wrote green book,out_of_scope,clinc150,clinc::who wrote green book,4
+give me the news on the newspaper today,out_of_scope,clinc150,clinc::give me the news on the newspaper today,8
+tell me who has the cheapest watch bands on ebay,out_of_scope,clinc150,clinc::tell me who has the cheapest watch bands on ebay,10
+how many keys does a xylophone have,out_of_scope,clinc150,clinc::how many keys does a xylophone have,7
+how many dvds do i currently have on file,out_of_scope,clinc150,clinc::how many dvds do i currently have on file,9
+what time does my ex-boss leave the office,out_of_scope,clinc150,clinc::what time does my ex-boss leave the office,8
+i'd like to hire a wedding planner and need help finding one,out_of_scope,clinc150,clinc::i'd like to hire a wedding planner and need help finding one,12
+what time did i get the last text message i received,out_of_scope,clinc150,clinc::what time did i get the last text message i received,11
+am i too old to be a sugar babyo,out_of_scope,clinc150,clinc::am i too old to be a sugar babyo,9
+look up website on container gardening,out_of_scope,clinc150,clinc::look up website on container gardening,6
+what do you do if your 4 year old just ate playdoh,out_of_scope,clinc150,clinc::what do you do if your 4 year old just ate playdoh,12
+what is a normal resting heart rate,out_of_scope,clinc150,clinc::what is a normal resting heart rate,7
+what is a well reviewed book for a teenage girl to read,out_of_scope,clinc150,clinc::what is a well reviewed book for a teenage girl to read,12
+please go to wikipedia and search for articles related to nsa,out_of_scope,clinc150,clinc::please go to wikipedia and search for articles related to nsa,11
+what's the chemical composition of a fart,out_of_scope,clinc150,clinc::what's the chemical composition of a fart,7
+what movie is it that says today is a good day to die,out_of_scope,clinc150,clinc::what movie is it that says today is a good day to die,13
+who has the longest hair ever,out_of_scope,clinc150,clinc::who has the longest hair ever,6
+which actors have played more than 1 comic book character,out_of_scope,clinc150,clinc::which actors have played more than 1 comic book character,10
+can you tell me how to clean a fish tank,out_of_scope,clinc150,clinc::can you tell me how to clean a fish tank,10
+what's the way for delta to cancel a flight,out_of_scope,clinc150,clinc::what's the way for delta to cancel a flight,9
+list the contents of my safety deposit box at the bank,out_of_scope,clinc150,clinc::list the contents of my safety deposit box at the bank,11
+how much does it cost to use the parking garage downtown,out_of_scope,clinc150,clinc::how much does it cost to use the parking garage downtown,11
+what's the cost of buying a sump pump,out_of_scope,clinc150,clinc::what's the cost of buying a sump pump,8
+what size space suit should you get based on your girth,out_of_scope,clinc150,clinc::what size space suit should you get based on your girth,11
+how many people have insomnia,out_of_scope,clinc150,clinc::how many people have insomnia,5
+find articles that can help me advance my position in my work field,out_of_scope,clinc150,clinc::find articles that can help me advance my position in my work field,13
+when was the gold rush,out_of_scope,clinc150,clinc::when was the gold rush,5
+show me all biographies on teddy kennedy,out_of_scope,clinc150,clinc::show me all biographies on teddy kennedy,7
+are all the street lamps working on my street,out_of_scope,clinc150,clinc::are all the street lamps working on my street,9
+how hard is it to close a bank account at wells fargo,out_of_scope,clinc150,clinc::how hard is it to close a bank account at wells fargo,12
+which element on the periodic table is k,out_of_scope,clinc150,clinc::which element on the periodic table is k,8
+look for a position similar to mine that is open around my area,out_of_scope,clinc150,clinc::look for a position similar to mine that is open around my area,13
+compile a folder of paintings of sparta,out_of_scope,clinc150,clinc::compile a folder of paintings of sparta,7
+create emergency phone numbers list,out_of_scope,clinc150,clinc::create emergency phone numbers list,5
+is espn covering the golden state warriors game,out_of_scope,clinc150,clinc::is espn covering the golden state warriors game,8
+are polar bears on the endangered species list,out_of_scope,clinc150,clinc::are polar bears on the endangered species list,8
+can you see what the budget for the united states military was in 2018,out_of_scope,clinc150,clinc::can you see what the budget for the united states military was in 2018,14
+what kind of bonds do molecules have,out_of_scope,clinc150,clinc::what kind of bonds do molecules have,7
+find out which museum houses the most post modern art in new york state,out_of_scope,clinc150,clinc::find out which museum houses the most post modern art in new york state,14
+what are the best personal finance practices,out_of_scope,clinc150,clinc::what are the best personal finance practices,7
+deny incoming phone call,out_of_scope,clinc150,clinc::deny incoming phone call,4
+what is my checking account number,out_of_scope,clinc150,clinc::what is my checking account number,6
+what's that smell,out_of_scope,clinc150,clinc::what's that smell,3
+tell me who makes the best dvd's for movie storage,out_of_scope,clinc150,clinc::tell me who makes the best dvd's for movie storage,10
+look up which animal is represented in this year's chinese new year,out_of_scope,clinc150,clinc::look up which animal is represented in this year's chinese new year,12
+name the leader from tibet that stands firm for world peace,out_of_scope,clinc150,clinc::name the leader from tibet that stands firm for world peace,11
+what's at movies,out_of_scope,clinc150,clinc::what's at movies,3
+what is the population of south africa,out_of_scope,clinc150,clinc::what is the population of south africa,7
+what is the highest belt in karate,out_of_scope,clinc150,clinc::what is the highest belt in karate,7
+how do i get red wine out of a couch cushion,out_of_scope,clinc150,clinc::how do i get red wine out of a couch cushion,11
+is the depiction of gold mining in the movie the ballad of buster scruggs realistic,out_of_scope,clinc150,clinc::is the depiction of gold mining in the movie the ballad of buster scruggs realistic,15
+where is the best place to mine for gold,out_of_scope,clinc150,clinc::where is the best place to mine for gold,9
+accept incoming phone call,out_of_scope,clinc150,clinc::accept incoming phone call,4
+can you delete my saved credit card,out_of_scope,clinc150,clinc::can you delete my saved credit card,7
+what's the best price on a gray xl ll bean men's parka,out_of_scope,clinc150,clinc::what's the best price on a gray xl ll bean men's parka,12
+is beer legal in this state,out_of_scope,clinc150,clinc::is beer legal in this state,6
+does bill gates still have any material participation in the running of microsoft,out_of_scope,clinc150,clinc::does bill gates still have any material participation in the running of microsoft,13
+what's the amusement park like,out_of_scope,clinc150,clinc::what's the amusement park like,5
+what kind of camera should i buy,out_of_scope,clinc150,clinc::what kind of camera should i buy,7
+create a pamphlet on albert einsteins childhood,out_of_scope,clinc150,clinc::create a pamphlet on albert einsteins childhood,7
+what is the cost of four double a batteries,out_of_scope,clinc150,clinc::what is the cost of four double a batteries,9
+how many ppm of particulate is in my local water,out_of_scope,clinc150,clinc::how many ppm of particulate is in my local water,10
+what supplies do i need to clean my car,out_of_scope,clinc150,clinc::what supplies do i need to clean my car,9
+can you tell me today's headlines pleasei,out_of_scope,clinc150,clinc::can you tell me today's headlines pleasei,7
+what are the highest-rated android phones,out_of_scope,clinc150,clinc::what are the highest-rated android phones,6
+give me a list of tax attorneys that practice in my city,out_of_scope,clinc150,clinc::give me a list of tax attorneys that practice in my city,12
+what is the extra digits that are sometimes included on my zip code,out_of_scope,clinc150,clinc::what is the extra digits that are sometimes included on my zip code,13
+add color to the black and white photos,out_of_scope,clinc150,clinc::add color to the black and white photos,8
+get me a list of divorce attorneys in the new york area,out_of_scope,clinc150,clinc::get me a list of divorce attorneys in the new york area,12
+is anything being newscasted about the threat of famine in chadu,out_of_scope,clinc150,clinc::is anything being newscasted about the threat of famine in chadu,11
+what is the last time the living room was vacuumed,out_of_scope,clinc150,clinc::what is the last time the living room was vacuumed,10
+how many people were killed in the boston marathon by bombers,out_of_scope,clinc150,clinc::how many people were killed in the boston marathon by bombers,11
+what time did i put in my first load of laundry,out_of_scope,clinc150,clinc::what time did i put in my first load of laundry,11
+can you list all channels of a certain category,out_of_scope,clinc150,clinc::can you list all channels of a certain category,9
+make a list of side hustles i could start today to make a little extra cash,out_of_scope,clinc150,clinc::make a list of side hustles i could start today to make a little extra cash,16
+where does jelly come from,out_of_scope,clinc150,clinc::where does jelly come from,5
+find out what type of wax is needed for a late model ford sedan,out_of_scope,clinc150,clinc::find out what type of wax is needed for a late model ford sedan,14
+what's the safest pet to be around toddlers,out_of_scope,clinc150,clinc::what's the safest pet to be around toddlers,8
+has there been any times when lebron james was arrested,out_of_scope,clinc150,clinc::has there been any times when lebron james was arrested,10
+remind me what my weight loss goals are,out_of_scope,clinc150,clinc::remind me what my weight loss goals are,8
+could you create a new avatar for me,out_of_scope,clinc150,clinc::could you create a new avatar for me,8
+what's a good way to organize my tools in my garage,out_of_scope,clinc150,clinc::what's a good way to organize my tools in my garage,11
+which medicine to relieve my cough,out_of_scope,clinc150,clinc::which medicine to relieve my cough,6
+what's the cost to have a business card printed,out_of_scope,clinc150,clinc::what's the cost to have a business card printed,9
+how many people live in vermillion,out_of_scope,clinc150,clinc::how many people live in vermillion,6
+see if you can find a good vegetable wash for me,out_of_scope,clinc150,clinc::see if you can find a good vegetable wash for me,11
+give me the weather forecast for today,out_of_scope,clinc150,clinc::give me the weather forecast for today,7
+what do you do if you can't stop vomiting,out_of_scope,clinc150,clinc::what do you do if you can't stop vomiting,9
+can you mark this note as important,out_of_scope,clinc150,clinc::can you mark this note as important,7
+what is that crunchy stuff on creme bruleo,out_of_scope,clinc150,clinc::what is that crunchy stuff on creme bruleo,8
+are we allowed to wash our cars during the drought,out_of_scope,clinc150,clinc::are we allowed to wash our cars during the drought,10
+give me a list of the biographies written by nyu professors after 2001,out_of_scope,clinc150,clinc::give me a list of the biographies written by nyu professors after 2001,13
+see if there are any employment agencies hiring managers right now,out_of_scope,clinc150,clinc::see if there are any employment agencies hiring managers right now,11
+compile a list of articles pertaining to venture capital funding for me,out_of_scope,clinc150,clinc::compile a list of articles pertaining to venture capital funding for me,12
+can you get me the scores from the games that were played last night,out_of_scope,clinc150,clinc::can you get me the scores from the games that were played last night,14
+how do i best deal with the airport,out_of_scope,clinc150,clinc::how do i best deal with the airport,8
+fold my hand,out_of_scope,clinc150,clinc::fold my hand,3
+when will the next boston marathon be,out_of_scope,clinc150,clinc::when will the next boston marathon be,7
+do we actually have a soul,out_of_scope,clinc150,clinc::do we actually have a soul,6
+please clean the car windows,out_of_scope,clinc150,clinc::please clean the car windows,5
+scan my photos and tell me which hair style is most suiting for my face,out_of_scope,clinc150,clinc::scan my photos and tell me which hair style is most suiting for my face,15
+in what movie did mrs congeniality feature a contestant championing for world peace,out_of_scope,clinc150,clinc::in what movie did mrs congeniality feature a contestant championing for world peace,13
+tell me the price of bananas at whole foods this week,out_of_scope,clinc150,clinc::tell me the price of bananas at whole foods this week,11
+give me an energy usage breakdown for march,out_of_scope,clinc150,clinc::give me an energy usage breakdown for march,8
+how do i add someone to my account,out_of_scope,clinc150,clinc::how do i add someone to my account,8
+go and check the fridge,out_of_scope,clinc150,clinc::go and check the fridge,5
+what amendment guarantees the freedom of speech to americans,out_of_scope,clinc150,clinc::what amendment guarantees the freedom of speech to americans,9
+who played ronald weasly,out_of_scope,clinc150,clinc::who played ronald weasly,4
+how do you repel a bear when you're out on a hike,out_of_scope,clinc150,clinc::how do you repel a bear when you're out on a hike,12
+what is the breath to compression ratio for cpr,out_of_scope,clinc150,clinc::what is the breath to compression ratio for cpr,9
+where does jiu jitsu originate,out_of_scope,clinc150,clinc::where does jiu jitsu originate,5
+watch the stories on instagram,out_of_scope,clinc150,clinc::watch the stories on instagram,5
+what does water taste like,out_of_scope,clinc150,clinc::what does water taste like,5
+disconnect from wifi immediately please,out_of_scope,clinc150,clinc::disconnect from wifi immediately please,5
+how do i change my windshield wipers,out_of_scope,clinc150,clinc::how do i change my windshield wipers,7
+order me a book of stamps and envelopes,out_of_scope,clinc150,clinc::order me a book of stamps and envelopes,8
+can you tell me what happened to han solo in episode 4,out_of_scope,clinc150,clinc::can you tell me what happened to han solo in episode 4,12
+"i have too many credit cards, is there any way you can help me organize them",out_of_scope,clinc150,"clinc::i have too many credit cards, is there any way you can help me organize them",16
+can you look up how i shoot a time lapse video on my iphone camera or is it even possible,out_of_scope,clinc150,clinc::can you look up how i shoot a time lapse video on my iphone camera or is it even possible,20
+sell three calls of of nvda,out_of_scope,clinc150,clinc::sell three calls of of nvda,6
+what's the average score on a round of golf,out_of_scope,clinc150,clinc::what's the average score on a round of golf,9
+where can i submit my architecture plans,out_of_scope,clinc150,clinc::where can i submit my architecture plans,7
+consult the gq website to find what men wear to weddings,out_of_scope,clinc150,clinc::consult the gq website to find what men wear to weddings,11
+can you check how many steps i have walked in the last week from my phone app,out_of_scope,clinc150,clinc::can you check how many steps i have walked in the last week from my phone app,17
+find my wallet,out_of_scope,clinc150,clinc::find my wallet,3
+would it be legal to have battles to the death in a homemade colosseum,out_of_scope,clinc150,clinc::would it be legal to have battles to the death in a homemade colosseum,14
+can you give me the most current market news,out_of_scope,clinc150,clinc::can you give me the most current market news,9
+what battery percentage is my phone at,out_of_scope,clinc150,clinc::what battery percentage is my phone at,7
+what should you do if your laundry machine is making a high pitched whine,out_of_scope,clinc150,clinc::what should you do if your laundry machine is making a high pitched whine,14
+can you add a bag to my reservation,out_of_scope,clinc150,clinc::can you add a bag to my reservation,8
+has ko gone up or down,out_of_scope,clinc150,clinc::has ko gone up or down,6
+close all internet tabs,out_of_scope,clinc150,clinc::close all internet tabs,4
+what happens if you're skydiving and your parachute doesn't open,out_of_scope,clinc150,clinc::what happens if you're skydiving and your parachute doesn't open,10
+finish the final touches on my newest robotic creation,out_of_scope,clinc150,clinc::finish the final touches on my newest robotic creation,9
+what is the warranty on my microwave,out_of_scope,clinc150,clinc::what is the warranty on my microwave,7
+when does tiger woods play next,out_of_scope,clinc150,clinc::when does tiger woods play next,6
+give me information about the element carbon and its reactions with hydrogen,out_of_scope,clinc150,clinc::give me information about the element carbon and its reactions with hydrogen,12
+what's the blue book value of my car,out_of_scope,clinc150,clinc::what's the blue book value of my car,8
+tell me the best way to freshen the smell in my car,out_of_scope,clinc150,clinc::tell me the best way to freshen the smell in my car,12
+where can i buy new shingles,out_of_scope,clinc150,clinc::where can i buy new shingles,6
+start listening to me dictate a letter,out_of_scope,clinc150,clinc::start listening to me dictate a letter,7
+what year did my grandparents get married,out_of_scope,clinc150,clinc::what year did my grandparents get married,7
+tell me what my local park's policy is on letting dogs off of leashes,out_of_scope,clinc150,clinc::tell me what my local park's policy is on letting dogs off of leashes,14
+fun gift ideas to give to grandparents,out_of_scope,clinc150,clinc::fun gift ideas to give to grandparents,7
+when will george rr martin publish the next game of thrones book,out_of_scope,clinc150,clinc::when will george rr martin publish the next game of thrones book,12
+how many homeless people are there,out_of_scope,clinc150,clinc::how many homeless people are there,6
+find out who the best appliance repairman is for the downtown area,out_of_scope,clinc150,clinc::find out who the best appliance repairman is for the downtown area,12
+are your step-parent's parents considered your grandparents,out_of_scope,clinc150,clinc::are your step-parent's parents considered your grandparents,7
+open cnn websiteo,out_of_scope,clinc150,clinc::open cnn websiteo,3
+show me how to contact a paranormal spirit,out_of_scope,clinc150,clinc::show me how to contact a paranormal spirit,8
+make a list of what materials have been used for spacesuits,out_of_scope,clinc150,clinc::make a list of what materials have been used for spacesuits,11
+when are the winter olympic games,out_of_scope,clinc150,clinc::when are the winter olympic games,6
+what are the current prices for mushrooms,out_of_scope,clinc150,clinc::what are the current prices for mushrooms,7
+what do i put on my feet,out_of_scope,clinc150,clinc::what do i put on my feet,7
+how long would it take you to die of thirst in the sahara desert,out_of_scope,clinc150,clinc::how long would it take you to die of thirst in the sahara desert,14
+tell me how to perform cpr,out_of_scope,clinc150,clinc::tell me how to perform cpr,6
+tell me where to send my resume in order to get a job at delta airlines,out_of_scope,clinc150,clinc::tell me where to send my resume in order to get a job at delta airlines,16
+what are sigmund freud's most famous books,out_of_scope,clinc150,clinc::what are sigmund freud's most famous books,7
+where can i find the best divorce lawyer,out_of_scope,clinc150,clinc::where can i find the best divorce lawyer,8
+how much for a samurai sword,out_of_scope,clinc150,clinc::how much for a samurai sword,6
+what causes dyslexia,out_of_scope,clinc150,clinc::what causes dyslexia,3
+what channel is cw on,out_of_scope,clinc150,clinc::what channel is cw on,5
+can you tell me how fast the average airplane enroute to california goes,out_of_scope,clinc150,clinc::can you tell me how fast the average airplane enroute to california goes,13
+does iron maiden have any new releases,out_of_scope,clinc150,clinc::does iron maiden have any new releases,7
+what movie does it's just a flesh wound come from,out_of_scope,clinc150,clinc::what movie does it's just a flesh wound come from,10
+how do i set the time on my tag heuer,out_of_scope,clinc150,clinc::how do i set the time on my tag heuer,10
+is the polar vortex of 2019 apart of global warming,out_of_scope,clinc150,clinc::is the polar vortex of 2019 apart of global warming,10
+give me a list of grocery stores that sell japanese sweet potatoes,out_of_scope,clinc150,clinc::give me a list of grocery stores that sell japanese sweet potatoes,12
+find a cleaner that specializes in suede,out_of_scope,clinc150,clinc::find a cleaner that specializes in suede,7
+what's the best way to drown a witch,out_of_scope,clinc150,clinc::what's the best way to drown a witch,8
+who teaches english near me,out_of_scope,clinc150,clinc::who teaches english near me,5
+how many hits have i done today,out_of_scope,clinc150,clinc::how many hits have i done today,7
+what universities are nearby to me and highly rated,out_of_scope,clinc150,clinc::what universities are nearby to me and highly rated,9
+i would like to find a stylish suit for a party,out_of_scope,clinc150,clinc::i would like to find a stylish suit for a party,11
+what bills is congress talking about passing or blocking today,out_of_scope,clinc150,clinc::what bills is congress talking about passing or blocking today,10
+what should i take for a cold,out_of_scope,clinc150,clinc::what should i take for a cold,7
+how do they filter pollutants out of bottled water,out_of_scope,clinc150,clinc::how do they filter pollutants out of bottled water,9
+when is it cheapest to travel to hawaii,out_of_scope,clinc150,clinc::when is it cheapest to travel to hawaii,8
+please answer the phone and put it on speaker on the tv,out_of_scope,clinc150,clinc::please answer the phone and put it on speaker on the tv,12
+how do i use my microwaves defrost,out_of_scope,clinc150,clinc::how do i use my microwaves defrost,7
+get me a picture of a horse,out_of_scope,clinc150,clinc::get me a picture of a horse,7
+look up the average temperature changes over the last 30 years for my area,out_of_scope,clinc150,clinc::look up the average temperature changes over the last 30 years for my area,14
+"email my boss, tell him i wont be in today",out_of_scope,clinc150,"clinc::email my boss, tell him i wont be in today",10
+what are the rules for chess,out_of_scope,clinc150,clinc::what are the rules for chess,6
+how do i get perfect alignment with the curb,out_of_scope,clinc150,clinc::how do i get perfect alignment with the curb,9
+what kind of paint do makeup artists use,out_of_scope,clinc150,clinc::what kind of paint do makeup artists use,8
+when was my lawn last mowed,out_of_scope,clinc150,clinc::when was my lawn last mowed,6
+what is the safest model of airplane to fly in,out_of_scope,clinc150,clinc::what is the safest model of airplane to fly in,10
+which stocks gained the most today,out_of_scope,clinc150,clinc::which stocks gained the most today,6
+did the stock market finish up for the day,out_of_scope,clinc150,clinc::did the stock market finish up for the day,9
+how do you unclog a toilet,out_of_scope,clinc150,clinc::how do you unclog a toilet,6
+what color is water,out_of_scope,clinc150,clinc::what color is water,4
+do they speak english in australia,out_of_scope,clinc150,clinc::do they speak english in australia,6
+can you book me an appointment at a car wash,out_of_scope,clinc150,clinc::can you book me an appointment at a car wash,10
+what time did my daughter get home from her date,out_of_scope,clinc150,clinc::what time did my daughter get home from her date,10
+i need to add a person to my bank account,out_of_scope,clinc150,clinc::i need to add a person to my bank account,10
+check the nanny cam and send the feed to my phone,out_of_scope,clinc150,clinc::check the nanny cam and send the feed to my phone,11
+can you store a gun in a safe deposit box,out_of_scope,clinc150,clinc::can you store a gun in a safe deposit box,10
+how many kilowatts have i used this month,out_of_scope,clinc150,clinc::how many kilowatts have i used this month,8
+can you retrieve client d's file please,out_of_scope,clinc150,clinc::can you retrieve client d's file please,7
+how do i install new cabinets,out_of_scope,clinc150,clinc::how do i install new cabinets,6
+check the status of my amazon orders for me,out_of_scope,clinc150,clinc::check the status of my amazon orders for me,9
+request a refund on the car wax i bought yesterday,out_of_scope,clinc150,clinc::request a refund on the car wax i bought yesterday,10
+explain how to reduce my debt burden,out_of_scope,clinc150,clinc::explain how to reduce my debt burden,7
+what is the main cause of becoming homeless,out_of_scope,clinc150,clinc::what is the main cause of becoming homeless,8
+zip the back of the brides maid dress,out_of_scope,clinc150,clinc::zip the back of the brides maid dress,8
+can a robot really travel back in time,out_of_scope,clinc150,clinc::can a robot really travel back in time,8
+what's the cost of a good pegboard,out_of_scope,clinc150,clinc::what's the cost of a good pegboard,7
+find engineering programs to apply to,out_of_scope,clinc150,clinc::find engineering programs to apply to,6
+power up my generator,out_of_scope,clinc150,clinc::power up my generator,4
+how many calories does doing 20 situps burn,out_of_scope,clinc150,clinc::how many calories does doing 20 situps burn,8
+can you tell me about that tornado that just tore up alabama,out_of_scope,clinc150,clinc::can you tell me about that tornado that just tore up alabama,12
+read text,out_of_scope,clinc150,clinc::read text,2
+can a polar bear live in alabama,out_of_scope,clinc150,clinc::can a polar bear live in alabama,7
+how unhealthy is stress,out_of_scope,clinc150,clinc::how unhealthy is stress,4
+make a list of facts about green book,out_of_scope,clinc150,clinc::make a list of facts about green book,8
+how do i skip all of the advertisements,out_of_scope,clinc150,clinc::how do i skip all of the advertisements,8
+why did negan return to his jail cell,out_of_scope,clinc150,clinc::why did negan return to his jail cell,8
+create a for-while loop that continues 10 times,out_of_scope,clinc150,clinc::create a for-while loop that continues 10 times,8
+make me a map of all earthquake hotspots in the continental us,out_of_scope,clinc150,clinc::make me a map of all earthquake hotspots in the continental us,12
+give me my wallet location,out_of_scope,clinc150,clinc::give me my wallet location,5
+tell me what the hot topics are that are trending on google,out_of_scope,clinc150,clinc::tell me what the hot topics are that are trending on google,12
+can you explain a good risk strategy to me,out_of_scope,clinc150,clinc::can you explain a good risk strategy to me,9
+how to remove a stripped bolt,out_of_scope,clinc150,clinc::how to remove a stripped bolt,6
+watch the fbi,out_of_scope,clinc150,clinc::watch the fbi,3
+what is the median salary for someone with an engineering degree,out_of_scope,clinc150,clinc::what is the median salary for someone with an engineering degree,11
+find a good toy to give a 5 year old boy that costs less than $40,out_of_scope,clinc150,clinc::find a good toy to give a 5 year old boy that costs less than $40,16
+what is the cheapest new car for this year,out_of_scope,clinc150,clinc::what is the cheapest new car for this year,9
+the bus moves with tyre,out_of_scope,clinc150,clinc::the bus moves with tyre,5
+can you dim the brightness of my screen,out_of_scope,clinc150,clinc::can you dim the brightness of my screen,8
+can you check my voicemail,out_of_scope,clinc150,clinc::can you check my voicemail,5
+where is te lawrence,out_of_scope,clinc150,clinc::where is te lawrence,4
+does the nsa listen to me,out_of_scope,clinc150,clinc::does the nsa listen to me,6
+what is harry's real name,out_of_scope,clinc150,clinc::what is harry's real name,5
+find articles about the protests in parisi,out_of_scope,clinc150,clinc::find articles about the protests in parisi,7
+please uninstall this intrusive social media app,out_of_scope,clinc150,clinc::please uninstall this intrusive social media app,7
+when should i remove my snow tires,out_of_scope,clinc150,clinc::when should i remove my snow tires,7
+can i deposit a check,out_of_scope,clinc150,clinc::can i deposit a check,5
+where are most the servicemen right now,out_of_scope,clinc150,clinc::where are most the servicemen right now,7
+what is the golden ratio's number,out_of_scope,clinc150,clinc::what is the golden ratio's number,6
+what is the animal for this chinese new year,out_of_scope,clinc150,clinc::what is the animal for this chinese new year,9
+show video of hair styling tips,out_of_scope,clinc150,clinc::show video of hair styling tips,6
+what are the lowest prices of bottled water at costco,out_of_scope,clinc150,clinc::what are the lowest prices of bottled water at costco,10
+what was the point of the crusades,out_of_scope,clinc150,clinc::what was the point of the crusades,7
+can i get a starter course for the trumpet,out_of_scope,clinc150,clinc::can i get a starter course for the trumpet,9
+where can i have a black and white photo blown up to poster size,out_of_scope,clinc150,clinc::where can i have a black and white photo blown up to poster size,14
+how much are the clorox detergents,out_of_scope,clinc150,clinc::how much are the clorox detergents,6
+can you tell me how to solve simple algebraic equations with one variable,out_of_scope,clinc150,clinc::can you tell me how to solve simple algebraic equations with one variable,13
+how can i get a better rate on my card,out_of_scope,clinc150,clinc::how can i get a better rate on my card,10
+what's the best style shoe to wear to the prom,out_of_scope,clinc150,clinc::what's the best style shoe to wear to the prom,10
+is it ok to feed dogs people food,out_of_scope,clinc150,clinc::is it ok to feed dogs people food,8
+can you see a hdmi cord,out_of_scope,clinc150,clinc::can you see a hdmi cord,6
+how do you relieve a hangover,out_of_scope,clinc150,clinc::how do you relieve a hangover,6
+compare prices of malt-o-meal to kelloggs,out_of_scope,clinc150,clinc::compare prices of malt-o-meal to kelloggs,6
+who invented custardo,out_of_scope,clinc150,clinc::who invented custardo,3
+look up a good broker for mutual funds,out_of_scope,clinc150,clinc::look up a good broker for mutual funds,8
+are there any apartments for rent nearby,out_of_scope,clinc150,clinc::are there any apartments for rent nearby,7
+how much does gun ammunition cost,out_of_scope,clinc150,clinc::how much does gun ammunition cost,6
+tell me something about linkin park,out_of_scope,clinc150,clinc::tell me something about linkin park,6
+what's a good way of backing out of a parking spot,out_of_scope,clinc150,clinc::what's a good way of backing out of a parking spot,11
+what time is a star is born showing,out_of_scope,clinc150,clinc::what time is a star is born showing,8
+where should i go if i hammered a nail through my foot,out_of_scope,clinc150,clinc::where should i go if i hammered a nail through my foot,12
+search up someone who plays in a movie,out_of_scope,clinc150,clinc::search up someone who plays in a movie,8
+when will world war 3 begin,out_of_scope,clinc150,clinc::when will world war 3 begin,6
+are there any messages,out_of_scope,clinc150,clinc::are there any messages,4
+what's the more secure bank vault,out_of_scope,clinc150,clinc::what's the more secure bank vault,6
+put on an educational program about buddhism,out_of_scope,clinc150,clinc::put on an educational program about buddhism,7
+please find today's most read stories from the new york times todayi,out_of_scope,clinc150,clinc::please find today's most read stories from the new york times todayi,12
+what is a good laptop for gaming,out_of_scope,clinc150,clinc::what is a good laptop for gaming,7
+what's the latest vc funded company,out_of_scope,clinc150,clinc::what's the latest vc funded company,6
+change color contrast,out_of_scope,clinc150,clinc::change color contrast,3
+tell me how to get rid of a spirit that's haunting me,out_of_scope,clinc150,clinc::tell me how to get rid of a spirit that's haunting me,12
+give me the number of a traffic attorney near here,out_of_scope,clinc150,clinc::give me the number of a traffic attorney near here,10
+what's the best career search website,out_of_scope,clinc150,clinc::what's the best career search website,6
+can you tell me the best time to visit downtown when driving,out_of_scope,clinc150,clinc::can you tell me the best time to visit downtown when driving,12
+can you really get arrested for yelling fire in a crowded theater,out_of_scope,clinc150,clinc::can you really get arrested for yelling fire in a crowded theater,12
+what is the most rented movie this week,out_of_scope,clinc150,clinc::what is the most rented movie this week,8
+search all movies created by disney in the 1980's,out_of_scope,clinc150,clinc::search all movies created by disney in the 1980's,9
+what's the highest building in the world,out_of_scope,clinc150,clinc::what's the highest building in the world,7
+why did we elect this woman who made amazon leave and take its jobs with it,out_of_scope,clinc150,clinc::why did we elect this woman who made amazon leave and take its jobs with it,16
+what is money used for,out_of_scope,clinc150,clinc::what is money used for,5
+pick out an excerise outfit for me,out_of_scope,clinc150,clinc::pick out an excerise outfit for me,7
+please give me a listing of all the bottled water brands in the area,out_of_scope,clinc150,clinc::please give me a listing of all the bottled water brands in the area,14
+show me the top 10 quotes by mark twain,out_of_scope,clinc150,clinc::show me the top 10 quotes by mark twain,9
+how to get the right medicine,out_of_scope,clinc150,clinc::how to get the right medicine,6
+what are popular lifestyle magazines,out_of_scope,clinc150,clinc::what are popular lifestyle magazines,5
+what movies are playing at my local cinemax,out_of_scope,clinc150,clinc::what movies are playing at my local cinemax,8
+where did i last place my remote,out_of_scope,clinc150,clinc::where did i last place my remote,7
+are indians nowadays reminiscent of a decade ago,out_of_scope,clinc150,clinc::are indians nowadays reminiscent of a decade ago,8
+what activities can i to do outside today,out_of_scope,clinc150,clinc::what activities can i to do outside today,8
+can you put the car in fuel efficient mode,out_of_scope,clinc150,clinc::can you put the car in fuel efficient mode,9
+how long do i have to wait to get my refund,out_of_scope,clinc150,clinc::how long do i have to wait to get my refund,11
+can you check to see which parking garages are open downtown,out_of_scope,clinc150,clinc::can you check to see which parking garages are open downtown,11
+what type of industries do innovation managers work in,out_of_scope,clinc150,clinc::what type of industries do innovation managers work in,9
+tell me in how many different colors i can get dinner plates from pier one imports,out_of_scope,clinc150,clinc::tell me in how many different colors i can get dinner plates from pier one imports,16
+when will the government file another antitrust suit against microsoft,out_of_scope,clinc150,clinc::when will the government file another antitrust suit against microsoft,10
+find directions to the sunshine car wash from my house,out_of_scope,clinc150,clinc::find directions to the sunshine car wash from my house,10
+display history of sparta,out_of_scope,clinc150,clinc::display history of sparta,4
+how the bus moves,out_of_scope,clinc150,clinc::how the bus moves,4
+what do you do if your cat eats an octopus,out_of_scope,clinc150,clinc::what do you do if your cat eats an octopus,10
+find me a good band instructor or two to compare in my area,out_of_scope,clinc150,clinc::find me a good band instructor or two to compare in my area,13
+research how many deaths has resulted from skydiving,out_of_scope,clinc150,clinc::research how many deaths has resulted from skydiving,8
+review my resume for spelling errors,out_of_scope,clinc150,clinc::review my resume for spelling errors,6
+do the romans still use the colosseum for anything today,out_of_scope,clinc150,clinc::do the romans still use the colosseum for anything today,10
+find the names of all the rain forests located in south america,out_of_scope,clinc150,clinc::find the names of all the rain forests located in south america,12
+tell me about the amusement park,out_of_scope,clinc150,clinc::tell me about the amusement park,6
+how do i write c++,out_of_scope,clinc150,clinc::how do i write c++,5
+is the stop sign around the corner still knocked over,out_of_scope,clinc150,clinc::is the stop sign around the corner still knocked over,10
+what are some natural remedies to help ease stress,out_of_scope,clinc150,clinc::what are some natural remedies to help ease stress,9
+give me a suggestion for roofers,out_of_scope,clinc150,clinc::give me a suggestion for roofers,6
+can you tell me what the best places are to look for a job online,out_of_scope,clinc150,clinc::can you tell me what the best places are to look for a job online,15
+what is a good movie to go see in theaters for a family with young kids,out_of_scope,clinc150,clinc::what is a good movie to go see in theaters for a family with young kids,16
+what is the fee for a cash advance,out_of_scope,clinc150,clinc::what is the fee for a cash advance,8
+is there a way to change your houses address,out_of_scope,clinc150,clinc::is there a way to change your houses address,9
+who created the world in greek mythology,out_of_scope,clinc150,clinc::who created the world in greek mythology,7
+what are some good resources to learn about mental illness,out_of_scope,clinc150,clinc::what are some good resources to learn about mental illness,10
+what kinds of cereal are gluten free,out_of_scope,clinc150,clinc::what kinds of cereal are gluten free,7
+what did the mesopotamians call the creator of the universe,out_of_scope,clinc150,clinc::what did the mesopotamians call the creator of the universe,10
+print out the photos i took today,out_of_scope,clinc150,clinc::print out the photos i took today,7
+upload the pictures to the correct album,out_of_scope,clinc150,clinc::upload the pictures to the correct album,7
+call up instructables website and find article on bike assembly,out_of_scope,clinc150,clinc::call up instructables website and find article on bike assembly,10
+how many people died in yesterday's storm,out_of_scope,clinc150,clinc::how many people died in yesterday's storm,7
+create several photos of me with different hair styles,out_of_scope,clinc150,clinc::create several photos of me with different hair styles,9
+how many people are jobless in america,out_of_scope,clinc150,clinc::how many people are jobless in america,7
+find out how many whales are currently in monterey bay,out_of_scope,clinc150,clinc::find out how many whales are currently in monterey bay,10
+would you let me know who won the gold metal in gymnastics at the olympics,out_of_scope,clinc150,clinc::would you let me know who won the gold metal in gymnastics at the olympics,15
+how much has the dow changed today,out_of_scope,clinc150,clinc::how much has the dow changed today,7
+how old is jennifer aniston,out_of_scope,clinc150,clinc::how old is jennifer aniston,5
+search up the cast in the walking dead,out_of_scope,clinc150,clinc::search up the cast in the walking dead,8
+find a couple's therapist who can help me and my wife,out_of_scope,clinc150,clinc::find a couple's therapist who can help me and my wife,11
+what do mummies eat,out_of_scope,clinc150,clinc::what do mummies eat,4
+"can you really time your compressions to queen's ""another one bites the dust""",out_of_scope,clinc150,"clinc::can you really time your compressions to queen's ""another one bites the dust""",13
+create a speech on historical events surrounding albert einstein,out_of_scope,clinc150,clinc::create a speech on historical events surrounding albert einstein,9
+how much is the new nikon camera,out_of_scope,clinc150,clinc::how much is the new nikon camera,7
+does centurytel offer any better plans than the one i'm on,out_of_scope,clinc150,clinc::does centurytel offer any better plans than the one i'm on,11
+what is the cashback rate for my credit card,out_of_scope,clinc150,clinc::what is the cashback rate for my credit card,9
+how many people still live on greenland,out_of_scope,clinc150,clinc::how many people still live on greenland,7
+can you order some ointment for me,out_of_scope,clinc150,clinc::can you order some ointment for me,7
+what marvel movie did mark ruffalo first appear in,out_of_scope,clinc150,clinc::what marvel movie did mark ruffalo first appear in,9
+i want to find a new car under $25000,out_of_scope,clinc150,clinc::i want to find a new car under $25000,9
+what is the life expectancy of a polar bear,out_of_scope,clinc150,clinc::what is the life expectancy of a polar bear,9
+how much of a refund will i get this year,out_of_scope,clinc150,clinc::how much of a refund will i get this year,10
+how much ram does my computer have,out_of_scope,clinc150,clinc::how much ram does my computer have,7
+how many star wars movies are there,out_of_scope,clinc150,clinc::how many star wars movies are there,7
+how would you rate the airport i am traveling to,out_of_scope,clinc150,clinc::how would you rate the airport i am traveling to,10
+do employers have to honor freedom of speech,out_of_scope,clinc150,clinc::do employers have to honor freedom of speech,8
+how fast am i going,out_of_scope,clinc150,clinc::how fast am i going,5
+which came first; greek mythology or roman mythology,out_of_scope,clinc150,clinc::which came first; greek mythology or roman mythology,8
+why doesn't english have consistent forms,out_of_scope,clinc150,clinc::why doesn't english have consistent forms,6
+what's the most practiced form of mma in the world,out_of_scope,clinc150,clinc::what's the most practiced form of mma in the world,10
+search my contacts for the auto repair place,out_of_scope,clinc150,clinc::search my contacts for the auto repair place,8
+explain to me the process of evaporation,out_of_scope,clinc150,clinc::explain to me the process of evaporation,7
+tell me what the longest tributary is in venezuela,out_of_scope,clinc150,clinc::tell me what the longest tributary is in venezuela,9
+can i set up mobile deposits,out_of_scope,clinc150,clinc::can i set up mobile deposits,6
+when will the daffodils bloom this year,out_of_scope,clinc150,clinc::when will the daffodils bloom this year,7
+what is the price to buy more data on my phone,out_of_scope,clinc150,clinc::what is the price to buy more data on my phone,11
+can you tell me what credit cards i have open,out_of_scope,clinc150,clinc::can you tell me what credit cards i have open,10
+how much damage did the last earthquake here do,out_of_scope,clinc150,clinc::how much damage did the last earthquake here do,9
+show me new cars with the highest safety rating,out_of_scope,clinc150,clinc::show me new cars with the highest safety rating,9
+aquire the soundtracks from the movie if i stay and add them to my ipod,out_of_scope,clinc150,clinc::aquire the soundtracks from the movie if i stay and add them to my ipod,15
+give me a listing of all my dvd's,out_of_scope,clinc150,clinc::give me a listing of all my dvd's,8
+read the phone number for mom in my phone contacts,out_of_scope,clinc150,clinc::read the phone number for mom in my phone contacts,10
+how do i get rid of blocked nose at home,out_of_scope,clinc150,clinc::how do i get rid of blocked nose at home,10
+how much money would my house sell for,out_of_scope,clinc150,clinc::how much money would my house sell for,8
+"what's going on in the world today, anything major",out_of_scope,clinc150,"clinc::what's going on in the world today, anything major",9
+what veggies can i pair with mushrooms,out_of_scope,clinc150,clinc::what veggies can i pair with mushrooms,7
+can you detect where i placed my wallet,out_of_scope,clinc150,clinc::can you detect where i placed my wallet,8
+tell me how to make a lesson plan,out_of_scope,clinc150,clinc::tell me how to make a lesson plan,8
+how many cars average are on the road daily,out_of_scope,clinc150,clinc::how many cars average are on the road daily,9
+put words on the paper about what you want,out_of_scope,clinc150,clinc::put words on the paper about what you want,9
+can you tell me whether the knicks will play the lakers this week,out_of_scope,clinc150,clinc::can you tell me whether the knicks will play the lakers this week,13
+what store has the best deals going on right now,out_of_scope,clinc150,clinc::what store has the best deals going on right now,10
+does my carrier have coverage in europe,out_of_scope,clinc150,clinc::does my carrier have coverage in europe,7
+how could i get into the guiness book of world records,out_of_scope,clinc150,clinc::how could i get into the guiness book of world records,11
+what is a good sink filter for water,out_of_scope,clinc150,clinc::what is a good sink filter for water,8
+how much is this years model of my car cost,out_of_scope,clinc150,clinc::how much is this years model of my car cost,10
+what's the current prevailing interest rate for mortgages in my area,out_of_scope,clinc150,clinc::what's the current prevailing interest rate for mortgages in my area,11
+save my text on my laptop hard drive,out_of_scope,clinc150,clinc::save my text on my laptop hard drive,8
+who was the first person to discover cells,out_of_scope,clinc150,clinc::who was the first person to discover cells,8
+do you know where the remote is,out_of_scope,clinc150,clinc::do you know where the remote is,7
+how much does a nintendo switch cost,out_of_scope,clinc150,clinc::how much does a nintendo switch cost,7
+what are the last 4 digits of my credit card number,out_of_scope,clinc150,clinc::what are the last 4 digits of my credit card number,11
+do laundry,out_of_scope,clinc150,clinc::do laundry,2
+please read me the last text message i received,out_of_scope,clinc150,clinc::please read me the last text message i received,9
+what time do i need to arrive to make it on time,out_of_scope,clinc150,clinc::what time do i need to arrive to make it on time,12
+what's the status of robotic servants from japan,out_of_scope,clinc150,clinc::what's the status of robotic servants from japan,8
+did the supreme court nominee get approvedu,out_of_scope,clinc150,clinc::did the supreme court nominee get approvedu,7
+find articles on essay writing for beginners,out_of_scope,clinc150,clinc::find articles on essay writing for beginners,7
+"at the olympics, what country won the gold medal in basketball",out_of_scope,clinc150,"clinc::at the olympics, what country won the gold medal in basketball",11
+how do i put a lens that's fallen out back in my glasses,out_of_scope,clinc150,clinc::how do i put a lens that's fallen out back in my glasses,13
+what is a good home remedy for a rash,out_of_scope,clinc150,clinc::what is a good home remedy for a rash,9
+what is the amount of blood needed to stay alive,out_of_scope,clinc150,clinc::what is the amount of blood needed to stay alive,10
+generate a list of 20 songs that include the word love in the title,out_of_scope,clinc150,clinc::generate a list of 20 songs that include the word love in the title,14
+how do you get a safe deposit box,out_of_scope,clinc150,clinc::how do you get a safe deposit box,8
+where is the colosseum,out_of_scope,clinc150,clinc::where is the colosseum,4
+help me find a new position as a programmer,out_of_scope,clinc150,clinc::help me find a new position as a programmer,9
+which houses do not have automatic spot lights in front of their garage,out_of_scope,clinc150,clinc::which houses do not have automatic spot lights in front of their garage,13
+can you book me a tee time at cantigny at 2 pm on saturday,out_of_scope,clinc150,clinc::can you book me a tee time at cantigny at 2 pm on saturday,14
+what's trending now,out_of_scope,clinc150,clinc::what's trending now,3
+show me a list of top rated airlines,out_of_scope,clinc150,clinc::show me a list of top rated airlines,8
+what's the current demand for wood from rain forests,out_of_scope,clinc150,clinc::what's the current demand for wood from rain forests,9
+look up ways for me to advance my job placement,out_of_scope,clinc150,clinc::look up ways for me to advance my job placement,10
+get me articles on earthquake preparedness,out_of_scope,clinc150,clinc::get me articles on earthquake preparedness,6
+tell me amazon's choice for a set of 4 dinner plates,out_of_scope,clinc150,clinc::tell me amazon's choice for a set of 4 dinner plates,11
+please activate a wireless hotspot so i can use the internet,out_of_scope,clinc150,clinc::please activate a wireless hotspot so i can use the internet,11
+where are classes taught near me for c++,out_of_scope,clinc150,clinc::where are classes taught near me for c++,8
+create a 500 word letter expressing love,out_of_scope,clinc150,clinc::create a 500 word letter expressing love,7
+find a credit counseling service for me on the web,out_of_scope,clinc150,clinc::find a credit counseling service for me on the web,10
+how to take care of the sick,out_of_scope,clinc150,clinc::how to take care of the sick,7
+pull up the classifieds and read the career section to me,out_of_scope,clinc150,clinc::pull up the classifieds and read the career section to me,11
+give me information on the oscars,out_of_scope,clinc150,clinc::give me information on the oscars,6
+please tell me the status of the government shutdown,out_of_scope,clinc150,clinc::please tell me the status of the government shutdown,9
+what kinds of cereal are low sugar,out_of_scope,clinc150,clinc::what kinds of cereal are low sugar,7
+check and see what the local news in broadcasting,out_of_scope,clinc150,clinc::check and see what the local news in broadcasting,9
+what is the top 10 best modems,out_of_scope,clinc150,clinc::what is the top 10 best modems,7
+compile a list of historical events from the boston marathon,out_of_scope,clinc150,clinc::compile a list of historical events from the boston marathon,10
+what to use to design my business cards,out_of_scope,clinc150,clinc::what to use to design my business cards,8
+is the bank open on mlk day,out_of_scope,clinc150,clinc::is the bank open on mlk day,7
+how do i make my android phone more secure,out_of_scope,clinc150,clinc::how do i make my android phone more secure,9
+locate jenny at her present position,out_of_scope,clinc150,clinc::locate jenny at her present position,6
+if i'm locked in a bank vault what's the best way to get out,out_of_scope,clinc150,clinc::if i'm locked in a bank vault what's the best way to get out,14
+has everyone come home from school,out_of_scope,clinc150,clinc::has everyone come home from school,6
+who is the best architecture,out_of_scope,clinc150,clinc::who is the best architecture,5
+what's the average rent of apartments in my city,out_of_scope,clinc150,clinc::what's the average rent of apartments in my city,9
+what is global warming,out_of_scope,clinc150,clinc::what is global warming,4
+can you tell me local crime in my area,out_of_scope,clinc150,clinc::can you tell me local crime in my area,9
+who invented the internet,out_of_scope,clinc150,clinc::who invented the internet,4
+please take all my money out of my checking account and close the account,out_of_scope,clinc150,clinc::please take all my money out of my checking account and close the account,14
+download all the photos off my phone into the cloud,out_of_scope,clinc150,clinc::download all the photos off my phone into the cloud,10
+how to paint walls,out_of_scope,clinc150,clinc::how to paint walls,4
+have you seen the remote,out_of_scope,clinc150,clinc::have you seen the remote,5
+what time do i have to go to work today,out_of_scope,clinc150,clinc::what time do i have to go to work today,10
+find out how to deodorize a car,out_of_scope,clinc150,clinc::find out how to deodorize a car,7
+send me live feed of the pre-game prediction show on my phone,out_of_scope,clinc150,clinc::send me live feed of the pre-game prediction show on my phone,12
+do vegans really want to blame cows for climate change,out_of_scope,clinc150,clinc::do vegans really want to blame cows for climate change,10
+find out when green book was created,out_of_scope,clinc150,clinc::find out when green book was created,7
+does cutting down the rain forest really add to global warming,out_of_scope,clinc150,clinc::does cutting down the rain forest really add to global warming,11
+look up articles on car washing at home,out_of_scope,clinc150,clinc::look up articles on car washing at home,8
+is there an alternate bus stop close to my home i can use,out_of_scope,clinc150,clinc::is there an alternate bus stop close to my home i can use,13
+give me a list of the top 5 issues people have in this country,out_of_scope,clinc150,clinc::give me a list of the top 5 issues people have in this country,14
+show me what one should do to get ahead in a tech corporation,out_of_scope,clinc150,clinc::show me what one should do to get ahead in a tech corporation,13
+how's the real estate market doing this week,out_of_scope,clinc150,clinc::how's the real estate market doing this week,8
+adjust the contrast of the black and white photos,out_of_scope,clinc150,clinc::adjust the contrast of the black and white photos,9
+whats the best rated lipstick,out_of_scope,clinc150,clinc::whats the best rated lipstick,5
+where can i list my vehicle for sell,out_of_scope,clinc150,clinc::where can i list my vehicle for sell,8
+am i connected to wifi,out_of_scope,clinc150,clinc::am i connected to wifi,5
+find out what the maximum memory size is that i can buy in a dvd,out_of_scope,clinc150,clinc::find out what the maximum memory size is that i can buy in a dvd,15
+how old is the oldest person that is in the guiness book of world records,out_of_scope,clinc150,clinc::how old is the oldest person that is in the guiness book of world records,15
+how do i write an iep for a high schooler,out_of_scope,clinc150,clinc::how do i write an iep for a high schooler,10
+how safe is it to consume the substance h2o,out_of_scope,clinc150,clinc::how safe is it to consume the substance h2o,9
+what should i do if it hurts when i pee,out_of_scope,clinc150,clinc::what should i do if it hurts when i pee,10
+what does the plus sign mean on my dashboard,out_of_scope,clinc150,clinc::what does the plus sign mean on my dashboard,9
+what movies are available,out_of_scope,clinc150,clinc::what movies are available,4
+what is the time signature for the castlevania song bloody tears,out_of_scope,clinc150,clinc::what is the time signature for the castlevania song bloody tears,11
+make a list of stocks that would be good to invest in to start making money,out_of_scope,clinc150,clinc::make a list of stocks that would be good to invest in to start making money,16
+how can i use make up to cover a cut on my cheek,out_of_scope,clinc150,clinc::how can i use make up to cover a cut on my cheek,13
+what makes pi so mathematically important,out_of_scope,clinc150,clinc::what makes pi so mathematically important,6
+how many items are in a bakers dozen,out_of_scope,clinc150,clinc::how many items are in a bakers dozen,8
+are there any school closures today,out_of_scope,clinc150,clinc::are there any school closures today,6
+organize photos by year they were taken,out_of_scope,clinc150,clinc::organize photos by year they were taken,7
+what are the top rated universities within my state,out_of_scope,clinc150,clinc::what are the top rated universities within my state,9
+show me a cool nintendo switch game,out_of_scope,clinc150,clinc::show me a cool nintendo switch game,7
+how do i change the windshield wipers,out_of_scope,clinc150,clinc::how do i change the windshield wipers,7
+tell me about the candidates running for local office in my area,out_of_scope,clinc150,clinc::tell me about the candidates running for local office in my area,12
+can you tell me how to multiply two fractions,out_of_scope,clinc150,clinc::can you tell me how to multiply two fractions,9
+how many people suffer from mental illness,out_of_scope,clinc150,clinc::how many people suffer from mental illness,7
+can you locate the television remote,out_of_scope,clinc150,clinc::can you locate the television remote,6
+what is appropriate to spend on a bouquet of flowers for mother's day,out_of_scope,clinc150,clinc::what is appropriate to spend on a bouquet of flowers for mother's day,13
+can you find me sheet music for the beatles white album online,out_of_scope,clinc150,clinc::can you find me sheet music for the beatles white album online,12
+how to plan for weddings,out_of_scope,clinc150,clinc::how to plan for weddings,5
+please read the text message i just received,out_of_scope,clinc150,clinc::please read the text message i just received,8
+make a list of all community gardens near me,out_of_scope,clinc150,clinc::make a list of all community gardens near me,9
+should i do a complete stop at red lights,out_of_scope,clinc150,clinc::should i do a complete stop at red lights,9
+can you tell me who sells dixie paper plates,out_of_scope,clinc150,clinc::can you tell me who sells dixie paper plates,9
+how do i make a sentence have stylized strike out in microsoft word,out_of_scope,clinc150,clinc::how do i make a sentence have stylized strike out in microsoft word,13
+do i have to put my mouth on theirs when doing cpr,out_of_scope,clinc150,clinc::do i have to put my mouth on theirs when doing cpr,12
+how many miles does my car currently have,out_of_scope,clinc150,clinc::how many miles does my car currently have,8
+what did trump do todayu,out_of_scope,clinc150,clinc::what did trump do todayu,5
+what's the proper subject verb order in japanese,out_of_scope,clinc150,clinc::what's the proper subject verb order in japanese,8
+i want to install new tiles in my kitchen,out_of_scope,clinc150,clinc::i want to install new tiles in my kitchen,9
+look up how to apply cream to smooth itchiness,out_of_scope,clinc150,clinc::look up how to apply cream to smooth itchiness,9
+how many people die each year while skydiving,out_of_scope,clinc150,clinc::how many people die each year while skydiving,8
+see if you can purchase a spacesuit online,out_of_scope,clinc150,clinc::see if you can purchase a spacesuit online,8
+"how many people have held the role of county attorney bearing the family name ""dixon""",out_of_scope,clinc150,"clinc::how many people have held the role of county attorney bearing the family name ""dixon""",15
+can you tell me how to get gum out of my rug,out_of_scope,clinc150,clinc::can you tell me how to get gum out of my rug,12
+can you look at what the oldest age is someone can enlist in the army,out_of_scope,clinc150,clinc::can you look at what the oldest age is someone can enlist in the army,15
+"add mary to my phone plan, please",out_of_scope,clinc150,"clinc::add mary to my phone plan, please",7
+who are the nominees for best picture this year,out_of_scope,clinc150,clinc::who are the nominees for best picture this year,9
+has the school my kids go to been in the news for any reason,out_of_scope,clinc150,clinc::has the school my kids go to been in the news for any reason,14
+show me the new york times most popular book list for this week,out_of_scope,clinc150,clinc::show me the new york times most popular book list for this week,13
+what's the first thing you should do to wash your car,out_of_scope,clinc150,clinc::what's the first thing you should do to wash your car,11
+get me a list of universities that provide full scholarships in arizona,out_of_scope,clinc150,clinc::get me a list of universities that provide full scholarships in arizona,12
+what stores are in the local mall,out_of_scope,clinc150,clinc::what stores are in the local mall,7
+when will microsoft drop support for windows 7,out_of_scope,clinc150,clinc::when will microsoft drop support for windows 7,8
+find the best prices for toothpaste at any store within a 5 mile radius of my location,out_of_scope,clinc150,clinc::find the best prices for toothpaste at any store within a 5 mile radius of my location,17
+what's a good stretch to do to limber up,out_of_scope,clinc150,clinc::what's a good stretch to do to limber up,9
+where can i find cheap rental skis nearby,out_of_scope,clinc150,clinc::where can i find cheap rental skis nearby,8
+what is popular in fashion right now,out_of_scope,clinc150,clinc::what is popular in fashion right now,7
+should i run every day,out_of_scope,clinc150,clinc::should i run every day,5
+what's my budget for today's shopping trip,out_of_scope,clinc150,clinc::what's my budget for today's shopping trip,7
+tell me who gives the best motivational speeches on the web,out_of_scope,clinc150,clinc::tell me who gives the best motivational speeches on the web,11
+what kind of glue is used for gluing pipes together,out_of_scope,clinc150,clinc::what kind of glue is used for gluing pipes together,10
+please list my real estate for sale,out_of_scope,clinc150,clinc::please list my real estate for sale,7
+are people with a mental illness eligible for disability,out_of_scope,clinc150,clinc::are people with a mental illness eligible for disability,9
+send me a motivational quote everyday for the next week,out_of_scope,clinc150,clinc::send me a motivational quote everyday for the next week,10
+how is my driving,out_of_scope,clinc150,clinc::how is my driving,4
+who is jane goodall,out_of_scope,clinc150,clinc::who is jane goodall,4
+find out who is the representative of my district,out_of_scope,clinc150,clinc::find out who is the representative of my district,9
+remind me of the address for my workplace please,out_of_scope,clinc150,clinc::remind me of the address for my workplace please,9
+how much is it to get more data on my phone plan,out_of_scope,clinc150,clinc::how much is it to get more data on my phone plan,12
+what casino game has the best odds,out_of_scope,clinc150,clinc::what casino game has the best odds,7
+what are yahoo's top stories right now,out_of_scope,clinc150,clinc::what are yahoo's top stories right now,7
+what are apartment prices now,out_of_scope,clinc150,clinc::what are apartment prices now,5
+what is the government department that regulates emissions,out_of_scope,clinc150,clinc::what is the government department that regulates emissions,8
+where's my buddy steve right this second,out_of_scope,clinc150,clinc::where's my buddy steve right this second,7
+"when was the term ""zombie"" first used",out_of_scope,clinc150,"clinc::when was the term ""zombie"" first used",7
+what movies are playing,out_of_scope,clinc150,clinc::what movies are playing,4
+what does it mean to join the occult,out_of_scope,clinc150,clinc::what does it mean to join the occult,8
+find available letter writing classes at the local community college,out_of_scope,clinc150,clinc::find available letter writing classes at the local community college,10
+what are my hours this week at work,out_of_scope,clinc150,clinc::what are my hours this week at work,8
+see if there is a recipe to make a casserole without any dairy,out_of_scope,clinc150,clinc::see if there is a recipe to make a casserole without any dairy,13
+why is the sky blue,out_of_scope,clinc150,clinc::why is the sky blue,5
+find out how many latin scholars there are at the university of chicago,out_of_scope,clinc150,clinc::find out how many latin scholars there are at the university of chicago,13
+can you tell me the s&p average,out_of_scope,clinc150,clinc::can you tell me the s&p average,7
+i would like for you to start a biography on me,out_of_scope,clinc150,clinc::i would like for you to start a biography on me,11
+what is the highest quality carpet available,out_of_scope,clinc150,clinc::what is the highest quality carpet available,7
+look up student loan offers on google,out_of_scope,clinc150,clinc::look up student loan offers on google,7
+what are the new player rankings for the nhl,out_of_scope,clinc150,clinc::what are the new player rankings for the nhl,9
+i need to get kalee added to my phone plan,out_of_scope,clinc150,clinc::i need to get kalee added to my phone plan,10
+how is ford's stock doing,out_of_scope,clinc150,clinc::how is ford's stock doing,5
+explain how small talk helps bind groups together,out_of_scope,clinc150,clinc::explain how small talk helps bind groups together,8
+tell me about the oscars,out_of_scope,clinc150,clinc::tell me about the oscars,5
+can you recommend some fiction books,out_of_scope,clinc150,clinc::can you recommend some fiction books,6
+what is my current signal strength,out_of_scope,clinc150,clinc::what is my current signal strength,6
+are there any sales on groceries today,out_of_scope,clinc150,clinc::are there any sales on groceries today,7
+how do i get rid of sore throat at home,out_of_scope,clinc150,clinc::how do i get rid of sore throat at home,10
+what is the current price of tsla,out_of_scope,clinc150,clinc::what is the current price of tsla,7
+what do you do all day while i'm at work,out_of_scope,clinc150,clinc::what do you do all day while i'm at work,10
+is the movie avatar culturally insensitive,out_of_scope,clinc150,clinc::is the movie avatar culturally insensitive,6
+did a man really die trying to be loved by a horse,out_of_scope,clinc150,clinc::did a man really die trying to be loved by a horse,12
+program my new robot to bring me snacks,out_of_scope,clinc150,clinc::program my new robot to bring me snacks,8
+who has the best record in the nba,out_of_scope,clinc150,clinc::who has the best record in the nba,8
+when does napa close,out_of_scope,clinc150,clinc::when does napa close,4
+how much sugar was in my urine this morning,out_of_scope,clinc150,clinc::how much sugar was in my urine this morning,9
+show me how many community centers are located within 5 miles of my location,out_of_scope,clinc150,clinc::show me how many community centers are located within 5 miles of my location,14
+which company has gone up the most today,out_of_scope,clinc150,clinc::which company has gone up the most today,8
+give me a list of the top 10 tennis players in the world,out_of_scope,clinc150,clinc::give me a list of the top 10 tennis players in the world,13
+fill out the paperwork for tonys new daycare center,out_of_scope,clinc150,clinc::fill out the paperwork for tonys new daycare center,9
+tell me about that kind of cameras,out_of_scope,clinc150,clinc::tell me about that kind of cameras,7
+where did mandarin originate from,out_of_scope,clinc150,clinc::where did mandarin originate from,5
+how do you treat an iron skillet,out_of_scope,clinc150,clinc::how do you treat an iron skillet,7
+what's the best type of plan to upgrade to,out_of_scope,clinc150,clinc::what's the best type of plan to upgrade to,9
+i need to find a black suit under $100,out_of_scope,clinc150,clinc::i need to find a black suit under $100,9
+let me know where jim is right now,out_of_scope,clinc150,clinc::let me know where jim is right now,8
+find me a graphic tutorial on writing longhand,out_of_scope,clinc150,clinc::find me a graphic tutorial on writing longhand,8
+display the song lyrics for me,out_of_scope,clinc150,clinc::display the song lyrics for me,6
+how long does it take for grass seed to grow on my lawn,out_of_scope,clinc150,clinc::how long does it take for grass seed to grow on my lawn,13
+what films are in the running for best song at this year's oscars,out_of_scope,clinc150,clinc::what films are in the running for best song at this year's oscars,13
+is michonne wrong for not working with the kingdom to put on the fair,out_of_scope,clinc150,clinc::is michonne wrong for not working with the kingdom to put on the fair,14
+how many harry potter books are there,out_of_scope,clinc150,clinc::how many harry potter books are there,7
+what kind of traits do vampires have,out_of_scope,clinc150,clinc::what kind of traits do vampires have,7
+what teams are playing right now,out_of_scope,clinc150,clinc::what teams are playing right now,6
+does dhl deliver to my address,out_of_scope,clinc150,clinc::does dhl deliver to my address,6
+how many moons does mars have,out_of_scope,clinc150,clinc::how many moons does mars have,6
+look up articles on the green dry cleaning industry,out_of_scope,clinc150,clinc::look up articles on the green dry cleaning industry,9
+park the car,out_of_scope,clinc150,clinc::park the car,3
+why is my dog vomiting after eating,out_of_scope,clinc150,clinc::why is my dog vomiting after eating,7
+what's the best golf club to use on the lower nine,out_of_scope,clinc150,clinc::what's the best golf club to use on the lower nine,11
+is there a fee for cancelling a flight i've booked,out_of_scope,clinc150,clinc::is there a fee for cancelling a flight i've booked,10
+please check up on my son's homework,out_of_scope,clinc150,clinc::please check up on my son's homework,7
+what bands are touring in my city this week,out_of_scope,clinc150,clinc::what bands are touring in my city this week,9
+tell me how to refinish a wooden desk,out_of_scope,clinc150,clinc::tell me how to refinish a wooden desk,8
+is insomnia curable,out_of_scope,clinc150,clinc::is insomnia curable,3
+what oil is best for chicken,out_of_scope,clinc150,clinc::what oil is best for chicken,6
+check to see if i need a pass to use the parking garages downtown,out_of_scope,clinc150,clinc::check to see if i need a pass to use the parking garages downtown,14
+do sets of 25 set-ups each morning til you have completed your goal,out_of_scope,clinc150,clinc::do sets of 25 set-ups each morning til you have completed your goal,13
+find me a book on motivational speaking from amazon,out_of_scope,clinc150,clinc::find me a book on motivational speaking from amazon,9
+i want to buy some nintendo switch game,out_of_scope,clinc150,clinc::i want to buy some nintendo switch game,8
+"declare a variable named ""golf""",out_of_scope,clinc150,"clinc::declare a variable named ""golf""",5
+find out what gentlemen are wearing to weddings these days,out_of_scope,clinc150,clinc::find out what gentlemen are wearing to weddings these days,10
+who won the patriots game last nightu,out_of_scope,clinc150,clinc::who won the patriots game last nightu,7
+what's the extended zipcode for my address,out_of_scope,clinc150,clinc::what's the extended zipcode for my address,7
+what is the official language of romania,out_of_scope,clinc150,clinc::what is the official language of romania,7
+i'd like to hire someone to wash my car,out_of_scope,clinc150,clinc::i'd like to hire someone to wash my car,9
+what's the highest rated social services non-profit,out_of_scope,clinc150,clinc::what's the highest rated social services non-profit,7
+"i watched ""were the millers"" on netflix last night",out_of_scope,clinc150,"clinc::i watched ""were the millers"" on netflix last night",9
+what should i take for nausea,out_of_scope,clinc150,clinc::what should i take for nausea,6
+what is the price of other company's similar phone plans,out_of_scope,clinc150,clinc::what is the price of other company's similar phone plans,10
+is my computer free from viruses,out_of_scope,clinc150,clinc::is my computer free from viruses,6
+how do i get venture capital for my app,out_of_scope,clinc150,clinc::how do i get venture capital for my app,9
+can you tell me what key frank zappa's keep it greasy is in,out_of_scope,clinc150,clinc::can you tell me what key frank zappa's keep it greasy is in,13
+where's the closest car wash my car smells,out_of_scope,clinc150,clinc::where's the closest car wash my car smells,8
+what is the best way to clean ceiling fans,out_of_scope,clinc150,clinc::what is the best way to clean ceiling fans,9
+how long is the bank open until,out_of_scope,clinc150,clinc::how long is the bank open until,7
+what year was jane austen born,out_of_scope,clinc150,clinc::what year was jane austen born,6
+what's the best way to build a skyscraper,out_of_scope,clinc150,clinc::what's the best way to build a skyscraper,8
+please book another boat for this weekends trip,out_of_scope,clinc150,clinc::please book another boat for this weekends trip,8
+what are the scores of other teams in this division,out_of_scope,clinc150,clinc::what are the scores of other teams in this division,10
+what's out at the theaters right now,out_of_scope,clinc150,clinc::what's out at the theaters right now,7
+what articles are written at the cnn site about the women's march,out_of_scope,clinc150,clinc::what articles are written at the cnn site about the women's march,12
+tell me where i can get more information on getting a job at the post office,out_of_scope,clinc150,clinc::tell me where i can get more information on getting a job at the post office,16
+make a chart of the different types of whales,out_of_scope,clinc150,clinc::make a chart of the different types of whales,9
+can i use direct deposit for my tax refund,out_of_scope,clinc150,clinc::can i use direct deposit for my tax refund,9
+how many greek mythology characters are there,out_of_scope,clinc150,clinc::how many greek mythology characters are there,7
+generate a list of the past 10 judge executives,out_of_scope,clinc150,clinc::generate a list of the past 10 judge executives,9
+instruct a list of all the brands of cereal manufactured by kelloggs,out_of_scope,clinc150,clinc::instruct a list of all the brands of cereal manufactured by kelloggs,12
+read my friend's text message,out_of_scope,clinc150,clinc::read my friend's text message,5
+what kind of foods are border collies allergic to,out_of_scope,clinc150,clinc::what kind of foods are border collies allergic to,9
+"i need to find work, help me connect to a local business through linkedin",out_of_scope,clinc150,"clinc::i need to find work, help me connect to a local business through linkedin",14
+what is bitcoin trading for currently,out_of_scope,clinc150,clinc::what is bitcoin trading for currently,6
+tell me how much energy i have consumed so far this year,out_of_scope,clinc150,clinc::tell me how much energy i have consumed so far this year,12
+can you sell stocks for me,out_of_scope,clinc150,clinc::can you sell stocks for me,6
+did madison really bathe in the potomac naked,out_of_scope,clinc150,clinc::did madison really bathe in the potomac naked,8
+do you know if it is possible to close my savings account,out_of_scope,clinc150,clinc::do you know if it is possible to close my savings account,12
+clear my search history,out_of_scope,clinc150,clinc::clear my search history,4
+do other providers have better coverage than my cell carrier,out_of_scope,clinc150,clinc::do other providers have better coverage than my cell carrier,10
+is the earth flat,out_of_scope,clinc150,clinc::is the earth flat,4
+can you please start the avatar movie for me,out_of_scope,clinc150,clinc::can you please start the avatar movie for me,9
+what is the best product for removing soap scum,out_of_scope,clinc150,clinc::what is the best product for removing soap scum,9
+can you find my car in the parking lot,out_of_scope,clinc150,clinc::can you find my car in the parking lot,9
+is it too late to wear white,out_of_scope,clinc150,clinc::is it too late to wear white,7
+tell me more about bill gates,out_of_scope,clinc150,clinc::tell me more about bill gates,6
+find out how i can best clip my dog's nails,out_of_scope,clinc150,clinc::find out how i can best clip my dog's nails,10
+what happened with the summit between trump and jong,out_of_scope,clinc150,clinc::what happened with the summit between trump and jong,9
+how do i get stains out of the carpet,out_of_scope,clinc150,clinc::how do i get stains out of the carpet,9
+does disney world close when it storms,out_of_scope,clinc150,clinc::does disney world close when it storms,7
+what are the top rated local lawyers,out_of_scope,clinc150,clinc::what are the top rated local lawyers,7
+erase all voicemails in my inbox please,out_of_scope,clinc150,clinc::erase all voicemails in my inbox please,7
+can you auto-pilot the car,out_of_scope,clinc150,clinc::can you auto-pilot the car,5
+vacuum out the car,out_of_scope,clinc150,clinc::vacuum out the car,4
+tell me a list of my local papers,out_of_scope,clinc150,clinc::tell me a list of my local papers,8
+google the price of skydiving in florida,out_of_scope,clinc150,clinc::google the price of skydiving in florida,7
+what's the cost of bottled water,out_of_scope,clinc150,clinc::what's the cost of bottled water,6
+what are some good methods of relieving stress,out_of_scope,clinc150,clinc::what are some good methods of relieving stress,8
+can you fill in my credit card number on the screen,out_of_scope,clinc150,clinc::can you fill in my credit card number on the screen,11
+look up pitcher stats on jake rooney,out_of_scope,clinc150,clinc::look up pitcher stats on jake rooney,7
+who makes milky way bars,out_of_scope,clinc150,clinc::who makes milky way bars,5
+when do the kids get out of school today,out_of_scope,clinc150,clinc::when do the kids get out of school today,9
+is it too late to upgrade to first class,out_of_scope,clinc150,clinc::is it too late to upgrade to first class,9
+order me a blue pin stripe suit from saville row,out_of_scope,clinc150,clinc::order me a blue pin stripe suit from saville row,10
+who is the start of the movie almost famous,out_of_scope,clinc150,clinc::who is the start of the movie almost famous,9
+show me a tabulation of reviews for lcd tv's on amazon,out_of_scope,clinc150,clinc::show me a tabulation of reviews for lcd tv's on amazon,11
+i am looking for a suit for work,out_of_scope,clinc150,clinc::i am looking for a suit for work,8
+how many push-ups do i need to do to get ripped,out_of_scope,clinc150,clinc::how many push-ups do i need to do to get ripped,11
+forward the text i just got from henry to giselle,out_of_scope,clinc150,clinc::forward the text i just got from henry to giselle,10
+i need to hire a grass treatment specialist,out_of_scope,clinc150,clinc::i need to hire a grass treatment specialist,8
+renew gym membership,out_of_scope,clinc150,clinc::renew gym membership,3
+find me articles on appropriate wedding attire,out_of_scope,clinc150,clinc::find me articles on appropriate wedding attire,7
+find me examples of post modern art,out_of_scope,clinc150,clinc::find me examples of post modern art,7
+"according to my fitness tracker, how many push ups have i done today",out_of_scope,clinc150,"clinc::according to my fitness tracker, how many push ups have i done today",13
+tell me the value on my current car,out_of_scope,clinc150,clinc::tell me the value on my current car,8
+how many movies are in the star wars series,out_of_scope,clinc150,clinc::how many movies are in the star wars series,9
+what stores are at my local mall,out_of_scope,clinc150,clinc::what stores are at my local mall,7
+tell me the steps as to how to begin a career as a journalist,out_of_scope,clinc150,clinc::tell me the steps as to how to begin a career as a journalist,14
+what will it take to achieve world peace,out_of_scope,clinc150,clinc::what will it take to achieve world peace,8
+"can you find ""were the millers"" on hulu",out_of_scope,clinc150,"clinc::can you find ""were the millers"" on hulu",8
+how many hurricanes are in an average hurricane season,out_of_scope,clinc150,clinc::how many hurricanes are in an average hurricane season,9
+can you look up grocery coupons for me,out_of_scope,clinc150,clinc::can you look up grocery coupons for me,8
+look up daily dog kennels in my area,out_of_scope,clinc150,clinc::look up daily dog kennels in my area,8
+it is white colour,out_of_scope,clinc150,clinc::it is white colour,4
+what other countries speak the english language,out_of_scope,clinc150,clinc::what other countries speak the english language,7
+why did a bunch of christians go off murdering muslims in the middle ages,out_of_scope,clinc150,clinc::why did a bunch of christians go off murdering muslims in the middle ages,14
+what brand was the last advertisement for,out_of_scope,clinc150,clinc::what brand was the last advertisement for,7
+make an ad to sell my real estate,out_of_scope,clinc150,clinc::make an ad to sell my real estate,8
+what's in fashion this month,out_of_scope,clinc150,clinc::what's in fashion this month,5
+play the current tennis match on the tv in the living room,out_of_scope,clinc150,clinc::play the current tennis match on the tv in the living room,12
+what's going on in the world today,out_of_scope,clinc150,clinc::what's going on in the world today,7
+do i have overdraft protection,out_of_scope,clinc150,clinc::do i have overdraft protection,5
+is there a better bus route i should be taking,out_of_scope,clinc150,clinc::is there a better bus route i should be taking,10
+tell me who aphrodite is,out_of_scope,clinc150,clinc::tell me who aphrodite is,5
+please check if god is really living in a small apartment in brussels,out_of_scope,clinc150,clinc::please check if god is really living in a small apartment in brussels,13
+check battery health on this device,out_of_scope,clinc150,clinc::check battery health on this device,6
+tell me where to go to get my son enrolled in public kindergarten,out_of_scope,clinc150,clinc::tell me where to go to get my son enrolled in public kindergarten,13
+are there any new job postings in my area in the last hour for jobs on craigslist,out_of_scope,clinc150,clinc::are there any new job postings in my area in the last hour for jobs on craigslist,17
+change out the older photos with the newer ones,out_of_scope,clinc150,clinc::change out the older photos with the newer ones,9
+at what age can someone get a card,out_of_scope,clinc150,clinc::at what age can someone get a card,8
+send me a quote from a motivational speaker twice a day,out_of_scope,clinc150,clinc::send me a quote from a motivational speaker twice a day,11
+how many steps have i taken today,out_of_scope,clinc150,clinc::how many steps have i taken today,7
+is there a fork in the road sign at main & 1st avenue,out_of_scope,clinc150,clinc::is there a fork in the road sign at main & 1st avenue,13
+tell me how i can file a pleading in circuit court,out_of_scope,clinc150,clinc::tell me how i can file a pleading in circuit court,11
+can you give me some stress management tips,out_of_scope,clinc150,clinc::can you give me some stress management tips,8
+what was hercules the god of,out_of_scope,clinc150,clinc::what was hercules the god of,6
+plant all your flowers just after easter in early april,out_of_scope,clinc150,clinc::plant all your flowers just after easter in early april,10
+can the nsa crack the encryption on my iphone,out_of_scope,clinc150,clinc::can the nsa crack the encryption on my iphone,9
+find out what supplies i am missing and will need on my upcoming camping trip,out_of_scope,clinc150,clinc::find out what supplies i am missing and will need on my upcoming camping trip,15
+take a ride on the ferris wheel,out_of_scope,clinc150,clinc::take a ride on the ferris wheel,7
+mickey mouse is a huge part of disney,out_of_scope,clinc150,clinc::mickey mouse is a huge part of disney,8
+is anything on my grocery list on sale today,out_of_scope,clinc150,clinc::is anything on my grocery list on sale today,9
+is there any news if my parents survived the crash,out_of_scope,clinc150,clinc::is there any news if my parents survived the crash,10
+what's a good gift to get for your grandparents,out_of_scope,clinc150,clinc::what's a good gift to get for your grandparents,9
+how many pokemon have i caught in my pokemon go app,out_of_scope,clinc150,clinc::how many pokemon have i caught in my pokemon go app,11
+how frequently is the bus running today,out_of_scope,clinc150,clinc::how frequently is the bus running today,7
+when should you use a dry cleaner,out_of_scope,clinc150,clinc::when should you use a dry cleaner,7
+tell me what my current eyeglasses prescription is,out_of_scope,clinc150,clinc::tell me what my current eyeglasses prescription is,8
+can you look at what average reviews say about the new windows phone on amazon for me,out_of_scope,clinc150,clinc::can you look at what average reviews say about the new windows phone on amazon for me,17
+latest hair styles for long natural hair,out_of_scope,clinc150,clinc::latest hair styles for long natural hair,7
+keep a note of how many miles you walk a day,out_of_scope,clinc150,clinc::keep a note of how many miles you walk a day,11
+how can i make my living room appear to be bigger than it is,out_of_scope,clinc150,clinc::how can i make my living room appear to be bigger than it is,14
+what are the limits in my phone plan,out_of_scope,clinc150,clinc::what are the limits in my phone plan,8
+is there a cheaper rate with another carrier for my mobile,out_of_scope,clinc150,clinc::is there a cheaper rate with another carrier for my mobile,11
+make me a list of the top ten reviewed hiking boots on jetcom,out_of_scope,clinc150,clinc::make me a list of the top ten reviewed hiking boots on jetcom,13
+how do i turn up the resolution that i am taking pictures in on my camera phone,out_of_scope,clinc150,clinc::how do i turn up the resolution that i am taking pictures in on my camera phone,17
+get me articles and pics of different types of household bugs for this area,out_of_scope,clinc150,clinc::get me articles and pics of different types of household bugs for this area,14
+"do a job search on monstercom for jobs in the tech field in arlington, va",out_of_scope,clinc150,"clinc::do a job search on monstercom for jobs in the tech field in arlington, va",15
+what's the best reviewed local roof repair place,out_of_scope,clinc150,clinc::what's the best reviewed local roof repair place,8
+when will nightwish be touring through my city,out_of_scope,clinc150,clinc::when will nightwish be touring through my city,8
+how long does it take to get your yellow belt in karate,out_of_scope,clinc150,clinc::how long does it take to get your yellow belt in karate,12
+switch over to low power mode to preserve battery life,out_of_scope,clinc150,clinc::switch over to low power mode to preserve battery life,10
+has the market been up or down since the beginning of this year,out_of_scope,clinc150,clinc::has the market been up or down since the beginning of this year,13
+how many calories does jumping up and down burn,out_of_scope,clinc150,clinc::how many calories does jumping up and down burn,9
+what's my boss' home address,out_of_scope,clinc150,clinc::what's my boss' home address,5
+delete the contact uncle john from my phone,out_of_scope,clinc150,clinc::delete the contact uncle john from my phone,8
+how does the etheric body operate,out_of_scope,clinc150,clinc::how does the etheric body operate,6
+"show me laptops for sale that are under $2,000",out_of_scope,clinc150,"clinc::show me laptops for sale that are under $2,000",9
+what's it like to have parents who actually love you,out_of_scope,clinc150,clinc::what's it like to have parents who actually love you,10
+what's the power consumption of my fridge,out_of_scope,clinc150,clinc::what's the power consumption of my fridge,7
+where is the closest driving range,out_of_scope,clinc150,clinc::where is the closest driving range,6
+i need for you to look up some of the major gods in mythology,out_of_scope,clinc150,clinc::i need for you to look up some of the major gods in mythology,14
+what is one standard deviation,out_of_scope,clinc150,clinc::what is one standard deviation,5
+what are cars like mine selling for online,out_of_scope,clinc150,clinc::what are cars like mine selling for online,8
+what is the best way for dealing with the airport,out_of_scope,clinc150,clinc::what is the best way for dealing with the airport,10
+what's the newspaper today,out_of_scope,clinc150,clinc::what's the newspaper today,4
+show me the best times to book flights for traveling to another country,out_of_scope,clinc150,clinc::show me the best times to book flights for traveling to another country,13
+tell me what pokemon is,out_of_scope,clinc150,clinc::tell me what pokemon is,5
+get me a list of personal conservation tips that i can use around the house,out_of_scope,clinc150,clinc::get me a list of personal conservation tips that i can use around the house,15
+organize my photos by date please,out_of_scope,clinc150,clinc::organize my photos by date please,6
+can i summon a demon using just an ouija board,out_of_scope,clinc150,clinc::can i summon a demon using just an ouija board,10
+how many parks are within 20 miles of me,out_of_scope,clinc150,clinc::how many parks are within 20 miles of me,9
+what person is the heaviest ever recorded,out_of_scope,clinc150,clinc::what person is the heaviest ever recorded,7
+can my grace period be extended any possible way,out_of_scope,clinc150,clinc::can my grace period be extended any possible way,9
+look up the conversion rate for the euro to dollar exchange,out_of_scope,clinc150,clinc::look up the conversion rate for the euro to dollar exchange,11
+was the god osiris a titan or an old god,out_of_scope,clinc150,clinc::was the god osiris a titan or an old god,10
+find a credit mentoring service number for me please,out_of_scope,clinc150,clinc::find a credit mentoring service number for me please,9
+report outage to my electric provider,out_of_scope,clinc150,clinc::report outage to my electric provider,6
+does denim go with anything,out_of_scope,clinc150,clinc::does denim go with anything,5
+i need to find a new babysitter,out_of_scope,clinc150,clinc::i need to find a new babysitter,7
+what is a good chemistry experiment to learn from,out_of_scope,clinc150,clinc::what is a good chemistry experiment to learn from,9
+show me examples of cute eyeglass frames,out_of_scope,clinc150,clinc::show me examples of cute eyeglass frames,7
+how long does it take to get a divorce finalized,out_of_scope,clinc150,clinc::how long does it take to get a divorce finalized,10
+make a list of decor i would need to have a titanic themed birthday party,out_of_scope,clinc150,clinc::make a list of decor i would need to have a titanic themed birthday party,15
+is gambling legal in my state,out_of_scope,clinc150,clinc::is gambling legal in my state,6
+what was the latest tremor on the richter scale,out_of_scope,clinc150,clinc::what was the latest tremor on the richter scale,9
+what are the camping restrictions at bear island,out_of_scope,clinc150,clinc::what are the camping restrictions at bear island,8
+are the schools closed,out_of_scope,clinc150,clinc::are the schools closed,4
+look up the email address of the local police,out_of_scope,clinc150,clinc::look up the email address of the local police,9
+cancel my subscription to scientific american,out_of_scope,clinc150,clinc::cancel my subscription to scientific american,6
+what's the best hand to have in texas hold em,out_of_scope,clinc150,clinc::what's the best hand to have in texas hold em,10
+when was albert einstein born,out_of_scope,clinc150,clinc::when was albert einstein born,5
+will amazon ship an order even if there was a pricing mistake,out_of_scope,clinc150,clinc::will amazon ship an order even if there was a pricing mistake,12
+how many books are in piers anthony virtual mode series,out_of_scope,clinc150,clinc::how many books are in piers anthony virtual mode series,10
+where will the next olympics be hosted,out_of_scope,clinc150,clinc::where will the next olympics be hosted,7
+"how do i deal with angry, painful red bumps",out_of_scope,clinc150,"clinc::how do i deal with angry, painful red bumps",9
+how does my current htc phone compare to other android phones,out_of_scope,clinc150,clinc::how does my current htc phone compare to other android phones,11
+call an uber to take me to the closest grocery store,out_of_scope,clinc150,clinc::call an uber to take me to the closest grocery store,11
+what size pipes are used for sinks,out_of_scope,clinc150,clinc::what size pipes are used for sinks,7
+restart my newspaper delivery for monday,out_of_scope,clinc150,clinc::restart my newspaper delivery for monday,6
+what did my best friend do in the kitchen while we were gone,out_of_scope,clinc150,clinc::what did my best friend do in the kitchen while we were gone,13
+tell me where i can get the cheapest tennis balls on the internet,out_of_scope,clinc150,clinc::tell me where i can get the cheapest tennis balls on the internet,13
+how many flavors of mnm's are there,out_of_scope,clinc150,clinc::how many flavors of mnm's are there,7
+search information on how to apply foundation,out_of_scope,clinc150,clinc::search information on how to apply foundation,7
+what shows are on tonight,out_of_scope,clinc150,clinc::what shows are on tonight,5
+why would the water be turned off,out_of_scope,clinc150,clinc::why would the water be turned off,7
+how much does it cost to get two jackets dry cleaned,out_of_scope,clinc150,clinc::how much does it cost to get two jackets dry cleaned,11
+tell me what the best shampoo is for someone with dry scalp,out_of_scope,clinc150,clinc::tell me what the best shampoo is for someone with dry scalp,12
+i need tips on how to overcome insomnia,out_of_scope,clinc150,clinc::i need tips on how to overcome insomnia,8
+what is the distance between the goal posts in football,out_of_scope,clinc150,clinc::what is the distance between the goal posts in football,10
+can you check how many miles i walked today when i was out get the info from my phone,out_of_scope,clinc150,clinc::can you check how many miles i walked today when i was out get the info from my phone,19
+review chapter 6 with my son and verify his math homework answers,out_of_scope,clinc150,clinc::review chapter 6 with my son and verify his math homework answers,12
+go on the ferris wheel,out_of_scope,clinc150,clinc::go on the ferris wheel,5
+where is the closest architecture college,out_of_scope,clinc150,clinc::where is the closest architecture college,6
+check to see how many miles are on my car,out_of_scope,clinc150,clinc::check to see how many miles are on my car,10
+compare the new life growth in trees when the seasons change,out_of_scope,clinc150,clinc::compare the new life growth in trees when the seasons change,11
+get me a copy of a book on negotiation in the workplace,out_of_scope,clinc150,clinc::get me a copy of a book on negotiation in the workplace,12
+find out where i can by melamine dinner plates,out_of_scope,clinc150,clinc::find out where i can by melamine dinner plates,9
+how do you get red wine out of the carpet,out_of_scope,clinc150,clinc::how do you get red wine out of the carpet,10
+how many elements are on the periodic table,out_of_scope,clinc150,clinc::how many elements are on the periodic table,8
+how many months do i left in my hbo subscription,out_of_scope,clinc150,clinc::how many months do i left in my hbo subscription,10
+how many voicemail messages do i have,out_of_scope,clinc150,clinc::how many voicemail messages do i have,7
+"has there ever been total world peace, where no nations in the world are at war",out_of_scope,clinc150,"clinc::has there ever been total world peace, where no nations in the world are at war",16
+find out where parking is close to the stadium,out_of_scope,clinc150,clinc::find out where parking is close to the stadium,9
+when should you mow your grass after it's rained,out_of_scope,clinc150,clinc::when should you mow your grass after it's rained,9
+what year was the first airplane built in,out_of_scope,clinc150,clinc::what year was the first airplane built in,8
+find someone local who mows lawns,out_of_scope,clinc150,clinc::find someone local who mows lawns,6
+i need you to order a new pair of eyeglasses for me,out_of_scope,clinc150,clinc::i need you to order a new pair of eyeglasses for me,12
+what's my current electric bill,out_of_scope,clinc150,clinc::what's my current electric bill,5
+how do i stop my child from setting small animals on fire for amusement,out_of_scope,clinc150,clinc::how do i stop my child from setting small animals on fire for amusement,14
+is there more than one occult that a person can join,out_of_scope,clinc150,clinc::is there more than one occult that a person can join,11
+write the next chapter of my biography and let me know when you have finished it,out_of_scope,clinc150,clinc::write the next chapter of my biography and let me know when you have finished it,16
+fill up my water bottle for the gym,out_of_scope,clinc150,clinc::fill up my water bottle for the gym,8
+look up the current auto loan rate at chase bank,out_of_scope,clinc150,clinc::look up the current auto loan rate at chase bank,10
+tell me a scary story,out_of_scope,clinc150,clinc::tell me a scary story,5
+sign me up for the slack employment forum,out_of_scope,clinc150,clinc::sign me up for the slack employment forum,8
+is there a vaccine for ebola,out_of_scope,clinc150,clinc::is there a vaccine for ebola,6
+what is the nature of the big bang theory,out_of_scope,clinc150,clinc::what is the nature of the big bang theory,9
+look up the top 3 selling post modern artists in the united states,out_of_scope,clinc150,clinc::look up the top 3 selling post modern artists in the united states,13
+make a list of the top 100 famous quotes,out_of_scope,clinc150,clinc::make a list of the top 100 famous quotes,9
+"from the second of the left ,the pink one",out_of_scope,clinc150,"clinc::from the second of the left ,the pink one",9
+tell me about personal finance,out_of_scope,clinc150,clinc::tell me about personal finance,5
+please print out copies of my resume,out_of_scope,clinc150,clinc::please print out copies of my resume,7
+add my wife as an authorized user to checking account 20905432,out_of_scope,clinc150,clinc::add my wife as an authorized user to checking account 20905432,11
+time my next run at the boston marathon,out_of_scope,clinc150,clinc::time my next run at the boston marathon,8
+what are some things i can do on the way to work,out_of_scope,clinc150,clinc::what are some things i can do on the way to work,12
+do you own the mineral rights to gold nuggets you find in your back yard,out_of_scope,clinc150,clinc::do you own the mineral rights to gold nuggets you find in your back yard,15
+create a contact labeled mom,out_of_scope,clinc150,clinc::create a contact labeled mom,5
+find out how many miles the mississippi waterway runs,out_of_scope,clinc150,clinc::find out how many miles the mississippi waterway runs,9
+tell me a summary of reviews that oakley frogskins get on amazon,out_of_scope,clinc150,clinc::tell me a summary of reviews that oakley frogskins get on amazon,12
+what should i do if i saw a cockroach in my house,out_of_scope,clinc150,clinc::what should i do if i saw a cockroach in my house,12
+please replay the last five minutes,out_of_scope,clinc150,clinc::please replay the last five minutes,6
+"order the new book titled ""ghost work""",out_of_scope,clinc150,"clinc::order the new book titled ""ghost work""",7
+what does the average cost of an engagement ring,out_of_scope,clinc150,clinc::what does the average cost of an engagement ring,9
+are all televisions high definition,out_of_scope,clinc150,clinc::are all televisions high definition,5
+when's the next mardi gras going to be,out_of_scope,clinc150,clinc::when's the next mardi gras going to be,8
+am i currently connected to wifi,out_of_scope,clinc150,clinc::am i currently connected to wifi,6
+"google ""odell beckham free agency""",out_of_scope,clinc150,"clinc::google ""odell beckham free agency""",5
+can you see if the octopus eggs have hatched yet,out_of_scope,clinc150,clinc::can you see if the octopus eggs have hatched yet,10
+call the grocery store and get their operational hours,out_of_scope,clinc150,clinc::call the grocery store and get their operational hours,9
+where can i get the flu shot,out_of_scope,clinc150,clinc::where can i get the flu shot,7
+how many acres do you need to buy a horse,out_of_scope,clinc150,clinc::how many acres do you need to buy a horse,10
+can you tell me who's calling me,out_of_scope,clinc150,clinc::can you tell me who's calling me,7
+i would like to know how long a charge is suppose to last on my phone,out_of_scope,clinc150,clinc::i would like to know how long a charge is suppose to last on my phone,16
+send me videos of how to do a smoky eye,out_of_scope,clinc150,clinc::send me videos of how to do a smoky eye,10
+what is the most famous quote on the internet,out_of_scope,clinc150,clinc::what is the most famous quote on the internet,9
+how can i control where microsoft word inserts a page break,out_of_scope,clinc150,clinc::how can i control where microsoft word inserts a page break,11
+look up the operating hours of my local park on weekends,out_of_scope,clinc150,clinc::look up the operating hours of my local park on weekends,11
+can you enable subtitles,out_of_scope,clinc150,clinc::can you enable subtitles,4
+what is the best reviewed laptop available on the market,out_of_scope,clinc150,clinc::what is the best reviewed laptop available on the market,10
+what is the account number to the internet service i have,out_of_scope,clinc150,clinc::what is the account number to the internet service i have,11
+check to see if i still have allergy medication,out_of_scope,clinc150,clinc::check to see if i still have allergy medication,9
+make a list of all sites in the us where spirits have been seen at night,out_of_scope,clinc150,clinc::make a list of all sites in the us where spirits have been seen at night,16
+which movie is it that someone says perfectly balanced as all things should be,out_of_scope,clinc150,clinc::which movie is it that someone says perfectly balanced as all things should be,14
+find an article on celebrities who made it out of poverty,out_of_scope,clinc150,clinc::find an article on celebrities who made it out of poverty,11
+what do i wear on my feet when it rains,out_of_scope,clinc150,clinc::what do i wear on my feet when it rains,10
+what's the main export by the peoples of greenland,out_of_scope,clinc150,clinc::what's the main export by the peoples of greenland,9
+can you check on what it would cost me to upgrade my iphone with t-mobile,out_of_scope,clinc150,clinc::can you check on what it would cost me to upgrade my iphone with t-mobile,15
+put into words what you want,out_of_scope,clinc150,clinc::put into words what you want,6
+how to be millionare,out_of_scope,clinc150,clinc::how to be millionare,4
+check current prime mortgage rate,out_of_scope,clinc150,clinc::check current prime mortgage rate,5
+can you look at when the next iphone is due out,out_of_scope,clinc150,clinc::can you look at when the next iphone is due out,11
+could you pull up the nsa website,out_of_scope,clinc150,clinc::could you pull up the nsa website,7
+what zelda games are available on the switch,out_of_scope,clinc150,clinc::what zelda games are available on the switch,8
+give me a recommendation for a local landscaper,out_of_scope,clinc150,clinc::give me a recommendation for a local landscaper,8
+how much has microsoft's stock changed over the last year,out_of_scope,clinc150,clinc::how much has microsoft's stock changed over the last year,10
+can you find the answer to number 26 in this algebra two textbook,out_of_scope,clinc150,clinc::can you find the answer to number 26 in this algebra two textbook,13
+what brush can i use to wash my car that won't scratch it,out_of_scope,clinc150,clinc::what brush can i use to wash my car that won't scratch it,13
+tell me how long until the nascar race begins,out_of_scope,clinc150,clinc::tell me how long until the nascar race begins,9
+how much is my car worth used,out_of_scope,clinc150,clinc::how much is my car worth used,7
+how much memory do i have left on this phone,out_of_scope,clinc150,clinc::how much memory do i have left on this phone,10
+wash windshield,out_of_scope,clinc150,clinc::wash windshield,2
+ignore call,out_of_scope,clinc150,clinc::ignore call,2
+how do you make sure a bridge doesn't fall down,out_of_scope,clinc150,clinc::how do you make sure a bridge doesn't fall down,10
+i'd like to find some curtains that look good in this room,out_of_scope,clinc150,clinc::i'd like to find some curtains that look good in this room,12
+how do you start an essay,out_of_scope,clinc150,clinc::how do you start an essay,6
+what is phosphorus on the periodic table,out_of_scope,clinc150,clinc::what is phosphorus on the periodic table,7
+are you allowed to call someone a dirty name as part of free speech,out_of_scope,clinc150,clinc::are you allowed to call someone a dirty name as part of free speech,14
+how long is the school year,out_of_scope,clinc150,clinc::how long is the school year,6
+make a chart of all the tennis scores from this year,out_of_scope,clinc150,clinc::make a chart of all the tennis scores from this year,11
+what's the best make-up to cover a black eye,out_of_scope,clinc150,clinc::what's the best make-up to cover a black eye,9
+can a samurai sword deflect a bullet,out_of_scope,clinc150,clinc::can a samurai sword deflect a bullet,7
+how long does it take to call an ambulance,out_of_scope,clinc150,clinc::how long does it take to call an ambulance,9
+how much data does my phone have left this month,out_of_scope,clinc150,clinc::how much data does my phone have left this month,10
+i need to update my address,out_of_scope,clinc150,clinc::i need to update my address,6
+give me a list of the top three landscaping companies nearby,out_of_scope,clinc150,clinc::give me a list of the top three landscaping companies nearby,11
+make a list of goals i need to meet in order to write a book,out_of_scope,clinc150,clinc::make a list of goals i need to meet in order to write a book,15
+what are some good games for my android phone,out_of_scope,clinc150,clinc::what are some good games for my android phone,9
+how much time is left on my laundry,out_of_scope,clinc150,clinc::how much time is left on my laundry,8
+can you colorize a black and white photo,out_of_scope,clinc150,clinc::can you colorize a black and white photo,8
+let me know what time the patriots game starts,out_of_scope,clinc150,clinc::let me know what time the patriots game starts,9
+how much should i tip on this bill,out_of_scope,clinc150,clinc::how much should i tip on this bill,8
+which airports do southwest service around the greater new york city area,out_of_scope,clinc150,clinc::which airports do southwest service around the greater new york city area,12
+search the web for monthly parking near my house,out_of_scope,clinc150,clinc::search the web for monthly parking near my house,9
+what is happening in politicsu,out_of_scope,clinc150,clinc::what is happening in politicsu,5
+how long does it take the irs to issue a tax refund,out_of_scope,clinc150,clinc::how long does it take the irs to issue a tax refund,12
+what are the different types of tvs,out_of_scope,clinc150,clinc::what are the different types of tvs,7
+can you tell me the purpose of a safe deposit box,out_of_scope,clinc150,clinc::can you tell me the purpose of a safe deposit box,11
+look up some christmas songs for me,out_of_scope,clinc150,clinc::look up some christmas songs for me,7
+show me the most popular nonfiction book currently on the market,out_of_scope,clinc150,clinc::show me the most popular nonfiction book currently on the market,11
+can you group my photos by location,out_of_scope,clinc150,clinc::can you group my photos by location,7
+i need a laptop with 16gb of ram,out_of_scope,clinc150,clinc::i need a laptop with 16gb of ram,8
+how much weight should i lift to get buff,out_of_scope,clinc150,clinc::how much weight should i lift to get buff,9
+may i finish washing then i give you please,out_of_scope,clinc150,clinc::may i finish washing then i give you please,9
+answer the phone,out_of_scope,clinc150,clinc::answer the phone,3
+how can i get help for my mental health,out_of_scope,clinc150,clinc::how can i get help for my mental health,9
+look on amazon for the price of a nitendo switch,out_of_scope,clinc150,clinc::look on amazon for the price of a nitendo switch,10
+what are the hours for disney world,out_of_scope,clinc150,clinc::what are the hours for disney world,7
+update my status on instagram,out_of_scope,clinc150,clinc::update my status on instagram,5
+how can i improve my golf swing,out_of_scope,clinc150,clinc::how can i improve my golf swing,7
+show me all listings on amazon for leather belts for men,out_of_scope,clinc150,clinc::show me all listings on amazon for leather belts for men,11
+what coupons do i have for restaurants,out_of_scope,clinc150,clinc::what coupons do i have for restaurants,7
+please alert me when my iphone battery falls below 30%,out_of_scope,clinc150,clinc::please alert me when my iphone battery falls below 30%,10
+when do i have to get the mmr,out_of_scope,clinc150,clinc::when do i have to get the mmr,8
+what is the deadline to register at university of georgia,out_of_scope,clinc150,clinc::what is the deadline to register at university of georgia,10
+can you give me the gps location of harvey,out_of_scope,clinc150,clinc::can you give me the gps location of harvey,9
+describe to me how i can learn to make small talk,out_of_scope,clinc150,clinc::describe to me how i can learn to make small talk,11
+how do i get rid of an itchy rash,out_of_scope,clinc150,clinc::how do i get rid of an itchy rash,9
+what are some of the most visited countries for people looking to travel abroad,out_of_scope,clinc150,clinc::what are some of the most visited countries for people looking to travel abroad,14
+look up prices for parking at the airport over the weekend,out_of_scope,clinc150,clinc::look up prices for parking at the airport over the weekend,11
+who has the cheapest insurance for my model car in the area,out_of_scope,clinc150,clinc::who has the cheapest insurance for my model car in the area,12
+does eating poop really help your gut fauna,out_of_scope,clinc150,clinc::does eating poop really help your gut fauna,8
+what are the requirements of a lab technician,out_of_scope,clinc150,clinc::what are the requirements of a lab technician,8
+what was the original name of jesus in egyptian myth,out_of_scope,clinc150,clinc::what was the original name of jesus in egyptian myth,10
+tell me how many blue ties i own,out_of_scope,clinc150,clinc::tell me how many blue ties i own,8
+how much does it cost to spay a puppy,out_of_scope,clinc150,clinc::how much does it cost to spay a puppy,9
+how much is auto febreeze on amazon,out_of_scope,clinc150,clinc::how much is auto febreeze on amazon,7
+how long should an essay be,out_of_scope,clinc150,clinc::how long should an essay be,6
+why can you have the square root of a negative number,out_of_scope,clinc150,clinc::why can you have the square root of a negative number,11
+start a speech on microbes for me,out_of_scope,clinc150,clinc::start a speech on microbes for me,7
+what are popular sports magazines,out_of_scope,clinc150,clinc::what are popular sports magazines,5
+how many prime numbers are there between 0 and 100,out_of_scope,clinc150,clinc::how many prime numbers are there between 0 and 100,10
+how many polar bears are still alive in the arctic,out_of_scope,clinc150,clinc::how many polar bears are still alive in the arctic,10
+find instructions on how to play taboo,out_of_scope,clinc150,clinc::find instructions on how to play taboo,7
+what's the roi doing arbitrage with ebay,out_of_scope,clinc150,clinc::what's the roi doing arbitrage with ebay,7
+tell me about the earthquake in california that happened this morning,out_of_scope,clinc150,clinc::tell me about the earthquake in california that happened this morning,11
+how many voicemails are currently in my inbox,out_of_scope,clinc150,clinc::how many voicemails are currently in my inbox,8
+which stocks have lost the least today,out_of_scope,clinc150,clinc::which stocks have lost the least today,7
+look up local repair shops that work on vacuum cleaners,out_of_scope,clinc150,clinc::look up local repair shops that work on vacuum cleaners,10
+what is albert einstein famous for,out_of_scope,clinc150,clinc::what is albert einstein famous for,6
+how many years do you need to be in the army to get a college tuition,out_of_scope,clinc150,clinc::how many years do you need to be in the army to get a college tuition,16
+what does a flashing yellow light mean,out_of_scope,clinc150,clinc::what does a flashing yellow light mean,7
+when can i get a business card printed locally,out_of_scope,clinc150,clinc::when can i get a business card printed locally,9
+when is the next full moon,out_of_scope,clinc150,clinc::when is the next full moon,6
+what's the first romantic movie ever made,out_of_scope,clinc150,clinc::what's the first romantic movie ever made,7
+what movie is the line today is our independence day from,out_of_scope,clinc150,clinc::what movie is the line today is our independence day from,11
+what is the best way to kill microbes,out_of_scope,clinc150,clinc::what is the best way to kill microbes,8
+recommend a flood clean up service,out_of_scope,clinc150,clinc::recommend a flood clean up service,6
+can i get a sear's appliance repairman,out_of_scope,clinc150,clinc::can i get a sear's appliance repairman,7
+is there an internet outage in my area,out_of_scope,clinc150,clinc::is there an internet outage in my area,8
+what big news happened over the weekend,out_of_scope,clinc150,clinc::what big news happened over the weekend,7
+what were indians like 100 years ago,out_of_scope,clinc150,clinc::what were indians like 100 years ago,7
+start a portfolio on venture capital funding for me to look over,out_of_scope,clinc150,clinc::start a portfolio on venture capital funding for me to look over,12
+i'd like to renew my subscription to playboy,out_of_scope,clinc150,clinc::i'd like to renew my subscription to playboy,8
+how do i upgrade my operating system,out_of_scope,clinc150,clinc::how do i upgrade my operating system,7
+who is the best local real estate agent,out_of_scope,clinc150,clinc::who is the best local real estate agent,8
+are there any sales on liquor,out_of_scope,clinc150,clinc::are there any sales on liquor,6
+please ping the rfid in my wallet and tell me where it's at right now,out_of_scope,clinc150,clinc::please ping the rfid in my wallet and tell me where it's at right now,15
+show me the goals of my local police department in terms of reducing crime,out_of_scope,clinc150,clinc::show me the goals of my local police department in terms of reducing crime,14
+"so, hang out around this house often",out_of_scope,clinc150,"clinc::so, hang out around this house often",7
+i have a super runny nose and want to find a doctor,out_of_scope,clinc150,clinc::i have a super runny nose and want to find a doctor,12
+find schematics for ikea desk assembly,out_of_scope,clinc150,clinc::find schematics for ikea desk assembly,6
+when is the best time of year for pruning,out_of_scope,clinc150,clinc::when is the best time of year for pruning,9
+rent the tuxedo the day before,out_of_scope,clinc150,clinc::rent the tuxedo the day before,6
+does amazon collect my personal information,out_of_scope,clinc150,clinc::does amazon collect my personal information,6
+inform me of what microbes are,out_of_scope,clinc150,clinc::inform me of what microbes are,6
+look up articles on squealing brakes for ford f-150's,out_of_scope,clinc150,clinc::look up articles on squealing brakes for ford f-150's,9
+do women still bare their chests for beads at mardi gras,out_of_scope,clinc150,clinc::do women still bare their chests for beads at mardi gras,11
+what is the lifespan of a border collie,out_of_scope,clinc150,clinc::what is the lifespan of a border collie,8
+how can i repair a broken watch,out_of_scope,clinc150,clinc::how can i repair a broken watch,7
+schedule an appointment with the credit counselor for tuesday,out_of_scope,clinc150,clinc::schedule an appointment with the credit counselor for tuesday,9
+please spell check my resume,out_of_scope,clinc150,clinc::please spell check my resume,5
+what are the best jeans in my size,out_of_scope,clinc150,clinc::what are the best jeans in my size,8
+give me prices on a copy of the mla grammar handbook,out_of_scope,clinc150,clinc::give me prices on a copy of the mla grammar handbook,11
+when will cameron release the sequel to avatar,out_of_scope,clinc150,clinc::when will cameron release the sequel to avatar,8
+who were the superbowl 23 champions,out_of_scope,clinc150,clinc::who were the superbowl 23 champions,6
+what's a good blouse to wear with pink shoes,out_of_scope,clinc150,clinc::what's a good blouse to wear with pink shoes,9
+how can i add my signature to the proposed bill legalizing prostitution,out_of_scope,clinc150,clinc::how can i add my signature to the proposed bill legalizing prostitution,12
+find out how long a cold should last before i call a doctor,out_of_scope,clinc150,clinc::find out how long a cold should last before i call a doctor,13
+find out where i can buy a barbie doll for my niece,out_of_scope,clinc150,clinc::find out where i can buy a barbie doll for my niece,12
+how do i make money,out_of_scope,clinc150,clinc::how do i make money,5
+has there been anything breaking this afternoon,out_of_scope,clinc150,clinc::has there been anything breaking this afternoon,7
+where are most homeless people,out_of_scope,clinc150,clinc::where are most homeless people,5
+how safe is the herpes vaccine they give women,out_of_scope,clinc150,clinc::how safe is the herpes vaccine they give women,9
+i would like to upgrade to full coverage for my car,out_of_scope,clinc150,clinc::i would like to upgrade to full coverage for my car,11
+how do you fix a leaking sink,out_of_scope,clinc150,clinc::how do you fix a leaking sink,7
+was einstein right to be scared of spooky action at a distance,out_of_scope,clinc150,clinc::was einstein right to be scared of spooky action at a distance,12
+what is the most popular movie currently in theaters,out_of_scope,clinc150,clinc::what is the most popular movie currently in theaters,9
+when does game of thrones return on hbo,out_of_scope,clinc150,clinc::when does game of thrones return on hbo,8
+what should you do if you can't be bothered to get out of bed,out_of_scope,clinc150,clinc::what should you do if you can't be bothered to get out of bed,14
+what are the symptoms of cancer,out_of_scope,clinc150,clinc::what are the symptoms of cancer,6
+how to fix walls,out_of_scope,clinc150,clinc::how to fix walls,4
+send information on flood clean up to my phone,out_of_scope,clinc150,clinc::send information on flood clean up to my phone,9
+sign me up for the writing class you told me about 2 days ago,out_of_scope,clinc150,clinc::sign me up for the writing class you told me about 2 days ago,14
+where's the best place to hike in the rockies,out_of_scope,clinc150,clinc::where's the best place to hike in the rockies,9
+detail a list of possible job openings in the miami public school system,out_of_scope,clinc150,clinc::detail a list of possible job openings in the miami public school system,13
+how much over will overdraft protection cover,out_of_scope,clinc150,clinc::how much over will overdraft protection cover,7
+find out where one can get involved in discussing local election issues,out_of_scope,clinc150,clinc::find out where one can get involved in discussing local election issues,12
+get me a list of the best savings account rates right now,out_of_scope,clinc150,clinc::get me a list of the best savings account rates right now,12
+when does the stock market update,out_of_scope,clinc150,clinc::when does the stock market update,6
+how much candy have i consumed this week,out_of_scope,clinc150,clinc::how much candy have i consumed this week,8
+can you tell me the score of the heat game,out_of_scope,clinc150,clinc::can you tell me the score of the heat game,10
+will the anti-vaxxers die off if no one gives them vaccines,out_of_scope,clinc150,clinc::will the anti-vaxxers die off if no one gives them vaccines,11
+how do i learn more about linguistics,out_of_scope,clinc150,clinc::how do i learn more about linguistics,7
+can you give me suggestions for a professional suit under $200,out_of_scope,clinc150,clinc::can you give me suggestions for a professional suit under $200,11
+i need you to check the resistance of a coil wrapped 6 times with an id of 25mm,out_of_scope,clinc150,clinc::i need you to check the resistance of a coil wrapped 6 times with an id of 25mm,18
+can you sign out of my bank login,out_of_scope,clinc150,clinc::can you sign out of my bank login,8
+who is the hardest working man in hollywood,out_of_scope,clinc150,clinc::who is the hardest working man in hollywood,8
+what is today's big article in the washington post,out_of_scope,clinc150,clinc::what is today's big article in the washington post,9
+where can i get 100% merino wool t-shirts on the internet,out_of_scope,clinc150,clinc::where can i get 100% merino wool t-shirts on the internet,11
+what was the closing number of the nasdaq today,out_of_scope,clinc150,clinc::what was the closing number of the nasdaq today,9
+how much time do i have left on my 0% apr,out_of_scope,clinc150,clinc::how much time do i have left on my 0% apr,11
+tell me which wifi network you are connected to right now,out_of_scope,clinc150,clinc::tell me which wifi network you are connected to right now,11
+"i have a rash, what can i use for it",out_of_scope,clinc150,"clinc::i have a rash, what can i use for it",10
+who won in the gsw vs suns game last night,out_of_scope,clinc150,clinc::who won in the gsw vs suns game last night,10
+open up internet browser,out_of_scope,clinc150,clinc::open up internet browser,4

@@ -1,0 +1,349 @@
+text,intent,source,group,n_tokens
+I want to add the project credits after the registration deadline.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,11
+Quick question: what are the hostel rules for using appliances in the room? It is urgent.,hostel,template,hostel::What are the hostel rules for {rule}?,16
+please get me my wheelchair,out_of_scope,clinc150,clinc::please get me my wheelchair,5
+I study ECE. How do I get my registration form for the fall semester signed by my faculty advisor?,academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,19
+How much is the development fee?,fees,template,fees::How much is the {fee}?,6
+I am a faculty member in CSE. Can I see my evaluated thermodynamics answer sheet?,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,15
+Can I get the alumni scholarship along with an education loan? My roll number is K088.,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,16
+Is there any relaxation in attendance for an internship?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,9
+where do black holes come from,out_of_scope,clinc150,clinc::where do black holes come from,6
+I was charged twice for the hostel fee.,fees,template,fees::I was charged twice for the {fee}.,8
+How do I get a replacement faculty ID card?,id_cards,template,id_cards::How do I get a replacement {card}?,9
+I was charged twice for the semester fee. My roll number is A056.,fees,template,fees::I was charged twice for the {fee}.,13
+are over the ear headphones better than in ear headphones,out_of_scope,clinc150,clinc::are over the ear headphones better than in ear headphones,10
+What are the hostel rules for using appliances in the room?,hostel,template,hostel::What are the hostel rules for {rule}?,11
+Quick question: how much is the lab fee?,fees,template,fees::How much is the {fee}?,8
+"Hi, I am from chemical. Who signs the mark statement? Please help.",transcripts,template,transcripts::Who signs the {doc}?,12
+what's the best opening gambit for a game of chess,out_of_scope,clinc150,clinc::what's the best opening gambit for a game of chess,10
+"Hey, how do I get a replacement RFID access card?",id_cards,template,id_cards::How do I get a replacement {card}?,10
+Is the mark statement available in a sealed cover with the university stamp? Thank you.,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,15
+Who do I talk to about the admission fee payment problem? My roll number is K056.,fees,template,fees::Who do I talk to about the {fee} payment problem?,16
+How do I get my registration form for semester 5 signed by my faculty advisor? Please help.,academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,17
+I am a third year electrical student. Who signs the mark statement?,transcripts,template,transcripts::Who signs the {doc}?,12
+I was charged twice for the exam fee.,fees,template,fees::I was charged twice for the {fee}.,8
+How do I withdraw from the spring semester? It is urgent.,academic_registration,template,academic_registration::How do I withdraw from {term}?,11
+"Hey, can I get a temporary ID card until the new one arrives? Please help.",id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,15
+Is a NOC required for an education loan?,certificates,template,certificates::Is a {cert} required for {purpose}?,8
+How do I apply for revaluation of my thermodynamics paper? I am in semester 4.,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,15
+I am a faculty member in BBA. I want to apply for a migration certificate because I need it for a job application. Kindly guide me.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,26
+How do I apply for revaluation of my digital electronics paper? It is urgent.,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,14
+Does the university offer a girl child scholarship?,scholarships,template,scholarships::Does the university offer a {sch}?,8
+What are the hostel rules for hostel leave? I am in third year.,hostel,template,hostel::What are the hostel rules for {rule}?,13
+What is the fee for an AC room? Please help.,hostel,template,hostel::What is the fee for a {room}?,10
+Can I get a no objection certificate on the same day? My roll number is A059.,certificates,template,certificates::Can I get a {cert} on the same day?,16
+Is there any relaxation in attendance for a college fest? Thanks.,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,11
+"I missed the deadline for the fee waiver, can I still apply? I am in semester 8.",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",17
+Is the CGPA certificate available in a sealed cover with the university stamp? I am in final year.,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,18
+Who signs the duplicate marksheet?,transcripts,template,transcripts::Who signs the {doc}?,5
+Is a bonafide certificate required for higher studies abroad? Kindly guide me.,certificates,template,certificates::Is a {cert} required for {purpose}?,12
+What happens if my attendance is 68 percent?,attendance,template,attendance::What happens if my attendance is {pct}?,8
+what site publishes the most fake news,out_of_scope,clinc150,clinc::what site publishes the most fake news,7
+What is the fee for an AC room?,hostel,template,hostel::What is the fee for a {room}?,8
+"Madam, can I get a temporary faculty ID card until the new one arrives?",id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,14
+"Madam, what are the hostel rules for visitors?",hostel,template,hostel::What are the hostel rules for {rule}?,8
+"Hey, I want to apply for a no objection certificate because I need it for a passport application.",certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+"Madam, how do I withdraw from the fall semester?",academic_registration,template,academic_registration::How do I withdraw from {term}?,9
+What is the fee for a shared room? I am in first year.,hostel,template,hostel::What is the fee for a {room}?,13
+"Excuse me, is the provisional transcript available in a sealed cover with the university stamp?",transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,15
+Can I get the SC/ST scholarship along with an education loan? My roll number is K057.,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,16
+How do I get a replacement smart card? Kindly guide me.,id_cards,template,id_cards::How do I get a replacement {card}?,11
+"do ducks eat meat, vegetables, or both",out_of_scope,clinc150,"clinc::do ducks eat meat, vegetables, or both",7
+can you tell me some fake news,out_of_scope,clinc150,clinc::can you tell me some fake news,7
+I want to apply for a no objection certificate because I need it for an internship. Any help is appreciated.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,20
+I want to add the thesis credits after the registration deadline.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,11
+"I failed computer networks, how do I reappear? My roll number is K037.",examinations,template,"examinations::I failed {subject}, how do I reappear?",13
+"Hi, what happens if my attendance is 65 percent?",attendance,template,attendance::What happens if my attendance is {pct}?,9
+when was electrical engineering created,out_of_scope,clinc150,clinc::when was electrical engineering created,5
+"Excuse me, who signs the sealed transcript? Thanks.",transcripts,template,transcripts::Who signs the {doc}?,8
+can you tell me the latest georgia news,out_of_scope,clinc150,clinc::can you tell me the latest georgia news,8
+"Hello, how do I get a replacement identity card? I am in second year.",id_cards,template,id_cards::How do I get a replacement {card}?,14
+What are the hostel rules for visitors? I am in semester 7.,hostel,template,hostel::What are the hostel rules for {rule}?,12
+Roll number K057 here. I was charged twice for the tuition fee.,fees,template,fees::I was charged twice for the {fee}.,12
+Is a conduct certificate required for a competitive exam form? I am in third year.,certificates,template,certificates::Is a {cert} required for {purpose}?,15
+How many copies of the consolidated marksheet can I order at once?,transcripts,template,transcripts::How many copies of the {doc} can I order at once?,12
+Roll number K057 here. Where can I check my subject-wise attendance? Please help.,attendance,template,attendance::Where can I check my subject-wise attendance?,13
+How do I get a replacement library card? I am in semester 5.,id_cards,template,id_cards::How do I get a replacement {card}?,13
+The card reader at the gate rejects my hostel ID card. It is urgent.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,14
+Who do I talk to about the hostel fee payment problem?,fees,template,fees::Who do I talk to about the {fee} payment problem?,11
+Who do I talk to about the semester fee payment problem? Please help.,fees,template,fees::Who do I talk to about the {fee} payment problem?,13
+Can I get the merit scholarship along with an education loan?,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,11
+do ducks sleep,out_of_scope,clinc150,clinc::do ducks sleep,3
+Who do I talk to about the lab fee payment problem?,fees,template,fees::Who do I talk to about the {fee} payment problem?,11
+"Hi, can I get a temporary identity card until the new one arrives? I am in semester 2.",id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,18
+"Madam, the card reader at the gate rejects my smart card.",id_cards,template,id_cards::The card reader at the gate rejects my {card}.,11
+"Hi, can I get a no objection certificate on the same day?",certificates,template,certificates::Can I get a {cert} on the same day?,12
+"Hi, how many copies of the consolidated marksheet can I order at once?",transcripts,template,transcripts::How many copies of the {doc} can I order at once?,13
+Can I see my evaluated machine learning answer sheet?,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,9
+I want to apply for a conduct certificate because I need it for a competitive exam form.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,17
+Is there any relaxation in attendance for illness?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,8
+What are the symptoms of the flu?,out_of_scope,hard_negative,hn::What are the symptoms of the flu?,7
+how does cybersecurity work,out_of_scope,clinc150,clinc::how does cybersecurity work,4
+how is crypto legal,out_of_scope,clinc150,clinc::how is crypto legal,4
+The card reader at the gate rejects my student ID card.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,11
+"I failed digital electronics, how do I reappear?",examinations,template,"examinations::I failed {subject}, how do I reappear?",8
+How much is the late fee? It is urgent.,fees,template,fees::How much is the {fee}?,9
+"Hi, how do I get my registration form for semester 5 signed by my faculty advisor?",academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,16
+"Hi, I am from ECE. How many copies of the semester-wise transcript can I order at once?",transcripts,template,transcripts::How many copies of the {doc} can I order at once?,17
+is cnn really fake news,out_of_scope,clinc150,clinc::is cnn really fake news,5
+"Madam, where can I check my subject-wise attendance? Kindly guide me.",attendance,template,attendance::Where can I check my subject-wise attendance?,11
+Is a mess fee refund available if I leave the hostel midway?,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,12
+"I missed the deadline for the sports scholarship, can I still apply? Please help.",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",14
+Can I see my evaluated operating systems answer sheet?,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,9
+I'm in semester 5 of electrical. Can I get a no objection certificate on the same day?,certificates,template,certificates::Can I get a {cert} on the same day?,17
+Is a passing certificate required for a bank loan?,certificates,template,certificates::Is a {cert} required for {purpose}?,9
+is the united states a democracy,out_of_scope,clinc150,clinc::is the united states a democracy,6
+Can I get the merit scholarship along with an education loan? I am in semester 5.,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,16
+what is the cheapest electric guitar,out_of_scope,clinc150,clinc::what is the cheapest electric guitar,6
+what do geese eat,out_of_scope,clinc150,clinc::what do geese eat,4
+Suggest a name for my startup.,out_of_scope,hard_negative,hn::Suggest a name for my startup.,6
+Does the university offer a need-based scholarship?,scholarships,template,scholarships::Does the university offer a {sch}?,7
+Who do I talk to about the re-registration fee payment problem?,fees,template,fees::Who do I talk to about the {fee} payment problem?,11
+how do you learn how to play electric violin,out_of_scope,clinc150,clinc::how do you learn how to play electric violin,9
+Who do I talk to about the tuition fee payment problem?,fees,template,fees::Who do I talk to about the {fee} payment problem?,11
+"Madam, I failed digital electronics, how do I reappear?",examinations,template,"examinations::I failed {subject}, how do I reappear?",9
+Can I get a degree certificate on the same day?,certificates,template,certificates::Can I get a {cert} on the same day?,10
+I study ECE. Is there any relaxation in attendance for a conference?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,12
+Can I get a temporary student ID card until the new one arrives?,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,13
+Can you help me write my assignment on sorting algorithms?,out_of_scope,hard_negative,hn::Can you help me write my assignment on sorting algorithms?,10
+Can I get a medium of instruction certificate on the same day?,certificates,template,certificates::Can I get a {cert} on the same day?,12
+how are my cannabis stocks doing,out_of_scope,clinc150,clinc::how are my cannabis stocks doing,6
+Is a mess fee refund available if I leave the hostel midway? Thank you.,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,14
+what are black holes,out_of_scope,clinc150,clinc::what are black holes,4
+Is a conduct certificate required for higher studies abroad?,certificates,template,certificates::Is a {cert} required for {purpose}?,9
+are white and brown eggs any different,out_of_scope,clinc150,clinc::are white and brown eggs any different,7
+"I failed DBMS, how do I reappear? Any help is appreciated.",examinations,template,"examinations::I failed {subject}, how do I reappear?",11
+How do I withdraw from semester 5?,academic_registration,template,academic_registration::How do I withdraw from {term}?,7
+Roll number K055 here. I want to add the summer course after the registration deadline. Please help.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,17
+I am a faculty member in ECE. Where can I check my subject-wise attendance?,attendance,template,attendance::Where can I check my subject-wise attendance?,14
+is the brexit finalized yet,out_of_scope,clinc150,clinc::is the brexit finalized yet,5
+what cryptocurrency gained the most in 2018,out_of_scope,clinc150,clinc::what cryptocurrency gained the most in 2018,7
+How many copies of the provisional transcript can I order at once?,transcripts,template,transcripts::How many copies of the {doc} can I order at once?,12
+how many firewalls should i have and what type,out_of_scope,clinc150,clinc::how many firewalls should i have and what type,9
+Help me plan a trip to Goa.,out_of_scope,hard_negative,hn::Help me plan a trip to Goa.,7
+"Madam, what are the hostel rules for night outs? Please help.",hostel,template,hostel::What are the hostel rules for {rule}?,11
+Urgent: how do I apply for revaluation of my digital electronics paper? I am in second year.,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,17
+Can I get a study certificate on the same day?,certificates,template,certificates::Can I get a {cert} on the same day?,10
+what is the friendliest breed,out_of_scope,clinc150,clinc::what is the friendliest breed,5
+I want to apply for a no objection certificate because I need it for higher studies abroad.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,17
+I want to add the summer course after the registration deadline.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,11
+What happens if my attendance is 65 percent? Thank you.,attendance,template,attendance::What happens if my attendance is {pct}?,10
+Quick question: I want to apply for a character certificate because I need it for a passport application.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+"Madam, I was charged twice for the admission fee. I am in final year.",fees,template,fees::I was charged twice for the {fee}.,14
+I want to add the open elective after the registration deadline. I am in third year.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,16
+Can I get a temporary hostel ID card until the new one arrives?,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,13
+what's the definition of nuclear engineering,out_of_scope,clinc150,clinc::what's the definition of nuclear engineering,6
+Does the university offer a sports scholarship? Thanks.,scholarships,template,scholarships::Does the university offer a {sch}?,8
+Who do I talk to about the admission fee payment problem? Thanks.,fees,template,fees::Who do I talk to about the {fee} payment problem?,12
+what's the best crypto to buy in 2019,out_of_scope,clinc150,clinc::what's the best crypto to buy in 2019,8
+What happens if my attendance is 72 percent?,attendance,template,attendance::What happens if my attendance is {pct}?,8
+"Sir, I missed the deadline for the minority scholarship, can I still apply? My roll number is A101.",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",18
+The card reader at the gate rejects my library card.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,10
+How do I get a replacement hostel ID card? Please help.,id_cards,template,id_cards::How do I get a replacement {card}?,11
+I study ECE. Is there any relaxation in attendance for a college fest?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,13
+The card reader at the gate rejects my student ID card. My roll number is A143.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,16
+"Sir, I failed physics, how do I reappear? I am in final year.",examinations,template,"examinations::I failed {subject}, how do I reappear?",13
+I am a faculty member in BBA. How do I get my registration form for next semester signed by my faculty advisor?,academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,22
+The card reader at the gate rejects my smart card.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,10
+I'm in semester 6 of electrical. How do I withdraw from semester 6?,academic_registration,template,academic_registration::How do I withdraw from {term}?,13
+How do I get a replacement ID card?,id_cards,template,id_cards::How do I get a replacement {card}?,8
+Is a NOC required for an education loan? Thank you.,certificates,template,certificates::Is a {cert} required for {purpose}?,10
+"Excuse me, who signs the duplicate marksheet?",transcripts,template,transcripts::Who signs the {doc}?,7
+"I failed physics, how do I reappear?",examinations,template,"examinations::I failed {subject}, how do I reappear?",7
+What is the fee for a room in the boys hostel?,hostel,template,hostel::What is the fee for a {room}?,11
+How do I get a replacement library card?,id_cards,template,id_cards::How do I get a replacement {card}?,8
+"Hey, how do I withdraw from semester 5?",academic_registration,template,academic_registration::How do I withdraw from {term}?,8
+what brand of earphones is the best reviewed of 2019,out_of_scope,clinc150,clinc::what brand of earphones is the best reviewed of 2019,10
+Can I see my evaluated digital electronics answer sheet?,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,9
+"I failed thermodynamics, how do I reappear?",examinations,template,"examinations::I failed {subject}, how do I reappear?",7
+where do eggs come from,out_of_scope,clinc150,clinc::where do eggs come from,5
+I'm in semester 4 of BBA. Can I get a temporary smart card until the new one arrives?,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,18
+should i hit or stay at 17 in blackjack,out_of_scope,clinc150,clinc::should i hit or stay at 17 in blackjack,9
+How much is the exam fee?,fees,template,fees::How much is the {fee}?,6
+what game has the best odds at a casino,out_of_scope,clinc150,clinc::what game has the best odds at a casino,9
+Who do I talk to about the lab fee payment problem? Kindly guide me.,fees,template,fees::Who do I talk to about the {fee} payment problem?,14
+How do I get my registration form for the summer term signed by my faculty advisor?,academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,16
+can you give me the standard tuning notes,out_of_scope,clinc150,clinc::can you give me the standard tuning notes,8
+I study chemical. Where can I check my subject-wise attendance?,attendance,template,attendance::Where can I check my subject-wise attendance?,10
+"Hi, I am from civil. How much is the library fee?",fees,template,fees::How much is the {fee}?,11
+"Hi, I am from chemical. Where can I check my subject-wise attendance? I am in semester 5.",attendance,template,attendance::Where can I check my subject-wise attendance?,17
+Can I see my evaluated thermodynamics answer sheet? Thanks.,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,9
+Who signs the sealed transcript?,transcripts,template,transcripts::Who signs the {doc}?,5
+I want to apply for a course completion certificate because I need it for a visa application.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,17
+Is there any relaxation in attendance for a hackathon?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,9
+Who do I talk to about the hostel fee payment problem? Kindly guide me.,fees,template,fees::Who do I talk to about the {fee} payment problem?,14
+"As a third year student, what are the hostel rules for night outs?",hostel,template,hostel::What are the hostel rules for {rule}?,13
+Is there any relaxation in attendance for a conference? I am in third year.,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,14
+Where can I check my subject-wise attendance? Any help is appreciated.,attendance,template,attendance::Where can I check my subject-wise attendance?,11
+Quick question: what is the fee for a single room?,hostel,template,hostel::What is the fee for a {room}?,10
+why do we dream,out_of_scope,clinc150,clinc::why do we dream,4
+what does it mean to have equality,out_of_scope,clinc150,clinc::what does it mean to have equality,7
+I study ECE. I want to add the honours program after the registration deadline.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,14
+what's the best dog food to feed my puppy,out_of_scope,clinc150,clinc::what's the best dog food to feed my puppy,9
+Urgent: how much is the semester fee?,fees,template,fees::How much is the {fee}?,7
+Where can I check my subject-wise attendance? I am in first year.,attendance,template,attendance::Where can I check my subject-wise attendance?,12
+Roll number A101 here. What happens if my attendance is 68 percent? Kindly guide me.,attendance,template,attendance::What happens if my attendance is {pct}?,15
+I was charged twice for the re-registration fee.,fees,template,fees::I was charged twice for the {fee}.,8
+I am a faculty member in mechanical. What happens if my attendance is 70 percent?,attendance,template,attendance::What happens if my attendance is {pct}?,15
+"Sir, I want to apply for a transfer certificate because I need it for a competitive exam form. Thank you.",certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,20
+What are the hostel rules for night outs? Kindly guide me.,hostel,template,hostel::What are the hostel rules for {rule}?,11
+where does cannabis originate from,out_of_scope,clinc150,clinc::where does cannabis originate from,5
+Quick question: what happens if my attendance is 72 percent?,attendance,template,attendance::What happens if my attendance is {pct}?,10
+What is the fee for a room in the girls hostel?,hostel,template,hostel::What is the fee for a {room}?,11
+what was the final vote count in the brexit referendum,out_of_scope,clinc150,clinc::what was the final vote count in the brexit referendum,10
+"Hi, I am from chemical. Can I get the need-based scholarship along with an education loan?",scholarships,template,scholarships::Can I get the {sch} along with an education loan?,16
+what's the average gpa to get into yale,out_of_scope,clinc150,clinc::what's the average gpa to get into yale,8
+Can I see my evaluated DBMS answer sheet?,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,8
+How do I get a replacement faculty ID card? Please help.,id_cards,template,id_cards::How do I get a replacement {card}?,11
+what is naval engineering,out_of_scope,clinc150,clinc::what is naval engineering,4
+Is a course completion certificate required for a bank loan? Thanks.,certificates,template,certificates::Is a {cert} required for {purpose}?,11
+Can I get a temporary hostel ID card until the new one arrives? I am in semester 3.,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,18
+the birds fly with there wings,out_of_scope,clinc150,clinc::the birds fly with there wings,6
+What are the hostel rules for visitors?,hostel,template,hostel::What are the hostel rules for {rule}?,7
+Can I get the SC/ST scholarship along with an education loan?,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,11
+"I am a first year BBA student. I missed the deadline for the freeship, can I still apply?",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",18
+How do I apply for revaluation of my digital electronics paper?,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,11
+Urgent: who do I talk to about the exam fee payment problem? Thanks.,fees,template,fees::Who do I talk to about the {fee} payment problem?,13
+I want to add the open elective after the registration deadline.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,11
+Who signs the degree transcript?,transcripts,template,transcripts::Who signs the {doc}?,5
+is it bad to not remember your dreams,out_of_scope,clinc150,clinc::is it bad to not remember your dreams,8
+"Hi, I am from electrical. How many copies of the duplicate marksheet can I order at once?",transcripts,template,transcripts::How many copies of the {doc} can I order at once?,17
+what'll an education at boulder state college run,out_of_scope,clinc150,clinc::what'll an education at boulder state college run,8
+Can I get a temporary faculty ID card until the new one arrives?,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,13
+Does the university offer a minority scholarship?,scholarships,template,scholarships::Does the university offer a {sch}?,7
+"Excuse me, how do I get a replacement student ID card? I am in third year.",id_cards,template,id_cards::How do I get a replacement {card}?,16
+I was charged twice for the late fee.,fees,template,fees::I was charged twice for the {fee}.,8
+Can I get a passing certificate on the same day?,certificates,template,certificates::Can I get a {cert} on the same day?,10
+Who signs the semester-wise transcript?,transcripts,template,transcripts::Who signs the {doc}?,5
+Is a course completion certificate required for a visa application? Thanks.,certificates,template,certificates::Is a {cert} required for {purpose}?,11
+How much is the late fee?,fees,template,fees::How much is the {fee}?,6
+How do I apply for revaluation of my data structures paper?,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,11
+I want to add the elective after the registration deadline. My roll number is K101.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,15
+Can I see my evaluated machine learning answer sheet? I am in second year.,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,14
+Is there any relaxation in attendance for a family emergency?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,10
+Is the mark statement available in a sealed cover with the university stamp?,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,13
+"Sir, the card reader at the gate rejects my smart card.",id_cards,template,id_cards::The card reader at the gate rejects my {card}.,11
+How do I get my registration form for next semester signed by my faculty advisor? My roll number is K054.,academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,20
+Who do I talk to about the lab fee payment problem? My roll number is K088.,fees,template,fees::Who do I talk to about the {fee} payment problem?,16
+Can I get the post-matric scholarship along with an education loan?,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,11
+What is the fee for a double occupancy room?,hostel,template,hostel::What is the fee for a {room}?,9
+I am a final year electrical student. Who signs the consolidated marksheet?,transcripts,template,transcripts::Who signs the {doc}?,12
+The card reader at the gate rejects my ID card.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,10
+How do I withdraw from semester 6? Any help is appreciated.,academic_registration,template,academic_registration::How do I withdraw from {term}?,11
+Can I get the fee waiver along with an education loan?,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,11
+How do I apply for revaluation of my computer networks paper?,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,11
+Is a transfer certificate required for a visa application? Any help is appreciated.,certificates,template,certificates::Is a {cert} required for {purpose}?,13
+Recommend a movie to watch after exams.,out_of_scope,hard_negative,hn::Recommend a movie to watch after exams.,7
+How do I apply for revaluation of my DBMS paper? Thanks.,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,11
+how the birds fly,out_of_scope,clinc150,clinc::how the birds fly,4
+I want to apply for a medium of instruction certificate because I need it for a hostel application.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+I want to apply for a passing certificate because I need it for a competitive exam form. Kindly guide me.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,20
+which nations are not democratic,out_of_scope,clinc150,clinc::which nations are not democratic,5
+how do i get better at go,out_of_scope,clinc150,clinc::how do i get better at go,7
+how do you know when your dog is ill,out_of_scope,clinc150,clinc::how do you know when your dog is ill,9
+I am a faculty member in MBA. Is a mess fee refund available if I leave the hostel midway? Thank you.,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,21
+Is there any relaxation in attendance for a sports event?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,10
+"Madam, does the university offer a sports scholarship?",scholarships,template,scholarships::Does the university offer a {sch}?,8
+how high does my sat score need to be to get into harvard,out_of_scope,clinc150,clinc::how high does my sat score need to be to get into harvard,13
+Urgent: is there any relaxation in attendance for a family emergency?,attendance,template,attendance::Is there any relaxation in attendance for {reason}?,11
+"I missed the deadline for the post-matric scholarship, can I still apply?",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",12
+Is a mess fee refund available if I leave the hostel midway? Any help is appreciated.,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,16
+How much is the admission fee?,fees,template,fees::How much is the {fee}?,6
+"Hello, the card reader at the gate rejects my faculty ID card. I am in third year.",id_cards,template,id_cards::The card reader at the gate rejects my {card}.,17
+I am a second year mechanical student. Who signs the semester-wise transcript?,transcripts,template,transcripts::Who signs the {doc}?,12
+"I missed the deadline for the minority scholarship, can I still apply? Kindly guide me.",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",15
+How many copies of the CGPA certificate can I order at once?,transcripts,template,transcripts::How many copies of the {doc} can I order at once?,12
+"Urgent: I failed physics, how do I reappear?",examinations,template,"examinations::I failed {subject}, how do I reappear?",8
+Where can I check my subject-wise attendance? Thanks.,attendance,template,attendance::Where can I check my subject-wise attendance?,8
+Is the degree transcript available in a sealed cover with the university stamp?,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,13
+Roll number K143 here. Is a course completion certificate required for a passport application?,certificates,template,certificates::Is a {cert} required for {purpose}?,14
+Can I get the need-based scholarship along with an education loan?,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,11
+how many countries in the world are democracies,out_of_scope,clinc150,clinc::how many countries in the world are democracies,8
+"Sir, is a no objection certificate required for a hostel application?",certificates,template,certificates::Is a {cert} required for {purpose}?,11
+How do I withdraw from semester 5? I am in second year.,academic_registration,template,academic_registration::How do I withdraw from {term}?,12
+What happens if my attendance is 70 percent?,attendance,template,attendance::What happens if my attendance is {pct}?,8
+How do I get my registration form for semester 5 signed by my faculty advisor?,academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,15
+"Madam, I was charged twice for the semester fee.",fees,template,fees::I was charged twice for the {fee}.,9
+what side in chess has the general advantage,out_of_scope,clinc150,clinc::what side in chess has the general advantage,8
+I study MBA. How do I apply for revaluation of my digital electronics paper?,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,14
+"Sir, how many copies of the consolidated marksheet can I order at once?",transcripts,template,transcripts::How many copies of the {doc} can I order at once?,13
+How do I apply for revaluation of my machine learning paper?,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,11
+Can I see my evaluated physics answer sheet? Thank you.,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,10
+I want to apply for a migration certificate because I need it for a job application.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,16
+How many copies of the official transcript can I order at once? My roll number is K059.,transcripts,template,transcripts::How many copies of the {doc} can I order at once?,17
+"Hi, I am from BBA. Can I get a conduct certificate on the same day?",certificates,template,certificates::Can I get a {cert} on the same day?,15
+I study CSE. I was charged twice for the semester fee.,fees,template,fees::I was charged twice for the {fee}.,11
+Who signs the provisional transcript?,transcripts,template,transcripts::Who signs the {doc}?,5
+what does it mean if i dream of falling off a building,out_of_scope,clinc150,clinc::what does it mean if i dream of falling off a building,12
+is it possible to survive in a black hole,out_of_scope,clinc150,clinc::is it possible to survive in a black hole,9
+"I missed the deadline for the SC/ST scholarship, can I still apply?",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",12
+what act score is considered good,out_of_scope,clinc150,clinc::what act score is considered good,6
+What happens if my attendance is 73 percent? Thank you.,attendance,template,attendance::What happens if my attendance is {pct}?,10
+Can I get the girl child scholarship along with an education loan?,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,12
+"I missed the deadline for the girl child scholarship, can I still apply?",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",13
+what dog breed sold the most in 2018,out_of_scope,clinc150,clinc::what dog breed sold the most in 2018,8
+I'm in semester 7 of mechanical. I want to add the elective after the registration deadline.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,16
+why is there fake news,out_of_scope,clinc150,clinc::why is there fake news,5
+how much food should i feed my cat,out_of_scope,clinc150,clinc::how much food should i feed my cat,8
+"Hello, how do I get my registration form for the fall semester signed by my faculty advisor?",academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,17
+I am a faculty member in mechanical. Can I get the merit scholarship along with an education loan? It is urgent.,scholarships,template,scholarships::Can I get the {sch} along with an education loan?,21
+I was charged twice for the development fee.,fees,template,fees::I was charged twice for the {fee}.,8
+Who signs the sealed transcript? I am in first year.,transcripts,template,transcripts::Who signs the {doc}?,10
+"Madam, I missed the deadline for the post-matric scholarship, can I still apply?",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",13
+Does the university offer an alumni scholarship?,scholarships,template,scholarships::Does the university offer a {sch}?,7
+"Madam, how do I get my registration form for the spring semester signed by my faculty advisor?",academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,17
+I am a faculty member in chemical. Is a mess fee refund available if I leave the hostel midway?,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,19
+Is the sealed transcript available in a sealed cover with the university stamp?,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,13
+I want to apply for a medium of instruction certificate because I need it for a passport application.,certificates,template,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+Is the sealed transcript available in a sealed cover with the university stamp? I am in semester 5.,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,18
+Can I get a temporary RFID access card until the new one arrives?,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,13
+"Hi, I am from ECE. Can I get the freeship along with an education loan?",scholarships,template,scholarships::Can I get the {sch} along with an education loan?,15
+Is a domicile verification letter required for a visa application? I am in third year.,certificates,template,certificates::Is a {cert} required for {purpose}?,15
+"Sir, how do I get my registration form for semester 6 signed by my faculty advisor?",academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,16
+The card reader at the gate rejects my student ID card. Please help.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,13
+Is the consolidated marksheet available in a sealed cover with the university stamp? My roll number is J055.,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,18
+"Hi, I am from BBA. How do I get my registration form for the summer term signed by my faculty advisor?",academic_registration,template,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,21
+Where can I check my subject-wise attendance? I am in final year.,attendance,template,attendance::Where can I check my subject-wise attendance?,12
+Can I get a domicile verification letter on the same day?,certificates,template,certificates::Can I get a {cert} on the same day?,11
+The card reader at the gate rejects my identity card.,id_cards,template,id_cards::The card reader at the gate rejects my {card}.,10
+"Hello, how do I withdraw from the spring semester?",academic_registration,template,academic_registration::How do I withdraw from {term}?,9
+How much is the lab fee?,fees,template,fees::How much is the {fee}?,6
+What is the price of gold today?,out_of_scope,hard_negative,hn::What is the price of gold today?,7
+How do I apply for revaluation of my chemistry paper?,examinations,template,examinations::How do I apply for revaluation of my {subject} paper?,10
+are there any cybersecurity jobs available in pittsburgh,out_of_scope,clinc150,clinc::are there any cybersecurity jobs available in pittsburgh,8
+you want to know about current time now,out_of_scope,clinc150,clinc::you want to know about current time now,8
+Where can I check my subject-wise attendance? I am in semester 6.,attendance,template,attendance::Where can I check my subject-wise attendance?,12
+Is the duplicate marksheet available in a sealed cover with the university stamp? Any help is appreciated.,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,17
+Is the provisional transcript available in a sealed cover with the university stamp? Any help is appreciated.,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,17
+I am a faculty member in ECE. How much is the re-registration fee?,fees,template,fees::How much is the {fee}?,13
+I am a second year IT student. Does the university offer a SC/ST scholarship?,scholarships,template,scholarships::Does the university offer a {sch}?,14
+Who is the best professor for machine learning?,out_of_scope,hard_negative,hn::Who is the best professor for machine learning?,8
+Does the university offer a post-matric scholarship? Kindly guide me.,scholarships,template,scholarships::Does the university offer a {sch}?,10
+How much is the tuition fee? Kindly guide me.,fees,template,fees::How much is the {fee}?,9
+How many copies of the mark statement can I order at once?,transcripts,template,transcripts::How many copies of the {doc} can I order at once?,12
+I'm in semester 8 of MBA. Is the provisional transcript available in a sealed cover with the university stamp?,transcripts,template,transcripts::Is the {doc} available in a sealed cover with the university stamp?,19
+"Sir, what happens if my attendance is 65 percent?",attendance,template,attendance::What happens if my attendance is {pct}?,9
+I want to add the thesis credits after the registration deadline. Kindly guide me.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,14
+"Sir, can I get a bonafide certificate on the same day?",certificates,template,certificates::Can I get a {cert} on the same day?,11
+how does a democracy work,out_of_scope,clinc150,clinc::how does a democracy work,5
+I was charged twice for the lab fee.,fees,template,fees::I was charged twice for the {fee}.,8
+I study IT. How do I withdraw from semester 5?,academic_registration,template,academic_registration::How do I withdraw from {term}?,10
+Roll number J012 here. Does the university offer a freeship?,scholarships,template,scholarships::Does the university offer a {sch}?,10
+is marijuana addictive,out_of_scope,clinc150,clinc::is marijuana addictive,3
+I am a second year chemical student. I want to add the lab course after the registration deadline. It is urgent.,academic_registration,template,academic_registration::I want to add the {course} after the registration deadline.,21
+how can i breach a network,out_of_scope,clinc150,clinc::how can i breach a network,6
+"I failed chemistry, how do I reappear?",examinations,template,"examinations::I failed {subject}, how do I reappear?",7
+Can I see my evaluated chemistry answer sheet?,examinations,template,examinations::Can I see my evaluated {subject} answer sheet?,8
+"I failed operating systems, how do I reappear? My roll number is A143.",examinations,template,"examinations::I failed {subject}, how do I reappear?",13
+"Hey, is a mess fee refund available if I leave the hostel midway?",hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,13
+Can I get a temporary identity card until the new one arrives?,id_cards,template,id_cards::Can I get a temporary {card} until the new one arrives?,12
+how can i easily replace a string on my guitar,out_of_scope,clinc150,clinc::how can i easily replace a string on my guitar,10
+"I missed the deadline for the girl child scholarship, can I still apply? I am in semester 6.",scholarships,template,"scholarships::I missed the deadline for the {sch}, can I still apply?",18
+What is the fee for a ground floor room?,hostel,template,hostel::What is the fee for a {room}?,9
+What is on the canteen menu today?,out_of_scope,hard_negative,hn::What is on the canteen menu today?,7
+"Madam, can I get a degree certificate on the same day? Kindly guide me.",certificates,template,certificates::Can I get a {cert} on the same day?,14
+"Excuse me, does the university offer a need-based scholarship? I am in first year.",scholarships,template,scholarships::Does the university offer a {sch}?,14
+How do I get a replacement hostel ID card?,id_cards,template,id_cards::How do I get a replacement {card}?,9
+I study civil. Is a mess fee refund available if I leave the hostel midway? Thanks.,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,16
+How do I withdraw from next semester?,academic_registration,template,academic_registration::How do I withdraw from {term}?,7
+I am a final year electrical student. Is a mess fee refund available if I leave the hostel midway?,hostel,template,hostel::Is a mess fee refund available if I leave the hostel midway?,19

@@ -1,0 +1,50 @@
+text,intent,source,group,n_tokens
+What documents do I submit to get my mark statement?,transcripts,seed,seed::19::transcripts,10
+What is the scholarship amount for toppers of the department?,scholarships,seed,seed::18::scholarships,10
+I need to submit a medical certificate for my absence.,attendance,seed,seed::8::attendance,10
+Who won the cricket match yesterday?,out_of_scope,seed,seed::2::out_of_scope,6
+Are there any foreign study scholarships listed by the university?,scholarships,seed,seed::12::scholarships,10
+How do I report a mistake in my attendance record?,attendance,seed,seed::11::attendance,10
+What documents are required for a course completion certificate?,certificates,seed,seed::6::certificates,9
+I did not receive my scholarship this semester.,scholarships,seed,seed::6::scholarships,8
+Can I get both a merit scholarship and an education loan?,scholarships,seed,seed::14::scholarships,11
+"The water heater in my hostel room is not working, who should I complain to?",hostel,seed,seed::6::hostel,15
+"I have shortage of attendance in one subject, what are my options?",attendance,seed,seed::17::attendance,12
+How do I register for the project or thesis credits?,academic_registration,seed,seed::14::academic_registration,10
+"I am a new student, how do I complete my admission registration?",academic_registration,seed,seed::10::academic_registration,12
+Where is the hostel warden's office?,hostel,seed,seed::14::hostel,6
+How do I get a duplicate marksheet?,transcripts,seed,seed::11::transcripts,7
+"I missed my exam due to illness, can I get a re-exam?",examinations,seed,seed::2::examinations,12
+Please guide me on requesting a transcript for higher studies in Germany.,transcripts,seed,seed::10::transcripts,12
+"My photo on the ID card is wrong, how can I change it?",id_cards,seed,seed::7::id_cards,13
+What is the fee for a duplicate ID card?,id_cards,seed,seed::6::id_cards,9
+What is the minimum attendance required to sit for exams?,attendance,seed,seed::0::attendance,10
+I need a migration certificate after finishing my degree.,certificates,seed,seed::3::certificates,9
+How do I register for a summer course?,academic_registration,seed,seed::12::academic_registration,8
+Is a fee waiver scholarship available for sports achievers?,scholarships,seed,seed::10::scholarships,9
+When will the internal assessment marks be published?,examinations,seed,seed::13::examinations,8
+Do I have to pay hostel fees along with tuition fees?,fees,seed,seed::14::fees,11
+How do I apply for hostel accommodation?,hostel,seed,seed::0::hostel,7
+What payment modes are accepted by the accounts office?,fees,seed,seed::13::fees,9
+Can I pay my fees in installments?,fees,seed,seed::3::fees,7
+How do I change my major or branch?,academic_registration,seed,seed::6::academic_registration,8
+I need a hostel no dues certificate before vacating.,hostel,seed,seed::8::hostel,9
+What is the capital of France?,out_of_scope,seed,seed::4::out_of_scope,6
+How can I check my pending dues?,fees,seed,seed::15::fees,7
+How long does it take to get a new student ID?,id_cards,seed,seed::8::id_cards,11
+Which phone should I buy?,out_of_scope,seed,seed::13::out_of_scope,5
+Where can I download my hall ticket?,examinations,seed,seed::3::examinations,7
+Where do I submit the form for a lost ID?,id_cards,seed,seed::18::id_cards,10
+Where do I request a consolidated grade card?,transcripts,seed,seed::6::transcripts,8
+Please tell me the process to obtain a domicile verification letter from the university.,certificates,seed,seed::8::certificates,14
+"I broke my ID card, please help me get another one.",id_cards,seed,seed::19::id_cards,11
+How many days for a study certificate to be issued?,certificates,seed,seed::17::certificates,10
+Translate hello into Spanish.,out_of_scope,seed,seed::14::out_of_scope,4
+How do I apply for makeup exams for medical reasons?,examinations,seed,seed::16::examinations,10
+Who signs the official academic transcript?,transcripts,seed,seed::13::transcripts,6
+What are the prerequisites for registering for advanced algorithms?,academic_registration,seed,seed::7::academic_registration,9
+"I failed one subject, how do I reappear for the exam?",examinations,seed,seed::14::examinations,11
+Is there a mess fee refund if I leave the hostel midway?,hostel,seed,seed::12::hostel,12
+Is a bonafide letter available the same day?,certificates,seed,seed::19::certificates,8
+What is the weather like today?,out_of_scope,seed,seed::0::out_of_scope,6
+Money got deducted from my account but the payment failed.,fees,seed,seed::7::fees,10

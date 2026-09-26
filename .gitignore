@@ -2,3 +2,9 @@
 .env
 __pycache__
 models/
+
+# dataset generation sources (kept local only)
+src/backend/logic/intent/seed_data.py
+src/backend/logic/intent/lexicon.py
+src/backend/logic/intent/build_dataset.py
+src/backend/data/raw/

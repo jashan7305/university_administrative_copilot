@@ -1,0 +1,612 @@
+{
+  "eda": {
+    "rows": {
+      "train": 3101,
+      "val": 309,
+      "test": 348,
+      "test_noisy": 348,
+      "test_seed": 49,
+      "test_clinc_oos": 999
+    },
+    "train_vocab_size": 1130,
+    "train_mean_tokens": 12.16,
+    "train_median_tokens": 12.0,
+    "train_max_tokens": 26,
+    "imbalance_ratio_max_min": 2.43,
+    "oov_rate_vs_train": {
+      "val": 0.065,
+      "test": 0.0776,
+      "test_noisy": 0.1428,
+      "test_seed": 0.0618
+    },
+    "top_chi2_terms": {
+      "academic_registration": [
+        "register",
+        "program",
+        "register for",
+        "course",
+        "next semester",
+        "minor",
+        "minor program",
+        "can register"
+      ],
+      "attendance": [
+        "attendance",
+        "my attendance",
+        "is attendance",
+        "percent",
+        "present",
+        "submit",
+        "session",
+        "lab session"
+      ],
+      "certificates": [
+        "certificate",
+        "degree certificate",
+        "study certificate",
+        "character certificate",
+        "transfer certificate",
+        "instruction",
+        "instruction certificate",
+        "of instruction"
+      ],
+      "examinations": [
+        "exam",
+        "hall",
+        "my hall",
+        "hall ticket",
+        "end",
+        "the end",
+        "semester exam",
+        "end semester"
+      ],
+      "fees": [
+        "fee",
+        "pay",
+        "pay the",
+        "can pay",
+        "semester fee",
+        "re registration",
+        "fee by",
+        "account"
+      ],
+      "hostel": [
+        "hostel",
+        "the hostel",
+        "room",
+        "stay",
+        "during the",
+        "during",
+        "stay in",
+        "hostel during"
+      ],
+      "id_cards": [
+        "card",
+        "id card",
+        "id",
+        "card is",
+        "new",
+        "student id",
+        "library card",
+        "identity"
+      ],
+      "out_of_scope": [
+        "best",
+        "can you",
+        "most",
+        "some",
+        "market",
+        "good",
+        "the best",
+        "bear"
+      ],
+      "scholarships": [
+        "scholarship",
+        "need base",
+        "base",
+        "merit",
+        "freeship",
+        "base scholarship",
+        "merit scholarship",
+        "fee waiver"
+      ],
+      "transcripts": [
+        "transcript",
+        "marksheet",
+        "statement",
+        "mark statement",
+        "degree transcript",
+        "university",
+        "seal",
+        "request"
+      ]
+    }
+  },
+  "ablation": [
+    {
+      "step": "raw (tokenise only)",
+      "val_macro_f1": 0.9016,
+      "test_noisy_macro_f1": 0.938
+    },
+    {
+      "step": "+ lowercase",
+      "val_macro_f1": 0.9016,
+      "test_noisy_macro_f1": 0.938
+    },
+    {
+      "step": "+ contractions",
+      "val_macro_f1": 0.9016,
+      "test_noisy_macro_f1": 0.9307
+    },
+    {
+      "step": "+ abbreviations",
+      "val_macro_f1": 0.9193,
+      "test_noisy_macro_f1": 0.935
+    },
+    {
+      "step": "+ entity masking",
+      "val_macro_f1": 0.917,
+      "test_noisy_macro_f1": 0.937
+    },
+    {
+      "step": "+ spelling correction",
+      "val_macro_f1": 0.917,
+      "test_noisy_macro_f1": 0.9422
+    },
+    {
+      "step": "+ lemmatisation (full pipeline)",
+      "val_macro_f1": 0.9072,
+      "test_noisy_macro_f1": 0.9368
+    },
+    {
+      "step": "full, stemming instead of lemma",
+      "val_macro_f1": 0.898,
+      "test_noisy_macro_f1": 0.9388
+    },
+    {
+      "step": "full + stopword removal",
+      "val_macro_f1": 0.9305,
+      "test_noisy_macro_f1": 0.9572
+    }
+  ],
+  "selected_preprocessing": {
+    "lowercase": true,
+    "expand_contractions": true,
+    "expand_abbreviations": true,
+    "mask_entities": true,
+    "spell_correct": true,
+    "remove_stopwords": true,
+    "lemmatize": true,
+    "stem": false
+  },
+  "model_comparison": [
+    {
+      "model": "majority",
+      "cv_macro_f1_mean": 0.0134,
+      "cv_macro_f1_std": 0.0067,
+      "val_accuracy": 0.0971,
+      "val_macro_f1": 0.0177,
+      "fit_cv_seconds": 6.0
+    },
+    {
+      "model": "complement_nb",
+      "cv_macro_f1_mean": 0.8425,
+      "cv_macro_f1_std": 0.0554,
+      "val_accuracy": 0.7249,
+      "val_macro_f1": 0.7217,
+      "fit_cv_seconds": 5.3
+    },
+    {
+      "model": "logreg_word",
+      "cv_macro_f1_mean": 0.9163,
+      "cv_macro_f1_std": 0.067,
+      "val_accuracy": 0.9061,
+      "val_macro_f1": 0.8979,
+      "fit_cv_seconds": 5.2
+    },
+    {
+      "model": "linear_svm",
+      "cv_macro_f1_mean": 0.9189,
+      "cv_macro_f1_std": 0.079,
+      "val_accuracy": 0.9256,
+      "val_macro_f1": 0.9184,
+      "fit_cv_seconds": 4.3
+    },
+    {
+      "model": "logreg_word_char_unweighted",
+      "cv_macro_f1_mean": 0.9185,
+      "cv_macro_f1_std": 0.0657,
+      "val_accuracy": 0.9223,
+      "val_macro_f1": 0.9145,
+      "fit_cv_seconds": 4.4
+    },
+    {
+      "model": "logreg_word_char",
+      "cv_macro_f1_mean": 0.9222,
+      "cv_macro_f1_std": 0.0667,
+      "val_accuracy": 0.9353,
+      "val_macro_f1": 0.9305,
+      "fit_cv_seconds": 4.4
+    }
+  ],
+  "selected_model": "logreg_word_char",
+  "C_grid": [
+    {
+      "C": 0.3,
+      "cv_macro_f1": 0.9002,
+      "std": 0.0617
+    },
+    {
+      "C": 1,
+      "cv_macro_f1": 0.9154,
+      "std": 0.0619
+    },
+    {
+      "C": 3,
+      "cv_macro_f1": 0.9194,
+      "std": 0.0648
+    },
+    {
+      "C": 10,
+      "cv_macro_f1": 0.9222,
+      "std": 0.0667
+    },
+    {
+      "C": 30,
+      "cv_macro_f1": 0.9213,
+      "std": 0.0657
+    },
+    {
+      "C": 100,
+      "cv_macro_f1": 0.9195,
+      "std": 0.0685
+    }
+  ],
+  "C": 10,
+  "threshold_curve": [
+    {
+      "threshold": 0.0,
+      "val_macro_f1": 0.9305,
+      "in_scope_accuracy": 0.9234,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.05,
+      "val_macro_f1": 0.9305,
+      "in_scope_accuracy": 0.9234,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.1,
+      "val_macro_f1": 0.9305,
+      "in_scope_accuracy": 0.9234,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.15,
+      "val_macro_f1": 0.9305,
+      "in_scope_accuracy": 0.9234,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "val_macro_f1": 0.9305,
+      "in_scope_accuracy": 0.9234,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.25,
+      "val_macro_f1": 0.9317,
+      "in_scope_accuracy": 0.9234,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "val_macro_f1": 0.9295,
+      "in_scope_accuracy": 0.9195,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "val_macro_f1": 0.924,
+      "in_scope_accuracy": 0.9119,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "val_macro_f1": 0.916,
+      "in_scope_accuracy": 0.9004,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "val_macro_f1": 0.9109,
+      "in_scope_accuracy": 0.8927,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "val_macro_f1": 0.8963,
+      "in_scope_accuracy": 0.8736,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "val_macro_f1": 0.8897,
+      "in_scope_accuracy": 0.8621,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "val_macro_f1": 0.8877,
+      "in_scope_accuracy": 0.8544,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "val_macro_f1": 0.8794,
+      "in_scope_accuracy": 0.8391,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "val_macro_f1": 0.8543,
+      "in_scope_accuracy": 0.8008,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "val_macro_f1": 0.8543,
+      "in_scope_accuracy": 0.8008,
+      "oos_recall": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "val_macro_f1": 0.835,
+      "in_scope_accuracy": 0.7739,
+      "oos_recall": 1.0
+    }
+  ],
+  "threshold": 0.25,
+  "final": {
+    "test": {
+      "n": 348,
+      "accuracy": 0.9684,
+      "macro_f1": 0.9701,
+      "accuracy_ci95": [
+        0.9511,
+        0.9856
+      ],
+      "macro_f1_ci95": [
+        0.9526,
+        0.986
+      ],
+      "per_class": {
+        "academic_registration": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 32.0
+        },
+        "attendance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        },
+        "certificates": {
+          "precision": 0.946,
+          "recall": 1.0,
+          "f1-score": 0.972,
+          "support": 35.0
+        },
+        "examinations": {
+          "precision": 1.0,
+          "recall": 0.759,
+          "f1-score": 0.863,
+          "support": 29.0
+        },
+        "fees": {
+          "precision": 0.943,
+          "recall": 1.0,
+          "f1-score": 0.971,
+          "support": 33.0
+        },
+        "hostel": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 25.0
+        },
+        "id_cards": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 32.0
+        },
+        "out_of_scope": {
+          "precision": 0.905,
+          "recall": 0.985,
+          "f1-score": 0.944,
+          "support": 68.0
+        },
+        "scholarships": {
+          "precision": 1.0,
+          "recall": 0.969,
+          "f1-score": 0.984,
+          "support": 32.0
+        },
+        "transcripts": {
+          "precision": 1.0,
+          "recall": 0.938,
+          "f1-score": 0.968,
+          "support": 32.0
+        }
+      }
+    },
+    "test_noisy": {
+      "n": 348,
+      "accuracy": 0.954,
+      "macro_f1": 0.9543,
+      "accuracy_ci95": [
+        0.931,
+        0.9741
+      ],
+      "macro_f1_ci95": [
+        0.9313,
+        0.975
+      ],
+      "per_class": {
+        "academic_registration": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 32.0
+        },
+        "attendance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        },
+        "certificates": {
+          "precision": 0.946,
+          "recall": 1.0,
+          "f1-score": 0.972,
+          "support": 35.0
+        },
+        "examinations": {
+          "precision": 0.955,
+          "recall": 0.724,
+          "f1-score": 0.824,
+          "support": 29.0
+        },
+        "fees": {
+          "precision": 0.868,
+          "recall": 1.0,
+          "f1-score": 0.93,
+          "support": 33.0
+        },
+        "hostel": {
+          "precision": 1.0,
+          "recall": 0.88,
+          "f1-score": 0.936,
+          "support": 25.0
+        },
+        "id_cards": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 32.0
+        },
+        "out_of_scope": {
+          "precision": 0.892,
+          "recall": 0.971,
+          "f1-score": 0.93,
+          "support": 68.0
+        },
+        "scholarships": {
+          "precision": 1.0,
+          "recall": 0.969,
+          "f1-score": 0.984,
+          "support": 32.0
+        },
+        "transcripts": {
+          "precision": 1.0,
+          "recall": 0.938,
+          "f1-score": 0.968,
+          "support": 32.0
+        }
+      }
+    },
+    "test_seed": {
+      "n": 49,
+      "accuracy": 0.898,
+      "macro_f1": 0.9034,
+      "accuracy_ci95": [
+        0.7959,
+        0.9796
+      ],
+      "macro_f1_ci95": [
+        0.787,
+        0.9715
+      ],
+      "per_class": {
+        "academic_registration": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.889,
+          "support": 5.0
+        },
+        "attendance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "certificates": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.889,
+          "support": 5.0
+        },
+        "examinations": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 5.0
+        },
+        "fees": {
+          "precision": 0.833,
+          "recall": 1.0,
+          "f1-score": 0.909,
+          "support": 5.0
+        },
+        "hostel": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.889,
+          "support": 5.0
+        },
+        "id_cards": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "out_of_scope": {
+          "precision": 0.625,
+          "recall": 1.0,
+          "f1-score": 0.769,
+          "support": 5.0
+        },
+        "scholarships": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 5.0
+        },
+        "transcripts": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.889,
+          "support": 5.0
+        }
+      }
+    },
+    "test_clinc_oos": {
+      "n": 999,
+      "accuracy": 0.96,
+      "oos_recall": 0.96,
+      "accuracy_ci95": [
+        0.9469,
+        0.972
+      ]
+    },
+    "latency_ms_per_query": 0.39,
+    "majority_reference": {
+      "test": 0.1006,
+      "test_seed": 0.102
+    }
+  }
+}

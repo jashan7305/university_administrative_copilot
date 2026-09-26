@@ -1,0 +1,126 @@
+{
+  "cleaning": {
+    "input_rows": 5136,
+    "after_empty_removal": 5136,
+    "too_short": 2,
+    "too_long": 0,
+    "label_conflicts_removed": 0,
+    "label_conflict_examples": [],
+    "exact_duplicates_removed": 859,
+    "near_duplicates_removed": 0,
+    "cross_split_leaks_removed": 1,
+    "output_rows": 4274,
+    "augmented_train_rows": 532,
+    "entity_annotated_rows": 2715
+  },
+  "splits": {
+    "train": {
+      "rows": 3101,
+      "per_intent": {
+        "certificates": 392,
+        "transcripts": 362,
+        "examinations": 357,
+        "academic_registration": 335,
+        "scholarships": 331,
+        "id_cards": 310,
+        "fees": 309,
+        "attendance": 289,
+        "hostel": 255,
+        "out_of_scope": 161
+      },
+      "per_source": {
+        "template": 2323,
+        "augmented": 532,
+        "seed": 120,
+        "clinc150": 100,
+        "hard_negative": 26
+      }
+    },
+    "val": {
+      "rows": 309,
+      "per_intent": {
+        "out_of_scope": 48,
+        "examinations": 32,
+        "transcripts": 31,
+        "fees": 31,
+        "id_cards": 30,
+        "certificates": 30,
+        "scholarships": 30,
+        "hostel": 28,
+        "attendance": 25,
+        "academic_registration": 24
+      },
+      "per_source": {
+        "template": 234,
+        "clinc150": 39,
+        "seed": 30,
+        "hard_negative": 6
+      }
+    },
+    "test": {
+      "rows": 348,
+      "per_intent": {
+        "out_of_scope": 68,
+        "certificates": 35,
+        "fees": 33,
+        "academic_registration": 32,
+        "scholarships": 32,
+        "id_cards": 32,
+        "transcripts": 32,
+        "attendance": 30,
+        "examinations": 29,
+        "hostel": 25
+      },
+      "per_source": {
+        "template": 280,
+        "clinc150": 60,
+        "hard_negative": 8
+      }
+    },
+    "test_seed": {
+      "rows": 49,
+      "per_intent": {
+        "transcripts": 5,
+        "scholarships": 5,
+        "out_of_scope": 5,
+        "certificates": 5,
+        "hostel": 5,
+        "academic_registration": 5,
+        "examinations": 5,
+        "id_cards": 5,
+        "fees": 5,
+        "attendance": 4
+      },
+      "per_source": {
+        "seed": 49
+      }
+    },
+    "test_noisy": {
+      "rows": 348,
+      "per_intent": {
+        "out_of_scope": 68,
+        "certificates": 35,
+        "fees": 33,
+        "academic_registration": 32,
+        "scholarships": 32,
+        "id_cards": 32,
+        "transcripts": 32,
+        "attendance": 30,
+        "examinations": 29,
+        "hostel": 25
+      },
+      "per_source": {
+        "noisy": 348
+      }
+    },
+    "test_clinc_oos": {
+      "rows": 999,
+      "per_intent": {
+        "out_of_scope": 999
+      },
+      "per_source": {
+        "clinc150": 999
+      }
+    }
+  }
+}

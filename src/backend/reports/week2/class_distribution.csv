@@ -1,0 +1,11 @@
+intent,train,val,test
+academic_registration,335,24,32
+attendance,289,25,30
+certificates,392,30,35
+examinations,357,32,29
+fees,309,31,33
+hostel,255,28,25
+id_cards,310,30,32
+out_of_scope,161,48,68
+scholarships,331,30,32
+transcripts,362,31,32

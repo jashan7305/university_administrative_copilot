@@ -1,0 +1,7 @@
+model,cv_macro_f1_mean,cv_macro_f1_std,val_accuracy,val_macro_f1,fit_cv_seconds
+majority,0.0134,0.0067,0.0971,0.0177,6.0
+complement_nb,0.8425,0.0554,0.7249,0.7217,5.3
+logreg_word,0.9163,0.067,0.9061,0.8979,5.2
+linear_svm,0.9189,0.079,0.9256,0.9184,4.3
+logreg_word_char_unweighted,0.9185,0.0657,0.9223,0.9145,4.4
+logreg_word_char,0.9222,0.0667,0.9353,0.9305,4.4

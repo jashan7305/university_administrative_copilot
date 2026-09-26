@@ -1,0 +1,73 @@
+split,text,true,pred
+test,Is the CGPA certificate available in a sealed cover with the university stamp? I am in final year.,transcripts,certificates
+test,"I failed digital electronics, how do I reappear?",examinations,out_of_scope
+test,"Madam, I failed digital electronics, how do I reappear?",examinations,out_of_scope
+test,"Sir, I failed physics, how do I reappear? I am in final year.",examinations,out_of_scope
+test,"I failed physics, how do I reappear?",examinations,out_of_scope
+test,Can I see my evaluated digital electronics answer sheet?,examinations,out_of_scope
+test,"I failed thermodynamics, how do I reappear?",examinations,out_of_scope
+test,Can I get the fee waiver along with an education loan?,scholarships,fees
+test,How many copies of the CGPA certificate can I order at once?,transcripts,certificates
+test,how much food should i feed my cat,out_of_scope,fees
+test,"I failed chemistry, how do I reappear?",examinations,out_of_scope
+test_noisy,Is the CGPA ceertificate avaialble in a saled cover with the university stamp? I am in final year.,transcripts,certificates
+test_noisy,what site publishes the mont fakke niws,out_of_scope,examinations
+test_noisy,"I failed dirital electronics, how do I reappear?",examinations,out_of_scope
+test_noisy,can i see my evaluuated operaating systems answer sheet,examinations,out_of_scope
+test_noisy,"madam, i failed digial electronics, how do i reappear?",examinations,out_of_scope
+test_noisy,"Sir, I faised physics, how do I reappear? I am in final year.",examinations,out_of_scope
+test_noisy,"I failed physics, how do I reappear?",examinations,out_of_scope
+test_noisy,Can I see my evaluated digital electronics answer sheet,examinations,out_of_scope
+test_noisy,"i failed thermodynamics, how do i reappear",examinations,out_of_scope
+test_noisy,can i get the fee waivqr alonng with an education loan?,scholarships,fees
+test_noisy,Is a mess fee refund available if I leave the hstel midway? Any help is appreciated.,hostel,fees
+test_noisy,How may copies of the CGPA cerrtificate can I ordre at once?,transcripts,certificates
+test_noisy,how mwch foed should i feed my cat,out_of_scope,fees
+test_noisy,I am a faculty member in chemical. Is a mess fee refnud available if I leaev the hotel midway?,hostel,fees
+test_noisy,"i failed chemistry, how do i reappear?",examinations,out_of_scope
+test_noisy,"Hey, is a mes fee refund available if I leave the hstel midway?",hostel,fees
+test_seed,How do I change my major or branch?,academic_registration,out_of_scope
+test_seed,Where do I submit the form for a lost ID?,id_cards,out_of_scope
+test_seed,Where do I request a consolidated grade card?,transcripts,id_cards
+test_seed,Is there a mess fee refund if I leave the hostel midway?,hostel,fees
+test_seed,Is a bonafide letter available the same day?,certificates,out_of_scope
+test_clinc_oos,can you delete my saved credit card,out_of_scope,id_cards
+test_clinc_oos,what is the last time the living room was vacuumed,out_of_scope,hostel
+test_clinc_oos,what's the cost to have a business card printed,out_of_scope,id_cards
+test_clinc_oos,can you mark this note as important,out_of_scope,transcripts
+test_clinc_oos,are we allowed to wash our cars during the drought,out_of_scope,id_cards
+test_clinc_oos,when will george rr martin publish the next game of thrones book,out_of_scope,examinations
+test_clinc_oos,what do i put on my feet,out_of_scope,fees
+test_clinc_oos,what causes dyslexia,out_of_scope,academic_registration
+test_clinc_oos,how do i get perfect alignment with the curb,out_of_scope,hostel
+test_clinc_oos,check the nanny cam and send the feed to my phone,out_of_scope,fees
+test_clinc_oos,can i get a starter course for the trumpet,out_of_scope,academic_registration
+test_clinc_oos,how can i get a better rate on my card,out_of_scope,id_cards
+test_clinc_oos,put on an educational program about buddhism,out_of_scope,academic_registration
+test_clinc_oos,when will the government file another antitrust suit against microsoft,out_of_scope,examinations
+test_clinc_oos,tell me about the amusement park,out_of_scope,examinations
+test_clinc_oos,what is the fee for a cash advance,out_of_scope,fees
+test_clinc_oos,what is the cashback rate for my credit card,out_of_scope,id_cards
+test_clinc_oos,how much of a refund will i get this year,out_of_scope,fees
+test_clinc_oos,when will the daffodils bloom this year,out_of_scope,examinations
+test_clinc_oos,show me new cars with the highest safety rating,out_of_scope,id_cards
+test_clinc_oos,please activate a wireless hotspot so i can use the internet,out_of_scope,examinations
+test_clinc_oos,locate jenny at her present position,out_of_scope,attendance
+test_clinc_oos,please take all my money out of my checking account and close the account,out_of_scope,fees
+test_clinc_oos,show me what one should do to get ahead in a tech corporation,out_of_scope,examinations
+test_clinc_oos,what should i do if it hurts when i pee,out_of_scope,examinations
+test_clinc_oos,get me a list of universities that provide full scholarships in arizona,out_of_scope,scholarships
+test_clinc_oos,program my new robot to bring me snacks,out_of_scope,academic_registration
+test_clinc_oos,can you fill in my credit card number on the screen,out_of_scope,id_cards
+test_clinc_oos,how many push-ups do i need to do to get ripped,out_of_scope,scholarships
+test_clinc_oos,renew gym membership,out_of_scope,scholarships
+test_clinc_oos,how can i make my living room appear to be bigger than it is,out_of_scope,hostel
+test_clinc_oos,is there a cheaper rate with another carrier for my mobile,out_of_scope,academic_registration
+test_clinc_oos,where will the next olympics be hosted,out_of_scope,hostel
+test_clinc_oos,add my wife as an authorized user to checking account 20905432,out_of_scope,fees
+test_clinc_oos,what should i do if i saw a cockroach in my house,out_of_scope,examinations
+test_clinc_oos,when can i get a business card printed locally,out_of_scope,id_cards
+test_clinc_oos,when will cameron release the sequel to avatar,out_of_scope,examinations
+test_clinc_oos,what should you do if you can't be bothered to get out of bed,out_of_scope,examinations
+test_clinc_oos,i need you to check the resistance of a coil wrapped 6 times with an id of 25mm,out_of_scope,id_cards
+test_clinc_oos,open up internet browser,out_of_scope,examinations

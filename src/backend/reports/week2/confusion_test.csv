@@ -1,0 +1,11 @@
+,academic_registration,attendance,certificates,examinations,fees,hostel,id_cards,out_of_scope,scholarships,transcripts
+academic_registration,32,0,0,0,0,0,0,0,0,0
+attendance,0,30,0,0,0,0,0,0,0,0
+certificates,0,0,35,0,0,0,0,0,0,0
+examinations,0,0,0,22,0,0,0,7,0,0
+fees,0,0,0,0,33,0,0,0,0,0
+hostel,0,0,0,0,0,25,0,0,0,0
+id_cards,0,0,0,0,0,0,32,0,0,0
+out_of_scope,0,0,0,0,1,0,0,67,0,0
+scholarships,0,0,0,0,1,0,0,0,31,0
+transcripts,0,0,2,0,0,0,0,0,0,30

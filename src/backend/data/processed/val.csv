@@ -1,0 +1,310 @@
+text,intent,source,group,n_tokens
+what is the purpose or benefit of a cash advance,out_of_scope,clinc150,clinc::what is the purpose or benefit of a cash advance,10
+Is attendance mandatory for the online classes?,attendance,seed,seed::16::attendance,7
+I want a mark statement for all semesters.,transcripts,template,transcripts::I want a {doc} for all semesters.,8
+I want a provisional transcript for all semesters.,transcripts,template,transcripts::I want a {doc} for all semesters.,8
+What are the hostel fees for a single occupancy room?,hostel,seed,seed::3::hostel,10
+I want a sealed transcript for all semesters.,transcripts,template,transcripts::I want a {doc} for all semesters.,8
+"Hey, tell me the process for student ID card replacement.",id_cards,template,id_cards::Tell me the process for {card} replacement.,10
+"Hi, I am from MBA. I paid the semester fee but it is not reflecting on the portal.",fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,18
+"I am a new student, how do I complete my admission registration? I am in semester 5.",academic_registration,template,"academic_registration::I am a new student, how do I complete my admission registration?",17
+Is there a fee for a bonafide certificate? Kindly guide me.,certificates,template,certificates::Is there a fee for a {cert}?,11
+"Hey, can I download my duplicate marksheet from the student portal?",transcripts,template,transcripts::Can I download my {doc} from the student portal?,11
+How can I get a re-exam for machine learning due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,14
+is autism a genetic disease,out_of_scope,clinc150,clinc::is autism a genetic disease,5
+Play my favourite playlist.,out_of_scope,hard_negative,hn::Play my favourite playlist.,4
+can you tell me how to compute price per ounce,out_of_scope,clinc150,clinc::can you tell me how to compute price per ounce,10
+how can i root an android phone,out_of_scope,clinc150,clinc::how can i root an android phone,7
+What time is it in London?,out_of_scope,seed,seed::19::out_of_scope,6
+How do I apply for the supplementary exam? My roll number is A143.,examinations,template,examinations::How do I apply for the {exam}?,13
+"Madam, how can I get a re-exam for mathematics due to a medical emergency?",examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,14
+What is the last date to pay the exam fee?,fees,template,fees::What is the last date to pay the {fee}?,10
+What documents do I submit to get a grade card?,transcripts,template,transcripts::What documents do I submit to get a {doc}?,10
+My library card is lost. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,9
+When will the results of the improvement exam be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,10
+I did not receive my freeship this semester. I am in first year.,scholarships,template,scholarships::I did not receive my {sch} this semester.,13
+Urgent: can I download my semester-wise transcript from the student portal?,transcripts,template,transcripts::Can I download my {doc} from the student portal?,11
+"Madam, what is the last date to pay the lab fee? I am in final year.",fees,template,fees::What is the last date to pay the {fee}?,16
+How do I switch to another hostel? Thanks.,hostel,template,hostel::How do I switch to another hostel?,8
+Which office issues the migration certificate?,certificates,template,certificates::Which office issues the {cert}?,6
+can i mix antifreeze with water,out_of_scope,clinc150,clinc::can i mix antifreeze with water,6
+I study mechanical. I could not register for the summer term because of a portal error. Thanks.,academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,17
+My identity card is damaged. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,9
+Do I need to file an FIR for a lost ID card?,id_cards,seed,seed::10::id_cards,12
+"Madam, can I download my degree transcript from the student portal?",transcripts,template,transcripts::Can I download my {doc} from the student portal?,11
+Please tell me the last date of registration for the spring semester.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,12
+What is the fee for a duplicate faculty ID card?,id_cards,template,id_cards::What is the fee for a duplicate {card}?,10
+What is the fee for a duplicate faculty ID card? I am in first year.,id_cards,template,id_cards::What is the fee for a duplicate {card}?,15
+Is there a fee for a no objection certificate?,certificates,template,certificates::Is there a fee for a {cert}?,9
+How do I cancel my hostel booking?,hostel,seed,seed::9::hostel,7
+"Madam, is there any government scholarship for first year students?",scholarships,template,scholarships::Is there any {sch} for {year} students?,10
+"The roommate in my hostel room is not working, whom do I complain to?",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",14
+Is there a fee for a conduct certificate? Thanks.,certificates,template,certificates::Is there a fee for a {cert}?,9
+What is the process to apply for a semester-wise transcript?,transcripts,seed,seed::2::transcripts,10
+What is the amount of the late fee for second year?,fees,template,fees::What is the amount of the {fee} for {year}?,11
+"I study mechanical. I have shortage of attendance in digital electronics, what are my options? Kindly guide me.",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",18
+is it true that nicotine is harder to kick than heroin,out_of_scope,clinc150,clinc::is it true that nicotine is harder to kick than heroin,11
+Is there any sports scholarship for final year students? Kindly guide me.,scholarships,template,scholarships::Is there any {sch} for {year} students?,12
+Do I get attendance for a family emergency?,attendance,template,attendance::Do I get attendance for {reason}?,8
+"The last date for the scholarship application has passed, can I still apply?",scholarships,seed,seed::11::scholarships,13
+am kind of busy now,out_of_scope,clinc150,clinc::am kind of busy now,5
+"Madam, can I download my provisional transcript from the student portal?",transcripts,template,transcripts::Can I download my {doc} from the student portal?,11
+Roll number J101 here. How do I switch to another hostel?,hostel,template,hostel::How do I switch to another hostel?,11
+"I have shortage of attendance in operating systems, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",12
+When will the results of the backlog exam be declared? Kindly guide me.,examinations,template,examinations::When will the results of the {exam} be declared?,13
+Can I download my consolidated marksheet from the student portal?,transcripts,template,transcripts::Can I download my {doc} from the student portal?,10
+"Sir, what is the amount of the semester fee for first year? Thanks.",fees,template,fees::What is the amount of the {fee} for {year}?,13
+Who approves attendance condonation? Please help.,attendance,template,attendance::Who approves attendance condonation?,6
+king of acid,out_of_scope,clinc150,clinc::king of acid,3
+Is there any merit scholarship for first year students?,scholarships,template,scholarships::Is there any {sch} for {year} students?,9
+Is there any research fellowship for final year students? It is urgent.,scholarships,template,scholarships::Is there any {sch} for {year} students?,12
+"Madam, I did not receive my need-based scholarship this semester.",scholarships,template,scholarships::I did not receive my {sch} this semester.,10
+"Hi, do I get attendance for an internship? Thanks.",attendance,template,attendance::Do I get attendance for {reason}?,9
+How can I get a re-exam for operating systems due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,14
+"Quick question: the bathroom tap in my hostel room is not working, whom do I complain to? It is urgent.",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",20
+My student ID card is expired. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,10
+"Hey, I could not register for semester 5 because of a portal error.",academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,13
+Quick question: who approves attendance condonation?,attendance,template,attendance::Who approves attendance condonation?,6
+Is there any girl child scholarship for final year students?,scholarships,template,scholarships::Is there any {sch} for {year} students?,10
+"Excuse me, can I download my consolidated marksheet from the student portal? Thank you.",transcripts,template,transcripts::Can I download my {doc} from the student portal?,14
+How do I apply for the viva? Please help.,examinations,template,examinations::How do I apply for the {exam}?,9
+"Hi, I am from IT. I want a consolidated marksheet for all semesters.",transcripts,template,transcripts::I want a {doc} for all semesters.,13
+"Hi, I am from MBA. The roommate in my hostel room is not working, whom do I complain to? It is urgent.",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",22
+How do I apply for a replacement ID card?,id_cards,seed,seed::2::id_cards,9
+What is the amount of the development fee for third year?,fees,template,fees::What is the amount of the {fee} for {year}?,11
+"Hey, which office issues the character certificate?",certificates,template,certificates::Which office issues the {cert}?,7
+I want to see my evaluated answer script.,examinations,seed,seed::6::examinations,8
+"Hey, please tell me the last date of registration for next semester.",academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,12
+"Hello, my provisional degree certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",18
+"Excuse me, how do I apply for the re-exam? Kindly guide me.",examinations,template,examinations::How do I apply for the {exam}?,12
+When will the results of the end semester exam be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,11
+I did not receive my girl child scholarship this semester.,scholarships,template,scholarships::I did not receive my {sch} this semester.,10
+is the pnc bank open,out_of_scope,clinc150,clinc::is the pnc bank open,5
+Is there any research fellowship for first year students?,scholarships,template,scholarships::Is there any {sch} for {year} students?,9
+When will the results of the backlog exam be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,10
+I am a faculty member in civil. What is the last date to pay the semester fee?,fees,template,fees::What is the last date to pay the {fee}?,17
+Tell me the process for student ID card replacement.,id_cards,template,id_cards::Tell me the process for {card} replacement.,9
+"Excuse me, do I get attendance for a college fest?",attendance,template,attendance::Do I get attendance for {reason}?,10
+Urgent: what documents do I submit to get a mark statement?,transcripts,template,transcripts::What documents do I submit to get a {doc}?,11
+I am a faculty member in CSE. How do I switch to another hostel?,hostel,template,hostel::How do I switch to another hostel?,14
+"Excuse me, what is the last date to pay the late fee?",fees,template,fees::What is the last date to pay the {fee}?,12
+"Hi, I could not register for semester 6 because of a portal error. Thank you.",academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,15
+When does the course registration window open?,academic_registration,seed,seed::1::academic_registration,7
+When will the results of the practical exam be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,10
+"Sir, can I download my mark statement from the student portal?",transcripts,template,transcripts::Can I download my {doc} from the student portal?,11
+please inform me on bad habits and overcoming them,out_of_scope,clinc150,clinc::please inform me on bad habits and overcoming them,9
+what new reality shows are there for 2019,out_of_scope,clinc150,clinc::what new reality shows are there for 2019,8
+Roll number J037 here. What documents do I submit to get a provisional transcript?,transcripts,template,transcripts::What documents do I submit to get a {doc}?,14
+I need my transcripts sent to a university abroad.,transcripts,seed,seed::1::transcripts,9
+Who do I talk to about fee concessions?,fees,seed,seed::18::fees,8
+what were the top stories this week,out_of_scope,clinc150,clinc::what were the top stories this week,7
+"Sir, I have shortage of attendance in data structures, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",13
+What is the fee for a duplicate RFID access card?,id_cards,template,id_cards::What is the fee for a duplicate {card}?,10
+"Sir, what documents do I submit to get a mark statement? Please help.",transcripts,template,transcripts::What documents do I submit to get a {doc}?,13
+"I have shortage of attendance in digital electronics, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",12
+Which office issues the conduct certificate?,certificates,template,certificates::Which office issues the {cert}?,6
+Tell me a joke.,out_of_scope,seed,seed::1::out_of_scope,4
+"My domicile verification letter has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",17
+I am a third year mechanical student. How do I apply for the mid semester exam?,examinations,template,examinations::How do I apply for the {exam}?,16
+where does the power steering fluid go,out_of_scope,clinc150,clinc::where does the power steering fluid go,7
+What documents do I submit to get a provisional transcript? Please help.,transcripts,template,transcripts::What documents do I submit to get a {doc}?,12
+My RFID access card is broken. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,10
+I am a faculty member in CSE. What documents do I submit to get a degree transcript? I am in third year.,transcripts,template,transcripts::What documents do I submit to get a {doc}?,22
+"Hi, I am from biotech. Which office issues the transfer certificate? My roll number is A056.",certificates,template,certificates::Which office issues the {cert}?,16
+I'm in semester 8 of MBA. What is the amount of the hostel fee for third year?,fees,template,fees::What is the amount of the {fee} for {year}?,17
+How can I get a re-exam for data structures due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,14
+"I study chemical. I have shortage of attendance in chemistry, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",14
+"Quick question: the bed in my hostel room is not working, whom do I complain to?",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",16
+Tell me about the minority scholarship scheme.,scholarships,seed,seed::19::scholarships,7
+Please tell me the last date of registration for next semester. I am in third year.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,16
+What is the fee for a duplicate library card?,id_cards,template,id_cards::What is the fee for a duplicate {card}?,9
+When will the results of the makeup exam be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,10
+"I have a problem with the light, who should I report it to? I am in semester 2.",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",18
+"Madam, tell me the process for smart card replacement. I am in semester 4.",id_cards,template,id_cards::Tell me the process for {card} replacement.,14
+Please tell me the last date of registration for the spring semester. Kindly guide me.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,15
+How do I apply for the viva?,examinations,template,examinations::How do I apply for the {exam}?,7
+"Hey, the water heater in my hostel room is not working, whom do I complain to?",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",16
+Please tell me the last date of registration for semester 6. Kindly guide me.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,14
+I did not receive my post-matric scholarship this semester.,scholarships,template,scholarships::I did not receive my {sch} this semester.,9
+How do I apply for a driving licence?,out_of_scope,hard_negative,hn::How do I apply for a driving licence?,8
+find out for me as to why people get autism,out_of_scope,clinc150,clinc::find out for me as to why people get autism,10
+"Madam, what is the amount of the semester fee for first year?",fees,template,fees::What is the amount of the {fee} for {year}?,12
+"Sir, I paid the semester fee but it is not reflecting on the portal.",fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,14
+"Sir, what is the last date to apply for the girl child scholarship?",scholarships,template,scholarships::What is the last date to apply for the {sch}?,13
+how long does it take to become an architect,out_of_scope,clinc150,clinc::how long does it take to become an architect,9
+"I have a problem with the bed, who should I report it to? I am in semester 5.",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",18
+Urgent: which office issues the provisional degree certificate?,certificates,template,certificates::Which office issues the {cert}?,8
+"Excuse me, I am a new student, how do I complete my admission registration?",academic_registration,template,"academic_registration::I am a new student, how do I complete my admission registration?",14
+What is the amount of the tuition fee for first year?,fees,template,fees::What is the amount of the {fee} for {year}?,11
+When will the results of the mid semester exam be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,11
+How do I switch to another hostel?,hostel,template,hostel::How do I switch to another hostel?,7
+What is the amount of the hostel fee for final year? My roll number is A055.,fees,template,fees::What is the amount of the {fee} for {year}?,16
+"Excuse me, the fan in my hostel room is not working, whom do I complain to?",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",16
+how to unclog a drain,out_of_scope,clinc150,clinc::how to unclog a drain,5
+when was the last time the president visited floridau,out_of_scope,clinc150,clinc::when was the last time the president visited floridau,9
+"Hi, I am from BBA. I am a new student, how do I complete my admission registration?",academic_registration,template,"academic_registration::I am a new student, how do I complete my admission registration?",17
+I paid the re-registration fee but it is not reflecting on the portal. I am in semester 6.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,18
+Who approves attendance condonation? Kindly guide me.,attendance,template,attendance::Who approves attendance condonation?,7
+I need a fee structure document for my education loan.,fees,seed,seed::10::fees,10
+"Hi, how do I switch to another hostel? Any help is appreciated.",hostel,template,hostel::How do I switch to another hostel?,12
+Is there any need-based scholarship for second year students? I am in final year.,scholarships,template,scholarships::Is there any {sch} for {year} students?,14
+I paid the admission fee but it is not reflecting on the portal.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,13
+"The mess food in my hostel room is not working, whom do I complain to?",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",15
+Do I get attendance for a family emergency? Kindly guide me.,attendance,template,attendance::Do I get attendance for {reason}?,11
+how do i find the area of a circle,out_of_scope,clinc150,clinc::how do i find the area of a circle,9
+"I have a problem with the mess food, who should I report it to?",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",14
+"Madam, what documents do I submit to get a CGPA certificate?",transcripts,template,transcripts::What documents do I submit to get a {doc}?,11
+What is the fee for a bonafide certificate?,certificates,seed,seed::12::certificates,8
+Can I download my CGPA certificate from the student portal?,transcripts,template,transcripts::Can I download my {doc} from the student portal?,10
+Please tell me the last date of registration for next semester.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,11
+I am a faculty member in electrical. My faculty ID card is damaged. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,17
+is android better than iphone,out_of_scope,clinc150,clinc::is android better than iphone,5
+"Sir, how can I get a re-exam for chemistry due to a medical emergency?",examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,14
+"I'm in semester 4 of ECE. I have a problem with the wifi, who should I report it to?",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",19
+what is happening with brexit right nowu,out_of_scope,clinc150,clinc::what is happening with brexit right nowu,7
+Do I get attendance for a hackathon?,attendance,template,attendance::Do I get attendance for {reason}?,7
+What documents do I submit to get a provisional transcript?,transcripts,template,transcripts::What documents do I submit to get a {doc}?,10
+I did not receive my alumni scholarship this semester. I am in semester 8.,scholarships,template,scholarships::I did not receive my {sch} this semester.,14
+Tell me the process for RFID access card replacement.,id_cards,template,id_cards::Tell me the process for {card} replacement.,9
+Do I get attendance for a sports event?,attendance,template,attendance::Do I get attendance for {reason}?,8
+Urgent: how can I get a re-exam for operating systems due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,15
+How far is the moon from the earth?,out_of_scope,seed,seed::9::out_of_scope,8
+Which office issues the medium of instruction certificate?,certificates,template,certificates::Which office issues the {cert}?,8
+"I want to withdraw from the semester, what is the procedure?",academic_registration,seed,seed::13::academic_registration,11
+What is the last date to pay the admission fee?,fees,template,fees::What is the last date to pay the {fee}?,10
+When will the results of the internal assessment be declared?,examinations,template,examinations::When will the results of the {exam} be declared?,10
+I could not register for next semester because of a portal error. Please help.,academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,14
+"I have a problem with the fan, who should I report it to? I am in third year.",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",18
+I'm in semester 3 of CSE. What is the amount of the exam fee for first year?,fees,template,fees::What is the amount of the {fee} for {year}?,17
+"My bonafide certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",16
+"Sir, what is the fee for a duplicate RFID access card? Any help is appreciated.",id_cards,template,id_cards::What is the fee for a duplicate {card}?,15
+"Hey, what is the last date to apply for the post-matric scholarship? I am in semester 3.",scholarships,template,scholarships::What is the last date to apply for the {sch}?,17
+"Hi, what is the amount of the lab fee for first year? It is urgent.",fees,template,fees::What is the amount of the {fee} for {year}?,15
+Who approves attendance condonation? It is urgent.,attendance,template,attendance::Who approves attendance condonation?,7
+Is there a fee for a transfer certificate?,certificates,template,certificates::Is there a fee for a {cert}?,8
+Urgent: tell me the process for RFID access card replacement. Kindly guide me.,id_cards,template,id_cards::Tell me the process for {card} replacement.,13
+Who approves attendance condonation?,attendance,template,attendance::Who approves attendance condonation?,4
+"I have a problem with the light, who should I report it to? Thanks.",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",14
+"My degree certificate has a spelling mistake in my name, how do I correct it?",certificates,seed,seed::16::certificates,15
+what university in the united states offers the best biomedical engineering program,out_of_scope,clinc150,clinc::what university in the united states offers the best biomedical engineering program,12
+Urgent: when will the results of the re-exam be declared? My roll number is J059.,examinations,template,examinations::When will the results of the {exam} be declared?,15
+"Hello, I did not receive my SC/ST scholarship this semester.",scholarships,template,scholarships::I did not receive my {sch} this semester.,10
+I need to extend my stay at the hostel during summer vacation.,hostel,seed,seed::16::hostel,12
+are androids expensive,out_of_scope,clinc150,clinc::are androids expensive,3
+how can i keep my windshield from fogging up in winter,out_of_scope,clinc150,clinc::how can i keep my windshield from fogging up in winter,11
+What is the fee for a duplicate ID card? Any help is appreciated.,id_cards,template,id_cards::What is the fee for a duplicate {card}?,13
+"Hi, I paid the hostel fee but it is not reflecting on the portal.",fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,14
+a show on broadway,out_of_scope,clinc150,clinc::a show on broadway,4
+"Hi, I am from IT. My faculty ID card is damaged. What should I do? Kindly guide me.",id_cards,template,id_cards::My {card} is {problem}. What should I do?,18
+What is the last date to pay the development fee?,fees,template,fees::What is the last date to pay the {fee}?,10
+What is the fee for a duplicate smart card?,id_cards,template,id_cards::What is the fee for a duplicate {card}?,9
+Which office issues the character certificate? I am in third year.,certificates,template,certificates::Which office issues the {cert}?,11
+Roll number A143 here. I want a provisional transcript for all semesters.,transcripts,template,transcripts::I want a {doc} for all semesters.,12
+How do I apply for the practical exam?,examinations,template,examinations::How do I apply for the {exam}?,8
+I could not register for the summer term because of a portal error.,academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,13
+What is the last date to apply for the alumni scholarship? It is urgent.,scholarships,template,scholarships::What is the last date to apply for the {sch}?,14
+Please tell me the last date of registration for semester 5.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,11
+Can I take a course from another department as an open elective?,academic_registration,seed,seed::9::academic_registration,12
+Suggest a gym routine for beginners.,out_of_scope,hard_negative,hn::Suggest a gym routine for beginners.,6
+"Madam, is there any SC/ST scholarship for second year students?",scholarships,template,scholarships::Is there any {sch} for {year} students?,10
+are any earning reports due,out_of_scope,clinc150,clinc::are any earning reports due,5
+How do I get a bonafide certificate?,certificates,seed,seed::0::certificates,7
+Roll number J037 here. Who approves attendance condonation? My roll number is K037.,attendance,template,attendance::Who approves attendance condonation?,13
+Is there any relaxation in attendance for sports representatives?,attendance,seed,seed::10::attendance,9
+"The water heater in my hostel room is not working, whom do I complain to? I am in second year.",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",20
+Which office issues the study certificate?,certificates,template,certificates::Which office issues the {cert}?,6
+What is the last date to apply for the SC/ST scholarship?,scholarships,template,scholarships::What is the last date to apply for the {sch}?,11
+I am a faculty member in mechanical. How can I get a re-exam for chemistry due to a medical emergency? I am in final year.,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,25
+Do I get attendance for illness?,attendance,template,attendance::Do I get attendance for {reason}?,6
+who has the best record in the nfl,out_of_scope,clinc150,clinc::who has the best record in the nfl,8
+"Hello, when will the results of the backlog exam be declared?",examinations,template,examinations::When will the results of the {exam} be declared?,11
+"Hey, I want a provisional transcript for all semesters.",transcripts,template,transcripts::I want a {doc} for all semesters.,9
+What is the last date to apply for the post-matric scholarship?,scholarships,template,scholarships::What is the last date to apply for the {sch}?,11
+"I have a problem with the bed, who should I report it to?",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",13
+"I have a problem with the bed, who should I report it to? It is urgent.",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",16
+are bad habits closely related with addictions,out_of_scope,clinc150,clinc::are bad habits closely related with addictions,7
+I have not received my ID card yet even after two months of admission.,id_cards,seed,seed::9::id_cards,14
+What documents do I submit to get a duplicate marksheet?,transcripts,template,transcripts::What documents do I submit to get a {doc}?,10
+does our bank have free notary,out_of_scope,clinc150,clinc::does our bank have free notary,6
+I want a provisional transcript for all semesters. My roll number is A056.,transcripts,template,transcripts::I want a {doc} for all semesters.,13
+Quick question: is there a fee for a degree certificate?,certificates,template,certificates::Is there a fee for a {cert}?,10
+I could not register for the fall semester because of a portal error.,academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,13
+Quick question: how can I get a re-exam for operating systems due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,16
+Is there a fee for a bonafide certificate?,certificates,template,certificates::Is there a fee for a {cert}?,8
+"The light in my hostel room is not working, whom do I complain to?",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",14
+are there any new companies to look out for,out_of_scope,clinc150,clinc::are there any new companies to look out for,9
+What is the last date to apply for the research fellowship?,scholarships,template,scholarships::What is the last date to apply for the {sch}?,11
+Roll number K012 here. How do I apply for the internal assessment? I am in third year.,examinations,template,examinations::How do I apply for the {exam}?,17
+I want a CGPA to percentage conversion letter along with my transcript.,transcripts,seed,seed::12::transcripts,12
+how many onions do i have on hand,out_of_scope,clinc150,clinc::how many onions do i have on hand,8
+I study mechanical. My RFID access card is damaged. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,13
+Can I download my official transcript from the student portal?,transcripts,template,transcripts::Can I download my {doc} from the student portal?,10
+"I have shortage of attendance in mathematics, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",11
+I did not receive my merit scholarship this semester.,scholarships,template,scholarships::I did not receive my {sch} this semester.,9
+Roll number A054 here. What is the last date to apply for the post-matric scholarship? It is urgent.,scholarships,template,scholarships::What is the last date to apply for the {sch}?,18
+Which office issues the study certificate? I am in semester 5.,certificates,template,certificates::Which office issues the {cert}?,11
+I could not register for semester 5 because of a portal error.,academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,12
+does hypnosis work to break bad habits,out_of_scope,clinc150,clinc::does hypnosis work to break bad habits,7
+what is the name of the 13th president,out_of_scope,clinc150,clinc::what is the name of the 13th president,8
+Is there any government scholarship for second year students?,scholarships,template,scholarships::Is there any {sch} for {year} students?,9
+My professor did not update my attendance for the last month.,attendance,seed,seed::13::attendance,11
+"Hey, is there a fee for a character certificate?",certificates,template,certificates::Is there a fee for a {cert}?,9
+What is the fee for a duplicate hostel ID card?,id_cards,template,id_cards::What is the fee for a duplicate {card}?,10
+how long will it take me to pay off my card if i pay an extra $50 a month over the minimum,out_of_scope,clinc150,clinc::how long will it take me to pay off my card if i pay an extra $50 a month over the minimum,22
+Do I get attendance for a conference? I am in semester 1.,attendance,template,attendance::Do I get attendance for {reason}?,12
+how do i compute the median of a set of numbers,out_of_scope,clinc150,clinc::how do i compute the median of a set of numbers,11
+I study biotech. Is there any merit scholarship for third year students?,scholarships,template,scholarships::Is there any {sch} for {year} students?,12
+How can I get a re-exam for digital electronics due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,14
+Roll number A057 here. Is there a fee for a no objection certificate?,certificates,template,certificates::Is there a fee for a {cert}?,13
+What is the last date to apply for the fee waiver?,scholarships,template,scholarships::What is the last date to apply for the {sch}?,11
+I study ECE. I paid the semester fee but it is not reflecting on the portal.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,16
+My student ID card is lost. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,10
+"As a second year student, my medium of instruction certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",23
+Where can I download my fee receipt?,fees,seed,seed::5::fees,7
+"I am a faculty member in ECE. My transfer certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",23
+Can I download my duplicate marksheet from the student portal?,transcripts,template,transcripts::Can I download my {doc} from the student portal?,10
+I did not receive my alumni scholarship this semester.,scholarships,template,scholarships::I did not receive my {sch} this semester.,9
+"As a second year student, which office issues the medium of instruction certificate? Thank you.",certificates,template,certificates::Which office issues the {cert}?,15
+Please tell me the last date of registration for the fall semester.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,12
+Tell me the process for hostel ID card replacement. I am in semester 3.,id_cards,template,id_cards::Tell me the process for {card} replacement.,14
+"My degree certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",16
+set a warning for when my bank account starts running low,out_of_scope,clinc150,clinc::set a warning for when my bank account starts running low,11
+"I have shortage of attendance in machine learning, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",12
+The result shows absent even though I appeared for the paper.,examinations,seed,seed::17::examinations,11
+Tell me the process for identity card replacement.,id_cards,template,id_cards::Tell me the process for {card} replacement.,8
+What is the last date to pay the semester fee? I am in first year.,fees,template,fees::What is the last date to pay the {fee}?,15
+How do I file my income tax return?,out_of_scope,hard_negative,hn::How do I file my income tax return?,8
+"Roll number J101 here. I have a problem with the door lock, who should I report it to?",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",18
+is flu contagious,out_of_scope,clinc150,clinc::is flu contagious,3
+"I am a new student, how do I complete my admission registration? Kindly guide me.",academic_registration,template,"academic_registration::I am a new student, how do I complete my admission registration?",15
+"My course completion certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",17
+"My transfer certificate has a spelling mistake in my name, how do I get it corrected?",certificates,template,"certificates::My {cert} has a spelling mistake in my name, how do I get it corrected?",16
+What is the amount of the re-registration fee for final year?,fees,template,fees::What is the amount of the {fee} for {year}?,11
+I'm in semester 4 of electrical. I paid the lab fee but it is not reflecting on the portal.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,19
+How do I learn Python quickly?,out_of_scope,hard_negative,hn::How do I learn Python quickly?,6
+I paid the lab fee but it is not reflecting on the portal.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,13
+What is the last date to pay the hostel fee?,fees,template,fees::What is the last date to pay the {fee}?,10
+I want a degree transcript for all semesters.,transcripts,template,transcripts::I want a {doc} for all semesters.,8
+Is there a fee for a course completion certificate?,certificates,template,certificates::Is there a fee for a {cert}?,9
+"I have shortage of attendance in thermodynamics, what are my options?",attendance,template,"attendance::I have shortage of attendance in {subject}, what are my options?",11
+"Hi, I am from IT. I could not register for the fall semester because of a portal error.",academic_registration,template,academic_registration::I could not register for {term} because of a portal error.,18
+Who is the coordinator for the scholarship cell?,scholarships,seed,seed::15::scholarships,8
+How can I get a re-exam for thermodynamics due to a medical emergency?,examinations,template,examinations::How can I get a re-exam for {subject} due to a medical emergency?,13
+show me the channel guide,out_of_scope,clinc150,clinc::show me the channel guide,5
+Urgent: I paid the development fee but it is not reflecting on the portal.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,14
+who are some famous living architects,out_of_scope,clinc150,clinc::who are some famous living architects,6
+Please tell me the last date of registration for semester 6.,academic_registration,template,academic_registration::Please tell me the last date of registration for {term}.,11
+How do I apply for the makeup exam?,examinations,template,examinations::How do I apply for the {exam}?,8
+"I have a problem with the bathroom tap, who should I report it to?",hostel,template,"hostel::I have a problem with the {issue}, who should I report it to?",14
+How do I apply for the re-exam?,examinations,template,examinations::How do I apply for the {exam}?,7
+What is the fee for a duplicate student ID card?,id_cards,template,id_cards::What is the fee for a duplicate {card}?,10
+Tell me the process for hostel ID card replacement.,id_cards,template,id_cards::Tell me the process for {card} replacement.,9
+What is the last date to apply for the freeship?,scholarships,template,scholarships::What is the last date to apply for the {sch}?,10
+"Hi, the wifi in my hostel room is not working, whom do I complain to? I am in final year.",hostel,template,"hostel::The {issue} in my hostel room is not working, whom do I complain to?",20
+What is the bus route to the railway station?,out_of_scope,hard_negative,hn::What is the bus route to the railway station?,9
+How do I check my exam results?,examinations,seed,seed::5::examinations,7
+I paid the semester fee but it is not reflecting on the portal.,fees,template,fees::I paid the {fee} but it is not reflecting on the portal.,13
+What documents do I submit to get a degree transcript?,transcripts,template,transcripts::What documents do I submit to get a {doc}?,10
+My smart card is not working. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,10
+show me recent activity in my backyard,out_of_scope,clinc150,clinc::show me recent activity in my backyard,7
+My hostel ID card is lost. What should I do?,id_cards,template,id_cards::My {card} is {problem}. What should I do?,10

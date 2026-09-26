@@ -1,0 +1,10 @@
+step,val_macro_f1,test_noisy_macro_f1
+raw (tokenise only),0.9016,0.938
++ lowercase,0.9016,0.938
++ contractions,0.9016,0.9307
++ abbreviations,0.9193,0.935
++ entity masking,0.917,0.937
++ spelling correction,0.917,0.9422
++ lemmatisation (full pipeline),0.9072,0.9368
+"full, stemming instead of lemma",0.898,0.9388
+full + stopword removal,0.9305,0.9572

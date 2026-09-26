@@ -1,0 +1,349 @@
+text,intent,source,group,n_tokens
+i want to add the prroject credis ahter the registration deadline,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,11
+Quick question: wat r the hostel rules for usig appliances in the room? It is urgent.,hostel,noisy,hostel::What are the hostel rules for {rule}?,16
+plebse get me my wheelchair,out_of_scope,noisy,clinc::please get me my wheelchair,5
+i study ece. how do i get my registration form for the fall semester sigend by my faculty advisor?,academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,19
+how mhch is the development fee,fees,noisy,fees::How much is the {fee}?,6
+I am a faculty membre in CSE. Can I see my evaluated thermodnyamics answeer sheet,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,15
+can i get the alomni scholarship allong with an educatirn loan? my roll number is k088.,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,16
+is theer any relaxation in attendance for an internship,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,9
+whre do blwck holes come from,out_of_scope,noisy,clinc::where do black holes come from,6
+i was charged twfce for the hostel fee.,fees,noisy,fees::I was charged twice for the {fee}.,8
+How do I get a replacement faculty ID card?,id_cards,noisy,id_cards::How do I get a replacement {card}?,9
+I was charged twice for the semester fee. My roll numbber is A056.,fees,noisy,fees::I was charged twice for the {fee}.,13
+are ovr the ear headphones better than in ear headphones,out_of_scope,noisy,clinc::are over the ear headphones better than in ear headphones,10
+wat r the hostel rules for using appliances in the room,hostel,noisy,hostel::What are the hostel rules for {rule}?,11
+quick question: how much is the lab fee?,fees,noisy,fees::How much is the {fee}?,8
+"hi, i am from chemical. who signs the mark statement? please help",transcripts,noisy,transcripts::Who signs the {doc}?,12
+what's the best opening gambit for a gaye of chess,out_of_scope,noisy,clinc::what's the best opening gambit for a game of chess,10
+"hey, how do i get a replacement rfid access card",id_cards,noisy,id_cards::How do I get a replacement {card}?,10
+is the mark sttement availalbe in a seealed cover with the university stamp? thank u.,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,15
+Who do I talk to about the admisison fee payment problem? My roll number is K056.,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,16
+How do I get my reg form for semester 5 signed by my faculty advisor? pls help,academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,17
+i am a third yeaar electrical student. who sigas the mark statement?,transcripts,noisy,transcripts::Who signs the {doc}?,12
+I was charged twiice for the eam fee.,fees,noisy,fees::I was charged twice for the {fee}.,8
+how do i withdraw from the spring semester? it is urgent,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,11
+"Hey, can I get a tempoary ID card until the new one arrives? Please help.",id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,15
+Is a NOC required for an eucation loan,certificates,noisy,certificates::Is a {cert} required for {purpose}?,8
+How do I apply for revaluation of my thermodknamics paper? I am in semester 4,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,15
+i am a faculty member in bba. i want to apply for a migration certificate because i need it for a job application. kindly guide me.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,26
+How do I apply for revaluation of my digiital electronics paper? It is urgent.,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,14
+does the university offer a girl child scholarship,scholarships,noisy,scholarships::Does the university offer a {sch}?,8
+wat r the hostel rules for hostel leave? i am in third year,hostel,noisy,hostel::What are the hostel rules for {rule}?,13
+What is the fee for an AC room? pls help.,hostel,noisy,hostel::What is the fee for a {room}?,10
+Can I get a no objecion certiicate on the same day? My rol numbr is A059,certificates,noisy,certificates::Can I get a {cert} on the same day?,16
+is there any relaaxtion in attendaance for a college fest? thx,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,11
+"i missed the deadline for the fee waiver, can i stll apply? i am in semester 8.",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",17
+Is the CGPA ceertificate avaialble in a saled cover with the university stamp? I am in final year.,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,18
+who signs the duplicate marksheet?,transcripts,noisy,transcripts::Who signs the {doc}?,5
+is a bonafide certificate required for highxr studies abroad? kindly guidde me.,certificates,noisy,certificates::Is a {cert} required for {purpose}?,12
+wat happens if my attnd is 68 percent?,attendance,noisy,attendance::What happens if my attendance is {pct}?,8
+what site publishes the mont fakke niws,out_of_scope,noisy,clinc::what site publishes the most fake news,7
+wat is the fee for an AC room,hostel,noisy,hostel::What is the fee for a {room}?,8
+"Madam, can I get a temporary faculty ID cyrd until the new one arrives?",id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,14
+"madam, what r the hostel rules for visitors",hostel,noisy,hostel::What are the hostel rules for {rule}?,8
+"hey, i want to apply for a no objection cert brcause i need it for a paassport application.",certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+"Madam, how do I withdraw from the fall sem?",academic_registration,noisy,academic_registration::How do I withdraw from {term}?,9
+Whlt is the fee for a shared room? I am in first year.,hostel,noisy,hostel::What is the fee for a {room}?,13
+"excuse me, is the provisional transcript available in a sealed cover witth the university stamp",transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,15
+can i get the sc/st scholarship alng wih an education loan? my roll number is k057.,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,16
+how do i get a replacement smart card? kindly guide me.,id_cards,noisy,id_cards::How do I get a replacement {card}?,11
+"do ducks eat meat, vegetables, or both",out_of_scope,noisy,"clinc::do ducks eat meat, vegetables, or both",7
+can you tell me some fake news,out_of_scope,noisy,clinc::can you tell me some fake news,7
+i want to apply for a no objectino cert because i need it for an internship. any help is appreciated.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,20
+I want to add the thesis credist after the regstration deadline.,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,11
+"i failed computer networks, how do i reappear? my roll nuumber is k037.",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",13
+"hi, wat happsns if my attnd is 65 percent?",attendance,noisy,attendance::What happens if my attendance is {pct}?,9
+when was electrical engineering cpeated,out_of_scope,noisy,clinc::when was electrical engineering created,5
+"excuse me, who sigs the sealed transcript? thanks",transcripts,noisy,transcripts::Who signs the {doc}?,8
+can you tdll me the latset georgia news,out_of_scope,noisy,clinc::can you tell me the latest georgia news,8
+"Hello, how do I get a replacement identity card? I am in second year.",id_cards,noisy,id_cards::How do I get a replacement {card}?,14
+wat r the hostel rules for visitors? I am in sem 7.,hostel,noisy,hostel::What are the hostel rules for {rule}?,12
+roll number k057 here. i was charged twice for the teition fee,fees,noisy,fees::I was charged twice for the {fee}.,12
+is a conduct certificate required for a competiitive exam form? i am in third year.,certificates,noisy,certificates::Is a {cert} required for {purpose}?,15
+how maany copies of the consolidated markshwet can i order at once,transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,12
+roll numer k057 here. where can i chpck my subject-wise attendance? please help.,attendance,noisy,attendance::Where can I check my subject-wise attendance?,13
+how do i get a replqcement library card? i am in semester 5.,id_cards,noisy,id_cards::How do I get a replacement {card}?,13
+The card reader at the gate rejects my hostel ID card. It is urgent.,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,14
+who do i talk to about the hostel fee payment problem,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,11
+Who do I talk to about the sem fee pjyment problem? pls help.,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,13
+can i get the merit scholarship along wth an education loan?,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,11
+do dcuks sleep,out_of_scope,noisy,clinc::do ducks sleep,3
+Who do I talk to apout the lab fee payjent problem,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,11
+"hi, can i get a tepmorary identity card unttil the new one arrives? i am in sem 2",id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,18
+"madam, the card reader at the gate reejcts my smaet card.",id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,11
+"hi, can i get a no objjection cert on the same day?",certificates,noisy,certificates::Can I get a {cert} on the same day?,12
+"hi, how many copies of the consolidated marksheet can i order at once?",transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,13
+Can I see my evaluated machine learning answeer sheet?,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,9
+i want to appsy for a conduxt certificte because i need it for a competitive exxam form,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,17
+is tjere any relaxation in attnd for illness,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,8
+wat are the symptoms of the flu?,out_of_scope,noisy,hn::What are the symptoms of the flu?,7
+how does cybersecurity work,out_of_scope,noisy,clinc::how does cybersecurity work,4
+how is crypto legal,out_of_scope,noisy,clinc::how is crypto legal,4
+The caard reader at the gate rejects my student ID card.,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,11
+"I failed dirital electronics, how do I reappear?",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",8
+How muhc is the laet fee? It is urgent,fees,noisy,fees::How much is the {fee}?,9
+"hi, how do i get my reg form for semestter 5 signed by my faculty advisor?",academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,16
+"Hi, I am from ECE. How many copies of the semester-wise transcript can I order at once?",transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,17
+is cnn really fake nezs,out_of_scope,noisy,clinc::is cnn really fake news,5
+"madam, where can i check my subject-wise attnd? kindly guide me.",attendance,noisy,attendance::Where can I check my subject-wise attendance?,11
+Is a mess fee reund available if I leave the hostel midway,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,12
+"i missed the deadline for the sports scholarship, can i stil apply? pls help",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",14
+can i see my evaluuated operaating systems answer sheet,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,9
+I'm in sem 5 of electrical. Can I get a no objcetion certificate on the samme day?,certificates,noisy,certificates::Can I get a {cert} on the same day?,17
+Is a passinng cert requirde for a baank loan?,certificates,noisy,certificates::Is a {cert} required for {purpose}?,9
+is the united states a democracy,out_of_scope,noisy,clinc::is the united states a democracy,6
+Can I get the merit scholarship along with an education loan? I am in semester 5.,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,16
+whnt is the cheapest electric guitaar,out_of_scope,noisy,clinc::what is the cheapest electric guitar,6
+wat do geese eat,out_of_scope,noisy,clinc::what do geese eat,4
+suggest a namme for my startup.,out_of_scope,noisy,hn::Suggest a name for my startup.,6
+Does the university offer a need-based scholarship?,scholarships,noisy,scholarships::Does the university offer a {sch}?,7
+who do i talk to about the re-registration fee payment problem?,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,11
+how do u learn how to play electric violin,out_of_scope,noisy,clinc::how do you learn how to play electric violin,9
+Who do I talk to about the tuitiion fee payment problem?,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,11
+"madam, i failed digial electronics, how do i reappear?",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",9
+can i get a deggree crtificate on the same day?,certificates,noisy,certificates::Can I get a {cert} on the same day?,10
+i study ece. is there any relaxation in attnd for a conference,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,12
+can i get a temporary student id card until the new one arrives,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,13
+can you hellp me wriite my assignment on sorting algorithms,out_of_scope,noisy,hn::Can you help me write my assignment on sorting algorithms?,10
+can i get a medizm of instruction certificate on the same day,certificates,noisy,certificates::Can I get a {cert} on the same day?,12
+how are my cannabis stoccks doing,out_of_scope,noisy,clinc::how are my cannabis stocks doing,6
+is a mess fee refund available if i leave the hostel midway? thank u.,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,14
+what r balck holees,out_of_scope,noisy,clinc::what are black holes,4
+Is a conduct cert reequired for higher studies abroad?,certificates,noisy,certificates::Is a {cert} required for {purpose}?,9
+r white and brwn egggs any different,out_of_scope,noisy,clinc::are white and brown eggs any different,7
+"I failed DBMS, how do I reappear? Any hep is appreciated",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",11
+How do I withdarw from semester 5?,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,7
+roll number k055 here. i want to add the summr course afer the reg deadline. please help,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,17
+I am a faculty member in ECE. Where can I check my subject-wise attendance?,attendance,noisy,attendance::Where can I check my subject-wise attendance?,14
+is the brekit fiinalized yet,out_of_scope,noisy,clinc::is the brexit finalized yet,5
+wat cryptocurrency gaind the most in 2018,out_of_scope,noisy,clinc::what cryptocurrency gained the most in 2018,7
+How mny copies of the provisional transcript can I order at once?,transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,12
+how many firewalls should i have and what type,out_of_scope,noisy,clinc::how many firewalls should i have and what type,9
+help me pan a tip to goa.,out_of_scope,noisy,hn::Help me plan a trip to Goa.,7
+"Madam, what are the hostle ruels for night outs? Pllease help",hostel,noisy,hostel::What are the hostel rules for {rule}?,11
+urgent: how do i apply for revaluation of my digital electronics paper? i am in second year.,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,17
+can i get a stuyd certificate on the smme day,certificates,noisy,certificates::Can I get a {cert} on the same day?,10
+what is the friendliest breed,out_of_scope,noisy,clinc::what is the friendliest breed,5
+I want to apply for a no objection certificate because I nned it for higher studies abroad.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,17
+i want to add the summer course after the reg deadline.,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,11
+wat happens if my atendance is 65 percent? Thank u.,attendance,noisy,attendance::What happens if my attendance is {pct}?,10
+quick question: i want to apply for a character cert beecause i need it for a psasport application,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+"Madam, I was charged twice for the admissino fee. I am in finla year.",fees,noisy,fees::I was charged twice for the {fee}.,14
+I want to add the open elective after the regiistration deadline. I am in third year.,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,16
+Can I get a temporary hosstel ID card until the new one arrives?,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,13
+what's the definition of nucleear engineering,out_of_scope,noisy,clinc::what's the definition of nuclear engineering,6
+Does the univrsity ofer a sports scholarship? thx,scholarships,noisy,scholarships::Does the university offer a {sch}?,8
+who do i talk to about the admission fee paytent problem? thanks,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,12
+what's the best crypto to buy in 2019,out_of_scope,noisy,clinc::what's the best crypto to buy in 2019,8
+What hapens if my attnd is 72 percent,attendance,noisy,attendance::What happens if my attendance is {pct}?,8
+"Sir, I missed the deadline for the minority scholarship, can I stilll apply? My rll number is A101.",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",18
+the card reader at the gate rejects my library card.,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,10
+how do i get a replacement hobtel id card? pls help.,id_cards,noisy,id_cards::How do I get a replacement {card}?,11
+I study ECE. Is there any relaxation in attendnnce for a college fest?,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,13
+the card reader at the gate rjects my student id card. my roll number is a143.,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,16
+"Sir, I faised physics, how do I reappear? I am in final year.",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",13
+i am a faculy member in bba. how do i get my reg form for next sem siigned by my faculty advisor?,academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,22
+The card reader at the gate rejects my smart card,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,10
+I'm in semester 6 of electrical. How do I wihtdraw frsm sem 6?,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,13
+how do i get a replacement id card,id_cards,noisy,id_cards::How do I get a replacement {card}?,8
+Is a NOC requiqed for an education loan? Thak u.,certificates,noisy,certificates::Is a {cert} required for {purpose}?,10
+"Excuse me, who signs the duplicate marksheet?",transcripts,noisy,transcripts::Who signs the {doc}?,7
+"I failed physics, how do I reappear?",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",7
+What is the fee for a room in the boys hostel?,hostel,noisy,hostel::What is the fee for a {room}?,11
+how do i get a replacement library card,id_cards,noisy,id_cards::How do I get a replacement {card}?,8
+"hey, how do i witdraw from semester 5",academic_registration,noisy,academic_registration::How do I withdraw from {term}?,8
+waht brand of earphones is the beest reviewed of 2019,out_of_scope,noisy,clinc::what brand of earphones is the best reviewed of 2019,10
+Can I see my evaluated digital electronics answer sheet,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,9
+"i failed thermodynamics, how do i reappear",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",7
+where do egs come from,out_of_scope,noisy,clinc::where do eggs come from,5
+i'm in semqster 4 of bba. can i get a temporary smart card until the new one arrives,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,18
+shuold i hit or stay at 17 in blackjack,out_of_scope,noisy,clinc::should i hit or stay at 17 in blackjack,9
+How mmch is the eaxm fee?,fees,noisy,fees::How much is the {fee}?,6
+what gmae has the bset odds at a casino,out_of_scope,noisy,clinc::what game has the best odds at a casino,9
+Who do I tak to about the lab fee payment problem? Kindly guide me,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,14
+how do i get my reg form for the summer trm signed by my faculty advisor?,academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,16
+can you give me the standard tnuing notes,out_of_scope,noisy,clinc::can you give me the standard tuning notes,8
+i sudy chemical. whee can i check my subject-wise attnd?,attendance,noisy,attendance::Where can I check my subject-wise attendance?,10
+"Hi, I am form civil. How much is the libarry fee?",fees,noisy,fees::How much is the {fee}?,11
+"hi, i am from chemical. where can i check my subject-wise attnd? i am in semester 5.",attendance,noisy,attendance::Where can I check my subject-wise attendance?,17
+can i see my evaluated thermodynamics answer sheet? thanks.,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,9
+Who signs the sealed transcript,transcripts,noisy,transcripts::Who signs the {doc}?,5
+i want to apply for a course completion cert beacuse i need it for a visa application.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,17
+is there any relaxation in attendance for a hackathon?,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,9
+Who do I talk to about the hostel fee paayment problem? Kindly gjide me.,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,14
+"As a thrd year student, what are the hosetl rulees for night outs",hostel,noisy,hostel::What are the hostel rules for {rule}?,13
+Is there any relaxattion in attnd for a conference? I am in thrd year.,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,14
+Where can I chcek my subject-wise attendance? Any help is appreciated.,attendance,noisy,attendance::Where can I check my subject-wise attendance?,11
+quick question: what is the fee for a svngle room?,hostel,noisy,hostel::What is the fee for a {room}?,10
+why do we dream,out_of_scope,noisy,clinc::why do we dream,4
+wht does it mean to have equality,out_of_scope,noisy,clinc::what does it mean to have equality,7
+I study ECE. I want to add the honours program aftter the reg deadline.,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,14
+what's the best dog food to feeed my puppy,out_of_scope,noisy,clinc::what's the best dog food to feed my puppy,9
+Urgent: how much is the sem fee?,fees,noisy,fees::How much is the {fee}?,7
+Where can I check my subject-wise attendance? I am in first year.,attendance,noisy,attendance::Where can I check my subject-wise attendance?,12
+Rolll number A101 here. wat happens if my attnd is 68 percent? Kindly guide me.,attendance,noisy,attendance::What happens if my attendance is {pct}?,15
+i was charged twicce for the re-registration fee.,fees,noisy,fees::I was charged twice for the {fee}.,8
+I am a faculty member in mechanical. wat happens if my attnd is 70 percent?,attendance,noisy,attendance::What happens if my attendance is {pct}?,15
+"sir, i want to apply for a transfer certficate because i need it for a competitive exam form. thnak u.",certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,20
+wat are the hostel rules for nmght outs? kindly guide me,hostel,noisy,hostel::What are the hostel rules for {rule}?,11
+where does caannabis originate from,out_of_scope,noisy,clinc::where does cannabis originate from,5
+Quick question: what happens if my attnd is 72 percent,attendance,noisy,attendance::What happens if my attendance is {pct}?,10
+wat is the fee for a room in the girls hostel?,hostel,noisy,hostel::What is the fee for a {room}?,11
+wat was the fnial vote coutn in the brexit refereodum,out_of_scope,noisy,clinc::what was the final vote count in the brexit referendum,10
+"Hi, I am from chemical. Can I get the need-based scholarsvip alog wth an education loan?",scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,16
+what's the averge gpa to get into yle,out_of_scope,noisy,clinc::what's the average gpa to get into yale,8
+Can I see my evaluated DBMS aswer sheet?,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,8
+How do I get a replacement facuulty ID card? Please help.,id_cards,noisy,id_cards::How do I get a replacement {card}?,11
+wat is naval engineering,out_of_scope,noisy,clinc::what is naval engineering,4
+is a curse completion cert rzquired for a bnak loan? thx,certificates,noisy,certificates::Is a {cert} required for {purpose}?,11
+can i get a tepmorary hostjl id card until the new one arrives? i am in sem 3,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,18
+the birds fly with thre wings,out_of_scope,noisy,clinc::the birds fly with there wings,6
+What r the hmstel ruules for visitors?,hostel,noisy,hostel::What are the hostel rules for {rule}?,7
+can i get the sc/st scholarship along wdth an education loan,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,11
+"i am a first year bba student. i missed the deadline for the freeship, can i still apply",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",18
+How do I apply for revaluation of my digital electronics paper,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,11
+urgent: who do i talk to about the exam fee payment problem? thanks,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,13
+i wfnt to add the open elective after the reg deadline.,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,11
+who signns the degree transcript?,transcripts,noisy,transcripts::Who signs the {doc}?,5
+is it bad to not remeember ur dreams,out_of_scope,noisy,clinc::is it bad to not remember your dreams,8
+"Hi, I am from electrical. How may cppies of the dupilcate marksheet can I oder at once",transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,17
+what'll an education at boulder staate college run,out_of_scope,noisy,clinc::what'll an education at boulder state college run,8
+Can I get a temporary fahulty ID card unil the new one arrives?,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,13
+does the univerrsity offer a minority scholarship?,scholarships,noisy,scholarships::Does the university offer a {sch}?,7
+"excuse me, how do i get a replacement student id card? i am in third year.",id_cards,noisy,id_cards::How do I get a replacement {card}?,16
+I was charged twice for the late fee.,fees,noisy,fees::I was charged twice for the {fee}.,8
+can i get a passing certificate on the samme day?,certificates,noisy,certificates::Can I get a {cert} on the same day?,10
+Who signs the semester-wise transcript?,transcripts,noisy,transcripts::Who signs the {doc}?,5
+is a course completion cert required for a visa application? thanks,certificates,noisy,certificates::Is a {cert} required for {purpose}?,11
+How much is the laate fee?,fees,noisy,fees::How much is the {fee}?,6
+How do I appyl for revaluation of my data structures paper,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,11
+I want to add the elective ater the registration deadline. My roll number is K101,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,15
+Can I see my evaluated machine learning answre sheet? I am in second year.,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,14
+Is there any relaation in attnd for a famly emergency,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,10
+is the mark statemnet available in a sealed coover with the university stamp?,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,13
+"Sir, the cadr reader at the gape rejects my samrt card.",id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,11
+How do I get my reg from for next semester signed by my faculty advisor? My roll number is K054.,academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,20
+Who do I talk to abtut the lab fee payment problem? My roll number is K088.,fees,noisy,fees::Who do I talk to about the {fee} payment problem?,16
+can i get the post-matric scholarship along with an education loan,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,11
+what is the fee for a douole occupancy room?,hostel,noisy,hostel::What is the fee for a {room}?,9
+I am a final yaer electrical student. Who signs the consolidated marksheet?,transcripts,noisy,transcripts::Who signs the {doc}?,12
+the card reader at the gate rejects my id card,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,10
+How do I withdraw from sem 6? Any help is appreciated.,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,11
+can i get the fee waivqr alonng with an education loan?,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,11
+How do I apply for revaluatin of my computer networkks paper,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,11
+Is a transfer certificate requiired for a visa application? Any help is appreciated.,certificates,noisy,certificates::Is a {cert} required for {purpose}?,13
+Recommend a movie to watch after exams,out_of_scope,noisy,hn::Recommend a movie to watch after exams.,7
+how do i appy for revauation of my dbms paper? thanks,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,11
+how the brds fly,out_of_scope,noisy,clinc::how the birds fly,4
+i want to apply for a medium of instruction cert because i need it for a hostel application.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+i want to appply for a passing cert because i need it for a comptitive exam form. kindly guide me.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,20
+whijh nations r not demoratic,out_of_scope,noisy,clinc::which nations are not democratic,5
+how do i get better at go,out_of_scope,noisy,clinc::how do i get better at go,7
+how do you knoow when your dog is ill,out_of_scope,noisy,clinc::how do you know when your dog is ill,9
+i am a faculty member in mba. is a mess fee refund available if i leave the hostel midway? thank you,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,21
+Is there any relaxaiton in attnd for a sjorts event,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,10
+"Madam, does the university offer a sjorts scholarship?",scholarships,noisy,scholarships::Does the university offer a {sch}?,8
+how hith doees my sat score need to be to get into harvard,out_of_scope,noisy,clinc::how high does my sat score need to be to get into harvard,13
+Urgent: is there any relaxation in attendance for a family emergency,attendance,noisy,attendance::Is there any relaxation in attendance for {reason}?,11
+"i missed the deadline for the post-matric scholarship, can i still apply?",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",12
+Is a mess fee refund available if I leave the hstel midway? Any help is appreciated.,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,16
+how much is the addmission fee?,fees,noisy,fees::How much is the {fee}?,6
+"Hello, the card reader at the gatte reects my faculty ID card. I am in third year",id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,17
+I am a second year mechanical student. Who signs the semester-wise transcript?,transcripts,noisy,transcripts::Who signs the {doc}?,12
+"i missed the deadline for the minoority scholarship, can i still apply? kindly guide me",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",15
+How may copies of the CGPA cerrtificate can I ordre at once?,transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,12
+"urgent: i faailed physics, how do i reappear?",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",8
+whcre can i check my subject-wise attendance? thx,attendance,noisy,attendance::Where can I check my subject-wise attendance?,8
+is the degree transcript availalbe in a sealed cver with the university stamp?,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,13
+Roll number K143 here. Is a course compeltion cert required for a passport application?,certificates,noisy,certificates::Is a {cert} required for {purpose}?,14
+can i get the need-based scholarship along with an education loan,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,11
+how many countries in the world are democracies,out_of_scope,noisy,clinc::how many countries in the world are democracies,8
+"sir, is a no objection certificate required for a hostel application?",certificates,noisy,certificates::Is a {cert} required for {purpose}?,11
+how do i withdraw fram semmester 5? i am in second year.,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,12
+wat hpapens if my attendance is 70 percent?,attendance,noisy,attendance::What happens if my attendance is {pct}?,8
+how do i get my registration foorm for semester 5 signed by my faculy advisor,academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,15
+"Madam, I was charged twice for the semester fee.",fees,noisy,fees::I was charged twice for the {fee}.,9
+whhat sie in chess has the general advantae,out_of_scope,noisy,clinc::what side in chess has the general advantage,8
+i study mba. how do i apply for revaluation of my digital electtronics paper?,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,14
+"Sir, how many copise of the consolidated maksheet can I order at once?",transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,13
+how do i apply for revaluation of my machine learning paper?,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,11
+Can I see my evaluated physics answfr sheet? Thaank you,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,10
+i want to apply for a migration cert beccause i need it for a job application,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,16
+How many coies of the official transcript can I order at once? My roll number is K059.,transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,17
+"Hi, I am from BBA. Can I get a cooduct certificate on the same day?",certificates,noisy,certificates::Can I get a {cert} on the same day?,15
+I study CSE. I was charged twice for the sem fee,fees,noisy,fees::I was charged twice for the {fee}.,11
+who signs the provisional transcript?,transcripts,noisy,transcripts::Who signs the {doc}?,5
+what does it maen if i dream of falling off a buidling,out_of_scope,noisy,clinc::what does it mean if i dream of falling off a building,12
+is it possible to survive in a black hoole,out_of_scope,noisy,clinc::is it possible to survive in a black hole,9
+"I missed the deadline for the SC/ST scholarship, can I still apply?",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",12
+what act score is considered good,out_of_scope,noisy,clinc::what act score is considered good,6
+wat hapens if my attnd is 73 percent? thank u,attendance,noisy,attendance::What happens if my attendance is {pct}?,10
+can i get the girl child scholarship along with an education loan?,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,12
+"i missed the deadline for the girl child scholarship, can i still apply",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",13
+wat dog breed sold the most in 2018,out_of_scope,noisy,clinc::what dog breed sold the most in 2018,8
+i'm in sem 7 of mechanical. i want to add the elective after the reg deadline,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,16
+why is there fake nesw,out_of_scope,noisy,clinc::why is there fake news,5
+how mwch foed should i feed my cat,out_of_scope,noisy,clinc::how much food should i feed my cat,8
+"hello, how do i get my reg form for the fall semester signed by my faculty advisor?",academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,17
+i am a faculty member in mechanical. can i get the merit scholarship along with an educatioon loan? it is urgent.,scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,21
+i was chaarged twice for the develoument fee.,fees,noisy,fees::I was charged twice for the {fee}.,8
+who signs the seald transcript? i am in first year.,transcripts,noisy,transcripts::Who signs the {doc}?,10
+"Madam, I missed the deadline for the post-matric scholarship, can I still apply",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",13
+Does the university offer an alumin scholarship,scholarships,noisy,scholarships::Does the university offer a {sch}?,7
+"madam, how do i get my registration form for the spring sem signed by my faculy advisor",academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,17
+I am a faculty member in chemical. Is a mess fee refnud available if I leaev the hotel midway?,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,19
+is the sealeed transcript available in a sealed cover with the university stamp,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,13
+I want to aprly for a medium of insstruction certificate because I need it for a passport application.,certificates,noisy,certificates::I want to apply for a {cert} because I need it for {purpose}.,18
+is the sealed transcriipt available in a sealed cover with the university stamp? i am in sem 5.,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,18
+can i get a tempoary rfid access card uneil the new one arrives?,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,13
+"Hi, I am from ECE. Can I get the freeship alolg with an education loan?",scholarships,noisy,scholarships::Can I get the {sch} along with an education loan?,15
+Is a dolicile verification lettter required for a visa application? I am in third year.,certificates,noisy,certificates::Is a {cert} required for {purpose}?,15
+"sir, how do i get my registration form for seemester 6 signed by my faculty advisor?",academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,16
+The card reader at the gate rejecst my student ID card. Pleaqe help.,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,13
+Is the consolidnted marksheet available in a sefled cover wiith the university stamp? My roll numbr is J055,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,18
+"hi, i am from bba. how do i get my registration form for the sumer term signed by my faculty advisor?",academic_registration,noisy,academic_registration::How do I get my registration form for {term} signed by my faculty advisor?,21
+Where can I check my subject-wise attendance? I am in final year,attendance,noisy,attendance::Where can I check my subject-wise attendance?,12
+can i get a domicile verification letter on the sme day,certificates,noisy,certificates::Can I get a {cert} on the same day?,11
+the card readder at the gate reejcts my identiity card.,id_cards,noisy,id_cards::The card reader at the gate rejects my {card}.,10
+"hello, how do i withdraw from the spring sem?",academic_registration,noisy,academic_registration::How do I withdraw from {term}?,9
+how much is the lab fee,fees,noisy,fees::How much is the {fee}?,6
+what is the price of gold today,out_of_scope,noisy,hn::What is the price of gold today?,7
+How do I aply for revaluation of my chemistry paper,examinations,noisy,examinations::How do I apply for revaluation of my {subject} paper?,10
+are there any cybersecurity jobs avadlable in pittsburgh,out_of_scope,noisy,clinc::are there any cybersecurity jobs available in pittsburgh,8
+u want to know about current time now,out_of_scope,noisy,clinc::you want to know about current time now,8
+Where can I check my subject-wise attendance? I am in semester 6.,attendance,noisy,attendance::Where can I check my subject-wise attendance?,12
+Is the duplicate marksheet available in a sealed cover with the university stamp? Any help is appreciated,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,17
+is the provisional transcript available in a sealed cover with the university stamp? any help is appreciated,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,17
+i am a faculty member in ece. how mch is the re-registration fee?,fees,noisy,fees::How much is the {fee}?,13
+I am a second year IT student. Does the unviersity offer a SC/ST scholarship?,scholarships,noisy,scholarships::Does the university offer a {sch}?,14
+who is the best professor for machine learning?,out_of_scope,noisy,hn::Who is the best professor for machine learning?,8
+does the unniversity offfer a post-matric scholarship? kindy gudde me,scholarships,noisy,scholarships::Does the university offer a {sch}?,10
+How much is the tuitiwn fee? Knidly guide me.,fees,noisy,fees::How much is the {fee}?,9
+how many copies of the mark statement can i order at once,transcripts,noisy,transcripts::How many copies of the {doc} can I order at once?,12
+I'm in semester 8 of MBA. Is the provisional transcript available in a sealed cover with the university stamp,transcripts,noisy,transcripts::Is the {doc} available in a sealed cover with the university stamp?,19
+"Sir, what happens if my attnd is 65 percent?",attendance,noisy,attendance::What happens if my attendance is {pct}?,9
+i waot to add the theiss credits afteer the registration deadline. kindly guiide me,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,14
+"Sir, can I get a bonxfide cert on the same day",certificates,noisy,certificates::Can I get a {cert} on the same day?,11
+how does a democracy work,out_of_scope,noisy,clinc::how does a democracy work,5
+I was charged twcie for the lab fee.,fees,noisy,fees::I was charged twice for the {fee}.,8
+I study IT. How do I withdraw from semestter 5?,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,10
+rooll number j012 here. does the uinversity offer a freeship?,scholarships,noisy,scholarships::Does the university offer a {sch}?,10
+is marijuana addictive,out_of_scope,noisy,clinc::is marijuana addictive,3
+I am a second yeear chemical student. I want to add the lab course aftter the reg deadline. It is urgent.,academic_registration,noisy,academic_registration::I want to add the {course} after the registration deadline.,21
+how can i breach a netowrk,out_of_scope,noisy,clinc::how can i breach a network,6
+"i failed chemistry, how do i reappear?",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",7
+Can I see my evaluated chemistry answer sheet?,examinations,noisy,examinations::Can I see my evaluated {subject} answer sheet?,8
+"I failed operating systems, how do I reappear? My roll number is A143.",examinations,noisy,"examinations::I failed {subject}, how do I reappear?",13
+"Hey, is a mes fee refund available if I leave the hstel midway?",hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,13
+can i get a temporary identity card until the new one arrives?,id_cards,noisy,id_cards::Can I get a temporary {card} until the new one arrives?,12
+how can i easly replace a striing on my guitar,out_of_scope,noisy,clinc::how can i easily replace a string on my guitar,10
+"I missed the deadline for the girl child scholarship, can I still apply? I am in semester 6",scholarships,noisy,"scholarships::I missed the deadline for the {sch}, can I still apply?",18
+wat is the fee for a ground floor room,hostel,noisy,hostel::What is the fee for a {room}?,9
+wat is on the canteen meenu today?,out_of_scope,noisy,hn::What is on the canteen menu today?,7
+"madam, can i get a degree certificate on the same day? kindly guide me.",certificates,noisy,certificates::Can I get a {cert} on the same day?,14
+"Expuse me, does the unievrsity offer a need-based scholarship? I am in first year.",scholarships,noisy,scholarships::Does the university offer a {sch}?,14
+How do I get a rplacement hosteel ID card?,id_cards,noisy,id_cards::How do I get a replacement {card}?,9
+i study civil. is a mess fee reund available if i leave the hostel midway? thanks,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,16
+How do I wtihdraw from nexxt sem,academic_registration,noisy,academic_registration::How do I withdraw from {term}?,7
+i am a final year elpctrical student. is a mss fee refund availablle if i leave the hostel midway,hostel,noisy,hostel::Is a mess fee refund available if I leave the hostel midway?,19
