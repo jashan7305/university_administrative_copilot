@@ -1,0 +1,252 @@
+[A] classification: intent + sub-intent routing
+    {'model': 'TF-IDF + LogReg (Week 2)', 'train_time_s': None, 'intent_f1_test_core': 0.8805, 'intent_f1_test': 0.8632, 'intent_f1_test_variants': 0.7971, 'oos_recall': 0.945, 'sub_acc_test_core': 0.7246, 'sub_f1_test_core': 0.6273, 'sub_acc_test': 0.7292, 'sub_f1_test': 0.6372}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15619.93it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10464.42it/s]
+    {'model': 'TF-IDF + frozen embeddings ensemble (Week 3)', 'train_time_s': None, 'intent_f1_test_core': 0.8873, 'intent_f1_test': 0.876, 'intent_f1_test_variants': 0.8091, 'oos_recall': 0.942, 'sub_acc_test_core': 0.7902, 'sub_f1_test_core': 0.7129, 'sub_acc_test': 0.7818, 'sub_f1_test': 0.7047}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13146.42it/s]
+The `warmup_ratio` argument is deprecated in Transformers v5+, and will also be removed from Sentence Transformers once support for Transformers v4 is dropped. Since you're using Transformers v5+, please use `warmup_steps` (as a float) to specify the warmup ratio instead.
+Computing widget examples:   0%|          | 0/1 [00:00<?, ?example/s]                                                                       0%|          | 0/128 [00:00<?, ?it/s]/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+  1%|          | 1/128 [00:00<00:32,  3.87it/s]  2%|▏         | 2/128 [00:00<00:27,  4.59it/s]  2%|▏         | 3/128 [00:00<00:25,  4.99it/s]  3%|▎         | 4/128 [00:00<00:28,  4.29it/s]  4%|▍         | 5/128 [00:01<00:32,  3.78it/s]  5%|▍         | 6/128 [00:01<00:40,  2.98it/s]  5%|▌         | 7/128 [00:01<00:34,  3.49it/s]  6%|▋         | 8/128 [00:02<00:35,  3.42it/s]  7%|▋         | 9/128 [00:02<00:35,  3.33it/s]  8%|▊         | 10/128 [00:02<00:30,  3.81it/s]  9%|▊         | 11/128 [00:02<00:30,  3.84it/s]  9%|▉         | 12/128 [00:03<00:30,  3.76it/s] 10%|█         | 13/128 [00:03<00:31,  3.67it/s] 11%|█         | 14/128 [00:03<00:29,  3.91it/s] 12%|█▏        | 15/128 [00:04<00:35,  3.16it/s] 12%|█▎        | 16/128 [00:04<00:44,  2.51it/s] 13%|█▎        | 17/128 [00:08<02:38,  1.43s/it] 14%|█▍        | 18/128 [00:09<02:08,  1.17s/it] 15%|█▍        | 19/128 [00:09<01:41,  1.07it/s] 16%|█▌        | 20/128 [00:10<01:27,  1.23it/s] 16%|█▋        | 21/128 [00:10<01:11,  1.50it/s] 17%|█▋        | 22/128 [00:10<01:05,  1.61it/s] 18%|█▊        | 23/128 [00:12<01:49,  1.05s/it] 19%|█▉        | 24/128 [00:13<01:41,  1.02it/s] 20%|█▉        | 25/128 [00:14<01:30,  1.14it/s] 20%|██        | 26/128 [00:15<01:24,  1.21it/s] 21%|██        | 27/128 [00:16<01:28,  1.14it/s] 22%|██▏       | 28/128 [00:16<01:23,  1.20it/s] 23%|██▎       | 29/128 [00:17<01:12,  1.36it/s] 23%|██▎       | 30/128 [00:17<01:09,  1.41it/s] 24%|██▍       | 31/128 [00:18<01:16,  1.27it/s] 25%|██▌       | 32/128 [00:20<01:40,  1.05s/it] 26%|██▌       | 33/128 [00:21<01:37,  1.03s/it] 27%|██▋       | 34/128 [00:22<01:21,  1.15it/s] 27%|██▋       | 35/128 [00:22<01:07,  1.38it/s] 28%|██▊       | 36/128 [00:23<01:02,  1.48it/s] 29%|██▉       | 37/128 [00:24<01:18,  1.15it/s] 30%|██▉       | 38/128 [00:25<01:36,  1.07s/it] 30%|███       | 39/128 [00:26<01:26,  1.03it/s] 31%|███▏      | 40/128 [00:27<01:16,  1.15it/s] 32%|███▏      | 41/128 [00:28<01:16,  1.14it/s] 33%|███▎      | 42/128 [00:29<01:17,  1.11it/s] 34%|███▎      | 43/128 [00:29<01:10,  1.20it/s] 34%|███▍      | 44/128 [00:30<01:10,  1.18it/s] 35%|███▌      | 45/128 [00:31<01:13,  1.13it/s] 36%|███▌      | 46/128 [00:33<01:43,  1.27s/it] 37%|███▋      | 47/128 [00:34<01:23,  1.03s/it] 38%|███▊      | 48/128 [00:34<01:08,  1.16it/s] 38%|███▊      | 49/128 [00:35<01:07,  1.17it/s] 39%|███▉      | 50/128 [00:35<00:55,  1.40it/s] 40%|███▉      | 51/128 [00:36<00:48,  1.57it/s] 41%|████      | 52/128 [00:36<00:42,  1.77it/s] 41%|████▏     | 53/128 [00:37<00:41,  1.83it/s] 42%|████▏     | 54/128 [00:38<00:45,  1.62it/s] 43%|████▎     | 55/128 [00:39<01:06,  1.11it/s] 44%|████▍     | 56/128 [00:40<01:03,  1.13it/s] 45%|████▍     | 57/128 [00:41<00:57,  1.23it/s] 45%|████▌     | 58/128 [00:42<01:00,  1.15it/s] 46%|████▌     | 59/128 [00:43<01:05,  1.05it/s] 47%|████▋     | 60/128 [00:44<01:05,  1.04it/s] 48%|████▊     | 61/128 [00:44<00:53,  1.25it/s] 48%|████▊     | 62/128 [00:45<00:50,  1.31it/s] 49%|████▉     | 63/128 [00:46<01:03,  1.02it/s] 50%|█████     | 64/128 [00:47<00:48,  1.32it/s] 51%|█████     | 65/128 [00:47<00:47,  1.33it/s] 52%|█████▏    | 66/128 [00:48<00:43,  1.42it/s] 52%|█████▏    | 67/128 [00:49<00:40,  1.50it/s] 53%|█████▎    | 68/128 [00:49<00:32,  1.84it/s] 54%|█████▍    | 69/128 [00:49<00:26,  2.21it/s] 55%|█████▍    | 70/128 [00:49<00:25,  2.30it/s] 55%|█████▌    | 71/128 [00:50<00:24,  2.32it/s] 56%|█████▋    | 72/128 [00:50<00:23,  2.38it/s] 57%|█████▋    | 73/128 [00:51<00:34,  1.60it/s] 58%|█████▊    | 74/128 [00:52<00:37,  1.43it/s] 59%|█████▊    | 75/128 [00:53<00:37,  1.42it/s] 59%|█████▉    | 76/128 [00:54<00:35,  1.48it/s] 60%|██████    | 77/128 [00:54<00:34,  1.46it/s] 61%|██████    | 78/128 [00:55<00:31,  1.59it/s] 62%|██████▏   | 79/128 [00:56<00:32,  1.50it/s] 62%|██████▎   | 80/128 [00:56<00:35,  1.35it/s] 63%|██████▎   | 81/128 [00:57<00:32,  1.46it/s] 64%|██████▍   | 82/128 [00:58<00:30,  1.49it/s] 65%|██████▍   | 83/128 [00:58<00:27,  1.66it/s] 66%|██████▌   | 84/128 [01:00<00:48,  1.10s/it] 66%|██████▋   | 85/128 [01:01<00:41,  1.02it/s] 67%|██████▋   | 86/128 [01:01<00:33,  1.25it/s] 68%|██████▊   | 87/128 [01:02<00:29,  1.38it/s] 69%|██████▉   | 88/128 [01:02<00:24,  1.62it/s] 70%|██████▉   | 89/128 [01:03<00:21,  1.83it/s] 70%|███████   | 90/128 [01:04<00:25,  1.49it/s] 71%|███████   | 91/128 [01:05<00:30,  1.22it/s] 72%|███████▏  | 92/128 [01:06<00:29,  1.20it/s] 73%|███████▎  | 93/128 [01:06<00:24,  1.42it/s] 73%|███████▎  | 94/128 [01:07<00:22,  1.50it/s] 74%|███████▍  | 95/128 [01:07<00:21,  1.54it/s] 75%|███████▌  | 96/128 [01:08<00:22,  1.42it/s] 76%|███████▌  | 97/128 [01:09<00:23,  1.31it/s] 77%|███████▋  | 98/128 [01:10<00:23,  1.26it/s] 77%|███████▋  | 99/128 [01:11<00:22,  1.29it/s] 78%|███████▊  | 100/128 [01:11<00:21,  1.32it/s] 79%|███████▉  | 101/128 [01:13<00:28,  1.05s/it] 80%|███████▉  | 102/128 [01:14<00:25,  1.03it/s] 80%|████████  | 103/128 [01:15<00:22,  1.13it/s] 81%|████████▏ | 104/128 [01:15<00:16,  1.43it/s] 82%|████████▏ | 105/128 [01:15<00:13,  1.68it/s] 83%|████████▎ | 106/128 [01:16<00:11,  1.85it/s] 84%|████████▎ | 107/128 [01:16<00:10,  2.07it/s] 84%|████████▍ | 108/128 [01:17<00:13,  1.46it/s] 85%|████████▌ | 109/128 [01:19<00:18,  1.05it/s] 86%|████████▌ | 110/128 [01:20<00:18,  1.03s/it] 87%|████████▋ | 111/128 [01:21<00:16,  1.02it/s] 88%|████████▊ | 112/128 [01:22<00:15,  1.00it/s] 88%|████████▊ | 113/128 [01:23<00:16,  1.11s/it] 89%|████████▉ | 114/128 [01:24<00:15,  1.14s/it] 90%|████████▉ | 115/128 [01:26<00:18,  1.39s/it] 91%|█████████ | 116/128 [01:27<00:12,  1.06s/it] 91%|█████████▏| 117/128 [01:27<00:09,  1.20it/s] 92%|█████████▏| 118/128 [01:27<00:06,  1.56it/s] 93%|█████████▎| 119/128 [01:27<00:04,  1.96it/s] 94%|█████████▍| 120/128 [01:28<00:03,  2.15it/s] 95%|█████████▍| 121/128 [01:28<00:02,  2.37it/s] 95%|█████████▌| 122/128 [01:28<00:02,  2.70it/s] 96%|█████████▌| 123/128 [01:28<00:01,  2.96it/s] 97%|█████████▋| 124/128 [01:29<00:01,  2.40it/s] 98%|█████████▊| 125/128 [01:30<00:01,  2.17it/s] 98%|█████████▊| 126/128 [01:30<00:00,  2.09it/s] 99%|█████████▉| 127/128 [01:31<00:00,  2.00it/s]100%|██████████| 128/128 [01:31<00:00,  2.58it/s]                                                 {'train_runtime': '91.43', 'train_samples_per_second': '120.3', 'train_steps_per_second': '1.4', 'train_loss': '4.667', 'epoch': '2'}
+100%|██████████| 128/128 [01:31<00:00,  2.58it/s]100%|██████████| 128/128 [01:31<00:00,  1.40it/s]
+    {'model': 'SetFit: fine-tuned sentence transformer + LogReg', 'train_time_s': 104.2, 'intent_f1_test_core': 0.8501, 'intent_f1_test': 0.841, 'intent_f1_test_variants': 0.7862, 'oos_recall': 0.491, 'sub_acc_test_core': 0.7475, 'sub_f1_test_core': 0.6922, 'sub_acc_test': 0.705, 'sub_f1_test': 0.6505}
+[transformers] You passed `num_labels=96` which is incompatible to the `id2label` map of length `1`.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 16677.99it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: BAAI/bge-small-en-v1.5
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+      epoch 1: loss=655.99 val_macro_f1=0.2282
+      epoch 2: loss=272.48 val_macro_f1=0.4960
+      epoch 3: loss=100.70 val_macro_f1=0.6120
+      epoch 4: loss=32.86 val_macro_f1=0.6155
+      epoch 5: loss=10.51 val_macro_f1=0.6504
+      epoch 6: loss=4.03 val_macro_f1=0.6723
+      epoch 7: loss=1.64 val_macro_f1=0.6440
+      epoch 8: loss=0.93 val_macro_f1=0.6573
+      epoch 9: loss=0.75 val_macro_f1=0.6556
+      epoch 10: loss=0.69 val_macro_f1=0.6570
+    {'model': 'Fine-tuned transformer (BGE-small, joint sub-intent + OOS)', 'train_time_s': 1253.9, 'intent_f1_test_core': 0.8894, 'intent_f1_test': 0.8889, 'intent_f1_test_variants': 0.8183, 'oos_recall': 0.92, 'sub_acc_test_core': 0.7672, 'sub_f1_test_core': 0.6999, 'sub_acc_test': 0.7511, 'sub_f1_test': 0.6902}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 11.35it/s]
+    {'model': 'Fine-tuned transformer + Week 3 ensemble (blend)', 'train_time_s': 1253.9, 'intent_f1_test_core': 0.9009, 'intent_f1_test': 0.8953, 'intent_f1_test_variants': 0.8258, 'oos_recall': 0.958, 'sub_acc_test_core': 0.7967, 'sub_f1_test_core': 0.7156, 'sub_acc_test': 0.7917, 'sub_f1_test': 0.7134}
+[B] NER
+[transformers] You passed `num_labels=57` which is incompatible to the `id2label` map of length `1`.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 19838.60it/s]
+[transformers] [1mBertForTokenClassification LOAD REPORT[0m from: BAAI/bge-small-en-v1.5
+Key                 | Status     | 
+--------------------+------------+-
+pooler.dense.bias   | UNEXPECTED | 
+pooler.dense.weight | UNEXPECTED | 
+classifier.bias     | MISSING    | 
+classifier.weight   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+      epoch 1: loss=459.34 val_span_f1=0.1902
+      epoch 2: loss=157.69 val_span_f1=0.6268
+      epoch 3: loss=80.06 val_span_f1=0.8009
+      epoch 4: loss=50.70 val_span_f1=0.8486
+      epoch 5: loss=34.78 val_span_f1=0.8619
+      epoch 6: loss=27.67 val_span_f1=0.8855
+      epoch 7: loss=21.77 val_span_f1=0.8844
+      epoch 8: loss=19.63 val_span_f1=0.8867
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  4.53it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  4.51it/s]
+    {'model': 'Rule-based labeller (dictionary + regex)', 'gold_all_strict_p': 0.7692, 'gold_all_strict_r': 0.449, 'gold_all_strict_f1': 0.567, 'gold_all_relaxed_f1': 0.6701, 'silver_test_strict_f1': 1.0}
+    {'model': 'Gazetteer (dictionary from training data)', 'gold_all_strict_p': 0.7576, 'gold_all_strict_r': 0.4082, 'gold_all_strict_f1': 0.5305, 'gold_all_relaxed_f1': 0.6154, 'silver_test_strict_f1': 0.9286}
+    {'model': 'CRF (Week 3)', 'gold_all_strict_p': 0.7615, 'gold_all_strict_r': 0.4041, 'gold_all_strict_f1': 0.528, 'gold_all_relaxed_f1': 0.6133, 'silver_test_strict_f1': 0.9388}
+    {'model': 'Fine-tuned transformer NER (Week 4)', 'gold_all_strict_p': 0.6948, 'gold_all_strict_r': 0.4367, 'gold_all_strict_f1': 0.5363, 'gold_all_relaxed_f1': 0.6717, 'silver_test_strict_f1': 0.8918}
+[C] retrieval
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9149.04it/s]
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/2_Normalize/config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/2_Normalize/config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/2_Normalize/config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/2_Normalize/config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/2_Normalize/config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/2_Normalize/config.json
+The `warmup_ratio` argument is deprecated in Transformers v5+, and will also be removed from Sentence Transformers once support for Transformers v4 is dropped. Since you're using Transformers v5+, please use `warmup_steps` (as a float) to specify the warmup ratio instead.
+Computing widget examples:   0%|          | 0/1 [00:00<?, ?example/s]                                                                       0%|          | 0/238 [00:00<?, ?it/s]/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/src/nlp/pipeline/compare_week4.py", line 379, in <module>
+    main()
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/src/nlp/pipeline/compare_week4.py", line 370, in main
+    reranker, _ = retrieval(q, router)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/src/nlp/pipeline/compare_week4.py", line 222, in retrieval
+    finetune_dense(pairs, V3_DIR / "dense")
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/src/nlp/retrieval/rerank.py", line 30, in finetune_dense
+    SentenceTransformerTrainer(model=model, args=args, train_dataset=ds, loss=MultipleNegativesRankingLoss(model)).train()
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 1520, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 1602, in _inner_training_loop
+    self._run_epoch(
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 1842, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2014, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/base/trainer.py", line 507, in compute_loss
+    loss = loss_fn(features, labels)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/sentence_transformer/losses/multiple_negatives_ranking.py", line 234, in forward
+    embeddings = embed_columns(self.model, sentence_features)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/base/losses/merged_forward.py", line 194, in embed_columns
+    *embed_columns(model, features_list[1:], separate_first=False),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/base/losses/merged_forward.py", line 198, in embed_columns
+    return [model(features)["sentence_embedding"] for features in features_list]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/base/losses/merged_forward.py", line 198, in <listcomp>
+    return [model(features)["sentence_embedding"] for features in features_list]
+            ^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/base/model.py", line 569, in forward
+    input = module(input, **module_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/sentence_transformers/base/modules/transformer.py", line 1650, in forward
+    model_output = model_method(**filtered_kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 286, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 669, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 436, in forward
+    hidden_states = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/modeling_layers.py", line 109, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 408, in forward
+    layer_output = apply_chunking_to_forward(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/pytorch_utils.py", line 199, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 414, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 335, in forward
+    hidden_states = self.dense(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/SiddhShah1/Desktop/SEM 7/university_administrative_copilot/.venv/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: MPS backend out of memory (MPS allocated: 20.03 GiB, other allocations: 5.69 MiB, max allowed: 20.13 GiB). Tried to allocate 96.00 MiB on shared pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+  0%|          | 0/238 [00:12<?, ?it/s]

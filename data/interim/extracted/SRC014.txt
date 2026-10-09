@@ -1,0 +1,68 @@
+At NMIMS, we follow a multi-pronged approach to ensure that our students receive holistic training in various fields of education and transform into complete and discerning individuals. Our classroom teaching is further aided by our well-equipped library. Encouragement to take up research in their field of choice, providing the students with scholarships and funding their research projects make sure they remain focused and continue without worrying about finances.
+Internships in the industry and corporate companies introduces them to the industry and the corporate world.
+Case Study Approach
+The School of Business Management (SBM) stands out for its case study-based courses. For this, we have been actively engaging industry and academia. Areas like Finance, Marketing, Human Resources and Behavioural Sciences, Operations and Decision Sciences are conducted using case studies, making the course more relevant.
+Mentorship
+Our mentorship program helps the outstation students to ease into their new environs effortlessly. This includes a group of students which is put under a faculty who acts as the mentor. Not only this, the Buddy Concept, where a final year student is assigned to a freshman is a reassuring move.
+Corporate Projects
+Our IIPC cell promotes industry-academia linkage, which goes a long way in ensuring learning by applying theoretical concepts learned in the classroom on live industry projects. These corporate projects vary from 1-3 months.
+Workshops and Seminars
+Eminent personalities from the industry are invited to conduct Workshops and Seminars to equip the students with the right skillsets. This, in turn, arms them with the right attitude to face complexities of the industry confidently.
+Guest Lectures
+Apart from workshops and seminars, guest lectures by renowned industry leaders reinforces what the students have already learned in the classroom.
+Pargana
+An inclusive and enlightening event, Pargana, held in the month of November, is the annual management festival of NMIMS. This is the occasion when corporate heavyweights descend upon the campus to ideate and exchange views on a topic of national and international importance.
+Special Training
+It is our aim to keep our students up to date with the latest in technology and computer programs. With this in view, regular sessions are conducted in the form of tutorials for specific marketing, finance and statistical tools. SPSS, Advanced MS, Excel, IRS, Six-Sigma Certifications etc, are some of the topics included in these sessions. Not only this, the School also lays emphasis on corporate/simulation games/contests/events to stimulate a dynamic learning environment.
+Summer Internships
+Students of the MBA programs have to undergo a two-month summer internship at a corporate facility. This is done to help students apply their learning in practical situations.
+Overseas Study
+With globalization being the norm of the day, NMIMS has well-developed international ties with reputed universities. This leads to international assignments for teaching, research & consultancy for the faculty and students. We have exchange programs with
+- Royal Melbourne Institute of Technology (RMIT), Melbourne, Australia
+- Case Western Reserve University, Cleveland, Ohio
+- Grenoble Ecole de Management, France
+- Athens University of Economics & Business, Greece
+- University of Houston College of Engineering, Houston, Texas
+- Senaca College of Applied Arts & Technology, Toronto, Ontaria, Canada
+- ESSCA, Angers France
+- Budapest
+- EUROMED, Marseille France
+- ESC ROUEN, France
+There is nothing more sacrosanct than a library in any educational institute. We, at NMIMS, take it seriously. Our library has evolved with the times and has transformed from a traditional library with manual transactions to a digital library. Our students and faculty have access to NMIMS’s highly advanced library not only in the library premises, but also on the desktops from any part of the world. The Library Catalogue (OPAC), which is currently on intranet, gives detailed information about library sources, including thousands of books and e-journals, hundreds of journals, innumerable databases and technical reports with different search tools, making it easy for its users. For the uninitiated, the library arranges regular awareness programmes on use of electronic resources too.
+We at NMIMS provide efficient online services to our students to save their precious time. We also train students about the online medium.
+Apart from the library catalogue (OPAC) that gives detailed information about our library sources, the electronic resources also include access to a vast corporate database covering numerous listed and unlisted companies, trend analysis, funds flow, financial ratios and economic statistics.
+Blackboard facility
+The online Blackboard Facility aids our longstanding objective to standardize the pedagogy. Our students can now download their standard courseware, exercises and assignments as also extra courseware. The automated and personalized facility ensures that only the courseware applicable to each student is made available to him.
+Campus connect
+Students receive urgent and important messages via SMS. They need to register the numbers with the School to avail of this facility.
+Placement dashboard
+An online placement management system to manage all activities related to placement is made available to students. This automated facility enables the rigorous exercise of student placements to be conducted in a smooth fashion.
+Web Mail
+An internal web mail facility for students and employees of NMIMS is available on campus.
+All laptops can be configured at the Asian Paints Computer Centre on the ground floor in the campus, thanks to our WiFi network.
+Our IIPC cell, with its objective to promote industry-academia linkage, places emphasis on learning by testing the theoretical concepts learned in the classroom on real time industry projects. These corporate projects vary from 1-3 months.
+Since God is in the details, we have pulled out all the astops for the convenience of our students. Our campus has:
+- Air-conditioned classrooms with PC and LCD projectors integrated with campus wide network.
+- Fiber optic network backbone and 100 MBPS Ethernet Technology connecting all classrooms and departments.
+- 45 MBPS shared leased line internet connectivity round the clock.
+- Wireless Hotspots.
+- Branded high end servers and NAS storage systems for maintaining campus wide database and connectivity.
+- A hardware firewall to protect the entire network.
+- Academic ERP-Integrated Institute Management System covering Online Transaction Processing and M.I.S. from Admission to Evaluation, Integrating Library, Purchase & Accounts.
+- Each student is equipped with a branded laptop.
+- The Computer Lab on the second floor houses more than 60 computers, and one can find students there at all times taking print outs or working on their projects. In addition to that, there are plugs available throughout the campus and students make the most of it by working in the quad and the zee area throughout the day and night.
+- First phase of SAP has been implemented.
+Campus Network
+The Campus Network is based on a fiber optic backbone and 100 MBPS Ethernet technologies. It covers the institute, classrooms, library, faculty and staff. The intranet has 425 computers which are interconnected by a fiber optic network. Every classroom is equipped with PC and LCD projectors integrated with the campus wide network.
+Wireless Hotspots
+In addition to the wired network, the entire campus has a parallel wireless network. You will be able to access the entire networked resources from virtually anywhere in the campus.
+Internet@ 10 mbps
+All members on the intranet have access to Internet 24 hours a day through 45 MBPS shared leased line from SVKM, of which 10 MBPS is exclusively used for NMIMS. The Internet bandwidth is being enhanced every year. This has been a pioneering effort by NMIMS.
+Computer Centre & Services
+The Computer centre has over 60 Dell & HP PCs in LAN, Printers, Scanners, DVD burners, Digital Cameras. The Computer Resource centre provides various network-based services such as Internet, Groupware, Database, Email, Printing, Laptops & LCD Projectors.
+Software Library
+The software environment includes SQL Server DBMS, SPSS, Rational Enterprise suite, MS Office (Campus Wide License), MS Projects, Simulation packages, Visual and Object- Oriented Languages like Visual Basic & Visual C++ and Java.
+Integrated Institute Management System
+NMIMS has deployed an Integrated Institute Management System designed to track and manage the day-to-day activities of the University. It is a complete automated administration solution to enhance the productivity of the staff. This system acts as an Online Transaction Processing system and can handle large volumes of data and the Management Information System provided for management reporting. The system covers modules such as student and registration, employee/faculty details, attendance recording and reporting, timetable/schedules, examination and results, library management, integrated accounts/inventory, payroll, purchase and fixed assets. The most significant benefit of this system has been the creation of a central repository of data on students, faculty, staff, programs and courses which can be seen by those who have the access rights.
+The Road Ahead
+These initiatives have placed the University on an exalted level where it can now expand to a new horizon and act as a model for the Indian academic institutions. The University certainly has the potential to generate numerous knowledge hubs within the current framework.

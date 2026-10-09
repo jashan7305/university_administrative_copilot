@@ -1,0 +1,488 @@
+{
+  "classification": {
+    "comparison": [
+      {
+        "model": "TF-IDF + LogReg (Week 2)",
+        "train_time_s": null,
+        "intent_f1_test_core": 0.8805,
+        "intent_f1_test": 0.8632,
+        "intent_f1_test_variants": 0.7971,
+        "oos_recall": 0.945,
+        "sub_acc_test_core": 0.7246,
+        "sub_f1_test_core": 0.6273,
+        "sub_acc_test": 0.7292,
+        "sub_f1_test": 0.6372
+      },
+      {
+        "model": "TF-IDF + frozen embeddings ensemble (Week 3)",
+        "train_time_s": null,
+        "intent_f1_test_core": 0.8873,
+        "intent_f1_test": 0.876,
+        "intent_f1_test_variants": 0.8091,
+        "oos_recall": 0.942,
+        "sub_acc_test_core": 0.7902,
+        "sub_f1_test_core": 0.7129,
+        "sub_acc_test": 0.7818,
+        "sub_f1_test": 0.7047
+      },
+      {
+        "model": "SetFit: fine-tuned sentence transformer + LogReg",
+        "train_time_s": 104.2,
+        "intent_f1_test_core": 0.8501,
+        "intent_f1_test": 0.841,
+        "intent_f1_test_variants": 0.7862,
+        "oos_recall": 0.491,
+        "sub_acc_test_core": 0.7475,
+        "sub_f1_test_core": 0.6922,
+        "sub_acc_test": 0.705,
+        "sub_f1_test": 0.6505
+      },
+      {
+        "model": "Fine-tuned transformer (BGE-small, joint sub-intent + OOS)",
+        "train_time_s": 1253.9,
+        "intent_f1_test_core": 0.8894,
+        "intent_f1_test": 0.8889,
+        "intent_f1_test_variants": 0.8183,
+        "oos_recall": 0.92,
+        "sub_acc_test_core": 0.7672,
+        "sub_f1_test_core": 0.6999,
+        "sub_acc_test": 0.7511,
+        "sub_f1_test": 0.6902
+      },
+      {
+        "model": "Fine-tuned transformer + Week 3 ensemble (blend)",
+        "train_time_s": 1253.9,
+        "intent_f1_test_core": 0.9009,
+        "intent_f1_test": 0.8953,
+        "intent_f1_test_variants": 0.8258,
+        "oos_recall": 0.958,
+        "sub_acc_test_core": 0.7967,
+        "sub_f1_test_core": 0.7156,
+        "sub_acc_test": 0.7917,
+        "sub_f1_test": 0.7134
+      }
+    ],
+    "transformer_history": [
+      {
+        "epoch": 1,
+        "train_loss": 655.99,
+        "val_macro_f1": 0.2282
+      },
+      {
+        "epoch": 2,
+        "train_loss": 272.48,
+        "val_macro_f1": 0.496
+      },
+      {
+        "epoch": 3,
+        "train_loss": 100.7,
+        "val_macro_f1": 0.612
+      },
+      {
+        "epoch": 4,
+        "train_loss": 32.86,
+        "val_macro_f1": 0.6155
+      },
+      {
+        "epoch": 5,
+        "train_loss": 10.51,
+        "val_macro_f1": 0.6504
+      },
+      {
+        "epoch": 6,
+        "train_loss": 4.03,
+        "val_macro_f1": 0.6723
+      },
+      {
+        "epoch": 7,
+        "train_loss": 1.64,
+        "val_macro_f1": 0.644
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.93,
+        "val_macro_f1": 0.6573
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.75,
+        "val_macro_f1": 0.6556
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.69,
+        "val_macro_f1": 0.657
+      }
+    ],
+    "oos_threshold": 0.25,
+    "blend_weights": {
+      "sub_intent_transformer": 0.1,
+      "intent_transformer": 0.2
+    },
+    "note": "Week 2/3 rows reuse the saved models; improved models are trained here on the same split"
+  },
+  "ner": {
+    "gold_set": {
+      "queries": 120,
+      "spans": 245
+    },
+    "comparison": [
+      {
+        "model": "Rule-based labeller (dictionary + regex)",
+        "gold_all_strict_p": 0.7692,
+        "gold_all_strict_r": 0.449,
+        "gold_all_strict_f1": 0.567,
+        "gold_all_relaxed_f1": 0.6701,
+        "gold_core_strict_p": 0.8052,
+        "gold_core_strict_r": 0.5299,
+        "gold_core_strict_f1": 0.6392,
+        "gold_core_relaxed_f1": 0.732,
+        "gold_variants_strict_p": 0.7273,
+        "gold_variants_strict_r": 0.375,
+        "gold_variants_strict_f1": 0.4948,
+        "gold_variants_relaxed_f1": 0.6082,
+        "silver_test_strict_f1": 1.0
+      },
+      {
+        "model": "Gazetteer (dictionary from training data)",
+        "gold_all_strict_p": 0.7576,
+        "gold_all_strict_r": 0.4082,
+        "gold_all_strict_f1": 0.5305,
+        "gold_all_relaxed_f1": 0.6154,
+        "gold_core_strict_p": 0.8056,
+        "gold_core_strict_r": 0.4957,
+        "gold_core_strict_f1": 0.6138,
+        "gold_core_relaxed_f1": 0.6772,
+        "gold_variants_strict_p": 0.7,
+        "gold_variants_strict_r": 0.3281,
+        "gold_variants_strict_f1": 0.4468,
+        "gold_variants_relaxed_f1": 0.5532,
+        "silver_test_strict_f1": 0.9286
+      },
+      {
+        "model": "CRF (Week 3)",
+        "gold_all_strict_p": 0.7615,
+        "gold_all_strict_r": 0.4041,
+        "gold_all_strict_f1": 0.528,
+        "gold_all_relaxed_f1": 0.6133,
+        "gold_core_strict_p": 0.8028,
+        "gold_core_strict_r": 0.4872,
+        "gold_core_strict_f1": 0.6064,
+        "gold_core_relaxed_f1": 0.6702,
+        "gold_variants_strict_p": 0.7119,
+        "gold_variants_strict_r": 0.3281,
+        "gold_variants_strict_f1": 0.4492,
+        "gold_variants_relaxed_f1": 0.5561,
+        "silver_test_strict_f1": 0.9388
+      },
+      {
+        "model": "Fine-tuned transformer NER (Week 4)",
+        "gold_all_strict_p": 0.6948,
+        "gold_all_strict_r": 0.4367,
+        "gold_all_strict_f1": 0.5363,
+        "gold_all_relaxed_f1": 0.6717,
+        "gold_core_strict_p": 0.7561,
+        "gold_core_strict_r": 0.5299,
+        "gold_core_strict_f1": 0.6231,
+        "gold_core_relaxed_f1": 0.7538,
+        "gold_variants_strict_p": 0.625,
+        "gold_variants_strict_r": 0.3516,
+        "gold_variants_strict_f1": 0.45,
+        "gold_variants_relaxed_f1": 0.59,
+        "silver_test_strict_f1": 0.8918
+      }
+    ],
+    "transformer_history": [
+      {
+        "epoch": 1,
+        "train_loss": 459.34,
+        "val_f1": 0.1902
+      },
+      {
+        "epoch": 2,
+        "train_loss": 157.69,
+        "val_f1": 0.6268
+      },
+      {
+        "epoch": 3,
+        "train_loss": 80.06,
+        "val_f1": 0.8009
+      },
+      {
+        "epoch": 4,
+        "train_loss": 50.7,
+        "val_f1": 0.8486
+      },
+      {
+        "epoch": 5,
+        "train_loss": 34.78,
+        "val_f1": 0.8619
+      },
+      {
+        "epoch": 6,
+        "train_loss": 27.67,
+        "val_f1": 0.8855
+      },
+      {
+        "epoch": 7,
+        "train_loss": 21.77,
+        "val_f1": 0.8844
+      },
+      {
+        "epoch": 8,
+        "train_loss": 19.63,
+        "val_f1": 0.8867
+      }
+    ],
+    "transformer_train_time_s": null,
+    "note": "The rule-based labeller produced the silver training labels, so it scores ~1.0 on silver by construction; the hand-annotated gold set is the fair comparison."
+  },
+  "retrieval": {
+    "n_queries": 870,
+    "n_passages": 727,
+    "train_pairs_dense": 3779,
+    "train_pairs_cross_encoder": 11292,
+    "train_time_s": {
+      "dense": 410.2,
+      "cross_encoder": 244.4
+    },
+    "comparison": [
+      {
+        "retriever": "BM25 keyword search",
+        "recall@1": 0.2425,
+        "recall@3": 0.3851,
+        "recall@5": 0.492,
+        "mrr@20": 0.354,
+        "recall@3_core": 0.4467,
+        "ms_per_query": 0.4
+      },
+      {
+        "retriever": "Vector, frozen MiniLM",
+        "recall@1": 0.2161,
+        "recall@3": 0.3414,
+        "recall@5": 0.3989,
+        "mrr@20": 0.3053,
+        "recall@3_core": 0.3505,
+        "ms_per_query": 3.0
+      },
+      {
+        "retriever": "Vector, frozen BGE-small",
+        "recall@1": 0.1954,
+        "recall@3": 0.3391,
+        "recall@5": 0.4333,
+        "mrr@20": 0.2992,
+        "recall@3_core": 0.3711,
+        "ms_per_query": 6.9
+      },
+      {
+        "retriever": "Vector, fine-tuned BGE-small",
+        "recall@1": 0.3414,
+        "recall@3": 0.5448,
+        "recall@5": 0.6655,
+        "mrr@20": 0.4752,
+        "recall@3_core": 0.5979,
+        "ms_per_query": 7.2
+      },
+      {
+        "retriever": "Week 3 v2: hybrid + intent/sub-intent boost",
+        "recall@1": 0.3977,
+        "recall@3": 0.6287,
+        "recall@5": 0.6839,
+        "mrr@20": 0.5312,
+        "recall@3_core": 0.6495,
+        "ms_per_query": 5.0
+      },
+      {
+        "retriever": "Hybrid (fine-tuned vector) + boost",
+        "recall@1": 0.4966,
+        "recall@3": 0.7874,
+        "recall@5": 0.8506,
+        "mrr@20": 0.6513,
+        "recall@3_core": 0.8213,
+        "ms_per_query": 7.3
+      },
+      {
+        "retriever": "+ cross-encoder re-rank (zero-shot)",
+        "recall@1": 0.2448,
+        "recall@3": 0.4034,
+        "recall@5": 0.4805,
+        "mrr@20": 0.3721,
+        "recall@3_core": 0.4536,
+        "ms_per_query": 117.6
+      },
+      {
+        "retriever": "+ cross-encoder re-rank (fine-tuned)",
+        "recall@1": 0.246,
+        "recall@3": 0.569,
+        "recall@5": 0.7575,
+        "mrr@20": 0.4486,
+        "recall@3_core": 0.5876,
+        "ms_per_query": 113.4
+      }
+    ],
+    "selected": "Hybrid (fine-tuned vector) + boost"
+  },
+  "summarization": {
+    "n_queries": 120,
+    "reference": "gold verified fact(s) of the question",
+    "input": "top-3 passages from the fine-tuned hybrid retriever + facts of the predicted service",
+    "llm": "Qwen2.5-1.5B-Instruct (local, greedy decoding) over MMR-selected evidence",
+    "comparison": [
+      {
+        "summarizer": "lead",
+        "rouge1": 0.1787,
+        "rouge2": 0.044,
+        "rougeL": 0.1322,
+        "embedding_similarity": 0.4156,
+        "avg_words": 53.3167,
+        "unsupported_number_rate": 0.0036
+      },
+      {
+        "summarizer": "mmr",
+        "rouge1": 0.4036,
+        "rouge2": 0.3056,
+        "rougeL": 0.3672,
+        "embedding_similarity": 0.7213,
+        "avg_words": 55.8417,
+        "unsupported_number_rate": 0.0
+      },
+      {
+        "summarizer": "llm_local",
+        "rouge1": 0.3892,
+        "rouge2": 0.2057,
+        "rougeL": 0.3264,
+        "embedding_similarity": 0.6643,
+        "avg_words": 30.65,
+        "unsupported_number_rate": 0.0144
+      }
+    ],
+    "examples": [
+      {
+        "query": "do i need to give back my original degree for correction",
+        "reference": "For a correction, the original degree/grade sheet must be surrendered to the school examination department; university records must be corrected by the Admission office first.",
+        "lead": "DUPLICATE DEGREE CERTIFICATE/ GRADE SHEETS / DIPLOMA CERTIFICATE. All the applications along with the requisite fees / documents may be addressed to: The Controller of Examinations, SVKM's NMIMS (Deemed-to-be University), V.L. Mehta Road, Vile Parle \u2013 (West) Mumbai \u2013 400056 Tel: (91-22) 4235 5555 Please note: All the applications should be forwarded through the School Examination Department for Regular Students/Alumnus.",
+        "mmr": "For a correction, the original degree/grade sheet must be surrendered to the school examination department; university records must be corrected by the Admission office first. Corrections on degree certificates or grade sheets are routed through the University Admission Department, and the original must be surrendered.",
+        "llm_local": "Yes, you need to surrender your original degree to the School Examination Dept for obtaining a revised document."
+      },
+      {
+        "query": "watch allowed in exam?",
+        "reference": "Mobile phones, smart watches, earbuds, programmable or financial calculators, AI glasses and similar devices are forbidden in the exam hall unless specifically permitted.",
+        "lead": "E.g. for the examination of two hours, 40 minutes extra time will be allowed. 9.4.2 These students would be given concession for not attempting the questions of drawing figures, maps, Draft, etc. where necessary in the written exams. 9.4.3 Concession will be given for mistakes in spelling or mathematical calculations/graphs.",
+        "mmr": "7.1.4 Students, who are not in their seats by the time notified, will not, be permitted to appear for the examination. Possessing an electronic device such as a mobile phone or smart watch in the exam hall leads to annulment of performance at the examination in full. E.g. for the examination of two hours, 40 minutes extra time will be allowed.",
+        "llm_local": "No, students are not allowed to use smartwatches in exams according to the rules provided."
+      },
+      {
+        "query": "what if i'm absent for 3 weeks with prior intimation to HOD",
+        "reference": "A student absent for more than 21 days at a stretch without prior intimation receives a formal communication and must apply for cancellation within a week if not continuing; otherwise cancellation is initiated by the school.",
+        "lead": "45 INTIMATION FOR ABSENTEEISM School of\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..",
+        "mmr": "The 'Intimation for Absenteeism' form records leave period and reason; it is checked by the course coordinator, verified by the AR/DR and approved by the HOD/Associate Dean/Dean/Director. Any absence without written intimation will be treated as unapproved and will be reflected in the records as such. In emergent situations, intimation must be given to Course Coordinator preferably by email within 24 hours of the absence.",
+        "llm_local": "If you're absent for three weeks with prior intimation to the HOD, your absence should be recorded on the 'Intimation for Absenteeism' form. This form includes details about the leave period and reason, which are then reviewed by the course coordinator, AR/DR, and finally approved by the HOD or their designated representative."
+      },
+      {
+        "query": "AICTE scholarship for girl students eligibility",
+        "reference": "Other NSP schemes such as AICTE Pragati Scholarship for Girl Students (technical degrees) are available depending on eligibility.",
+        "lead": "Guidelines for Scholarships: 11.1 Each year , there are several student awards and scholarships announced for different schools/programs of SVKM\u2019s NMIMS (as applicable school/campus-wise). 11.2 Students are advised to apply for awards and participate in the process enthusiastically. 11.3 Students are also advised to keep a good performance track record if they wish to apply for these awards.",
+        "mmr": "Other NSP schemes such as AICTE Pragati Scholarship for Girl Students (technical degrees) are available depending on eligibility. For example, AICTE \u2013 Pragati Scholarship Scheme for Girl Students (Technical Degree), PM USP Special Scholarship Scheme for Jammu Kashmir and Ladakh, etc. 11.7 A student who wishes to apply for a scholarship will have to go through the school's academic office.",
+        "llm_local": "The eligibility criteria for the AICTE Pragati Scholarship Scheme for Girl Students depend on various factors including academic performance, extracurricular activities, and financial need. For more detailed information, please refer to the guidelines provided or contact the appropriate office within your institution."
+      }
+    ]
+  },
+  "example_v3": {
+    "query": "I lost my ID card and my SAP ID is 70022300145, what should I do? It's urgent",
+    "intent": "ID_CARDS",
+    "sub_intent": "DUPLICATE_ID_CARD",
+    "answer": "Any grievances related to the ID Card should be raised to biometricregistration@svkm.ac.in. If the student misplaces the original ID card , a duplicate ID card will be issued by the school by paying a prescribed fee. 2.17 In case a student forgets to carry an ID card, they should approach security and complete the process to get the requested access.\n\nDepartment: School Academic Office (Course Coordinator / AR / DR).\nRequired documents: none stated in the sources.\nNext step: Apply to the school for a duplicate ID card and pay the prescribed fee.",
+    "entities": [
+      {
+        "label": "ISSUE",
+        "text": "lost",
+        "start": 2,
+        "end": 6,
+        "source": "transformer"
+      },
+      {
+        "label": "DOCUMENT",
+        "text": "ID card",
+        "start": 10,
+        "end": 17,
+        "source": "transformer"
+      },
+      {
+        "label": "ORGANIZATION",
+        "text": "SAP",
+        "start": 25,
+        "end": 28,
+        "source": "transformer"
+      },
+      {
+        "label": "STUDENT_NUMBER",
+        "text": "ID",
+        "start": 29,
+        "end": 31,
+        "source": "transformer"
+      },
+      {
+        "label": "PERCENTAGE",
+        "text": "70022300145",
+        "start": 35,
+        "end": 46,
+        "source": "transformer"
+      }
+    ],
+    "service_request": {
+      "intent": "ID_CARDS",
+      "sub_intent": "DUPLICATE_ID_CARD",
+      "department": "School Academic Office (Course Coordinator / AR / DR)",
+      "required_documents": [],
+      "next_action": "Apply to the school for a duplicate ID card and pay the prescribed fee",
+      "extracted_details": {
+        "ISSUE": [
+          "lost"
+        ],
+        "DOCUMENT": [
+          "ID card"
+        ],
+        "ORGANIZATION": [
+          "SAP"
+        ],
+        "STUDENT_NUMBER": [
+          "ID"
+        ],
+        "PERCENTAGE": [
+          "70022300145"
+        ]
+      },
+      "missing_information": [],
+      "priority": "high",
+      "status": "ready",
+      "supporting_facts": [
+        "F0002"
+      ],
+      "source_urls": [
+        "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf"
+      ]
+    }
+  },
+  "end_to_end": {
+    "n": 291,
+    "v2": {
+      "intent_acc": 0.8763,
+      "sub_intent_acc": 0.7938,
+      "department_acc": 0.7732,
+      "documents_jaccard": 0.799,
+      "relevant_passage_top3": 0.6323,
+      "oos_declined_200": 0.95,
+      "latency_ms_median": 114.5
+    },
+    "v3": {
+      "intent_acc": 0.8969,
+      "sub_intent_acc": 0.811,
+      "department_acc": 0.7835,
+      "documents_jaccard": 0.799,
+      "relevant_passage_top3": 0.8144,
+      "oos_declined_200": 0.96,
+      "latency_ms_median": 130.7
+    }
+  },
+  "runtime_s": 494.3
+}

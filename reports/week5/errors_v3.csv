@@ -1,0 +1,224 @@
+text,intent,sub_intent,pred_intent,pred_sub,conf,sub_conf,error,variant_type,plausible_alternative,ambiguity
+can my parents do this for me,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,out_of_scope,HOSTEL_RULES,0.6905873563599653,0.1718982452768582,false out-of-scope,original,False,HIGH
+what's the deadilne,EXAMINATIONS,REVALUATION,out_of_scope,RE_EXAMINATION,0.6413992071329183,0.14225623622419803,false out-of-scope,typo,True,HIGH
+can i get a beak,ACADEMIC_REGISTRATION,STUDENT_STATUS,out_of_scope,STUDENT_STATUS,0.6272099924331206,0.09312915906551056,false out-of-scope,typo,True,MEDIUM
+what's the deadline,EXAMINATIONS,REVALUATION,out_of_scope,LATE_FEE,0.5692290050713844,0.11728503608258864,false out-of-scope,original,False,HIGH
+can my parnts do this for me,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,out_of_scope,REVALUATION,0.41864576670274795,0.17133612721626043,false out-of-scope,typo,False,HIGH
+kitna bunk kar skate,ATTENDANCE,ATTENDANCE_REQUIREMENT,out_of_scope,TRANSCRIPT,0.3851312001496532,0.07661211814042926,false out-of-scope,typo,False,LOW
+"what's the deadline, thanks",EXAMINATIONS,REVALUATION,out_of_scope,ACADEMIC_GUIDELINES,0.34820235930814825,0.09150989738061129,false out-of-scope,polite,False,HIGH
+can i apeal,STUDENT_WELFARE,STUDENT_GRIEVANCE,out_of_scope,MARK_VERIFICATION,0.33994543746277633,0.09082443777883448,false out-of-scope,typo,False,HIGH
+quick question - can my parents do this for me,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,out_of_scope,LOW_ATTENDANCE,0.2959373524010881,0.17985617709252413,false out-of-scope,polite,False,HIGH
+can I renew it agin after that?,LIBRARY,BOOK_RENEWAL,out_of_scope,BOOK_RENEWAL,0.28468771117901337,0.15164120499020647,false out-of-scope,typo,False,LOW
+mtt dtes,ACADEMIC_REGISTRATION,ACADEMIC_CALENDAR,out_of_scope,ACADEMIC_CALENDAR,0.2693952848854198,0.21423856940701033,false out-of-scope,typo,False,LOW
+"leaving mumbai for a hackathon, do i need to inform someone?",ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,out_of_scope,ID_CARD_ACCESS,0.24876859938113277,0.10519396906988468,false out-of-scope,original,False,LOW
+ABC cedits nmims,ACADEMIC_REGISTRATION,ACADEMIC_BANK_OF_CREDITS,out_of_scope,ACADEMIC_BANK_OF_CREDITS,0.2466999975541284,0.3100591365595413,false out-of-scope,typo,False,LOW
+"quick question - leaving mumbai for a hackathon, do i need to inform someone?",ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,out_of_scope,ID_CARD_ACCESS,0.22195206314991076,0.09234184655911473,false out-of-scope,polite,False,LOW
+"leaving mumbai for a hackathon, do i need to inform smeone?",ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,out_of_scope,BONAFIDE_CERTIFICATE,0.20897662808792564,0.09229775130424926,false out-of-scope,typo,False,LOW
+can i appeal,STUDENT_WELFARE,STUDENT_GRIEVANCE,out_of_scope,DEGREE_CERTIFICATE,0.19010907700569227,0.12989905771528448,false out-of-scope,original,True,HIGH
+"hello, can i appeal",STUDENT_WELFARE,STUDENT_GRIEVANCE,out_of_scope,DEGREE_CERTIFICATE,0.17082905380443678,0.08895769526558393,false out-of-scope,polite,True,HIGH
+what'll an education at boulder state college run,out_of_scope,out_of_scope,ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,0.554604297515066,0.18493705548123285,missed out-of-scope,clinc150,False,
+"good morning, a student emailed me asking to recheck his TEE paper, is that allowed?",EXAMINATIONS,REVALUATION,EXAMINATIONS,DIGITAL_RESOURCES,0.9390357032870942,0.10888289066286432,sub-intent outside predicted intent,polite,False,LOW
+is wifi available in the hostel rooms,HOSTEL,HOSTEL_RULES,HOSTEL,FACILITIES,0.7996770107646223,0.3266612689861759,sub-intent outside predicted intent,original,False,LOW
+is wifi availble in the hostel rooms,HOSTEL,HOSTEL_RULES,HOSTEL,FACILITIES,0.799278155658896,0.36755342594475593,sub-intent outside predicted intent,typo,False,LOW
+is wifi available in the hostel rooms - please guide,HOSTEL,HOSTEL_RULES,HOSTEL,FACILITIES,0.7975271498044971,0.27253917302585956,sub-intent outside predicted intent,polite,False,LOW
+when is hostel security deposit refunded,HOSTEL,HOSTEL_REFUND,HOSTEL,FEE_REFUND,0.7820982573386358,0.5838931334747958,sub-intent outside predicted intent,original,False,LOW
+"Dear Sir/Madam, When is hostel security deposit refunded? Kindly advise.",HOSTEL,HOSTEL_REFUND,HOSTEL,FEE_REFUND,0.7078235833946596,0.6317855062154553,sub-intent outside predicted intent,formal,False,LOW
+medical certificate foramt for hostel,HOSTEL,HOSTEL_DOCUMENTS,HOSTEL,MEDICAL_FITNESS,0.7075618739870431,0.4178713732495517,sub-intent outside predicted intent,typo,False,LOW
+medical cert format for hostel,HOSTEL,HOSTEL_DOCUMENTS,HOSTEL,MEDICAL_FITNESS,0.6588740740190867,0.6060004002511115,sub-intent outside predicted intent,abbrev,False,LOW
+medical certificate format for hostel,HOSTEL,HOSTEL_DOCUMENTS,HOSTEL,MEDICAL_FITNESS,0.658531206155322,0.6063058684676499,sub-intent outside predicted intent,original,False,LOW
+where is the mpstme counsellor's ofice,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,STUDENT_WELFARE,COUNSELLING,0.6248834435266537,0.5009838207029307,sub-intent outside predicted intent,typo,False,LOW
+can journals be issued?,LIBRARY,LIBRARY_RULES,LIBRARY,SCRIBE_WRITER,0.6223853796499166,0.2387697225918077,sub-intent outside predicted intent,original,False,LOW
+where is the mpstme counsellor's office,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,STUDENT_WELFARE,COUNSELLING,0.5799352092984321,0.4637490811162198,sub-intent outside predicted intent,original,False,LOW
+bansi villa ac vs non ac fees,HOSTEL,HOSTEL_FEES,HOSTEL,FEE_PAYMENT,0.5649828699275139,0.1171662012864633,sub-intent outside predicted intent,original,False,LOW
+what happens if a detained student writes the TEE anyway,EXAMINATIONS,EXAM_ELIGIBILITY,EXAMINATIONS,LOW_ATTENDANCE,0.5579455189597827,0.06651971171223008,sub-intent outside predicted intent,original,False,LOW
+wat happens if a detained student writes the TEE anyway,EXAMINATIONS,EXAM_ELIGIBILITY,EXAMINATIONS,ATTENDANCE_APPEAL,0.5425297062089993,0.06993122985343343,sub-intent outside predicted intent,abbrev,False,LOW
+"bansi villa ac vs non ac fees, pls help",HOSTEL,HOSTEL_FEES,HOSTEL,FEE_PAYMENT,0.5294794556179424,0.12328431331447517,sub-intent outside predicted intent,polite,False,LOW
+I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years within which I must complete the programme?,ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,ACADEMIC_REGISTRATION,BACKLOG_EXAM,0.5275808554084349,0.5233252400925116,sub-intent outside predicted intent,original,False,LOW
+book counselling appointment timings - please guide,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,STUDENT_WELFARE,COUNSELLING,0.516635380985017,0.46370522348998294,sub-intent outside predicted intent,polite,False,LOW
+incomplete hotel application rejected?,HOSTEL,HOSTEL_DOCUMENTS,HOSTEL,DUPLICATE_GRADE_SHEET,0.5162190977878545,0.0928344215673132,sub-intent outside predicted intent,typo,False,LOW
+"Dear Sir/Madam, What is the passing criteria at MPSTME? Kindly advise.",EXAMINATIONS,EXAM_RESULT,EXAMINATIONS,ACADEMIC_GUIDELINES,0.5082309954354779,0.09850550769768103,sub-intent outside predicted intent,formal,False,LOW
+I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum no. of years within which I must complete the programme?,ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,ACADEMIC_REGISTRATION,BACKLOG_EXAM,0.4993420795852773,0.5519256780651428,sub-intent outside predicted intent,abbrev,False,LOW
+"Dear Sir/Madam, Can journals be issued? Kindly advise.",LIBRARY,LIBRARY_RULES,LIBRARY,SCRIBE_WRITER,0.492195377810733,0.22673730851193813,sub-intent outside predicted intent,formal,False,LOW
+"hi sir, cCTV footage request for a theft on campus",STUDENT_WELFARE,STUDENT_SAFETY,STUDENT_WELFARE,TRANSCRIPT,0.48943843707960677,0.145865533565552,sub-intent outside predicted intent,polite,False,LOW
+CCTV footage request for a theft on campus,STUDENT_WELFARE,STUDENT_SAFETY,STUDENT_WELFARE,FACILITIES,0.48428357095029934,0.18817193380727298,sub-intent outside predicted intent,original,False,LOW
+I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years wthin which I must complete the programme?,ACADEMIC_REGISTRATION,ACADEMIC_GUIDELINES,ACADEMIC_REGISTRATION,BACKLOG_EXAM,0.4740747725194595,0.5016964216178016,sub-intent outside predicted intent,typo,False,LOW
+CCTV fooatge request for a theft on campus,STUDENT_WELFARE,STUDENT_SAFETY,STUDENT_WELFARE,FACILITIES,0.4676921662770924,0.16905839200117032,sub-intent outside predicted intent,typo,False,LOW
+book counselling appointment timings,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,STUDENT_WELFARE,COUNSELLING,0.4246720829548984,0.4199687675115705,sub-intent outside predicted intent,original,False,LOW
+where do i sbumit this form?,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,TRANSCRIPTS,HOSTEL_APPLICATION,0.4091675777754986,0.1664571509819742,sub-intent outside predicted intent,typo,True,HIGH
+"problem with a fculty, how do i complain",STUDENT_WELFARE,STUDENT_GRIEVANCE,STUDENT_WELFARE,RE_EXAMINATION,0.36081092723973107,0.1281976440630575,sub-intent outside predicted intent,typo,False,LOW
+bansi vlla ac vs non ac fees,HOSTEL,HOSTEL_FEES,HOSTEL,FEE_PAYMENT,0.34536088049509794,0.134714797214119,sub-intent outside predicted intent,typo,False,LOW
+"hello, where do i submit this form?",TRANSCRIPTS,DUPLICATE_GRADE_SHEET,TRANSCRIPTS,HOSTEL_APPLICATION,0.2981666956198702,0.14248221166850938,sub-intent outside predicted intent,polite,True,HIGH
+where do i submit this form?,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,TRANSCRIPTS,HOSTEL_APPLICATION,0.26747241817549394,0.16869637179950323,sub-intent outside predicted intent,original,True,HIGH
+pyq for re exam avaliable?,LIBRARY,DIGITAL_RESOURCES,EXAMINATIONS,RE_EXAMINATION,0.9635022669393303,0.5142139449444543,wrong intent,typo,False,LOW
+pyq for re exam available?,LIBRARY,DIGITAL_RESOURCES,EXAMINATIONS,RE_EXAMINATION,0.9551493976047584,0.49951528904111486,wrong intent,original,False,LOW
+"hello, pyq for re exam available?",LIBRARY,DIGITAL_RESOURCES,EXAMINATIONS,RE_EXAMINATION,0.9378500780087089,0.4537624675573879,wrong intent,polite,False,LOW
+can i have an online counselling session,STUDENT_SERVICES,COUNSELLING,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,0.9377489395622431,0.830156851390774,wrong intent,original,False,LOW
+verification ceckbox sap,EXAMINATIONS,MARK_VERIFICATION,CERTIFICATES,EDUCATION_VERIFICATION,0.930528285461679,0.64697043579516,wrong intent,typo,False,LOW
+"can i have an online counselling session, thanks",STUDENT_SERVICES,COUNSELLING,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,0.9235120426400579,0.7879080866845736,wrong intent,polite,False,LOW
+verification checkbox sap,EXAMINATIONS,MARK_VERIFICATION,CERTIFICATES,EDUCATION_VERIFICATION,0.915069904982935,0.6876816137058543,wrong intent,original,False,LOW
+"Dear Sir/Madam, Can I have an online counselling session? Kindly advise.",STUDENT_SERVICES,COUNSELLING,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,0.8782394145660399,0.6242371794849437,wrong intent,formal,False,LOW
+online counselling mpstme,STUDENT_SERVICES,COUNSELLING,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,0.8579527836780513,0.5777908310378852,wrong intent,original,False,LOW
+onlne counselling mpstme,STUDENT_SERVICES,COUNSELLING,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,0.8420568632980859,0.5359827630306544,wrong intent,typo,False,LOW
+"hello, verification checkbox sap",EXAMINATIONS,MARK_VERIFICATION,CERTIFICATES,EDUCATION_VERIFICATION,0.8282780159328447,0.5866167553475371,wrong intent,polite,False,LOW
+when is hstel security deposit refunded,HOSTEL,HOSTEL_REFUND,FEES,FEE_REFUND,0.8214072935496226,0.8152974289919358,wrong intent,typo,False,LOW
+remedial lecture attnd rule,EXAMINATIONS,RE_EXAMINATION,ATTENDANCE,LOW_ATTENDANCE,0.8039014475720956,0.3141247102064244,wrong intent,abbrev,False,LOW
+how much for a duplicate grade sheet,CERTIFICATES,DUPLICATE_DEGREE,TRANSCRIPTS,DUPLICATE_DEGREE,0.8023176349207719,0.4639428928978355,wrong intent,original,False,LOW
+"Dear Sir/Madam, How much for a duplicate grade sheet? Kindly advise.",CERTIFICATES,DUPLICATE_DEGREE,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,0.7931655548177872,0.5973658088652555,wrong intent,formal,False,LOW
+remedial lecture attendance rule,EXAMINATIONS,RE_EXAMINATION,ATTENDANCE,LOW_ATTENDANCE,0.7918504198798269,0.31315561388667446,wrong intent,original,False,LOW
+hostel deposit refund attachmets,FEES,EXCESS_FEE_REFUND,HOSTEL,HOSTEL_REFUND,0.7832553757634738,0.8080962869577133,wrong intent,typo,False,LOW
+how much for a duplicate garde sheet,CERTIFICATES,DUPLICATE_DEGREE,TRANSCRIPTS,DUPLICATE_GRADE_SHEET,0.7517685957224438,0.4788609084847459,wrong intent,typo,False,LOW
+"forgot my ID card on exam day, will they let me write the paper?",EXAMINATIONS,EXAM_ELIGIBILITY,ID_CARDS,ID_CARD_ACCESS,0.7427894437493147,0.3535782017405927,wrong intent,original,False,LOW
+"good morning, online counselling mpstme",STUDENT_SERVICES,COUNSELLING,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,0.7256646432927277,0.49302883703889033,wrong intent,polite,False,LOW
+remedial lecture attndance rule,EXAMINATIONS,RE_EXAMINATION,ATTENDANCE,LOW_ATTENDANCE,0.7189697650112772,0.3852634043321177,wrong intent,typo,False,LOW
+need a cert for my visa,STUDENT_SERVICES,INTERNATIONAL_DOCUMENTS,CERTIFICATES,INTERNATIONAL_DOCUMENTS,0.7101672948837916,0.24699506757946632,wrong intent,abbrev,True,HIGH
+need a certificate for my visa,STUDENT_SERVICES,INTERNATIONAL_DOCUMENTS,CERTIFICATES,INTERNATIONAL_DOCUMENTS,0.7099108828759706,0.24779818056316993,wrong intent,original,True,HIGH
+"Dear Sir/Madam, Forgot my ID card on exam day, will they let me write the paper? Kindly advise.",EXAMINATIONS,EXAM_ELIGIBILITY,ID_CARDS,ID_CARD_ACCESS,0.6996094101153618,0.24601529469051925,wrong intent,formal,False,LOW
+hostel deposit refund attachments,FEES,EXCESS_FEE_REFUND,HOSTEL,HOSTEL_REFUND,0.6965174567785591,0.7498418632201874,wrong intent,original,False,LOW
+"hello, id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",EXAMINATIONS,EXAM_ELIGIBILITY,ID_CARDS,DUPLICATE_ID_CARD,0.6822500111765932,0.23050536780008737,wrong intent,polite,False,LOW
+hostel deposit refund attachments. any help?,FEES,EXCESS_FEE_REFUND,HOSTEL,HOSTEL_REFUND,0.6696351565919466,0.7344785557033113,wrong intent,polite,False,LOW
+"id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",EXAMINATIONS,EXAM_ELIGIBILITY,ID_CARDS,DUPLICATE_ID_CARD,0.6678346059224529,0.26169347946713095,wrong intent,original,False,LOW
+"hi, below 80 readmission 2025",ATTENDANCE,LOW_ATTENDANCE,ACADEMIC_REGISTRATION,LOW_ATTENDANCE,0.6654075796753867,0.41432072457853575,wrong intent,polite,False,LOW
+book conuselling appointment timings,STUDENT_WELFARE,MENTAL_HEALTH_SUPPORT,LIBRARY,BOOK_RENEWAL,0.661436210924598,0.20862326480359747,wrong intent,typo,False,LOW
+need a certificate for my visa. any help?,STUDENT_SERVICES,INTERNATIONAL_DOCUMENTS,CERTIFICATES,INTERNATIONAL_DOCUMENTS,0.6595886404762411,0.24826941419756965,wrong intent,polite,True,HIGH
+can i enter the library without id card,LIBRARY,LIBRARY_ACCESS,ID_CARDS,LIBRARY_ACCESS,0.6579363633845438,0.430689676655289,wrong intent,original,False,LOW
+quick question - can i enter the library without id card,LIBRARY,LIBRARY_ACCESS,ID_CARDS,LIBRARY_ACCESS,0.6412758254385161,0.3991007433467601,wrong intent,polite,False,LOW
+"id card got stolen yesterday, exam tmrw, can i use my aadhaar instead",EXAMINATIONS,EXAM_ELIGIBILITY,ID_CARDS,DUPLICATE_ID_CARD,0.6139543839421441,0.23775144186193034,wrong intent,abbrev,False,LOW
+quick question - canteen timings mpstme,STUDENT_SERVICES,FACILITIES,LIBRARY,LIBRARY_TIMINGS,0.6105852939002355,0.6534014739147792,wrong intent,polite,False,LOW
+"Dear Sir/Madam, What if I'm absent for 3 weeks with prior intimation to HOD? Kindly advise.",ACADEMIC_REGISTRATION,STUDENT_STATUS,ATTENDANCE,MEDICAL_ATTENDANCE,0.6080071659801933,0.3021111112443348,wrong intent,formal,False,LOW
+what if i'm absent for 3 weeks with prior intimation to HOD,ACADEMIC_REGISTRATION,STUDENT_STATUS,ATTENDANCE,MEDICAL_ATTENDANCE,0.5776401795115663,0.3799359511915803,wrong intent,original,False,LOW
+quick question - kitna bunk kar sakte,ATTENDANCE,ATTENDANCE_REQUIREMENT,HOSTEL,HOSTEL_FEES,0.5729660881570188,0.10373705012947142,wrong intent,polite,False,LOW
+kitna bunk kar sakte,ATTENDANCE,ATTENDANCE_REQUIREMENT,HOSTEL,HOSTEL_FEES,0.5626381094642802,0.12469725369116531,wrong intent,original,False,LOW
+my record is wrong,ATTENDANCE,ATTENDANCE_CORRECTION,CERTIFICATES,CERTIFICATE_CORRECTION,0.5621896132636912,0.47108850559107013,wrong intent,original,True,HIGH
+below 80 readmission 2025,ATTENDANCE,LOW_ATTENDANCE,ACADEMIC_REGISTRATION,LOW_ATTENDANCE,0.5600922345949259,0.4242326634194401,wrong intent,original,False,LOW
+offer letter documents not submitted on time - admission cancelled?,CERTIFICATES,ACADEMIC_DOCUMENTS,FEES,ADMISSION_CANCELLATION,0.5587205108256328,0.2448664595150562,wrong intent,original,False,LOW
+offer letter docs not submitted on time - admission cancelled?,CERTIFICATES,ACADEMIC_DOCUMENTS,FEES,ADMISSION_CANCELLATION,0.556066428465286,0.2437468248769123,wrong intent,abbrev,False,LOW
+can i enter the library withut id card,LIBRARY,LIBRARY_ACCESS,ID_CARDS,LIBRARY_ACCESS,0.5537590393768484,0.40477467106158427,wrong intent,typo,False,LOW
+what if i'm absent for 3 weeks with prior intimaton to HOD,ACADEMIC_REGISTRATION,STUDENT_STATUS,ATTENDANCE,MEDICAL_ATTENDANCE,0.5494119206437704,0.3705190789053425,wrong intent,typo,False,LOW
+dfiference between readmission and year back,EXAMINATIONS,BACKLOG_EXAM,ACADEMIC_REGISTRATION,BACKLOG_EXAM,0.5421890097669196,0.5534933219182487,wrong intent,typo,False,LOW
+"sorry to bother, difference between readmission and year back",EXAMINATIONS,BACKLOG_EXAM,ACADEMIC_REGISTRATION,BACKLOG_EXAM,0.5216704490702898,0.5876300096195692,wrong intent,polite,False,LOW
+"Dear Sir/Madam, My record is wrong. Kindly advise.",ATTENDANCE,ATTENDANCE_CORRECTION,CERTIFICATES,CERTIFICATE_CORRECTION,0.5212116714754795,0.19291623321748774,wrong intent,formal,True,HIGH
+"sorry to bother, offer letter documents not submitted on time - admission cancelled?",CERTIFICATES,ACADEMIC_DOCUMENTS,FEES,ADMISSION_CANCELLATION,0.5008396039409944,0.30229972941060423,wrong intent,polite,False,LOW
+"frogot my ID card on exam day, will they let me write the paper?",EXAMINATIONS,EXAM_ELIGIBILITY,ID_CARDS,ID_CARD_ACCESS,0.4859246042248183,0.274333354889959,wrong intent,typo,False,LOW
+difference between readmission and year back,EXAMINATIONS,BACKLOG_EXAM,ACADEMIC_REGISTRATION,BACKLOG_EXAM,0.48260567654580255,0.7199760521280761,wrong intent,original,False,LOW
+canteen timings mptsme,STUDENT_SERVICES,FACILITIES,LIBRARY,LIBRARY_TIMINGS,0.4660433033495622,0.7432239348035519,wrong intent,typo,False,LOW
+canteen timings mpstme,STUDENT_SERVICES,FACILITIES,LIBRARY,LIBRARY_TIMINGS,0.4642493061474991,0.782312272672004,wrong intent,original,False,LOW
+"issue with my roommate, whom to complain",HOSTEL,HOSTEL_PROBLEMS,STUDENT_WELFARE,HOSTEL_PROBLEMS,0.46237647444514524,0.2356286122226309,wrong intent,original,False,LOW
+request to unblock a website - which emial,STUDENT_SERVICES,FACILITIES,STUDENT_WELFARE,FACILITIES,0.4531278386252574,0.5045209987889185,wrong intent,typo,False,LOW
+"hi sir, my record is wrong",ATTENDANCE,ATTENDANCE_CORRECTION,CERTIFICATES,CERTIFICATE_CORRECTION,0.4518795413234379,0.34526302438904843,wrong intent,polite,True,HIGH
+request to unblock a website - which email,STUDENT_SERVICES,FACILITIES,STUDENT_WELFARE,FACILITIES,0.4363385589043254,0.3589523605239532,wrong intent,original,False,LOW
+"issue with my roommate, whom to complain, pls help",HOSTEL,HOSTEL_PROBLEMS,STUDENT_WELFARE,HOSTEL_PROBLEMS,0.42337914342607486,0.21060715321274576,wrong intent,polite,False,LOW
+SOM letter time rquired,TRANSCRIPTS,PERCENTAGE_LETTER,EXAMINATIONS,EXAM_TIMETABLE,0.4222103453370257,0.12408344880450327,wrong intent,typo,False,LOW
+"issue with my roomamte, whom to complain",HOSTEL,HOSTEL_PROBLEMS,STUDENT_WELFARE,HOSTEL_PROBLEMS,0.4158733673283311,0.2816528242775392,wrong intent,typo,False,LOW
+40% aggregate means out of 100 total - please guide,EXAMINATIONS,EXAM_RESULT,TRANSCRIPTS,EXAM_RESULT,0.4033688538968522,0.26670675353665174,wrong intent,polite,False,LOW
+40% aggregate means out of 100 total?,EXAMINATIONS,EXAM_RESULT,TRANSCRIPTS,EXAM_RESULT,0.4007810569457444,0.29971069592166777,wrong intent,original,False,LOW
+bonafide lteter from portal possible?,CERTIFICATES,BONAFIDE_CERTIFICATE,STUDENT_SERVICES,STUDENT_PORTAL,0.39829062026610695,0.3901479615668433,wrong intent,typo,False,LOW
+can I renew it again after that. any help?,LIBRARY,BOOK_RENEWAL,EXAMINATIONS,BOOK_RENEWAL,0.3860726453062644,0.15556715096936422,wrong intent,polite,False,LOW
+national academic depository link,STUDENT_SERVICES,STUDENT_PORTAL,ACADEMIC_REGISTRATION,FEE_REFUND,0.3794507254145655,0.0910667130777411,wrong intent,original,False,LOW
+"hi, national academic depository link",STUDENT_SERVICES,STUDENT_PORTAL,ACADEMIC_REGISTRATION,FEE_REFUND,0.36875932359157854,0.0706961706290215,wrong intent,polite,False,LOW
+how will college inform us about lecture cancellations,STUDENT_SERVICES,STUDENT_PORTAL,FEES,ADMISSION_CANCELLATION,0.36703193350109903,0.15852182557463323,wrong intent,original,False,LOW
+naitonal academic depository link,STUDENT_SERVICES,STUDENT_PORTAL,ACADEMIC_REGISTRATION,FEE_REFUND,0.35728570398842385,0.09535159357430262,wrong intent,typo,False,LOW
+leave application format for missing classes,ATTENDANCE,MEDICAL_ATTENDANCE,TRANSCRIPTS,MEDICAL_ATTENDANCE,0.35053853455044093,0.11982452402720728,wrong intent,original,False,LOW
+how will colelge inform us about lecture cancellations,STUDENT_SERVICES,STUDENT_PORTAL,FEES,STUDENT_PORTAL,0.33189720541864803,0.16132417185497547,wrong intent,typo,False,LOW
+leave applicatoin format for missing classes,ATTENDANCE,MEDICAL_ATTENDANCE,TRANSCRIPTS,MEDICAL_ATTENDANCE,0.32995080284977724,0.1394081515367717,wrong intent,typo,False,LOW
+can I renew it again after that?,LIBRARY,BOOK_RENEWAL,EXAMINATIONS,BOOK_RENEWAL,0.31740008551141696,0.1615409350494665,wrong intent,original,False,LOW
+"hi, leave application format for missing classes",ATTENDANCE,MEDICAL_ATTENDANCE,TRANSCRIPTS,MEDICAL_ATTENDANCE,0.31687323288684743,0.10721194609239992,wrong intent,polite,False,LOW
+40% aggregate maens out of 100 total?,EXAMINATIONS,EXAM_RESULT,TRANSCRIPTS,EXAM_RESULT,0.3113899640567535,0.37876870349165137,wrong intent,typo,False,LOW
+"hi, can the dean allow me to enter 35 min late in a medical emergency",EXAMINATIONS,EXAM_TIMETABLE,ACADEMIC_REGISTRATION,EXAM_TIMETABLE,0.308932569557046,0.5097680002113039,wrong intent,polite,False,LOW
+can the dean allow me to enter 35 min late in a medical emergency,EXAMINATIONS,EXAM_TIMETABLE,ATTENDANCE,EXAM_TIMETABLE,0.30075996290106377,0.4974122961796465,wrong intent,original,False,LOW
+"hi, sOM letter time required",TRANSCRIPTS,PERCENTAGE_LETTER,EXAMINATIONS,EXAM_TIMETABLE,0.2986877457375945,0.1163317586504205,wrong intent,polite,False,LOW
+"sorry to bother, how will college inform us about lecture cancellations",STUDENT_SERVICES,STUDENT_PORTAL,FEES,ADMISSION_CANCELLATION,0.2895945987268351,0.15651610105644392,wrong intent,polite,False,LOW
+SOM letter time required,TRANSCRIPTS,PERCENTAGE_LETTER,EXAMINATIONS,EXAM_TIMETABLE,0.2834333456228845,0.09799594345158708,wrong intent,original,False,LOW
+can i leave my stff in hostel during summer vacation,HOSTEL,HOSTEL_VACATING,HOSTEL,HOSTEL_RULES,0.9967061511827767,0.5458527592688049,"wrong sub-intent, same intent",typo,False,LOW
+"want to stay with my friend in hostel, possible?",HOSTEL,HOSTEL_ALLOCATION,HOSTEL,HOSTEL_RULES,0.9961497235057666,0.5425157631684615,"wrong sub-intent, same intent",original,False,LOW
+no TEE subject fail - reexam possible or not,EXAMINATIONS,BACKLOG_EXAM,EXAMINATIONS,RE_EXAMINATION,0.9961137521534188,0.7214888605828096,"wrong sub-intent, same intent",abbrev,False,LOW
+"want to stay with my frend in hostel, possible?",HOSTEL,HOSTEL_ALLOCATION,HOSTEL,HOSTEL_RULES,0.9958434011192709,0.43499755886686586,"wrong sub-intent, same intent",typo,False,LOW
+vacation stay hostel fees,HOSTEL,HOSTEL_RULES,HOSTEL,HOSTEL_FEES,0.9945827343826116,0.4516973277413988,"wrong sub-intent, same intent",original,False,LOW
+how to issue books in mpstme library,LIBRARY,BOOK_BORROWING,LIBRARY,DIGITAL_RESOURCES,0.9941128365310463,0.33975308805707083,"wrong sub-intent, same intent",original,False,LOW
+how to issue books in msptme library,LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.9938347174349735,0.352086479836583,"wrong sub-intent, same intent",typo,False,LOW
+"hello, vacation stay hostel fees",HOSTEL,HOSTEL_RULES,HOSTEL,HOSTEL_FEES,0.9938197264109379,0.45923109981056714,"wrong sub-intent, same intent",polite,False,LOW
+no TEE subject fail - re-exam possible or not,EXAMINATIONS,BACKLOG_EXAM,EXAMINATIONS,RE_EXAMINATION,0.9923103619552536,0.6825010510893882,"wrong sub-intent, same intent",original,False,LOW
+"want to stay with my friend in hostel, possible. any help?",HOSTEL,HOSTEL_ALLOCATION,HOSTEL,HOSTEL_RULES,0.9921366469454855,0.4156391891443871,"wrong sub-intent, same intent",polite,False,LOW
+is my scholarship apporved? where can i see,SCHOLARSHIPS,SCHOLARSHIP_STATUS,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9921030128092839,0.6275761132555646,"wrong sub-intent, same intent",typo,False,LOW
+how to issue books in mpstme lib,LIBRARY,BOOK_BORROWING,LIBRARY,DIGITAL_RESOURCES,0.9917004686544512,0.3613745419714601,"wrong sub-intent, same intent",abbrev,False,LOW
+is my scholarship approved? where can i see,SCHOLARSHIPS,SCHOLARSHIP_STATUS,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9912875850868745,0.7294045736509008,"wrong sub-intent, same intent",original,False,LOW
+can i apply for revaluation of my lab exam,EXAMINATIONS,EXAM_GRIEVANCE,EXAMINATIONS,REVALUATION,0.9912320025057758,0.8771609832211542,"wrong sub-intent, same intent",original,False,LOW
+"Dear Sir/Madam, Is my scholarship approved? where can I see? Kindly advise.",SCHOLARSHIPS,SCHOLARSHIP_STATUS,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9907686932221695,0.7863059929007133,"wrong sub-intent, same intent",formal,False,LOW
+exam problem,EXAMINATIONS,REVALUATION,EXAMINATIONS,RE_EXAMINATION,0.9903790972003995,0.39190492958183676,"wrong sub-intent, same intent",original,True,HIGH
+"no TEE subject fail - re-exam possible or not, thank you",EXAMINATIONS,BACKLOG_EXAM,EXAMINATIONS,RE_EXAMINATION,0.9893955704688867,0.5819248679314089,"wrong sub-intent, same intent",polite,False,LOW
+"sent the hostel form already, now what?",HOSTEL,HOSTEL_ALLOCATION,HOSTEL,HOSTEL_APPLICATION,0.9887117732490691,0.6806512940323914,"wrong sub-intent, same intent",original,False,LOW
+"sent the hostel form alreday, now what?",HOSTEL,HOSTEL_ALLOCATION,HOSTEL,HOSTEL_APPLICATION,0.9886991362767543,0.673272313515004,"wrong sub-intent, same intent",typo,False,LOW
+"Dear Sir/Madam, Forgot my id card today, how do I get in. Kindly advise.",ID_CARDS,ID_CARD_ACCESS,ID_CARDS,DUPLICATE_ID_CARD,0.9873742678909198,0.4367329780097712,"wrong sub-intent, same intent",formal,False,LOW
+"can i apply for revaluation of my lab exam, thank you",EXAMINATIONS,EXAM_GRIEVANCE,EXAMINATIONS,REVALUATION,0.986749369361249,0.8570603286902541,"wrong sub-intent, same intent",polite,False,LOW
+"sent the hostel form already, now what. any help?",HOSTEL,HOSTEL_ALLOCATION,HOSTEL,HOSTEL_APPLICATION,0.9853849751146078,0.7110005069959042,"wrong sub-intent, same intent",polite,False,LOW
+do i need to reapply for scholarship every year,SCHOLARSHIPS,SCHOLARSHIP_RENEWAL,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9845609170617518,0.316343273260598,"wrong sub-intent, same intent",original,False,LOW
+"Dear Sir/Madam, Can I apply for revaluation of my lab exam? Kindly advise.",EXAMINATIONS,EXAM_GRIEVANCE,EXAMINATIONS,REVALUATION,0.9840588700824965,0.7599692057176076,"wrong sub-intent, same intent",formal,False,LOW
+do aulmni have access to the library?,LIBRARY,LIBRARY_ACCESS,LIBRARY,LIBRARY_RULES,0.9839274993116852,0.44219877631695265,"wrong sub-intent, same intent",typo,False,LOW
+"forgot my id card today, how do i get in",ID_CARDS,ID_CARD_ACCESS,ID_CARDS,DUPLICATE_ID_CARD,0.983290985565745,0.4612753736997655,"wrong sub-intent, same intent",original,False,LOW
+internal complaints committee composition,STUDENT_WELFARE,INTERNAL_COMPLAINTS,STUDENT_WELFARE,STUDENT_GRIEVANCE,0.9781609100050438,0.5404255549194789,"wrong sub-intent, same intent",original,False,LOW
+"Dear Sir/Madam, I need my marks for another university and they want percentage, not cgpa. Kindly advise.",TRANSCRIPTS,PERCENTAGE_LETTER,TRANSCRIPTS,GPA_CGPA_LETTER,0.9772841396128802,0.4951935010056789,"wrong sub-intent, same intent",formal,False,LOW
+what happens if someone uses my id card,ID_CARDS,ID_CARD_ACCESS,ID_CARDS,DUPLICATE_ID_CARD,0.9750979334735,0.33468955323242394,"wrong sub-intent, same intent",original,False,LOW
+scholarship for students with family income below 8 lakh,SCHOLARSHIPS,SCHOLARSHIP_ELIGIBILITY,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9750844050023141,0.7340209354076555,"wrong sub-intent, same intent",original,False,LOW
+"Dear Sir/Madam, Do I need to reapply for scholarship every year? Kindly advise.",SCHOLARSHIPS,SCHOLARSHIP_RENEWAL,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.973966304683685,0.3001417489685924,"wrong sub-intent, same intent",formal,False,LOW
+"hi sir, do i need to reapply for scholarship every year",SCHOLARSHIPS,SCHOLARSHIP_RENEWAL,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9737710487164182,0.29203293446273676,"wrong sub-intent, same intent",polite,False,LOW
+internal complaints committee composiion,STUDENT_WELFARE,INTERNAL_COMPLAINTS,STUDENT_WELFARE,STUDENT_GRIEVANCE,0.9715735340613711,0.4731356988432383,"wrong sub-intent, same intent",typo,False,LOW
+"hi sir, internal complaints committee composition",STUDENT_WELFARE,INTERNAL_COMPLAINTS,STUDENT_WELFARE,STUDENT_GRIEVANCE,0.9715353105433896,0.5429751007909744,"wrong sub-intent, same intent",polite,False,LOW
+"I need my marks for another university and they want percentage, not cgpa",TRANSCRIPTS,PERCENTAGE_LETTER,TRANSCRIPTS,GPA_CGPA_LETTER,0.9687660365725668,0.6446595402949468,"wrong sub-intent, same intent",original,False,LOW
+do i need to reapply for hostel every year,HOSTEL,HOSTEL_RULES,HOSTEL,HOSTEL_VACATING,0.9654350777621256,0.3315588046376574,"wrong sub-intent, same intent",original,False,LOW
+"scholarship for students with family income below 8 lakh, pls help",SCHOLARSHIPS,SCHOLARSHIP_ELIGIBILITY,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9640872532956986,0.6976192412995137,"wrong sub-intent, same intent",polite,False,LOW
+"what happens if someone uses my id card, thanks",ID_CARDS,ID_CARD_ACCESS,ID_CARDS,DUPLICATE_ID_CARD,0.959864117989929,0.3113906358393444,"wrong sub-intent, same intent",polite,False,LOW
+do alumni have access to the library?,LIBRARY,LIBRARY_ACCESS,LIBRARY,DIGITAL_RESOURCES,0.9593863967446489,0.3333622054454311,"wrong sub-intent, same intent",original,False,LOW
+scholarship for students with family incmoe below 8 lakh,SCHOLARSHIPS,SCHOLARSHIP_ELIGIBILITY,SCHOLARSHIPS,SCHOLARSHIP_APPLICATION,0.9573975941179803,0.7278953258309533,"wrong sub-intent, same intent",typo,False,LOW
+"good morning, do i need to reapply for hostel every year",HOSTEL,HOSTEL_RULES,HOSTEL,HOSTEL_VACATING,0.956811558045666,0.29721893931044324,"wrong sub-intent, same intent",polite,False,LOW
+"hey, wrong photo on my id card, how to change",ID_CARDS,ID_CARD_CORRECTION,ID_CARDS,DUPLICATE_ID_CARD,0.9559935072930165,0.36216093150486256,"wrong sub-intent, same intent",polite,False,LOW
+do we get an id card from college,ID_CARDS,ID_CARD_APPLICATION,ID_CARDS,DUPLICATE_ID_CARD,0.9554613696655726,0.44279660486759714,"wrong sub-intent, same intent",original,False,LOW
+"wrong photo on my id card, how to change",ID_CARDS,ID_CARD_CORRECTION,ID_CARDS,DUPLICATE_ID_CARD,0.9539331595084664,0.3703955576704606,"wrong sub-intent, same intent",original,False,LOW
+exam porblem,EXAMINATIONS,REVALUATION,EXAMINATIONS,RE_EXAMINATION,0.9537467211050447,0.4217551658457196,"wrong sub-intent, same intent",typo,True,HIGH
+incomplete hostel appln rejected?,HOSTEL,HOSTEL_DOCUMENTS,HOSTEL,HOSTEL_APPLICATION,0.9384319828597356,0.2100776068494335,"wrong sub-intent, same intent",abbrev,False,LOW
+"a student emailed me asking to recheck his TEE paper, is that allowed?",EXAMINATIONS,REVALUATION,EXAMINATIONS,MARK_VERIFICATION,0.938159725768414,0.10790414494140582,"wrong sub-intent, same intent",original,False,LOW
+"sorry to bother, exam problem",EXAMINATIONS,REVALUATION,EXAMINATIONS,RE_EXAMINATION,0.935461686124838,0.3208417293776375,"wrong sub-intent, same intent",polite,True,HIGH
+"a student emailed me asing to recheck his TEE paper, is that allowed?",EXAMINATIONS,REVALUATION,EXAMINATIONS,MARK_VERIFICATION,0.93341242638024,0.1101492819320834,"wrong sub-intent, same intent",typo,False,LOW
+"Dear Sir/Madam, Do we get an id card from college? Kindly advise.",ID_CARDS,ID_CARD_APPLICATION,ID_CARDS,DUPLICATE_ID_CARD,0.9332387400583386,0.36577507989393954,"wrong sub-intent, same intent",formal,False,LOW
+last date to drop a course this sem - please guide,ACADEMIC_REGISTRATION,COURSE_ADD_DROP,ACADEMIC_REGISTRATION,ACADEMIC_CALENDAR,0.930413351860738,0.4377956841855309,"wrong sub-intent, same intent",polite,False,LOW
+"Dear Sir/Madam, Do alumni have access to the library? Kindly advise.",LIBRARY,LIBRARY_ACCESS,LIBRARY,LIBRARY_RULES,0.9287052156359293,0.2046532000506787,"wrong sub-intent, same intent",formal,False,LOW
+last date to drop a course this sem,ACADEMIC_REGISTRATION,COURSE_ADD_DROP,ACADEMIC_REGISTRATION,ACADEMIC_CALENDAR,0.9201190652836972,0.40804328536031853,"wrong sub-intent, same intent",original,False,LOW
+"wrong poto on my id card, how to change",ID_CARDS,ID_CARD_CORRECTION,ID_CARDS,DUPLICATE_ID_CARD,0.915797310102071,0.39697982648692176,"wrong sub-intent, same intent",typo,False,LOW
+"I need my makrs for another university and they want percentage, not cgpa",TRANSCRIPTS,PERCENTAGE_LETTER,TRANSCRIPTS,GPA_CGPA_LETTER,0.9079816417688199,0.5839375938299941,"wrong sub-intent, same intent",typo,False,LOW
+do we get an id card from clg,ID_CARDS,ID_CARD_APPLICATION,ID_CARDS,DUPLICATE_ID_CARD,0.9067395615719225,0.4934825077928073,"wrong sub-intent, same intent",abbrev,False,LOW
+"reference book can be issued for how long, thanks",LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.8880652854870035,0.30786479055431315,"wrong sub-intent, same intent",polite,False,LOW
+incomplete hostel application rejected?,HOSTEL,HOSTEL_DOCUMENTS,HOSTEL,HOSTEL_APPLICATION,0.88349538886166,0.3055664970817377,"wrong sub-intent, same intent",original,False,LOW
+equal opportunity cell nims,STUDENT_WELFARE,SC_ST_SUPPORT,STUDENT_WELFARE,EQUAL_OPPORTUNITY,0.882698972359522,0.7781257357922384,"wrong sub-intent, same intent",typo,False,LOW
+reference book can be issued for how long,LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.8799582394357466,0.40862711784244815,"wrong sub-intent, same intent",original,False,LOW
+equal opportunity cell nmims - please guide,STUDENT_WELFARE,SC_ST_SUPPORT,STUDENT_WELFARE,EQUAL_OPPORTUNITY,0.8452198301870253,0.6868152127368922,"wrong sub-intent, same intent",polite,False,LOW
+can i issue books at the counter or only at kiosk,LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.8445786375607813,0.4814418777616439,"wrong sub-intent, same intent",original,False,LOW
+I need my degree dcoument.,CERTIFICATES,PROVISIONAL_DEGREE,CERTIFICATES,DEGREE_CERTIFICATE,0.837213365184997,0.5738484441697671,"wrong sub-intent, same intent",typo,True,HIGH
+"rfeund amount less than paid, why?",FEES,FEE_REFUND,FEES,EXCESS_FEE_REFUND,0.8257925994165263,0.19196439397526474,"wrong sub-intent, same intent",typo,False,LOW
+"Dear Sir/Madam, Can nmims confirm my degree over the phone for my employer? Kindly advise.",CERTIFICATES,EDUCATION_VERIFICATION,CERTIFICATES,DEGREE_CERTIFICATE,0.8222423892997139,0.30808916099539463,"wrong sub-intent, same intent",formal,False,LOW
+outlook email for nmims students login,STUDENT_SERVICES,FACILITIES,STUDENT_SERVICES,STUDENT_PORTAL,0.811881264495291,0.19247897319650864,"wrong sub-intent, same intent",original,False,LOW
+can nmims cofnirm my degree over the phone for my employer?,CERTIFICATES,EDUCATION_VERIFICATION,CERTIFICATES,DEGREE_CERTIFICATE,0.8091117923481663,0.3211199063935749,"wrong sub-intent, same intent",typo,False,LOW
+quick question - can i issue books at the counter or only at kiosk,LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.8067963704634813,0.3427078121759699,"wrong sub-intent, same intent",polite,False,LOW
+equal opportunity cell nmims,STUDENT_WELFARE,SC_ST_SUPPORT,STUDENT_WELFARE,EQUAL_OPPORTUNITY,0.7986059842885607,0.844242106728139,"wrong sub-intent, same intent",original,False,LOW
+"re exam fee payment failed and portal now says unpaid, deadline is today",FEES,FEE_PAYMENT,FEES,FAILED_PAYMENT,0.7932451123312388,0.3705812072858404,"wrong sub-intent, same intent",original,False,MEDIUM
+outlook email for nmims sutdents login,STUDENT_SERVICES,FACILITIES,STUDENT_SERVICES,STUDENT_PORTAL,0.7860831509492224,0.17262912742948747,"wrong sub-intent, same intent",typo,False,LOW
+post-commencement withdraawl - certificates?,CERTIFICATES,MIGRATION_CERTIFICATE,CERTIFICATES,DEGREE_CERTIFICATE,0.7855802885504347,0.09897699763775389,"wrong sub-intent, same intent",typo,False,LOW
+"hey, outlook email for nmims students login",STUDENT_SERVICES,FACILITIES,STUDENT_SERVICES,STUDENT_PORTAL,0.7752027958160077,0.19055169835317723,"wrong sub-intent, same intent",polite,False,LOW
+"re exam fee payment failed and portal now says unpaid, deadline is today, thank you",FEES,FEE_PAYMENT,FEES,FAILED_PAYMENT,0.7617423674464653,0.3544949051172322,"wrong sub-intent, same intent",polite,False,MEDIUM
+there's a probelm with my marks,EXAMINATIONS,MARK_VERIFICATION,EXAMINATIONS,EXAM_RESULT,0.7496337173190508,0.23203797733952322,"wrong sub-intent, same intent",typo,True,HIGH
+"Dear Sir/Madam, Can I issue books at the counter or only at kiosk? Kindly advise.",LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.7455197540908197,0.2705660551571036,"wrong sub-intent, same intent",formal,False,LOW
+"re exam fee payment failed and poratl now says unpaid, deadline is today",FEES,FEE_PAYMENT,FEES,FAILED_PAYMENT,0.732435325198709,0.3911241306469034,"wrong sub-intent, same intent",typo,False,MEDIUM
+there's a problem with my marks,EXAMINATIONS,MARK_VERIFICATION,EXAMINATIONS,EXAM_RESULT,0.6629712692661341,0.14622382798773267,"wrong sub-intent, same intent",original,True,HIGH
+I need my degree document.,CERTIFICATES,PROVISIONAL_DEGREE,CERTIFICATES,DEGREE_CERTIFICATE,0.6484516365564593,0.40667604426146275,"wrong sub-intent, same intent",original,True,HIGH
+last date to drop a cuorse this sem,ACADEMIC_REGISTRATION,COURSE_ADD_DROP,ACADEMIC_REGISTRATION,ACADEMIC_CALENDAR,0.6384552750274597,0.33518770372743356,"wrong sub-intent, same intent",typo,False,LOW
+"sorry to bother, email for biometric registration svkm",ID_CARDS,ID_CARD_NOT_WORKING,ID_CARDS,ID_CARD_ACCESS,0.626214836119888,0.3408961887420323,"wrong sub-intent, same intent",polite,False,LOW
+"sorry to bother, there's a problem with my marks",EXAMINATIONS,MARK_VERIFICATION,EXAMINATIONS,EXAM_RESULT,0.6251668908163918,0.1568093234533896,"wrong sub-intent, same intent",polite,True,HIGH
+"I need my degree document, help karo",CERTIFICATES,PROVISIONAL_DEGREE,CERTIFICATES,DEGREE_CERTIFICATE,0.6162641538204185,0.23879859214916693,"wrong sub-intent, same intent",hinglish,True,HIGH
+"Dear Sir/Madam, Is totalling done by software? Kindly advise.",EXAMINATIONS,EXAM_RESULT,EXAMINATIONS,MARK_VERIFICATION,0.6076602764514574,0.36859114682246763,"wrong sub-intent, same intent",formal,False,LOW
+bonafide letter from portal possible?,CERTIFICATES,BONAFIDE_CERTIFICATE,CERTIFICATES,LETTER_OF_RECOMMENDATION,0.5842591417169578,0.24569674127265462,"wrong sub-intent, same intent",original,False,LOW
+email for biometric registration svkm,ID_CARDS,ID_CARD_NOT_WORKING,ID_CARDS,ID_CARD_ACCESS,0.5777311251806759,0.35072188675947497,"wrong sub-intent, same intent",original,False,LOW
+email for biometric reg svkm,ID_CARDS,ID_CARD_NOT_WORKING,ID_CARDS,ID_CARD_ACCESS,0.5763956007853858,0.35017482787914583,"wrong sub-intent, same intent",abbrev,False,LOW
+reerence book can be issued for how long,LIBRARY,BOOK_BORROWING,LIBRARY,BOOK_RENEWAL,0.5537420456940488,0.4608179863989476,"wrong sub-intent, same intent",typo,False,LOW
+can journals be isseud?,LIBRARY,LIBRARY_RULES,LIBRARY,DIGITAL_RESOURCES,0.5467523362369898,0.2676620888888972,"wrong sub-intent, same intent",typo,False,LOW
+"Dear Sir/Madam, What happens if a detained student writes the TEE anyway? Kindly advise.",EXAMINATIONS,EXAM_ELIGIBILITY,EXAMINATIONS,EXAM_ABSENCE,0.5335159637282285,0.06680292350461287,"wrong sub-intent, same intent",formal,False,LOW
+is totalling done by software,EXAMINATIONS,EXAM_RESULT,EXAMINATIONS,MARK_VERIFICATION,0.5171564085111375,0.6566227696148965,"wrong sub-intent, same intent",original,False,LOW
+is totallng done by software,EXAMINATIONS,EXAM_RESULT,EXAMINATIONS,MARK_VERIFICATION,0.5015100681508067,0.6190442270843598,"wrong sub-intent, same intent",typo,False,LOW
+what is the passing crtieria at MPSTME,EXAMINATIONS,EXAM_RESULT,EXAMINATIONS,EXAM_ELIGIBILITY,0.4304980855287378,0.08706304795947924,"wrong sub-intent, same intent",typo,False,LOW
+reavl deadline??,EXAMINATIONS,REVALUATION,EXAMINATIONS,RE_EXAMINATION,0.4228763124733269,0.16946537555507113,"wrong sub-intent, same intent",typo,False,LOW

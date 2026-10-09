@@ -1,0 +1,27 @@
+[A] classification: intent + sub-intent routing
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 13731.66it/s]
+    resumed from saved models
+[B] NER
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11688.70it/s]
+    {'model': 'Rule-based labeller (dictionary + regex)', 'gold_all_strict_p': 0.7692, 'gold_all_strict_r': 0.449, 'gold_all_strict_f1': 0.567, 'gold_all_relaxed_f1': 0.6701, 'silver_test_strict_f1': 1.0}
+    {'model': 'Gazetteer (dictionary from training data)', 'gold_all_strict_p': 0.7576, 'gold_all_strict_r': 0.4082, 'gold_all_strict_f1': 0.5305, 'gold_all_relaxed_f1': 0.6154, 'silver_test_strict_f1': 0.9286}
+    {'model': 'CRF (Week 3)', 'gold_all_strict_p': 0.7615, 'gold_all_strict_r': 0.4041, 'gold_all_strict_f1': 0.528, 'gold_all_relaxed_f1': 0.6133, 'silver_test_strict_f1': 0.9388}
+    {'model': 'Fine-tuned transformer NER (Week 4)', 'gold_all_strict_p': 0.6948, 'gold_all_strict_r': 0.4367, 'gold_all_strict_f1': 0.5363, 'gold_all_relaxed_f1': 0.6717, 'silver_test_strict_f1': 0.8918}
+[C] retrieval
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13363.03it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8715.41it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 24579.38it/s]
+    resumed from saved retrieval results
+[D] summarization
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10659.10it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<02:39,  2.11it/s]Loading weights:  51%|█████     | 171/338 [00:00<00:00, 391.32it/s]Loading weights:  79%|███████▉  | 268/338 [00:00<00:00, 427.82it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 365.42it/s]
+    {'summarizer': 'lead', 'rouge1': 0.1787, 'rouge2': 0.044, 'rougeL': 0.1322, 'embedding_similarity': 0.4156, 'avg_words': 53.3167, 'unsupported_number_rate': 0.0036}
+    {'summarizer': 'mmr', 'rouge1': 0.4036, 'rouge2': 0.3056, 'rougeL': 0.3672, 'embedding_similarity': 0.7213, 'avg_words': 55.8417, 'unsupported_number_rate': 0.0}
+    {'summarizer': 'llm_local', 'rouge1': 0.3892, 'rouge2': 0.2057, 'rougeL': 0.3264, 'embedding_similarity': 0.6643, 'avg_words': 30.65, 'unsupported_number_rate': 0.0144}
+[E] end to end: Week 3 copilot (v2) vs improved copilot (v3)
+    v2 {'intent_acc': np.float64(0.8763), 'sub_intent_acc': np.float64(0.7938), 'department_acc': np.float64(0.7732), 'documents_jaccard': np.float64(0.799), 'relevant_passage_top3': 0.6323, 'oos_declined_200': 0.95, 'latency_ms_median': 114.5}
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 10280.28it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9937.22it/s]
+    v3 {'intent_acc': np.float64(0.8969), 'sub_intent_acc': np.float64(0.811), 'department_acc': np.float64(0.7835), 'documents_jaccard': np.float64(0.799), 'relevant_passage_top3': 0.8144, 'oos_declined_200': 0.96, 'latency_ms_median': 130.7}
+done in 494.3 s

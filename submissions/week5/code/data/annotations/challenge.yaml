@@ -1,0 +1,113 @@
+# Week 5 challenge test set: hard queries built from official NMIMS sources to probe known weak spots of the copilot.
+# Not used for training or model selection. Labels:
+#   intent / sub: gold label; a list means any of the listed labels is acceptable (ambiguous or multi-intent)
+#   sub: null = only the intent is scored
+#   cat: the stress category the query belongs to
+challenge:
+  # ---------------------------------------------------------------- near-domain out-of-scope (university-ish, but not NMIMS admin)
+  - {q: "what is the cutoff for IIT Bombay computer science", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "how do I apply for admission to Mumbai University BCom", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "explain backpropagation in neural networks", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "can you solve this integral for my maths assignment", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "which is better NMIMS or Christ for MBA", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "best canteen food near the Vile Parle campus", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "write my internship report introduction", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "what is the syllabus of data structures in sem 3", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "who won the inter college cricket match yesterday", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "how to prepare for GATE while doing btech", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "recommend a good laptop for engineering students", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  - {q: "what is the CAT exam pattern this year", intent: out_of_scope, sub: null, cat: near_domain_oos}
+  # ---------------------------------------------------------------- general out-of-scope
+  - {q: "book me a cab to andheri station", intent: out_of_scope, sub: null, cat: general_oos}
+  - {q: "what's the weather in mumbai tomorrow", intent: out_of_scope, sub: null, cat: general_oos}
+  - {q: "tell me a joke", intent: out_of_scope, sub: null, cat: general_oos}
+  - {q: "order a pizza", intent: out_of_scope, sub: null, cat: general_oos}
+  - {q: "convert 100 dollars to rupees", intent: out_of_scope, sub: null, cat: general_oos}
+  - {q: "play some music", intent: out_of_scope, sub: null, cat: general_oos}
+  # ---------------------------------------------------------------- very short / keyword-only
+  - {q: "bonafide", intent: CERTIFICATES, sub: BONAFIDE_CERTIFICATE, cat: very_short}
+  - {q: "transcript", intent: TRANSCRIPTS, sub: TRANSCRIPT, cat: very_short}
+  - {q: "reval", intent: EXAMINATIONS, sub: REVALUATION, cat: very_short}
+  - {q: "hostel fees", intent: HOSTEL, sub: HOSTEL_FEES, cat: very_short}
+  - {q: "lost id card", intent: ID_CARDS, sub: DUPLICATE_ID_CARD, cat: very_short}
+  - {q: "library fine", intent: LIBRARY, sub: LIBRARY_FINE, cat: very_short}
+  - {q: "migration certificate", intent: CERTIFICATES, sub: MIGRATION_CERTIFICATE, cat: very_short}
+  - {q: "attendance shortage", intent: ATTENDANCE, sub: LOW_ATTENDANCE, cat: very_short}
+  - {q: "ragging", intent: STUDENT_WELFARE, sub: ANTI_RAGGING, cat: very_short}
+  - {q: "WES", intent: TRANSCRIPTS, sub: WES, cat: very_short}
+  - {q: "re exam", intent: EXAMINATIONS, sub: RE_EXAMINATION, cat: very_short}
+  - {q: "fee refund", intent: FEES, sub: [FEE_REFUND, EXCESS_FEE_REFUND], cat: very_short}
+  # ---------------------------------------------------------------- heavy typos (several errors per query)
+  - {q: "how to aply for bonafied certficate", intent: CERTIFICATES, sub: BONAFIDE_CERTIFICATE, cat: heavy_typos}
+  - {q: "revalutaion form last dat for tee", intent: EXAMINATIONS, sub: REVALUATION, cat: heavy_typos}
+  - {q: "i lsot my idcard wat to do", intent: ID_CARDS, sub: DUPLICATE_ID_CARD, cat: heavy_typos}
+  - {q: "atendence is belw 75 percnt", intent: ATTENDANCE, sub: LOW_ATTENDANCE, cat: heavy_typos}
+  - {q: "hostle alotment kab hoga", intent: HOSTEL, sub: HOSTEL_ALLOCATION, cat: heavy_typos}
+  - {q: "transcrpit for wes evalution", intent: TRANSCRIPTS, sub: WES, cat: heavy_typos}
+  - {q: "scholarshp aplication staus", intent: SCHOLARSHIPS, sub: SCHOLARSHIP_STATUS, cat: heavy_typos}
+  - {q: "libary book renwal online", intent: LIBRARY, sub: BOOK_RENEWAL, cat: heavy_typos}
+  - {q: "pament failed but mony deducted", intent: FEES, sub: FAILED_PAYMENT, cat: heavy_typos}
+  - {q: "provisonal degre certificat", intent: CERTIFICATES, sub: PROVISIONAL_DEGREE, cat: heavy_typos}
+  # ---------------------------------------------------------------- Hinglish / code-mixed (beyond the suffixes seen in training)
+  - {q: "mera id card kho gaya hai naya kaise milega", intent: ID_CARDS, sub: DUPLICATE_ID_CARD, cat: hinglish}
+  - {q: "bonafide certificate chahiye bank ke liye", intent: CERTIFICATES, sub: BONAFIDE_CERTIFICATE, cat: hinglish}
+  - {q: "result kab aayega sem 5 ka", intent: EXAMINATIONS, sub: EXAM_RESULT, cat: hinglish}
+  - {q: "attendance kam hai exam de sakta hu kya", intent: [ATTENDANCE, EXAMINATIONS], sub: [LOW_ATTENDANCE, EXAM_ELIGIBILITY], cat: hinglish}
+  - {q: "hostel ka room change karna hai", intent: HOSTEL, sub: [HOSTEL_ALLOCATION, HOSTEL_PROBLEMS], cat: hinglish}
+  - {q: "fees bharne ki last date kya hai", intent: FEES, sub: [FEE_PAYMENT, LATE_FEE], cat: hinglish}
+  - {q: "transcript banwana hai abroad ke liye", intent: TRANSCRIPTS, sub: [TRANSCRIPT, WES], cat: hinglish}
+  - {q: "library mein kitni books le sakte hai", intent: LIBRARY, sub: BOOK_BORROWING, cat: hinglish}
+  - {q: "ragging ho rahi hai kisko batau", intent: STUDENT_WELFARE, sub: ANTI_RAGGING, cat: hinglish}
+  - {q: "scholarship ka paisa nahi aaya abhi tak", intent: SCHOLARSHIPS, sub: SCHOLARSHIP_STATUS, cat: hinglish}
+  # ---------------------------------------------------------------- negation / contrast
+  - {q: "I don't want a refund, I just need the fee receipt", intent: FEES, sub: FEE_RECEIPT, cat: negation}
+  - {q: "not the provisional one, I need my original degree certificate", intent: CERTIFICATES, sub: DEGREE_CERTIFICATE, cat: negation}
+  - {q: "my id card is not lost, it just stopped working at the gate", intent: ID_CARDS, sub: ID_CARD_NOT_WORKING, cat: negation}
+  - {q: "I am not asking about revaluation, I want a photocopy of my answer sheet", intent: EXAMINATIONS, sub: ANSWER_BOOK_COPY, cat: negation}
+  - {q: "I did not miss the exam, my result is showing absent", intent: EXAMINATIONS, sub: [EXAM_RESULT, EXAM_GRIEVANCE, MARK_VERIFICATION], cat: negation}
+  - {q: "I don't need a hostel room this year, how do I vacate", intent: HOSTEL, sub: HOSTEL_VACATING, cat: negation}
+  - {q: "no I am not dropping out, I want to change my elective", intent: ACADEMIC_REGISTRATION, sub: [ELECTIVE_SELECTION, COURSE_CHANGE], cat: negation}
+  - {q: "the library fine is wrong, I never borrowed that book", intent: LIBRARY, sub: [LIBRARY_FINE, LOST_BOOK], cat: negation}
+  # ---------------------------------------------------------------- multi-intent (two requests in one message)
+  - {q: "I need my transcript and also a bonafide certificate for my visa", intent: [TRANSCRIPTS, CERTIFICATES], sub: [TRANSCRIPT, BONAFIDE_CERTIFICATE], cat: multi_intent}
+  - {q: "my attendance is low and I also have to pay the late fee", intent: [ATTENDANCE, FEES], sub: [LOW_ATTENDANCE, LATE_FEE], cat: multi_intent}
+  - {q: "lost my id card and library card, how do i get both replaced", intent: [ID_CARDS, LIBRARY], sub: [DUPLICATE_ID_CARD, LIBRARY_ACCESS], cat: multi_intent}
+  - {q: "apply for revaluation and check my scholarship status", intent: [EXAMINATIONS, SCHOLARSHIPS], sub: [REVALUATION, SCHOLARSHIP_STATUS], cat: multi_intent}
+  - {q: "I am leaving the hostel and want my deposit back", intent: HOSTEL, sub: [HOSTEL_VACATING, HOSTEL_REFUND], cat: multi_intent}
+  - {q: "need migration certificate and leaving certificate after graduation", intent: CERTIFICATES, sub: [MIGRATION_CERTIFICATE, CLEARANCE_CERTIFICATE], cat: multi_intent}
+  - {q: "re-exam form and fees for re-exam", intent: [EXAMINATIONS, FEES], sub: [RE_EXAMINATION, FEE_PAYMENT], cat: multi_intent}
+  - {q: "I was sick during exams, I need medical leave for attendance and a re-exam", intent: [ATTENDANCE, EXAMINATIONS], sub: [MEDICAL_ATTENDANCE, RE_EXAMINATION, EXAM_ABSENCE], cat: multi_intent}
+  # ---------------------------------------------------------------- ambiguous (under-specified)
+  - {q: "certificate", intent: CERTIFICATES, sub: null, cat: ambiguous}
+  - {q: "form submission", intent: [EXAMINATIONS, ACADEMIC_REGISTRATION, CERTIFICATES, SCHOLARSHIPS], sub: null, cat: ambiguous}
+  - {q: "refund status", intent: [FEES, HOSTEL], sub: null, cat: ambiguous}
+  - {q: "I have a problem", intent: [STUDENT_WELFARE, STUDENT_SERVICES, out_of_scope], sub: null, cat: ambiguous}
+  - {q: "who do I contact", intent: [STUDENT_SERVICES, STUDENT_WELFARE, out_of_scope], sub: null, cat: ambiguous}
+  - {q: "deadline", intent: [FEES, EXAMINATIONS, ACADEMIC_REGISTRATION, SCHOLARSHIPS], sub: null, cat: ambiguous}
+  - {q: "portal not working", intent: [STUDENT_SERVICES, FEES], sub: [STUDENT_PORTAL, FAILED_PAYMENT], cat: ambiguous}
+  - {q: "complaint", intent: STUDENT_WELFARE, sub: null, cat: ambiguous}
+  # ---------------------------------------------------------------- long, rambling (the request is buried in context)
+  - {q: "so basically last semester I was hospitalised for two weeks because of dengue and my parents submitted some papers to the office but now the portal still shows my attendance as 60 percent and my mentor said I may not be allowed to sit for the TEE, what should I do", intent: ATTENDANCE, sub: [MEDICAL_ATTENDANCE, LOW_ATTENDANCE, ATTENDANCE_CORRECTION], cat: long_rambling}
+  - {q: "hello, I graduated in 2022 from MPSTME and I am now applying for a masters in Canada, the university is asking for a course-by-course evaluation through WES and they want sealed transcripts sent directly, can NMIMS do that and how long will it take", intent: TRANSCRIPTS, sub: WES, cat: long_rambling}
+  - {q: "my father paid the second instalment through NEFT last week and the money has left his account but the student portal still shows the fee as pending and I am worried I will get a late fee or be blocked from exams", intent: FEES, sub: [FAILED_PAYMENT, FEE_PAYMENT], cat: long_rambling}
+  - {q: "I joined this year and was told I would get my ID card in the first week but it has been a month and I still don't have it and the security guard is not letting me enter without it", intent: ID_CARDS, sub: [ID_CARD_APPLICATION, ID_CARD_ACCESS], cat: long_rambling}
+  - {q: "there is a group of seniors in the hostel who keep forcing us juniors to do their work late at night and threatening us if we say no, I am scared to tell the warden", intent: STUDENT_WELFARE, sub: ANTI_RAGGING, cat: long_rambling}
+  - {q: "I got 38 in my ICA plus TEE total for operating systems and I think the paper was checked wrongly because two of my answers were not marked at all, is there any way to get it rechecked", intent: EXAMINATIONS, sub: [REVALUATION, MARK_VERIFICATION, ANSWER_BOOK_COPY], cat: long_rambling}
+  # ---------------------------------------------------------------- entity-rich (details the service request must capture)
+  - {q: "my SAP ID is 70022300145 and I need a bonafide certificate by 15 October", intent: CERTIFICATES, sub: BONAFIDE_CERTIFICATE, cat: entity_rich}
+  - {q: "paid Rs 2,500 for revaluation of 2 subjects but the receipt is not generated", intent: [EXAMINATIONS, FEES], sub: [REVALUATION, FEE_RECEIPT, FAILED_PAYMENT], cat: entity_rich}
+  - {q: "roll no J054, B.Tech semester 7, attendance in machine learning is 68%", intent: ATTENDANCE, sub: LOW_ATTENDANCE, cat: entity_rich}
+  - {q: "need 3 copies of my transcript sent to the University of Toronto before 1 December", intent: TRANSCRIPTS, sub: TRANSCRIPT, cat: entity_rich}
+  - {q: "library book due on 5 September, it is now 20 days late, how much fine", intent: LIBRARY, sub: LIBRARY_FINE, cat: entity_rich}
+  - {q: "my name is spelled Siddh instead of Siddhant on the marksheet, SAP 70022300099", intent: [TRANSCRIPTS, CERTIFICATES], sub: [CERTIFICATE_CORRECTION, DUPLICATE_GRADE_SHEET], cat: entity_rich}
+  # ---------------------------------------------------------------- unseen phrasing of in-scope requests
+  - {q: "how can I prove to my bank that I am currently studying at NMIMS", intent: CERTIFICATES, sub: BONAFIDE_CERTIFICATE, cat: unseen_phrasing}
+  - {q: "my card doesn't beep at the turnstile", intent: ID_CARDS, sub: ID_CARD_NOT_WORKING, cat: unseen_phrasing}
+  - {q: "can someone write my paper for me since I broke my right hand", intent: EXAMINATIONS, sub: SCRIBE_WRITER, cat: unseen_phrasing}
+  - {q: "I want to study a semester abroad in Germany", intent: STUDENT_SERVICES, sub: INTERNATIONAL_EXCHANGE, cat: unseen_phrasing}
+  - {q: "where do I talk to someone about feeling very stressed", intent: [STUDENT_SERVICES, STUDENT_WELFARE], sub: [COUNSELLING, MENTAL_HEALTH_SUPPORT], cat: unseen_phrasing}
+  - {q: "how do I put my credits into the national credit bank", intent: ACADEMIC_REGISTRATION, sub: ACADEMIC_BANK_OF_CREDITS, cat: unseen_phrasing}
+  - {q: "can I get my degree on digilocker instead of collecting it", intent: CERTIFICATES, sub: [DIGILOCKER, DEGREE_CERTIFICATE], cat: unseen_phrasing}
+  - {q: "which companies come for campus recruitment", intent: STUDENT_SERVICES, sub: PLACEMENT, cat: unseen_phrasing}
+  - {q: "I want to see the paper I wrote in the end term", intent: EXAMINATIONS, sub: ANSWER_BOOK_COPY, cat: unseen_phrasing}
+  - {q: "money for meritorious students", intent: SCHOLARSHIPS, sub: [SCHOLARSHIP_ELIGIBILITY, SCHOLARSHIP_APPLICATION], cat: unseen_phrasing}

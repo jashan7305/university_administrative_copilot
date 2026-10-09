@@ -1,10 +1,13 @@
+# environments / caches
+.venv/
 *venv*
 .env
-__pycache__
-models/
+__pycache__/
+.pytest_cache/
 
-# dataset generation sources (kept local only)
-src/backend/logic/intent/seed_data.py
-src/backend/logic/intent/lexicon.py
-src/backend/logic/intent/build_dataset.py
-src/backend/data/raw/
+# large or regenerable artifacts
+models/
+data/sources/
+
+# superseded Week 2 generated-data code and data (kept local only)
+archive/

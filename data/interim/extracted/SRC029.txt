@@ -1,0 +1,131 @@
+=== page 1 ===
+Frequently Asked Questions (FAQ) on Grievance Redressal Mechanism (Revaluation of answer books) 
+1. When does the revaluation application window open, and what are the important timelines? 
+ The revaluation application window opens immediately after the declaration of results on SAP portal. 
+ Application for Photocopy of the Answer Book/Answer Script: Must be submitted within 2 days from the 
+date of result declaration, including holidays. 
+ Application for Revaluation of Answer script:  Must be submitted within 3 days from the date of result 
+declaration including holidays 
+ Receipt of E-copy of Answer Book/Answer Script: Students will receive the e-copy latest by the 2nd day 
+from the date of result declaration, including holidays on SAP portal. 
+ Application for Verification of Answer Book/Answer Script: Must be submitted within 3 days from the 
+date of result declaration. 
+Additional details: 
+ The answer scripts will be available on the student SAP portal immediately upon successful submission of 
+the application. 
+ The link to the e-copy of the answer script will also be sent via email on the payment receipt to the 
+student's registered email ID. 
+ 
+2. How long will the revaluation application window be open? 
+The revaluation application window will be open for 3 days only after declaration of result. Students who wish to 
+apply, must submit their applications within this period. Late applications will not be accepted.  Application window 
+will close at 4 p.m. on third day.  
+ 
+ 
+3. Where I can apply for Photocopy/revaluation/verification of answer books? and what is the application 
+process?  
+ 
+If you wish to apply for soft copy of answer books/ Revaluation of answers/ Verification of marks, you will have to 
+fill in the online application form on the SAP student portal. 
+ 
+The application link will be accessible on the SAP portal 
+ 
+SAP student portal login details:  – 
+URL https://sdcsppscs.svkm.ac.in:44300/irj/portal 
+User ID: 11 Digit student SAP number (as given on NMIMS identity card) 
+Password: As set by the candidate 
+ 
+Link for User Manual for Application of photocopy of answer books/ Revaluation/ Verification is given below: 
+https://www.nmims.edu/apply-verification-revaluation
+
+=== page 2 ===
+4. What examinations does this revaluation policy apply to? 
+This policy applies only to the Term-End Examinations conducted by the University. 
+ 
+ 
+5. Which components of assessment are not covered under this policy? 
+The following are excluded from the grievance redressal and revaluation mechanism: 
+ Practical’s / Laboratory exams 
+ Oral Examinations / Viva Voce 
+ Jury assessments 
+ Projects 
+ MCQ-based online exams 
+ Assignments 
+ Dissertations 
+ Presentations 
+ Fieldwork 
+ 
+ 
+6. What is the first step to apply for revaluation? 
+To apply for revaluation, you must first request a photocopy (or soft copy) of your answer script only through the 
+SAP portal. Revaluation requests will not be accepted without first obtaining the photocopy.   
+ 
+7. How do I apply for revaluation after receiving my answer script? 
+Once you receive your answer script copy: 
+1. Review it carefully alongside the synoptic answers. 
+2. Identify specific questions you believe were incorrectly evaluated or you wish to raise an issue. 
+3. Submit a revaluation application via student SAP portal, clearly mentioning: 
+o The specific question numbers you wish to apply 
+o Clear and specific reasons for asking revaluation for each question. 
+Applications without clear reasoning or with blank/ vague statements will be rejected, and the revaluation fee will 
+not be refunded. 
+Refer detail revaluation application document to understand the process.  
+ 
+ 
+8. Will the entire answer script be re-evaluated? 
+No. Only the specific question(s) you have challenged with valid reasoning will be re-evaluated. 
+All other answers (which have not been challenged) will retain their original marks.
+
+=== page 3 ===
+9. What happens if I don’t give a proper reason for revaluation? 
+If you fail to provide: 
+ Specific question numbers, and/or 
+ Valid and clear reasoning 
+your application will not be entertained/ revaluation will not be carried out, and no refund of the 
+revaluation fee will be processed. 
+ 
+ 
+10. How should I communicate my revaluation request? 
+All revaluation requests must be submitted only through the SAP portal. 
+Emails or offline applications to faculty, departments, or other authorities will not be considered or responded 
+to. 
+ 
+11. Can I submit a revaluation request more than once? 
+No. You are allowed to apply for revaluation only once per subject per term-end examination. Ensure your 
+application is complete and accurate before submission. 
+ 
+ 
+ 
+12. Is there a deadline to apply for photocopy and revaluation? 
+Yes, both applications (for photocopy/ soft copy within first two days and revaluation three days) must be 
+submitted within the given timelines.   Late applications will not be accepted.  
+ 
+ 
+13. Where can I find synoptic answers and question paper to compare with my answer script? 
+Synoptic answers will be available on LMS student’s portal. These are to be used to justify your revaluation request. 
+You may also approach your faculty to see copy of synoptic answers. 
+14. Whom can I contact if I have technical issues while submitting the application? 
+For technical difficulties with the student portal, contact SAP basis team on sapbasis@svkm.ac.in.  
+ 
+15. How will changes in marks after revaluation be handled? 
+After revaluation under the Grievance Redressal Mechanism, changes to original marks will be processed as 
+follows: 
+ a) If the difference in marks is less than or equal to 20% (whether marks increase or decrease), 
+o The revaluated marks will be considered as final and communicated to the student. 
+o The original marks obtained will be treated as null and void. 
+ b) If the difference in marks is more than 20% (i.e., more than 20.00%), 
+o A second revaluation will be conducted by examiners/experts appointed by University.
+
+=== page 4 ===
+o The best marks from the first and second revaluation will be taken as the final marks. 
+o Fractional marks, if any, will be rounded off to the next integer. 
+o The original marks will be treated as null and void. 
+ 
+16. Additional points about the revaluation results: 
+ The revised marks after revaluation may increase, decrease, or remain the same. 
+ The percentage difference in marks is calculated with respect to the maximum marks of the term-end 
+exam for that subject. 
+ The marks awarded after revaluation and any amendments to the results are final and binding. Requests to 
+revert to original marks will not be entertained. 
+ The entire grievance redressal process, including revaluation and communication of results, will be 
+completed within 15 working days from the receipt of the revaluation application.

@@ -1,0 +1,2084 @@
+# Verified facts extracted from official NMIMS sources (see data/final/source_inventory.csv).
+# Each fact paraphrases one passage; `quote` is copied verbatim from data/interim/extracted/<source>.txt and is
+# checked automatically by phase 4. `department` is the raw wording; config.RAW_DEPARTMENT maps it to a canonical
+# routing department. `documents` lists only documents the passage itself names.
+next_action_by_sub_intent:
+  BONAFIDE_CERTIFICATE: Check the current process with the school academic office; the portal listing of bonafide certificates is from the 2024-25 SRB
+  PROVISIONAL_DEGREE: Write to the examination department with the purpose and your programme, student number, roll number, batch and contact details
+  DEGREE_CERTIFICATE: Clear all dues, submit the migration certificate and pass all examinations to be eligible for the degree
+  DUPLICATE_DEGREE: Submit the duplicate/correction form with the indemnity bond to the school examination office and pay the fee online
+  CERTIFICATE_CORRECTION: Get the name corrected in university records through the Admission Department, then surrender the original to the school examination office
+  CLEARANCE_CERTIFICATE: Submit a written application with your reason for leaving and get sign-off from the listed departments
+  MIGRATION_CERTIFICATE: Submit the migration certificate application with the final-year mark sheet and degree certificate and pay the fee by RTGS/NEFT
+  EDUCATION_VERIFICATION: The verifying company or institute emails edu.verification@nmims.edu with the documents and pays the verification fee
+  LETTER_OF_RECOMMENDATION: Request the LOR through the student services section of the student portal
+  ACADEMIC_DOCUMENTS: Submit all documents listed in the offer letter to the admission department before the deadline
+  DIGILOCKER: Access your final certificates through the DigiLocker app (National Academic Depository)
+  TRANSCRIPT: Apply online at nmims.edu/application-for-e-transcript-delivery and upload your degree certificate and all grade sheets in one PDF
+  STATEMENT_OF_MARKS: Collect the annual grade sheet; request a statement of marks online if you need marks and percentage
+  PERCENTAGE_LETTER: Apply online at nmims.edu/statement-of-marks-percentage-letter with all grade sheets and the degree certificate in one PDF
+  GPA_CGPA_LETTER: Submit a written application stating the purpose of the GPA/CGPA letter with your student details
+  DUPLICATE_GRADE_SHEET: Fill the duplicate/correction form, attach the indemnity bond and submit it through the school examination office
+  WES: Use the NMIMS electronic WES process; do not post or courier documents to WES yourself
+  EXAM_TIMETABLE: Check the timetable on the student portal and nmims.edu/examination about 30-45 days before exams
+  EXAM_ELIGIBILITY: Make sure you have at least 80% attendance in each course and carry your ID card to the exam
+  EXAM_RESULT: Check your result and ICA marks on the student portal and raise discrepancies within the stated days
+  RE_EXAMINATION: Apply for the re-exam on the SAP student portal within the 3-day window and pay Rs. 1,000 per subject
+  REVALUATION: Apply for the answer-book photocopy first, then revaluation on the SAP portal within 3 days of the result, citing specific questions and reasons
+  MARK_VERIFICATION: Apply for verification of marks on the SAP portal grievance screen within 3 days of the result
+  ANSWER_BOOK_COPY: Apply for the answer-book soft copy on the SAP portal within 2 days of the result and download it
+  EXAM_GRIEVANCE: Use the grievance redressal mechanism on the SAP portal; it covers term-end exams only
+  SCRIBE_WRITER: Submit the scribe application (Annexure 6) with a stamped medical certificate to the Controller of Examinations 7 days before the exam
+  EXAM_MISCONDUCT: Follow examination hall rules; unfair-means cases go to the Unfair Means Inquiry Committee
+  EXAM_ABSENCE: Appear in the re-examination for the course marked AB by applying on the SAP portal
+  BACKLOG_EXAM: Check the promotion/ATKT rules in the SRB and apply for the re-examination of failed courses
+  FEE_PAYMENT: Pay the fees as per the email from the Accounts department before the due date
+  FEE_RECEIPT: Submit the duplicate fee receipt application (Annexure 7) with the Rs. 100 fee to Accounts
+  LATE_FEE: Pay before the due date to avoid the late fee; unpaid fees after the late period cancel studentship
+  FEE_REFUND: Submit the refund application with a cancelled cheque; refunds go to the bank account given
+  EXCESS_FEE_REFUND: Submit the refund form (excess fee/deposit) with the original receipt and a cancelled cheque to Accounts
+  ADMISSION_CANCELLATION: Apply online at nmims.edu/admission-cancellation and upload the signed form, fee receipt and cancelled cheque
+  SCHOLARSHIP_ELIGIBILITY: Keep clear of F grades, misconduct and low attendance to stay eligible for awards
+  SCHOLARSHIP_APPLICATION: Apply through the school academic office; national scholarships are applied for on the National Scholarship Portal
+  ATTENDANCE_REQUIREMENT: Maintain at least 80% attendance in every course
+  LOW_ATTENDANCE: Contact the course coordinator/AR/DR within 3 days of the attendance status; below 80% requires re-admission
+  MEDICAL_ATTENDANCE: Submit a medical certificate and all medical reports to the office within 3 days of resuming classes
+  ATTENDANCE_CORRECTION: Inform the faculty in writing immediately and report the discrepancy to the office within 3 days of publication
+  ATTENDANCE_EXEMPTION: Check the current SRB; the 70-80% Dean exemption applied only up to AY 2024-25
+  ATTENDANCE_APPEAL: Apply to the course coordinator (not the faculty), and write to the Dean/Director for final attendance issues
+  ATTENDANCE_RECORD: Check monthly attendance on the student portal or notice board
+  COURSE_REGISTRATION: Register for the course through the student portal during the notified registration window
+  ELECTIVE_SELECTION: Route your elective choice through the course coordinator or programme chair, or choose open electives on the portal
+  COURSE_CHANGE: Check eligibility in the SRB and apply through the admission department
+  ACADEMIC_CALENDAR: Refer to the MPSTME academic calendar in the SRB; dates are subject to change
+  ACADEMIC_GUIDELINES: Refer to the relevant section of the Student Resource Book or contact the course coordinator
+  STUDENT_STATUS: Apply to the Dean/Director with supporting documents; re-admission fees apply
+  ACADEMIC_BANK_OF_CREDITS: Credits are deposited and redeemed under the UGC Academic Bank of Credits Regulations, 2021
+  ID_CARD_APPLICATION: Collect and wear the ID card issued by the school at all times on campus
+  DUPLICATE_ID_CARD: Apply to the school for a duplicate ID card and pay the prescribed fee
+  ID_CARD_ACCESS: Approach campus security to get access if you do not have your ID card
+  ID_CARD_NOT_WORKING: Email biometricregistration@svkm.ac.in with your ID card issue
+  HOSTEL_APPLICATION: Download the hostel form, fill it and email the PDF with your tuition fee receipt to hostel.mumbai@nmims.edu
+  HOSTEL_ELIGIBILITY: Apply as a full-time student; out-station students get preference
+  HOSTEL_DOCUMENTS: Attach residence proof, a medical certificate, medical insurance of Rs. 1 lakh and the tuition fee receipt to the hostel form
+  HOSTEL_ALLOCATION: Wait for the approval email (within 3 working days) and take up the room by the stated date
+  HOSTEL_FEES: Pay the hostel fee by RTGS/NEFT using the details in the approval email
+  HOSTEL_RULES: Follow the hostel rules; get permission from the hostel in-charge or Registrar where required
+  HOSTEL_VACATING: Vacate within 3 days of your last exam and clear all dues before leaving
+  HOSTEL_REFUND: Get the hostel deposit receipt signed and submit the refund application with a cancelled cheque to Accounts
+  HOSTEL_PROBLEMS: Report the issue to the Registrar / hostel office; do not attempt repairs yourself
+  LIBRARY_TIMINGS: Visit during the listed library hours
+  BOOK_BORROWING: Borrow at the library's RFID self-check kiosk with your ID card
+  BOOK_RENEWAL: Renew once at the library if the book is not in demand, or reserve it through WebOPAC
+  LIBRARY_FINE: Check dues in OPAC and pay the overdue fine to restore borrowing rights
+  LOST_BOOK: Report the loss to the library and pay the replacement cost plus administrative charge
+  DIGITAL_RESOURCES: Access e-resources through the library's remote access or the student portal
+  LIBRARY_ACCESS: Carry your valid NMIMS ID card to enter the library
+  LIBRARY_RULES: Follow library rules; contact the librarian for exceptions
+  STUDENT_PORTAL: Log in at portal.svkm.ac.in with your SAP number; for help email portal_app_team@svkm.ac.in
+  FACILITIES: Email ITHelpdesk@nmims.edu or record a written complaint in the Computer Lab register
+  MEDICAL_FITNESS: Get the medical fitness certificate format filled by a doctor
+  COUNSELLING: Contact your faculty mentor or the school counsellor
+  STUDENT_ACTIVITIES: Route contest participation through the Faculty in charge of Student Activity/HOD/Dean and submit claims to the AR/DR
+  STUDENT_COUNCIL: Contact your school's student council representatives
+  PLACEMENT: Follow the Placement Office guidelines; submit the Opted Out Form if not participating
+  INTERNATIONAL_EXCHANGE: Fill the student exchange application form with your CV and submit it through the school to International Linkages
+  INTERNATIONAL_DOCUMENTS: Request the visa support letter from your school Dean and submit passport, visa, insurance and ticket copies
+  STUDENT_GRIEVANCE: Raise it through the class representative and course coordinator; for academic grievances email grievance.academic@nmims.edu
+  ANTI_RAGGING: Report to the Anti-Ragging Committee or call the National Anti-Ragging Helpline 1800-180-5522
+  INTERNAL_COMPLAINTS: Report to the Internal Complaints Committee
+  WOMEN_GRIEVANCE: Approach the Women Grievance Redressal Committee of your school or the university cell
+  EQUAL_OPPORTUNITY: Approach the SC/ST/OBC & Equal Opportunity Cell committee
+  SC_ST_SUPPORT: Approach the SC/ST/OBC & Equal Opportunity Cell committee
+  STUDENT_SAFETY: Report security incidents to reportsecurityincidents@svkm.ac.in
+  MENTAL_HEALTH_SUPPORT: Book a session with the campus psychologist by call or email; Tele-MANAS 14416 is available 24/7
+facts:
+- id: F0001
+  source: SRC052
+  page: 6
+  sub_intent: ID_CARD_APPLICATION
+  department: School administration
+  fact: All students are provided an Identity Card, which must be worn; campus entry is strictly through the ID card.
+  quote: All students are provided with an Identity Card, which they are required to wear mandatorily
+- id: F0002
+  source: SRC052
+  page: 6
+  sub_intent: DUPLICATE_ID_CARD
+  department: School administration
+  fact: If a student misplaces the original ID card, a duplicate ID card is issued by the school on payment of a prescribed fee.
+  quote: a duplicate ID card will be issued by the school by paying a prescribed fee
+- id: F0003
+  source: SRC052
+  page: 6
+  sub_intent: ID_CARD_ACCESS
+  department: Security
+  fact: Biometric print plus ID card is mandatory, and flap barriers are used to enter and exit school premises where deployed.
+  quote: Biometric Print plus ID card is a mandatory requirement
+- id: F0004
+  source: SRC052
+  page: 6
+  sub_intent: ID_CARD_ACCESS
+  department: Security
+  fact: A student who forgets the ID card should approach security and complete the process to get access.
+  quote: In case a student forgets to carry an ID card, they should approach security
+- id: F0005
+  source: SRC052
+  page: 6
+  sub_intent: ID_CARD_NOT_WORKING
+  department: Biometric registration (SVKM)
+  fact: Grievances related to the ID card should be raised to biometricregistration@svkm.ac.in.
+  quote: Any grievances related to the ID Card should be raised to biometricregistration@svkm.ac.in
+- id: F0006
+  source: SRC052
+  page: 6
+  sub_intent: ID_CARD_ACCESS
+  department: School administration
+  fact: Students must not use another student's ID card or let their own be used; both students face disciplinary action.
+  quote: Students must not use another student's ID card
+- id: F0007
+  source: SRC052
+  page: 5
+  sub_intent: STUDENT_GRIEVANCE
+  department: Course coordinator
+  fact: Problems about administrative facilities, faculty or classrooms go through the class representative to the course coordinator; if unresolved, the student may write to the Assistant Registrar, Deputy Registrar, Dean/Director or Registrar.
+  quote: must be addressed through the class representative, who will take it up with the course coordinator
+- id: F0008
+  source: SRC052
+  page: 5
+  sub_intent: STUDENT_PORTAL
+  department: School administration
+  fact: The student portal, email and notice board are the modes of communication with students, who should check them at least once a day.
+  quote: The mode of Communication with students is via the Student Portal / email /Notice Board
+- id: F0009
+  source: SRC052
+  page: 6
+  sub_intent: ELECTIVE_SELECTION
+  department: Course coordinator / Program chair
+  fact: Students must not contact faculty directly about elective selection; options are routed through course coordinators or program chairs.
+  quote: They must route their option through Course Co-ordinators or Program Chairs
+- id: F0010
+  source: SRC052
+  page: 9
+  sub_intent: ACADEMIC_GUIDELINES
+  department: Dean / Director / HOD
+  fact: Students must be in the city on all days of the term; leaving the city requires prior permission from the HOD, Director or Dean.
+  quote: they are required to obtain prior permission from the HOD/Director/Dean
+- id: F0011
+  source: SRC052
+  page: 11
+  sub_intent: ATTENDANCE_REQUIREMENT
+  department: Academic office
+  fact: 100% attendance is expected, but up to 20% absence may be relaxed for valid reasons provided attendance does not drop below 80% in each course.
+  quote: A maximum relaxation of up to 20% absence may be granted in such cases provided the overall attendance does not drop below 80% in each course
+- id: F0012
+  source: SRC052
+  page: 11
+  sub_intent: EXAM_ELIGIBILITY
+  department: Examination department
+  fact: Students with 80% or higher attendance in individual courses are eligible for the term-end examinations.
+  quote: Students who have maintained 80% or higher attendance in individual courses
+- id: F0013
+  source: SRC052
+  page: 11
+  sub_intent: LOW_ATTENDANCE
+  department: Academic office
+  fact: Students below 80% in an individual course must take re-admission, either in the same term or for the full year in the next academic year.
+  quote: Students will be required to take re-admission
+- id: F0014
+  source: SRC052
+  page: 10
+  sub_intent: ATTENDANCE_CORRECTION
+  department: Academic office
+  fact: Attendance is displayed monthly; any discrepancy must be reported to the office in writing within 3 days of publication, after which no claim is entertained.
+  quote: he/she should inform the office in writing regarding the same within 3 days of the publication of the attendance record
+- id: F0015
+  source: SRC052
+  page: 10
+  sub_intent: ATTENDANCE_CORRECTION
+  department: Concerned faculty
+  fact: A student marked absent when present should immediately inform the faculty with a written application and keep a copy.
+  quote: If the student is marked absent even when present, he/she should immediately inform the concerned faculty by submitting a written application
+- id: F0016
+  source: SRC052
+  page: 10
+  sub_intent: MEDICAL_ATTENDANCE
+  department: Academic office
+  fact: After medical absence, a medical certificate and all medical reports must be submitted to the office within 3 days of resuming classes.
+  quote: he/she should submit a medical certificate along with a copy of all the medical reports to the office within 3 days of resuming classes
+  documents:
+  - Medical certificate
+  - Copies of all medical reports
+- id: F0017
+  source: SRC052
+  page: 10
+  sub_intent: LOW_ATTENDANCE
+  department: Academic office
+  fact: Parents are informed by email/WhatsApp if the student's monthly attendance is below 80%.
+  quote: Parents of the students shall be informed of the attendance record of their ward if the student has less than 80%
+- id: F0018
+  source: SRC052
+  page: 10
+  sub_intent: ATTENDANCE_APPEAL
+  department: Course coordinator
+  fact: Students must not approach faculty about attendance issues; they apply to the concerned coordinator.
+  quote: They must apply to the concerned coordinator for necessary approvals
+- id: F0019
+  source: SRC052
+  page: 10
+  sub_intent: ATTENDANCE_APPEAL
+  department: Dean / Director
+  fact: Issues with final term attendance are notified in writing to the Dean/Director of the campus.
+  quote: will notify the Dean/Director of the campus in writing
+- id: F0020
+  source: SRC052
+  page: 10
+  sub_intent: ATTENDANCE_RECORD
+  department: Examination department
+  fact: Students appearing for a re-examination are marked present for all applicable subjects on that day.
+  quote: Students appearing for a re -examination shall be granted attendance in lieu of regular classes
+- id: F0021
+  source: SRC052
+  page: 11
+  sub_intent: ATTENDANCE_APPEAL
+  department: Course coordinator / AR / DR
+  fact: Attendance-related queries go to the school Course Co-ordinator, AR or DR within 3 days of receiving the attendance status.
+  quote: Please contact the school Course Co-ordinator /AR/ DR for any attendance-related queries within 3 days
+- id: F0022
+  source: SRC052
+  page: 13
+  sub_intent: EXAM_RESULT
+  department: Concerned faculty
+  fact: ICA component marks are informed within seven days; discrepancies must be raised and resolved within two days of publication on the portal.
+  quote: Any discrepancies in ICA marks should be informed and resolved within two days of publication on the portal
+- id: F0023
+  source: SRC052
+  page: 13
+  sub_intent: BACKLOG_EXAM
+  department: Examination department
+  fact: ONLY-ICA courses need 40% of total ICA marks to pass; there is no re-examination for them, and failing requires re-admission.
+  quote: there will be no re -examination for Only ICA Courses
+- id: F0024
+  source: SRC052
+  page: 13
+  sub_intent: EXAM_RESULT
+  department: Examination department
+  fact: Grace marks are never awarded on the ICA component.
+  quote: Grace Marks will never be awarded on the ICA (Internal Continuous Assessment)
+- id: F0025
+  source: SRC052
+  page: 15
+  sub_intent: STUDENT_GRIEVANCE
+  department: Academic grievance cell
+  fact: For any academic grievance, students may write to grievance.academic@nmims.edu.
+  quote: For any academic grievance, the student may write to grievance.academic@nmims.edu
+- id: F0026
+  source: SRC052
+  page: 14
+  sub_intent: COURSE_REGISTRATION
+  department: Home school
+  fact: Interdisciplinary courses (Mumbai campus only) run in Fall and Winter sessions; students may choose at most 2, one per session, registering through the student portal.
+  quote: The students have to register through the Students portal only
+- id: F0027
+  source: SRC052
+  page: 14
+  sub_intent: ELECTIVE_SELECTION
+  department: Home school
+  fact: 'CBCS (Mumbai campus only): first-year UG students are not eligible to opt CBCS courses.'
+  quote: The UG students of 1st year and PG students of Term I of 1st year are not eligible to opt CBCS courses
+- id: F0028
+  source: SRC052
+  page: 16
+  sub_intent: EXAM_ELIGIBILITY
+  department: Examination department
+  fact: Students must carry their University ID card during exams; admission to the hall may be denied without it.
+  quote: Admission to the examination hall may be denied if University identity card is not produced
+- id: F0029
+  source: SRC052
+  page: 16
+  sub_intent: EXAM_TIMETABLE
+  department: Examination department
+  fact: Students must be in the exam hall at least 30 minutes early; latecomers need written approval from the Dean/Director up to 30 minutes after start, and after 30 minutes they cannot write.
+  quote: Students who report for the examination after 30 minutes of commencement of examination, will not be allowed to write examination under any circumstances
+- id: F0030
+  source: SRC052
+  page: 16
+  sub_intent: EXAM_ABSENCE
+  department: Examination department
+  fact: A student who misses an exam gets an 'Absent' remark; re-examination is per the rules and no special re-examination is held.
+  quote: No special re examination will be conducted for such students
+- id: F0031
+  source: SRC052
+  page: 16
+  sub_intent: EXAM_MISCONDUCT
+  department: Examination department
+  fact: Mobile phones, smart watches, earbuds, programmable or financial calculators, AI glasses and similar devices are forbidden in the exam hall unless specifically permitted.
+  quote: storable/programmable or financial calculators
+- id: F0032
+  source: SRC052
+  page: 17
+  sub_intent: EXAM_MISCONDUCT
+  department: Examination department
+  fact: Term-end answer books are QR coded; writing name, roll number or student number in the answer book is treated as unfair means.
+  quote: The answer books of the term-end examinations will be QR coded
+- id: F0033
+  source: SRC052
+  page: 17
+  sub_intent: EXAM_ELIGIBILITY
+  department: Examination department
+  fact: If the term is not granted for attendance shortfall, any appearance in the term-end exam is treated as null and void.
+  quote: his/her appearance will be treated as null and void
+- id: F0034
+  source: SRC052
+  page: 17
+  sub_intent: SCRIBE_WRITER
+  department: Dean / Director; Examination section
+  fact: A student with a permanent or temporary disability applies for a scribe with a medical certificate from a Registered Medical Practitioner (Annexure 6), approved by the school Dean/Director before it goes to the examination section.
+  quote: The application should be approved by the respective school Dean/Director before forwarding to the examination section
+  documents:
+  - Scribe application (Annexure 6)
+  - Medical certificate from a Registered Medical Practitioner
+- id: F0035
+  source: SRC052
+  page: 17
+  sub_intent: SCRIBE_WRITER
+  department: Examination office
+  fact: The student arranges the scribe at least one week before the exam and informs the examination office; the scribe should be one grade junior if from the same stream.
+  quote: at least one week before the examination and inform to the examination office
+- id: F0036
+  source: SRC052
+  page: 17
+  sub_intent: SCRIBE_WRITER
+  department: Examination department
+  fact: Students using a scribe get 20 minutes per hour of compensatory time (40 minutes for a two-hour paper).
+  quote: compensatory time of 20 minutes per hour will be allowed
+- id: F0037
+  source: SRC052
+  page: 18
+  sub_intent: SCRIBE_WRITER
+  department: Admission department
+  fact: For learning disabilities on the Mumbai campus, only certificates from Sion Hospital or Nair Hospital are accepted, submitted at the start of the academic year.
+  quote: For Mumbai campus medical certificate from Sion Hospital / Nair Hospital only would be accepted
+- id: F0038
+  source: SRC052
+  page: 18
+  sub_intent: EXAM_MISCONDUCT
+  department: Unfair Means Inquiry Committee
+  fact: In a suspected unfair-means case the student gets a show cause notice, appears before the Unfair Means Inquiry Committee, and the result is withheld until the inquiry concludes.
+  quote: The student’s examination result shall be withheld, until the inquiry proceedings are concluded
+- id: F0039
+  source: SRC052
+  page: 18
+  sub_intent: EXAM_MISCONDUCT
+  department: Examination department
+  fact: Possessing an electronic device such as a mobile phone or smart watch in the exam hall leads to annulment of performance at the examination in full.
+  quote: Annulment of the performance of the student at the University Examination in full
+- id: F0040
+  source: SRC052
+  page: 21
+  sub_intent: EXAM_GRIEVANCE
+  department: Examination department
+  fact: The grievance redressal mechanism applies only to term-end examinations, not to practicals, labs, viva, projects, online MCQs, assignments or dissertations.
+  quote: The Grievance Redressal Mechanism will apply only to the ‘term-end Examinations’ of the University
+- id: F0041
+  source: SRC052
+  page: 21
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: Grievance applications are made online only through the Student Portal (Result Portal – SAP); offline applications are not considered.
+  quote: The application for Redressal of Grievance can be made online only through the Student Portal (Result Portal – SAP)
+- id: F0042
+  source: SRC052
+  page: 21
+  sub_intent: MARK_VERIFICATION
+  department: Examination department
+  fact: Verification (retotalling) checks that all answers are evaluated, marks carried forward and totalled correctly; it must be applied for within 3 days of result declaration including holidays.
+  quote: Within 3 days from the date of result declaration
+- id: F0043
+  source: SRC052
+  page: 21
+  sub_intent: ANSWER_BOOK_COPY
+  department: Examination department
+  fact: A photocopy/soft copy of the answer script must be applied for within 2 days of result declaration including holidays; it becomes available on the student portal on submission.
+  quote: Within 2 days from the date of result declaration
+- id: F0044
+  source: SRC052
+  page: 21
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: Students cannot apply for revaluation without first applying for a photocopy of the answer script.
+  quote: Students will not be eligible to apply for revaluation if they do not apply for a Photocopy(ies) of their answer script/s
+- id: F0045
+  source: SRC052
+  page: 21
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: The revaluation application must name the specific questions and clear reasons; otherwise it is not re-evaluated and the fee is not refunded. Only challenged answers are reviewed.
+  quote: Answer books/Answer Scripts will not be reevaluated in case student does not provide clear and specific reasons
+- id: F0046
+  source: SRC052
+  page: 22
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: Revaluation applications are due within 3 days of result declaration (in the example, by 16.00 hrs); late applications are not entertained.
+  quote: No application, received after the prescribed number of days as mentioned in the table above, shall be entertained
+- id: F0047
+  source: SRC052
+  page: 22
+  sub_intent: REVALUATION
+  department: Controller of Examinations
+  fact: If revaluation changes marks by 20% or less, the revalued marks are final; above 20%, a second revaluation is done and the better of the two counts. Marks may go up or down.
+  quote: Second revaluation of the said answer book shall be done by the examiners/subject experts from approved panel
+- id: F0048
+  source: SRC052
+  page: 23
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: The whole grievance redressal process is completed within 15 working days of the application; photocopies of re-evaluated answer books are not given.
+  quote: shall be completed within a period of 15 working days
+- id: F0049
+  source: SRC052
+  page: 23
+  sub_intent: EXAM_RESULT
+  department: Examination department
+  fact: Grace marks of up to 2% of aggregate (max 6 overall, at most 3% of a subject's maximum) may be given to a candidate failing one or more subjects, on the term-end component only.
+  quote: grace marks up to 2 per cent of the marks on the aggregate
+- id: F0050
+  source: SRC052
+  page: 23
+  sub_intent: STATEMENT_OF_MARKS
+  department: Examination department
+  fact: All students receive a Statement of Grades on completing each academic year; re-issue because of personal-detail changes after the first year attracts charges.
+  quote: All students shall receive a Statement of Grades upon com pletion of each academic year
+- id: F0051
+  source: SRC052
+  page: 23
+  sub_intent: ACADEMIC_GUIDELINES
+  department: Examination department
+  fact: Students with F grades, ATKT, unfair means or misconduct are not eligible for the rank holder list or the Dean's/Director's list (top 10% by CGPA).
+  quote: Students obtaining F grades/ATKT/ involved in unfair means or any misconduct will be ineligible
+- id: F0052
+  source: SRC052
+  page: 24
+  sub_intent: SCHOLARSHIP_ELIGIBILITY
+  department: Academic office
+  fact: Students with an F in any subject, a misconduct record or low attendance are automatically disqualified from the awards process.
+  quote: will be automatically disqualified from the awards process
+- id: F0053
+  source: SRC052
+  page: 24
+  sub_intent: SCHOLARSHIP_APPLICATION
+  department: Academic office
+  fact: NMIMS students can apply for national scholarships through the National Scholarship Portal (NSP), e.g. the Central Sector Scheme and minority scholarship schemes.
+  quote: The students of SVKM’s NMIMS can avail national scholarship through the National Scholarship Portal (NSP)
+- id: F0054
+  source: SRC052
+  page: 24
+  sub_intent: SCHOLARSHIP_APPLICATION
+  department: Academic office
+  fact: Other NSP schemes such as AICTE Pragati Scholarship for Girl Students (technical degrees) are available depending on eligibility.
+  quote: AICTE – Pragati Scholarship Scheme for Girl Students
+- id: F0055
+  source: SRC052
+  page: 24
+  sub_intent: SCHOLARSHIP_APPLICATION
+  department: Academic office
+  fact: A student who wishes to apply for a scholarship goes through the school's academic office.
+  quote: A student who wishes to apply for a scholarship will have to go through the school's academic office
+- id: F0056
+  source: SRC052
+  page: 25
+  sub_intent: ADMISSION_CANCELLATION
+  department: Admission department
+  fact: Admission deferment is only for first-year students who paid the full fee, applied before the programme starts, for serious medical or family reasons, through the admission department.
+  quote: Admission deferment can be approved only for first year
+- id: F0057
+  source: SRC052
+  page: 25
+  sub_intent: ADMISSION_CANCELLATION
+  department: Admission department
+  fact: To cancel admission, apply online at https://nmims.edu/admission-cancellation with the original fee receipt and a cancelled cheque; withdrawal can only be requested through that link.
+  quote: A withdrawal request can be applied for only through this link
+  documents:
+  - Online cancellation form
+  - Original fee receipt
+  - Cancelled cheque
+- id: F0058
+  source: SRC052
+  page: 25
+  sub_intent: ADMISSION_CANCELLATION
+  department: All school departments
+  fact: After the programme has commenced, cancellation requires clearance / no dues from all concerned departments of the school.
+  quote: the candidate will have to get the Clearance /No dues from all the concerned departments of the School
+  documents:
+  - Clearance / No dues from all school departments
+- id: F0059
+  source: SRC052
+  page: 26
+  sub_intent: FEE_REFUND
+  department: Accounts
+  fact: Refunds are credited to the bank account given in the application, after deducting any dues.
+  quote: Refund of fees, if any, will be credited to the bank account details provided by the applicant in the application
+- id: F0060
+  source: SRC052
+  page: 26
+  sub_intent: ACADEMIC_DOCUMENTS
+  department: Admission department
+  fact: Documents/mark sheets required by the offer letter must be submitted on time; non-submission or a discrepancy found in verification cancels admission and fees are not refunded.
+  quote: Non-submission of such mandatory documents after the stipulated time declared by the admission department
+- id: F0061
+  source: SRC052
+  page: 26
+  sub_intent: FEE_PAYMENT
+  department: Accounts department
+  fact: Promoted students pay subsequent-year fees as per the email received from the Accounts department.
+  quote: are required to pay the fees as per the email received from the Accounts department
+- id: F0062
+  source: SRC052
+  page: 26
+  sub_intent: LATE_FEE
+  department: Accounts department
+  fact: A late fee is levied if fees are not paid by the due date; non-payment even after the late-fee period cancels studentship.
+  quote: A late fee will be levied if the fee is not paid within the due date
+- id: F0063
+  source: SRC052
+  page: 26
+  sub_intent: STUDENT_STATUS
+  department: Dean / Director
+  fact: An academic break is granted by the school Dean/Director for serious medical reasons, serious family issues or financial constraints; the maximum is one year.
+  quote: The maximum period for an academic break is one year only
+- id: F0064
+  source: SRC052
+  page: 26
+  sub_intent: STUDENT_STATUS
+  department: Dean / Director
+  fact: An academic break can be granted at most twice in the programme, total not exceeding one year, and requires re-admission afterwards.
+  quote: The academic break can be granted to any student at best twice during the programme
+- id: F0065
+  source: SRC052
+  page: 27
+  sub_intent: STUDENT_STATUS
+  department: Dean / Director
+  fact: 'Fees after an academic break: informed before the year starts pays 100% of prevalent fee; informed after commencement with fees unpaid pays 100% plus 25% re-admission; fees already paid pays 25% re-admission fee.'
+  quote: 100% total fee + 25% readmission (prevalent)
+- id: F0066
+  source: SRC052
+  page: 27
+  sub_intent: STUDENT_STATUS
+  department: Vice-Chancellor's office
+  fact: For an approved health-related break with attendance under 20%, the 25% re-admission fee may be waived with VC office approval.
+  quote: the 25% fee for re-admission could be waived off
+- id: F0067
+  source: SRC052
+  page: 27
+  sub_intent: STUDENT_STATUS
+  department: Course coordinator / AR / DR
+  fact: A student who fails passing standards may seek re-admission in the next academic year by paying 25% of the prevalent total fee; re-admission in the same year is allowed only once.
+  quote: Students can take re-admission in the said year of the program only once
+- id: F0068
+  source: SRC052
+  page: 27
+  sub_intent: ACADEMIC_BANK_OF_CREDITS
+  department: Academic office
+  fact: Depositing and redeeming credits follow the UGC Academic Bank of Credits Regulations, 2021; students who exit a UG programme at a designated level may be re-admitted within seven years of admission.
+  quote: Academic Bank of Credits in Higher Education) Regulations, 2021
+- id: F0069
+  source: SRC052
+  page: 29
+  sub_intent: STUDENT_STATUS
+  department: Dean / Director
+  fact: A student absent for more than 21 days at a stretch without prior intimation receives a formal communication and must apply for cancellation within a week if not continuing; otherwise cancellation is initiated by the school.
+  quote: does not report to the respective School for more than 21 days at a stretch
+- id: F0070
+  source: SRC052
+  page: 30
+  sub_intent: LIBRARY_ACCESS
+  department: Library
+  fact: Library access requires a currently valid NMIMS ID card, which must be carried and produced when asked.
+  quote: Students must carry their SVKM’s NMIMS student ID card
+- id: F0071
+  source: SRC052
+  page: 30
+  sub_intent: LIBRARY_RULES
+  department: Library
+  fact: Mobile phones are prohibited in the library; violations can lead to a fine and/or a three-week suspension. Food and drinks other than bottled water are not allowed.
+  quote: Violati ng the rules will lead to a student’s penalty and /or three week suspension
+- id: F0072
+  source: SRC052
+  page: 30
+  sub_intent: BOOK_BORROWING
+  department: Library
+  fact: Students can borrow two books for ten days; books are issued at the RFID self-check kiosk.
+  quote: 'Borrowing entitlement: Two books for ten days'
+- id: F0073
+  source: SRC052
+  page: 30
+  sub_intent: BOOK_RENEWAL
+  department: Library
+  fact: A one-time renewal is possible if the book is not in demand.
+  quote: One -time renewal is possible if the book is not in demand
+- id: F0074
+  source: SRC052
+  page: 30
+  sub_intent: LIBRARY_FINE
+  department: Library
+  fact: Overdue books are fined Rs. 3 per day per book; account details are visible in OPAC. Outstanding fines suspend borrowing and e-resource passwords.
+  quote: A fine of Rs.3.00 per day per book is levied on overdue books
+- id: F0075
+  source: SRC052
+  page: 30
+  sub_intent: LOST_BOOK
+  department: Library
+  fact: Lost or damaged borrowed material must be paid for at replacement cost plus an administrative charge; borrowing rights are withdrawn until paid.
+  quote: They will be required to pay for any damage to, or loss of, material borrowed at replacement cost
+- id: F0076
+  source: SRC052
+  page: 30
+  sub_intent: LIBRARY_RULES
+  department: Library
+  fact: Reference books, journals/magazines and audio/video material are for use in the library only.
+  quote: Reference books, Journals / magazines and Audio/Video material are strictly to be used / viewed
+- id: F0077
+  source: SRC052
+  page: 30
+  sub_intent: DEGREE_CERTIFICATE
+  department: Library
+  fact: The award of the NMIMS qualification is deferred until all library material is returned and fines paid.
+  quote: The award of SVKM’s NMIMS qualification will be deferred until all books and other library materials have been returned
+- id: F0078
+  source: SRC052
+  page: 31
+  sub_intent: DIGITAL_RESOURCES
+  department: Library
+  fact: Subscribed e-resources include IEEE, IET Journals, NPTEL, DELNET, JSTOR, EBSCO, Turnitin, DrillBit, Pearson e-books and the National Digital Library.
+  quote: Engineering DATABASES
+- id: F0079
+  source: SRC052
+  page: 32
+  sub_intent: FACILITIES
+  department: IT Helpdesk
+  fact: Access to a blocked website needed for academic use can be requested by email to ITHelpdesk@nmims.edu.
+  quote: request to send an email to ITHelpdesk@nmims.edu
+- id: F0080
+  source: SRC052
+  page: 32
+  sub_intent: FACILITIES
+  department: IT
+  fact: Students get an NMIMS Microsoft Office 365 email ID and internet authentication ID; MS Teams is used for online lectures; 50 GB OneDrive storage is provided.
+  quote: Students will get 50 GB of space in OneDrive
+- id: F0081
+  source: SRC052
+  page: 32
+  sub_intent: FACILITIES
+  department: Computer Centre
+  fact: Problems with computing services must be lodged as a written complaint in the Complaints Register in the Computer Lab; verbal complaints are not acted on.
+  quote: students should lodge a written complaint in the  Complaints
+- id: F0082
+  source: SRC052
+  page: 33
+  sub_intent: FACILITIES
+  department: IT Helpdesk
+  fact: Requests for extra internet bandwidth or special IT access for events must reach the IT helpdesk at least 72 hours in advance with HOD or Registrar approval.
+  quote: a request should reach IT helpdesk a minimum of 72 hours in advance with approval of HOD or  Registrar
+- id: F0083
+  source: SRC052
+  page: 33
+  sub_intent: STUDENT_SAFETY
+  department: IT security
+  fact: Security incidents should be reported to reportsecurityincidents@svkm.ac.in.
+  quote: please contact reportsecurityincidents@svkm.ac.in
+- id: F0084
+  source: SRC052
+  page: 34
+  sub_intent: STUDENT_PORTAL
+  department: Portal team
+  fact: The student portal is at https://portal.svkm.ac.in/usermgmt/login; the default user ID is the student's SAP number, and the password is mailed by the admin/course coordinator.
+  quote: Default User ID is the student’s SAP number
+- id: F0085
+  source: SRC052
+  page: 34
+  sub_intent: STUDENT_PORTAL
+  department: Portal team
+  fact: A forgotten portal password can be reset with the Forgot Password option.
+  quote: can reset their password by clicking on the Forgot Password option
+- id: F0086
+  source: SRC052
+  page: 34
+  sub_intent: STUDENT_PORTAL
+  department: Portal team
+  fact: The portal shows ICA marks, course announcements and the exam timetable, and is used for assignments, feedback and forums.
+  quote: Announcements related to the course, exam timetable and other activities are published
+- id: F0087
+  source: SRC052
+  page: 34
+  sub_intent: HOSTEL_APPLICATION
+  department: Portal team
+  fact: Students can book a hostel through the portal where online admission and full payment are completed.
+  quote: Students c an book a hostel  through the portal
+- id: F0088
+  source: SRC052
+  page: 34
+  sub_intent: LETTER_OF_RECOMMENDATION
+  department: Portal team
+  fact: The portal provides student services for name validation for mark sheets, photo upload and Letters of Recommendation (LOR), plus CBCS and interdisciplinary registration.
+  quote: Name validations as required for mark sheets, photo upload, and Letters of recommendation (LOR)
+- id: F0089
+  source: SRC052
+  page: 34
+  sub_intent: ELECTIVE_SELECTION
+  department: Portal team
+  fact: MPSTME (Mumbai/Shirpur) students choose Open Electives through the portal.
+  quote: options are available for MPSTME (Mumbai / Shirpur) students to choose Open Electives
+- id: F0090
+  source: SRC052
+  page: 34
+  sub_intent: STUDENT_PORTAL
+  department: Portal team
+  fact: Portal help is available from portal_app_team@svkm.ac.in or 022-46152650.
+  quote: mail to portal_app_team@svkm.ac.in
+- id: F0091
+  source: SRC052
+  page: 34
+  sub_intent: STUDENT_GRIEVANCE
+  department: Portal team
+  fact: Student grievance processes are incorporated into the LMS (student portal).
+  quote: The student grievance processes have been incorporated into the Learning Management System
+- id: F0092
+  source: SRC052
+  page: 35
+  sub_intent: COUNSELLING
+  department: Faculty mentor
+  fact: Students are assigned faculty mentors who help with course selection and finding resources.
+  quote: Students (as applicable school-wise) have been assigned faculty mentors
+- id: F0093
+  source: SRC052
+  page: 36
+  sub_intent: MENTAL_HEALTH_SUPPORT
+  department: Psychologist / Counsellor
+  fact: NMIMS has appointed psychologists students can contact by call or email to set up a session; MPSTME students have dedicated psychologists listed in the SRB.
+  quote: have appointed a team of  psychologists who you can connect with via call or email
+- id: F0094
+  source: SRC052
+  page: 36
+  sub_intent: MENTAL_HEALTH_SUPPORT
+  department: Student support services
+  fact: University student support information is at https://www.nmims.edu/mental-health-support.php.
+  quote: https://www.nmims.edu/mental-health-support.php
+- id: F0095
+  source: SRC052
+  page: 37
+  sub_intent: STUDENT_ACTIVITIES
+  department: Faculty in charge of Student Activity / HOD
+  fact: National/international contests must be routed through the Faculty in charge of Student Activity, HOD or Dean/Director; Grade A contests get 100% travel reimbursement (non-AC sleeper/3-tier).
+  quote: All contests have to be routed through the Faculty in charge of Student Activity/HOD/Dean/Director
+- id: F0096
+  source: SRC052
+  page: 37
+  sub_intent: STUDENT_ACTIVITIES
+  department: AR / DR; Accounts
+  fact: Contest reimbursement claims are submitted to the school AR/DR with bills and tickets after returning; winners must report details within 7 days.
+  quote: All students claiming the reimbursement will have to submit all details to the AR / DR of the school
+- id: F0097
+  source: SRC052
+  page: 37
+  sub_intent: DEGREE_CERTIFICATE
+  department: School administration
+  fact: To receive the degree at convocation, students need the migration certificate, attendance, all submissions, clearance of dues (accounts, hostel, library) and all exams passed.
+  quote: These requirements include a migration certificate
+- id: F0098
+  source: SRC052
+  page: 37
+  sub_intent: DEGREE_CERTIFICATE
+  department: Management
+  fact: A student found ineligible to receive the degree may apply for reconsideration at least 48 hours before the convocation.
+  quote: he/she may apply for consideration of his case at least 48 hours before the Annual Convocation
+- id: F0099
+  source: SRC052
+  page: 38
+  sub_intent: STUDENT_COUNCIL
+  department: Dean / Director
+  fact: Each school/campus sends two representatives to the NMIMS University Students' Council (NUSC), finalised by the Dean/Director.
+  quote: two student council representatives will constitute the SVKM’s NMIMS University Student Council
+- id: F0100
+  source: SRC052
+  page: 39
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: Failed students who want to reappear pay re-examination fees, which are set from time to time and communicated.
+  quote: will be required to pay re -examination fees
+- id: F0101
+  source: SRC052
+  page: 39
+  sub_intent: HOSTEL_REFUND
+  department: Accounts department
+  fact: 'Hostel deposit refund: get the hostel in-charge''s signature on the receipt, submit it to the Accounts Department with the Application for Refund and a cancelled cheque; allow 3 weeks.'
+  quote: Please procure the signature of the Hostel in-charge on the receipt
+  documents:
+  - Hostel deposit receipt signed by hostel in-charge
+  - Application for Refund
+  - Cancelled cheque
+- id: F0102
+  source: SRC052
+  page: 39
+  sub_intent: FEE_REFUND
+  department: Course coordinator
+  fact: Library and security deposits are refunded by NEFT after programme completion via the course coordinator; allow 3 weeks.
+  quote: Library Deposit and Security Deposit Refund
+- id: F0103
+  source: SRC052
+  page: 40
+  sub_intent: ANTI_RAGGING
+  department: Anti-Ragging Committee
+  fact: Ragging is strictly prohibited with zero tolerance; every student must submit the online anti-ragging undertaking each year at www.antiragging.in or www.amanmovement.org.
+  quote: Students can fill out an Undertaking ONLINE at any of the links
+- id: F0104
+  source: SRC052
+  page: 40
+  sub_intent: ANTI_RAGGING
+  department: Anti-Ragging Committee
+  fact: The university-level Anti-Ragging Committee is chaired by the Registrar; there is a separate committee for the Mumbai hostels.
+  quote: registrar@nmims.edu
+- id: F0105
+  source: SRC052
+  page: 41
+  sub_intent: INTERNAL_COMPLAINTS
+  department: Internal Complaints Committee
+  fact: An Internal Complaints Committee constituted per UGC guidelines handles complaints of sexual harassment, women's grievances and gender sensitisation.
+  quote: a committee has been constituted to look into all such complaints  towards Sexual
+- id: F0106
+  source: SRC052
+  page: 41
+  sub_intent: WOMEN_GRIEVANCE
+  department: Women Grievance Redressal Cell
+  fact: A university-level Women Grievance Redressal Cell exists, with the Registrar as Member Secretary and NGO representatives.
+  quote: Women Grievance Redressal Cell
+- id: F0107
+  source: SRC052
+  page: 41
+  sub_intent: STUDENT_GRIEVANCE
+  department: University Student Grievance Redressal Committee
+  fact: The University Student Grievance Redressal Committee is chaired by the Registrar, with a retired High Court judge as Ombudsman.
+  quote: University Student Grievance Redressal Committee
+- id: F0108
+  source: SRC052
+  page: 42
+  sub_intent: EQUAL_OPPORTUNITY
+  department: Equal Opportunity Cell
+  fact: There is a committee for caste-based discrimination against SC/ST/OBC students / Equal Opportunity Cell.
+  quote: Caste Based Discrimination by SC/ST/OBC Students/ Equal Opportunity Cell Committee
+- id: F0109
+  source: SRC052
+  page: 42
+  sub_intent: STUDENT_GRIEVANCE
+  department: Ombudsman
+  fact: The Ombudsman hears grievances of those not satisfied with the University Grievance Redressal Committee's decision and must dispose of cases within one month.
+  quote: The Ombudsman would be required to dispose of cases within one month
+- id: F0110
+  source: SRC052
+  page: 46
+  sub_intent: HOSTEL_PROBLEMS
+  department: Hostel office
+  fact: 'Mumbai hostels listed in the SRB infoline: MKM Sanghvi Girls Hostel, Bansi Villa Girls Residential Flats, G. R. Jani Hostel (Boys) and Anand Hotel Premises Boys Residential Flats.'
+  quote: MKM Sanghvi Girls Hostel
+- id: F0111
+  source: SRC052
+  page: 46
+  sub_intent: MENTAL_HEALTH_SUPPORT
+  department: Psychologist / Counsellor
+  fact: An MPSTME counsellor sits in the New MPSTME Building, ground floor admin area.
+  quote: New MPSTME Building, Ground floor Admin area
+- id: F0112
+  source: SRC052
+  page: 49
+  sub_intent: MEDICAL_ATTENDANCE
+  department: Course coordinator; AR/DR; HOD/Dean
+  fact: The 'Intimation for Absenteeism' form records leave period and reason; it is checked by the course coordinator, verified by the AR/DR and approved by the HOD/Associate Dean/Dean/Director.
+  quote: INTIMATION FOR ABSENTEEISM
+  documents:
+  - Intimation for Absenteeism form
+- id: F0113
+  source: SRC052
+  page: 50
+  sub_intent: INTERNATIONAL_EXCHANGE
+  department: Director – International Linkages
+  fact: Outgoing exchange applicants fill the student exchange application form (CGPA, passport details, up to four university preferences) and attach a hard copy of their CV.
+  quote: A hard copy of your CV needs to be attached along with the application form
+  documents:
+  - Student exchange application form
+  - Hard copy of CV
+- id: F0114
+  source: SRC052
+  page: 54
+  sub_intent: INTERNATIONAL_DOCUMENTS
+  department: Director – International Linkages
+  fact: Exchange students submit copies of passport, visa, medical insurance and ticket with the exchange declaration.
+  quote: Photocopy of medical insurance
+  documents:
+  - Passport copy
+  - Visa copy
+  - Medical insurance copy
+  - Ticket copy
+- id: F0115
+  source: SRC052
+  page: 56
+  sub_intent: INTERNATIONAL_DOCUMENTS
+  department: Dean
+  fact: The school issues letters on letterhead, signed by the Dean, for the visa application of exchange students.
+  quote: Student Exchange Programme (for Visa Application)
+- id: F0116
+  source: SRC052
+  page: 59
+  sub_intent: SCRIBE_WRITER
+  department: Controller of Examinations
+  fact: The scribe application (Annexure 6) is addressed to the Controller of Examinations and must be submitted 7 days before the examination begins, with the scribe's details and a stamped medical certificate.
+  quote: To be submitted 7 days before the commencement of the Examination
+  documents:
+  - Scribe application (Annexure 6)
+  - Stamped medical certificate
+  - Scribe's identity card
+- id: F0117
+  source: SRC052
+  page: 60
+  sub_intent: FEE_RECEIPT
+  department: Accounts
+  fact: A duplicate fee receipt (for a lost original fee or hostel fee receipt) is requested with Annexure 7; the fee is Rs. 100 and duplicates are issued after 7 days.
+  quote: DUPLICATE FEE RECEIPTS WILL BE ISSUED AFTER 7 DAYS
+  documents:
+  - Duplicate fee receipt application (Annexure 7)
+- id: F0118
+  source: SRC052
+  page: 61
+  sub_intent: EXCESS_FEE_REFUND
+  department: Accounts
+  fact: The refund form covers excess fees, excess deposit and hostel deposit; it needs bank details (student or parent account only) and a cancelled cheque, without which the refund is not processed.
+  quote: Without a Copy of the cancelled cheque
+  documents:
+  - Refund form
+  - Cancelled cheque
+- id: F0119
+  source: SRC052
+  page: 61
+  sub_intent: EXCESS_FEE_REFUND
+  department: Accounts
+  fact: For an excess fee/deposit refund, attach the original receipt plus a photocopy; for a hostel deposit, the original hostel deposit receipt signed by the hostel-in-charge; for a lab deposit, the receipt signed by the lab in-charge/Dean.
+  quote: Original Hostel Deposit Receipt signed by Hostel-in-charge
+  documents:
+  - Original receipt
+  - Photocopy of fee/deposit receipt
+- id: F0120
+  source: SRC052
+  page: 62
+  sub_intent: MIGRATION_CERTIFICATE
+  department: Head of Department
+  fact: The migration certificate application (Annexure 9) needs a photocopy of the final-year mark sheet and degree certificate; the student declares they have not applied for it before.
+  quote: Please attach the Photocopy of Final Year Mark sheet & Degree Certificate along with the application
+  documents:
+  - Migration certificate application (Annexure 9)
+  - Final-year mark sheet copy
+  - Degree certificate copy
+- id: F0121
+  source: SRC052
+  page: 63
+  sub_intent: MIGRATION_CERTIFICATE
+  department: Head of Department
+  fact: The migration certificate fee is Rs. 250, paid by RTGS/NEFT; a scanned copy of the application and the payment receipt must be shared.
+  quote: The prescribed fee of Rs. 250/- for the Migration Certificate
+  documents:
+  - Scanned migration application
+  - RTGS/NEFT payment receipt
+- id: F0122
+  source: SRC052
+  page: 64
+  sub_intent: CLEARANCE_CERTIFICATE
+  department: Multiple departments
+  fact: The clearance certificate (Annexure 10) needs sign-off from the HOD/programme chair, library, hostel (hostellers), IT/computer centre, admissions, examinations, accounts, course coordinator, DR/AR and Dean/Director.
+  quote: Clearance Certificate
+  documents:
+  - Clearance certificate (Annexure 10)
+- id: F0123
+  source: SRC052
+  page: 65
+  sub_intent: ACADEMIC_GUIDELINES
+  department: Course coordinator
+  fact: The student undertaking on the Student Guidelines must be submitted to the course coordinator within 7 days of receiving the SRB.
+  quote: Submit this form to your Course Coordinator within 7 days
+  documents:
+  - Student undertaking (Annexure 11)
+- id: F0124
+  source: SRC052
+  page: 70
+  sub_intent: STUDENT_PORTAL
+  department: MPSTME
+  fact: MPSTME uses the LMS student portal for notices, daily attendance, ICA, examination, teaching scheme and syllabus.
+  quote: Daily Attendance
+- id: F0125
+  source: SRC052
+  page: 70
+  sub_intent: ACADEMIC_GUIDELINES
+  department: MPSTME
+  fact: 'Maximum durations at MPSTME: MBA Tech 5 years (max 7), B Tech 4 (max 6), Diploma 3 (max 6), M Tech 2 (max 4), MCA 2 (max 4), Ph.D 3 (max 6).'
+  quote: Maximum duration permissible for
+- id: F0126
+  source: SRC052
+  page: 72
+  sub_intent: STUDENT_GRIEVANCE
+  department: Class Representative
+  fact: The Class Representative is the link between students, faculty and administration but cannot cancel, postpone or reschedule lectures with faculty.
+  quote: The CR is not authorized to cancel, postpone, or reschedule lectures
+- id: F0127
+  source: SRC052
+  page: 74
+  sub_intent: PLACEMENT
+  department: Placement Office
+  fact: Students not taking part in placements must notify the Placement Office through the 'Opted Out Form' with the reason.
+  quote: the ‘Opted Out Form’ mentioning the reason
+  documents:
+  - Opted Out Form
+- id: F0128
+  source: SRC052
+  page: 74
+  sub_intent: PLACEMENT
+  department: Placement Office
+  fact: 'Internship duration: B Tech and MCA for the entire last semester; MBA Tech has a technical internship (8 weeks after semester 6) and a management internship (16 weeks after semester 8).'
+  quote: Internship duration for B Tech, and MCA – entire semester
+- id: F0129
+  source: SRC052
+  page: 76
+  sub_intent: INTERNATIONAL_EXCHANGE
+  department: Department of International Linkages
+  fact: MPSTME international linkage details are at https://engineering.nmims.edu/mpstme-international-linkages/, where students can submit an enquiry form; partners include Virginia Tech, Stevens, Binghamton and Santa Clara.
+  quote: https://engineering.nmims.edu/mpstme-international-linkages/
+- id: F0130
+  source: SRC052
+  page: 77
+  sub_intent: EXAM_RESULT
+  department: Examination department
+  fact: To pass a course a student needs at least 40% in the term-end exam and 40% aggregate (ICA plus TEE); ONLY-ICA courses pass at 40%; otherwise an F grade is given.
+  quote: Secure a minimum of 40% marks in the Term / Semester end examination of that course
+- id: F0131
+  source: SRC052
+  page: 77
+  sub_intent: EXAM_RESULT
+  department: Examination department
+  fact: At MPSTME, ICA is 50 marks and the term-end exam is 100 marks scaled down to 50, for a total of 100.
+  quote: 100 (scaled down
+- id: F0132
+  source: SRC052
+  page: 77
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: A failed student must take the re-examination held right after results; ICA marks are carried forward, and the online re-exam application on the SAP portal is mandatory.
+  quote: A student who does not fill in online re -examination form will be denied permission to appear at the re-examination
+- id: F0133
+  source: SRC052
+  page: 77
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: Only one re-examination is held per course after the final exam results; to improve ICA a student must take re-admission for the full year.
+  quote: Only one re -examination will be conducted for each course
+- id: F0134
+  source: SRC052
+  page: 77
+  sub_intent: RE_EXAMINATION
+  department: School
+  fact: Remedial classes are held on demand (if more than 10 students) before the re-exam; registered students must keep 100% attendance.
+  quote: Remedial classes will be conducted by the faculty on demand, if number of students are more than 10
+- id: F0135
+  source: SRC052
+  page: 78
+  sub_intent: BACKLOG_EXAM
+  department: Examination department
+  fact: 'B Tech/MBA Tech/Diploma: a student with up to two F grades in a year after re-exams can still move to the next year (ATKT) and reappear with the next batch.'
+  quote: A student who has obtained up to two ‘F’ grades
+- id: F0136
+  source: SRC052
+  page: 78
+  sub_intent: BACKLOG_EXAM
+  department: Examination department
+  fact: More than two F grades in a year means no promotion; the student either takes re-admission for the full year or takes a 'year back' and only reappears for failed term-end exams, with ICA carried forward.
+  quote: are allowed to take “year back”
+- id: F0137
+  source: SRC052
+  page: 78
+  sub_intent: BACKLOG_EXAM
+  department: Examination department
+  fact: For admission to third year, all first-year courses must be passed (no F in first year); similarly for fourth and fifth year.
+  quote: Student should not have any F grade in the first year of the programme
+- id: F0138
+  source: SRC052
+  page: 79
+  sub_intent: BACKLOG_EXAM
+  department: Examination department
+  fact: M Tech/MCA year-back students get only two re-exam attempts during the academic year and pay only re-examination fees.
+  quote: year -back students will have only two re-exam attempts during the academic year
+- id: F0139
+  source: SRC052
+  page: 80
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: The re-examination application fee is Rs. 1,000 per subject.
+  quote: Rs. 1,000/- (Rupees One Thousand only) per
+- id: F0140
+  source: SRC052
+  page: 80
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: The online re-exam application portal is open for 3 days as notified with the re-exam timetable and closes on the third day at 4:00 PM.
+  quote: The portal will close on the third day at 4:00 PM
+- id: F0141
+  source: SRC052
+  page: 80
+  sub_intent: LATE_FEE
+  department: Examination department
+  fact: Late re-exam applications are accepted for 24 hours after the regular window with a late fee of Rs. 5,000 (plus Rs. 1,000 per subject); none are accepted after the 4th day 4:00 PM.
+  quote: late fees of Rs. 5000/- through the online SAP student’s portal
+- id: F0142
+  source: SRC052
+  page: 80
+  sub_intent: GPA_CGPA_LETTER
+  department: Examination department
+  fact: 'Grading: O (90-100) = 10, A+ (80-89.99) = 9, A (70-79.99) = 8, B+ (60-69.99) = 7, B (55-59.99) = 6, C (50-54.99) = 5, P (40-49.99) = 4, F (below 40) = 0, AB = absent.'
+  quote: Percentage of Marks  Grade Points Performance
+- id: F0143
+  source: SRC052
+  page: 80
+  sub_intent: GPA_CGPA_LETTER
+  department: Examination department
+  fact: GPA is the credit-weighted average of grade points for a term; CGPA is the credit-weighted average over all terms to date.
+  quote: Cumulative Grade Point Average up to and including a term
+- id: F0144
+  source: SRC052
+  page: 81
+  sub_intent: EXAM_ABSENCE
+  department: Examination department
+  fact: A student absent from a semester exam gets 'AB' and can appear in the re-exam; absence from the re-exam forfeits further re-exam chances that academic year.
+  quote: A student who remains absent in the re -examination would not be able to avail any further re-examination chance
+- id: F0145
+  source: SRC052
+  page: 81
+  sub_intent: DEGREE_CERTIFICATE
+  department: Examination department
+  fact: To receive the degree all exams must be passed, all dues cleared (admission, accounts, library, hostel) and mandatory admission documents submitted.
+  quote: Student should ensure that he/she has cleared his/her all dues from the respective
+- id: F0146
+  source: SRC052
+  page: 82
+  sub_intent: COURSE_CHANGE
+  department: Admission department
+  fact: D.Voc (Diploma exit after second year) candidates with a minimum CGPA of 6.5 can apply for B Tech first year in the same programme; Diploma completers can get lateral entry to B Tech second year if seats are vacant.
+  quote: Candidates must have secured a minimum CGPS of 6.5
+- id: F0147
+  source: SRC052
+  page: 82
+  sub_intent: ACADEMIC_GUIDELINES
+  department: School
+  fact: Community Service is a mandatory non-credit course done for three consecutive weeks in the summer between Semester II and III.
+  quote: It is mandatory non-credit course
+- id: F0148
+  source: SRC052
+  page: 169
+  sub_intent: ACADEMIC_CALENDAR
+  department: Dean MPSTME
+  fact: 'MPSTME 2026-27 (B Tech/MBA Tech/Diploma): Odd semester term-end exams November 16 – December 3, 2026; TEE lab exams December 5-10, 2026; re-exam January 28 – February 8, 2027.'
+  quote: TermEndExam  November16,2026  December3,2026
+- id: F0149
+  source: SRC052
+  page: 169
+  sub_intent: ACADEMIC_CALENDAR
+  department: Dean MPSTME
+  fact: 'MPSTME 2026-27: even semester runs January 2 – April 23, 2027; term-end exams April 30 – May 20, 2027; re-exam June 28 – July 8, 2027. Dates are subject to change.'
+  quote: Re-exam  June28,2027  July8,2027
+- id: F0150
+  source: SRC052
+  page: 169
+  sub_intent: ACADEMIC_CALENDAR
+  department: Dean MPSTME
+  fact: MPSTME 2026-27 Diwali vacation is November 6-12, 2026; the next academic year starts July 12, 2027.
+  quote: DiwaliVacation  November6,2026  November12,2026
+- id: F0151
+  source: SRC052
+  page: 169
+  sub_intent: ACADEMIC_CALENDAR
+  department: Dean MPSTME
+  fact: MPSTME 2026-27 odd semester mid-term test I is August 17-22, 2026 and mid-term test II is October 5-10, 2026.
+  quote: MidTermTestI  August17,2026  August22,2026
+- id: F0152
+  source: SRC052
+  page: 171
+  sub_intent: ACADEMIC_CALENDAR
+  department: University
+  fact: Classes may be held on listed holidays if required, except national holidays (January 26, August 15, May 1 and October 2).
+  quote: Classes/Lectures will be conducted,if required
+- id: F0200
+  source: SRC002
+  page: 1
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: Re-exam registration dates are in the re-exam timetable under 'Important Instructions to the Candidates'; eligible candidates register online on the SAP student portal and pay the re-exam fee.
+  quote: Eligible candidate can register online through given “SAP student portal” link
+- id: F0201
+  source: SRC002
+  page: 1
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: After a final or re-exam result, a student unhappy with term-end marks can apply for grievance redressal online on the SAP student portal by paying the prescribed fee.
+  quote: he/she can apply for Grievance Redressal online through “SAP student portal” by paying the prescribed fees
+- id: F0202
+  source: SRC002
+  page: 1
+  sub_intent: TRANSCRIPT
+  department: Examination department
+  fact: 'A transcript is a consolidated summary of the programme: enrolment and completion year, duration, medium of instruction, courses per term, credits, grades, GPA and CGPA, issued on university letterhead.'
+  quote: A Transcript is the consolidated document or a summary about the academic information of the student
+- id: F0203
+  source: SRC002
+  page: 1
+  sub_intent: TRANSCRIPT
+  department: Examination department
+  fact: Transcripts are applied for online at https://nmims.edu/application-for-e-transcript-delivery; the e-transcript arrives at the registered email, and a hard copy must be selected at the time of applying.
+  quote: student can apply for transcript on line by visiting the below link
+- id: F0204
+  source: SRC002
+  page: 1
+  sub_intent: PERCENTAGE_LETTER
+  department: Examination department
+  fact: A Statement of Marks / Percentage letter gives marks per course per term and the aggregate percentage; it is issued only on application, for placement or higher-studies applications, via https://nmims.edu/statement-of-marks-percentage-letter.
+  quote: This letter is issued only on the application made by the student for placement purpose
+- id: F0205
+  source: SRC002
+  page: 1
+  sub_intent: CERTIFICATE_CORRECTION
+  department: Admission department; School examination department
+  fact: For a name (or parent/husband name) correction on the grade sheet or degree certificate, the student first approaches the NMIMS Admission department with proofs, then the school examination department after acknowledgement.
+  quote: The student should approach the NMIMS Admission dept. with authentic and relevant proofs
+- id: F0206
+  source: SRC002
+  page: 1
+  sub_intent: GPA_CGPA_LETTER
+  department: Examination department
+  fact: Where relative grading is followed there is no formula to convert CGPA to percentage; students can apply for a statement of marks/percentage letter instead.
+  quote: Wherever relative grading followed, there is no formula to convert CGPA into percentage
+- id: F0207
+  source: SRC002
+  page: 1
+  sub_intent: PROVISIONAL_DEGREE
+  department: Examination department
+  fact: A provisional degree certificate is requested by writing to the relevant examination department with supporting documentation.
+  quote: The student may request a provisional degree certificate by writing to the relevant examination department
+- id: F0208
+  source: SRC002
+  page: 1
+  sub_intent: WES
+  department: Examination department
+  fact: NMIMS sends academic documents (transcripts, degrees, statements of marks) to WES electronically; WES does not accept documents sent by students, and documents should not be posted or couriered to WES.
+  quote: WES does not accept documents sent directly by students or any other person except NMIMS
+- id: F0209
+  source: SRC002
+  page: 1
+  sub_intent: STATEMENT_OF_MARKS
+  department: Examination department
+  fact: Grade sheets show grades per course per term and are issued annually at the end of every academic year from 2019-20 onwards.
+  quote: Grade sheets will be issued annually from Academic year 2019-2020 onwards
+- id: F0210
+  source: SRC002
+  page: 1
+  sub_intent: EXAM_TIMETABLE
+  department: Examination department
+  fact: Final/re-exam timetables are published about 30-45 days before the exams on the student portal and https://nmims.edu/examination; dates also appear in the academic calendar.
+  quote: The Final/Re- exam time-table is published approximately 30 – 45 days prior to the commencement of examination
+- id: F0211
+  source: SRC002
+  page: 1
+  sub_intent: RE_EXAMINATION
+  department: SAP Basis team; School examination office
+  fact: For problems applying on the portal, email sapbasis@svkm.ac.in with a screenshot, student number, programme details, contact number and subject, or write to the school examination office.
+  quote: sapbasis@svkm.ac.in
+- id: F0212
+  source: SRC002
+  page: 1
+  sub_intent: TRANSCRIPT
+  department: Examination department
+  fact: Transcript processing takes 3 working days for batches from 2011 onward and 7 working days for earlier batches; upload degree certificate and all grade sheets in one PDF.
+  quote: 3 Working days for the Batches from 2011 and onwards
+  documents:
+  - Degree/Diploma certificate scan
+  - All grade sheets (single PDF)
+- id: F0213
+  source: SRC002
+  page: 1
+  sub_intent: PERCENTAGE_LETTER
+  department: Examination department
+  fact: A statement of marks / percentage letter is applied for online with all grade sheets and the degree certificate in one PDF and takes 7 to 10 days.
+  quote: 7 to 10 days
+  documents:
+  - Degree/Diploma certificate scan
+  - All grade sheets (single PDF)
+- id: F0214
+  source: SRC002
+  page: 1
+  sub_intent: PROVISIONAL_DEGREE
+  department: Examination department
+  fact: A provisional certificate needs a written application stating purpose, programme, student number, roll number, batch and contact details; it takes 7 working days.
+  quote: Written application mentioning purpose of the provisional certificate
+  documents:
+  - Written application with purpose and student details
+- id: F0215
+  source: SRC002
+  page: 1
+  sub_intent: CLEARANCE_CERTIFICATE
+  department: Examination department
+  fact: A clearance certificate needs a written application stating the reason for leaving with student and programme details; it takes 1 day.
+  quote: Written application mentioning reason of leaving
+  documents:
+  - Written application with reason for leaving
+- id: F0216
+  source: SRC002
+  page: 1
+  sub_intent: DUPLICATE_GRADE_SHEET
+  department: Examination department
+  fact: A duplicate grade sheet or degree certificate needs the form from the NMIMS website and an indemnity bond, and takes 15 working days.
+  quote: Indemnity Bond (Format available on NMIMS website)
+  documents:
+  - Duplicate application form
+  - Indemnity bond
+- id: F0217
+  source: SRC002
+  page: 1
+  sub_intent: GPA_CGPA_LETTER
+  department: Examination department
+  fact: A GPA/CGPA letter needs a written application with purpose and student details and takes 7 working days.
+  quote: GPA/ CGPA Letter
+  documents:
+  - Written application with purpose and student details
+- id: F0218
+  source: SRC003
+  page: 1
+  sub_intent: TRANSCRIPT
+  department: Examination department
+  fact: Transcripts are delivered electronically to destination universities, WES, or for placement/immigration on the student's application.
+  quote: A transcript will be electronically delivered to the respective destination University/ies
+- id: F0219
+  source: SRC003
+  page: 1
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: Ignorance of re-exam dates is not an excuse for not filling the re-exam form; the registration window is mentioned with the re-exam timetable.
+  quote: Ignorance of knowledge of re-examination dates cannot be an excuse
+- id: F0220
+  source: SRC003
+  page: 1
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: The FAQ page lists examnmims@nmims.edu for portal problems with the re-exam application (the examination page lists sapbasis@svkm.ac.in).
+  quote: examnmims@nmims.edu
+- id: F0221
+  source: SRC005
+  page: 1
+  sub_intent: DUPLICATE_DEGREE
+  department: Controller of Examinations
+  fact: Applications for a duplicate degree certificate, grade sheets or diploma certificate are addressed to the Controller of Examinations, SVKM's NMIMS, V.L. Mehta Road, Vile Parle (West), Mumbai 400056.
+  quote: The Controller of Examinations
+- id: F0222
+  source: SRC005
+  page: 1
+  sub_intent: DUPLICATE_GRADE_SHEET
+  department: School examination department
+  fact: Duplicate applications go through the school examination department; email requests are not accepted because hard copies of the indemnity bond and ID proof are needed.
+  quote: E-mails are not entertained for issuance of duplicate mark sheets/grade sheets
+  documents:
+  - Indemnity bond (hard copy)
+  - ID proof (hard copy)
+- id: F0223
+  source: SRC005
+  page: 1
+  sub_intent: CERTIFICATE_CORRECTION
+  department: School examination department
+  fact: For a correction, the original degree/grade sheet must be surrendered to the school examination department; university records must be corrected by the Admission office first.
+  quote: The Student concerned will have to surrender the original Degree / grade sheet to School Examination Dept
+  documents:
+  - Original degree certificate / grade sheet
+- id: F0224
+  source: SRC005
+  page: 1
+  sub_intent: DUPLICATE_DEGREE
+  department: Examination department
+  fact: 'Fees for duplicate or corrected documents are paid online: Rs. 2000 for a degree certificate and Rs. 1000 per grade sheet; incomplete applications are not accepted.'
+  quote: Rs. 2000/-for Degree Certificate and Rs.1000/- per Grade Sheet
+- id: F0225
+  source: SRC006
+  page: 1
+  sub_intent: EDUCATION_VERIFICATION
+  department: Controller of Examinations
+  fact: Education verification requests are made by the company/individual/institute by email to edu.verification@nmims.edu with the final grade sheet and degree certificate and student details (name, degree, 11-digit student number, CGPA, passing year).
+  quote: edu.verification@nmims.edu
+  documents:
+  - Final-year grade sheet copy
+  - Degree/Diploma certificate copy
+- id: F0226
+  source: SRC006
+  page: 1
+  sub_intent: EDUCATION_VERIFICATION
+  department: Controller of Examinations
+  fact: 'Verification charges (revised 13 Oct 2025, incl. 18% GST): up to 3 years Rs. 4720; 3-5 years Rs. 5900; 6-10 years Rs. 7080; 11+ years Rs. 9440; urgent Rs. 11800. No GST if the application comes directly from the student.'
+  quote: Revised on 13 October, 2025
+- id: F0227
+  source: SRC006
+  page: 1
+  sub_intent: EDUCATION_VERIFICATION
+  department: Controller of Examinations
+  fact: Regular verification takes 7 working days and urgent requests 2 working days; no verbal confirmation is given.
+  quote: All regular requests for verification will take 7 working days
+- id: F0228
+  source: SRC006
+  page: 1
+  sub_intent: EDUCATION_VERIFICATION
+  department: Accounts
+  fact: After online payment for verification, the bank acknowledgement is mailed to accountant@nmims.edu and edu.verification@nmims.edu.
+  quote: kindly mail bank acknowledgement copy to accountant@nmims.edu
+- id: F0229
+  source: SRC007
+  page: 1
+  sub_intent: HOSTEL_APPLICATION
+  department: Hostel office (Mumbai)
+  fact: Because the hostel application portal is temporarily closed, students download the hostel application form, fill it, and email it as a PDF to hostel.mumbai@nmims.edu.
+  quote: The email ID for hostel form submission is hostel.mumbai@nmims.edu
+  documents:
+  - Hostel application form (PDF)
+- id: F0230
+  source: SRC007
+  page: 1
+  sub_intent: HOSTEL_DOCUMENTS
+  department: Hostel office (Mumbai)
+  fact: A copy of the tuition fee receipt (first-year students) must be attached with the hostel application; incomplete applications may be rejected.
+  quote: along with a copy of your tuition fee receipt (applicable to 1st-year students only)
+  documents:
+  - Hostel application form
+  - Tuition fee receipt (first year)
+- id: F0231
+  source: SRC007
+  page: 1
+  sub_intent: HOSTEL_ALLOCATION
+  department: Hostel office (Mumbai)
+  fact: Eligible hostel applications are verified and approved within 3 working days; the approval email includes hostel fee payment details.
+  quote: approve the eligible applications (within 3 working days)
+- id: F0232
+  source: SRC008
+  page: 1
+  sub_intent: ADMISSION_CANCELLATION
+  department: Admission department
+  fact: A full refund is given for cancellation of admission to technical programmes on or before 20 July 2026, per AICTE norms; non-technical programmes follow the UGC refund policy.
+  quote: on or before 20th July 2026, as per AICTE norms
+- id: F0233
+  source: SRC008
+  page: 1
+  sub_intent: FEE_REFUND
+  department: Accounts
+  fact: Once the cancellation process is complete, any refund is processed within 15 days of the completed form and documents.
+  quote: shall be processed within 15 days of submission of the completed form
+- id: F0234
+  source: SRC008
+  page: 1
+  sub_intent: ADMISSION_CANCELLATION
+  department: Admission department
+  fact: For online cancellation, fill the form, print and sign it, then upload it with the fee receipt and a cancelled cheque.
+  quote: Upload the printed and signed form along with the fee receipt and cancelled cheque
+  documents:
+  - Signed cancellation form
+  - Fee receipt
+  - Cancelled cheque
+- id: F0235
+  source: SRC008
+  page: 1
+  sub_intent: MIGRATION_CERTIFICATE
+  department: Admission department
+  fact: A candidate withdrawing after the programme has started can request a migration / leaving certificate.
+  quote: Candidate can put a request for Migration / leaving certificate
+- id: F0236
+  source: SRC008
+  page: 1
+  sub_intent: ADMISSION_CANCELLATION
+  department: Admission department
+  fact: The cancellation policy does not apply to online and distance learning programmes (NCDOE).
+  quote: Cancellation policy not valid for online and distance learning program
+- id: F0237
+  source: SRC012
+  page: 1
+  sub_intent: TRANSCRIPT
+  department: Examination department
+  fact: E-transcript delivery is online application and payment; the student gets an approved copy by email, and paper copies can be couriered at extra charge.
+  quote: courier charges would apply
+- id: F0238
+  source: SRC015
+  page: 1
+  sub_intent: INTERNATIONAL_EXCHANGE
+  department: International Office
+  fact: The International Student Exchange Program lets students study at a partner institution for one term; the International Office handles overseas operations.
+  quote: Our International Office handles all overseas operations of the University
+- id: F0239
+  source: SRC017
+  page: 1
+  sub_intent: ANTI_RAGGING
+  department: National Anti-Ragging Helpline
+  fact: The National Anti-Ragging Helpline is 1800-180-5522 (24x7, toll free), helpline@antiragging.in.
+  quote: 1800-180-5522
+- id: F0240
+  source: SRC023
+  page: 1
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: One re-examination per term is held right after results for students with an F/D grade or whose results were declared null and void for unfair means; UFM in a re-exam removes re-exam eligibility for that year.
+  quote: Have obtained an 'F' / ‘D’ grade in a credit or non-credit course
+- id: F0241
+  source: SRC023
+  page: 2
+  sub_intent: RE_EXAMINATION
+  department: Examination department
+  fact: Apply for a re-exam on the SAP portal (https://sdcsppscs.svkm.ac.in:44300/irj/portal) using the 11-digit SAP student number; failed subjects appear under 'Re-exam Booking'.
+  quote: 'Login ID: 11-digit SAP Student Number'
+- id: F0242
+  source: SRC023
+  page: 5
+  sub_intent: FEE_PAYMENT
+  department: Examination department
+  fact: Re-exam fees are paid through PayU or Grey Quest gateways by credit card, debit card or net banking; on success, status shows PAID and a receipt is emailed.
+  quote: PAYU Gateway and Grey quest
+- id: F0243
+  source: SRC023
+  page: 8
+  sub_intent: STUDENT_PORTAL
+  department: SAP Basis team
+  fact: If the SAP account is locked after too many wrong passwords, email sapbasis@svkm.ac.in with the student number and a screenshot.
+  quote: 'Student should send an email to: sapbasis@svkm.ac.in'
+- id: F0244
+  source: SRC061
+  page: 1
+  sub_intent: PERCENTAGE_LETTER
+  department: Examination department
+  fact: 'The Statement of Marks (Percentage Letter) is delivered electronically: online application and payment, approved copy sent by email.'
+  quote: Electronic Delivery of Statement of Marks (Percentage Letter)
+- id: F0245
+  source: SRC062
+  page: 1
+  sub_intent: WES
+  department: Examination department
+  fact: NMIMS and WES have an electronic route for sending transcripts, degrees and statements of marks to WES.
+  quote: WES and NMIMS have enabled an option for students to send their Academic documents to WES electronically
+- id: F0246
+  source: SRC064
+  page: 1
+  sub_intent: MENTAL_HEALTH_SUPPORT
+  department: Counselling team
+  fact: NMIMS has two on-campus psychologists; counselling is confidential except in risk-to-life situations.
+  quote: We operate on the principles of complete and total confidentiality
+- id: F0247
+  source: SRC064
+  page: 1
+  sub_intent: MENTAL_HEALTH_SUPPORT
+  department: Counselling team
+  fact: Counsellor timings are Monday to Friday 10 am - 5.30 pm and the 2nd and 4th Saturday 10 am - 5.30 pm; appointments by call or email.
+  quote: 'Timings: Monday to Friday – 10 am to 5.30 pm'
+- id: F0248
+  source: SRC064
+  page: 1
+  sub_intent: MENTAL_HEALTH_SUPPORT
+  department: External helpline
+  fact: Tele-MANAS (Government of India) offers free 24/7 mental health support at 14416 or 1800-891-4416.
+  quote: 'Helpline: 14416 and 1800-891-4416'
+- id: F0300
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_ELIGIBILITY
+  department: Hostel office (Registrar)
+  fact: Hostel admission is open to full-time NMIMS students, with preference to out-station students.
+  quote: Admission is open to full time students of SVKM’S NMIMS. Preference will be given to out-station students
+- id: F0301
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_ALLOCATION
+  department: Hostel office (Registrar)
+  fact: Students offered hostel admission are informed by email and must take up the room by the stipulated date, or the seat goes to another student.
+  quote: Applicants who are offered admission in t he Hostel will be informed  through email
+- id: F0302
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_RULES
+  department: Hostel office (Registrar)
+  fact: Hostel admission is valid for one academic year (10 months); a fresh application is needed for the next year, and next year's fee is paid between February and April.
+  quote: Admission will be valid for one academic year only (10 months from the date of commencement of course)
+- id: F0303
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_VACATING
+  department: Hostel office (Registrar)
+  fact: Students must vacate the room within 3 days of finishing the year's scheduled examinations.
+  quote: Students will be required to vacate the room within 3 days on completion of the scheduled examination each
+- id: F0304
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_RULES
+  department: Hostel office (Registrar)
+  fact: Students may stay during winter/summer vacations by paying proportionate extra fees.
+  quote: Students are allowed to stay in the Hostel during the winter / summer vacations by paying proportionate extra fees
+- id: F0305
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_RULES
+  department: Registrar / Rector
+  fact: Every student must be in the hostel by 11.00 p.m.; staying out later needs prior permission from the Registrar/Rector.
+  quote: Every student shall be in his / her hostel by 11.00 p.m.
+- id: F0306
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_RULES
+  department: Hostel in-charge
+  fact: Night outs are allowed only to visit a local guardian or relatives in Mumbai, at most 4 a month; the signed night-out application is given to the security guard.
+  quote: A maximum of 4 ‘Night outs’ will be allowed in a month
+- id: F0307
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_RULES
+  department: Hostel office
+  fact: Visitors are not allowed in rooms; they can be met in the visitors room or reception between 9.00 a.m. and 9.00 p.m.
+  quote: between 9.00 a.m. to 9.00 p.m.
+- id: F0308
+  source: SRC021
+  page: 3
+  sub_intent: HOSTEL_ALLOCATION
+  department: Registrar / Deputy Registrar
+  fact: Room and furniture allotment is at the discretion of the Registrar/Deputy Registrar; fees for 2-sharing and 3-sharing rooms are the same.
+  quote: Hostel fees for 2 sharing and 3 sharing rooms will be same
+- id: F0309
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_ALLOCATION
+  department: Hostel office
+  fact: Rooms are allotted randomly, so roommates cannot be chosen, and there is no prior reservation of rooms.
+  quote: there is no provision for choosing a hostel roommate
+- id: F0310
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_PROBLEMS
+  department: Registrar
+  fact: Students must not do repairs themselves; they approach the Registrar who arranges repairs. Damage caused by negligence is recovered from the students.
+  quote: They should approach the Registrar who will arrange for repairs
+- id: F0311
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_PROBLEMS
+  department: Registrar
+  fact: Differences among students and complaints about hostel staff are brought to the Registrar; no police complaint is lodged without the Registrar's prior permission.
+  quote: All matters relating to differences among student s and complaints about the hostel servants shall be brought to the
+- id: F0312
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_RULES
+  department: Hostel office
+  fact: Residential flats converted into hostels do not have a mess facility.
+  quote: Residential Flats (converted into hostel) don’t have mess facility
+- id: F0313
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_RULES
+  department: Hostel office
+  fact: Leave is applied for in the prescribed form one day in advance with reason and destination, approved by hostel authorities, and a copy given to the hostel security guard.
+  quote: The students have to apply leave in prescribed form one day in advance
+- id: F0314
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_VACATING
+  department: Hostel office
+  fact: The hostel must be vacated with luggage every summer vacation.
+  quote: Hostel is required to be vacated with luggage in every summer vacation
+- id: F0315
+  source: SRC021
+  page: 4
+  sub_intent: HOSTEL_REFUND
+  department: Accounts
+  fact: 'Hostel fee is refunded only if admission to NMIMS is cancelled: Rs. 3,000 processing charge if cancelled before classes start, no refund after classes start (only the security deposit).'
+  quote: Refund of Hostel fee is allowed only in the case of cancellation of admission from NMIMS
+- id: F0316
+  source: SRC021
+  page: 5
+  sub_intent: HOSTEL_FEES
+  department: Hostel office
+  fact: 'Mumbai hostel fees 2025-26 (10 months, plus Rs. 10,000 refundable deposit): MKM Sanghvi Girls (AC) Rs. 3,70,000; GR Jani Boys non-AC Rs. 2,50,000; GR Jani Boys AC Rs. 3,25,000; Bansi Villa Girls non-AC Rs. 2,90,000, AC Rs. 3,40,000; Anand Premises Boys (AC) Rs. 4,50,000.'
+  quote: MKM Sanghvi Girls Hostel (AC Accommodation) 370000 10000 380000
+- id: F0317
+  source: SRC021
+  page: 5
+  sub_intent: HOSTEL_FEES
+  department: Hostel office
+  fact: Hostel fees are paid by RTGS/NEFT; payment details are sent in the hostel application approval email.
+  quote: The hostel fee payment details (RTGS/NEFT details) will provide through the hostel application form approval mail
+- id: F0318
+  source: SRC021
+  page: 5
+  sub_intent: HOSTEL_REFUND
+  department: Accounts
+  fact: The hostel security deposit is claimed after completion of the entire course, minus deductions for damaged items.
+  quote: Students should claim refund of their deposit only after completion of entire cou rse
+- id: F0319
+  source: SRC021
+  page: 5
+  sub_intent: HOSTEL_DOCUMENTS
+  department: Hostel office
+  fact: 'Documents with the hostel form: proof of residence (parent and local guardian), medical certificate from a registered medical practitioner, medical insurance of Rs. 1 lakh for a year, and the tuition fee receipt (first-year only).'
+  quote: Medical Insurance of Rs. 1 lacs for a year
+  documents:
+  - Proof of residence
+  - Medical certificate
+  - Medical insurance (Rs. 1 lakh)
+  - Tuition fee receipt (first year)
+- id: F0320
+  source: SRC021
+  page: 6
+  sub_intent: HOSTEL_RULES
+  department: Hostel office
+  fact: NMIMS provides each hostel student a bedsheet, blanket, pillow, pillow cover, and bucket/mug per bathroom.
+  quote: Bedsheet, Blanket, Pillow, Pillow Cover, Bucket / Mug
+- id: F0321
+  source: SRC021
+  page: 1
+  sub_intent: HOSTEL_APPLICATION
+  department: Hostel office
+  fact: The Mumbai hostel application form asks for the 11-digit student number from the tuition fee receipt and is emailed to hostel.mumbai@nmims.edu.
+  quote: 11-digit student number on the tuition fee receipt
+  documents:
+  - Hostel application form
+- id: F0330
+  source: SRC010
+  page: 1
+  sub_intent: LIBRARY_TIMINGS
+  department: Library
+  fact: 'Main NMIMS library (Mumbai) hours: circulation counter, Bloomberg lab and digital lab Monday to Saturday 8.30 a.m. to 9.50 p.m.; reading hall 6.00 a.m. to 10.00 p.m. all days.'
+  quote: Monday to Saturday - 8.30 a.m. to 9.50 p.m.
+- id: F0331
+  source: SRC010
+  page: 1
+  sub_intent: BOOK_BORROWING
+  department: Library
+  fact: Full-time programme students can borrow 2 books for home issue (10 days) and 1 reference item (3 hours); PhD scholars 5 books for a month; alumni 1 book for 15 days.
+  quote: Full time Programs | 2 | 1 | 10 days | 3 Hrs
+- id: F0332
+  source: SRC010
+  page: 1
+  sub_intent: LIBRARY_ACCESS
+  department: Library
+  fact: Students tap their ID card on the RFID machine when entering and leaving the library.
+  quote: make an entry on RFID Machine by tapping their ID Card
+- id: F0333
+  source: SRC010
+  page: 1
+  sub_intent: BOOK_RENEWAL
+  department: Library
+  fact: A book on loan to someone else can be reserved by placing a claim through WebOPAC or at the counter; reserved items are recalled after ten days on loan.
+  quote: An item currently on loan to another user can be reserved by placing a claim through WebOPAC
+- id: F0334
+  source: SRC010
+  page: 1
+  sub_intent: DIGITAL_RESOURCES
+  department: Library
+  fact: Past-year question papers are uploaded on the student portal.
+  quote: Past year question papers are uploaded on Student Portal
+- id: F0335
+  source: SRC010
+  page: 1
+  sub_intent: DIGITAL_RESOURCES
+  department: Library
+  fact: Turnitin is available in the library for plagiarism checks; the digital library has 30 computers for e-resources.
+  quote: Turnitin software is available for the plagiarism check purpose
+- id: F0336
+  source: SRC010
+  page: 1
+  sub_intent: LIBRARY_RULES
+  department: Library
+  fact: Photocopying in the library costs fifty paise per copy.
+  quote: Students can avail the service at fifty paise a copy
+- id: F0337
+  source: SRC010
+  page: 1
+  sub_intent: BOOK_BORROWING
+  department: Library
+  fact: Inter-library loan lets students borrow books from other SVKM institutions and NMIMS schools; contact the librarian.
+  quote: Books can be borrowed from SVKM institutions & other schools of NMIMS University
+- id: F0338
+  source: SRC010
+  page: 1
+  sub_intent: LIBRARY_RULES
+  department: Library
+  fact: The library contact is the Librarian at librarian@nmims.edu.
+  quote: librarian@nmims.edu
+- id: F0340
+  source: SRC029
+  page: 1
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: The revaluation window is open only 3 days after results and closes at 4 p.m. on the third day; late applications are not accepted.
+  quote: Application window will close at 4 p.m. on third day
+- id: F0341
+  source: SRC029
+  page: 1
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: Photocopy, revaluation and verification are applied for on the SAP student portal at https://sdcsppscs.svkm.ac.in:44300/irj/portal using the 11-digit student SAP number shown on the NMIMS ID card.
+  quote: 'User ID: 11 Digit student SAP number (as given on NMIMS identity card)'
+- id: F0342
+  source: SRC029
+  page: 3
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: Revaluation can be applied for only once per subject per term-end examination.
+  quote: You are allowed to apply for revaluation only once per subject per term-end examination
+- id: F0343
+  source: SRC029
+  page: 3
+  sub_intent: REVALUATION
+  department: Faculty / LMS
+  fact: Synoptic answers are available on the LMS student portal; students may also approach faculty to see them.
+  quote: Synoptic answers will be available on LMS student’s portal
+- id: F0344
+  source: SRC029
+  page: 3
+  sub_intent: REVALUATION
+  department: SAP Basis team
+  fact: Technical problems with the revaluation application go to the SAP Basis team at sapbasis@svkm.ac.in.
+  quote: contact SAP basis team on sapbasis@svkm.ac.in
+- id: F0345
+  source: SRC029
+  page: 3
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: Emails or offline revaluation requests to faculty or departments are not considered.
+  quote: Emails or offline applications to faculty, departments, or other authorities will not be considered
+- id: F0346
+  source: SRC028
+  page: 2
+  sub_intent: MARK_VERIFICATION
+  department: Examination department
+  fact: A student can apply for revaluation or verification for a subject, but not both.
+  quote: You can apply for Revaluation OR
+- id: F0347
+  source: SRC028
+  page: 14
+  sub_intent: MARK_VERIFICATION
+  department: Examination department
+  fact: Verification does not require a photocopy first; it is selected directly via 'Apply for Verification of Marks' on the grievance redressal screen.
+  quote: You do not need to apply for a photocopy
+- id: F0348
+  source: SRC028
+  page: 7
+  sub_intent: ANSWER_BOOK_COPY
+  department: Examination department
+  fact: The answer-book soft copy link stays available only for 3 days (until 4:00 PM on the last day), so it should be downloaded.
+  quote: available in the photocopy link only for 3 days
+- id: F0349
+  source: SRC028
+  page: 11
+  sub_intent: REVALUATION
+  department: Examination department
+  fact: After paying the revaluation fee, the student opens the OSM platform, ticks each challenged question and writes a remark of at least 10 characters, then clicks 'Submit Grievance'; without it the application is not considered.
+  quote: The remark must be a minimum of
+- id: F0350
+  source: SRC028
+  page: 2
+  sub_intent: ANSWER_BOOK_COPY
+  department: Examination department
+  fact: Students must not share the photocopy of their answer book with other candidates.
+  quote: Candidates are advised not to share
+- id: F0400
+  source: SRC022
+  page: 1
+  sub_intent: SCRIBE_WRITER
+  department: Controller of Examinations
+  fact: The official scribe/writer application form must be submitted 7 days before the examination, with a medical certificate from a registered medical practitioner bearing a rubber stamp.
+  quote: To be submitted 7 days prior to the commencement of Examination
+  documents:
+  - Scribe application form
+  - Stamped medical certificate
+- id: F0401
+  source: SRC024
+  page: 1
+  sub_intent: DUPLICATE_GRADE_SHEET
+  department: School Examination Office
+  fact: The duplicate/correction application form is submitted to the School Examination Office; incomplete forms are not considered. A lost certificate needs an undertaking/indemnity bond.
+  quote: Please complete this form and submit it to the School Examination Office
+  documents:
+  - Duplicate/correction application form
+  - Indemnity bond (for loss)
+- id: F0402
+  source: SRC024
+  page: 1
+  sub_intent: CERTIFICATE_CORRECTION
+  department: University Admission Department
+  fact: Corrections on degree certificates or grade sheets are routed through the University Admission Department, and the original must be surrendered.
+  quote: The correction should be routed through University Admission Department
+  documents:
+  - Original degree certificate / grade sheet
+- id: F0403
+  source: SRC024
+  page: 1
+  sub_intent: DUPLICATE_DEGREE
+  department: Examination department
+  fact: 'Duplicate/correction fees are paid online at https://nmims.edu/payments/final/dataFrom.php: Rs. 2000 for a degree certificate and Rs. 1000 per grade sheet.'
+  quote: https://nmims.edu/payments/final/dataFrom.php
+- id: F0404
+  source: SRC025
+  page: 1
+  sub_intent: DUPLICATE_GRADE_SHEET
+  department: Examination department
+  fact: The indemnity bond for a lost grade sheet or degree certificate is typed on Rs. 100 non-judicial stamp paper and attested by a Notary Public or First Class Magistrate.
+  quote: non-judicial Stamp Paper worth Rs. 100/-
+  documents:
+  - Indemnity bond on Rs. 100 stamp paper, notarised
+- id: F0405
+  source: SRC026
+  page: 1
+  sub_intent: EXCESS_FEE_REFUND
+  department: Accounts
+  fact: The application for refund (excess fee or hostel deposit) needs student details, student or parent bank details and a cancelled cheque; a hostel deposit refund needs the original deposit receipt signed by the hostel-in-charge and DR Administration.
+  quote: Original Hostel Deposit Receipt signed by Hostel-in-charge & DR Administration
+  documents:
+  - Refund application
+  - Cancelled cheque
+  - Signed hostel deposit receipt
+- id: F0406
+  source: SRC027
+  page: 1
+  sub_intent: MEDICAL_FITNESS
+  department: Admission department
+  fact: The medical fitness certificate format is filled by a doctor, covering conditions such as asthma, diabetes, hypertension, fits and allergies, and vaccination status.
+  quote: MEDICAL FITNESS CERTIFICATE
+  documents:
+  - Medical fitness certificate
+- id: F0407
+  source: SRC031
+  page: 1
+  sub_intent: STUDENT_GRIEVANCE
+  department: Student Grievance Redressal Committee
+  fact: A circular dated 30 September 2026 re-constitutes the Student Grievance Redressal Committee with the Dean (SPPSPTM) as Chairperson and the Director (Accreditation & Compliance) as Member Secretary; members serve two years.
+  quote: The Composition of Student Grievance Redressal Committee is given below
+- id: F0408
+  source: SRC033
+  page: 1
+  sub_intent: INTERNAL_COMPLAINTS
+  department: Internal Complaints Committee
+  fact: A circular dated 27 July 2026 sets the Sexual Harassment Internal Complaints Committee composition for three years, including an NGO representative (Majlis Legal Centre) and student representatives.
+  quote: The composition of Sexual Harassment Internal Complaints Committee is givenbelow
+- id: F0409
+  source: SRC037
+  page: 1
+  sub_intent: SC_ST_SUPPORT
+  department: SC/ST/OBC & Equal Opportunity Cell
+  fact: A circular dated 13 December 2025 sets the SC/ST/OBC Students / Equal Opportunity Cell committee, including the Pro Vice Chancellor and Deputy/Assistant Registrars.
+  quote: The composition of the SC/ ST/OBC Students/Equal OpportunityCell Committee is given
+- id: F0410
+  source: SRC032
+  page: 2
+  sub_intent: STUDENT_GRIEVANCE
+  department: Office of the Registrar
+  fact: Under the Student Grievances Redressal Policy 2015, any current or former student files a grievance application with documents to the Office of the Registrar, NMIMS, Mumbai.
+  quote: Student must file an application along with necessary documents, if any, to the Office
+- id: F0411
+  source: SRC032
+  page: 2
+  sub_intent: STUDENT_GRIEVANCE
+  department: Student Grievances Redressal Cell
+  fact: The grievance committee should meet within one week of the application, with resolution within a maximum of 15 days depending on severity.
+  quote: The resolution time should be within maximum 15 days
+- id: F0412
+  source: SRC032
+  page: 3
+  sub_intent: STUDENT_GRIEVANCE
+  department: Ombudsman
+  fact: A student may appeal to the Ombudsman within 30 days of the committee's written recommendations, by writing to the Office of the Registrar.
+  quote: within 30 days from the date of the written communication
+- id: F0413
+  source: SRC009
+  page: 1
+  sub_intent: STUDENT_GRIEVANCE
+  department: Student welfare
+  fact: The NMIMS student welfare page links the UGC e-Samadhan portal and lists Ombudsman Justice Abhay Thipsay (Retd.), Tel. 91-22-42355945/51.
+  quote: UGC e-Samadhan Link
+- id: F0414
+  source: SRC050
+  page: 1
+  sub_intent: LIBRARY_TIMINGS
+  department: MPSTME Library
+  fact: 'MPSTME library timings: reading hall Monday to Saturday 8.00 a.m. to 8.00 p.m.; circulation section Monday to Saturday 8.30 a.m. to 7.50 p.m.'
+  quote: 'Reading Hall: Monday to Saturday: 8.00 a.m. to 8.00 p.m.'
+- id: F0415
+  source: SRC050
+  page: 1
+  sub_intent: DIGITAL_RESOURCES
+  department: MPSTME Library
+  fact: The MPSTME library offers remote access to online databases (e.g., IEL Online, ASME, Springer, ScienceDirect), KOHA Web-OPAC, inter-library loan, plagiarism check, discussion rooms and overnight issue.
+  quote: Remote Access to Online Databases
+- id: F0416
+  source: SRC048
+  page: 1
+  sub_intent: COUNSELLING
+  department: MPSTME Counsellor
+  fact: The MPSTME counsellor (psychologist) sits at the ground floor admin desk and is available Monday-Saturday 9.00 am-4.00 pm offline, with online sessions also offered.
+  quote: 'Availability hours: Monday-Saturday, Timings: 9.00 am-4.00 pm'
+- id: F0417
+  source: SRC044
+  page: 1
+  sub_intent: ACADEMIC_CALENDAR
+  department: MPSTME
+  fact: The MPSTME academic year runs July to April with a two-month summer break in May and June; semesters are July-November and November-April.
+  quote: The academic year runs from July to April with a two month summer break in May and June
+- id: F0418
+  source: SRC042
+  page: 1
+  sub_intent: STUDENT_PORTAL
+  department: MPSTME
+  fact: The MPSTME examination page links notifications, exam timetables, exam forms/processes, exam results, the National Academic Depository and the excess fee/deposit refund form.
+  quote: National Academic Depository
+- id: F0419
+  source: SRC039
+  page: 1
+  sub_intent: STUDENT_COUNCIL
+  department: NUSC
+  fact: The NMIMS University Students' Council (NUSC) has been in place since 2016 to integrate students across schools and campuses.
+  quote: since 2016, a
+- id: F0420
+  source: SRC054
+  page: 11
+  sub_intent: ATTENDANCE_EXEMPTION
+  department: Dean / Director
+  fact: '[Historical, SRB 2024 / AY 2024-25] Students with 70-80% attendance could get up to 10% exemption from the Dean/Director case by case after a hearing; below 70% required re-admission.'
+  quote: The Dean/Director can consider exemption up to 10% on a case-by-case basis
+- id: F0421
+  source: SRC053
+  page: 11
+  sub_intent: LOW_ATTENDANCE
+  department: Academic office
+  fact: '[SRB 2025 / AY 2025-26] Students below 80% in individual courses must take re-admission, as in the 2026 SRB.'
+  quote: Below 80% in  the
+- id: F0422
+  source: SRC018
+  page: 1
+  sub_intent: DIGILOCKER
+  department: Examination department
+  fact: NMIMS participates in the National Academic Depository and has uploaded records of graduated students to DigiLocker, where final certificates can be accessed via the DigiLocker app.
+  quote: NMIMS successfully uploaded records of NMIMS graduated students on DigiLocker
+- id: F0423
+  source: SRC018
+  page: 1
+  sub_intent: EXAM_RESULT
+  department: Examination department
+  fact: NMIMS uses onscreen evaluation of answer books, with question-wise marks totalled by software.
+  quote: Introduction of process of Onscreen Evaluation of answer books
+- id: F0424
+  source: SRC018
+  page: 1
+  sub_intent: TRANSCRIPT
+  department: Examination department
+  fact: NMIMS delivers transcripts electronically to universities abroad and in India.
+  quote: Ensuring electronic delivery of transcripts of students to the Universities abroad/ India
+- id: F0425
+  source: SRC059
+  page: 25
+  sub_intent: BONAFIDE_CERTIFICATE
+  department: Portal team
+  fact: '[Historical, SRB Part I 2024-25] The student portal listed student services including railway concession and bonafide certificates; the 2026 SRB no longer lists bonafide certificates or railway concession, so the current process needs verification.'
+  quote: railway concession, bonafide certificates, and Letters of recommendation (LOR)

@@ -1,0 +1,139 @@
+About Library
+Prof. Y. K. Bhushan Information & Knowledge Resource Centre is a well-furnished, air-conditioned library spread over 15,000 sq.ft. It has a rich collection of books, journals (National/International), audio-visuals, CDs, VCDs, annual reports, management games, newsletters, etc. The centre also houses news clippings, newsletters and case studies. It aims to serve the needs of Faculty, Research Scholars, Students and other centre members by providing an excellent collection of literature. NMIMS libraries are automated with Koha library automation software.
+The Resource Centre has a diverse collection of more than 58,000+ books covering all aspects of business and management, including areas related to Economics, Behavioral Sciences, IT, Law, Engineering, etc. This also includes 80+ National and International periodicals and journals carefully archived with back-dated issues. A rich collection of online resources is the highlight of the resources centre. It has 32 online databases, which offers a vast knowledge base for its members. The e-resources comprise of 30,00,000+ e-books, 1,00,000+ e-journals, and an enormous collection of data and reports.
+The Centre provides a dedicated digital library with 30 machines where students can access databases and A-V material. Along with this, the NMIMS Resource Centre is also equipped with a Bloomberg lab of 12 terminals for the use of researchers in the finance and marketing field. A dedicated section of the research methodology collection is available to the researchers to learn and engage in research activities.
+The centre has an open-access system facilitating free use of material on the shelves. It has a separate Reading Hall with ample seating capacity.
+In addition to the regular services, NMIMS provides facilities like inter-library loans, a reprographic section to make the extraction of information easier. In order to encourage a habit of reading culture, the library also conducts book exhibitions. 
+The Resource Centre organises workshops/seminars/conferences for library professionals every year.
+The centre has institutional membership with BMA (Bombay Management Association), MANLIBNET (Management Library Network)
+Collection
+| 58000+ | Books (Print) | 
+| 30,00,000+ | E-Books (NDLI, MapmyAccess Open Content, Pearson UGC, DELNET & e-KUMBH) | 
+| 103 | Periodicals (Print) | 
+| 32 | Databases/e-resources | 
+| 1,00,000+ | E-Journals (EBSCO, EPW,IEEE, JSTOR, etc.) | 
+| 1,926 | Audio Visual Material (CD, DVD’s & USBs) | 
+| 387 | PhD Thesis | 
+| 878 | Students' Reports | 
+| 20 | Newspapers | 
+E-Resources
+| LIST OF E-RESOURCES SUBSCRIBED BY NMIMS_2024 |  |  | 
+| Sr. No. | Database Category | Name of Database | 
+| 1. | LIBRARY DATABASE/ OPAC | Koha (AMC) | 
+| 2. | GRAMMAR Check Software | Grammarly | 
+| 3. | Plagiarism Check Software | Turnitin | 
+| 4. | e- JOURNAL DATABASES | EBSCO | 
+| 5. |  | Economic and Political Weekly | 
+| 6. |  | JSTOR | 
+| 7. |  | Current Science | 
+| 8. |  | Ergonomics in Design | 
+| 9. |  | Design Journal | 
+| 10. | Engineering DATABASES | DELNET | 
+| 11. |  | NPTEL | 
+| 12. | e-BOOKS DATABASES | Pearson E-Books | 
+| 13. | RESEARCH DATABASES | CMIE: Prowess IQ | 
+| 14. |  | EViews 8 | 
+| 15. |  | ISI Emerging Markets | 
+| 16. |  | SPSS: AMOS | 
+| 17. |  | STATA | 
+| 18. | COMPANY DATABASE | Capitaline AWS | 
+| 19. | STATISTICAL DATABASE | IndiaStat | 
+| 20. |  | EPWRF India Time Series | 
+| 21. | LAW DATABASES | Hein Online | 
+| 22. |  | Live Law | 
+| 23. |  | Manupatra | 
+| 24. | CASE STUDY DATABASE | Harvard Business School Publishing | 
+| 25. | FINANCE LAB | Bloomberg | 
+| 26. | SWAYAM / NDLI | SWAYAM | 
+| 27. |  | National Digital Library | 
+| 28. |  |  | 
+Click here for accessing e-resouces:
+- Web OPAC
+- A dynamic Online Public Access Catalogue serves users as a union catalogue of SVKM institutions. A search is available through author, title, subject, publisher, ISBN and Boolean logic queries. Users can reserve books and check the transaction history using their login Ids.
+Services
+- Students must carry their ID cardand make an entry on RFID Machine by tapping their ID Card while entering & exiting library.
+- Talking on mobile phone in the library premises is prohibited. Keep your mobiles on silent mode.
+- Discussion is not allowed in Reading hall and Digital Lab.
+- Eatables are not allowed in the library.
+- Home Lending:
+- Members can borrow books as per their respective program’s lending policies. For more details, approach at the library counter.
+| Membership Category | Entitlement |  | Loan Period |  | 
+|  | Home Issue | Reference | Home Issue | Reference | 
+| Full time Programs | 2 | 1 | 10 days | 3 Hrs | 
+| Part Time Programs | 2 | 1 | 10 days | 3 Hrs | 
+| Week End Programs | 2 | 1 | 15 days | 3 Hrs | 
+| Ph. D. | 5 | 1 | 1 month | 3 Hrs | 
+| Alumni | 1 | 1 | 15 days | 3 Hrs | 
+- Reference Material:  
+Members get access to reference material (reference books, periodicals, newspapers, A-V materials, etc.) against their ID Card in the premises only.
+- Renewal of Books:
+Same copy of the book can be re-issue single time.
+- Claims:
+An item currently on loan to another user can be reserved by placing a claim through WebOPAC or can approach at the counter. A reserved item is subject to recall once it has been on loan for ten days.
+- Inter Library Loan facility (ILL):
+Books can be borrowed from SVKM institutions & other schools of NMIMS University. For more details contact Librarian.
+- Bloomberg Finance lab:
+12 Bloomberg terminals installed in the the library Finance Lab.
+- Digital Library (Library Computer Lab):  
+The Digital Library has 30 Computers which can be used to access the E-Resources of the Library.
+- Question Papers:
+Past year question papers are uploaded on Student Portal.
+- Photocopying facility:
+A photocopier is available in the Library. Students can avail the service at fifty paise a copy.
+- Plagiarism Check
+Turnitin software is available for the plagiarism check purpose.
+- Library Orientation:
+Library orientation and database training is provided for every new batch of students and faculty members. Also it can be done on request.
+- Thematic Book Display:
+Books are displayed every month with international events or birthdays of renowned scholars.
+- TOC (Table of Content):
+The contents page of latest print journals subscribed in library are scanned and mailed to faculty members. And also available on Portal.
+- Newspaper Clippings:
+Library compiles newspaper clippings on education and allied subjects.
+- Book of the Week:
+Every week one book (with review) is email to all library users.
+- CAS (Current Awareness Service):
+Every month a list of additions to the library collection is displayed in Library Management Software (Koha OPAC).
+- SDI (Selective Dissemination of Information):
+An info alert service is provided for faculty members on demand.
+- Literature Search:
+Library provides help in literature search as and when requested by researchers.
+- Library Newsletter:
+The Library publishes a quarterly newsletter with student-centric themes to provide students with information about current events and issues of interest. Furthermore, the library provides an in-depth review of the Library databases, NMIMS news updates, and a variety of other fascinating columns.
+- In-house publications:
+The library preserves a collection of NMIMS publications like NMIMS Review, Spandan, Discussion Papers, Monographs and other newsletters.
+Working Hours
+Circulation Counter/Bloomberg Lab/Digital Lab:
+Monday to Saturday - 8.30 a.m. to 9.50 p.m.
+Reading Hall: 6.00 a.m. to 10.00 p.m. (All Days of the Week)
+Rules & Regulation
+- Use of the Library is conditional on observance of the Rules and Regulations. Users must comply with these and with any reasonable request or instruction issued by library staff. Anyone failing to do so may be excluded from the Library and/or incur a fine. The Librarian reserves the right to refer any breaches of the Rules and Regulations and/or improper behaviour towards library staff for consideration within the terms of the appropriate NMIMS disciplinary procedures.
+- Access to the NMIMS Library is restricted to staff and students of the NMIMS who are in possession of a current valid identification card issued by NMIMS, and to such other persons as may be authorized by the Librarian.
+- Students are required to carry their NMIMS student card and staff to carry their NMIMS staff identity card to get entry and to use the Library, and must produce this when required doing so by an authorized person. This card must be used only by the member to whom it is issued.
+- Bags, etc, are not allowed in the Library. For reasons of security, bags and other personal possessions should not be left unattended. The Library has no responsibility in case of damage to or theft of personal property.
+- Silence is required in library areas. The use of mobile phones in the Library is strictly prohibited. Phones should be either switched off, or set to silent ring mode. Failure to comply with these requirements may result in a fine and/or exclusion from the Library. Violation of the rules will lead to fine and /or suspension of student for 3 weeks.
+- The consumption of food and beverages (with the exception of bottled water) and the use of personal audio equipment are not permitted in the Library.
+- Photography, filming, video-taping and audio-taping in the Library is not allowed.
+- Mans operated personal equipment should not be used without the prior permission of the Librarian.
+- Users are required to comply with copyright regulations as displayed by the photocopiers.
+- Data retrieved from the Library's electronic resources may not be used for purposes other than teaching, research, personal educational development, administration and management of NMIMS, and development work associated with any of the aforementioned. Use of the data is not permitted for consultancy or services leading to commercial exploitation of the data, or for work of significant benefit to the employer of students on industrial placement or part-time courses. Users must also comply with the specific requirements of individual data providers. Passwords must never be revealed to others.
+- The removal of any material from the Library must be properly authorized and recorded. Damage to, or unauthorized removal of, material constitutes a serious offence and may lead to a fine or to disciplinary action.
+- Borrowing entitlement: Two books for ten days. One time renewal is possible if the book is not in demand.
+- Fine of Rs.3.00 per day per book is levied on overdue books. Students can check their account details online in OPAC (Online Public Access catalogue) and also be notified overdue by email. If fines or charges are outstanding, borrowing rights will be withdrawn and passwords for accessing electronic services withheld until such time as those fines are paid. Reference books, Journals / magazines and Audio/Video material are strictly to be used / viewed in the library only.
+- Users are responsible for material borrowed on their cards and will be required to pay for any damage to, or loss of, material borrowed at replacement cost, plus an administrative charge. Borrowing rights are withdrawn while payment is outstanding.
+- Students are required to wear smart casuals (Barmudas, Half pants, Short skirts, bathroom slippers are not allowed)
+- Access to libraries and/or borrowing rights may also be withdrawn temporarily if fees/charges in other parts of the NMIMS are outstanding.
+- The award of a NMIMS qualification will be deferred until all books and other library materials have been returned and outstanding fines/charges paid.
+- For list of electronic resources / Databases refer annexure.
+Library Team
+Librarian:
+Dr. Shivanand Sadlapur. (librarian@nmims.edu)
+Deputy Librarian:
+Mrs. Varsha More (varsha.more@nmims.edu)
+Assistant Librarian:
+Mr. Dhiraj Chogale (dhiraj.chogale@nmims.edu)
+Library Assistant:
+Mr. Santosh Biradar (Santosh.biradar@nmims.edu)
+Mrs. Meghana Koli (Meghana.koli@nmims.edu)
+Attendants:
+Mr.Umesh  Kadam, Mr.Arun Singh, Mr.Rupesh Gavilkar, Mr. Avish Ravan, Mr. Mayur Parit

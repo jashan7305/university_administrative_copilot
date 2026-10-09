@@ -1,0 +1,1676 @@
+{
+  "test_sets": [
+    {
+      "set": "test_core",
+      "n": 365,
+      "in_scope": 305,
+      "what": "held-out questions from official NMIMS sources (+ CLINC150 out-of-scope test queries); no group overlaps training"
+    },
+    {
+      "set": "test_variants",
+      "n": 607,
+      "what": "rule-generated rewordings of held-out questions (typos, abbreviations, polite/formal, Hinglish)"
+    },
+    {
+      "set": "test_clinc_oos",
+      "n": 1000,
+      "what": "real out-of-scope user queries from CLINC150"
+    },
+    {
+      "set": "challenge (new)",
+      "n": 96,
+      "categories": {
+        "near_domain_oos": 12,
+        "very_short": 12,
+        "heavy_typos": 10,
+        "hinglish": 10,
+        "unseen_phrasing": 10,
+        "negation": 8,
+        "multi_intent": 8,
+        "ambiguous": 8,
+        "general_oos": 6,
+        "long_rambling": 6,
+        "entity_rich": 6
+      },
+      "what": "hard queries from official NMIMS sources: near-domain OOS, very short, heavy typos, code-mixed, negation, multi-intent, ambiguous, long"
+    },
+    {
+      "set": "gold NER",
+      "n": 120,
+      "spans": 245,
+      "what": "hand-annotated entity spans (half core questions, half rewordings)"
+    },
+    {
+      "set": "retrieval",
+      "n": 870,
+      "what": "verified test questions with the passages that cite their facts"
+    },
+    {
+      "set": "robustness",
+      "n": 3050,
+      "what": "10 controlled perturbations of every in-scope test_core question"
+    }
+  ],
+  "coverage": {
+    "intents_in_test_core": 12,
+    "sub_intents_in_test_core": 95,
+    "sub_intents_total": 95
+  },
+  "quantitative": {
+    "test_set": "test_core",
+    "n": 365,
+    "n_in_scope": 305,
+    "comparison": [
+      {
+        "system": "Week 2 TF-IDF",
+        "intent_acc": 0.8822,
+        "intent_acc_ci": [
+          0.8466,
+          0.9124
+        ],
+        "intent_macro_f1": 0.8805,
+        "intent_macro_f1_ci": [
+          0.838,
+          0.9137
+        ],
+        "sub_acc": 0.7246,
+        "sub_acc_ci": [
+          0.6721,
+          0.7738
+        ],
+        "sub_macro_f1": 0.6273,
+        "oos_recall_clinc": 0.945,
+        "ece_intent": 0.0558,
+        "ece_sub": 0.1265
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "intent_acc": 0.8904,
+        "intent_acc_ci": [
+          0.8602,
+          0.9205
+        ],
+        "intent_macro_f1": 0.89,
+        "intent_macro_f1_ci": [
+          0.8523,
+          0.9223
+        ],
+        "sub_acc": 0.7902,
+        "sub_acc_ci": [
+          0.7443,
+          0.8361
+        ],
+        "sub_macro_f1": 0.7129,
+        "oos_recall_clinc": 0.946,
+        "ece_intent": 0.0974,
+        "ece_sub": 0.1836
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "intent_acc": 0.9123,
+        "intent_acc_ci": [
+          0.8822,
+          0.9397
+        ],
+        "intent_macro_f1": 0.9035,
+        "intent_macro_f1_ci": [
+          0.8656,
+          0.9337
+        ],
+        "sub_acc": 0.7967,
+        "sub_acc_ci": [
+          0.7508,
+          0.8426
+        ],
+        "sub_macro_f1": 0.7156,
+        "oos_recall_clinc": 0.961,
+        "ece_intent": 0.1036,
+        "ece_sub": 0.1736
+      }
+    ],
+    "significance_v3_vs_v2": {
+      "intent": {
+        "only_first_correct": 2,
+        "only_second_correct": 10,
+        "p_value": 0.03857
+      },
+      "sub_intent": {
+        "only_first_correct": 2,
+        "only_second_correct": 4,
+        "p_value": 0.6875
+      },
+      "sub_intent_vs_week2": {
+        "only_first_correct": 8,
+        "only_second_correct": 30,
+        "p_value": 0.00047
+      }
+    },
+    "per_intent_v3": [
+      {
+        "intent": "CERTIFICATES",
+        "precision": 0.9,
+        "recall": 0.931,
+        "f1": 0.9153,
+        "support": 29
+      },
+      {
+        "intent": "TRANSCRIPTS",
+        "precision": 0.8846,
+        "recall": 0.92,
+        "f1": 0.902,
+        "support": 25
+      },
+      {
+        "intent": "EXAMINATIONS",
+        "precision": 0.9508,
+        "recall": 0.8788,
+        "f1": 0.9134,
+        "support": 66
+      },
+      {
+        "intent": "FEES",
+        "precision": 0.9167,
+        "recall": 0.9565,
+        "f1": 0.9362,
+        "support": 23
+      },
+      {
+        "intent": "SCHOLARSHIPS",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 7
+      },
+      {
+        "intent": "ATTENDANCE",
+        "precision": 0.8125,
+        "recall": 0.7647,
+        "f1": 0.7879,
+        "support": 17
+      },
+      {
+        "intent": "ACADEMIC_REGISTRATION",
+        "precision": 0.8621,
+        "recall": 0.9259,
+        "f1": 0.8929,
+        "support": 27
+      },
+      {
+        "intent": "ID_CARDS",
+        "precision": 0.7273,
+        "recall": 1.0,
+        "f1": 0.8421,
+        "support": 8
+      },
+      {
+        "intent": "HOSTEL",
+        "precision": 0.9375,
+        "recall": 0.9677,
+        "f1": 0.9524,
+        "support": 31
+      },
+      {
+        "intent": "LIBRARY",
+        "precision": 0.9444,
+        "recall": 0.85,
+        "f1": 0.8947,
+        "support": 20
+      },
+      {
+        "intent": "STUDENT_SERVICES",
+        "precision": 1.0,
+        "recall": 0.72,
+        "f1": 0.8372,
+        "support": 25
+      },
+      {
+        "intent": "STUDENT_WELFARE",
+        "precision": 0.8667,
+        "recall": 0.963,
+        "f1": 0.9123,
+        "support": 27
+      },
+      {
+        "intent": "out_of_scope",
+        "precision": 0.9365,
+        "recall": 0.9833,
+        "f1": 0.9593,
+        "support": 60
+      }
+    ],
+    "worst_sub_intents_v3": [
+      {
+        "sub_intent": "BOOK_BORROWING",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      {
+        "sub_intent": "COUNSELLING",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      {
+        "sub_intent": "HOSTEL_DOCUMENTS",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      {
+        "sub_intent": "ACADEMIC_DOCUMENTS",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      {
+        "sub_intent": "COURSE_ADD_DROP",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      {
+        "sub_intent": "EXAM_GRIEVANCE",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      {
+        "sub_intent": "ID_CARD_APPLICATION",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      {
+        "sub_intent": "ID_CARD_CORRECTION",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      {
+        "sub_intent": "SCHOLARSHIP_ELIGIBILITY",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      {
+        "sub_intent": "SCHOLARSHIP_RENEWAL",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      }
+    ],
+    "sub_intents_f1_below_0.5": 16,
+    "sub_intents_perfect": 30,
+    "selective": {
+      "Week 2 TF-IDF": {
+        "aurc": 0.1179,
+        "acc_at_50pct_coverage": 0.8947,
+        "acc_at_70pct_coverage": 0.8451,
+        "acc_at_90pct_coverage": 0.7737,
+        "acc_at_100pct_coverage": 0.7246
+      },
+      "Week 3 pipeline (v2)": {
+        "aurc": 0.0782,
+        "acc_at_50pct_coverage": 0.9145,
+        "acc_at_70pct_coverage": 0.8732,
+        "acc_at_90pct_coverage": 0.8321,
+        "acc_at_100pct_coverage": 0.7902
+      },
+      "Week 4 final (v3)": {
+        "aurc": 0.0715,
+        "acc_at_50pct_coverage": 0.9276,
+        "acc_at_70pct_coverage": 0.8967,
+        "acc_at_90pct_coverage": 0.8394,
+        "acc_at_100pct_coverage": 0.7967
+      }
+    }
+  },
+  "ner": {
+    "Week 3 pipeline (v2)": {
+      "per_type": [
+        {
+          "type": "ACTION",
+          "gold": 56,
+          "pred": 25,
+          "strict_f1": 0.4444,
+          "relaxed_p": 0.88,
+          "relaxed_r": 0.3929,
+          "relaxed_f1": 0.5432
+        },
+        {
+          "type": "CAMPUS",
+          "gold": 1,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "CERTIFICATE",
+          "gold": 10,
+          "pred": 10,
+          "strict_f1": 0.9,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "CGPA",
+          "gold": 1,
+          "pred": 1,
+          "strict_f1": 1.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "DATE",
+          "gold": 15,
+          "pred": 10,
+          "strict_f1": 0.72,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.6667,
+          "relaxed_f1": 0.8
+        },
+        {
+          "type": "DEADLINE",
+          "gold": 3,
+          "pred": 2,
+          "strict_f1": 0.8,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.6667,
+          "relaxed_f1": 0.8
+        },
+        {
+          "type": "DEPARTMENT",
+          "gold": 17,
+          "pred": 7,
+          "strict_f1": 0.4167,
+          "relaxed_p": 0.7143,
+          "relaxed_r": 0.2941,
+          "relaxed_f1": 0.4167
+        },
+        {
+          "type": "DOCUMENT",
+          "gold": 42,
+          "pred": 16,
+          "strict_f1": 0.4483,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.381,
+          "relaxed_f1": 0.5517
+        },
+        {
+          "type": "EXAMINATION",
+          "gold": 14,
+          "pred": 16,
+          "strict_f1": 0.6667,
+          "relaxed_p": 0.6875,
+          "relaxed_r": 0.7857,
+          "relaxed_f1": 0.7333
+        },
+        {
+          "type": "FEE",
+          "gold": 10,
+          "pred": 9,
+          "strict_f1": 0.5263,
+          "relaxed_p": 0.8889,
+          "relaxed_r": 0.8,
+          "relaxed_f1": 0.8421
+        },
+        {
+          "type": "GRADE",
+          "gold": 6,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "HOSTEL",
+          "gold": 1,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "ISSUE",
+          "gold": 35,
+          "pred": 19,
+          "strict_f1": 0.5556,
+          "relaxed_p": 0.8947,
+          "relaxed_r": 0.4857,
+          "relaxed_f1": 0.6296
+        },
+        {
+          "type": "ORGANIZATION",
+          "gold": 11,
+          "pred": 2,
+          "strict_f1": 0.1538,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.1818,
+          "relaxed_f1": 0.3077
+        },
+        {
+          "type": "PERCENTAGE",
+          "gold": 2,
+          "pred": 1,
+          "strict_f1": 0.6667,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.5,
+          "relaxed_f1": 0.6667
+        },
+        {
+          "type": "PROGRAM",
+          "gold": 4,
+          "pred": 1,
+          "strict_f1": 0.4,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.25,
+          "relaxed_f1": 0.4
+        },
+        {
+          "type": "PURPOSE",
+          "gold": 2,
+          "pred": 1,
+          "strict_f1": 0.6667,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.5,
+          "relaxed_f1": 0.6667
+        },
+        {
+          "type": "SCHOLARSHIP",
+          "gold": 1,
+          "pred": 1,
+          "strict_f1": 1.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "SCHOOL",
+          "gold": 4,
+          "pred": 3,
+          "strict_f1": 0.8571,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.75,
+          "relaxed_f1": 0.8571
+        },
+        {
+          "type": "SEMESTER",
+          "gold": 1,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "STUDENT_NUMBER",
+          "gold": 1,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "UNIVERSITY",
+          "gold": 8,
+          "pred": 6,
+          "strict_f1": 0.8571,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.75,
+          "relaxed_f1": 0.8571
+        },
+        {
+          "type": "ALL",
+          "gold": 245,
+          "pred": 132,
+          "strict_f1": 0.5358,
+          "relaxed_p": 0.8864,
+          "relaxed_r": 0.4776,
+          "relaxed_f1": 0.6207
+        }
+      ],
+      "errors": {
+        "missed": 116,
+        "spurious (no gold overlap)": 3,
+        "boundary error": 16,
+        "wrong type": 12,
+        "exact": 101
+      },
+      "variants_relaxed_f1": 0.5638,
+      "core_relaxed_f1": 0.6772
+    },
+    "Week 4 final (v3)": {
+      "per_type": [
+        {
+          "type": "ACTION",
+          "gold": 56,
+          "pred": 26,
+          "strict_f1": 0.439,
+          "relaxed_p": 0.8846,
+          "relaxed_r": 0.4107,
+          "relaxed_f1": 0.561
+        },
+        {
+          "type": "CAMPUS",
+          "gold": 1,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "CERTIFICATE",
+          "gold": 10,
+          "pred": 11,
+          "strict_f1": 0.8571,
+          "relaxed_p": 0.9091,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 0.9524
+        },
+        {
+          "type": "CGPA",
+          "gold": 1,
+          "pred": 1,
+          "strict_f1": 1.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "DATE",
+          "gold": 15,
+          "pred": 11,
+          "strict_f1": 0.6923,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.7333,
+          "relaxed_f1": 0.8462
+        },
+        {
+          "type": "DEADLINE",
+          "gold": 3,
+          "pred": 2,
+          "strict_f1": 0.8,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.6667,
+          "relaxed_f1": 0.8
+        },
+        {
+          "type": "DEPARTMENT",
+          "gold": 17,
+          "pred": 11,
+          "strict_f1": 0.5,
+          "relaxed_p": 0.6364,
+          "relaxed_r": 0.4118,
+          "relaxed_f1": 0.5
+        },
+        {
+          "type": "DOCUMENT",
+          "gold": 42,
+          "pred": 18,
+          "strict_f1": 0.4667,
+          "relaxed_p": 0.9444,
+          "relaxed_r": 0.4048,
+          "relaxed_f1": 0.5667
+        },
+        {
+          "type": "EXAMINATION",
+          "gold": 14,
+          "pred": 17,
+          "strict_f1": 0.7097,
+          "relaxed_p": 0.7647,
+          "relaxed_r": 0.9286,
+          "relaxed_f1": 0.8387
+        },
+        {
+          "type": "FEE",
+          "gold": 10,
+          "pred": 9,
+          "strict_f1": 0.6316,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.9,
+          "relaxed_f1": 0.9474
+        },
+        {
+          "type": "GRADE",
+          "gold": 6,
+          "pred": 1,
+          "strict_f1": 0.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.1667,
+          "relaxed_f1": 0.2857
+        },
+        {
+          "type": "HOSTEL",
+          "gold": 1,
+          "pred": 1,
+          "strict_f1": 0.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "ISSUE",
+          "gold": 35,
+          "pred": 23,
+          "strict_f1": 0.5172,
+          "relaxed_p": 0.8696,
+          "relaxed_r": 0.5714,
+          "relaxed_f1": 0.6897
+        },
+        {
+          "type": "ORGANIZATION",
+          "gold": 11,
+          "pred": 4,
+          "strict_f1": 0.1333,
+          "relaxed_p": 0.5,
+          "relaxed_r": 0.1818,
+          "relaxed_f1": 0.2667
+        },
+        {
+          "type": "PERCENTAGE",
+          "gold": 2,
+          "pred": 1,
+          "strict_f1": 0.6667,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.5,
+          "relaxed_f1": 0.6667
+        },
+        {
+          "type": "PROGRAM",
+          "gold": 4,
+          "pred": 3,
+          "strict_f1": 0.5714,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.75,
+          "relaxed_f1": 0.8571
+        },
+        {
+          "type": "PURPOSE",
+          "gold": 2,
+          "pred": 2,
+          "strict_f1": 0.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "SCHOLARSHIP",
+          "gold": 1,
+          "pred": 1,
+          "strict_f1": 1.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "SCHOOL",
+          "gold": 4,
+          "pred": 3,
+          "strict_f1": 0.8571,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.75,
+          "relaxed_f1": 0.8571
+        },
+        {
+          "type": "SEMESTER",
+          "gold": 1,
+          "pred": 1,
+          "strict_f1": 1.0,
+          "relaxed_p": 1.0,
+          "relaxed_r": 1.0,
+          "relaxed_f1": 1.0
+        },
+        {
+          "type": "STUDENT_NUMBER",
+          "gold": 1,
+          "pred": 0,
+          "strict_f1": 0.0,
+          "relaxed_p": 0.0,
+          "relaxed_r": 0.0,
+          "relaxed_f1": 0.0
+        },
+        {
+          "type": "UNIVERSITY",
+          "gold": 8,
+          "pred": 6,
+          "strict_f1": 0.8571,
+          "relaxed_p": 1.0,
+          "relaxed_r": 0.75,
+          "relaxed_f1": 0.8571
+        },
+        {
+          "type": "ALL",
+          "gold": 245,
+          "pred": 154,
+          "strict_f1": 0.5363,
+          "relaxed_p": 0.8701,
+          "relaxed_r": 0.5469,
+          "relaxed_f1": 0.6717
+        }
+      ],
+      "errors": {
+        "missed": 97,
+        "spurious (no gold overlap)": 2,
+        "boundary error": 26,
+        "exact": 107,
+        "wrong type": 15
+      },
+      "variants_relaxed_f1": 0.59,
+      "core_relaxed_f1": 0.7538
+    }
+  },
+  "retrieval": {
+    "n": 870,
+    "comparison": {
+      "Week 3 pipeline (v2)": {
+        "recall@1": 0.3885,
+        "recall@3": 0.6161,
+        "recall@3_ci": [
+          0.5816,
+          0.6483
+        ],
+        "recall@5": 0.6736,
+        "recall@10": 0.7678,
+        "mrr@20": 0.523,
+        "mrr_ci": [
+          0.496,
+          0.5499
+        ]
+      },
+      "Week 4 final (v3)": {
+        "recall@1": 0.492,
+        "recall@3": 0.7828,
+        "recall@3_ci": [
+          0.7563,
+          0.8092
+        ],
+        "recall@5": 0.846,
+        "recall@10": 0.9034,
+        "mrr@20": 0.6475,
+        "mrr_ci": [
+          0.6243,
+          0.671
+        ]
+      }
+    }
+  },
+  "end_to_end": {
+    "n": 291,
+    "Week 3 pipeline (v2)": {
+      "latency_ms_p50": 99.0,
+      "latency_ms_p95": 200.7,
+      "status": {
+        "ready": 170,
+        "needs_confirmation": 30,
+        "out_of_scope": 8,
+        "needs_information": 83
+      }
+    },
+    "Week 4 final (v3)": {
+      "latency_ms_p50": 131.0,
+      "latency_ms_p95": 214.3,
+      "status": {
+        "ready": 178,
+        "needs_confirmation": 23,
+        "out_of_scope": 4,
+        "needs_information": 86
+      }
+    }
+  },
+  "robustness": {
+    "perturbations": [
+      {
+        "perturbation": "clean",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.7246,
+        "consistency": 1.0,
+        "changed": 0.0
+      },
+      {
+        "perturbation": "clean",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7902,
+        "consistency": 1.0,
+        "changed": 0.0
+      },
+      {
+        "perturbation": "clean",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7967,
+        "consistency": 1.0,
+        "changed": 0.0
+      },
+      {
+        "perturbation": "typo x1",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.7246,
+        "consistency": 0.9738,
+        "changed": 0.9574
+      },
+      {
+        "perturbation": "typo x1",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7574,
+        "consistency": 0.9311,
+        "changed": 0.9574
+      },
+      {
+        "perturbation": "typo x1",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7607,
+        "consistency": 0.9246,
+        "changed": 0.9574
+      },
+      {
+        "perturbation": "typo x2",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.6918,
+        "consistency": 0.9279,
+        "changed": 0.9672
+      },
+      {
+        "perturbation": "typo x2",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7344,
+        "consistency": 0.8623,
+        "changed": 0.9672
+      },
+      {
+        "perturbation": "typo x2",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7443,
+        "consistency": 0.8787,
+        "changed": 0.9672
+      },
+      {
+        "perturbation": "typo x3",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.6492,
+        "consistency": 0.8754,
+        "changed": 0.9869
+      },
+      {
+        "perturbation": "typo x3",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.6951,
+        "consistency": 0.7869,
+        "changed": 0.9869
+      },
+      {
+        "perturbation": "typo x3",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.6787,
+        "consistency": 0.8033,
+        "changed": 0.9869
+      },
+      {
+        "perturbation": "lowercase, no punctuation",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.7246,
+        "consistency": 1.0,
+        "changed": 0.2885
+      },
+      {
+        "perturbation": "lowercase, no punctuation",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7902,
+        "consistency": 1.0,
+        "changed": 0.2885
+      },
+      {
+        "perturbation": "lowercase, no punctuation",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7967,
+        "consistency": 1.0,
+        "changed": 0.2885
+      },
+      {
+        "perturbation": "all abbreviations",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.7311,
+        "consistency": 0.9869,
+        "changed": 0.3607
+      },
+      {
+        "perturbation": "all abbreviations",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7934,
+        "consistency": 0.9869,
+        "changed": 0.3607
+      },
+      {
+        "perturbation": "all abbreviations",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.8,
+        "consistency": 0.9902,
+        "changed": 0.3607
+      },
+      {
+        "perturbation": "Hinglish suffix",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.6984,
+        "consistency": 0.8689,
+        "changed": 1.0
+      },
+      {
+        "perturbation": "Hinglish suffix",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7574,
+        "consistency": 0.8918,
+        "changed": 1.0
+      },
+      {
+        "perturbation": "Hinglish suffix",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7803,
+        "consistency": 0.9443,
+        "changed": 1.0
+      },
+      {
+        "perturbation": "greeting prefix",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.7279,
+        "consistency": 0.9279,
+        "changed": 1.0
+      },
+      {
+        "perturbation": "greeting prefix",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7803,
+        "consistency": 0.9541,
+        "changed": 1.0
+      },
+      {
+        "perturbation": "greeting prefix",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7869,
+        "consistency": 0.9705,
+        "changed": 1.0
+      },
+      {
+        "perturbation": "drop 25% of words",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.6459,
+        "consistency": 0.823,
+        "changed": 0.9082
+      },
+      {
+        "perturbation": "drop 25% of words",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7082,
+        "consistency": 0.8131,
+        "changed": 0.9082
+      },
+      {
+        "perturbation": "drop 25% of words",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7213,
+        "consistency": 0.8361,
+        "changed": 0.9082
+      },
+      {
+        "perturbation": "shuffle word order",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.7377,
+        "consistency": 0.9311,
+        "changed": 0.9738
+      },
+      {
+        "perturbation": "shuffle word order",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.7738,
+        "consistency": 0.9311,
+        "changed": 0.9738
+      },
+      {
+        "perturbation": "shuffle word order",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.7836,
+        "consistency": 0.9344,
+        "changed": 0.9738
+      },
+      {
+        "perturbation": "first half only",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.5148,
+        "consistency": 0.623,
+        "changed": 0.9967
+      },
+      {
+        "perturbation": "first half only",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.5344,
+        "consistency": 0.6098,
+        "changed": 0.9967
+      },
+      {
+        "perturbation": "first half only",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.541,
+        "consistency": 0.6098,
+        "changed": 0.9967
+      }
+    ],
+    "clean_acc": {
+      "Week 2 TF-IDF": 0.7246,
+      "Week 3 pipeline (v2)": 0.7902,
+      "Week 4 final (v3)": 0.7967
+    },
+    "worst_case": {
+      "Week 2 TF-IDF": {
+        "perturbation": "first half only",
+        "system": "Week 2 TF-IDF",
+        "sub_acc": 0.5148,
+        "consistency": 0.623,
+        "changed": 0.9967
+      },
+      "Week 3 pipeline (v2)": {
+        "perturbation": "first half only",
+        "system": "Week 3 pipeline (v2)",
+        "sub_acc": 0.5344,
+        "consistency": 0.6098,
+        "changed": 0.9967
+      },
+      "Week 4 final (v3)": {
+        "perturbation": "first half only",
+        "system": "Week 4 final (v3)",
+        "sub_acc": 0.541,
+        "consistency": 0.6098,
+        "changed": 0.9967
+      }
+    },
+    "retrieval_recall@3_perturbed": {
+      "Week 3 pipeline (v2) | typo x2": 0.5195,
+      "Week 4 final (v3) | typo x2": 0.6575,
+      "Week 3 pipeline (v2) | lowercase, no punctuation": 0.6149,
+      "Week 4 final (v3) | lowercase, no punctuation": 0.7851
+    },
+    "challenge": [
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "near_domain_oos",
+        "n": 12,
+        "intent_acc": 0.5,
+        "intent_and_sub_acc": 0.5
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "general_oos",
+        "n": 6,
+        "intent_acc": 0.8333,
+        "intent_and_sub_acc": 0.8333
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "very_short",
+        "n": 12,
+        "intent_acc": 0.9167,
+        "intent_and_sub_acc": 0.9167
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "heavy_typos",
+        "n": 10,
+        "intent_acc": 0.9,
+        "intent_and_sub_acc": 0.8
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "hinglish",
+        "n": 10,
+        "intent_acc": 0.9,
+        "intent_and_sub_acc": 0.6
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "negation",
+        "n": 8,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 0.25
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "multi_intent",
+        "n": 8,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "ambiguous",
+        "n": 8,
+        "intent_acc": 0.75,
+        "intent_and_sub_acc": 0.75
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "long_rambling",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 0.5
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "entity_rich",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "unseen_phrasing",
+        "n": 10,
+        "intent_acc": 0.4,
+        "intent_and_sub_acc": 0.3
+      },
+      {
+        "system": "Week 2 TF-IDF",
+        "category": "ALL",
+        "n": 96,
+        "intent_acc": 0.8125,
+        "intent_and_sub_acc": 0.6667
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "near_domain_oos",
+        "n": 12,
+        "intent_acc": 0.25,
+        "intent_and_sub_acc": 0.25
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "general_oos",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "very_short",
+        "n": 12,
+        "intent_acc": 0.9167,
+        "intent_and_sub_acc": 0.9167
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "heavy_typos",
+        "n": 10,
+        "intent_acc": 0.9,
+        "intent_and_sub_acc": 0.7
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "hinglish",
+        "n": 10,
+        "intent_acc": 0.9,
+        "intent_and_sub_acc": 0.6
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "negation",
+        "n": 8,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 0.5
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "multi_intent",
+        "n": 8,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "ambiguous",
+        "n": 8,
+        "intent_acc": 0.75,
+        "intent_and_sub_acc": 0.75
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "long_rambling",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 0.6667
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "entity_rich",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "unseen_phrasing",
+        "n": 10,
+        "intent_acc": 0.6,
+        "intent_and_sub_acc": 0.4
+      },
+      {
+        "system": "Week 3 pipeline (v2)",
+        "category": "ALL",
+        "n": 96,
+        "intent_acc": 0.8125,
+        "intent_and_sub_acc": 0.6771
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "near_domain_oos",
+        "n": 12,
+        "intent_acc": 0.25,
+        "intent_and_sub_acc": 0.25
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "general_oos",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "very_short",
+        "n": 12,
+        "intent_acc": 0.9167,
+        "intent_and_sub_acc": 0.9167
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "heavy_typos",
+        "n": 10,
+        "intent_acc": 0.9,
+        "intent_and_sub_acc": 0.6
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "hinglish",
+        "n": 10,
+        "intent_acc": 0.9,
+        "intent_and_sub_acc": 0.7
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "negation",
+        "n": 8,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 0.5
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "multi_intent",
+        "n": 8,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "ambiguous",
+        "n": 8,
+        "intent_acc": 0.75,
+        "intent_and_sub_acc": 0.75
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "long_rambling",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 0.6667
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "entity_rich",
+        "n": 6,
+        "intent_acc": 1.0,
+        "intent_and_sub_acc": 1.0
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "unseen_phrasing",
+        "n": 10,
+        "intent_acc": 0.8,
+        "intent_and_sub_acc": 0.6
+      },
+      {
+        "system": "Week 4 final (v3)",
+        "category": "ALL",
+        "n": 96,
+        "intent_acc": 0.8333,
+        "intent_and_sub_acc": 0.6979
+      }
+    ]
+  },
+  "errors": {
+    "n_test": 972,
+    "n_errors": 223,
+    "taxonomy": {
+      "wrong sub-intent, same intent": 94,
+      "wrong intent": 79,
+      "sub-intent outside predicted intent": 32,
+      "false out-of-scope": 17,
+      "missed out-of-scope": 1
+    },
+    "errors_with_plausible_alternative": 22,
+    "routing_errors": 126,
+    "high_confidence_errors": 83,
+    "top_confused_sub_intents": [
+      {
+        "gold": "BOOK_BORROWING",
+        "predicted": "BOOK_RENEWAL",
+        "count": 7
+      },
+      {
+        "gold": "ID_CARD_ACCESS",
+        "predicted": "DUPLICATE_ID_CARD",
+        "count": 4
+      },
+      {
+        "gold": "REVALUATION",
+        "predicted": "RE_EXAMINATION",
+        "count": 4
+      },
+      {
+        "gold": "MENTAL_HEALTH_SUPPORT",
+        "predicted": "COUNSELLING",
+        "count": 4
+      },
+      {
+        "gold": "ID_CARD_APPLICATION",
+        "predicted": "DUPLICATE_ID_CARD",
+        "count": 3
+      },
+      {
+        "gold": "ID_CARD_NOT_WORKING",
+        "predicted": "ID_CARD_ACCESS",
+        "count": 3
+      },
+      {
+        "gold": "BACKLOG_EXAM",
+        "predicted": "RE_EXAMINATION",
+        "count": 3
+      },
+      {
+        "gold": "EXAM_GRIEVANCE",
+        "predicted": "REVALUATION",
+        "count": 3
+      },
+      {
+        "gold": "FACILITIES",
+        "predicted": "STUDENT_PORTAL",
+        "count": 3
+      },
+      {
+        "gold": "ACADEMIC_GUIDELINES",
+        "predicted": "BACKLOG_EXAM",
+        "count": 3
+      }
+    ],
+    "slices": {
+      "by_variant_type": [
+        {
+          "slice": "abbrev",
+          "n": 66,
+          "error_rate": 0.1818
+        },
+        {
+          "slice": "formal",
+          "n": 76,
+          "error_rate": 0.25
+        },
+        {
+          "slice": "hinglish",
+          "n": 5,
+          "error_rate": 0.2
+        },
+        {
+          "slice": "original",
+          "n": 305,
+          "error_rate": 0.2393
+        },
+        {
+          "slice": "polite",
+          "n": 233,
+          "error_rate": 0.2232
+        },
+        {
+          "slice": "typo",
+          "n": 227,
+          "error_rate": 0.2863
+        }
+      ],
+      "by_length": [
+        {
+          "slice": "1-5 words",
+          "n": 252,
+          "error_rate": 0.254
+        },
+        {
+          "slice": "6-10",
+          "n": 456,
+          "error_rate": 0.2346
+        },
+        {
+          "slice": "11-15",
+          "n": 156,
+          "error_rate": 0.2885
+        },
+        {
+          "slice": "16-25",
+          "n": 26,
+          "error_rate": 0.1154
+        },
+        {
+          "slice": "26+",
+          "n": 22,
+          "error_rate": 0.1364
+        }
+      ],
+      "by_confidence": [
+        {
+          "slice": "<0.3",
+          "n": 145,
+          "error_rate": 0.6069
+        },
+        {
+          "slice": "0.3-0.5",
+          "n": 222,
+          "error_rate": 0.3468
+        },
+        {
+          "slice": "0.5-0.7",
+          "n": 199,
+          "error_rate": 0.1859
+        },
+        {
+          "slice": "0.7-0.9",
+          "n": 239,
+          "error_rate": 0.0837
+        },
+        {
+          "slice": ">=0.9",
+          "n": 107,
+          "error_rate": 0.0
+        }
+      ],
+      "by_intent": [
+        {
+          "slice": "ID_CARDS",
+          "n": 24,
+          "error_rate": 0.5417
+        },
+        {
+          "slice": "SCHOLARSHIPS",
+          "n": 21,
+          "error_rate": 0.4286
+        },
+        {
+          "slice": "LIBRARY",
+          "n": 60,
+          "error_rate": 0.4
+        },
+        {
+          "slice": "HOSTEL",
+          "n": 93,
+          "error_rate": 0.3118
+        },
+        {
+          "slice": "STUDENT_SERVICES",
+          "n": 75,
+          "error_rate": 0.3067
+        },
+        {
+          "slice": "EXAMINATIONS",
+          "n": 197,
+          "error_rate": 0.2386
+        },
+        {
+          "slice": "STUDENT_WELFARE",
+          "n": 81,
+          "error_rate": 0.2222
+        },
+        {
+          "slice": "ATTENDANCE",
+          "n": 51,
+          "error_rate": 0.2157
+        },
+        {
+          "slice": "ACADEMIC_REGISTRATION",
+          "n": 80,
+          "error_rate": 0.1875
+        },
+        {
+          "slice": "TRANSCRIPTS",
+          "n": 74,
+          "error_rate": 0.1622
+        },
+        {
+          "slice": "CERTIFICATES",
+          "n": 87,
+          "error_rate": 0.1609
+        },
+        {
+          "slice": "FEES",
+          "n": 69,
+          "error_rate": 0.1014
+        }
+      ]
+    },
+    "retrieval_misses_top3": {
+      "total": 189,
+      "with_correct_routing": 114
+    }
+  },
+  "summarization_errors": {
+    "answers": 60,
+    "with_unsupported_number": 5,
+    "off_topic_llm (sim<0.5)": 12,
+    "llm_worse_than_mmr_by_0.15": 16
+  },
+  "fixes": {
+    "typo_normaliser": {
+      "vocabulary_words": 1770,
+      "rows": [
+        {
+          "set": "validation (clean)",
+          "before": 0.7807,
+          "after": 0.7712,
+          "n": 944,
+          "delta": -0.0095
+        },
+        {
+          "set": "test_core (clean)",
+          "before": 0.7967,
+          "after": 0.7934,
+          "n": 305,
+          "delta": -0.0033
+        },
+        {
+          "set": "test_variants",
+          "before": 0.7891,
+          "after": 0.7924,
+          "n": 607,
+          "delta": 0.0033
+        },
+        {
+          "set": "test_core, typo x1",
+          "before": 0.7607,
+          "after": 0.7738,
+          "n": 305,
+          "delta": 0.0131
+        },
+        {
+          "set": "test_core, typo x2",
+          "before": 0.7443,
+          "after": 0.7607,
+          "n": 305,
+          "delta": 0.0164
+        },
+        {
+          "set": "test_core, typo x3",
+          "before": 0.6787,
+          "after": 0.7443,
+          "n": 305,
+          "delta": 0.0656
+        },
+        {
+          "set": "challenge heavy_typos (intent)",
+          "before": 0.9,
+          "n": 10,
+          "after": 0.9,
+          "delta": 0.0
+        }
+      ],
+      "examples": [
+        {
+          "before": "how to aply for bonafied certficate",
+          "after": "how to aply for bonafide certificate"
+        },
+        {
+          "before": "revalutaion form last dat for tee",
+          "after": "revaluation form last dat for tee"
+        },
+        {
+          "before": "i lsot my idcard wat to do",
+          "after": "i lot my card wat to do"
+        },
+        {
+          "before": "atendence is belw 75 percnt",
+          "after": "attendance is below 75 percent"
+        },
+        {
+          "before": "hostle alotment kab hoga",
+          "after": "hostel allotment kab hoga"
+        }
+      ]
+    },
+    "abstention": {
+      "threshold": 0.5,
+      "target_val_accuracy": 0.9,
+      "test_coverage": 0.6361,
+      "test_accuracy_answered": 0.9072,
+      "test_accuracy_all": 0.7967,
+      "share_sent_to_staff": 0.3639,
+      "errors_caught": 0.7097
+    }
+  },
+  "runtime_s": 401.6
+}

@@ -1,0 +1,50 @@
+[A] test sets
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15322.88it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 10766.44it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11234.04it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10470.50it/s]
+[B] quantitative evaluation
+    {'system': 'Week 2 TF-IDF', 'intent_acc': 0.8822, 'intent_macro_f1': 0.8805, 'sub_acc': 0.7246, 'sub_macro_f1': 0.6273, 'oos_recall_clinc': 0.945, 'ece_intent': 0.0558, 'ece_sub': 0.1265}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8582.69it/s]
+    {'system': 'Week 3 pipeline (v2)', 'intent_acc': 0.8904, 'intent_macro_f1': 0.89, 'sub_acc': 0.7902, 'sub_macro_f1': 0.7129, 'oos_recall_clinc': 0.946, 'ece_intent': 0.0974, 'ece_sub': 0.1836}
+    {'system': 'Week 4 final (v3)', 'intent_acc': 0.9123, 'intent_macro_f1': 0.9035, 'sub_acc': 0.7967, 'sub_macro_f1': 0.7156, 'oos_recall_clinc': 0.961, 'ece_intent': 0.1036, 'ece_sub': 0.1736}
+[B] NER per entity type
+    Week 3 pipeline (v2) {'missed': 116, 'spurious (no gold overlap)': 3, 'boundary error': 16, 'wrong type': 12, 'exact': 101} core 0.6772 variants 0.5638
+    Week 4 final (v3) {'missed': 97, 'spurious (no gold overlap)': 2, 'boundary error': 26, 'exact': 107, 'wrong type': 15} core 0.7538 variants 0.59
+[B] retrieval
+    Week 3 pipeline (v2) {'recall@1': 0.3885, 'recall@3': 0.6161, 'recall@3_ci': (0.5816, 0.6483), 'recall@5': 0.6736, 'recall@10': 0.7678, 'mrr@20': 0.523, 'mrr_ci': (0.496, 0.5499)}
+    Week 4 final (v3) {'recall@1': 0.492, 'recall@3': 0.7828, 'recall@3_ci': (0.7563, 0.8092), 'recall@5': 0.846, 'recall@10': 0.9034, 'mrr@20': 0.6475, 'mrr_ci': (0.6243, 0.671)}
+[B] end to end (latency, statuses)
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10509.99it/s]
+    Week 3 pipeline (v2) {'latency_ms_p50': 99.0, 'latency_ms_p95': 200.7, 'status': {'ready': 170, 'needs_confirmation': 30, 'out_of_scope': 8, 'needs_information': 83}}
+    Week 4 final (v3) {'latency_ms_p50': 131.0, 'latency_ms_p95': 214.3, 'status': {'ready': 178, 'needs_confirmation': 23, 'out_of_scope': 4, 'needs_information': 86}}
+[C] robustness
+    typo x1 [('Week 2 TF-IDF', 0.7246), ('Week 3 pipeline (v2)', 0.7574), ('Week 4 final (v3)', 0.7607)]
+    typo x2 [('Week 2 TF-IDF', 0.6918), ('Week 3 pipeline (v2)', 0.7344), ('Week 4 final (v3)', 0.7443)]
+    typo x3 [('Week 2 TF-IDF', 0.6492), ('Week 3 pipeline (v2)', 0.6951), ('Week 4 final (v3)', 0.6787)]
+    lowercase, no punctuation [('Week 2 TF-IDF', 0.7246), ('Week 3 pipeline (v2)', 0.7902), ('Week 4 final (v3)', 0.7967)]
+    all abbreviations [('Week 2 TF-IDF', 0.7311), ('Week 3 pipeline (v2)', 0.7934), ('Week 4 final (v3)', 0.8)]
+    Hinglish suffix [('Week 2 TF-IDF', 0.6984), ('Week 3 pipeline (v2)', 0.7574), ('Week 4 final (v3)', 0.7803)]
+    greeting prefix [('Week 2 TF-IDF', 0.7279), ('Week 3 pipeline (v2)', 0.7803), ('Week 4 final (v3)', 0.7869)]
+    drop 25% of words [('Week 2 TF-IDF', 0.6459), ('Week 3 pipeline (v2)', 0.7082), ('Week 4 final (v3)', 0.7213)]
+    shuffle word order [('Week 2 TF-IDF', 0.7377), ('Week 3 pipeline (v2)', 0.7738), ('Week 4 final (v3)', 0.7836)]
+    first half only [('Week 2 TF-IDF', 0.5148), ('Week 3 pipeline (v2)', 0.5344), ('Week 4 final (v3)', 0.541)]
+   challenge [{'system': 'Week 2 TF-IDF', 'category': 'ALL', 'n': 96, 'intent_acc': 0.8125, 'intent_and_sub_acc': 0.6667}, {'system': 'Week 3 pipeline (v2)', 'category': 'ALL', 'n': 96, 'intent_acc': 0.8125, 'intent_and_sub_acc': 0.6771}, {'system': 'Week 4 final (v3)', 'category': 'ALL', 'n': 96, 'intent_acc': 0.8333, 'intent_and_sub_acc': 0.6979}]
+[D] error analysis
+    {'wrong sub-intent, same intent': 94, 'wrong intent': 79, 'sub-intent outside predicted intent': 32, 'false out-of-scope': 17, 'missed out-of-scope': 1} plausible alt: 22
+[D] LLM summarisation faithfulness
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:01<06:20,  1.13s/it]Loading weights:  54%|█████▍    | 183/338 [00:01<00:00, 204.88it/s]Loading weights:  86%|████████▌ | 290/338 [00:02<00:00, 156.42it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 130.04it/s]
+    {'answers': 60, 'with_unsupported_number': 5, 'off_topic_llm (sim<0.5)': 12, 'llm_worse_than_mmr_by_0.15': 16}
+[E] failure cases
+    pools: {'routing: wrong sub-intent, same intent': 6, 'routing: sub-intent outside predicted intent': 6, 'routing: wrong intent': 6, 'routing: false out-of-scope': 6, 'routing: missed out-of-scope': 1, 'challenge': 16, 'ner': 40, 'retrieval: routing correct': 20, 'retrieval: routing wrong': 20, 'summarization': 15}
+[F] error-driven fixes
+    {'set': 'validation (clean)', 'before': 0.7807, 'after': 0.7712, 'n': 944, 'delta': -0.0095}
+    {'set': 'test_core (clean)', 'before': 0.7967, 'after': 0.7934, 'n': 305, 'delta': -0.0033}
+    {'set': 'test_variants', 'before': 0.7891, 'after': 0.7924, 'n': 607, 'delta': 0.0033}
+    {'set': 'test_core, typo x1', 'before': 0.7607, 'after': 0.7738, 'n': 305, 'delta': 0.0131}
+    {'set': 'test_core, typo x2', 'before': 0.7443, 'after': 0.7607, 'n': 305, 'delta': 0.0164}
+    {'set': 'test_core, typo x3', 'before': 0.6787, 'after': 0.7443, 'n': 305, 'delta': 0.0656}
+    {'set': 'challenge heavy_typos (intent)', 'before': 0.9, 'n': 10, 'after': 0.9, 'delta': 0.0}
+    abstention {'threshold': 0.5, 'target_val_accuracy': 0.9, 'test_coverage': 0.6361, 'test_accuracy_answered': 0.9072, 'test_accuracy_all': 0.7967, 'share_sent_to_staff': 0.3639, 'errors_caught': 0.7097}
+done in 401.6 s

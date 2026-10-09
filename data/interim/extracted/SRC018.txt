@@ -1,0 +1,7 @@
+EXAMINATION MANAGEMENT REFORMS@NMIMS
+Setting of question papers and carrying out evaluations to ensure that NMIMS imparts Outcome Based Education. The core of the testing has been changed from memory-based testing to Assurance of Learning and outcome based education. Student responses are mapped to course outcomes and programme outcomes.
+Introduction of ‘Question Bank Management’, faculty members at all Schools participate in the process of authoring questions, which are further reviewed and approved by senior faculty. Use of technology implemented for delivery of question papers to avoid physical handling of question papers.
+Introduction of process of Onscreen Evaluation of answer books. Benefits are availability of MIS on question-wise evaluation report, thereby ensuring quality of questions for future examinations, reduction of logistics cost as no physical movement of answer books. Totalling of question-wise marks done by software thereby improving the quality of evaluation.
+Participation in National Academic Depository. NMIMS successfully uploaded records of NMIMS graduated students on DigiLocker. Students would be able to access their final certificates on DigiLocker app anywhere anytime.
+Using SAP as ERP for all examination related activities. All the processes are automated. Ensuring error free on-time declaration of results and maintaining transparency in every process.
+Ensuring electronic delivery of transcripts of students to the Universities abroad/ India.

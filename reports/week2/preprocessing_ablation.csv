@@ -1,0 +1,10 @@
+step,val_macro_f1,test_variants_macro_f1
+raw (tokenise only),0.893,0.8102
++ lowercase,0.893,0.81
++ contractions,0.8941,0.8113
++ abbreviations,0.894,0.8041
++ entity masking,0.8904,0.7968
++ spelling correction,0.896,0.8074
++ lemmatisation (full pipeline),0.8989,0.8056
+"full, stemming instead of lemma",0.8933,0.8062
+full + stopword removal,0.9031,0.7971

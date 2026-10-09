@@ -1,0 +1,183 @@
+# Week 5 - our analysis of the evaluation run (read by nlp.reports.week5).
+# cases: pool/index point into failure_cases.json (written by evaluate_week5.py); `record` is a case we ran by hand.
+
+findings:
+  - lead: "Final system is the most accurate on every held-out set."
+    text: "Intent accuracy 0.912 vs 0.890 (Week 3) and 0.882 (Week 2); the intent gain over Week 3 is statistically
+      significant (McNemar p = 0.039) and routing beats Week 2 significantly (30 queries fixed, 8 broken, p < 0.001).
+      The routing gain over Week 3 is small and not significant (p = 0.69) - we report this rather than overstate it."
+  - lead: "Retrieval is the clearest improvement."
+    text: "Recall@3 0.783 [0.756, 0.809] vs 0.616 [0.582, 0.648] for Week 3 - the confidence intervals do not overlap -
+      and the gap widens under typos (0.658 vs 0.520)."
+  - lead: "Confidence is trustworthy for ranking."
+    text: "No routing errors at all above 0.9 confidence, 61% error below 0.3. Answering only the 64% most confident
+      questions gives 90.7% routing accuracy and catches 71% of routing errors before they reach a student."
+  - lead: "Main weaknesses found."
+    text: "Near-domain out-of-scope questions (only 3 of 12 rejected - e.g. IIT cut-offs are routed to NMIMS
+      registration), heavy typos and truncated questions, negation (the models rely on keywords: shuffling word order
+      barely changes predictions), and sibling sub-intents with few training examples."
+  - lead: "Error-driven fix works where it should."
+    text: "Typo normalisation recovers +6.6 points of routing accuracy on questions with three typos (0.679 -> 0.744)
+      at a cost of 0.3 points on clean questions."
+
+robustness:
+  - lead: "Formatting does not matter:"
+    text: "lowercasing, removing punctuation, NMIMS abbreviations and greetings change routing accuracy by at most 1
+      point for every system - the training rewordings did their job."
+  - lead: "Typos and missing words matter:"
+    text: "three typos cost the final system 11.8 points and dropping a quarter of the words costs 7.5 points; keeping only
+      the first half of a question costs 26 points because the key word (e.g. 'revaluation') is often at the end."
+  - lead: "Keyword reliance:"
+    text: "shuffling word order costs only 1.3 points, so the models mostly ignore word order. This explains the negation
+      failures (Case 3) and is the main limitation of sentence-embedding classifiers trained on short questions."
+  - lead: "Challenge set:"
+    text: "the final system is best overall (intent 0.833, intent + routing 0.698) and perfect on general out-of-scope,
+      multi-intent (first request), entity-rich and long questions, but rejects only 25% of near-domain out-of-scope
+      questions and gets 50% routing on negation."
+
+error_analysis:
+  - lead: "Most errors are near-misses:"
+    text: "42% of errors pick the right intent but a sibling sub-intent (e.g. BOOK_BORROWING vs BOOK_RENEWAL, REVALUATION
+      vs RE_EXAMINATION), and 22 errors pick a sub-intent the dataset itself lists as a plausible alternative - the
+      department is often still correct, so the student would still reach the right office."
+  - lead: "Rare sub-intents fail:"
+    text: "the worst sub-intents (BOOK_BORROWING, COUNSELLING, HOSTEL_DOCUMENTS) have 1-3 test questions and few training
+      questions; more labelled questions for these is the cheapest fix."
+  - lead: "Retrieval errors are mostly not routing errors:"
+    text: "of 189 test questions without a relevant passage in the top 3, 114 were routed correctly - the remaining gap is
+      vocabulary mismatch between how students ask and how NMIMS documents are written (Case 10)."
+  - lead: "NER misses open-class phrases:"
+    text: "97 of 245 gold spans are missed, mostly ACTION / ISSUE / DOCUMENT phrases (\"dental surgery\", \"hostel vacating\");
+      closed-class entities (certificates, fees, dates, exams) score 0.84-0.95 relaxed F1."
+
+fixes:
+  - lead: "Recommendation:"
+    text: "enable the typo normaliser only when a query has two or more out-of-vocabulary words, which keeps the gain on
+      noisy text without the small cost on clean text; use the 0.5 confidence threshold to ask the student to confirm
+      instead of answering."
+
+cases:
+  - title: "Near-domain out-of-scope question accepted"
+    component: "Classification - out-of-scope detection"
+    pool: "challenge"
+    index: 0
+    root_cause: "The out-of-scope training data (CLINC150) is general-domain - banking, travel, small talk - so any question
+      containing academic words (cutoff, computer science, admission) looks in-scope. 9 of 12 near-domain questions
+      (other universities, coursework, entrance exams) were accepted."
+    fix: "Add near-domain negatives (other institutions, coursework help, entrance exams) to the out-of-scope class, and a
+      separate in-domain/out-of-domain detector before routing."
+  - title: "Confident wrong intent caused by a keyword"
+    component: "Classification - intent"
+    pool: "routing: wrong intent"
+    index: 1
+    root_cause: "\"pyq\" (previous-year question papers, a library resource) is rare in training, while \"re exam\" is a
+      strong EXAMINATIONS keyword, so the model is 96% confident and wrong."
+    fix: "Add student slang to the normalisation lexicon (pyq -> previous year question papers) and more DIGITAL_RESOURCES
+      questions that mention exams."
+  - title: "Negation ignored"
+    component: "Classification - routing (challenge set)"
+    record: {query: "I am not asking about revaluation, I want a photocopy of my answer sheet", gold: "EXAMINATIONS / ANSWER_BOOK_COPY",
+             predicted: "EXAMINATIONS / REVALUATION", confidence: 0.987}
+    root_cause: "The classifier relies on keywords (word order barely matters, Section 4); \"revaluation\" is the strongest
+      cue in the sentence even though the student says it is NOT what they want."
+    fix: "Training questions with explicit contrast (\"not X, I want Y\"), or splitting on contrast markers (not / but / instead)
+      and classifying the clause after them."
+  - title: "Domain word with two meanings"
+    component: "Classification - sibling sub-intents"
+    pool: "routing: wrong sub-intent, same intent"
+    index: 5
+    root_cause: "At NMIMS \"issue a book\" means borrow it, but \"issue\" mostly means a problem in the training data.
+      BOOK_BORROWING is the worst sub-intent (F1 0.0; confused with BOOK_RENEWAL 7 times)."
+    fix: "Add NMIMS usage to the training data (\"issue books\", \"get books issued\") and merge BOOK_BORROWING and
+      BOOK_RENEWAL for routing, since they go to the same library desk."
+  - title: "Follow-up question without context"
+    component: "Classification - false out-of-scope"
+    pool: "routing: false out-of-scope"
+    index: 0
+    root_cause: "The question only makes sense after an earlier message (\"this\" = getting a duplicate grade sheet). A
+      single-turn classifier has no content to classify, so it falls below the out-of-scope threshold."
+    fix: "Keep conversation state and carry the previous intent forward when a follow-up has no content words; otherwise ask
+      a clarification question instead of declining."
+  - title: "Sub-intent from a different intent"
+    component: "Routing - consistency"
+    pool: "routing: sub-intent outside predicted intent"
+    index: 1
+    root_cause: "Routing is flat (chosen on validation), so it can pick STUDENT_SERVICES / FACILITIES while the intent is
+      HOSTEL; the service request then names the wrong department. 32 errors are of this type."
+    fix: "Restrict routing to the predicted intent's sub-intents when intent confidence is high (hierarchical routing)."
+  - title: "Code-mixed Hinglish question"
+    component: "Robustness - language"
+    pool: "challenge"
+    index: 11
+    root_cause: "Only the words \"result\" and \"sem\" are English; \"kab aayega\" (when will it come) is unknown to the model,
+      and \"when\"-style questions about semesters are usually about the academic calendar."
+    fix: "A small Hinglish-to-English lexicon in the normaliser (kab -> when, aayega -> will come, chahiye -> need) and more
+      code-mixed training questions (only 0.6% of the test set is Hinglish)."
+  - title: "Student ID read as a percentage"
+    component: "NER"
+    record: {query: "my SAP ID is 70022300145 and I need a bonafide certificate by 15 October",
+             gold: "70022300145 [STUDENT_NUMBER], bonafide certificate [CERTIFICATE], 15 October [DATE]",
+             predicted: "SAP [ORGANIZATION], ID [HOSTEL], 70022300145 [PERCENTAGE], bonafide certificate [CERTIFICATE], 15 October [DATE]"}
+    root_cause: "The transformer NER learned from rule-generated labels in which 11-digit SAP IDs are rare, so it guesses
+      from the digit shape; the copilot then reports the request as ready without the student number."
+    fix: "A high-priority rule for NMIMS SAP IDs (11 digits starting 7002...) and roll numbers, which overrides the model,
+      plus these patterns in the training data."
+  - title: "Open-class phrases missed"
+    component: "NER"
+    pool: "ner"
+    index: 2
+    root_cause: "ISSUE / ACTION / DOCUMENT phrases are open-ended (any illness, any proof); the training labels only contain
+      dictionary terms, so the model has never seen \"dental surgery\" as an ISSUE."
+    fix: "Hand-label a few hundred training questions (as done for the gold test set) so the model learns the phrase
+      patterns rather than the dictionary."
+  - title: "Right route, passage still missed"
+    component: "Retrieval"
+    pool: "retrieval: routing correct"
+    index: 0
+    root_cause: "Vocabulary mismatch: the student says \"problem with a faculty\" and \"complain\", the official passage
+      says \"grievance redressal\"; several grievance passages compete and the right one is ranked 9th."
+    fix: "Query expansion with an NMIMS synonym list (complain -> grievance), and passage titles/section names added to the
+      indexed text."
+  - title: "Routing error pushes retrieval the wrong way"
+    component: "Retrieval - error propagation"
+    pool: "retrieval: routing wrong"
+    index: 1
+    root_cause: "\"lecture cancellations\" is routed to ADMISSION_CANCELLATION because of the word \"cancellation\"; the
+      sub-intent boost then promotes admission-cancellation passages and the relevant passage falls out of the top 20."
+    fix: "Scale the sub-intent boost by routing confidence (no boost below 0.5), so low-confidence routes do not override
+      the retriever."
+  - title: "LLM answer contradicts the rule"
+    component: "Summarization (LLM-assisted)"
+    pool: "summarization"
+    index: 4
+    fields: [query, reference, llm, mmr, sim_llm, sim_mmr]
+    root_cause: "The evidence says discrepancies must be reported within 3 days; Monday to Friday is 4 days, so the answer
+      is no. The 1.5B model does not do the date arithmetic and answers \"yes\". The extractive answer quotes the rule correctly."
+    fix: "Keep extractive MMR as the default (as decided in Week 4); for LLM answers, require the rule sentence to be quoted
+      and use a larger model."
+  - title: "LLM invents a penalty"
+    component: "Summarization (LLM-assisted)"
+    pool: "summarization"
+    index: 7
+    fields: [query, reference, llm, mmr, sim_llm, sim_mmr]
+    root_cause: "Retrieval returned an unfair-means passage instead of the attendance rule, and the LLM combined pieces of it
+      into a penalty that appears in no NMIMS source (\"excluded for five additional examinations\"). 5 of 60 LLM answers
+      contained a number not in the evidence."
+    fix: "An automatic faithfulness check (every number and claim must appear in the evidence, otherwise fall back to the
+      extractive answer), and decline when retrieval confidence is low."
+
+limitations:
+  - "The challenge set (96 queries) and gold NER set (120) are small; per-category results have wide confidence intervals."
+  - "Test questions are built from official NMIMS sources, with rule-generated rewordings; real student questions
+    may be noisier."
+  - "Perturbations are controlled, rule-based edits of the test questions; they test robustness to each kind of noise separately, not
+    combined."
+  - "Summarization faithfulness is measured automatically (number check, embedding similarity) on 60 answers; a human
+    rating would be stronger."
+
+next_steps:
+  - "Near-domain out-of-scope training data and a separate in/out-of-domain detector (Case 1)."
+  - "Normaliser with typo correction, student slang and Hinglish lexicon, gated on out-of-vocabulary rate (Cases 2, 7)."
+  - "Multi-turn clarification for follow-ups and low-confidence questions (Case 5, Section 7)."
+  - "SAP ID / roll-number rules and hand-labelled NER training data (Cases 8, 9)."
+  - "Confidence-scaled retrieval boosting and an automatic faithfulness check for LLM answers (Cases 11-13)."

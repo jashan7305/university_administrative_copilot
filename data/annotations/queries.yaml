@@ -1,0 +1,2944 @@
+# Queries from the official NMIMS sources, each grounded in the fact(s) named by its key ("F0001" or "F0029+F0028").
+# These were written by the project team from official NMIMS sources; they are not collected student queries.
+# Plain strings are student queries; {query, user_type} gives another role (parent, alumni, faculty, external).
+core:
+  F0001:
+  - is it compulsory to wear the id card on campus
+  - do we get an id card from college
+  - can I enter campus without wearing my id
+  - penalty for not wearing id card on campus
+  - do i need to wear my id card inside the classroom too
+  - do day scholars also have to wear the id card all day
+  F0002:
+  - I lost my ID card what do I do
+  - lost my id, what now?
+  - how to get a duplicate id card at mpstme
+  - misplaced my college id card, is there a fee for new one
+  - id card lost in local train, need a new one asap
+  - duplicate id card collect from where
+  - lost my id card, can i still take exams with a duplicate
+  - id card kho gaya
+  - lost id
+  - duplicate id card fee?
+  - new id card kaise milega
+  - id gone, help
+  F0003:
+  - flap barrier not opening, do i need biometric too?
+  - is fingerprint needed along with id card for entry
+  - biometric not registered yet, can i enter with only id card
+  - what is the flap barrier at the gate for
+  - do i need to register my fingerprint for campus entry
+  - biometric plus id both needed every day?
+  F0004:
+  - forgot my id card today, how do i get in
+  - left id at home, will security let me enter?
+  - forgot id card for practical lab, entry process
+  - forgot ID and lecture starts in 5 min, can security let me in
+  - forgot id
+  - id bhool gaya ghar pe
+  F0005:
+  - my id card isn't working at the gate
+  - whom to email for id card issues
+  - id card chip not scanning at the barrier
+  - biometric registration problem who to contact
+  - id card not registering on biometric machine after renewal
+  - id card damaged and barrier not reading it
+  - email for biometric registration svkm
+  - id not workin at gate
+  - flap barrier rejecting my card
+  F0006:
+  - can i lend my id card to my friend for library
+  - what happens if someone uses my id card
+  - friend used my id card to enter library, is that a problem
+  - caught using friend's id at library, punishment?
+  - can i swipe my friend in with my card
+  F0007:
+  - problem with a faculty, how do i complain
+  - classroom AC broken for weeks, who do I go to?
+  - complaint about admin not being resolved, next step
+  - CR isn't raising our issue, can we go directly to the AR
+  - hostel food complaint not being addressed, escalate to whom
+  - lab equipment broken for months, complaint process
+  - The projector in our classroom has not worked for over a month and repeated requests through our CR have not helped. Whom should I write to formally?
+  F0008:
+  - how will college inform us about lecture cancellations
+  - where are official notices posted
+  - where do lecture cancellation updates come
+  - how often should i check the student portal for notices
+  - is whatsapp an official channel for college notices
+  - will important notices come on email
+  F0009:
+  - can i ask the professor directly to put me in an elective
+  - how do we select electives
+  - whom do i tell my elective choice
+  - elective choice through program chair or online?
+  - elective selection
+  - electives how
+  F0010:
+  - going home for a week during term, do i need permission
+  - leaving mumbai for a hackathon, do i need to inform someone?
+  - going to pune for a college competition during term, permission from whom
+  - do i need hod permission to travel out of mumbai for 2 days
+  - need to travel to my hometown mid-term for a family function, whom to inform
+  F0011:
+  - what is the minimum attendance at nmims
+  - is 100% attendance compulsory
+  - how much absence is allowed per subject
+  - can i bunk 20 percent of lectures
+  - is attendance mandatory for guest lectures and events
+  - attendance relaxation for placement interviews?
+  - is attendance counted for only-ICA subjects too?
+  - attendance calculated from when if i joined late
+  - sports practice for inter-college tournament, does it count against attendance
+  - does attending a placement drive excuse my lecture absence
+  - min attendance
+  - kitna bunk kar sakte
+  F0012:
+  - am i eligible for TEE if my attendance is 81% in DSA
+  - what attendance do you need to be allowed to sit for end sem exams
+  - is 80 percent attendance enough to give the term end exam?
+  - attendance criteria for appearing in semester end exams at MPSTME
+  - is attendance checked subject wise or overall for exam eligibility
+  - 81% in theory but 70% in lab of same subject, can i write tee
+  - exam eligibility depends on attendance in each subject separately right?
+  - if attendance is 80.0 exactly am i safe
+  - min attnd for tee
+  - 80% enough?
+  F0013:
+  - my attendance is short in one subject
+  - I have 76% in maths, what happens
+  - attendance below 80 in one course - will i get detained
+  - what is readmission because of low attendance
+  - 70% attendance in a subject, can i still give TEE?
+  - detained in 2 subjects for attendance, re-admission for those or full year?
+  - 79.5% attendance in one subject, rounded off or detained?
+  - readmission same semester or next year - which is better after attendance shortage
+  - re-admission in same semester means i repeat only that sem?
+  - below 80 in two subjects, options?
+  - My attendance in Data Structures is 74% because I was unwell for a couple of weeks in August, though my other subjects are above 85%. Will I be allowed to write the end semester exam for DSA, and if not what exactly does re-admission involve?
+  - query: my child has been detained for attendance, what are the options now?
+    user_type: parent
+  - attendance short
+  - attnd 72 in one sub
+  - short attendence what now
+  - detained due to attendance?
+  F0014:
+  - my attendance is wrong on the portal
+  - found an error in last month's attendance, how many days to report
+  - attendance discrepancy reporting deadline
+  - my attendance is wrong
+  - attendance published on monday, can i report a mistake on friday?
+  - monthly attendance report shows 60%, but i barely missed class
+  - can i dispute attendance from 2 months ago
+  - Dear Course Coordinator, the attendance report published on the notice board yesterday shows me absent for all Physics lectures in the week of 15th September, although I attended all of them. What is the procedure to get this corrected?
+  - attnd wrong on portal
+  - attendence mismatch
+  F0015:
+  - i was present but marked absent in today's lecture
+  - teacher marked me absent by mistake, what do i do
+  - marked absent even though i attended the lab
+  - query: student says he was present but I marked him absent, what's the process from his side
+    user_type: faculty
+  - marked absent wrongly
+  - present tha phir bhi absent laga
+  F0016:
+  - I was sick for a week, how do I get my attendance adjusted?
+  - medical leave attendance process
+  - submitted medical certificate after 5 days, will they accept
+  - had dengue, missed 10 days of class, what do i submit
+  - medical certificate for 2 days absence also needed?
+  - do i need original medical reports or copies
+  - dental surgery leave attendance proof
+  - covid positive, missed a week - medical certificate to whom
+  - do i need a hospital certificate or is a GP note fine for attendance
+  - I was hospitalised for typhoid from 2nd to 9th September and resumed classes on the 10th. I have the discharge summary and doctor's certificate. To whom should I submit these, and is there a deadline?
+  - med cert submission deadline
+  - sick leave attndnc
+  - medical certi kab tak dena hai
+  F0016+F0112:
+  - missed classes due to hospitalisation, which form and what documents
+  F0017:
+  - will my parents be told if my attendance is low
+  - do parents get attendance emails?
+  - parents got whatsapp about my attendance, is that normal?
+  - query: will I be informed if my daughter's attendance drops
+    user_type: parent
+  - query: my son's attendance is low, will the college contact me?
+    user_type: parent
+  - does college send attendance updates to parents monthly
+  F0018:
+  - can i ask my professor directly to fix attendance
+  - who approves attendance related requests
+  - can i request my professor to mark me present for yesterday
+  - visiting faculty refused to fix my attendance, now what
+  - query: a student keeps approaching me about correcting his attendance, where should I direct him?
+    user_type: faculty
+  - can i ask the visiting faculty to update my attendance directly
+  F0019:
+  - final attendance after sem end looks wrong, whom do i write to
+  - final attendance published, i think it's wrong, can dean change it?
+  - semester ended and final attendance shows 78, can it be reviewed
+  - who has the final say on semester-end attendance disputes
+  - written complaint to dean about final attendance - format?
+  F0020:
+  - will i get attendance for the day i have re exam
+  - re-exam day lectures attendance
+  - re exam clashes with regular lecture, will i be marked absent
+  - missing lectures for re exam - attendance impact?
+  - re-exam on a weekday - attendance for regular lectures that day?
+  - will i be marked absent in classes while i write my re exam
+  F0021:
+  - who do i contact about attendance problems
+  - attendance query - course coordinator or AR?
+  - attendance status email received, who should i contact and by when
+  - got attendance defaulter mail, deadline to respond
+  - attendance status received yesterday, who do i contact
+  - 3 days to raise attendance query - from when?
+  F0022:
+  - my ICA marks for the quiz are wrong on portal, how many days do i have to get it fixed
+  - ICA marks not matching what sir told us, till when can we raise it
+  - Within how many days are ICA component marks shown to us?
+  - found a mistake in my internal marks, is it too late to complain if it was published 3 days ago?
+  F0023:
+  - what is passing for an only ICA course
+  - failed in an only-ICA subject, is there any re exam for it
+  - Engineering Ethics is only ICA and I got below 40%, what happens now?
+  - no TEE subject fail - re-exam possible or not
+  - if i fail product realization (only ICA) do i get detained
+  - 40% rule for courses with only internal assessment
+  F0024:
+  - do we get grace marks in internals
+  - can grace marks be added to my ICA score?
+  - is there grace on ICA or only on the final exam
+  - grace marks apply to internal assessment?
+  - ICA short by 1 mark, can grace help
+  - no grace in ICA is that true
+  F0025:
+  - academic grievance email id
+  - where to raise an academic complaint
+  - academic grievance email or portal?
+  - complaint about unfair ICA marking, where to escalate
+  - academic grievance
+  - email to raise academic issues at nmims
+  - where to write about unfair internal assessment
+  F0026:
+  - what are interdisciplinary courses
+  - how many interdisciplinary electives can i take
+  - where to register for interdisciplinary course
+  - winter session interdisciplinary registration dates
+  - fall session interdisciplinary course timings
+  - can interdisciplinary course replace a home school course?
+  F0027:
+  - can first years take CBCS courses
+  - what is cbcs at nmims
+  - cbcs eligibility mumbai campus
+  - can i take cbcs course for extra credit
+  - cbcs audit course option
+  - cbcs courses for 2nd year ug students allowed?
+  F0028:
+  - forgot my ID card on exam day, will they let me write the paper?
+  - is ID card compulsory for end sem exams
+  - left my college id at home and have TEE in an hour what do i do
+  - do I need my university ID to enter the exam hall
+  - id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead
+  - exam in 30 mins and i can't find my id card, what do i do
+  - exam without id?
+  F0028+F0002:
+  - lost my id card and my TEE is next week, will i be allowed to write?
+  F0029:
+  - what time should we reach the exam hall
+  - I'm going to be 20 mins late for my TEE because of a train delay, can i still write
+  - reached 40 minutes late to exam, will they allow me??
+  - latest i can enter the exam hall after paper starts
+  - how early do we need to be in the hall before the term end exam?
+  - late for exam whom do i ask for permission
+  - can the dean allow me to enter 35 min late in a medical emergency
+  - do i get extra time if i come late with permission
+  - Respected Sir/Madam, my train from Virar was delayed today and I reached the examination hall about 25 minutes after the paper began. The invigilator did not let me in. What is the rule regarding late entry, and is there any way I can still write this paper?
+  - 'URGENT: stuck in traffic, exam started 10 mins ago, will i be allowed in??'
+  - late for exam
+  - exam late entry rules
+  - how late can i enter tee
+  F0029+F0028:
+  - running late and also forgot my id card for today's TEE, what should i do
+  F0030:
+  - I missed my TEE, will there be a special exam for me?
+  - was absent for one end sem paper, what are my options
+  - does missing an exam mean i get absent in grade sheet
+  - can i request a separate exam date if i miss a paper
+  - missed my exam due to a funeral, is there a makeup exam
+  - missed tee
+  - exam miss ho gaya
+  F0031:
+  - can I carry a scientific calculator in the exam
+  - are smart watches allowed in exam hall
+  - is financial calculator allowed for the management subject paper?
+  - can i keep my phone switched off in my bag inside exam hall
+  - list of things not allowed in exam hall nmims
+  - is a non programmable casio allowed in TEE
+  - can i bring water bottle in exam hall
+  - airpods in exam hall allowed if off?
+  - calculator allowed?
+  - watch allowed in exam?
+  F0032:
+  - should i write my name and roll number on the answer sheet
+  - is it ok to write om at the top of the answer book
+  - why are answer books QR coded, can I put my SAP ID on it?
+  - wrote my roll no on the answer sheet by mistake, will i be penalised
+  - can i write my student number on the supplement sheet
+  - drew a symbol at the top of my answer book, is that a problem
+  F0033:
+  - my term was not granted because of low attendance but i still gave the exam, will my result come?
+  - what happens if a detained student writes the TEE anyway
+  - exam result null and void because of attendance - what does that mean
+  - term not granted but hall ticket came, should i appear
+  F0034:
+  - I broke my right hand, how do i get a writer for my exams
+  - process to get a scribe for end sem because of a fracture
+  - who approves a scribe request at NMIMS?
+  - temporary disability scribe application kaise karte hain
+  - need a writer for exams due to an injury, what documents
+  - hand fracture 3 days before exam, still possible to get scribe?
+  - Dear Sir, I met with an accident last week and my right wrist is in a cast. My end semester examinations begin on 16th November. Kindly guide me on the procedure to obtain a scribe and the documents I need to submit.
+  - scribe for exam
+  - writer chahiye exam ke liye
+  F0035:
+  - who arranges the scribe, me or the college?
+  - can my friend from the same year be my scribe
+  - how early do I need to arrange my writer before exams
+  - scribe qualification rules nmims
+  - query: I've been asked to be a scribe for a student, are there eligibility conditions for the scribe?
+    user_type: faculty
+  - can a senior be my scribe
+  - do i inform the exam office about my writer's name
+  F0036:
+  - how much extra time do we get with a scribe
+  - extra time for writer in a 3 hour paper?
+  - compensatory time for scribe students per hour
+  - scribe extra time for 2 hour paper
+  - extra time for writer in 1 hour mid term
+  F0037:
+  - I have dyslexia, which hospital certificate is accepted for extra time?
+  - learning disability certificate - is a private doctor ok for mumbai campus
+  - when should I submit my dysgraphia certificate
+  - does dyslexia certificate from a private clinic work at nmims mumbai
+  - sion hospital certificate for learning disability, when to submit
+  - dyscalculia - which certificate is accepted
+  F0038:
+  - got caught with notes in exam, what happens next
+  - received show cause notice for unfair means, what is the process
+  - will my result be withheld if there's a UFM case against me
+  - inquiry committee date for my ufm case, what happens there
+  - result withheld due to UFM inquiry, how long
+  F0039:
+  - what's the punishment if they find my phone during the exam even if i didn't use it
+  - smart watch found in exam hall consequences
+  - is carrying a mobile in exam hall treated as copying?
+  - what if my phone rang in my bag during the exam
+  - phone in exam hall
+  - smart watch in pocket switched off - still annulment?
+  F0040:
+  - can i apply for revaluation of my lab exam
+  - is viva included in revaluation?
+  - revaluation for project marks possible?
+  - does the grievance redressal thing apply to practicals
+  - online MCQ exam marks can be revalued?
+  - reval for practicals?
+  F0041:
+  - where do i apply for revaluation, offline or online
+  - can i submit reval application in the exam cell directly
+  - revaluation through SAP portal only?
+  - can i submit revaluation form at the school exam office
+  - offline revaluation application accepted?
+  F0042:
+  - I think my marks are totalled wrong, what is the process
+  - retotalling deadline after result
+  - what does verification of answer book actually check
+  - how many days to apply for re-totalling of marks?
+  - one answer wasn't checked at all, verification will fix?
+  - retotalling
+  - totalling galat hai
+  F0042+F0043:
+  - timelines for verification and photocopy after result declaration?
+  F0043:
+  - how do i see my evaluated answer sheet
+  - last date to apply for photocopy of answer book
+  - want a copy of my TEE paper, how many days after result can i apply
+  - when will i get the soft copy of my answer script
+  - photocopy of answer book how to download
+  - result came today, deadline for photocopy?
+  - answer sheet copy
+  - photocopy of paper
+  - ans book photocopy last date
+  F0044:
+  - can i directly apply for revaluation without taking photocopy
+  - is photocopy compulsory before revaluation?
+  - ok so if I already applied for the photocopy, can I now go for reval?
+  - and what if I skip the photocopy step?
+  - reval without photocopy?
+  F0045:
+  - what should i write in the revaluation form
+  - do i have to mention question numbers for reval
+  - my reval application was rejected because i didn't give reasons, will i get my money back?
+  - will they recheck the full paper or only the questions i mention
+  - what counts as a valid reason for revaluation
+  - Good afternoon. I submitted a revaluation request last week but just received a message that it was not processed because the reason column was vague. I had written 'please recheck'. Is my fee refundable and can I apply again?
+  F0046:
+  - result came out on monday, till when can I apply for reval
+  - missed the revaluation deadline by a day, any way to still apply?
+  - what time does the reval window close on the last day
+  - reval closes today, how do i apply asap
+  - reval last date
+  - reval deadline??
+  F0047:
+  - can my marks decrease after revaluation
+  - what if reval marks differ a lot from original
+  - is there a second revaluation at NMIMS
+  - which marks are final after revaluation - original or new?
+  - reval increased my marks by 25%, what happens next
+  - I applied for revaluation in Engineering Mathematics and my marks went from 38 to 52 out of 100. I was told there might be a second revaluation. How does that work and which marks will finally be considered?
+  - marks kam ho sakte hain reval mein?
+  - reval can reduce marks?
+  F0048:
+  - how long does revaluation take to come
+  - will i get a copy of my answer book after it is re-evaluated?
+  - reval result timeline
+  - how many days till i hear back after reval?
+  - revaluation done in how many working days
+  - can i see my answer book after revaluation
+  F0049:
+  - how many grace marks can we get in nmims
+  - failed by 2 marks, will grace marks help?
+  - grace marks rule for term end exams
+  - are grace marks given for re-exam too
+  - max grace marks per subject
+  - grace marks
+  - grace kitne milte hai
+  F0050:
+  - when do we get our grade sheet
+  - is the statement of grades given every semester or every year?
+  - my name changed after first year, can i get new grade cards and is there a charge
+  - grade card name doesn't match my aadhaar now, can it be reissued?
+  - statement of grades issued after every academic year?
+  F0051:
+  - how is the dean's list decided
+  - top 10% get dean's list certificate?
+  - had an ATKT, am i still eligible for rank or medal
+  - how many medals are given per batch
+  - do exchange semester grades count for rank?
+  - can atkt students get dean's list
+  F0052:
+  - can i apply for scholarship if i have a backlog
+  - low attendance - will it affect my scholarship eligibility?
+  - i had a disciplinary case last year, can i still get an award
+  - F grade last year - am i out of the awards process?
+  - misconduct record and scholarship - am I disqualified?
+  F0053:
+  - central sector scholarship how to apply nmims
+  - is NSP scholarship available for nmims students
+  - minority scholarship for engineering students
+  - can i apply for government scholarships at nmims
+  - can I apply for NSP and college scholarship both
+  - post matric scholarship for minorities nmims
+  - PM scholarship for CAPF wards at nmims
+  - ugc scholarships available for nmims students?
+  - scholarship
+  - nsp scholarship
+  - scholarship kaise apply kare
+  F0053+F0055:
+  - how do I apply for a scholarship as a 2nd year student
+  F0054:
+  - pragati scholarship for girls mpstme
+  - AICTE scholarship for girl students eligibility
+  - any scholarship for female engineering students?
+  - pragati scholarship for btech girls - apply where
+  - pragati scholarship
+  - pragati scholarship apply through NSP?
+  F0055:
+  - who handles scholarships at mpstme
+  - where do i submit my scholarship application in college
+  - need college verification for my NSP form, whom to contact
+  - scholarship form verification by college whom to meet
+  - scholarship office
+  F0056:
+  - can i defer my admission to next year because of a medical issue
+  - admission deferment rules nmims
+  - already started classes, can i still defer admission?
+  - who do i apply to for admission deferment
+  - deferment approved, do i lose my seat if i don't join next year?
+  - can i defer admission if I've only paid part of the fees
+  - deferment for a family emergency - is it guaranteed?
+  F0057:
+  - how to cancel my admission at nmims
+  - want to withdraw admission, what documents
+  - admission cancellation link
+  - can I cancel admission by emailing the office
+  - admission cancellation needs original fee receipt?
+  - admission cancellation for mba tech, is the process same as btech?
+  - my parent's cancelled cheque okay for cancellation refund?
+  - can i cancel admission offline at the admission office
+  - I took admission in B Tech Data Science this year but have now received a seat at IIT. I want to withdraw my admission at NMIMS. Please tell me the complete procedure and the documents required for cancellation and refund.
+  - cancel admission
+  - admission cancel kaise kare
+  F0057+F0232+F0233:
+  - want to cancel my btech seat, how and when will i get the money back
+  F0058:
+  - classes have started and i want to cancel, what extra steps
+  - need no dues from all departments for cancellation?
+  - cancelling after classes began, no dues from library and accounts needed?
+  - clearance needed from which departments for cancellation
+  - no dues certificate for admission cancellation midway
+  - who signs no dues for cancelling after commencement
+  F0059:
+  - where will my refund be credited
+  - will dues be cut from my refund?
+  - will hostel dues be deducted from my fee refund
+  - refund to my parent's account allowed?
+  - refund amount less than paid, why?
+  F0060:
+  - what if i don't submit my 12th marksheet on time
+  - document verification discrepancy found, what happens to my admission?
+  - deadline for submitting caste certificate after admission
+  - offer letter documents not submitted on time - admission cancelled?
+  - discrepancy in my marksheet during verification, consequences
+  - last date to submit pending admission documents
+  F0061:
+  - how will i know the fee amount for second year
+  - when do we pay fees for the next year
+  - fee payment email for second year from accounts
+  - how will accounts inform me about next year fees
+  - promoted to third year, where do i get fee details
+  F0062:
+  - what happens if i pay fees after the due date
+  - is there a late fee for semester fees
+  - didn't pay fees even after late period, what will happen
+  - fee deadline missed by a week, consequences?
+  - will i be removed from the program for not paying fees
+  - fees due date passed, what is the late fee
+  - I am a third year student and I have not yet paid my semester fees because of a delay in my education loan disbursement. The due date has passed. What happens now and how long do I have before any action is taken?
+  - late fee
+  - fees late ho gayi
+  F0063:
+  - can i take a gap year in the middle of btech
+  - academic break reasons allowed
+  - how long can an academic break be?
+  - academic break approval from whom
+  - can i take an academic break for an internship opportunity
+  - academic break for financial reasons allowed?
+  - gap year
+  - academic break
+  F0064:
+  - how many times can i take an academic break
+  - what happens after an academic break, do i rejoin same sem?
+  - total academic break allowed in entire course
+  - can i take another break later in the course?
+  - second academic break possible?
+  - academic break total limit one year?
+  F0065:
+  - taking an academic break mid-year, what fees will i pay on return
+  - readmission fee after a break if fees were already paid
+  - academic break fees rules
+  - academic break - do i pay full fees again on return?
+  - break informed before year starts, what fee on return
+  - took break after commencement without paying fees, total due when i come back?
+  - I am considering taking an academic break in the middle of the current academic year due to a family emergency. I have already paid the full fees for this year. What will I need to pay when I come back the next year?
+  F0066:
+  - took a medical break with very low attendance, do i still pay 25% readmission?
+  - medical break 15% attendance, readmission fee waiver possible?
+  - readmission fee waiver for health break
+  - who approves waiver of 25% readmission fee
+  - medical break with almost no attendance - fee waiver possible?
+  - vc office approval for readmission fee waiver
+  F0067:
+  - what is the readmission fee
+  - how many times can I take re-admission in the same year?
+  - failed the year, how much to rejoin
+  - readmission after failing first year, fees?
+  - readmission fee is 25% of what exactly
+  - can i take readmission twice in second year
+  F0068:
+  - what is academic bank of credits
+  - can i exit btech after 2 years and come back later
+  - ABC credits nmims
+  - exit after first year with certificate possible under NEP?
+  - what happens to my credits if i exit early
+  - can i rejoin btech after exiting with credits
+  - seven years limit for re-entry after exit?
+  F0069:
+  - what happens if i don't attend college for a month
+  - absent for 3 weeks without telling anyone, will my admission be cancelled?
+  - what happens after 21 days of absence without informing
+  - what if i'm absent for 3 weeks with prior intimation to HOD
+  - Due to a family situation I had to leave Mumbai suddenly and have not attended college for about four weeks without informing anyone. I received an email from the Dean's office. What happens now?
+  - query: our daughter has not attended college for a month due to illness and we got a mail from the Dean, what should we do
+    user_type: parent
+  F0070:
+  - can i enter the library without id card
+  - do alumni have access to the library?
+  - can i bring a guest to the library
+  - library access for students whose id card is lost
+  F0071:
+  - can I use my phone in the library
+  - what's the punishment for talking on phone in library
+  - is food allowed in nmims library
+  - coffee allowed in library?
+  - can i take calls in the library
+  F0072:
+  - how many books can i borrow from the library
+  - for how many days can I keep a library book
+  - how to issue books in mpstme library
+  - can i borrow 3 books at once
+  - can i issue books at the counter or only at kiosk
+  - how many books
+  - book borrow limit
+  F0073:
+  - can i renew a library book
+  - how many times can i renew a book
+  - can I renew it again after that?
+  - renew book that someone else has reserved?
+  - book renewal only once?
+  - extend library book due date
+  F0074:
+  - library late fine per day
+  - returned book 5 days late, how much fine
+  - unpaid library fine, can i still borrow?
+  - where to check my library dues
+  - borrowing blocked because of fine, how to unblock
+  - library fine on 2 books for 4 days late
+  - library fine stops e-resource access too?
+  - fine of 3 rs per day per book or total
+  - I returned two books to the MPSTME library 12 days late because I was out of town. My borrowing has been blocked. How much fine do I owe and how do I get my borrowing rights back?
+  - and if i don't pay the fine?
+  - lib fine
+  - library fine kitna hai
+  F0075:
+  - lost a library book, what do i pay
+  - damaged a library book by spilling water
+  - lost a library book, can i buy a new copy instead of paying
+  - torn pages in a library book i borrowed, will i be charged
+  - administrative charge for lost library book
+  F0076:
+  - can i take reference books home
+  - can journals be issued?
+  - can i borrow a magazine from the library
+  - can i take a library dvd home
+  - periodicals for home issue?
+  - can journals leave the library
+  F0077:
+  - will my degree be held back if i have a library book pending
+  - library fine unpaid, will it affect my degree?
+  - will library fine delay my degree certificate
+  - unreturned library book before convocation, degree delayed?
+  - library clearance needed before getting degree
+  - do i need to clear library fines for my degree
+  F0078:
+  - does nmims have IEEE access
+  - is turnitin available for students
+  - which e-resources do we get
+  - is jstor accessible for btech students
+  - is DrillBit available for plagiarism check
+  - nptel access through library?
+  F0079:
+  - a website i need for my project is blocked on college wifi
+  - how to unblock a site on campus internet
+  - github pages blocked on campus wifi
+  - website blocked
+  - kaggle site blocked on college network, how to get access
+  - request to unblock a website - which email
+  F0080:
+  - do we get an nmims email id
+  - how much onedrive storage do students get
+  - do we get ms teams access
+  - ms teams login for online lectures
+  - outlook email for nmims students login
+  - college email id
+  - onedrive space
+  F0081:
+  - computer lab pc not working, how to complain
+  - lab computer keeps crashing, whom to tell
+  - verbal complaint to lab assistant enough?
+  - complaint register in computer lab
+  - printer not working in computer centre
+  - internet down in lab complaint process
+  F0082:
+  - need extra bandwidth for an event we're organising
+  - how early to request IT support for a college event
+  - it request form for fest bandwidth
+  - livestream for fest needs more bandwidth, process
+  - IT support for event - how many hours before to request
+  - need HOD approval for IT event request?
+  F0083:
+  - got a phishing email on my college id, where to report
+  - report a security incident nmims
+  - someone hacked my college email, report where
+  - suspicious login on my nmims account, report where
+  - found a security vulnerability in college portal, whom to tell
+  F0083+F0006:
+  - someone is misusing my id card and my account, where do I report this
+  F0084:
+  - what is the student portal login
+  - my sap id is my portal username?
+  - portal link nmims
+  - first login portal password where
+  - portal password not received from course coordinator
+  - I am a new student and have received my SAP number but I don't know how to log in to the student portal. What is the URL and what are my login credentials?
+  - portal login
+  - portal username
+  F0085:
+  - forgot my portal password
+  - can't log in to student portal
+  - forgot password portal
+  F0086:
+  - where can i see the exam timetable on the portal
+  - where are ICA marks displayed
+  - ica marks not visible on portal
+  - exam timetable announcement on portal or email?
+  - where are course announcements posted
+  - do assignments get uploaded on the portal
+  F0087:
+  - can i book hostel through the student portal
+  - hostel booking option on portal for first years
+  - can returning students book hostel on portal
+  - portal hostel booking needs full fee payment?
+  - hostel booking via LMS
+  - why can't i see hostel booking on my portal
+  F0088:
+  - how to request a letter of recommendation
+  - LOR from nmims through portal?
+  - need lor from my professor for masters, any official process
+  - professor agreed to give LOR, does it go through the portal?
+  - portal name validation for marksheet
+  - photo upload on student portal for marksheet
+  F0089:
+  - how do I choose open electives at mpstme
+  - open elective selection portal
+  - open elective list for sem 5 mpstme
+  - open elective
+  - open elective choice deadline on portal
+  - can't see open elective options on portal
+  F0090:
+  - portal not working, who to contact
+  - student portal helpline number
+  - portal app team phone number
+  - portal app team email
+  - student app not working who to contact
+  - portal support phone number
+  F0091:
+  - can i file a grievance on the portal
+  - grievance option in LMS
+  - raise complaint through student portal
+  - where in the portal do i lodge a grievance
+  - online grievance process nmims
+  - portal grievance section
+  F0092:
+  - do we get a faculty mentor
+  - who can help me choose courses
+  - how to find out who my faculty mentor is
+  - faculty mentor meeting how often
+  - mentor for course selection mpstme
+  - who helps with choosing electives
+  F0093:
+  - I am feeling very stressed and anxious, is there a counsellor
+  - how do i book a session with the college psychologist
+  - mental health support at mpstme
+  - counsellor appointment for homesickness
+  - exam stress counsellor appointment mpstme
+  - can i see the psychologist without telling my parents
+  - For the last few weeks I have been feeling very low, unable to sleep and unable to concentrate during lectures. I don't want to tell my friends. Is there someone at college I can talk to confidentially?
+  - having a panic attack before exam, is anyone available to talk right now
+  - counsellor
+  - need to talk to someone
+  - feeling low
+  F0094:
+  - nmims mental health support page
+  - link for mental health support nmims
+  - student support services page
+  - nmims wellbeing resources online
+  - where to find counselling info on nmims website
+  - mental health page url
+  F0095:
+  - is travel reimbursed for national contests
+  - going for a national hackathon, will college pay for travel?
+  - grade B contest travel reimbursement only if we win?
+  - Our team has qualified for the finals of Smart India Hackathon in Delhi. Will the college reimburse our train tickets and what is the process to claim it?
+  - which contests count as grade A
+  F0096:
+  - how to claim reimbursement for contest travel
+  - won a competition, do i need to tell the college?
+  - submit contest bills to whom
+  - deadline to report contest win
+  - contest reimbursement documents
+  - won hackathon, what to submit within 7 days
+  F0097:
+  - what do i need to receive my degree at convocation
+  - do i need a migration certificate to get my degree?
+  - convocation eligibility nmims
+  - pending hostel dues - can i still collect my degree at convocation
+  - will i get my degree at convocation if i haven't submitted the migration certificate
+  F0098:
+  - told i'm not eligible for the degree at convocation, can i appeal?
+  - how late can i request reconsideration before convocation
+  - deadline to request reconsideration for degree eligibility
+  - found ineligible for degree two days before convocation, what now
+  - can i appeal on convocation day
+  - 48 hours rule convocation
+  F0099:
+  - how many students from each school are in NUSC
+  - what is NUSC
+  - how are NUSC members selected
+  - how to join university student council
+  - nusc representatives finalised by whom
+  - student council at university level nmims
+  F0100:
+  - is there a fee for appearing in the re-exam
+  - do we have to pay again to give the re exam
+  - re exam fees decided by whom
+  - how much are re-exam fees decided
+  - re exam fees same every year?
+  - who communicates re-exam fee
+  F0101:
+  - how to get my hostel deposit back
+  - hostel deposit refund procedure
+  - how long does the hostel deposit refund take?
+  - hostel deposit receipt lost, can i still get refund
+  - hostel deposit refund needs whose signature
+  - 3 weeks over and still no hostel deposit refund
+  - I have completed my final year and moved out of G.R. Jani Hostel. How can I claim my hostel security deposit refund? Do I need anybody's signature on the receipt?
+  - hostel deposit refund
+  F0101+F0318:
+  - finished my course, how and when do i get my hostel deposit refunded
+  F0102:
+  - when do we get library and security deposit back
+  - security deposit refund after graduation process
+  - security deposit refund - do i need to apply or is it automatic after course
+  - library deposit refund kab milega
+  - security deposit refund
+  F0103:
+  - i'm being ragged by seniors, what do i do
+  - anti ragging undertaking where to fill
+  - do we need to submit anti-ragging affidavit every year
+  - anti ragging squad mumbai campus contact
+  - ragging outside campus by college seniors - does nmims act on it?
+  - where to fill anti ragging undertaking online
+  - A few seniors in my hostel have been forcing first years to do humiliating tasks at night. I am scared to report it in case they find out. What should I do and who can I contact?
+  - urgent - seniors threatening me in hostel tonight
+  - ragging
+  - seniors ragging me
+  F0104:
+  - who heads the anti ragging committee
+  - is there a separate anti-ragging committee for hostels
+  - hostel anti ragging committee contact
+  - registrar heads anti ragging committee?
+  - anti ragging committee for mumbai hostels
+  - ragging in hostel - which committee
+  F0105:
+  - how to report sexual harassment at nmims
+  - is there an internal complaints committee
+  - harassment by someone outside campus, can icc help
+  - professor making inappropriate remarks, which committee
+  - I would like to report an incident of inappropriate comments and unwanted messages from a fellow student. Which committee handles such complaints at NMIMS?
+  - harassment complaint
+  F0106:
+  - is there a women grievance cell
+  - where can girl students report issues
+  - women grievance committee at mpstme
+  - women grievance cell nmims members
+  - university women grievance cell contact
+  - who is member secretary of women grievance cell
+  F0107:
+  - who heads the university grievance committee
+  - university grievance redressal committee chair
+  - who chairs the student grievance committee
+  - retired judge ombudsman nmims
+  - grievance committee composition
+  - ombudsman for student grievances nmims
+  F0108:
+  - facing caste discrimination, where to complain
+  - is there an equal opportunity cell
+  - obc student facing discrimination in group projects, where to report
+  - caste discrimination complaint
+  - sc st student harassment where to report
+  F0109:
+  - not satisfied with the grievance committee decision, what next
+  - what is the ombudsman for
+  - how long does the ombudsman take
+  - ombudsman decision timeline
+  - ombudsman contact nmims
+  - I raised a grievance regarding an unfair decision on my readmission and the University Grievance Redressal Committee rejected it. I believe the decision was wrong. Is there any higher authority I can appeal to?
+  F0110:
+  - which hostels does nmims have in mumbai
+  - girls hostel options near vile parle campus
+  - boys hostel name nmims mumbai
+  - list of nmims hostels mumbai
+  - residential flats for boys nmims
+  - how many hostels does nmims have
+  F0111:
+  - where is the mpstme counsellor's office
+  - counsellor cabin mpstme new building
+  - where to meet counsellor at mpstme
+  - counsellor location mpstme ground floor
+  - is the counsellor in the old building or new mpstme building
+  - mpstme psychologist room
+  F0112:
+  - leave application format for missing classes
+  - intimation for absenteeism form who signs
+  - how to inform about my absence officially
+  - absence intimation form for a family wedding
+  - who approves the absenteeism form finally
+  - absenteeism form for representing college at a sports meet
+  - attach what with intimation for absenteeism
+  F0113:
+  - how to apply for student exchange
+  - documents for international exchange application
+  - can I study abroad for a semester through nmims
+  - exchange form preferences how many universities
+  - exchange application needs passport already?
+  - I am a third year MBA Tech student with a CGPA of 3.6 and I am interested in a semester exchange abroad. What is the application process, and what documents are required at the time of applying?
+  - exchange program
+  - sem abroad
+  F0114:
+  - what documents for exchange program after selection
+  - documents after getting selected for exchange
+  - medical insurance copy needed for exchange?
+  - ticket copy submission for exchange
+  - visa copy needed by college for exchange
+  - what to give college before leaving for exchange
+  F0115:
+  - need a visa letter for my exchange semester
+  - who issues the noc for student visa
+  - visa letter for exchange - signed by whom
+  - letter for consulate for exchange semester
+  - dean signed visa letter how to get
+  F0116:
+  - to whom is the scribe application addressed
+  - deadline to submit the writer form before exams
+  - scribe form needs to be submitted how many days before?
+  - scribe application addressed to controller of examinations?
+  - annexure 6 scribe form
+  F0117:
+  - lost my fee receipt, how to get a duplicate
+  - duplicate fee receipt charges
+  - need a duplicate hostel fee receipt, how long
+  - can i get a copy of my old fee receipt
+  - duplicate fee receipt takes 7 days?
+  - duplicate fee receipt for hostel fees 2025
+  - where do i submit the duplicate fee receipt application
+  - I misplaced the original fee receipt for the academic year 2024-25 and need it for my income tax filing. What is the procedure to obtain a duplicate receipt, the charges, and how long will it take?
+  - duplicate fee receipt
+  - fee receipt lost
+  F0117+F0118:
+  - lost my fee receipt and also need a refund of excess fee - what do I submit
+  F0118:
+  - paid excess fees by mistake, how to get it back
+  - refund form needs whose bank account?
+  - is cancelled cheque compulsory for refund
+  - can the refund go to my mother's account
+  - excess deposit refund, what bank details needed
+  F0119:
+  - what attachments for excess fee refund
+  - documents needed for lab deposit refund
+  - lab deposit refund who signs
+  - original receipt needed for excess fee refund
+  - photocopy of fee receipt for refund
+  - hostel deposit refund attachments
+  F0120:
+  - how to apply for migration certificate from nmims
+  - migration certificate documents required
+  - joining another university for my masters, need migration cert
+  - what to attach with migration certificate application
+  - migration certificate for an indian university vs foreign university, same process?
+  - do i need a migration certificate if i'm going abroad for masters
+  - I have completed my B Tech from NMIMS and will be joining an M Tech programme at another university that requires a migration certificate. Kindly explain the application process and the fee.
+  - migration certificate
+  - migration certi
+  F0121:
+  - migration certificate fee
+  - how do i pay for the migration certificate
+  - is migration certificate payment online?
+  - is migration certificate fee paid by cash or online
+  - migration fee
+  - migration certificate payment mode
+  F0122:
+  - who signs the clearance certificate
+  - no dues form - which departments need to sign
+  - clearance certificate procedure before leaving college
+  - clearance certificate needed before leaving college midway?
+  - which signatures are needed on no dues if i'm a day scholar
+  - no dues form
+  - clearance cert
+  F0123:
+  - do we need to submit the SRB undertaking
+  - deadline for student undertaking form
+  - srb undertaking signature from parents too?
+  - submit srb undertaking to whom
+  - 7 days for undertaking from when
+  - what if i miss srb undertaking deadline
+  F0124:
+  - where can i check daily attendance
+  - is syllabus available on the portal
+  - mpstme lms features
+  - teaching scheme on portal
+  - notices on lms mpstme
+  - daily attendance on lms
+  F0125:
+  - maximum years to complete btech at nmims
+  - how long can I take to finish mba tech
+  - program validity for diploma
+  - mba tech 7 years max - including readmission years?
+  - m tech max duration nmims
+  - phd max duration mpstme
+  - I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years within which I must complete the programme?
+  F0125+F0067:
+  - failed multiple years, will i run out of time to finish my btech?
+  F0126:
+  - can the CR cancel a lecture
+  - how is the class representative chosen?
+  - query: can the class representative ask me to cancel a lecture?
+    user_type: faculty
+  - CR selection criteria mpstme
+  - role of class representative
+  - can CR reschedule lectures with faculty
+  F0127:
+  - i don't want to sit for placements, what do i do
+  - opting out of placements for higher studies, is there a form?
+  - going for higher studies, do i still have to sit for placements
+  - opt out placements
+  - opt out of placement for family business
+  F0128:
+  - how long is the internship for btech
+  - mba tech internship duration
+  - when do mbatech students go for management internship
+  - mba tech technical internship how many weeks
+  - mca internship whole semester?
+  - b tech internship in which semester
+  - internship duration
+  F0129:
+  - mpstme international partner universities
+  - where can i enquire about semester abroad at mpstme
+  - does mpstme have ties with US universities
+  - dual degree option mpstme abroad
+  - summer school abroad options for mpstme students
+  - mpstme international linkages website
+  - enquiry form for international programmes mpstme
+  F0130:
+  - what is the passing criteria at MPSTME
+  - do i need 40 in TEE separately or just overall
+  - I got 45 total but 35 in the end sem paper, have I passed?
+  - minimum marks to pass a subject in btech nmims
+  - got 38 in TEE but 70 in ICA, pass or fail?
+  - 40% aggregate means out of 100 total?
+  - passing marks
+  - pass hone ke liye kitna chahiye
+  - 40 in tee compulsory?
+  F0131:
+  - how are ICA and TEE marks split at mpstme
+  - TEE is out of 100, how does it count in the final 100?
+  - weightage of internals vs end sem
+  - how are 100 marks divided between ICA and end sem
+  - TEE marks scaled down to 50?
+  - ica 50 tee 50 at mpstme?
+  F0132:
+  - I failed a subject, what now
+  - flunked maths 2, how do i give the re-exam
+  - will my ICA marks carry forward to the re-exam?
+  - do i need to fill a form for re exam or is it automatic
+  - got F in DBMS what is the next step
+  - failed my lab exam (TEE lab), is there a re exam
+  - Hello, I am a second year B Tech Computer Engineering student (SAP ID 70022300145). I have failed in Operating Systems in the recent TEE. Could you please explain how I can appear for the re-examination and whether my ICA marks will be retained?
+  - failed in 1 sub
+  - kt aa gayi
+  - re exam how
+  - F grade now what
+  F0132+F0139+F0140:
+  - failed one subject - how do i apply for the re-exam, how much does it cost and till when?
+  F0133:
+  - can I give the re exam more than once in the same year
+  - want to improve my internal marks, can i redo ICA?
+  - how many re-exams are conducted per subject
+  - passed but want better ICA marks - can i redo the internals only
+  - so there's no second re-exam this year?
+  - one re-exam per course only?
+  F0134:
+  - are there remedial lectures before the re exam?
+  - will faculty take extra classes for students who failed
+  - re-exam remedial class attendance compulsory?
+  - remedial classes before re exam on request
+  - minimum students for remedial classes
+  - remedial lecture attendance rule
+  F0135:
+  - i have 2 F grades after re-exam, will i be promoted to next year
+  - ATKT rule for btech at mpstme
+  - can i go to third year with two backlogs
+  - 2 F in sem 3 and 0 in sem 4, will i be promoted
+  - 2 kt promotion?
+  - atkt rules
+  F0136:
+  - got 3 F grades this year, what are my options
+  - what is year back at nmims
+  - more than two KTs in a year — do I have to repeat the whole year?
+  - difference between readmission and year back
+  - year back students attend classes?
+  - year back vs readmission which is cheaper
+  - I have ended up with four F grades after the re-exams this year in MBA Tech. My parents are worried. Can you explain exactly what options are available to me now and what the difference is between readmission and taking a year back?
+  - query: my son failed in 3 subjects this year, does he have to repeat the entire year?
+    user_type: parent
+  - 3 kt
+  - year back kya hai
+  - 4 F grades help
+  F0137:
+  - can I enter 3rd year with a first year backlog pending
+  - do all first year subjects need to be cleared before third year
+  - first year backlog and fourth year admission
+  - can i go to 4th year with 2nd year KT
+  - promotion to third year needs first year all clear?
+  - backlog of 1st year pending in 3rd year allowed?
+  F0138:
+  - MCA year back student, how many re exam attempts do i get
+  - mtech failed subject year back re-exam chances
+  - mca year back re-exam attempts
+  - m tech failed subject - two attempts only?
+  - year back fees mca
+  - mca re-exam chances in one year
+  F0139:
+  - how much is the re exam fee per subject
+  - re-exam fees for 3 subjects?
+  - cost of reappearing for one paper
+  - re exam fee for 2 subjects with late fee total
+  - re exam fee
+  - reexam fees per subj
+  F0140:
+  - till when is the re-exam form open
+  - re exam registration window how many days
+  - what time does the re-exam portal close
+  - reexam portal open for how many days after timetable
+  - re exam form last date
+  - reexam portal closes when
+  F0141:
+  - missed the re-exam form deadline, can i still apply with late fee?
+  - late fee for re examination application
+  - re-exam application closed yesterday, any late window?
+  - is the 5000 late fee per subject or total
+  - is there a late fee for the re-exam form
+  - The re-exam application window closed yesterday at 4 pm and I could not apply because I was travelling. Is there any provision for a late application, and what is the fee?
+  - re-exam form closed and i haven't applied, please help urgently
+  - re exam late fee
+  - missed reexam form
+  F0142:
+  - what grade is 75 marks at nmims
+  - grade points for A+
+  - what does P grade mean
+  - how many points is an O grade
+  - what is the grade for 55 marks
+  - C grade means how many points
+  - A+ means?
+  - O grade marks range
+  F0143:
+  - how is CGPA calculated
+  - difference between GPA and CGPA in nmims
+  - is cgpa weighted by credits?
+  - cgpa calc
+  - gpa formula nmims
+  - does cgpa include failed subjects
+  F0144:
+  - was absent for TEE, can I give the re exam
+  - I was absent for the re-exam too, any more chances this year?
+  - what does AB mean on my result
+  - absent in TEE because of covid, will it show AB on grade sheet
+  - what if i miss the re-exam as well?
+  F0145:
+  - what's required for degree certificate apart from passing
+  - do i need to clear accounts and library dues for my degree
+  - admission documents pending, will it block my degree
+  - degree withheld because of pending admission documents, how to fix
+  - dues to be cleared before degree
+  - degree certificate requirements list
+  F0146:
+  - can diploma students join btech first year
+  - lateral entry to second year btech after diploma
+  - minimum cgpa for D.Voc to btech
+  - direct second year btech registration date 2026
+  - diploma 3rd year done, direct second year btech eligibility
+  - dvoc students computer science btech allowed?
+  - dvoc to btech
+  F0147:
+  - is community service compulsory
+  - when do we do community service in btech
+  - community service how many weeks
+  - community service for first years in summer
+  - is community service graded
+  - community service mandatory for degree?
+  F0148:
+  - when are end sems for odd sem 2026
+  - odd semester TEE dates 2026
+  - when is the re-exam for first sem
+  - lab exam dates november 2026
+  - winter vacation dates 2026-27 mpstme
+  - when is TEE lab exam odd sem 2026
+  - first year btech orientation date 2026
+  - I want to book train tickets to go home in December. Could you tell me when the odd semester term end exams and lab exams end for B Tech this year so that I can plan my travel?
+  - end sem dates
+  - tee kab hai
+  - re exam dates odd sem
+  F0149:
+  - when does even semester start
+  - even sem end sem exams dates 2027
+  - re exam for even sem when?
+  - mtt 2 even sem 2027 dates
+  - even sem start date
+  - even sem 2027 start date
+  F0150:
+  - diwali vacation 2026 dates mpstme
+  - when does next academic year start
+  - diwali vacation
+  - academic year 2027-28 start date
+  - diwali holidays mpstme 2026
+  - when does college reopen after diwali
+  F0151:
+  - mid term test dates odd sem
+  - when is MTT 1 this sem
+  - mid sem schedule 2026
+  - mid term test 2 odd sem 2026 date
+  - management subjects mid term test dates
+  - mtt dates
+  F0152:
+  - will classes happen on holidays
+  - can lectures be held on gudi padwa
+  - is may 1 a holiday for lectures
+  - lectures on national holidays?
+  - will classes be held on independence day
+  - holiday list but lectures scheduled?
+  F0200:
+  - where are re-exam registration dates mentioned
+  - how to register for reexam online
+  - re-exam registration kaha karna hai
+  - re-exam instructions to candidates where
+  - how to register for re-examination on sap
+  - re exam registration window info
+  F0201:
+  - unhappy with my end sem marks, what can I do
+  - not satisfied with re exam result, can i still apply for grievance?
+  - grievance after re-exam result possible?
+  - not happy with re exam marks, revaluation?
+  - can i challenge my TEE marks
+  F0202:
+  - what is a transcript exactly
+  - difference between transcript and grade sheet
+  - does the nmims transcript mention medium of instruction?
+  - does transcript show sem wise GPA
+  - will my transcript show the credit structure?
+  - what information is on an nmims transcript
+  F0203:
+  - how to apply for transcript
+  - Where can I apply for transcript?
+  - i need hard copy of transcript, how do i request
+  - transcript application link nmims
+  - need my transcripts for MS applications, how?
+  - sealed hard copy of transcript to my home address possible
+  - transcript needed for H1B evaluation
+  - need 2 copies of transcripts for USC and one for CMU, can i order them in one go?
+  - applying for MS in the US, does nmims issue official transcripts electronically
+  - do i need my degree certificate uploaded for the transcript application if convocation hasn't happened
+  - MBA Tech grad 2024 - transcript for job abroad
+  - is the transcript application only through the nmims website?
+  - I graduated from MPSTME in 2022 with a B Tech in Electronics and Telecommunication. I am now applying to universities in Germany and require official transcripts. Could you please tell me how to apply and the processing time?
+  - query: I passed out in 2018, can I still apply for transcripts online?
+    user_type: alumni
+  - query: alumnus here, need 3 sealed transcripts for my PhD applications
+    user_type: alumni
+  - transcript
+  - transcripts kaise milenge
+  - e-transcript link
+  F0203+F0208:
+  - applying to canada, need transcripts plus WES, what's the process
+  F0204:
+  - need a percentage letter for a job application
+  - what is a statement of marks
+  - company is asking for percentage instead of cgpa, what doc do i get
+  - statement of marks application link
+  - percentage letter for MBA admissions in india
+  - company placement form needs aggregate percentage, what doc
+  - statement of marks for all 8 semesters btech
+  - do i get the percentage letter as a pdf
+  - percentage letter
+  - SOM letter
+  F0204+F0206:
+  - I need my marks for another university and they want percentage, not cgpa
+  F0205:
+  - my name is spelled wrong on my grade sheet
+  - mother's name incorrect on degree certificate, how to fix
+  - name correction in marksheet nmims process
+  - changed my surname after marriage, need it updated on degree
+  - father's name printed wrong on grade sheet
+  - date of birth wrong on marksheet, how to correct
+  - My first name has been printed as 'Siddarth' instead of 'Siddharth' on my degree certificate. What documents should I submit to get it corrected and which office should I approach first?
+  - query: alumni - my surname changed after marriage, can my degree certificate be updated
+    user_type: alumni
+  - name wrong on degree
+  - spelling mistake in marksheet
+  F0206:
+  - how to convert cgpa to percentage nmims
+  - is there a formula for cgpa to percentage?
+  - multiply cgpa by 10 for percentage at nmims??
+  - is there an official cgpa to percentage formula for mpstme
+  - university abroad needs percentage equivalent of my 3.2 cgpa
+  - cgpa to % formula
+  - cgpa into percentage
+  F0207:
+  - how do i get a provisional degree certificate
+  - need provisional certificate since convocation is far away
+  - How do I get a provisional degree?
+  - provisional certificate needed for govt job application
+  - do I need to pay for a provisional certificate?
+  - provisional degree certificate - written application to whom
+  - My convocation is scheduled for next year but my employer requires proof of degree completion within a month. Can NMIMS issue a provisional degree certificate and how do I request it?
+  - provisional degree
+  - provisional certi
+  F0208:
+  - I need my transcript for WES
+  - can i courier my transcripts to WES myself
+  - WES evaluation documents from NMIMS how
+  - wes says documents must come from the university, how does nmims send them
+  - WES says nmims documents not received yet, what to do
+  - WES evaluation for ECA - what does nmims send
+  - can i use the nmims e-transcript for WES
+  - wes reference number where do i put it in nmims application
+  - I am applying for a Canadian PR and WES requires my academic documents to be sent directly by the university. How do I get NMIMS to send my transcripts and degree to WES?
+  - wes
+  - wes documents nmims
+  - transcript for wes
+  F0209:
+  - are grade sheets issued every sem
+  - when are grade sheets issued at nmims
+  - grade sheet annual or semester wise
+  - when do grade sheets come out
+  - grade sheet issue frequency
+  - do we get a grade sheet after each year
+  F0210:
+  - when is the exam timetable released
+  - where can i see the end sem time table
+  - how many days before exams does the timetable come out?
+  - re-exam timetable out yet?
+  - where is the mpstme exam timetable on website
+  - timetable published how many days before exam
+  F0211:
+  - the re exam portal is showing an error, who do i contact
+  - unable to apply for re-exam on SAP, need help urgently
+  - portal glitch while paying re exam fees
+  - error 'payment failed' on reexam booking, whom to mail
+  - email for sap portal problems re-exam
+  - screenshot needed for portal issue mail?
+  F0212:
+  - how many days for the transcript to be processed
+  - graduated in 2009, will my transcript take longer?
+  - what to upload for transcript application
+  - transcript processing time nmims
+  - single pdf or separate files for transcript upload?
+  - 3 working days for transcript - does that include weekends
+  - query: graduated in 2010, how long will my transcript take
+    user_type: alumni
+  F0213:
+  - how long does a percentage letter take
+  - documents to upload for statement of marks
+  - percentage letter takes how many days after applying
+  - percentage letter documents upload
+  - statement of marks processing days
+  - SOM letter time required
+  F0214:
+  - what details to include in provisional certificate application
+  - how many working days for provisional certificate
+  - provisional certificate application signed by me or parent?
+  - provisional certificate written application details
+  - provisional certificate 7 working days?
+  - what to mention in provisional certificate request
+  F0215:
+  - how long does a clearance certificate take
+  - applying for clearance certificate, what to write
+  - clearance certificate in one day?
+  - how to apply for clearance certificate
+  - clearance certificate written application format
+  - reason for leaving needed for clearance certificate?
+  F0216:
+  - lost my marksheet, how to get a duplicate
+  - need duplicate marksheet
+  - duplicate grade sheet processing time
+  - my 2nd year grade sheet got damaged in rain, what now
+  - duplicate grade sheet for 1st year alone possible?
+  - damaged degree certificate, need a fresh copy
+  - lost all my grade sheets in a flood, what documents for duplicates
+  - Unfortunately my original grade sheets for the second and third year were lost while shifting houses. I need duplicates for my job joining formalities. Please let me know the process, fee and time required.
+  - query: passed out 5 years back and lost my degree, can I get a duplicate
+    user_type: alumni
+  - duplicate marksheet
+  - lost marksheet
+  - marksheet kho gayi
+  F0216+F0404:
+  - lost my sem 3 marksheet - what's the indemnity bond thing and how long will it take
+  F0217:
+  - need a cgpa letter for my internship application
+  - how to get a GPA certificate
+  - cgpa letter processing days
+  - cgpa letter for passport/visa purposes
+  F0218:
+  - can nmims send transcripts directly to universities abroad
+  - need transcript for immigration, can i apply
+  - transcript for placement purpose possible?
+  - transcript sent electronically to foreign universities?
+  F0219:
+  - I didn't know the re-exam dates, can i get an exception?
+  - nobody told us about the re exam window, can i still fill the form
+  - missed re-exam form because i didn't check portal, can i apply
+  - didn't know re exam window, any exception
+  - excuse for missing reexam registration
+  - unaware of re-exam dates, will they allow late form
+  F0220:
+  - examnmims email for exam portal issues?
+  - examnmims email what for
+  - re-exam form problem email examnmims
+  - contact for exam portal issue faq
+  - faq email for re-exam application issues
+  - examnmims@nmims.edu or sapbasis?
+  F0221:
+  - where to send duplicate degree application
+  - address for duplicate degree certificate request
+  - exam department address vile parle for posting duplicate application
+  - controller of examinations address
+  - duplicate degree application to controller?
+  - where to post duplicate certificate request
+  F0222:
+  - can i email my duplicate marksheet request
+  - do i need to submit hard copies for duplicate grade sheet?
+  - alumni here, how do i apply for a duplicate grade sheet
+  - can my father submit the duplicate marksheet form on my behalf at college?
+  - query: I'm an alumnus living abroad, can I email my duplicate degree application?
+    user_type: alumni
+  F0223:
+  - do i need to give back my original degree for correction
+  - correction in degree certificate, what about the original
+  - original degree surrendered for correction, how long for new one
+  - surrender original for correction?
+  - correction process original document
+  - need to give original degree back for name change
+  F0224:
+  - fees for duplicate degree certificate
+  - how much for a duplicate grade sheet
+  - cost of duplicate marksheet and degree
+  - Can I get a duplicate degree certificate?
+  - total cost for 4 duplicate grade sheets
+  - is the fee for name correction same as duplicate fee?
+  - duplicate degree fee
+  F0225:
+  - company wants to verify my degree, how does it work
+  - background verification agency asking for edu verification process at nmims
+  - who should send the education verification request?
+  - details needed for verifying a nmims degree
+  - what student details does the verifier need to send
+  - does nmims verify degrees for foreign employers too?
+  - student number is 11 digits right? needed for verification form
+  - We are a background verification agency conducting an education check for a candidate who claims to hold a B Tech from MPSTME, NMIMS (2019). Please advise the procedure, charges and turnaround time for verification.
+  - query: We need to verify the degree of a candidate from NMIMS. What details should we send?
+    user_type: external
+  - query: HR here - how do we verify a NMIMS graduate's CGPA and degree
+    user_type: external
+  - degree verification
+  F0225+F0226+F0227:
+  - employer wants to verify my nmims degree urgently, how much and how long?
+  F0226:
+  - education verification charges
+  - is gst charged on verification if i apply myself
+  - urgent education verification fee
+  - how much does it cost to verify a degree from 2015
+  - demand draft for education verification payable to whom
+  - verification charges for someone who graduated 8 years ago
+  - why is GST added to education verification fee
+  - query: verification charges for a candidate who graduated in 2012?
+    user_type: external
+  - edu verification fee
+  F0227:
+  - how long does education verification take
+  - can nmims confirm my degree over the phone for my employer?
+  - regular vs urgent verification timeline
+  - query: urgent verification needed within 2 days for a candidate's onboarding
+    user_type: external
+  F0228:
+  - paid for verification online, where to send the receipt
+  - query: we paid the verification fee by NEFT, where should we send the acknowledgement?
+    user_type: external
+  - verification payment acknowledgement email
+  - after neft for verification, what to do
+  - send bank receipt for verification to whom
+  - accountant@nmims.edu for verification payment
+  F0229:
+  - Where do I submit my hostel form?
+  - how to apply for nmims hostel
+  - hostel portal is closed, how to apply now
+  - email id for hostel application mumbai
+  - hostel application for MBA Tech 3rd year student
+  - is hostel form available on website
+  - hostel form for second year students, same email?
+  - can i submit the hostel form in person instead of email
+  - Hello, I am a first year student from Jaipur joining MPSTME this July. I want hostel accommodation near the Vile Parle campus. I tried the hostel portal but it is not available. How should I apply now?
+  - hostel form
+  - hostel apply
+  - hostel kaise milega
+  F0230:
+  - documents for hostel application first year
+  - do i need to attach fee receipt with hostel form
+  - hostel form without fee receipt accepted?
+  - fee receipt copy with hostel form
+  - first year hostel form attachments
+  - incomplete hostel application rejected?
+  F0231:
+  - how long does hostel approval take
+  - applied for hostel 2 days ago, when will i hear back?
+  - when will i get hostel fee payment details
+  - hostel approval email not received after 4 days
+  - sent the hostel form already, now what?
+  - hostel approval mail timeline
+  F0232:
+  - will i get full refund if i cancel btech admission now
+  - last date for full refund for engineering admission 2026
+  - refund policy for technical programs on cancellation
+  - cancelled my mba tech admission on 25th july, refund?
+  - cancellation refund policy for non technical programs
+  - is the 20 july full refund rule for all technical programs
+  - cancelled on 21st july, will any amount be refunded?
+  - My son has been admitted to the B Tech programme at MPSTME and we wish to cancel the admission. If we apply on 18th July 2026, will we receive a full refund? What is the policy after that date?
+  - query: as a parent, when is the last date to cancel my child's btech admission with full refund
+    user_type: parent
+  - refund on cancellation
+  - full refund date
+  F0233:
+  - how many days for admission cancellation refund
+  - cancelled admission 2 weeks back still no refund
+  - refund for cancellation - credited where and when
+  - and how long will the refund take after that?
+  F0234:
+  - steps to upload admission cancellation documents
+  - do i need to print and sign the cancellation form
+  - sign the cancellation form before upload
+  - upload fee receipt for cancellation
+  - cancellation step 2 upload
+  - printed signed form for admission withdrawal
+  F0235:
+  - withdrew after classes started, can i get a leaving certificate
+  - leaving certificate after admission cancellation
+  - migration certificate after withdrawal
+  - leaving certificate on cancellation
+  - post-commencement withdrawal - certificates?
+  F0236:
+  - does the cancellation policy apply to online distance programmes?
+  - online mba cancellation refund same rules?
+  - distance learning programme refund
+  - ncdoe admission cancellation policy
+  - online programme cancellation rules
+  - does nmims refund policy cover online courses
+  F0237:
+  - can i get a paper copy of my transcript delivered home
+  - do i need to visit campus for transcripts?
+  - are courier charges extra for transcript
+  - helpdesk for e-transcript application issues?
+  F0238:
+  - what is the international student exchange program
+  - who handles international exchange at nmims
+  - one term abroad program
+  - international office nmims
+  - student exchange for one term
+  - exchange program overview nmims
+  F0239:
+  - anti ragging helpline number
+  - national anti ragging helpline
+  - ragging helpline
+  - toll free number to report ragging
+  - anti ragging email helpline
+  - 24x7 ragging helpline
+  F0240:
+  - who is eligible for the re-examination
+  - can students with D grade apply for re exam?
+  - if i got caught for UFM in TEE can i still give the re-exam
+  - D grade students eligible for re exam at nmims?
+  - who can apply for reexam
+  - ufm case - re-exam eligibility
+  F0241:
+  - steps to book re-exam on SAP portal
+  - what is my login id for the SAP student portal
+  - where do failed subjects show for re-exam booking
+  - re-exam booking tab not visible in SAP
+  - sap portal url for re exam
+  - login id for re-exam booking
+  F0242:
+  - can i pay re exam fees by UPI
+  - payment options for re-examination fees
+  - paid re exam fee, how do i know it went through?
+  - which payment gateway for re exam fees
+  - re exam payment confirmation
+  F0243:
+  - sap account locked after wrong password
+  - SAP portal account locked, need help
+  - sap locked
+  - sap portal locked what to do
+  - too many wrong passwords sap
+  - unlock sap account email
+  F0244:
+  - is the percentage letter sent by email
+  - do i have to come to campus for statement of marks
+  - percentage letter delivered online?
+  - will statement of marks come by email
+  - no need to visit campus for percentage letter?
+  - percentage letter electronic delivery
+  F0245:
+  - does nmims send documents to WES electronically
+  - wes electronic submission nmims
+  - wes electronic delivery from nmims
+  - nmims to wes document transfer
+  - electronic wes route nmims
+  - send degree to wes online
+  F0246:
+  - is counselling confidential
+  - will my parents know if i see the counsellor?
+  - what is not kept confidential by the counsellor
+  - query: if my child talks to the college counsellor, will we be informed?
+    user_type: parent
+  - counselling confidential exceptions
+  - psychologist on campus nmims
+  F0247:
+  - counsellor timings nmims
+  - is the counsellor available on saturday
+  - counselling available on 1st saturday?
+  - counsellor available on saturdays?
+  - counsellor working hours
+  - book counselling appointment timings
+  F0248:
+  - 24/7 mental health helpline india
+  - need to talk to someone right now at night
+  - helpline for suicidal thoughts india
+  - free mental health helpline in hindi
+  - it's 2am and i really need to talk to someone, any helpline?
+  - government mental health helpline number
+  F0300:
+  - who can apply for hostel at nmims
+  - do mumbai students get hostel
+  - is hostel only for outstation students?
+  - preference for outstation students in hostel allotment?
+  - can day scholars from navi mumbai get hostel
+  - hostel eligibility part time students
+  F0301:
+  - got hostel admission mail, what if i join late
+  - do i lose my hostel seat if i don't report on time
+  - hostel seat offered by mail, last date to take it
+  - what if i reach mumbai a week after the hostel joining date?
+  - hostel joining deadline
+  - hostel offer email what next
+  F0302:
+  - is hostel admission valid for the whole course
+  - do i need to reapply for hostel every year
+  - when do we pay next year's hostel fee
+  - hostel fee for second year payable in which months
+  - hostel valid for how many months
+  - reapply hostel next year?
+  F0303:
+  - when do i have to vacate hostel after exams
+  - how many days after the last exam can i stay in hostel
+  - re exam in january, can i stay in hostel till then?
+  - last exam on 3rd dec, till when can i keep my hostel room
+  F0304:
+  - can i stay in hostel during summer vacation
+  - staying in hostel over winter break, extra fee?
+  - summer internship in mumbai, can i stay in hostel in may
+  - vacation stay hostel fees
+  F0305:
+  - hostel curfew time nmims
+  - what time do we need to be back in hostel
+  - coming back late from a fest, whose permission for hostel entry
+  - hostel in time on weekends?
+  - late entry to hostel after 11 for a college event
+  - query: what time does my son have to be back in the hostel at night
+    user_type: parent
+  - hostel timing
+  - curfew?
+  F0306:
+  - how many night outs are allowed in a month
+  - can i do a night out to a friend's place
+  - night out process hostel nmims
+  - can i take 5 night outs this month
+  - night out at a friend's flat in bandra allowed?
+  - night out application to whom and how early
+  - My local guardian lives in Thane and I would like to stay with them over weekends. How many night outs am I permitted in a month and what is the procedure to apply?
+  - query: can my ward stay with us on weekends instead of the hostel? how often
+    user_type: parent
+  - night out rules
+  - how many nightouts
+  F0307:
+  - can my parents come into my hostel room
+  - visitor timings for hostel
+  - can friends from another college visit me in hostel
+  - visitor room timings hostel
+  - can my sister visit me in hostel room
+  - guests in hostel rooms allowed?
+  F0308:
+  - is triple sharing cheaper than double in nmims hostel
+  - can i choose my hostel room
+  - 2 sharing vs 3 sharing fee difference
+  - who allots hostel rooms
+  - can i request a specific room
+  - room furniture allotment hostel
+  F0309:
+  - can i choose my roommate in hostel
+  - want to stay with my friend in hostel, possible?
+  - choose roommate?
+  - roommate preference hostel
+  - advance booking of hostel room
+  - reserve hostel room in advance
+  F0310:
+  - fan not working in my hostel room, can i get it fixed myself
+  - who handles repairs in the hostel
+  - broke a chair in hostel, will i be charged?
+  - can i put up shelves with nails in hostel room
+  - water leakage in my room in hostel, who fixes it
+  - damage in hostel room charges
+  F0311:
+  - issue with my roommate, whom to complain
+  - complaint against hostel staff
+  - can i file a police complaint about something in hostel
+  - fight in hostel, can i go to the police directly?
+  - hostel dispute whom to approach
+  - complaint against hostel cleaning staff
+  F0312:
+  - is mess available in bansi villa flats
+  - do residential flats have food?
+  - no mess in flats - where do residents eat?
+  - mess facility in hostel flats
+  - food arrangement in residential flats
+  F0313:
+  - going home this weekend from hostel, what's the leave process
+  - hostel leave form submit to whom
+  - leave application from hostel for 3 days
+  - leave form for going home for diwali from hostel
+  - leave application hostel one day before
+  F0314:
+  - do we have to empty the room every summer
+  - can i leave my stuff in hostel during summer vacation
+  - where do we keep our luggage during summer when hostel is vacated
+  - summer vacation hostel vacate
+  - keep belongings in hostel over summer?
+  - hostel room in may june
+  F0315:
+  - will i get hostel fee refund if i leave midway
+  - cancelled hostel before classes started, how much refund
+  - hostel fee refund rules
+  - leaving hostel after first sem, refund?
+  - hostel refund if i get expelled from hostel
+  - I paid the full hostel fee for MKM Sanghvi Girls Hostel but I now want to move in with relatives in Andheri after the course has started. Will any part of my hostel fee be refunded?
+  - hostel refund
+  F0316:
+  - hostel fees nmims mumbai
+  - what is the fee for GR Jani AC room
+  - MKM sanghvi girls hostel fees 2025-26
+  - cheapest hostel option at nmims mumbai
+  - hostel security deposit amount
+  - bansi villa ac vs non ac fees
+  - anand premises boys hostel fee
+  - Could you please share the hostel fee structure for the Mumbai campus for the current year, including the security deposit, for both AC and non-AC options for boys?
+  - query: what will the total hostel cost be for my daughter at the girls hostel including deposit
+    user_type: parent
+  - hostel fees
+  - jani hostel fee
+  - hostel kitne ka hai
+  F0317:
+  - how to pay hostel fees
+  - can hostel fee be paid by neft
+  - hostel fee rtgs details where
+  - hostel fee payment mode
+  - how do i get hostel payment details
+  - pay hostel fees online
+  F0318:
+  - when can i claim my hostel security deposit
+  - will they deduct from hostel deposit for damages?
+  - hostel deposit after course completion
+  - deductions from hostel deposit
+  - when is hostel security deposit refunded
+  F0319:
+  - documents needed for hostel admission
+  - is medical insurance required for hostel?
+  - what proofs to attach with hostel form
+  - medical certificate format for hostel
+  - medical insurance of how much for hostel
+  - proof of residence for local guardian needed?
+  F0320:
+  - does the hostel give bedsheets and blankets
+  - do i need to bring my own blanket to the hostel
+  - hostel provides pillow?
+  - what items does hostel provide
+  - bring own bedding to hostel?
+  - bucket in hostel provided
+  F0321:
+  - which student number to write on hostel form
+  - student number on hostel form
+  - 11 digit number hostel form where
+  - hostel application form fields
+  - hostel form submission email mumbai
+  - hostel form student number from fee receipt
+  F0330:
+  - library timings nmims mumbai
+  - is the reading hall open on sunday
+  - till what time is the library open
+  - library open on second saturday?
+  - bloomberg lab timings
+  - reading hall early morning timings
+  - library timing
+  - lib open sunday?
+  F0331:
+  - how many books can phd scholars borrow
+  - reference book can be issued for how long
+  - alumni library membership borrowing
+  - part time program students borrowing limit
+  - reference book issue duration
+  - weekend program borrowing limit
+  F0332:
+  - do i need to tap my id at library entry
+  - rfid entry library
+  - tap id card at library
+  - library entry exit rfid
+  - do i need to tap out of library
+  - library gate id tap
+  F0333:
+  - book i want is issued to someone else, can i reserve it
+  - how to place a hold on a library book
+  - claim a book through webopac how
+  - reserve book webopac
+  - recall a borrowed book
+  - book reservation library
+  F0334:
+  - where can i find previous year question papers
+  - pyq papers nmims
+  - question papers of last year TEE where
+  - pyq for re exam available?
+  - pyqs
+  - previous papers on portal
+  F0335:
+  - how many computers in the digital library
+  - plagiarism check library
+  - turnitin access for students
+  - digital library computers
+  - library computer lab
+  - use turnitin before project submission
+  F0336:
+  - photocopy charges in library
+  - xerox in library cost
+  - photocopy rate library
+  - library xerox available
+  - print copies in library charges
+  - photocopier in library
+  F0337:
+  - can i borrow a book from another nmims school's library
+  - inter library loan from sbm library
+  - inter library loan nmims
+  - borrow from svkm libraries
+  - book from mithibai library through nmims
+  F0338:
+  - library contact email
+  - librarian email
+  - contact librarian nmims
+  - library help email
+  - whom to email for library issue
+  - nmims library contact
+  F0340:
+  - how long is the revaluation window open
+  - reval closes at what time on the last day
+  - reval window open how long
+  - reval last day closing time
+  - revaluation late application
+  F0341:
+  - link to apply for photocopy and revaluation
+  - where is the reval option in SAP
+  - photocopy and reval application link sap
+  - sap url for revaluation
+  - where to log in for revaluation
+  - revaluation portal login id
+  F0342:
+  - can i apply for revaluation twice for the same subject
+  - second revaluation request same subject
+  - apply reval again for same paper
+  - revaluation once per subject?
+  - can i reapply reval after rejection
+  - multiple reval applications allowed
+  F0343:
+  - where can i find synoptic answers to compare my paper
+  - do they share model answers before revaluation?
+  - synoptic answers not uploaded on portal yet, how do i justify reval
+  - query: students asking where synoptic answers are posted for revaluation
+    user_type: faculty
+  - synoptic answers on lms
+  - model answers for comparison
+  F0344:
+  - reval page not loading, who to contact
+  - technical issue while submitting revaluation
+  - reval technical issue email
+  - sap basis for revaluation
+  - reval payment page error
+  - revaluation portal error contact
+  F0345:
+  - can I just email the exam cell asking for revaluation
+  - should i email my professor about rechecking my paper?
+  - query: a student emailed me asking to recheck his TEE paper, is that allowed?
+    user_type: faculty
+  - email revaluation request
+  - offline reval application
+  - apply reval through faculty
+  F0346:
+  - can I apply for both verification and revaluation in the same subject?
+  - verification or revaluation, can i choose both
+  - verification or reval choose one
+  - both reval and verification same subject
+  - apply verification and revaluation together
+  - can i do verification after reval
+  F0347:
+  - do i need to buy the photocopy for verification of marks
+  - verification of marks without photocopy possible?
+  - verification without answer book copy
+  - do i need photocopy for retotalling
+  - apply verification directly
+  - verification checkbox sap
+  F0348:
+  - answer book link expired, can i still download it
+  - how long is the answer script soft copy link valid
+  - answer script link validity
+  - download answer book before link expires
+  - photocopy link available till when
+  - lost access to answer book link
+  F0349:
+  - paid for revaluation, what next
+  - how do i select questions for revaluation on the OSM site
+  - minimum length of remark in reval application
+  - forgot to click submit grievance after paying reval fee
+  - submit grievance button osm
+  - osm remark minimum
+  - question selection reval osm
+  F0350:
+  - can i share my answer sheet copy with my friend
+  - share answer book photocopy with friends
+  - post my answer sheet copy online allowed?
+  - can classmates see my answer copy
+  - sharing photocopy against rules?
+  - send my answer book copy to senior
+  F0400:
+  - scribe form for permanent disability nmims
+  - where's the application form for availing a writer
+  - scribe form submission days
+  - medical certificate stamp for scribe form
+  - writer application permanent disability form
+  - scribe form download
+  F0401:
+  - where to submit duplicate grade sheet form
+  - what if my duplicate application form is incomplete
+  - school exam office duplicate form
+  - incomplete duplicate application
+  F0402:
+  - correction in degree has to go through which department
+  - who handles name correction - exam dept or admission?
+  - correction routed through admission department
+  - name change routing for degree
+  - admission dept for correction
+  - who corrects university records
+  F0403:
+  - where to pay online for duplicate grade sheet
+  - payment link for duplicate degree fee
+  - online payment duplicate degree
+  - pay duplicate grade sheet fee online
+  - payment link for correction fee
+  - where to pay for duplicate certificate
+  F0404:
+  - indemnity bond stamp paper value
+  - does the indemnity bond need notary?
+  - format of indemnity bond for lost marksheet
+  - indemnity bond on 100 rs stamp paper or 500?
+  - indemnity bond notary
+  - indemnity bond stamp value
+  F0405:
+  - application for refund form hostel deposit, who signs
+  - refund form attachments
+  - refund form bank details
+  - cancelled cheque for refund form
+  - refund form signatures hostel
+  - refund application requirements
+  F0406:
+  - medical fitness certificate format
+  - where to get the medical fitness form for admission
+  - medical fitness certificate who fills
+  - fitness certificate conditions
+  - medical certificate format admission
+  - doctor certificate for admission
+  F0407:
+  - who is in the student grievance redressal committee now
+  - student grievance committee 2026
+  - new grievance committee members
+  - grievance committee chairperson 2026
+  - current grievance redressal committee
+  - grievance committee tenure
+  F0408:
+  - who is in the ICC at nmims
+  - icc members 2026
+  - icc tenure
+  - internal complaints committee composition
+  - icc student representatives
+  - who is on the sexual harassment committee
+  F0409:
+  - sc st cell members nmims
+  - sc st cell 2025 circular
+  - equal opportunity cell members
+  - sc/st committee composition
+  - who is in the sc st obc cell
+  - equal opportunity cell nmims
+  F0410:
+  - how to file a formal grievance with the registrar
+  - can an alumnus file a grievance?
+  - format for submitting a grievance to the registrar
+  - query: can a former student raise a grievance with the university
+    user_type: alumni
+  - file grievance with registrar
+  F0411:
+  - how long does grievance resolution take
+  - grievance filed 3 weeks ago, still no meeting
+  - grievance meeting within a week?
+  - grievance resolution time limit
+  - grievance committee meeting schedule
+  - how fast are grievances resolved
+  F0412:
+  - deadline to appeal to the ombudsman
+  - ombudsman appeal deadline
+  - appeal against grievance committee
+  - 30 days to appeal ombudsman
+  - how to appeal to ombudsman
+  - appeal process registrar ombudsman
+  F0413:
+  - ugc e-samadhan nmims
+  - e-samadhan portal
+  - ugc grievance portal nmims
+  - ombudsman phone number
+  - ombudsman justice name
+  - ugc complaint portal link
+  F0414:
+  - mpstme library timings
+  - mpstme reading hall open till when
+  - is mpstme reading hall open on sundays
+  - mpstme circulation section closes at what time
+  - mpstme library closing time
+  - mpstme reading hall saturday
+  F0415:
+  - remote access to ieee from home mpstme
+  - does mpstme library have discussion rooms
+  - overnight book issue in mpstme library
+  - mpstme library springer access
+  - mpstme library services
+  - mpstme library remote access
+  F0416:
+  - mpstme counsellor availability
+  - can i have an online counselling session
+  - mpstme counsellor timings
+  - online counselling mpstme
+  - mpstme counsellor desk
+  - counsellor available till 4 pm
+  F0417:
+  - when is summer break at mpstme
+  - how is the academic year structured
+  - academic year structure mpstme
+  - summer break months
+  - semester months mpstme
+  - two semesters which months
+  F0418:
+  - where to download the refund form from mpstme site
+  - mpstme exam page links
+  - exam results link mpstme
+  - national academic depository link
+  - exam forms mpstme website
+  - refund form on mpstme exam page
+  F0419:
+  - when was nusc formed
+  - university student council since when
+  - nusc purpose
+  - what does nusc do
+  - nmims student council history
+  - nusc 2025-26
+  F0420:
+  - is there still the 70-80% dean exemption rule
+  - my senior said 70% attendance is enough with dean's approval, is that true?
+  - attendance exemption between 70 and 80 percent
+  - dean exemption for attendance still exists in 2026?
+  - 2024 srb said 70% okay, is it the same now
+  - old attendance rule srb 2024
+  - 2024 attendance exemption rule
+  - dean exemption 70 to 80
+  F0421:
+  - is the attendance rule 75% or 80%
+  - srb 2025 attendance rule
+  - attendance rule 2025-26
+  - below 80 readmission 2025
+  - was attendance 80% in 2025 too
+  - attendance rule change history
+  F0422:
+  - can i get my degree on digilocker
+  - are nmims certificates available on digilocker?
+  - where do i find my final certificate digitally
+  - digilocker shows no nmims documents for me, graduated 2023
+  - how to link my nmims degree on digilocker app
+  - I graduated in 2021 and have lost my physical degree certificate while abroad. Can I access a digital copy of my NMIMS degree through DigiLocker?
+  - query: do alumni from 2020 have their degrees on DigiLocker?
+    user_type: alumni
+  - digilocker degree
+  F0423:
+  - are answer books checked online or manually at nmims
+  - onscreen evaluation nmims
+  - answer books digitally evaluated
+  - how are papers checked
+  - osm evaluation
+  - is totalling done by software
+  F0424:
+  - can transcripts be sent electronically to indian universities too
+  - electronic transcript to indian universities
+  - transcript to indian university electronically
+  - e-transcript within india
+  - send transcript to iit electronically
+  - domestic university transcript delivery
+  F0425:
+  - How do I get a bonafide certificate?
+  - need bonafide certificate for passport
+  - bonafide letter from portal possible?
+  - railway concession form where to get
+  - bonafide for internship company, how?
+  - need railway concession pass form
+ambiguous:
+- query: I need my marks for another university.
+  fact: F0203
+  alternatives:
+  - TRANSCRIPT
+  - STATEMENT_OF_MARKS
+  - PERCENTAGE_LETTER
+  ambiguity: HIGH
+- query: I need my degree document.
+  fact: F0207
+  alternatives:
+  - PROVISIONAL_DEGREE
+  - DEGREE_CERTIFICATE
+  - DUPLICATE_DEGREE
+  - DIGILOCKER
+  ambiguity: HIGH
+- query: My attendance is short.
+  fact: F0013
+  alternatives:
+  - LOW_ATTENDANCE
+  - ATTENDANCE_REQUIREMENT
+  - MEDICAL_ATTENDANCE
+  - EXAM_ELIGIBILITY
+  ambiguity: HIGH
+- query: need a document for my masters application
+  fact: F0203
+  alternatives:
+  - TRANSCRIPT
+  - PERCENTAGE_LETTER
+  - LETTER_OF_RECOMMENDATION
+  - WES
+  ambiguity: HIGH
+- query: there's a problem with my marks
+  fact: F0042
+  alternatives:
+  - MARK_VERIFICATION
+  - REVALUATION
+  - EXAM_RESULT
+  - CERTIFICATE_CORRECTION
+  ambiguity: HIGH
+- query: I want my money back
+  fact: F0059
+  alternatives:
+  - FEE_REFUND
+  - EXCESS_FEE_REFUND
+  - HOSTEL_REFUND
+  - ADMISSION_CANCELLATION
+  ambiguity: HIGH
+- query: how do i get a certificate from college
+  fact: F0425
+  alternatives:
+  - BONAFIDE_CERTIFICATE
+  - PROVISIONAL_DEGREE
+  - MIGRATION_CERTIFICATE
+  - CLEARANCE_CERTIFICATE
+  ambiguity: HIGH
+- query: something is wrong with my card
+  fact: F0005
+  alternatives:
+  - ID_CARD_NOT_WORKING
+  - DUPLICATE_ID_CARD
+  - ID_CARD_ACCESS
+  ambiguity: MEDIUM
+- query: I failed
+  fact: F0132
+  alternatives:
+  - RE_EXAMINATION
+  - BACKLOG_EXAM
+  - REVALUATION
+  ambiguity: HIGH
+- query: i want to leave
+  fact: F0057
+  alternatives:
+  - ADMISSION_CANCELLATION
+  - STUDENT_STATUS
+  - HOSTEL_VACATING
+  - CLEARANCE_CERTIFICATE
+  ambiguity: HIGH
+- query: need a letter from nmims
+  fact: F0425
+  alternatives:
+  - BONAFIDE_CERTIFICATE
+  - LETTER_OF_RECOMMENDATION
+  - GPA_CGPA_LETTER
+  - PERCENTAGE_LETTER
+  ambiguity: HIGH
+- query: where do i submit this form?
+  fact: F0401
+  alternatives:
+  - DUPLICATE_GRADE_SHEET
+  - HOSTEL_APPLICATION
+  - SCRIBE_WRITER
+  - MEDICAL_ATTENDANCE
+  ambiguity: HIGH
+- query: Who handles this?
+  fact: F0007
+  alternatives:
+  - STUDENT_GRIEVANCE
+  - ATTENDANCE_APPEAL
+  - HOSTEL_PROBLEMS
+  ambiguity: HIGH
+- query: Do I need to come to campus?
+  fact: F0237
+  alternatives:
+  - TRANSCRIPT
+  - DUPLICATE_GRADE_SHEET
+  - PERCENTAGE_LETTER
+  ambiguity: HIGH
+- query: Can someone else collect it for me?
+  fact: F0237
+  alternatives:
+  - TRANSCRIPT
+  - DEGREE_CERTIFICATE
+  - MIGRATION_CERTIFICATE
+  ambiguity: HIGH
+- query: Is there a way to get this online?
+  fact: F0203
+  alternatives:
+  - TRANSCRIPT
+  - PERCENTAGE_LETTER
+  - DIGILOCKER
+  ambiguity: HIGH
+- query: what happens if I miss the deadline?
+  fact: F0141
+  alternatives:
+  - RE_EXAMINATION
+  - LATE_FEE
+  - REVALUATION
+  - ATTENDANCE_CORRECTION
+  ambiguity: HIGH
+- query: Where do I download the form?
+  fact: F0401
+  alternatives:
+  - DUPLICATE_GRADE_SHEET
+  - HOSTEL_APPLICATION
+  - EXCESS_FEE_REFUND
+  - SCRIBE_WRITER
+  ambiguity: HIGH
+- query: I need this for my masters application abroad
+  fact: F0203
+  alternatives:
+  - TRANSCRIPT
+  - WES
+  - PERCENTAGE_LETTER
+  ambiguity: HIGH
+- query: what's the fee
+  fact: F0139
+  alternatives:
+  - RE_EXAMINATION
+  - HOSTEL_FEES
+  - DUPLICATE_DEGREE
+  - EDUCATION_VERIFICATION
+  ambiguity: HIGH
+- query: how long will it take
+  fact: F0212
+  alternatives:
+  - TRANSCRIPT
+  - EDUCATION_VERIFICATION
+  - REVALUATION
+  - DUPLICATE_GRADE_SHEET
+  ambiguity: HIGH
+- query: got an F, can I recheck or should I just give the re-exam?
+  fact: F0132
+  alternatives:
+  - RE_EXAMINATION
+  - REVALUATION
+  ambiguity: MEDIUM
+- query: i need my marksheet
+  fact: F0216
+  alternatives:
+  - DUPLICATE_GRADE_SHEET
+  - STATEMENT_OF_MARKS
+  - PERCENTAGE_LETTER
+  ambiguity: HIGH
+- query: can i get my grades in percentage
+  fact: F0204
+  alternatives:
+  - PERCENTAGE_LETTER
+  - GPA_CGPA_LETTER
+  ambiguity: MEDIUM
+- query: need cgpa proof for internship
+  fact: F0217
+  alternatives:
+  - GPA_CGPA_LETTER
+  - STATEMENT_OF_MARKS
+  - PERCENTAGE_LETTER
+  ambiguity: MEDIUM
+- query: I was absent
+  fact: F0144
+  alternatives:
+  - EXAM_ABSENCE
+  - MEDICAL_ATTENDANCE
+  - ATTENDANCE_CORRECTION
+  ambiguity: HIGH
+- query: I was sick
+  fact: F0016
+  alternatives:
+  - MEDICAL_ATTENDANCE
+  - EXAM_ABSENCE
+  - SCRIBE_WRITER
+  ambiguity: HIGH
+- query: can i get a break
+  fact: F0063
+  alternatives:
+  - STUDENT_STATUS
+  - ADMISSION_CANCELLATION
+  ambiguity: MEDIUM
+- query: my name is wrong
+  fact: F0205
+  alternatives:
+  - CERTIFICATE_CORRECTION
+  - ID_CARD_CORRECTION
+  ambiguity: MEDIUM
+- query: deposit refund
+  fact: F0102
+  alternatives:
+  - FEE_REFUND
+  - HOSTEL_REFUND
+  - EXCESS_FEE_REFUND
+  ambiguity: MEDIUM
+- query: library or hostel deposit - which refund process do i follow?
+  fact: F0102
+  alternatives:
+  - FEE_REFUND
+  - HOSTEL_REFUND
+  ambiguity: MEDIUM
+- query: my results are wrong
+  fact: F0042
+  alternatives:
+  - MARK_VERIFICATION
+  - REVALUATION
+  - EXAM_RESULT
+  ambiguity: HIGH
+- query: is it compulsory?
+  fact: F0011
+  alternatives:
+  - ATTENDANCE_REQUIREMENT
+  - ID_CARD_APPLICATION
+  - ACADEMIC_GUIDELINES
+  ambiguity: HIGH
+- query: what documents do i need
+  fact: F0319
+  alternatives:
+  - HOSTEL_DOCUMENTS
+  - MIGRATION_CERTIFICATE
+  - ADMISSION_CANCELLATION
+  - TRANSCRIPT
+  ambiguity: HIGH
+- query: exam problem
+  fact: F0201
+  alternatives:
+  - EXAM_GRIEVANCE
+  - RE_EXAMINATION
+  - EXAM_RESULT
+  ambiguity: HIGH
+- query: need verification
+  fact: F0225
+  alternatives:
+  - EDUCATION_VERIFICATION
+  - MARK_VERIFICATION
+  ambiguity: MEDIUM
+- query: I want to recheck
+  fact: F0042
+  alternatives:
+  - MARK_VERIFICATION
+  - REVALUATION
+  - ANSWER_BOOK_COPY
+  ambiguity: MEDIUM
+- query: i want to change
+  fact: F0146
+  alternatives:
+  - COURSE_CHANGE
+  - ELECTIVE_SELECTION
+  - CERTIFICATE_CORRECTION
+  ambiguity: HIGH
+- query: can I stay?
+  fact: F0304
+  alternatives:
+  - HOSTEL_RULES
+  - HOSTEL_VACATING
+  ambiguity: MEDIUM
+- query: what's the rule for leaving
+  fact: F0313
+  alternatives:
+  - HOSTEL_RULES
+  - STUDENT_STATUS
+  - ACADEMIC_GUIDELINES
+  ambiguity: HIGH
+- query: i lost it
+  fact: F0002
+  alternatives:
+  - DUPLICATE_ID_CARD
+  - DUPLICATE_GRADE_SHEET
+  - FEE_RECEIPT
+  - LOST_BOOK
+  ambiguity: HIGH
+- query: my id
+  fact: F0084
+  alternatives:
+  - STUDENT_PORTAL
+  - ID_CARD_APPLICATION
+  ambiguity: HIGH
+- query: complaint
+  fact: F0007
+  alternatives:
+  - STUDENT_GRIEVANCE
+  - HOSTEL_PROBLEMS
+  - INTERNAL_COMPLAINTS
+  ambiguity: HIGH
+- query: where is the link
+  fact: F0203
+  alternatives:
+  - TRANSCRIPT
+  - ADMISSION_CANCELLATION
+  - STUDENT_PORTAL
+  ambiguity: HIGH
+- query: need to talk to someone about a problem
+  fact: F0093
+  alternatives:
+  - MENTAL_HEALTH_SUPPORT
+  - STUDENT_GRIEVANCE
+  - COUNSELLING
+  ambiguity: HIGH
+- query: can i get extra time
+  fact: F0036
+  alternatives:
+  - SCRIBE_WRITER
+  - ACADEMIC_GUIDELINES
+  ambiguity: MEDIUM
+- query: I need proof that I'm a student
+  fact: F0425
+  alternatives:
+  - BONAFIDE_CERTIFICATE
+  - ID_CARD_APPLICATION
+  ambiguity: MEDIUM
+- query: my degree
+  fact: F0097
+  alternatives:
+  - DEGREE_CERTIFICATE
+  - DUPLICATE_DEGREE
+  - DIGILOCKER
+  - PROVISIONAL_DEGREE
+  ambiguity: HIGH
+- query: fees
+  fact: F0061
+  alternatives:
+  - FEE_PAYMENT
+  - HOSTEL_FEES
+  - RE_EXAMINATION
+  ambiguity: HIGH
+- query: refund kab aayega
+  fact: F0233
+  alternatives:
+  - FEE_REFUND
+  - HOSTEL_REFUND
+  ambiguity: MEDIUM
+- query: wrong marks in ICA
+  fact: F0022
+  alternatives:
+  - EXAM_RESULT
+  - REVALUATION
+  ambiguity: LOW
+- query: hostel or flat which is better
+  fact: F0312
+  alternatives:
+  - HOSTEL_RULES
+  - HOSTEL_FEES
+  ambiguity: MEDIUM
+- query: can i give exam
+  fact: F0012
+  alternatives:
+  - EXAM_ELIGIBILITY
+  - RE_EXAMINATION
+  ambiguity: HIGH
+- query: when is it
+  fact: F0148
+  alternatives:
+  - ACADEMIC_CALENDAR
+  - EXAM_TIMETABLE
+  ambiguity: HIGH
+- query: transcript or percentage letter - which one do canadian universities need?
+  fact: F0218
+  alternatives:
+  - TRANSCRIPT
+  - PERCENTAGE_LETTER
+  - WES
+  ambiguity: MEDIUM
+- query: Is a migration certificate the same as a leaving certificate?
+  fact: F0235
+  alternatives:
+  - MIGRATION_CERTIFICATE
+  - CLEARANCE_CERTIFICATE
+  ambiguity: MEDIUM
+- query: I need my documents sent abroad
+  fact: F0218
+  alternatives:
+  - TRANSCRIPT
+  - WES
+  ambiguity: MEDIUM
+- query: attendance + exam issue
+  fact: F0033
+  alternatives:
+  - EXAM_ELIGIBILITY
+  - LOW_ATTENDANCE
+  ambiguity: MEDIUM
+- query: i need my grades officially
+  fact: F0050
+  alternatives:
+  - STATEMENT_OF_MARKS
+  - TRANSCRIPT
+  - GPA_CGPA_LETTER
+  ambiguity: HIGH
+- query: what's the process for leaving the hostel
+  fact: F0303
+  alternatives:
+  - HOSTEL_VACATING
+  - HOSTEL_REFUND
+  - HOSTEL_RULES
+  ambiguity: MEDIUM
+- query: I need to apply for something before my exams
+  fact: F0116
+  alternatives:
+  - SCRIBE_WRITER
+  - EXAM_ELIGIBILITY
+  - RE_EXAMINATION
+  ambiguity: HIGH
+- query: they said i'm not eligible
+  fact: F0033
+  alternatives:
+  - EXAM_ELIGIBILITY
+  - DEGREE_CERTIFICATE
+  - SCHOLARSHIP_ELIGIBILITY
+  ambiguity: HIGH
+- query: whom to email
+  fact: F0005
+  alternatives:
+  - ID_CARD_NOT_WORKING
+  - STUDENT_PORTAL
+  - STUDENT_GRIEVANCE
+  ambiguity: HIGH
+- query: is it free?
+  fact: F0207
+  alternatives:
+  - PROVISIONAL_DEGREE
+  - COUNSELLING
+  - TRANSCRIPT
+  ambiguity: HIGH
+- query: can i do it online
+  fact: F0041
+  alternatives:
+  - REVALUATION
+  - TRANSCRIPT
+  - ADMISSION_CANCELLATION
+  ambiguity: HIGH
+- query: what's the deadline
+  fact: F0046
+  alternatives:
+  - REVALUATION
+  - RE_EXAMINATION
+  - ATTENDANCE_CORRECTION
+  - ADMISSION_CANCELLATION
+  ambiguity: HIGH
+- query: form for absence
+  fact: F0112
+  alternatives:
+  - MEDICAL_ATTENDANCE
+  - EXAM_ABSENCE
+  ambiguity: MEDIUM
+- query: I want to report someone
+  fact: F0105
+  alternatives:
+  - INTERNAL_COMPLAINTS
+  - ANTI_RAGGING
+  - STUDENT_GRIEVANCE
+  ambiguity: HIGH
+- query: help with my account
+  fact: F0085
+  alternatives:
+  - STUDENT_PORTAL
+  - FEE_PAYMENT
+  - LIBRARY_FINE
+  ambiguity: HIGH
+- query: need a duplicate
+  fact: F0216
+  alternatives:
+  - DUPLICATE_GRADE_SHEET
+  - DUPLICATE_ID_CARD
+  - FEE_RECEIPT
+  - DUPLICATE_DEGREE
+  ambiguity: HIGH
+- query: can my parents do this for me
+  fact: F0222
+  alternatives:
+  - DUPLICATE_GRADE_SHEET
+  - ADMISSION_CANCELLATION
+  - HOSTEL_APPLICATION
+  ambiguity: HIGH
+- query: what if i'm late
+  fact: F0029
+  alternatives:
+  - EXAM_TIMETABLE
+  - HOSTEL_RULES
+  - LATE_FEE
+  ambiguity: HIGH
+- query: deposit kab milega
+  fact: F0102
+  alternatives:
+  - FEE_REFUND
+  - HOSTEL_REFUND
+  ambiguity: MEDIUM
+- query: is there any concession
+  fact: F0053
+  alternatives:
+  - SCHOLARSHIP_APPLICATION
+  - STUDENT_STATUS
+  ambiguity: HIGH
+- query: can i appeal
+  fact: F0109
+  alternatives:
+  - STUDENT_GRIEVANCE
+  - REVALUATION
+  - DEGREE_CERTIFICATE
+  ambiguity: HIGH
+- query: need a certificate for my visa
+  fact: F0115
+  alternatives:
+  - INTERNATIONAL_DOCUMENTS
+  - BONAFIDE_CERTIFICATE
+  - TRANSCRIPT
+  ambiguity: HIGH
+- query: rules for the hall
+  fact: F0031
+  alternatives:
+  - EXAM_MISCONDUCT
+  - LIBRARY_RULES
+  ambiguity: MEDIUM
+- query: my record is wrong
+  fact: F0014
+  alternatives:
+  - ATTENDANCE_CORRECTION
+  - CERTIFICATE_CORRECTION
+  - EXAM_RESULT
+  ambiguity: HIGH
+multi_intent:
+- query: I lost my ID card and I also need a bonafide certificate.
+  facts:
+  - F0002
+  - F0425
+- query: I have low attendance and I want to know whether I can appear for the re-examination.
+  facts:
+  - F0013
+  - F0132
+- query: lost my id card and my library books are overdue, what do i do about both
+  facts:
+  - F0002
+  - F0074
+- query: need my transcript for WES and also want to check my hostel deposit refund
+  facts:
+  - F0208
+  - F0101
+- query: failed one subject and also my attendance in another is 75, what happens
+  facts:
+  - F0132
+  - F0013
+- query: cancelling my admission - how do i get the fee refund and the hostel fee back?
+  facts:
+  - F0057
+  - F0315
+- query: i was hospitalised and missed both classes and an exam, what do i submit for each
+  facts:
+  - F0016
+  - F0030
+- query: want to apply for revaluation and also the re-exam for another paper
+  facts:
+  - F0044
+  - F0132
+- query: how to apply for hostel and is there any scholarship for fees
+  facts:
+  - F0229
+  - F0053
+- query: my portal password isn't working and i need to fill the re exam form today
+  facts:
+  - F0085
+  - F0140
+- query: graduated - need migration certificate and my security deposit back
+  facts:
+  - F0120
+  - F0102
+- query: 'moving abroad for masters: transcripts, wes and degree verification for my employer'
+  facts:
+  - F0203
+  - F0208
+  - F0225
+- query: seniors ragging me in hostel and i'm also feeling very depressed
+  facts:
+  - F0103
+  - F0093
+- query: forgot id card and the library won't let me in either
+  facts:
+  - F0004
+  - F0070
+- query: lost fee receipt and also need an excess fee refund
+  facts:
+  - F0117
+  - F0118
+- query: taking an academic break - what happens to my hostel room and fees
+  facts:
+  - F0063
+  - F0315
+- query: need a scribe for exams and also attendance relief for the days I was injured
+  facts:
+  - F0034
+  - F0016
+- query: lost my degree certificate and also need my name corrected on it
+  facts:
+  - F0216
+  - F0205
+- query: hostel curfew and whether I need permission to leave Mumbai for the weekend
+  facts:
+  - F0305
+  - F0010
+- query: phone was found in exam hall and now my result is withheld - can I still apply for re-exam?
+  facts:
+  - F0038
+  - F0240
+- query: can i stay in hostel during the re-exam period after the semester ends?
+  facts:
+  - F0304
+  - F0148
+- query: need college help for national hackathon travel and attendance for those days
+  facts:
+  - F0095
+  - F0011
+- query: my attendance is wrong on the portal and my ICA marks also look off
+  facts:
+  - F0014
+  - F0022
+- query: i paid hostel fees but want to cancel admission altogether
+  facts:
+  - F0315
+  - F0057
+- query: how to get a new id card and also access the library meanwhile
+  facts:
+  - F0002
+  - F0070
+- query: want to do a semester exchange and need my transcripts for the application
+  facts:
+  - F0113
+  - F0203
+- query: didn't pay fees on time and now worried about exam eligibility
+  facts:
+  - F0062
+  - F0012
+- query: caste-based comments from classmates and the counsellor isn't available, whom else can i approach
+  facts:
+  - F0108
+  - F0093
+- query: transcript processing time and education verification time for my employer
+  facts:
+  - F0212
+  - F0227
+- query: I want to opt out of placements and also apply for a migration certificate
+  facts:
+  - F0127
+  - F0120
+- query: need a provisional degree and transcripts for my job abroad
+  facts:
+  - F0207
+  - F0203
+- query: failed TEE in 2 subjects and my scholarship might get affected, what now
+  facts:
+  - F0132
+  - F0052
+- query: lost id card in hostel, also can't get into the hostel at night without it?
+  facts:
+  - F0002
+  - F0305
+- query: forgot portal password and need to apply for answer book photocopy today
+  facts:
+  - F0085
+  - F0043
+- query: my wallet with id card and library book got stolen
+  facts:
+  - F0002
+  - F0075
+- query: 'leaving the course: clearance certificate, hostel vacating and refund of deposits'
+  facts:
+  - F0122
+  - F0303
+  - F0102
+- query: want to report ragging and also need attendance relief for the days i skipped out of fear
+  facts:
+  - F0103
+  - F0019
+- query: exchange semester abroad - will my attendance and exam eligibility be affected?
+  facts:
+  - F0113
+  - F0012
+- query: re exam fee payment failed and portal now says unpaid, deadline is today
+  facts:
+  - F0242
+  - F0141
+- query: need GPA letter and name correction on my grade sheet
+  facts:
+  - F0217
+  - F0205
+unverified:
+- query: payment got deducted twice for semester fees
+  sub_intent: FAILED_PAYMENT
+- query: my payment went through but portal still says pending
+  sub_intent: FAILED_PAYMENT
+- query: I paid my fees but it is still showing unpaid
+  sub_intent: FAILED_PAYMENT
+- query: fee payment failed but money debited from my account
+  sub_intent: FAILED_PAYMENT
+- query: my bank says payment successful but nmims shows unpaid for a week now
+  sub_intent: FAILED_PAYMENT
+- query: transaction failed while paying tuition fees, will it auto reverse?
+  sub_intent: FAILED_PAYMENT
+- query: upi payment stuck in processing for college fees
+  sub_intent: FAILED_PAYMENT
+- query: money gone from account but no receipt generated
+  sub_intent: FAILED_PAYMENT
+- query: does nmims have tie ups with banks for education loans
+  sub_intent: EDUCATION_LOAN
+- query: need fee structure letter for my education loan
+  sub_intent: EDUCATION_LOAN
+- query: bank wants a bonafide and fee letter for loan disbursement
+  sub_intent: EDUCATION_LOAN
+- query: can fees be paid directly by the loan provider to nmims
+  sub_intent: EDUCATION_LOAN
+- query: education loan documents from college
+  sub_intent: EDUCATION_LOAN
+- query: how do I check the status of my scholarship application
+  sub_intent: SCHOLARSHIP_STATUS
+- query: applied for scholarship 3 months ago, no update
+  sub_intent: SCHOLARSHIP_STATUS
+- query: scholarship amount not credited yet
+  sub_intent: SCHOLARSHIP_STATUS
+- query: is my scholarship approved? where can i see
+  sub_intent: SCHOLARSHIP_STATUS
+- query: how to renew my scholarship for next year
+  sub_intent: SCHOLARSHIP_RENEWAL
+- query: do i need to reapply for scholarship every year
+  sub_intent: SCHOLARSHIP_RENEWAL
+- query: minimum cgpa to keep scholarship renewed
+  sub_intent: SCHOLARSHIP_RENEWAL
+- query: scholarship renewal documents
+  sub_intent: SCHOLARSHIP_RENEWAL
+- query: can i drop a course after registration
+  sub_intent: COURSE_ADD_DROP
+- query: add drop period for electives mpstme
+  sub_intent: COURSE_ADD_DROP
+- query: i want to switch my elective after 2 weeks, possible?
+  sub_intent: COURSE_ADD_DROP
+- query: last date to drop a course this sem
+  sub_intent: COURSE_ADD_DROP
+- query: can i add an extra course mid semester
+  sub_intent: COURSE_ADD_DROP
+- query: wrong photo on my id card, how to change
+  sub_intent: ID_CARD_CORRECTION
+- query: my name is misspelt on my id card
+  sub_intent: ID_CARD_CORRECTION
+- query: id card has the wrong branch printed
+  sub_intent: ID_CARD_CORRECTION
+- query: blood group wrong on id card
+  sub_intent: ID_CARD_CORRECTION
+- query: how much is the duplicate id card fee exactly
+  sub_intent: DUPLICATE_ID_CARD
+- query: how many days to get a duplicate id card
+  sub_intent: DUPLICATE_ID_CARD
+- query: do i need an FIR for a lost id card
+  sub_intent: DUPLICATE_ID_CARD
+- query: what is the semester fee for btech at mpstme 2026
+  sub_intent: FEE_PAYMENT
+- query: can tuition fees be paid in installments
+  sub_intent: FEE_PAYMENT
+- query: is there a sibling discount on fees
+  sub_intent: FEE_PAYMENT
+- query: what is the last date for fee payment this semester
+  sub_intent: FEE_PAYMENT
+- query: how much is the late fee per day for semester fees
+  sub_intent: LATE_FEE
+- query: what's the fee for revaluation per subject
+  sub_intent: REVALUATION
+- query: cost of answer book photocopy
+  sub_intent: ANSWER_BOOK_COPY
+- query: transcript fees nmims
+  sub_intent: TRANSCRIPT
+- query: how much does a percentage letter cost
+  sub_intent: PERCENTAGE_LETTER
+- query: is there a merit scholarship at mpstme
+  sub_intent: SCHOLARSHIP_ELIGIBILITY
+- query: scholarship for students with family income below 8 lakh
+  sub_intent: SCHOLARSHIP_ELIGIBILITY
+- query: sports quota scholarship nmims
+  sub_intent: SCHOLARSHIP_ELIGIBILITY
+- query: how to get bonafide certificate for passport now (2026)
+  sub_intent: BONAFIDE_CERTIFICATE
+- query: bonafide certificate processing time
+  sub_intent: BONAFIDE_CERTIFICATE
+- query: railway concession form for 2026 batch
+  sub_intent: BONAFIDE_CERTIFICATE
+- query: is wifi available in the hostel rooms
+  sub_intent: HOSTEL_RULES
+- query: hostel mess menu and timings
+  sub_intent: HOSTEL_RULES
+- query: can i keep a kettle or induction in hostel room
+  sub_intent: HOSTEL_RULES
+- query: is there a gym in the hostel
+  sub_intent: FACILITIES
+- query: where is the medical room on campus
+  sub_intent: FACILITIES
+- query: canteen timings mpstme
+  sub_intent: FACILITIES
+- query: is parking available for students
+  sub_intent: FACILITIES
+- query: how do i get my academic bank of credits (ABC) id
+  sub_intent: ACADEMIC_BANK_OF_CREDITS
+- query: credit transfer from coursera courses taken outside the curriculum
+  sub_intent: ACADEMIC_BANK_OF_CREDITS
+- query: can i transfer credits from another university
+  sub_intent: ACADEMIC_BANK_OF_CREDITS
+- query: how to change my branch after first year at mpstme
+  sub_intent: COURSE_CHANGE
+- query: branch change cgpa criteria btech
+  sub_intent: COURSE_CHANGE
+- query: exchange program eligibility cgpa
+  sub_intent: INTERNATIONAL_EXCHANGE
+- query: how much does the semester exchange cost
+  sub_intent: INTERNATIONAL_EXCHANGE
+- query: how to raise a complaint about a professor's grading anonymously
+  sub_intent: STUDENT_GRIEVANCE
+- query: is there a women's safety cell helpline number on campus
+  sub_intent: STUDENT_SAFETY
+- query: CCTV footage request for a theft on campus
+  sub_intent: STUDENT_SAFETY

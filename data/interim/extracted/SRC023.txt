@@ -1,0 +1,188 @@
+=== page 1 ===
+SVKM’s NMIMS 
+Re- Exam Rules and Application process document 
+(The following document has been prepared to assist the students to understand re -examination 
+related rules and processes. Student are requested to note that the provisions given in  the student’s 
+resource book will prevail and will be binding on the student) 
+ 
+Re-Examination Policy 
+ 
+Only one re-examination will be conducted for each trimester/ semester in an academic year. 
+ 
+One Re-examination will be conducted immediately after the declaration of results for each 
+trimester/semester-end examination for students who, 
+ 
+• Have obtained an 'F' / ‘D’ grade in a credit or non-credit course; or 
+ 
+• Have had their results declared "Null and Void" due to involvement in Unfair Means (UFM) in 
+the regular semester/trimester examination. In case student is found to be involved in 
+adoption of Unfair means during re -examinations, he or she will not be eligible for re -
+examination in the same academic year. 
+• Re-examination will be conducted as per regulat ory bodies guidelines, where -ever 
+applicable. 
+ 
+Students are advised to verify their eligibility for re-examination in accordance with the rules 
+specified in the Student Rule Book (SRB). 
+ 
+• Reexamination will be conducted only for Term End Examination (TEE) component and marks 
+obtained in the Internal Continuous Assessment (ICA) will be carried forward to the term-end 
+re-examination. 
+• Eligible students must submit the online re-examination application through the Student SAP 
+Portal. 
+• Students who do not submit the online re-examination form within the stipulated period will 
+not be permitted to appear for the re-examination. 
+• It is the responsibility of each student to remain updated/ informed about the re-examination 
+schedule and timetable. 
+ 
+This process is applicable to students who have failed in courses/subjects and are eligible to apply 
+for a re-exam through the online portal. 
+✓ Portal open and close dates are mentioned on the re-exam timetable. 
+✓ Please note that the application portal for re-examination will be available for 3 days as per 
+the portal dates shared along with the re-examination timetable. 
+✓ Portal will close on 3rd day (of the portal dates shared) at 4.00 pm sharp. 
+✓ Time table will be published on university official Website under students’ section and also 
+on student LMS portal.
+
+=== page 2 ===
+Re-Examination Application and Fee Details 
+1. The fee for submission of a re -examination application shall be Rs. 1,000/ - (Rupees One 
+Thousand only) per subject. 
+2. The online application portal for re-examination will remain open for three (3) days as per the 
+dates notified along with the re-examination timetable. The portal will close on the third day 
+at 11:59 PM. 
+3. Students who do not submit their applications within the prescribed application period (as 
+mentioned above) will be allowed to submit their application with late fees of Rs. 5000/ -
+through the online SAP student’s portal. 
+4. Portal for application with late fees will remail open for 24 hrs. after the closure of the regular 
+application period. 
+5. [Applications submitted during the late application window shall be made along with late fee 
+of Rs. 5,000/- (Rupees Five Thousand only), in addition to the prescribed re-examination fee 
+of Rs. 1,000/ - per subject. The late fee shall be applicable irrespective of the number of 
+subjects applied for. 
+6. No re -examination application shall be accepted after the closure of the late application 
+period. (4th day 11.59 p.m.) 
+ 
+Steps to apply for Re-Examination 
+Access the Student Portal 
+• Open the SAP student portal using the official link: https://sdcsppscs.svkm.ac.in:44300/irj/portal 
+Enter below student’s details: 
+✓ Login ID: 11-digit SAP Student Number 
+✓ Password: default password provided by the institute or password reset by you. 
+✓ Enter the captcha and click “Log On”. 
+ 
+ 
+Change Password (First-Time Login) - Change password during the first-time login if prompted 
+• On first login, the system prompts the student to change the password. 
+• Enter: 
+✓ Old password 
+✓ Create & enter new password 
+• Save the updated password securely for future access.
+
+=== page 3 ===
+Verify Student Details 
+• After logging in, students can view: 
+✓ Name 
+✓ Address 
+✓ Email ID 
+✓ Other academic details 
+Students should verify all information before proceeding. 
+ 
+View Examination Result 
+After verifying student details click on View “Examination Result” tab 
+• Navigate to the Result Display section and select: 
+✓ Program 
+✓ Academic Year 
+✓ Academic Session 
+ 
+• The system will display the examination results for the selected session.
+
+=== page 4 ===
+Open Re-exam Booking 
+✓ Click on the “Re-exam Booking” tab. 
+✓ The system will display all failed or ‘’D’’ Grade courses /subjects eligible for re-exam 
+application. 
+Students may select the required subjects for re-examination registration. 
+ 
+Review Re-exam Fees 
+• The applicable re-exam fee will be displayed on the screen. 
+• Students should: 
+✓ Select the required subjects 
+✓ Click on Pay and confirm 
+Confirm the application to proceed to the payment gateway.
+
+=== page 5 ===
+Select Payment Gateway 
+Students may choose either of the following payment options: 
+• PAYU Gateway and Grey quest 
+• Supports: 
+✓ Credit Card 
+✓ Debit Card 
+✓ Net Banking 
+Supports Net Banking through listed banks. 
+ 
+Complete Payment 
+• Click on the PAY and confirm option. 
+• Enter the payment details in the selected payment gateway. 
+• Complete the online payment process.
+
+=== page 6 ===
+9. Payment Confirmation 
+ 
+Payment Confirmation 
+ 
+Upon successful payment: 
+ 
+• The application status will change to PAID. 
+• An acknowledgement receipt will be generated. 
+• A confirmation email will be sent to the student's registered email ID along with receipt.
+
+=== page 7 ===
+Re-ExamFeePayment
+Studentinformation
+Student Nurmber
+Student Name.
+Emait
+Mobile:
+ProgramInformation
+Program:  MASTEROFBUSINESSADMINISTRATIONINTECHNOLOGYMANAGEMENT(INFORMATIONTECHNOLOGY)
+INSIUBOn:MUKE@HPATELSCH.OFTECHMGMT&ENGG-NM-M
+ExamFee
+Ext
+PaymentConfirmation
+Confrmationno535264154106
+PaidAmount
+Date:24.10.2016
+SAP
+Pa-en Eokie
+ Baeaa kphia  RE-EXAM REGIS TRATION ONLINE
+MASTEROFRISHESGAEMIEITLAICN NI TECHNOLIMIY MAILAOCMENT MIFOMATION TEOHNOLDOY
+PanFai  AzadiarTard  hai lika Tat  Gun lai  Fran hat in  Ean Gad Tia
+Fngihuirg Nunmidasi  Fall
+JLEL IUR
+
+=== page 8 ===
+Follow the below FAQ’ s during Re-exam application. 
+➢ User Account Locked 
+• If the number of incorrect password attempts exceed the permitted limit, the account will be locked. 
+• Student should send an email to: sapbasis@svkm.ac.in 
+• Provide the following details: 
+✓ Student Number 
+✓ Screenshot of the error message. 
+Please check inbox of your registered email (in NMIMS software) for the system-generated 
+default password. 
+ 
+➢ Forgotten Password 
+• Click on FORGOT PASSWORD option available on the portal. 
+• A system-generated password will be sent to the registered email ID. 
+ 
+ 
+➢ Incorrect Credentials 
+• Students should submit within timelines:  
+✓ A correction request to - sapbasis@svkm.ac.in 
+✓ Relevant supporting documents – Screenshot of the error message 
+The same should also be shared with the respective school exam team and SAPBASIS team. 
+ 
+ 
+ 
+ 
+******************

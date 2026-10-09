@@ -1,0 +1,1895 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+
+
+	<!-- Google tag (gtag.js) --> 
+	
+<script async 
+src="https://www.googletagmanager.com/gtag/js?id=G-DSDPX61MY7"></script> 
+<script> 
+window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date()); 
+gtag('config', 'G-DSDPX61MY7'); 
+</script> 
+		
+	<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '968835628190681');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=968835628190681&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->	
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v23.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Administration - MPSTME</title>
+	<link rel="canonical" href="https://engineering.nmims.edu/about-us/administration/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Administration - MPSTME" />
+	<meta property="og:url" content="https://engineering.nmims.edu/about-us/administration/" />
+	<meta property="og:site_name" content="MPSTME" />
+	<meta property="article:modified_time" content="2024-11-13T09:29:26+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://engineering.nmims.edu/about-us/administration/","url":"https://engineering.nmims.edu/about-us/administration/","name":"Administration - MPSTME","isPartOf":{"@id":"https://engineering.nmims.edu/#website"},"datePublished":"2024-04-16T22:21:37+00:00","dateModified":"2024-11-13T09:29:26+00:00","breadcrumb":{"@id":"https://engineering.nmims.edu/about-us/administration/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://engineering.nmims.edu/about-us/administration/"]}]},{"@type":"BreadcrumbList","@id":"https://engineering.nmims.edu/about-us/administration/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://engineering.nmims.edu/"},{"@type":"ListItem","position":2,"name":"ABOUT US","item":"https://engineering.nmims.edu/about-us/"},{"@type":"ListItem","position":3,"name":"Administration"}]},{"@type":"WebSite","@id":"https://engineering.nmims.edu/#website","url":"https://engineering.nmims.edu/","name":"MPSTME","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://engineering.nmims.edu/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="MPSTME &raquo; Feed" href="https://engineering.nmims.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MPSTME &raquo; Comments Feed" href="https://engineering.nmims.edu/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://engineering.nmims.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fengineering.nmims.edu%2Fabout-us%2Fadministration%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://engineering.nmims.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fengineering.nmims.edu%2Fabout-us%2Fadministration%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='nta-css-popup-css' href='https://engineering.nmims.edu/wp-content/plugins/wp-whatsapp/assets/dist/css/style.css?ver=7.1.2' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='nmims-style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='add_google_fonts-css' href='https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&#038;display=swap&#038;ver=7.1.2' media='all' />
+<link rel='stylesheet' id='nmims_bootstrap_style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/assets/css/bootstrap.min.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='nmims_slick_style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/assets/css/slick.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='nmims_slick_theme_style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/assets/css/slick-theme.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='nmims_core_style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/assets/css/core.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='nmims_custom_style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/assets/css/custom.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='nmims_about_style-css' href='https://engineering.nmims.edu/wp-content/themes/nmims/assets/css/about.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://engineering.nmims.edu/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' media='all' />
+<script id="addtoany-core-js-before">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+
+//# sourceURL=addtoany-core-js-before
+</script>
+<script id="addtoany-core-js" async src="https://static.addtoany.com/menu/page.js"></script>
+<script id="jquery-core-js" src="https://engineering.nmims.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://engineering.nmims.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="addtoany-jquery-js" async src="https://engineering.nmims.edu/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1"></script>
+<link rel="https://api.w.org/" href="https://engineering.nmims.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://engineering.nmims.edu/wp-json/wp/v2/pages/760" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://engineering.nmims.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://engineering.nmims.edu/?p=760' />
+<link rel="icon" href="https://engineering.nmims.edu/wp-content/uploads/2023/11/cropped-android-chrome-96x96-1-32x32.webp" sizes="32x32" />
+<link rel="icon" href="https://engineering.nmims.edu/wp-content/uploads/2023/11/cropped-android-chrome-96x96-1-192x192.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://engineering.nmims.edu/wp-content/uploads/2023/11/cropped-android-chrome-96x96-1-180x180.webp" />
+<meta name="msapplication-TileImage" content="https://engineering.nmims.edu/wp-content/uploads/2023/11/cropped-android-chrome-96x96-1-270x270.webp" />
+<style id="wp-custom-css">
+.admin-bar header#site-header{top:30px;}
+.programs-details-cards{overflow-x:hidden;display:none;}
+.contact-us-form{margin:100px 0;background-color:var(--nims-bg-gray);padding:40px 30px;display:none;}
+details summary{padding:10px;cursor:pointer;}
+details summary:hover{color:var(--nims-blue);}
+
+.faculty-accordion{margin:0 auto;font-family:'Overpass',sans-serif;}
+
+.facv-item{position:relative;border-bottom:1px solid #e2e2e0;}
+
+/* Hide the radio visually but keep it tappable/focusable — 
+   the old rule made it 1px which some mobile browsers 
+   effectively treat as untappable/ignorable */
+.facv-radio{
+  position:absolute;
+  opacity:0;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  margin:0;
+  cursor:pointer;
+  z-index:2; /* ensure it sits above the header so taps register */
+}
+
+.facv-header{
+  position:relative;
+  display:flex;
+  align-items:center;
+  padding:15px 6px;
+  cursor:pointer;
+  font-weight:700;
+  font-size:18px;
+  color:#14213d;
+  transition:background-color .2s ease;
+  -webkit-tap-highlight-color:transparent; /* removes gray flash on tap, but doesn't block the tap */
+  touch-action:manipulation; /* prevents 300ms tap delay / double-tap zoom issues on mobile */
+}
+
+.facv-header:hover{background-color:#faf9f6;}
+
+.facv-radio:focus-visible + .facv-header{outline:2px solid #a9862f;outline-offset:-2px;}
+
+.facv-icon{
+  flex:0 0 auto;
+  width:0;height:0;
+  margin-right:12px;
+  border-style:solid;
+  border-width:6px 0 6px 8px;
+  border-color:transparent transparent transparent #14213d;
+  transition:transform .25s ease;
+  pointer-events:none; /* ensures the icon itself never blocks the tap from reaching the label/input */
+}
+
+.facv-panel{max-height:0;overflow:hidden;transition:max-height .35s ease;}
+.facv-panel-inner{padding:2px 6px 18px 26px;}
+.facv-panel-inner ul{margin:0;padding-left:18px;}
+.facv-panel-inner li{margin-bottom:10px;font-size:14.5px;line-height:1.6;color:#2c3e63;}
+.facv-panel-inner li::marker{color:#a9862f;}
+
+.facv-radio:checked + .facv-header .facv-icon{transform:rotate(90deg);}
+.facv-radio:checked ~ .facv-panel{max-height:1200px;}
+
+/* Desktop-only hover expand — untouched, correctly scoped away from touch devices */
+@media (hover: hover) and (pointer: fine){
+  .facv-item:hover .facv-panel{max-height:1200px;}
+  .facv-item:hover .facv-icon{transform:rotate(90deg);}
+}
+
+@media (max-width: 480px){
+  .facv-header{font-size:15px;padding:13px 4px;}
+  .facv-panel-inner{padding:2px 4px 16px 22px;}
+  .facv-panel-inner li{font-size:14px;}
+}
+
+@media (prefers-reduced-motion: reduce){
+  .facv-panel,.facv-icon,.facv-header{transition:none;}
+}
+
+
+.read-more-btn {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #cd2727;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+</style>
+	
+	
+
+	
+	
+</head>
+
+<body class="wp-singular page-template page-template-page-templates page-template-tpl-about page-template-page-templatestpl-about-php page page-id-760 page-child parent-pageid-509 wp-theme-nmims">
+		<div id="back-to-top">
+		<a href="#" title="Click to Top">
+			<svg width="15px" height="10px" viewBox="0 0 15 10"
+			enable-background="new 0 0 15 10" xml:space="preserve">
+			<path fill="#FFFFFF"
+			d="M14.85,9.075l-0.751,0.771C14.008,9.938,13.888,10,13.753,10c-0.121,0-0.256-0.063-0.346-0.154L7.5,2.76 L1.593,9.846C1.503,9.938,1.368,10,1.248,10S0.992,9.938,0.902,9.846L0.15,9.075C0.06,8.982,0,8.844,0,8.721 c0-0.124,0.06-0.263,0.15-0.355l7.004-8.211C7.244,0.062,7.38,0,7.5,0s0.256,0.062,0.346,0.154l7.004,8.211 C14.939,8.458,15,8.597,15,8.721C15,8.844,14.939,8.982,14.85,9.075z">
+			</path>
+			</svg>
+		</a>
+	</div>
+			<div class="fixed-elements">
+								<div class="fixed-apply-btn">
+						<a href="https://engineering.nmims.edu/apply-now/" class="btn btn-primary" target="_blank">ENQUIRE NOW</a>
+					</div>
+							<ul class="fixed-socialmedia d-lg-block d-none">
+											<li><a href="https://www.addtoany.com/add_to/facebook?linkurl=https://engineering.nmims.edu/about-us/administration/&#038;linkname=Administration" class="facebook" target="_blank"><img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/facebook-fixed.svg" class="img-fluid" alt="facebook" width="11px" height="22px"/></a></li>
+											<li><a href="https://www.addtoany.com/add_to/x?linkurl=https://engineering.nmims.edu/about-us/administration/&#038;linkname=Administration" class="twitter" target="_blank"><img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/twitter-fixed.svg" class="img-fluid" alt="twitter" width="15px" height="15px" /></a></li>
+											<li><a href="https://www.instagram.com/share?linkurl=https://engineering.nmims.edu/about-us/administration/&#038;linkname=Administration" class="insta" target="_blank"><img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/insta-fixed.svg" class="img-fluid" alt="instagram" width="15px" height="15px"/></a></li>
+											<li><a href="https://www.addtoany.com/add_to/linkedin?linkurl=https://engineering.nmims.edu/about-us/administration/&#038;linkname=Administration" class="linkedin" target="_blank"><img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/linkedin-fixed.svg" class="img-fluid" alt="linkedin" width="15px" height="15px"/></a></li>
+										<li class="share" >
+						<div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://engineering.nmims.edu/about-us/administration/" data-a2a-title="Administration"></div></div>											</li>
+				</ul>
+					</div>
+		
+	<!-- Header Menu start -->
+	<header class="band page-header pt-3 pb-3" id="site-header">
+	<div class="container-fluid px-3">
+		<div class="row align-items-center">
+			<div class="col-2 d-md-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				<img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/search-mobile.svg" class="img-fluid search-mobile-icon" />
+			</div>
+							<div class="col-md-5 col-lg-3 col-xxl-3 text-md-start text-center col-xl-3 col-8">
+					<a href="https://engineering.nmims.edu/" class="z-index10 position-relative">
+						<img src="https://engineering.nmims.edu/wp-content/uploads/2024/04/logo.png" class="img-fluid logo-img" alt="Mukesh Patel School of Technology Management and Engineering"/>
+					</a>
+				</div>
+						<div class="col-md-7 col-lg-9 col-xxl-8 col-xl-9 offset-xxl-1 col-2">
+				<div class="navelementsmain">
+					<div class="navrightelements">
+						<div class="nmimsedumenuglobal d-none d-md-block">
+							<div class="searchimgdiv">
+								<a href="#" class="searchformdisplay" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									<img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/serch.svg" class="img-fluid searchicon" alt="search"/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-fullscreen modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="modal-main-body">
+										<div class="search-header">
+											<form role="search" method="get" class="searchform"  id="searchform" action="https://engineering.nmims.edu/search">
+												<img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/serch.svg" alt="">
+												<input type="text" placeholder="Search MPSTME" class="form-control search_field" name="search" id="search" value=""/>
+											</form>
+										</div>
+										<div id="autocomplete_search"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="navleftelements">
+						<button class="navbar-toggler position-relative burger-menu burger-menu--closed" type="button"
+							data-toggle="collapse" data-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</button>
+						<nav class="navbar  p-0 justify-content-xl-center align-items-start" id="main-menu">
+<div class="p-0 w-100 h-100">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav w-100">
+<li class="nav-item dropdown  accodiansection d-md-none d-block"><a class="nav-link dropdown-toggle" href="https://engineering.nmims.edu/" target="">Home</a></li><li class="nav-item dropdown accodiansection test d-md-block d-none"><a class="nav-link dropdown-toggle" href="https://engineering.nmims.edu/" data-bs-toggle="dropdown" target="">Home</a> <div class="dropdown-menu"><div class="dropdown_item_mian"><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a  class="dropdown-item " href="https://engineering.nmims.edu/about-us" target=""><span class="menuheight">About MPSTME</span><img width="300" height="168" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/04/839_SGPDJI_0347_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" fetchpriority="high" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/04/839_SGPDJI_0347_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/04/839_SGPDJI_0347_2024-1536x863.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="menu-description">MPSTME, a top engineering college in Mumbai was essentially established to serve the need of creating an innovative and integrated space for technology education interspersed with sound management practices that converged with changing industry as well as societal needs.</div></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown open "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">About us</a> <div class="dropdown-menu"><div class="dropdown_item_mian"> <div class="dropdown_item main_dropdown_item"><a class="dropdown-item" href="https://engineering.nmims.edu/about-us/" target="">About us </a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/about-us/vision/" target=""><span class="menuheight">Vision & Mission</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg.webp 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg-1536x1022.webp 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/about-us/deans-message/" target=""><span class="menuheight">Dean’s Message</span><img width="300" height="225" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/12/edited-photo-1.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/12/edited-photo-1.jpg 2560w, https://engineering.nmims.edu/wp-content/uploads/2024/12/edited-photo-1-1536x1152.jpg 1536w, https://engineering.nmims.edu/wp-content/uploads/2024/12/edited-photo-1-2048x1536.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item active " href="https://engineering.nmims.edu/about-us/administration/" target=""><span class="menuheight">Administration</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/789_SGP_SG32702_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/06/789_SGP_SG32702_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/06/789_SGP_SG32702_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown  thirpartylink"><a class="nav-link dropdown-toggle" href="https://nmims.edu/" target="_blank">About NMIMS</a></li><li class="nav-item dropdown accodiansection addmissionmenuitem"><a class="nav-link dropdown-toggle" href="#admission" data-bs-toggle="dropdown" target="">Admissions</a> <div class="dropdown-menu"><div class="dropdown_item_mian"><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a  class="dropdown-item " href="#" target=""><span class="menuheight">Admissions</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg.webp 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg-1536x1022.webp 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://engineering.nmims.edu/diploma/" title="Diploma Engineering 2026" target="_blank">Diploma Engineering 2026<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://nmims.edu/mtech-mca/" title="M Tech Admissions 2026 - Phase 2" target="_blank">M Tech Admissions 2026 - Phase 2<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://ncet.nmims.edu/" title="B Tech / MBA Tech Admissions 2026" target="">B Tech / MBA Tech Admissions 2026<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://nmims.edu/mtech-mca/" title="MCA Admissions 2026" target="">MCA Admissions 2026<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://nmims.edu/phd-programs/" title="Ph D Admissions 2026" target="_blank">Ph D Admissions 2026<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://engineering.nmims.edu/sat-act-2026/" title="SAT/ACT Admissions 2026" target="">SAT/ACT Admissions 2026<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" title="Direct second year Admissions for B Tech & MBA Tech (Batch-2026)" target="_blank">Direct second year Admissions for B Tech & MBA Tech (Batch-2026)<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a><a class="dropdown-item " href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2026/" title="B Tech MBA Tech NON CET  Admissions 2026" target="">B Tech MBA Tech NON CET  Admissions 2026<img class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png"/></a></div></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">Academics</a> <div class="dropdown-menu"><div class="dropdown_item_mian"> <div class="dropdown_item main_dropdown_item"><a class="dropdown-item" href="https://engineering.nmims.edu/academics/" target="">Academics </a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/academics/infrastructure/" target=""><span class="menuheight">Infrastructure</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/200_SGP_SG31998_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/06/200_SGP_SG31998_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/06/200_SGP_SG31998_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/academics/academic-calendar/" target=""><span class="menuheight">Student Resources Book & Academic Calendar</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/07/Acedamic-Calander-2.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item departments" href="#" target=""><span class="menuheight">Departments</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/Departments.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/05/Departments.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/05/Departments-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://engineering.nmims.edu/department/applied-computing/" title="Applied Computing" target="">Applied Computing</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/artificial-intelligence/" title="Artificial Intelligence" target="">Artificial Intelligence</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/basic-sciences-humanities/" title="Basic Sciences &amp; Humanities" target="">Basic Sciences &amp; Humanities</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/civil-engineering/" title="Civil Engineering" target="">Civil Engineering</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/computer-engineering/" title="Computer Engineering" target="">Computer Engineering</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/computer-science-and-business-system/" title="Computer Science and Business Systems" target="">Computer Science and Business Systems</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/cybersecurity/" title="Cyber Security" target="">Cyber Security</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/data-science/" title="Data Science" target="">Data Science</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/electronics-and-telecommunication-engineering/" title="Electronics &amp; Telecommunication Engineering" target="">Electronics &amp; Telecommunication Engineering</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/information-technology-and-cyber-security/" title="Information Technology" target="">Information Technology</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/mechanical-engineering/" title="Mechanical Engineering" target="">Mechanical Engineering</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/mechatronics/" title="Mechatronics" target="">Mechatronics</a><a class="dropdown-item " href="https://engineering.nmims.edu/department/technology-management/" title="Technology Management" target="">Technology Management</a></div></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/academics/skill-development-programmes/" target=""><span class="menuheight">Skill Development Programmes</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/295_SGP_SG32083_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/05/295_SGP_SG32083_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/05/295_SGP_SG32083_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown  "><a class="nav-link dropdown-toggle" href="https://engineering.nmims.edu/faculty/" target="">Faculty & Research</a></li><li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">Students</a> <div class="dropdown-menu"><div class="dropdown_item_mian"> <div class="dropdown_item main_dropdown_item"><a class="dropdown-item" href="#" target="">Students </a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/activities/" target=""><span class="menuheight">Activities</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/1211_SGP_SG33254_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/06/1211_SGP_SG33254_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/06/1211_SGP_SG33254_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/student-council/" target=""><span class="menuheight">Student Council</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/Student-Council.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/05/Student-Council.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/05/Student-Council-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/examination/" target=""><span class="menuheight">Examination</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/04/13_SGP_SG31830_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/04/13_SGP_SG31830_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/04/13_SGP_SG31830_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/facilities/" target=""><span class="menuheight">Facilities</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/1198_SGP_SG18252_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/06/1198_SGP_SG18252_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/06/1198_SGP_SG18252_2024-1536x1024.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/counselling/" target=""><span class="menuheight">Counselling</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/04/1026_SGP_SG32999_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/04/1026_SGP_SG32999_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/04/1026_SGP_SG32999_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/alumni-association/" target=""><span class="menuheight">Alumni Association</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/706_SGP_SG32576_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/06/706_SGP_SG32576_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/06/706_SGP_SG32576_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/students/student-resource-book/" target=""><span class="menuheight">Student Resource Book</span></a></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">Stakeholder Feedback <br>(Curriculum)</a> <div class="dropdown-menu"><div class="dropdown_item_mian"> <div class="dropdown_item main_dropdown_item"><a class="dropdown-item" href="#" target=""> Structured Feedback Curriculum </a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Feedback Form Submission</span></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://nmims.edu/feedback/student-feedback/" title="Student" target="_blank">Student</a><a class="dropdown-item " href="https://nmims.edu/feedback/faculty-feedback/" title="Faculty" target="_blank">Faculty</a><a class="dropdown-item " href="https://nmims.edu/feedback/alumni-feedback/" title="Alumni" target="_blank">Alumni</a><a class="dropdown-item " href="https://nmims.edu/feedback/employer-feedback/" title="Employer / Recruiter" target="_blank">Employer / Recruiter</a><a class="dropdown-item " href="https://nmims.edu/feedback/academic-peers/" title="Academic Peers" target="_blank">Academic Peers</a></div></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/feedback-analysis-report/" target="_blank"><span class="menuheight">Feedback Analysis Reports</span></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://engineering.nmims.edu/feedback-analysis-report/" title="2019-20" target="_blank">2019-20</a><a class="dropdown-item " href="https://engineering.nmims.edu/feedback-analysis-report/" title="2020-21" target="_blank">2020-21</a><a class="dropdown-item " href="https://engineering.nmims.edu/feedback-analysis-report/" title="2021-22" target="_blank">2021-22</a><a class="dropdown-item " href="https://engineering.nmims.edu/feedback-analysis-report/" title="2022-23" target="">2022-23</a><a class="dropdown-item " href="https://engineering.nmims.edu/feedback-analysis-report/" title="2023-24" target="_blank">2023-24</a></div></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/action-taken-reports/" target=""><span class="menuheight">Action Taken Reports</span></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://engineering.nmims.edu/action-taken-reports/" title="2019-20" target="_blank">2019-20</a><a class="dropdown-item " href="https://engineering.nmims.edu/action-taken-reports/" title="2020-21" target="_blank">2020-21</a><a class="dropdown-item " href="https://engineering.nmims.edu/action-taken-reports/" title="2021-22" target="">2021-22</a><a class="dropdown-item " href="https://engineering.nmims.edu/action-taken-reports/" title="2022-23" target="">2022-23</a><a class="dropdown-item " href="https://engineering.nmims.edu/action-taken-reports/" title="2023-24" target="">2023-24</a></div></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/communication-to-stakeholder/" target=""><span class="menuheight">Communication to Stakeholders</span></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://engineering.nmims.edu/communication-to-stakeholder/" title="2019-20" target="_blank">2019-20</a><a class="dropdown-item " href="https://engineering.nmims.edu/communication-to-stakeholder/" title="2020-21" target="_blank">2020-21</a><a class="dropdown-item " href="https://engineering.nmims.edu/communication-to-stakeholder/" title="2021-22" target="_blank">2021-22</a><a class="dropdown-item " href="https://engineering.nmims.edu/communication-to-stakeholder/" title="2022-23" target="_blank">2022-23</a><a class="dropdown-item " href="https://engineering.nmims.edu/communication-to-stakeholder/" title="2023-24" target="_blank">2023-24</a></div></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Filled Feedback Forms (Sample)</span></a><div class="dropdown_inner_menu"><a class="dropdown-item " href="https://engineering.nmims.edu/docs/2019-20-filled%20-feedback-forms.pdf" title="2019-20" target="_blank">2019-20</a><a class="dropdown-item " href="https://engineering.nmims.edu/docs/2020-21-filled%20-feedback-forms.pdf" title="2020-21" target="_blank">2020-21</a><a class="dropdown-item " href="https://engineering.nmims.edu/docs/2021-22-filled%20-feedback-forms.pdf" title="2021-22" target="_blank">2021-22</a><a class="dropdown-item " href="https://engineering.nmims.edu/docs/2022-23-filled%20-feedback-forms.pdf" title="2022-23" target="_blank">2022-23</a><a class="dropdown-item " href="https://engineering.nmims.edu/docs/2023-24-filled%20-feedback-forms.pdf" title="2023-24" target="_blank">2023-24</a></div></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">Placements</a> <div class="dropdown-menu"><div class="dropdown_item_mian"> <div class="dropdown_item main_dropdown_item"><a class="dropdown-item" href="https://engineering.nmims.edu/placement-overview/" target="">Placements </a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/placement-overview/" target=""><span class="menuheight">Placement Overview</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/701_SGP_SG32568_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/05/701_SGP_SG32568_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/05/701_SGP_SG32568_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/placement-overview/b-tech-m-tech-mca-mba-tech-placements/" target=""><span class="menuheight">B Tech / M Tech / MCA and Tech Management Placements</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/706_SGP_SG32576_2024.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/06/706_SGP_SG32576_2024.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/06/706_SGP_SG32576_2024-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">Campuses</a> <div class="dropdown-menu"><div class="dropdown_item_mian"><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://nmims.edu/mumbaicampus" target="_blank"><span class="menuheight">Mumbai</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/MPSTME-Mumbai.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/05/MPSTME-Mumbai.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/05/MPSTME-Mumbai-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://nmims.edu/navimumbaicampus" target="_blank"><span class="menuheight">Navi Mumbai</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/6.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://nmims.edu/shirpurcampus" target="_blank"><span class="menuheight">Shirpur</span><img width="300" height="112" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/3.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://nmims.edu/hyderabadcampus" target="_blank"><span class="menuheight">Hyderabad</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/4.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://nmims.edu/chandigarhcampus" target="_blank"><span class="menuheight">Chandigarh</span><img width="300" height="102" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/8.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://nmims.edu/indorecampus" target="_blank"><span class="menuheight">Indore</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/5.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown  "><a class="nav-link dropdown-toggle" href="https://engineering.nmims.edu/de/" target="">Design Experience</a></li><li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" target="">International Linkages</a> <div class="dropdown-menu"><div class="dropdown_item_mian"> <div class="dropdown_item main_dropdown_item"><a class="dropdown-item" href="https://engineering.nmims.edu/international-linkages/" target="">International Linkages </a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/international-linkages/" target=""><span class="menuheight">Overview</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/Vision-Mission-1.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/05/Vision-Mission-1.jpg 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/05/Vision-Mission-1-1536x1022.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/international-linkages/stevens-institute-of-technology/" target=""><span class="menuheight">Stevens Institute Of Technology</span></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/international-linkages/university-at-buffalo-ub-usa/" target=""><span class="menuheight">University At Buffalo (UB), USA</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/7.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/international-linkages/virginia-tech-university-vt/" target=""><span class="menuheight">Virginia Tech University (VT)</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/5.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Hochschule Konstanz</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/1.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Hochschule Karlsruhe</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/2.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Cranfield University</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/3.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Binghamton University</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/4.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">UNSW Sydney</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/6.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Santa Clara University</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/9.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="#" target=""><span class="menuheight">Monash University</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/07/Untitled-design.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/international-linkages/international-visiting-faculty/" target=""><span class="menuheight">International Visiting Faculty</span><img width="300" height="200" src="https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg.webp 1980w, https://engineering.nmims.edu/wp-content/uploads/2024/07/Vision-Mission-1-1.jpg-1536x1022.webp 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a class="dropdown-item " href="https://engineering.nmims.edu/international-linkages/contact-nmims-mpstme-international-linkages/" target=""><span class="menuheight">Contact | NMIMS MPSTME International Linkages</span><img width="300" height="104" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/07/Acedamic-Calander-1.png.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" /></a></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li><li class="nav-item dropdown  thirpartylink"><a class="nav-link dropdown-toggle" href="https://fa-elxu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001" target="_blank">Careers</a></li><li class="nav-item dropdown  thirpartylink"><a class="nav-link dropdown-toggle" href="https://nmims.edu/research" target="_blank">Research</a></li><li class="nav-item dropdown  d-md-none d-block"><a class="nav-link dropdown-toggle" href="https://engineering.nmims.edu/contact/" target="">Contact us</a></li><li class="nav-item dropdown accodiansection d-md-block d-none"><a class="nav-link dropdown-toggle" href="https://engineering.nmims.edu/contact/" data-bs-toggle="dropdown" target="">Contact us</a> <div class="dropdown-menu"><div class="dropdown_item_mian"><div class="dropdown_item">	<img src=https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/d-arrow.svg class="img-fluid d-md-none d-block" alt=""><a  class="dropdown-item contact-detail" href="https://engineering.nmims.edu/contact/" target=""><span class="menuheight">Contact us</span><img width="300" height="125" src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/04/01.jpg.webp" class="img-fluid d-md-block d-none" alt="" decoding="async" srcset="https://engineering.nmims.edu/wp-content/uploads/2024/04/01.jpg 1920w, https://engineering.nmims.edu/wp-content/uploads/2024/04/01-1536x640.jpg 1536w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="dropdown_inner_menu"><a class="dropdown-item img-contact" href="tel:912242334000" title="+91 22 4233 4000" target=""><img width="1" height="1" src="https://engineering.nmims.edu/wp-content/uploads/2024/05/Group-2611.svg" class="attachment-medium size-medium" alt="" decoding="async" />+91 22 4233 4000</a><a class="dropdown-item img-contact" href="mailto:enquiry.mpstme@nmims.edu" title="enquiry.mpstme@nmims.edu" target=""><img width="1" height="1" src="https://engineering.nmims.edu/wp-content/uploads/2024/05/Group-2613.svg" class="attachment-medium size-medium" alt="" decoding="async" />enquiry.mpstme@nmims.edu</a></div></div></div></div><div class="dropdown-menu apply_sections"><div id="header-menu-sidebar" class="widget-area"><div id="block-7" class="widget widget_block"><style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+<h6> Quick Links</h6>
+<div>
+    <div>
+        
+
+<div class="admissions">Admissions Open for 2026</div>
+
+  
+        <a href="https://engineering.nmims.edu/apply-now/" class="dropdown-item">
+         Enquire Now
+        </a>
+    </div>
+
+	 <div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>
+
+    <div>
+		 <!-- <a href="https://engineering.nmims.edu/openday/" class="dropdown-item program">
+            Diploma Engineering OpenHouse
+<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>-->
+
+        <a href="https://engineering.nmims.edu/diploma/" class="dropdown-item program">
+            Diploma Engineering<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+  
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            B Tech Programmes
+				<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+				<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+    </div>
+    <div>
+        <a href="https://ncet.nmims.edu/" class="dropdown-item program">
+            MBA Tech Programmes <!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+   <!-- <div>
+        <a href="https://nmims.edu/mtech-mca/" class="dropdown-item program">
+            M Tech Programmes <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+    <div>
+        <a href="https://engineering.nmims.edu/program/#postgraduateprogrammes" class="dropdown-item program">
+            MCA Programmes
+			<!--<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+        </a>
+    </div>
+    <!--<div>
+        <a href="https://engineering.nmims.edu/program/#doctorateprogrammes" class="dropdown-item program">
+            Ph D Programmes
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+			<img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" class="dropdown-item program">
+           Direct 2nd yr Admissions for B Tech &amp; MBA Tech 
+		 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif"> -->
+        </a>
+
+    </div>
+	
+	 <div>
+        <a href="https://engineering.nmims.edu/sat-act-2026/" class="dropdown-item program">
+           SAT/ACT Admissions 
+		   <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-close.png">
+		  <!-- <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">-->
+        </a>
+
+    </div>
+	
+	 <!-- <div>
+        <a href="https://engineering.nmims.edu/btech-mba-tech-non-cet-2025/" class="dropdown-item program">
+           B Tech MBA Tech NON CET 2026 <img decoding="async" class="gif-admission" src="https://engineering.nmims.edu/wp-content/uploads/2024/06/Admission-Open.gif">
+        </a>
+
+    </div>-->
+	
+	  <div>
+        <a href="https://engineering.nmims.edu/mandatory-disclosure/" class="dropdown-item program">
+            Mandatory Disclosures
+        </a>
+    </div>
+</div></div></div></div></li></ul>
+</div>
+</div>
+</nav>
+						<div class="menu-fade"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>	<!-- Header Menu end -->
+	
+<!--- Banner Section Start--->
+			<section id="about-banner">
+				<div class="banner-about data-src" data-image-src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/06/789_SGP_SG32702_2024.jpg.webp">
+					<div class="container">
+						<h1>Administration</h1>
+					</div>
+				</div>
+			</section>
+		<!--- Banner Section End--->
+
+<!-- Content Section Start -->
+			<section>
+				<div class="about-details">
+					<div class="container">
+						<p>MPSTME management recognizes that a progressive institute is always differentiated through its sound administrative practices. Also a well designed administrative network that is well aligned with the philosophy of the University is instrumental in taking the institute towards realization of its vision. MPSTME administration Comprises of stalwarts and leaders who are deeply intuned to MPSTME vision and aptly carry forward the NMIMS legacy. Administrative practices at MPSTME rest firmly on the principle of a flat hierarchical network and open door policy. The Administrative support staff is trained and encouraged to ensure a smooth and homogenous transition of students into the institute. Students are guided and supported throughout to ensure that their trajectory with us remains hassle free and memorable in every aspect.</p>
+					</div>
+				</div>
+			</section>
+		<!-- Content Section End -->
+
+<!-- Accordions Section Start -->
+<!-- Accordions Section End -->
+
+<!-- Accordions with slider Section Start -->
+<!-- Accordions with slider Section End -->
+
+<!-- Teaching Scheme Section Start -->
+<!-- Teaching Scheme Section Start -->
+
+<!-- Content Detail Section Start -->
+			<section>
+				<div class="about-details-cards about-start-section">
+					<div class="container">
+						<div class="row">
+																<div class="col-lg-6 p-0 parth-one-main">
+																					<div class="parth-one parth-overlay data-src" data-image-src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/04/1246_SGP_SG33291_2024.jpg.webp"></div>
+																			</div>
+																	<div class="col-lg-6 p-0 parth-white-main">
+										<div class="parth-white"></div>										<div class="parth-white-text padding-parth padding-parth-text padding-parth-left">
+											<div class="">
+												<p><strong>Dean</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Koteswararao Anne</td>
+<td width="50%">koteswararao.anne@nmims.edu</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Director &#8211; MPSTME</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Sudipto Sarkar</td>
+<td width="50%">sudipto.sarkar@nmims.edu</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Associate Dean – Academics &amp; Faculty Development</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Vaishali Kulkarni</td>
+<td width="50%"><a href="mailto:vaishali.kulkarni@nmims.edu">vaishali.kulkarni@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Associate Dean &#8211; Research and Development</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Archana Bhise</td>
+<td width="50%"><a href="mailto:archana.bhise@nmims.edu">archana.bhise@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Associate Dean &#8211; Accreditation<br />
+</strong></p>
+<table style="height: 11px" border="0" width="1140" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Ketan Shah</td>
+<td width="50%"><a href="mailto:Ketan.shah@nmims.edu">Ketan.shah@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Joint Director &#8211; Placements </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Ms. Aparna Mahesh</td>
+<td width="50%"><a href="mailto:aparna.Mahesh@nmims.edu">aparna.Mahesh@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+											</div>
+										</div>
+									</div>
+																					</div>
+					</div>
+				</div>
+			</section>
+					<section>
+				<div class="about-inner-section">
+					<div class="container">
+						<div class="row">
+																<div class="col-lg-6 padding-parth-text padding-parth-main">
+																				<div class="padding-parth-right ">
+										<p><strong>Basic Sciences and Humanities</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Ajay Phirke</td>
+<td width="50%"><a href="mailto:ajay.Phirke@nmims.edu">ajay.Phirke@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Computer Engineering<br />
+</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Dhirendra Mishra</td>
+<td width="50%"><a href="mailto:nishita.parekh@nmims.edu">dhirendra.mishra@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Civil Engineering<br />
+</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Meenal Mategaonkar</td>
+<td width="50%"><a href="mailto:Meenal.Mategaonkar@nmims.edu">Meenal.Mategaonkar@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Data Science</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Siba Panda</td>
+<td width="50%"><a href="mailto:sarada.Samantaray@nmims.edu">siba.panda@nmims.edu </a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Electronics and Telecommunication Engineering </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Avinash More</td>
+<td width="50%"><a href="mailto:avinash.more@nmims.edu">avinash.more@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Information Technology </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Ketan Shah</td>
+<td width="50%"><a href="mailto:ketan.shah@nmims.edu">ketan.shah@nmims.edu </a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mechanical Engineering </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%"><span data-olk-copy-source="MessageBody">Dr. Ashish Deshmukh</span></td>
+<td width="50%">ashish.deshmukh@nmims.edu</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mechatronics Engineering </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Venkatesh Deshmukh</td>
+<td width="50%"><a href="mailto:venkatesh.deshmukh@nmims.edu">venkatesh.deshmukh@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Technology Management </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Geetha Iyer</td>
+<td width="50%"><a href="mailto:geetha.iyer@nmims.edu">geetha.iyer@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Section Head- Master of Computer Application </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Dr. Pravin Srinath</td>
+<td width="50%">pravin.srinath@nmims.edu</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+										</div>
+									</div>
+																	<div class="col-lg-6 padding-parth padding-parth-main">
+																					<div class="parth-two parth-overlay data-src" data-image-src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/794_SGP_SG32713_2024.jpg.webp"></div>
+																					<div class="parth-text">
+												<div class="parth-left">
+													<h6>Heads of the Departments</h6>
+												</div>
+											</div>
+																			</div>
+													</div>
+					</div>
+				</div>
+			</section>
+					<section>
+				<div class="about-inner-section">
+					<div class="container">
+						<div class="row">
+																<div class="col-lg-6 padding-parth padding-parth-main">
+																					<div class="parth-one parth-overlay data-src" data-image-src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/05/1032_SGP_SG33018_2024.jpg.webp"></div>
+																						<div class="parth-text">
+													<div class="parth-right">
+														<h6>Administration &amp; Support Staff</h6>
+													</div>
+												</div>
+																				</div>
+																	<div class="col-lg-6 padding-parth-text">
+																				<div class="parth-white-text padding-parth padding-parth-text padding-parth-left">
+											<div class="">
+												<p><strong>Joint Director &#8211; Placements </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Ms. Aparna Mahesh</td>
+<td width="50%"><a href="mailto:aparna.Mahesh@nmims.edu">aparna.Mahesh@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Joint Registrar</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Ms. Anjali Barmukh</td>
+<td width="50%"><a href="mailto:anjali.barmukh@nmims.edu">anjali.barmukh@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Assistant Registrar</strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Ms. Gauri Pedgulkar</td>
+<td width="50%"><a href="mailto:gauri.pedgulkar@nmims.edu">gauri.pedgulkar@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Deputy Librarian </strong></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Mr. Ravikumar Bellary</td>
+<td width="50%"><a href="mailto:ravikumar.Bellary@nmims.edu">ravikumar.Bellary@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+											</div>
+										</div>
+									</div>
+																					</div>
+					</div>
+				</div>
+			</section>
+					<section>
+				<div class="about-inner-section about-last-section">
+					<div class="container">
+						<div class="row">
+																<div class="col-lg-6 padding-parth-text padding-parth-main">
+										<div class="parth-one"></div>										<div class="padding-parth-right parth-white-text">
+										<p><strong>Assistant registrar</strong></p>
+<table class="table table-responsive" border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<td width="50%">Ms. Anitha Baburaj</td>
+<td width="50%"><a href="mailto:anitha.Baburaj@nmims.edu">anitha.Baburaj@nmims.edu</a></td>
+</tr>
+</tbody>
+</table>
+										</div>
+									</div>
+																	<div class="col-lg-6 padding-parth padding-parth-main">
+																					<div class="parth-two parth-overlay data-src" data-image-src="https://engineering.nmims.edu/wp-content/webp-express/webp-images/uploads/2024/04/642_SGP_SG17454_2024.jpg.webp"></div>
+																					<div class="parth-text">
+												<div class="parth-left">
+													<h6>Assistant registrar Examination </h6>
+												</div>
+											</div>
+																			</div>
+													</div>
+					</div>
+				</div>
+			</section>
+		<!-- Content Detail Section Start -->
+
+
+    <footer id="footer" class="text-black section-spacing overflow-hidden">
+                    <div class="container  footer-border-bottom">
+                <div class="row">
+                                            <div class="col-12">
+                            <h3>Contact Us</h3>
+                        </div>
+                                            <div class="col-xl-4 col-md-6">
+                            <div class="contact">
+                                <span>
+                                    <img src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/images/Group 2550 (1).svg" alt="location" width="20px" height="35px">
+                                </span>
+                                <span><p><a href="https://maps.app.goo.gl/urZd2sum9Fs8Kd3n7" target="_blank" rel="noopener">Bhakti Vedant Swami Marg, Near Cooper Hospital, JVPD Scheme, Vile Parle (West), Mumbai. Maharashtra- 400056, India</a></p>
+</span>
+                            </div>
+                        </div>
+                                            <div class="col-xl-3 col-lg-5 col-md-6 mt-md-0 mt-4 offset-lg-1 offset-xl-1 contact-details">
+                            <ul>
+                                                                    <li>
+                                        <span> 
+                                            <svg id="Group_2611" data-name="Group 2611" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.849" height="17.123" viewBox="0 0 20.849 17.123"><defs><clipPath id="clip-path"><rect id="Rectangle_1892" data-name="Rectangle 1892" width="20.849" height="17.123" fill="none" /></clipPath></defs><g id="Group_2480" data-name="Group 2480" clip-path="url(#clip-path)"><path id="Path_1399" data-name="Path 1399" d="M24.74,67.041h4.475c0-.253.015-.505,0-.755a.361.361,0,0,1,.4-.442c.421-.01.842-.011,1.262,0,.251.009.42.143.375.419a2.186,2.186,0,0,0,.642,1.775c1.206,1.535,2.331,3.132,3.489,4.7a1.75,1.75,0,0,1,.346,1.137c-.026.95-.006,1.9-.009,2.851,0,.668-.185.858-.837.858q-7.9,0-15.805,0c-.631,0-.809-.171-.814-.79-.007-1.059-.016-2.119.005-3.177a1.263,1.263,0,0,1,.212-.678c1.255-1.736,2.5-3.478,3.816-5.169a1.826,1.826,0,0,0,.423-1.286c-.022-.6.045-.651.641-.655q.468,0,.937,0c.311,0,.481.131.451.473-.02.227,0,.457,0,.73m.383,6.221a.595.595,0,1,0-.61.57.6.6,0,0,0,.61-.57m4.262.57a.578.578,0,0,0,.045-1.154.589.589,0,0,0-.62.556.576.576,0,0,0,.575.6m-4.262-2.624a.594.594,0,0,0-1.186.055.594.594,0,0,0,1.186-.055m0-2.016a.595.595,0,1,0-.6.589.61.61,0,0,0,.6-.589m2.429,0a.6.6,0,0,0-.6-.583.612.612,0,0,0-.577.613.591.591,0,0,0,1.182-.031m0,4.058a.579.579,0,0,0-.6-.572.6.6,0,0,0-.576.564.59.59,0,0,0,.588.591.579.579,0,0,0,.593-.583m1.839-2.606a.6.6,0,0,0-.582.6.576.576,0,0,0,.614.56.558.558,0,0,0,.554-.573.568.568,0,0,0-.586-.587m-1.838.6a.59.59,0,0,0-.579-.6.6.6,0,0,0-.6.582.592.592,0,0,0,1.183.021m1.835-2.638a.608.608,0,0,0-.579.608.585.585,0,0,0,.616.563.574.574,0,0,0,.552-.581.581.581,0,0,0-.589-.59" transform="translate(-16.763 -60.47)" fill="#1a1818" /><path id="Path_1400" data-name="Path 1400" d="M21.268,6.791H16.991c-.069-.385-.128-.757-.2-1.125A2.715,2.715,0,0,0,14.4,3.285a25.875,25.875,0,0,0-6.859-.057c-1.775.235-2.649,1.314-2.806,3.159-.032.369-.16.442-.5.437C3.113,6.8,1.986,6.817.86,6.816.727,6.815.595,6.8.467,6.8A5.715,5.715,0,0,1,3.106,1.445,9.306,9.306,0,0,1,7.263.169C9.019.038,10.786-.019,12.546.006a13.118,13.118,0,0,1,5.193,1.006,5.514,5.514,0,0,1,3.455,4.873c.026.292.048.585.074.907"transform="translate(-0.419 0)" fill="#1a1818" /><path id="Path_1401" data-name="Path 1401" d="M0,89.936H4.242c.051.882-.323,1.339-1.162,1.378-.622.029-1.248.028-1.87,0-.853-.036-1.223-.463-1.21-1.38" transform="translate(0 -82.606)" fill="#1a1818" /><path id="Path_1402" data-name="Path 1402" d="M203.061,89.9h4.251a1.017,1.017,0,0,1-.958,1.284,18.66,18.66,0,0,1-2.315,0c-.67-.041-.985-.493-.979-1.284" transform="translate(-186.512 -82.571)" fill="#1a1818" /></g></svg>
+                                        </span>
+                                        <a href="tel:912242334000">+91 22 4233 4000</a>
+                                    </li>
+                                                                    <li>
+                                        <span> 
+                                            <svg id="Group_2612" data-name="Group 2612" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.849" height="14.658" viewBox="0 0 20.849 14.658"><defs><clipPath id="clip-path"><rect id="Rectangle_1893" data-name="Rectangle 1893" width="20.849" height="14.657" fill="none" /></clipPath></defs><g id="Group_2482" data-name="Group 2482" clip-path="url(#clip-path)"><path id="Path_1403" data-name="Path 1403" d="M31.415.14c-.166.174-.256.273-.351.368Q27.3,4.253,23.529,8A1.879,1.879,0,0,1,20.5,8Q16.727,4.258,12.96.512c-.1-.095-.186-.194-.347-.362A4.661,4.661,0,0,1,13.4.005q8.61-.011,17.219,0a5.237,5.237,0,0,1,.8.135" transform="translate(-11.586 0)" fill="#1a1818" /><path id="Path_1404" data-name="Path 1404" d="M32.64,106.836a3.448,3.448,0,0,1-.648.1q-8.568.011-17.135,0a4.172,4.172,0,0,1-.695-.108l6.217-6.362c.853.921,1.69,1.8,3.043,1.8s2.2-.856,3.039-1.775l6.18,6.342" transform="translate(-13.009 -92.286)" fill="#1a1818" /><path id="Path_1405" data-name="Path 1405" d="M.132,12.786l6.2,6.287-6.2,6.291a5.907,5.907,0,0,1-.126-.839q-.012-5.452,0-10.9a5.879,5.879,0,0,1,.126-.836" transform="translate(0 -11.745)" fill="#1a1818" /><path id="Path_1406" data-name="Path 1406" d="M178.46,18.779l6.169-6.261a5.452,5.452,0,0,1,.139.834q.013,5.472,0,10.945a5.24,5.24,0,0,1-.115.766l-6.194-6.284" transform="translate(-163.925 -11.498)" fill="#1a1818" /></g></svg>
+                                        </span>
+                                        <a href="mailto:enquiry.mpstme@nmims.edu">enquiry.mpstme@nmims.edu</a>
+                                    </li>
+                                                                    <!--<li>
+                                        <span>
+                                            <svg id="Group_2612" data-name="Group 2612" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.849" height="14.658" viewBox="0 0 20.849 14.658"><defs><clipPath id="clip-path"><rect id="Rectangle_1893" data-name="Rectangle 1893" width="20.849" height="14.657" fill="none" /></clipPath></defs><g id="Group_2482" data-name="Group 2482" clip-path="url(#clip-path)"><path id="Path_1403" data-name="Path 1403" d="M31.415.14c-.166.174-.256.273-.351.368Q27.3,4.253,23.529,8A1.879,1.879,0,0,1,20.5,8Q16.727,4.258,12.96.512c-.1-.095-.186-.194-.347-.362A4.661,4.661,0,0,1,13.4.005q8.61-.011,17.219,0a5.237,5.237,0,0,1,.8.135" transform="translate(-11.586 0)" fill="#1a1818" /><path id="Path_1404" data-name="Path 1404" d="M32.64,106.836a3.448,3.448,0,0,1-.648.1q-8.568.011-17.135,0a4.172,4.172,0,0,1-.695-.108l6.217-6.362c.853.921,1.69,1.8,3.043,1.8s2.2-.856,3.039-1.775l6.18,6.342" transform="translate(-13.009 -92.286)" fill="#1a1818" /><path id="Path_1405" data-name="Path 1405" d="M.132,12.786l6.2,6.287-6.2,6.291a5.907,5.907,0,0,1-.126-.839q-.012-5.452,0-10.9a5.879,5.879,0,0,1,.126-.836" transform="translate(0 -11.745)" fill="#1a1818" /><path id="Path_1406" data-name="Path 1406" d="M178.46,18.779l6.169-6.261a5.452,5.452,0,0,1,.139.834q.013,5.472,0,10.945a5.24,5.24,0,0,1-.115.766l-6.194-6.284" transform="translate(-163.925 -11.498)" fill="#1a1818" /></g></svg>
+                                        </span>
+                                        <a href="mailto:admissions.mpstme@nmims.edu">admissions.mpstme@nmims.edu</a>
+                                    </li>-->
+                                                            </ul>
+                        </div>
+                                            <div class="col-xl-3 col-12 mt-xl-0 mt-4 col-md-6 offset-xl-1 contact-journey">
+                            
+                                <div class="social-icons test">
+                                    <ul>
+                                                                                    <li>
+                                                <a href="https://www.facebook.com/NMIMS.Engineering" target="_blank">
+                                                    <img src="https://engineering.nmims.edu/wp-content/uploads/2025/04/facebook.svg" alt="facebook"  width="48px" height="48px">
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://twitter.com/nmims_india" target="_blank">
+                                                    <img src="https://engineering.nmims.edu/wp-content/uploads/2025/04/twitter.svg" alt="facebook"  width="48px" height="48px">
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.instagram.com/mpstme/" target="_blank">
+                                                    <img src="https://engineering.nmims.edu/wp-content/uploads/2025/04/insta.svg" alt="facebook"  width="48px" height="48px">
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.linkedin.com/company/nmims-engineering" target="_blank">
+                                                    <img src="https://engineering.nmims.edu/wp-content/uploads/2025/04/linkdin.svg" alt="facebook"  width="48px" height="48px">
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                </div>
+                                                            <div class="">
+                                    <p>Unlock your potential and apply now to embark on your journey at our esteemed university!</p>
+                                            <a href="https://ncet.nmims.edu/" class="apply-f-btn" target="">Apply Now</a>
+                                                                        </div>
+                                                    </div>
+                                    </div>
+            </div>
+                    <div class="container copytext">
+                <div class="row">
+                    <div class="col-md-5 order-md-2 mb-md-0 mb-3 text-md-end text-center"><ul id="menu-footer-bottom" class="copyrightmenu"><li id="menu-item-4305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4305"><a href="https://engineering.nmims.edu/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-4207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4207"><a href="https://engineering.nmims.edu/disclaimer/">Disclaimer</a></li>
+</ul></div>                        <div class="col-md-7 text-md-start text-center">
+                            © Copyright 2026. Shri Vile Parle Kelavani Mandal (SVKM) All Rights Reserved.                        </div>
+                                    </div>
+            </div>
+            </footer>
+ 
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/nmims/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="nta-wa-libs-js" src="https://engineering.nmims.edu/wp-content/plugins/wp-whatsapp/assets/dist/js/njt-whatsapp.js?ver=3.6.7"></script>
+<script id="nta-js-global-js-extra">
+var njt_wa_global = {"ajax_url":"https://engineering.nmims.edu/wp-admin/admin-ajax.php","nonce":"afcab34bcd","defaultAvatarSVG":"\u003Csvg width=\"48px\" height=\"48px\" class=\"nta-whatsapp-default-avatar\" version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n            viewBox=\"0 0 512 512\" style=\"enable-background:new 0 0 512 512;\" xml:space=\"preserve\"\u003E\n            \u003Cpath style=\"fill:#EDEDED;\" d=\"M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0\n            S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z\"/\u003E\n            \u003Cpath style=\"fill:#55CD6C;\" d=\"M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662\n            c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234\n            c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z\"/\u003E\n            \u003Cpath style=\"fill:#FEFEFE;\" d=\"M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297\n            c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048\n            c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359\n            c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248\n            c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062\n            l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945\"/\u003E\n        \u003C/svg\u003E","defaultAvatarUrl":"https://engineering.nmims.edu/wp-content/plugins/wp-whatsapp/assets/img/whatsapp_logo.svg","timezone":"+00:00","i18n":{"online":"Online","offline":"Offline"},"urlSettings":{"onDesktop":"api","onMobile":"api","openInNewTab":"ON"}};
+//# sourceURL=nta-js-global-js-extra
+</script>
+<script id="nta-js-global-js" src="https://engineering.nmims.edu/wp-content/plugins/wp-whatsapp/assets/js/whatsapp-button.js?ver=3.6.7"></script>
+<script id="nmims-popper-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/popper.min.js?ver=1.0.0"></script>
+<script id="nmims-bootstrap-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/bootstrap.min.js?ver=1.0.0"></script>
+<script id="nmims-slick-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/slick.min.js?ver=1.0.0"></script>
+<script id="nmims-home-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/home.js?ver=1.0.0"></script>
+<script id="nmims-ScrollMagic-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/ScrollMagic.min.js?ver=1.0.0"></script>
+<script id="nmims-addIndicators-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/debug.addIndicators.min.js?ver=1.0.0"></script>
+<script id="nmims-matchHeight-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/jquery.matchHeight.js?ver=1.0.0"></script>
+<script id="nmims-simplePagination-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/simplePagination.js?ver=1.0.0"></script>
+<script id="nmims-core-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/core.js?ver=1.0.0"></script>
+<script id="nmims-custom-js-js-extra">
+var nmims = {"ajax_url":"https://engineering.nmims.edu/wp-admin/admin-ajax.php"};
+//# sourceURL=nmims-custom-js-js-extra
+</script>
+<script id="nmims-custom-js-js" src="https://engineering.nmims.edu/wp-content/themes/nmims/assets/js/custom.js?ver=1.0.0"></script>
+
+
+
+
+
+
+
+
+
+<!--START POPUP-->
+
+<style>
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 999999;
+  overflow-y: auto;
+}
+
+.popup-box {
+  position: relative;
+  background: #fff;
+  width: 430px;
+  max-width: 92%;
+  margin: 80px auto 40px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.modal-header1 {
+  background: linear-gradient(135deg, #d2232a, #b02027);
+  color: white;
+  text-align: center;
+  padding: 32px 28px 28px;
+  position: relative;
+}
+
+.modal-title {
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.close-btn {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  font-size: 26px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  opacity: 0.9;
+  line-height: 1;
+}
+.close-btn:hover {
+  opacity: 1;
+}
+
+.popup-content {
+  padding: 28px 26px 32px;
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.55;
+}
+
+.job-link {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 11px 26px;
+  background: #c22128;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.25s ease;
+}
+.job-link:hover {
+  background: #a01b20;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .popup-box {
+    margin-top: 50px;
+  }
+  .modal-title {
+    font-size: 1.4rem;
+  }
+  .popup-content {
+    padding: 22px 18px 28px;
+    font-size: 1rem;
+  }
+}
+</style>
+
+<!-- Popup HTML -->
+<div id="wpPopup" class="popup-overlay">
+  <div class="popup-box">
+    <div class="modal-header1">
+      <span class="close-btn">✖</span>
+      <div class="modal-title">Registration is Now Open!</div>
+    </div>
+    
+    <div class="popup-content">
+      <p style="margin: 0 0 12px;">
+        B.Tech / MBA Tech Direct II Year Registration is Now Open!
+      </p>
+      <p style="margin: 0 0 8px;">
+        Complete your registration on or before <strong>12.08.2026</strong>.
+      </p>
+      <a href="https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/" 
+         target="_blank" 
+         class="job-link">
+        Register Now
+      </a>
+    </div>
+  </div>
+</div>
+
+ <script>
+// document.addEventListener("DOMContentLoaded", function () {
+
+//   // ===== DO NOT SHOW ON THIS PAGE =====
+//   var currentUrl = window.location.href;
+//   var excludeUrl = "https://engineering.nmims.edu/direct-second-year-admission-for-b-tech-mba-tech-batch-2025/";
+
+//   if (currentUrl.indexOf(excludeUrl) !== -1 || currentUrl.indexOf("direct-second-year-admission-for-b-tech-mba-tech-batch-2025") !== -1) {
+//     return; // Stop here – popup will not appear
+//   }
+//   // ====================================
+
+//   // Show after 2 seconds
+//   setTimeout(function () {
+//     var popup = document.getElementById("wpPopup");
+//     if (popup) {
+//       popup.style.display = "block";
+//     }
+//   }, 2000);
+
+//   // Close button
+//   var closeBtn = document.querySelector("#wpPopup .close-btn");
+//   if (closeBtn) {
+//     closeBtn.addEventListener("click", function () {
+//       document.getElementById("wpPopup").style.display = "none";
+//     });
+//   }
+
+//   // Close when clicking dark background
+//   var overlay = document.getElementById("wpPopup");
+//   if (overlay) {
+//     overlay.addEventListener("click", function (e) {
+//       if (e.target === this) {
+//         this.style.display = "none";
+//       }
+//     });
+//   }
+// });
+ </script>
+<!--End Popup-->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

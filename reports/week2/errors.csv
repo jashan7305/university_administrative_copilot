@@ -1,0 +1,328 @@
+split,text,true,pred
+test,"problem with a faculty, how do i complain",STUDENT_WELFARE,EXAMINATIONS
+test,"problem with a faculty, how do i complain, pls help",STUDENT_WELFARE,EXAMINATIONS
+test,"problem with a fculty, how do i complain",STUDENT_WELFARE,EXAMINATIONS
+test,how will college inform us about lecture cancellations,STUDENT_SERVICES,FEES
+test,"sorry to bother, how will college inform us about lecture cancellations",STUDENT_SERVICES,FEES
+test,how will colelge inform us about lecture cancellations,STUDENT_SERVICES,FEES
+test,"leaving mumbai for a hackathon, do i need to inform someone?",ACADEMIC_REGISTRATION,HOSTEL
+test,"leaving mumbai for a hackathon, do i need to inform smeone?",ACADEMIC_REGISTRATION,HOSTEL
+test,"quick question - leaving mumbai for a hackathon, do i need to inform someone?",ACADEMIC_REGISTRATION,HOSTEL
+test,kitna bunk kar sakte,ATTENDANCE,out_of_scope
+test,kitna bunk kar skate,ATTENDANCE,out_of_scope
+test,quick question - kitna bunk kar sakte,ATTENDANCE,EXAMINATIONS
+test,"forgot my ID card on exam day, will they let me write the paper?",EXAMINATIONS,ID_CARDS
+test,"Dear Sir/Madam, Forgot my ID card on exam day, will they let me write the paper? Kindly advise.",EXAMINATIONS,ID_CARDS
+test,"frogot my ID card on exam day, will they let me write the paper?",EXAMINATIONS,ID_CARDS
+test,"id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",EXAMINATIONS,ID_CARDS
+test,"hello, id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",EXAMINATIONS,ID_CARDS
+test,"id card got stolen yesterday, exam tmrw, can i use my aadhaar instead",EXAMINATIONS,ID_CARDS
+test,"hi, can the dean allow me to enter 35 min late in a medical emergency",EXAMINATIONS,ATTENDANCE
+test,"inquiry committee date for my ufm case, what happens there",EXAMINATIONS,STUDENT_WELFARE
+test,"inquiry committee date for my ufm case, what happens three",EXAMINATIONS,STUDENT_WELFARE
+test,reavl deadline??,EXAMINATIONS,out_of_scope
+test,who sins no dues for cancelling after commencement,FEES,CERTIFICATES
+test,offer letter documents not submitted on time - admission cancelled?,CERTIFICATES,FEES
+test,offer letter docs not submitted on time - admission cancelled?,CERTIFICATES,FEES
+test,"sorry to bother, offer letter documents not submitted on time - admission cancelled?",CERTIFICATES,FEES
+test,what if i'm absent for 3 weeks with prior intimation to HOD,ACADEMIC_REGISTRATION,ATTENDANCE
+test,what if i'm absent for 3 weeks with prior intimaton to HOD,ACADEMIC_REGISTRATION,ATTENDANCE
+test,"Dear Sir/Madam, What if I'm absent for 3 weeks with prior intimation to HOD? Kindly advise.",ACADEMIC_REGISTRATION,ATTENDANCE
+test,can i enter the library without id card,LIBRARY,ID_CARDS
+test,quick question - can i enter the library without id card,LIBRARY,ID_CARDS
+test,can i enter the library withut id card,LIBRARY,ID_CARDS
+test,can I renew it again after that?,LIBRARY,out_of_scope
+test,can I renew it again after that. any help?,LIBRARY,out_of_scope
+test,can I renew it agin after that?,LIBRARY,out_of_scope
+test,"Dear Sir/Madam, Can journals be issued? Kindly advise.",LIBRARY,EXAMINATIONS
+test,how early to request IT support for a college event,STUDENT_SERVICES,STUDENT_WELFARE
+test,"Dear Sir/Madam, How early to request IT support for a college event? Kindly advise.",STUDENT_SERVICES,STUDENT_WELFARE
+test,LOR from nmims through portal?,CERTIFICATES,STUDENT_SERVICES
+test,"sorry to bother, lOR from nmims through portal?",CERTIFICATES,STUDENT_SERVICES
+test,LOR from nmims through potal?,CERTIFICATES,STUDENT_WELFARE
+test,"going for a national hackathon, will clg pay for travel?",STUDENT_SERVICES,out_of_scope
+test,"hostel deposit receipt lost, can i still get refund",HOSTEL,FEES
+test,"sorry to bother, hostel deposit receipt lost, can i still get refund",HOSTEL,FEES
+test,"hostel deposit recepit lost, can i still get refund",HOSTEL,FEES
+test,"Dear Sir/Madam, Do we need to submit anti-ragging affidavit every year? Kindly advise.",STUDENT_WELFARE,EXAMINATIONS
+test,"Dear Sir/Madam, Where is the mpstme counsellor's office? Kindly advise.",STUDENT_WELFARE,STUDENT_SERVICES
+test,leave application format for missing classes,ATTENDANCE,FEES
+test,"hi, leave application format for missing classes",ATTENDANCE,FEES
+test,leave applicatoin format for missing classes,ATTENDANCE,FEES
+test,hostel deposit refund attachments,FEES,HOSTEL
+test,hostel deposit refund attachments. any help?,FEES,HOSTEL
+test,hostel deposit refund attachmets,FEES,HOSTEL
+test,I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years within which I must complete the programme?,ACADEMIC_REGISTRATION,EXAMINATIONS
+test,I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum no. of years within which I must complete the programme?,ACADEMIC_REGISTRATION,EXAMINATIONS
+test,I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years wthin which I must complete the programme?,ACADEMIC_REGISTRATION,EXAMINATIONS
+test,remedial lecture attendance rule,EXAMINATIONS,ATTENDANCE
+test,remedial lecture attnd rule,EXAMINATIONS,ATTENDANCE
+test,remedial lecture attndance rule,EXAMINATIONS,ATTENDANCE
+test,more than two KTs in a year — do I have to repeat the whole year?,EXAMINATIONS,out_of_scope
+test,quick question - more than two KTs in a year — do I have to repeat the whole year?,EXAMINATIONS,out_of_scope
+test,more than two KTs in a year — do I have to reepat the whole year?,EXAMINATIONS,out_of_scope
+test,difference between readmission and year back,EXAMINATIONS,ACADEMIC_REGISTRATION
+test,"sorry to bother, difference between readmission and year back",EXAMINATIONS,ACADEMIC_REGISTRATION
+test,dfiference between readmission and year back,EXAMINATIONS,ACADEMIC_REGISTRATION
+test,what is the grade for 55 maks,TRANSCRIPTS,out_of_scope
+test,does cgpa include failed subjects,TRANSCRIPTS,EXAMINATIONS
+test,"does cgpa include failed subjects, thanks",TRANSCRIPTS,EXAMINATIONS
+test,"Dear Sir/Madam, Does cgpa include failed subjects? Kindly advise.",TRANSCRIPTS,EXAMINATIONS
+test,lab exam dates november 2026,ACADEMIC_REGISTRATION,EXAMINATIONS
+test,lab exam dates noevmber 2026,ACADEMIC_REGISTRATION,EXAMINATIONS
+test,"hi, lab exam dates november 2026",ACADEMIC_REGISTRATION,EXAMINATIONS
+test,"management subjects mid term test dates, thanks",ACADEMIC_REGISTRATION,EXAMINATIONS
+test,mtt dtes,ACADEMIC_REGISTRATION,out_of_scope
+test,SOM letter time required,TRANSCRIPTS,out_of_scope
+test,SOM letter time rquired,TRANSCRIPTS,out_of_scope
+test,how much for a duplicate grade sheet,CERTIFICATES,TRANSCRIPTS
+test,how much for a duplicate garde sheet,CERTIFICATES,TRANSCRIPTS
+test,"Dear Sir/Madam, How much for a duplicate grade sheet? Kindly advise.",CERTIFICATES,TRANSCRIPTS
+test,incomplete hotel application rejected?,HOSTEL,TRANSCRIPTS
+test,can i take 5 night outs this month,HOSTEL,ACADEMIC_REGISTRATION
+test,can i take 5 night outs this mnoth,HOSTEL,ACADEMIC_REGISTRATION
+test,"Dear Sir/Madam, Can I take 5 night outs this month? Kindly advise.",HOSTEL,ACADEMIC_REGISTRATION
+test,choose roommate?,HOSTEL,out_of_scope
+test,coose roommate?,HOSTEL,out_of_scope
+test,"issue with my roommate, whom to complain",HOSTEL,STUDENT_WELFARE
+test,"issue with my roomamte, whom to complain",HOSTEL,STUDENT_WELFARE
+test,"issue with my roommate, whom to complain, pls help",HOSTEL,STUDENT_WELFARE
+test,when is hstel security deposit refunded,HOSTEL,FEES
+test,pyq for re exam available?,LIBRARY,EXAMINATIONS
+test,"hello, pyq for re exam available?",LIBRARY,EXAMINATIONS
+test,pyq for re exam avaliable?,LIBRARY,EXAMINATIONS
+test,verification checkbox sap,EXAMINATIONS,CERTIFICATES
+test,"hello, verification checkbox sap",EXAMINATIONS,CERTIFICATES
+test,verification ceckbox sap,EXAMINATIONS,CERTIFICATES
+test,can i have an online counselling session,STUDENT_SERVICES,STUDENT_WELFARE
+test,"Dear Sir/Madam, Can I have an online counselling session? Kindly advise.",STUDENT_SERVICES,STUDENT_WELFARE
+test,"can i have an online counselling session, thanks",STUDENT_SERVICES,STUDENT_WELFARE
+test,online counselling mpstme,STUDENT_SERVICES,STUDENT_WELFARE
+test,"good morning, online counselling mpstme",STUDENT_SERVICES,STUDENT_WELFARE
+test,onlne counselling mpstme,STUDENT_SERVICES,STUDENT_WELFARE
+test,national academic depository link,STUDENT_SERVICES,ACADEMIC_REGISTRATION
+test,"hi, national academic depository link",STUDENT_SERVICES,ACADEMIC_REGISTRATION
+test,naitonal academic depository link,STUDENT_SERVICES,ACADEMIC_REGISTRATION
+test,below 80 readmission 2025,ATTENDANCE,ACADEMIC_REGISTRATION
+test,"hi, below 80 readmission 2025",ATTENDANCE,ACADEMIC_REGISTRATION
+test,below 80 reamission 2025,ATTENDANCE,ACADEMIC_REGISTRATION
+test,is totalling done by software,EXAMINATIONS,out_of_scope
+test,is totallng done by software,EXAMINATIONS,out_of_scope
+test,where do i submit this form?,TRANSCRIPTS,STUDENT_SERVICES
+test,where do i sbumit this form?,TRANSCRIPTS,STUDENT_SERVICES
+test,"hello, where do i submit this form?",TRANSCRIPTS,STUDENT_SERVICES
+test,can i get a beak,ACADEMIC_REGISTRATION,out_of_scope
+test,what's the deadline,EXAMINATIONS,out_of_scope
+test,"what's the deadline, thanks",EXAMINATIONS,out_of_scope
+test,what's the deadilne,EXAMINATIONS,out_of_scope
+test,can my parents do this for me,TRANSCRIPTS,out_of_scope
+test,can my parnts do this for me,TRANSCRIPTS,out_of_scope
+test,quick question - can my parents do this for me,TRANSCRIPTS,out_of_scope
+test,can i appeal,STUDENT_WELFARE,out_of_scope
+test,"hello, can i appeal",STUDENT_WELFARE,EXAMINATIONS
+test,can i apeal,STUDENT_WELFARE,out_of_scope
+test,need a certificate for my visa,STUDENT_SERVICES,CERTIFICATES
+test,need a cert for my visa,STUDENT_SERVICES,CERTIFICATES
+test,need a certificate for my visa. any help?,STUDENT_SERVICES,CERTIFICATES
+test,my record is wrong,ATTENDANCE,CERTIFICATES
+test,"hi sir, my record is wrong",ATTENDANCE,CERTIFICATES
+test,"Dear Sir/Madam, My record is wrong. Kindly advise.",ATTENDANCE,CERTIFICATES
+test,my payment went through but portal still says pending,FEES,CERTIFICATES
+test,"Dear Sir/Madam, My payment went through but portal still says pending. Kindly advise.",FEES,CERTIFICATES
+test,my payment went through but potal still says pending,FEES,CERTIFICATES
+test,quick question - canteen timings mpstme,STUDENT_SERVICES,LIBRARY
+test,CCTV footage request for a theft on campus,STUDENT_WELFARE,out_of_scope
+test,"hi sir, cCTV footage request for a theft on campus",STUDENT_WELFARE,TRANSCRIPTS
+test,CCTV fooatge request for a theft on campus,STUDENT_WELFARE,STUDENT_SERVICES
+test,is it bad to not remember your dreams,out_of_scope,STUDENT_SERVICES
+test_variants,"problem with a faculty, how do i complain, pls help",STUDENT_WELFARE,EXAMINATIONS
+test_variants,"problem with a fculty, how do i complain",STUDENT_WELFARE,EXAMINATIONS
+test_variants,"sorry to bother, how will college inform us about lecture cancellations",STUDENT_SERVICES,FEES
+test_variants,how will colelge inform us about lecture cancellations,STUDENT_SERVICES,FEES
+test_variants,"leaving mumbai for a hackathon, do i need to inform smeone?",ACADEMIC_REGISTRATION,HOSTEL
+test_variants,"quick question - leaving mumbai for a hackathon, do i need to inform someone?",ACADEMIC_REGISTRATION,HOSTEL
+test_variants,kitna bunk kar skate,ATTENDANCE,out_of_scope
+test_variants,quick question - kitna bunk kar sakte,ATTENDANCE,EXAMINATIONS
+test_variants,"Dear Sir/Madam, Forgot my ID card on exam day, will they let me write the paper? Kindly advise.",EXAMINATIONS,ID_CARDS
+test_variants,"frogot my ID card on exam day, will they let me write the paper?",EXAMINATIONS,ID_CARDS
+test_variants,"hello, id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",EXAMINATIONS,ID_CARDS
+test_variants,"id card got stolen yesterday, exam tmrw, can i use my aadhaar instead",EXAMINATIONS,ID_CARDS
+test_variants,"hi, can the dean allow me to enter 35 min late in a medical emergency",EXAMINATIONS,ATTENDANCE
+test_variants,"inquiry committee date for my ufm case, what happens three",EXAMINATIONS,STUDENT_WELFARE
+test_variants,reavl deadline??,EXAMINATIONS,out_of_scope
+test_variants,who sins no dues for cancelling after commencement,FEES,CERTIFICATES
+test_variants,offer letter docs not submitted on time - admission cancelled?,CERTIFICATES,FEES
+test_variants,"sorry to bother, offer letter documents not submitted on time - admission cancelled?",CERTIFICATES,FEES
+test_variants,what if i'm absent for 3 weeks with prior intimaton to HOD,ACADEMIC_REGISTRATION,ATTENDANCE
+test_variants,"Dear Sir/Madam, What if I'm absent for 3 weeks with prior intimation to HOD? Kindly advise.",ACADEMIC_REGISTRATION,ATTENDANCE
+test_variants,quick question - can i enter the library without id card,LIBRARY,ID_CARDS
+test_variants,can i enter the library withut id card,LIBRARY,ID_CARDS
+test_variants,can I renew it again after that. any help?,LIBRARY,out_of_scope
+test_variants,can I renew it agin after that?,LIBRARY,out_of_scope
+test_variants,"Dear Sir/Madam, Can journals be issued? Kindly advise.",LIBRARY,EXAMINATIONS
+test_variants,"Dear Sir/Madam, How early to request IT support for a college event? Kindly advise.",STUDENT_SERVICES,STUDENT_WELFARE
+test_variants,"sorry to bother, lOR from nmims through portal?",CERTIFICATES,STUDENT_SERVICES
+test_variants,LOR from nmims through potal?,CERTIFICATES,STUDENT_WELFARE
+test_variants,"going for a national hackathon, will clg pay for travel?",STUDENT_SERVICES,out_of_scope
+test_variants,"sorry to bother, hostel deposit receipt lost, can i still get refund",HOSTEL,FEES
+test_variants,"hostel deposit recepit lost, can i still get refund",HOSTEL,FEES
+test_variants,"Dear Sir/Madam, Do we need to submit anti-ragging affidavit every year? Kindly advise.",STUDENT_WELFARE,EXAMINATIONS
+test_variants,"Dear Sir/Madam, Where is the mpstme counsellor's office? Kindly advise.",STUDENT_WELFARE,STUDENT_SERVICES
+test_variants,"hi, leave application format for missing classes",ATTENDANCE,FEES
+test_variants,leave applicatoin format for missing classes,ATTENDANCE,FEES
+test_variants,hostel deposit refund attachments. any help?,FEES,HOSTEL
+test_variants,hostel deposit refund attachmets,FEES,HOSTEL
+test_variants,I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum no. of years within which I must complete the programme?,ACADEMIC_REGISTRATION,EXAMINATIONS
+test_variants,I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years wthin which I must complete the programme?,ACADEMIC_REGISTRATION,EXAMINATIONS
+test_variants,remedial lecture attnd rule,EXAMINATIONS,ATTENDANCE
+test_variants,remedial lecture attndance rule,EXAMINATIONS,ATTENDANCE
+test_variants,quick question - more than two KTs in a year — do I have to repeat the whole year?,EXAMINATIONS,out_of_scope
+test_variants,more than two KTs in a year — do I have to reepat the whole year?,EXAMINATIONS,out_of_scope
+test_variants,"sorry to bother, difference between readmission and year back",EXAMINATIONS,ACADEMIC_REGISTRATION
+test_variants,dfiference between readmission and year back,EXAMINATIONS,ACADEMIC_REGISTRATION
+test_variants,what is the grade for 55 maks,TRANSCRIPTS,out_of_scope
+test_variants,"does cgpa include failed subjects, thanks",TRANSCRIPTS,EXAMINATIONS
+test_variants,"Dear Sir/Madam, Does cgpa include failed subjects? Kindly advise.",TRANSCRIPTS,EXAMINATIONS
+test_variants,lab exam dates noevmber 2026,ACADEMIC_REGISTRATION,EXAMINATIONS
+test_variants,"hi, lab exam dates november 2026",ACADEMIC_REGISTRATION,EXAMINATIONS
+test_variants,"management subjects mid term test dates, thanks",ACADEMIC_REGISTRATION,EXAMINATIONS
+test_variants,mtt dtes,ACADEMIC_REGISTRATION,out_of_scope
+test_variants,SOM letter time rquired,TRANSCRIPTS,out_of_scope
+test_variants,how much for a duplicate garde sheet,CERTIFICATES,TRANSCRIPTS
+test_variants,"Dear Sir/Madam, How much for a duplicate grade sheet? Kindly advise.",CERTIFICATES,TRANSCRIPTS
+test_variants,incomplete hotel application rejected?,HOSTEL,TRANSCRIPTS
+test_variants,can i take 5 night outs this mnoth,HOSTEL,ACADEMIC_REGISTRATION
+test_variants,"Dear Sir/Madam, Can I take 5 night outs this month? Kindly advise.",HOSTEL,ACADEMIC_REGISTRATION
+test_variants,coose roommate?,HOSTEL,out_of_scope
+test_variants,"issue with my roomamte, whom to complain",HOSTEL,STUDENT_WELFARE
+test_variants,"issue with my roommate, whom to complain, pls help",HOSTEL,STUDENT_WELFARE
+test_variants,when is hstel security deposit refunded,HOSTEL,FEES
+test_variants,"hello, pyq for re exam available?",LIBRARY,EXAMINATIONS
+test_variants,pyq for re exam avaliable?,LIBRARY,EXAMINATIONS
+test_variants,"hello, verification checkbox sap",EXAMINATIONS,CERTIFICATES
+test_variants,verification ceckbox sap,EXAMINATIONS,CERTIFICATES
+test_variants,"Dear Sir/Madam, Can I have an online counselling session? Kindly advise.",STUDENT_SERVICES,STUDENT_WELFARE
+test_variants,"can i have an online counselling session, thanks",STUDENT_SERVICES,STUDENT_WELFARE
+test_variants,"good morning, online counselling mpstme",STUDENT_SERVICES,STUDENT_WELFARE
+test_variants,onlne counselling mpstme,STUDENT_SERVICES,STUDENT_WELFARE
+test_variants,"hi, national academic depository link",STUDENT_SERVICES,ACADEMIC_REGISTRATION
+test_variants,naitonal academic depository link,STUDENT_SERVICES,ACADEMIC_REGISTRATION
+test_variants,"hi, below 80 readmission 2025",ATTENDANCE,ACADEMIC_REGISTRATION
+test_variants,below 80 reamission 2025,ATTENDANCE,ACADEMIC_REGISTRATION
+test_variants,is totallng done by software,EXAMINATIONS,out_of_scope
+test_variants,where do i sbumit this form?,TRANSCRIPTS,STUDENT_SERVICES
+test_variants,"hello, where do i submit this form?",TRANSCRIPTS,STUDENT_SERVICES
+test_variants,can i get a beak,ACADEMIC_REGISTRATION,out_of_scope
+test_variants,"what's the deadline, thanks",EXAMINATIONS,out_of_scope
+test_variants,what's the deadilne,EXAMINATIONS,out_of_scope
+test_variants,can my parnts do this for me,TRANSCRIPTS,out_of_scope
+test_variants,quick question - can my parents do this for me,TRANSCRIPTS,out_of_scope
+test_variants,"hello, can i appeal",STUDENT_WELFARE,EXAMINATIONS
+test_variants,can i apeal,STUDENT_WELFARE,out_of_scope
+test_variants,need a cert for my visa,STUDENT_SERVICES,CERTIFICATES
+test_variants,need a certificate for my visa. any help?,STUDENT_SERVICES,CERTIFICATES
+test_variants,"hi sir, my record is wrong",ATTENDANCE,CERTIFICATES
+test_variants,"Dear Sir/Madam, My record is wrong. Kindly advise.",ATTENDANCE,CERTIFICATES
+test_variants,"Dear Sir/Madam, My payment went through but portal still says pending. Kindly advise.",FEES,CERTIFICATES
+test_variants,my payment went through but potal still says pending,FEES,CERTIFICATES
+test_variants,quick question - canteen timings mpstme,STUDENT_SERVICES,LIBRARY
+test_variants,"hi sir, cCTV footage request for a theft on campus",STUDENT_WELFARE,TRANSCRIPTS
+test_variants,CCTV fooatge request for a theft on campus,STUDENT_WELFARE,STUDENT_SERVICES
+test_core,"problem with a faculty, how do i complain",STUDENT_WELFARE,EXAMINATIONS
+test_core,how will college inform us about lecture cancellations,STUDENT_SERVICES,FEES
+test_core,"leaving mumbai for a hackathon, do i need to inform someone?",ACADEMIC_REGISTRATION,HOSTEL
+test_core,kitna bunk kar sakte,ATTENDANCE,out_of_scope
+test_core,"forgot my ID card on exam day, will they let me write the paper?",EXAMINATIONS,ID_CARDS
+test_core,"id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",EXAMINATIONS,ID_CARDS
+test_core,"inquiry committee date for my ufm case, what happens there",EXAMINATIONS,STUDENT_WELFARE
+test_core,offer letter documents not submitted on time - admission cancelled?,CERTIFICATES,FEES
+test_core,what if i'm absent for 3 weeks with prior intimation to HOD,ACADEMIC_REGISTRATION,ATTENDANCE
+test_core,can i enter the library without id card,LIBRARY,ID_CARDS
+test_core,can I renew it again after that?,LIBRARY,out_of_scope
+test_core,how early to request IT support for a college event,STUDENT_SERVICES,STUDENT_WELFARE
+test_core,LOR from nmims through portal?,CERTIFICATES,STUDENT_SERVICES
+test_core,"hostel deposit receipt lost, can i still get refund",HOSTEL,FEES
+test_core,leave application format for missing classes,ATTENDANCE,FEES
+test_core,hostel deposit refund attachments,FEES,HOSTEL
+test_core,I am in my fourth year of B Tech but had to repeat two years due to backlogs. Is there a maximum number of years within which I must complete the programme?,ACADEMIC_REGISTRATION,EXAMINATIONS
+test_core,remedial lecture attendance rule,EXAMINATIONS,ATTENDANCE
+test_core,more than two KTs in a year — do I have to repeat the whole year?,EXAMINATIONS,out_of_scope
+test_core,difference between readmission and year back,EXAMINATIONS,ACADEMIC_REGISTRATION
+test_core,does cgpa include failed subjects,TRANSCRIPTS,EXAMINATIONS
+test_core,lab exam dates november 2026,ACADEMIC_REGISTRATION,EXAMINATIONS
+test_core,SOM letter time required,TRANSCRIPTS,out_of_scope
+test_core,how much for a duplicate grade sheet,CERTIFICATES,TRANSCRIPTS
+test_core,can i take 5 night outs this month,HOSTEL,ACADEMIC_REGISTRATION
+test_core,choose roommate?,HOSTEL,out_of_scope
+test_core,"issue with my roommate, whom to complain",HOSTEL,STUDENT_WELFARE
+test_core,pyq for re exam available?,LIBRARY,EXAMINATIONS
+test_core,verification checkbox sap,EXAMINATIONS,CERTIFICATES
+test_core,can i have an online counselling session,STUDENT_SERVICES,STUDENT_WELFARE
+test_core,online counselling mpstme,STUDENT_SERVICES,STUDENT_WELFARE
+test_core,national academic depository link,STUDENT_SERVICES,ACADEMIC_REGISTRATION
+test_core,below 80 readmission 2025,ATTENDANCE,ACADEMIC_REGISTRATION
+test_core,is totalling done by software,EXAMINATIONS,out_of_scope
+test_core,where do i submit this form?,TRANSCRIPTS,STUDENT_SERVICES
+test_core,what's the deadline,EXAMINATIONS,out_of_scope
+test_core,can my parents do this for me,TRANSCRIPTS,out_of_scope
+test_core,can i appeal,STUDENT_WELFARE,out_of_scope
+test_core,need a certificate for my visa,STUDENT_SERVICES,CERTIFICATES
+test_core,my record is wrong,ATTENDANCE,CERTIFICATES
+test_core,my payment went through but portal still says pending,FEES,CERTIFICATES
+test_core,CCTV footage request for a theft on campus,STUDENT_WELFARE,out_of_scope
+test_core,is it bad to not remember your dreams,out_of_scope,STUDENT_SERVICES
+test_clinc_oos,is the earth flat,out_of_scope,HOSTEL
+test_clinc_oos,has there been anything breaking this afternoon,out_of_scope,ACADEMIC_REGISTRATION
+test_clinc_oos,open cnn websiteo,out_of_scope,LIBRARY
+test_clinc_oos,which stocks gained the most today,out_of_scope,EXAMINATIONS
+test_clinc_oos,tell me about the earthquake in california that happened this morning,out_of_scope,ACADEMIC_REGISTRATION
+test_clinc_oos,can you mark this note as important,out_of_scope,EXAMINATIONS
+test_clinc_oos,how many items are in a bakers dozen,out_of_scope,EXAMINATIONS
+test_clinc_oos,can my grace period be extended any possible way,out_of_scope,EXAMINATIONS
+test_clinc_oos,is there a fee for cancelling a flight i've booked,out_of_scope,FEES
+test_clinc_oos,how long do i have to wait to get my refund,out_of_scope,FEES
+test_clinc_oos,how long does it take the irs to issue a tax refund,out_of_scope,FEES
+test_clinc_oos,can i use direct deposit for my tax refund,out_of_scope,FEES
+test_clinc_oos,how much of a refund will i get this year,out_of_scope,FEES
+test_clinc_oos,can you recommend some fiction books,out_of_scope,LIBRARY
+test_clinc_oos,how can i repair a broken watch,out_of_scope,ACADEMIC_REGISTRATION
+test_clinc_oos,find engineering programs to apply to,out_of_scope,EXAMINATIONS
+test_clinc_oos,has everyone come home from school,out_of_scope,TRANSCRIPTS
+test_clinc_oos,how many harry potter books are there,out_of_scope,LIBRARY
+test_clinc_oos,how can i get help for my mental health,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,where is the closest architecture college,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,how many months do i left in my hbo subscription,out_of_scope,HOSTEL
+test_clinc_oos,can you check how many steps i have walked in the last week from my phone app,out_of_scope,EXAMINATIONS
+test_clinc_oos,where will the next olympics be hosted,out_of_scope,HOSTEL
+test_clinc_oos,what is the deadline to register at university of georgia,out_of_scope,ACADEMIC_REGISTRATION
+test_clinc_oos,when should you mow your grass after it's rained,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,upload the pictures to the correct album,out_of_scope,CERTIFICATES
+test_clinc_oos,give me a recommendation for a local landscaper,out_of_scope,CERTIFICATES
+test_clinc_oos,find someone local who mows lawns,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,who wrote green book,out_of_scope,EXAMINATIONS
+test_clinc_oos,give me a list of the biographies written by nyu professors after 2001,out_of_scope,ACADEMIC_REGISTRATION
+test_clinc_oos,get me a copy of a book on negotiation in the workplace,out_of_scope,LIBRARY
+test_clinc_oos,show me examples of cute eyeglass frames,out_of_scope,EXAMINATIONS
+test_clinc_oos,get me a list of universities that provide full scholarships in arizona,out_of_scope,SCHOLARSHIPS
+test_clinc_oos,what is the government department that regulates emissions,out_of_scope,FEES
+test_clinc_oos,give me prices on a copy of the mla grammar handbook,out_of_scope,EXAMINATIONS
+test_clinc_oos,tell me about the amusement park,out_of_scope,STUDENT_SERVICES
+test_clinc_oos,find out who is the representative of my district,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,generate a list of the past 10 judge executives,out_of_scope,ACADEMIC_REGISTRATION
+test_clinc_oos,how many parks are within 20 miles of me,out_of_scope,EXAMINATIONS
+test_clinc_oos,sign me up for the writing class you told me about 2 days ago,out_of_scope,ATTENDANCE
+test_clinc_oos,show me the top 10 quotes by mark twain,out_of_scope,EXAMINATIONS
+test_clinc_oos,find a credit counseling service for me on the web,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,request a refund on the car wax i bought yesterday,out_of_scope,FEES
+test_clinc_oos,zip the back of the brides maid dress,out_of_scope,TRANSCRIPTS
+test_clinc_oos,find available letter writing classes at the local community college,out_of_scope,STUDENT_WELFARE
+test_clinc_oos,find me a graphic tutorial on writing longhand,out_of_scope,EXAMINATIONS
+test_clinc_oos,fill up my water bottle for the gym,out_of_scope,STUDENT_SERVICES
+test_clinc_oos,look up articles on squealing brakes for ford f-150's,out_of_scope,EXAMINATIONS
+test_clinc_oos,answer the phone,out_of_scope,EXAMINATIONS
+test_clinc_oos,who has the longest hair ever,out_of_scope,STUDENT_SERVICES
+test_clinc_oos,what marvel movie did mark ruffalo first appear in,out_of_scope,EXAMINATIONS
+test_clinc_oos,put on an educational program about buddhism,out_of_scope,STUDENT_SERVICES
+test_clinc_oos,is it too late to upgrade to first class,out_of_scope,EXAMINATIONS
+test_clinc_oos,renew gym membership,out_of_scope,STUDENT_SERVICES
+test_clinc_oos,report outage to my electric provider,out_of_scope,STUDENT_WELFARE

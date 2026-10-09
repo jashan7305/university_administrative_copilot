@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <meta charset="UTF-8">
+  <title>View Hostels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+   
+    }
+
+    
+
+
+    }
+  </style>
+</head>
+<body>
+<br><br><br><br>
+<div id="myHeader" style="text-align: center;">
+<h2>NMIMS MUMBAI CAMPUS HOSTEL ACCOMMODATION </h2>
+</div>
+<br><br>
+
+
+<style>
+.adobe-download-button-container
+{
+  text-align:center;
+}
+.adobe-pdf-download
+{
+  border:2px solid #de4533;
+  background:transparent;
+  color: #de4533;
+  text-transform:uppercase;
+  font-size:0.8em;
+  padding:20px 20px 0px 20px;
+  transition: background 0.5s,color 0.5s;
+}
+.adobe-pdf-download a
+{
+  text-decoration:none;
+  color: #de4533;
+  transition: background 0.5s,color 0.5s;
+  font-family:arial;
+  font-weight:bold;
+}
+.adobe-pdf-download a:hover
+{
+  color:white;
+  transition: background 0.5s,color 0.5s;
+}
+.adobe-pdf-download:hover a
+{
+  color:white;
+  transition: background 0.5s,color 0.5s;
+}
+.adobe-pdf-download:hover
+{
+  background:#de4533;
+  color:white;
+  transition: background 0.5s,color 0.5s;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.adobe-pdf-download img
+{
+  margin:0px 10px 0px 0px;
+  padding: 0px;
+  height: 20px;
+}
+</style>
+ <br><br>
+ 
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+          <p>Dear Student,</p>
+<p>Due to the temporary closure of the NMIMS Hostel Application Portal, the process for applying for hostel accommodation has been revised. This SOP outlines the updated steps students must follow to apply for hostel facilities.</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;<u>Revised Hostel Application Process</u></strong></p>
+<p><strong>Step 1: Download the Hostel Application Form</strong></p>
+<ul>
+<li>Students must download the hostel application form from the following link:<br /> [Hostel application form link] <a href="https://nmims.edu/docs/2025/Mumbai-Campus-Updated.pdf" target="_blank">Click Here</a></li>
+</ul>
+<p><strong>Step 2: Complete the Application Form</strong></p>
+<ul>
+<li>Students need to fill in all required details accurately in the downloaded form.</li>
+</ul>
+<p><strong>Step 3: Email the Completed Form</strong></p>
+<ul>
+<li>Email the <strong>filled hostel application form (PDF copy only)</strong> along with a <strong>copy of your tuition fee receipt</strong> (applicable to 1st-year students only) to the respective campus.</li>
+<li>&nbsp;The <strong>email ID</strong> for hostel form submission is&nbsp;<a href="mailto:hostel.mumbai@nmims.edu">hostel.mumbai@nmims.edu</a></li>
+</ul>
+<p><strong>Step 4: Approval mail to the students</strong></p>
+<ul>
+<li>Once we received the hostel application form, we will verify the application and approve the eligible applications (within 3 working days). The approval mail along with hostel fee payment details will sent through email.</li>
+</ul>
+<p><strong>Important Notes</strong></p>
+<ul>
+<li>Submission of hostel application form (pdf) along with copy of tuition fee receipt is <strong>mandatory</strong>.</li>
+<li>Ensure that all details are accurate and that documents are legible.</li>
+<li>Incomplete or incorrect applications may lead to rejection.</li>
+</ul>
+<p>&nbsp;</p>
+     
+    </div>
+   
+   
+  </div>
+</div>
+
+<hr><!--
+  <div class="container">
+      <p>Hostel Images Links </p>
+  <div class="row">
+    
+    <div class="col-sm-4">
+      <a href="https://nmims.edu/anand-premises-boys.php">
+
+<p style="text-align: center;">Anand Premises Boys (AC)</p></a>
+
+    </div>
+   <div class="col-sm-4">
+       <a href="https://nmims.edu/bansi-villa-girls-residential-flats.php">
+
+<p style="text-align: center;">Bansi Villa - Girls Residential Flats (Non-AC/ AC)</p></a>
+     
+
+    </div>
+ 
+  </div>
+  <p>&nbsp;</p>
+   <div class="row">
+    
+   
+    
+     <div class="col-sm-4">
+         <a href="https://nmims.edu/gr-jani-boys-hostel-non-ac.php">
+    <p style="text-align: center;">GR Jani Boys Hostel (Non-AC/ AC)</p></a>
+
+    </div>
+      <div class="col-sm-4">
+         <a href="https://nmims.edu/mkm-sanghvi-girls-hostel-ac.php">
+    <p style="text-align: center;">MKM Sanghvi Girls Hostel (AC)</p></a>
+
+    </div>
+   
+  </div>
+  
+
+  
+</div>-->
+
+<div class="container">
+    <p>Hostel Images Links</p>
+    <div class="row">
+      <div class="card">
+        <a href="https://nmims.edu/anand-premises-boys.php">Anand Premises Boys (AC)</a>
+      </div>
+      <div class="card">
+        <a href="https://nmims.edu/bansi-villa-girls-residential-flats.php">Bansi Villa - Girls Residential Flats (Non-AC/ AC)</a>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+      <div class="card">
+        <a href="https://nmims.edu/gr-jani-boys-hostel-non-ac.php">GR Jani Boys Hostel (Non-AC/ AC)</a>
+      </div>
+      <div class="card">
+        <a href="https://nmims.edu/mkm-sanghvi-girls-hostel-ac.php">MKM Sanghvi Girls Hostel (AC)</a>
+      </div>
+    </div>
+  </div>
+<hr><br>
+<div class="adobe-download-button-container"  id="click">
+  <button class="adobe-pdf-download">
+  <table>
+    <tr>
+      <td><img src="http://www.clker.com/cliparts/b/2/c/b/13534493561426065224Adobe%20Icon.svg.med.png"></td>
+      <td><p><a href="https://nmims.edu/docs/2025/Mumbai-Campus-Updated.pdf">Download Hostel Application Form </a></p></td>
+    </tr>
+  </table>
+</button>
+</div>
+<br><br>
+
+
+</body>
+</html>
+  <style>
+ 
+
+   
+
+    .container > p {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      flex: 1 1 250px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #0077cc;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .card a:hover {
+      color: #005a99;
+    }
+
+    @media (max-width: 768px) {
+      .row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>

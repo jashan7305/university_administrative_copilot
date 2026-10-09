@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NMIMS </title>
+<link rel="shortcut icon" href="https://nmims.edu/images/favicon.ico" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style type="text/css">
+.maxl{
+  margin:25px ;
+}
+.inline{
+  display: inline-block;
+}
+.inline + .inline{
+  margin-left:10px;
+}
+.radio{
+	color: #715d5d;
+    font-size: 18px;
+    position: relative;
+    margin-left: 20px;
+    background-color: #c6eaec;
+    padding: 13px;
+}
+.radio span{
+  position:relative;
+   padding-left:20px;
+}
+.radio span:after{
+  content:'';
+  width:15px;
+  height:15px;
+  border:3px solid;
+  position:absolute;
+  left:0;
+  top:1px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.radio input[type="radio"]{
+   cursor: pointer; 
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+.radio input[type="radio"]:checked + span{
+  color:#0B8;  
+}
+.radio input[type="radio"]:checked + span:before{
+    content:'';
+  width:5px;
+  height:5px;
+  position:absolute;
+  background:#0B8;
+  left:5px;
+  top:6px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+}
+
+#hiddendiv {display:none;}
+h2 {margin-top: 1em;}
+#hidDivVal {
+    background: none repeat scroll 0 0 lime;
+    border: 1px solid black;
+    margin: 0 1em;
+    padding: 1ex;
+}
+
+.width100 { width: 100px; }
+.width150 { width: 150px; }
+
+.words-left {
+  display: inline-block;
+  padding: 4px 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.words-left .fa {
+  display: inline-block;
+  margin-right: 6px;
+}
+</style>
+</head>
+
+<body ><font color="#fff">
+<div class="container" style="
+    background: #656565;
+    opacity: 0.95;
+}"><center><a href="https://nmims.edu" target="_blank"><img src="https://nmims.edu/images/nmims-university-logo.png"  class="img img-responsive img-thumbnail"/></a></center></div>
+    <!-- Page Content -->
+    <div class="container" style="
+    background: #656565;
+    opacity: 0.95;
+}">
+    <!-- Page Heading/Breadcrumbs -->
+    <div class="row">
+            <div class="col-lg-12">
+                <!--
+                <br>
+                <p class="alert alert-warning"><b>News : NMIMS University | Admission Cancellation portal will remain close, due to server upgradation event on 11th October 2025 from 00:00 AM to 03:30 AM IST</b></p>
+                -->
+                <h1 class="page-header" style="margin-top:15px;"></h1>
+			<h3>
+Withdrawal of Admission : <span style="font-size:18px;">Students are required to follow the process of cancellation outlined in the offer letter / call for counselling letter. </span>
+</h3><hr/>
+<!--	<p><strong><em><font color="white">Kindly note that, This Application is not Valid For NCDOE School Program. </font></em></strong></p>-->		
+				
+
+	<div>
+	    
+	<br />
+	
+	<p><strong style="font-size: 18px;">For Technical Program / Courses :</strong></p>
+<p>A full refund of fees will be provided for cancellation of admission to technical&nbsp;courses / programs on or before 20th July 2026<strong>,&nbsp;</strong>as per AICTE norms.</p>
+<br>
+<p><strong style="font-size: 18px;">For Non-&nbsp;Technical Program / Courses :</strong></p>
+<p>Refund is as per UGC refund policy 2024-25, (dated 12th June 2024, bearing the number D.O. No.F.2-7 1t2022 (CPP-Il) (c-1 14s46)) or subsequent amendment, if any.</p>
+<br>
+<p><b style="font-size: 18px;">Kindly refer revised UGC notification for refund policy</b> <strong><a href="https://www.ugc.gov.in/pdfnews/1654477_Fee-Refund-Policy-2024-25.pdf" 
+style="color: #ffffff;font-weight: 700;font-size: large;background-color: #a12e27;padding:3px;">Click here</a></strong></p>
+<br>
+
+<p><strong style="font-size: 18px;">Cancellation policy not valid for online and distance learning program (NCDOE School)</strong></p>
+<br>
+	<!--<p style="">The First year candidates who have paid the fees for the academic year can withdraw the admission and be eligible for refund as per the NMIMS refund policy informed and agreed upon during the admission process.</p>-->
+<p>The student who wishes to withdraw admission should fill the application form using the url <a href="https://nmims.edu/admission-cancellation"><font color="white"><b>https://nmims.edu/admission-cancellation</b></font></a> available on our website <strong>nmims.edu</strong>. Withdrawal request can be applied only through this link.</p>
+<p><b style="font-size: 18px;">Request before commencement of program: </b>the admission department will process the document with the necessary approvals.</p>
+<p><b style="font-size: 18px;">Request post the commencement of program:</b> the candidate will have to get the Clearance /No dues from all the concerned departments of the School.</p>
+<p>Once the process is completed, the refund of the fees (if applicable) shall be processed within 15 days of submission of the completed form with associated documents. Refund of fees, if any, will be credited to the bank account details provided by the applicant in the application. If any dues are to be collected, that will be deducted before a refund of the fees.</p>
+<p>&nbsp;</p>
+
+<!--<p><b>Kindly refer your admission offer letter for refund policy.</b></p>-->
+
+
+<!--<center>
+<p>Refund of the fees shall be as per the table below*:</p>
+<table border="1" style="text-align: center;">
+<tbody>
+<tr>
+<td width="53">
+<p>Sr. No.</p>
+</td>
+<td width="165">
+<p>Percentage of Refund of Aggregate fees*</p>
+</td>
+<td width="463">
+<p>Point of time when notice of withdrawal of admission is served to HEI</p>
+</td>
+</tr>
+<tr>
+<td width="53">
+<p>(1)</p>
+</td>
+<td width="165">
+<p>100%</p>
+</td>
+<td width="463">
+<p>15 days or more before the formally-notified last date of admission</p>
+</td>
+</tr>
+<tr>
+<td width="53">
+<p>(2)</p>
+</td>
+<td width="165">
+<p>90%</p>
+</td>
+<td width="463">
+<p>Less than 15 days before the formally-notified last date of admission</p>
+</td>
+</tr>
+<tr>
+<td width="53">
+<p>(3)</p>
+</td>
+<td width="165">
+<p>80%</p>
+</td>
+<td width="463">
+<p>15 days or less after the formally-notified last date of admission</p>
+</td>
+</tr>
+<tr>
+<td width="53">
+<p>(4)</p>
+</td>
+<td width="165">
+<p>50%</p>
+</td>
+<td width="463">
+<p>30 days or less, but more than 15 days, after formally-notified last date of admission</p>
+</td>
+</tr>
+<tr>
+<td width="53">
+<p>(5)</p>
+</td>
+<td width="165">
+<p>00%</p>
+</td>
+<td width="463">
+<p>More than 30 days after formally-notified last date of admission</p>
+</td>
+</tr>
+</tbody>
+</table><br/>
+<p>In case of (1) in the table above, the HEI concerned shall deduct an amount not more than 5% of the fees paid by 
+the student, subject to a maximum of Rs. 5,000/- as processing charges from the refundable amount.</p>
+</center><p>&nbsp;</p>-->
+<p style="font-size: 18px;">The process to be followed is as below:</p>
+<ol start="1">
+<li>The student will submit the application form available on our website.</li>
+<li>The admission office will check the completion of the application and process if it is complete.</li>
+<li>If the application is post commencement the candidate will have to provide the clearance/ no dues from different departments.</li>
+<li>Documents will be sent for approval and then submitted to the Accounts department.</li>
+<li>It will take 15 days for refund (if applicable). Kindly note, in case of pandemic going on and increasing or natural calamity we will inform you of any delay</li>
+<li>Candidate can put a request for Migration / leaving certificate if the withdrawal is post commencement of the program.</li>
+</ol>
+
+<br>
+<!--<p><strong style="font-size: 18px;">Step 1</strong>: Please click on the below tab and fill the form. After submission, you need to print this form and sign the same.</p>
+<p><strong style="font-size: 18px;">Step 2</strong>: Upload the printed and signed form along with the fee receipt and cancelled cheque ( of the account as mentioned in the form).</p>
+-->
+
+	</div>
+    </div>
+    </div> 
+	<hr/>
+
+	<div class="row"><div class="col-sm-1"></div><div class="col-sm-10">Step 1 : Please click on the below tab and fill the form. After submission, you need to print this form and sign the same.</div></div><br/>
+	<div class="row">
+            <div class="col-lg-12" style="padding-bottom:20px;">
+			<div class="control-group form-group">
+             <div class="col-sm-4"></div> <div class="col-sm-4">
+   <button class="btn btn-danger" style="color: #fff; background-color: #9c231b;
+    border-color: #9c231b;">	<a href="https://upload.nmims.edu/admission/cancellation/stepone.php" target="_blank"><font color="white">&nbsp;&nbsp;    &nbsp; Click Here to Apply for Admission Cancellation</font></a></button></div>
+		
+			<div class="col-sm-4"></div>
+            </div>
+    </div>
+    
+    <div class="row"><div class="col-sm-1"></div><div class="col-sm-10">Step 2 : Upload the printed and signed form along with the fee receipt and cancelled cheque ( of the account as mentioned in the form).</div></div><br/>
+    	<div class="row">
+            <div class="col-lg-12" style="padding-bottom:100px;">
+			<div class="control-group form-group">
+             <div class="col-sm-4"></div> 
+	
+		<div class="col-sm-6">
+ <button class="btn btn-danger" style="color: #fff; background-color: #9c231b;
+    border-color: #9c231b;">	<a href="https://upload.nmims.edu/admission/cancellation/steptwo.php" target="_blank">&nbsp;&nbsp;   <font color="white"> &nbsp;Click Here to upload documents</font></a></button></div>			
+		</div>
+			<div class="col-sm-2"></div>
+            </div>
+    </div>
+    
+    
+    <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                   <!-- <p>Developed and Supported by:</p>
+                    <p><b>Krishnakant Mishra<br>Web Administrator<br>SVKM's NMIMS</b></p>-->
+                    <a href="http://www.nmims.edu/about" target="_blank">About NMIMS</a> | 
+				
+					<a href="http://www.nmims.edu/privacy-policy" target="_blank" >Privacy Policy</a> | 
+					<a href="http://www.nmims.edu/disclaimer"  target="_blank">Disclaimer</a> | 
+					Copyright &copy; nmims.edu 2021
+                </div>
+            </div>
+        </footer>
+
+    </div>
+	
+    <!-- /.container -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/JavaScript" src='state.js'></script>
+	<script type="text/JavaScript" src='statee.js'></script>
+	<script type="text/javascript" >
+	$(document).ready(function() {
+    $("input[name$='apply']").click(function() {
+        var apply = $(this).val();
+
+        $("div.desc").hide();
+        $("#apply" + apply).show();
+    });
+	});
+	</script></font>
+</body>
+</html>

@@ -1,0 +1,526 @@
+{
+ "https://www.nmims.edu/students": [
+  "About",
+  1
+ ],
+ "https://www.nmims.edu/diploma-certificate-programs": [
+  "Diploma/Certificate Programmes",
+  1
+ ],
+ "https://performingarts.nmims.edu/": [
+  "Performing Arts",
+  1
+ ],
+ "https://www.nmims.edu/library": [
+  "Library",
+  1
+ ],
+ "https://www.nmims.edu/docs/SSR.pdf": [
+  "SSR",
+  1
+ ],
+ "https://www.nmims.edu/docs/Naac_Certificate_of_Accreditation_2025.pdf": [
+  "Certificate of Accreditation",
+  1
+ ],
+ "https://www.nmims.edu/docs/Naac_Quality_Profile_2025.pdf": [
+  "NAAC Quality Profile",
+  1
+ ],
+ "https://www.nmims.edu/curriculum-feedback": [
+  "Stakeholder Feedback (Curriculum)",
+  1
+ ],
+ "https://www.nmims.edu/student-welfare.php": [
+  "Student Welfare",
+  1
+ ],
+ "https://www.nmims.edu/students-academic": [
+  "",
+  1
+ ],
+ "https://www.nmims.edu/examination": [
+  "",
+  1
+ ],
+ "https://www.nmims.edu/students-international": [
+  "",
+  1
+ ],
+ "https://www.nmims.edu/student-events": [
+  "Student Activities / Events Student Activities / Events",
+  1
+ ],
+ "https://www.nmims.edu/docs/2026/NUSC-2025-26.pdf": [
+  "NMIMS University Student Council (NUSC) 2025-26",
+  1
+ ],
+ "https://www.nmims.edu/students-campus-life": [
+  "Campus Life",
+  1
+ ],
+ "https://www.nmims.edu/admission-cancellation": [
+  "Online Admission Cancellation",
+  1
+ ],
+ "https://www.nmims.edu/docs/2025/Medical-Certificate-Format.pdf": [
+  "Medical Fitness Certificate Form (Click Here to Download)",
+  1
+ ],
+ "https://www.nmims.edu/docs/phd-scholars-nmims-2017.pdf": [
+  "PH.D. Scholars",
+  1
+ ],
+ "https://www.nmims.edu/docs/Refund Form-RTGS-REVISED.pdf": [
+  "Excess Fee/Deposit Refund form",
+  1
+ ],
+ "https://www.nmims.edu/student-satisfaction-survey": [
+  "Student Satisfaction Survey",
+  1
+ ],
+ "https://www.nmims.edu/docs/2024/NMIMS-University-All-Courses-Brochure.pdf": [
+  "Corporate Brochure",
+  1
+ ],
+ "https://www.nmims.edu/department-of-welfare": [
+  "Department of Welfare",
+  1
+ ],
+ "https://www.nmims.edu/education-verification": [
+  "Education Verification",
+  1
+ ],
+ "https://www.nmims.edu/application-for-e-transcript-delivery": [
+  "Application for E-Transcript Delivery",
+  1
+ ],
+ "https://www.nmims.edu/Gen-AI-Policy.php": [
+  "NMIMS Gen AI Policy",
+  1
+ ],
+ "https://www.nmims.edu/Social-Media-Policy.php": [
+  "NMIMS Social Media Policy",
+  1
+ ],
+ "https://www.nmims.edu/privacy-policy.php": [
+  "Privacy Policy",
+  1
+ ],
+ "https://nmims.edu/application-for-e-transcript-delivery": [
+  "https://nmims.edu/application-for-e-transcript-delivery",
+  2
+ ],
+ "https://nmims.edu/duplicate-grade-sheets": [
+  "https://nmims.edu/duplicate-grade-sheets",
+  2
+ ],
+ "https://nmims.edu/education-verification": [
+  "https://nmims.edu/education-verification",
+  2
+ ],
+ "https://www.nmims.edu/apply-verification-revaluation": [
+  "Verification/Revaluation of answer books under Grievance Redressal Mec",
+  2
+ ],
+ "https://www.nmims.edu/duplicate-grade-sheets": [
+  "Duplicate or Correction In Degree Certificate/ Grade Sheets / Diploma ",
+  2
+ ],
+ "https://www.nmims.edu/docs/scribe-writer.pdf": [
+  "Scribe/Writer during Examinations due to Permanent /Temporary Physical",
+  2
+ ],
+ "https://www.nmims.edu/docs/SVKM-NMIMS-Re-exam-Rules-and-online-application-Process-document.pdf": [
+  "Re-Exam Rules and Online Application Process Document",
+  2
+ ],
+ "https://www.nmims.edu/examination-management-reforms": [
+  "Examination Management Reforms@NMIMS",
+  2
+ ],
+ "https://www.nmims.edu/faq": [
+  "About",
+  3
+ ],
+ "https://www.nmims.edu/docs/Duplicate-Correction-in-GS-Certificate-Format.pdf": [
+  "Application form for Duplicate Degree Certificate/ Grade Sheets / Dipl",
+  5
+ ],
+ "https://www.nmims.edu/docs/proforma-indemnity-bond new.pdf": [
+  "Indemnity Bond Format",
+  5
+ ],
+ "https://nmims.edu/diploma-certificate-programs": [
+  "Diploma/Certificate Programmes",
+  6
+ ],
+ "https://nmims.edu/library": [
+  "Library",
+  6
+ ],
+ "https://nmims.edu/docs/SSR.pdf": [
+  "SSR",
+  6
+ ],
+ "https://nmims.edu/docs/Naac_Certificate_of_Accreditation_2025.pdf": [
+  "Certificate of Accreditation",
+  6
+ ],
+ "https://nmims.edu/docs/Naac_Quality_Profile_2025.pdf": [
+  "NAAC Quality Profile",
+  6
+ ],
+ "https://nmims.edu/curriculum-feedback": [
+  "Stakeholder Feedback (Curriculum)",
+  6
+ ],
+ "https://nmims.edu/student-welfare.php": [
+  "Student Welfare",
+  6
+ ],
+ "https://nmims.edu/students": [
+  "Students",
+  6
+ ],
+ "https://nmims.edu/docs/2024/NMIMS-University-All-Courses-Brochure.pdf": [
+  "Corporate Brochure",
+  6
+ ],
+ "https://nmims.edu/department-of-welfare": [
+  "Department of Welfare",
+  6
+ ],
+ "https://nmims.edu/Gen-AI-Policy.php": [
+  "NMIMS Gen AI Policy",
+  6
+ ],
+ "https://nmims.edu/Social-Media-Policy.php": [
+  "NMIMS Social Media Policy",
+  6
+ ],
+ "https://nmims.edu/privacy-policy.php": [
+  "Privacy Policy",
+  6
+ ],
+ "https://nmims.edu/docs/2025/Mumbai-Campus-Updated.pdf": [
+  "Click Here",
+  7
+ ],
+ "https://nmims.edu/gr-jani-boys-hostel-non-ac.php": [
+  "GR Jani Boys Hostel (Non-AC/ AC)",
+  7
+ ],
+ "https://nmims.edu/mkm-sanghvi-girls-hostel-ac.php": [
+  "MKM Sanghvi Girls Hostel (AC)",
+  7
+ ],
+ "https://nmims.edu/admission-cancellation": [
+  "https://nmims.edu/admission-cancellation",
+  8
+ ],
+ "https://upload.nmims.edu/admission/cancellation/stepone.php": [
+  "Click Here to Apply for Admission Cancellation",
+  8
+ ],
+ "https://upload.nmims.edu/admission/cancellation/steptwo.php": [
+  "Click Here to upload documents",
+  8
+ ],
+ "http://www.nmims.edu/privacy-policy": [
+  "Privacy Policy",
+  8
+ ],
+ "https://www.nmims.edu/docs/guidelines-on-safety-of-students--nmims.pdf": [
+  "UGC GUIDELINES ON SAFETY OF STUDENTS ON AND OFF CAMPUSES OF HIGHER EDU",
+  9
+ ],
+ "https://www.nmims.edu/national-ragging-prevention-program.php": [
+  "NATIONAL RAGGING PREVENTION PROGRAMME",
+  9
+ ],
+ "https://www.nmims.edu/docs/undertaking-by-students.pdf": [
+  "Circular from Dy.Secretary (MHRD) on Online Undertaking from students ",
+  9
+ ],
+ "https://www.nmims.edu/docs/2026/Circular-Composition-of-Students-Grievance-Redresal-Committee.pdf": [
+  "Student Grievances Redressal Cell",
+  9
+ ],
+ "https://www.nmims.edu/docs/student-grievances-redressal-policy-2015.pdf": [
+  "Student Grievances Redressal Policy, 2015",
+  9
+ ],
+ "https://www.nmims.edu/docs/UGC-reservation-policy.pdf": [
+  "UGC Reservation Policy",
+  9
+ ],
+ "https://nmims.edu/docs/student-grievances-redressal-policy-2015.pdf": [
+  "Process",
+  9
+ ],
+ "https://www.nmims.edu/docs/2026/Internal-Complaints-Committee.pdf": [
+  "Internal Complaints Committee",
+  9
+ ],
+ "https://www.nmims.edu/docs/women-grievance-redressal-cell-policy.pdf": [
+  "Women Grievance Redressal Cell  Policy Document",
+  9
+ ],
+ "https://www.nmims.edu/docs/the-sexual-harassment-women-workplace-act-2013.pdf": [
+  "The Sexual Harassment of Women at Workplace (Prevention, Prohibition a",
+  9
+ ],
+ "https://www.nmims.edu/docs/prevention-of-sexual-harrasment.pdf": [
+  "Manual on Prevention of Sexual Harassment",
+  9
+ ],
+ "https://www.nmims.edu/docs/7.1.1 FACILITIES for WOMEN at NMIMS pdf.pdf": [
+  "Facilities for Women at NMIMS",
+  9
+ ],
+ "https://www.nmims.edu/docs/7.1.1 Gender Sensitization Action Plan PDF.pdf": [
+  "Gender Sensitization Action Plan",
+  9
+ ],
+ "https://www.nmims.edu/docs/2026/SCST-Committee.pdf": [
+  "SC/ ST Committee",
+  9
+ ],
+ "https://www.nmims.edu/docs/2026/Revised_Revaluation_Process_Guide 2025-26.pdf.pdf": [
+  "Revised User Manual for Application Under Grievance Redressal",
+  11
+ ],
+ "https://www.nmims.edu/docs/2025/FAQ-for-NEW-Revaluation-process.pdf": [
+  "FAQ for NEW Revaluation process",
+  11
+ ],
+ "https://engineering.nmims.edu/academics/academic-calendar/": [
+  "Student Resources Book & Academic Calendar",
+  12
+ ],
+ "https://engineering.nmims.edu/department/information-technology-and-cyber-security/": [
+  "Information Technology",
+  12
+ ],
+ "https://engineering.nmims.edu/students/activities/": [
+  "Activities",
+  12
+ ],
+ "https://engineering.nmims.edu/students/student-council/": [
+  "Student Council",
+  12
+ ],
+ "https://engineering.nmims.edu/students/examination/": [
+  "Examination",
+  12
+ ],
+ "https://engineering.nmims.edu/students/facilities/": [
+  "Facilities",
+  12
+ ],
+ "https://engineering.nmims.edu/students/counselling/": [
+  "Counselling",
+  12
+ ],
+ "https://engineering.nmims.edu/students/alumni-association/": [
+  "Alumni Association",
+  12
+ ],
+ "https://engineering.nmims.edu/students/student-resource-book/": [
+  "Student Resource Book",
+  12
+ ],
+ "https://nmims.edu/feedback/student-feedback/": [
+  "Student",
+  12
+ ],
+ "https://nmims.edu/feedback/faculty-feedback/": [
+  "Faculty",
+  12
+ ],
+ "https://nmims.edu/feedback/alumni-feedback/": [
+  "Alumni",
+  12
+ ],
+ "https://nmims.edu/feedback/employer-feedback/": [
+  "Employer / Recruiter",
+  12
+ ],
+ "https://nmims.edu/feedback/academic-peers/": [
+  "Academic Peers",
+  12
+ ],
+ "https://engineering.nmims.edu/feedback-analysis-report/": [
+  "Feedback Analysis Reports",
+  12
+ ],
+ "https://engineering.nmims.edu/docs/2019-20-filled%20-feedback-forms.pdf": [
+  "2019-20",
+  12
+ ],
+ "https://engineering.nmims.edu/docs/2020-21-filled%20-feedback-forms.pdf": [
+  "2020-21",
+  12
+ ],
+ "https://engineering.nmims.edu/docs/2021-22-filled%20-feedback-forms.pdf": [
+  "2021-22",
+  12
+ ],
+ "https://engineering.nmims.edu/docs/2022-23-filled%20-feedback-forms.pdf": [
+  "2022-23",
+  12
+ ],
+ "https://engineering.nmims.edu/docs/2023-24-filled%20-feedback-forms.pdf": [
+  "2023-24",
+  12
+ ],
+ "https://engineering.nmims.edu/aspiring-students/": [
+  "Aspiring Students",
+  12
+ ],
+ "https://engineering.nmims.edu/privacy-policy/": [
+  "Privacy Policy",
+  12
+ ],
+ "https://engineering.nmims.edu/students/": [
+  "",
+  13
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2024/04/Refund_Form-RTGS-REVISED.pdf": [
+  "",
+  14
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2024/04/NUSC-2023-24.pdf": [
+  "",
+  14
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2024/04/Medical-Certificate-Format.pdf": [
+  "",
+  14
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2024/04/phd-scholars-nmims-2017.pdf": [
+  "",
+  14
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf": [
+  "",
+  15
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2025/09/SRB-2025-1.pdf": [
+  "",
+  15
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2024/08/SRB-2024.pdf": [
+  "",
+  15
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/05/Academic-Calendar-All-Programs_Firstyear_-AY-2026-27.pdf": [
+  "",
+  16
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/05/Academic-Calendar-All-Programs_SecondYear-Six-Year_AY-2026-27.pdf": [
+  "",
+  16
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/07/Academic-Calendar-Ph.D_Course-work-AY-2026-27.pdf": [
+  "",
+  16
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2025/09/SRB-2025.pdf": [
+  "",
+  16
+ ],
+ "https://engineering.nmims.edu/library/": [
+  "Read More",
+  17
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/04/Faculty-Handbook-2021.pdf": [
+  "Faculty Handbook",
+  19
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/04/MUMBAI-MPSTME-24-25.pdf": [
+  "Audited Statements 2024-25",
+  19
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/04/MPST-23-24.pdf": [
+  "Audited Statements 2023-24",
+  19
+ ],
+ "https://engineering.nmims.edu/wp-content/uploads/2026/04/MUMBAI-MPSTME-22-23.pdf": [
+  "Audited Statements 2022-23",
+  19
+ ],
+ "https://navimumbai.nmims.edu/students/students-resource-book/": [
+  "",
+  20
+ ],
+ "https://navimumbai.nmims.edu/facilities/library/": [
+  "Library",
+  20
+ ],
+ "https://navimumbai.nmims.edu/committees-and-clubs/": [
+  "Committees & Clubs",
+  20
+ ],
+ "https://navimumbai.nmims.edu/students/students-activities/": [
+  "Student Activities",
+  20
+ ],
+ "https://navimumbai.nmims.edu/students/publications/": [
+  "Publications",
+  20
+ ],
+ "https://navimumbai.nmims.edu/student/examination/": [
+  "Examination",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SRB-Part-I-University-2025-26.pdf": [
+  "SRB Part I - University 2025-26",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SRB-Part-I-University-2024-25.pdf": [
+  "SRB Part I University 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SBM-SRB-Part-II-2024.pdf": [
+  "School of Business Management 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SOC-SRB-Part-II-2024.pdf": [
+  "School of Commerce 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SOE-SRB-Part-II-2024.pdf": [
+  "School of Economics 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SoHM-SRB-Part-II-2024.pdf": [
+  "School of Hospitality Management 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SOL-SRB-Part-II-2024.pdf": [
+  "School of Law 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/SoLA-SRB-Part-II-2024.pdf": [
+  "School of Liberal Arts 2024-25",
+  20
+ ],
+ "https://navimumbai.nmims.edu/docs/STME-SRB-Part-II-2024.pdf": [
+  "School of Technology Management & Engineering 2024-25",
+  20
+ ],
+ "http://www.nmims.edu/students/": [
+  "Students",
+  20
+ ],
+ "http://www.nmims.edu/students/campus-life/grievances/": [
+  "Grievances",
+  20
+ ],
+ "http://www.nmims.edu/privacy-policy/": [
+  "Privacy Policy",
+  20
+ ]
+}

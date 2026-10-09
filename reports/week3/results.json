@@ -1,0 +1,533 @@
+{
+  "intent": {
+    "comparison": [
+      {
+        "model": "tfidf_logreg (week 2 best)",
+        "val": 0.9031,
+        "test": 0.8632,
+        "test_core": 0.8805,
+        "test_variants": 0.7977,
+        "clinc_oos_recall": 0.945
+      },
+      {
+        "model": "minilm_logreg",
+        "val": 0.8355,
+        "test": 0.8427,
+        "test_core": 0.8499,
+        "test_variants": 0.7763,
+        "clinc_oos_recall": 0.872
+      },
+      {
+        "model": "bge_small_logreg",
+        "val": 0.8192,
+        "test": 0.8207,
+        "test_core": 0.8192,
+        "test_variants": 0.7667,
+        "clinc_oos_recall": 0.827
+      },
+      {
+        "model": "ensemble_tfidf_minilm",
+        "val": 0.895,
+        "test": 0.8797,
+        "test_core": 0.8886,
+        "test_variants": 0.8143,
+        "clinc_oos_recall": 0.946
+      },
+      {
+        "model": "ensemble_tfidf_bge",
+        "val": 0.9042,
+        "test": 0.876,
+        "test_core": 0.8873,
+        "test_variants": 0.8091,
+        "clinc_oos_recall": 0.942
+      },
+      {
+        "model": "minilm_knn (k=5)",
+        "val": 0.818,
+        "test": 0.844,
+        "test_core": 0.8623,
+        "test_variants": 0.7724,
+        "clinc_oos_recall": 0.683
+      }
+    ],
+    "selected": "ensemble_tfidf_bge",
+    "threshold": 0.25,
+    "final": {
+      "test": {
+        "accuracy": 0.8755,
+        "macro_f1": 0.8756
+      },
+      "test_core": {
+        "accuracy": 0.8904,
+        "macro_f1": 0.89
+      },
+      "test_variants": {
+        "accuracy": 0.8666,
+        "macro_f1": 0.8115
+      },
+      "clinc_oos_recall": 0.946
+    }
+  },
+  "sub_intent": {
+    "comparison": [
+      {
+        "model": "tfidf_logreg",
+        "val_flat_acc": 0.7256,
+        "val_hier_acc": 0.7256,
+        "val_flat_macro_f1": 0.6303,
+        "test_core_flat_acc": 0.7246,
+        "test_core_hier_acc": 0.718,
+        "test_core_flat_macro_f1": 0.6275,
+        "test_flat_acc": 0.7292,
+        "test_hier_acc": 0.7182,
+        "test_flat_macro_f1": 0.6373
+      },
+      {
+        "model": "minilm_logreg",
+        "val_flat_acc": 0.7299,
+        "val_hier_acc": 0.7458,
+        "val_flat_macro_f1": 0.6947,
+        "test_core_flat_acc": 0.7869,
+        "test_core_hier_acc": 0.7639,
+        "test_core_flat_macro_f1": 0.7419,
+        "test_flat_acc": 0.7511,
+        "test_hier_acc": 0.7357,
+        "test_flat_macro_f1": 0.711
+      },
+      {
+        "model": "ensemble_tfidf_minilm",
+        "val_flat_acc": 0.7627,
+        "val_hier_acc": 0.7542,
+        "val_flat_macro_f1": 0.7038,
+        "test_core_flat_acc": 0.7902,
+        "test_core_hier_acc": 0.7639,
+        "test_core_flat_macro_f1": 0.7129,
+        "test_flat_acc": 0.7818,
+        "test_hier_acc": 0.7555,
+        "test_flat_macro_f1": 0.7047
+      }
+    ],
+    "selected": "ensemble_tfidf_minilm",
+    "strategy": "flat",
+    "n_classes": 95
+  },
+  "ner": {
+    "comparison": [
+      {
+        "model": "gazetteer (dictionary)",
+        "val": 0.9218,
+        "test": 0.9312,
+        "test_core": 0.9288,
+        "test_variants": 0.9324
+      },
+      {
+        "model": "crf",
+        "val": 0.9095,
+        "test": 0.9135,
+        "test_core": 0.9096,
+        "test_variants": 0.9156
+      },
+      {
+        "model": "crf + gazetteer (full)",
+        "val": 0.9267,
+        "test": 0.9414,
+        "test_core": 0.9386,
+        "test_variants": 0.9429
+      },
+      {
+        "model": "crf + gazetteer (value cross-fit)",
+        "val": 0.9246,
+        "test": 0.9451,
+        "test_core": 0.9416,
+        "test_variants": 0.9469
+      }
+    ],
+    "selected": "crf + gazetteer (full)",
+    "per_type_test": {
+      "ACTION": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 139.0
+      },
+      "AMOUNT": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "CAMPUS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "CERTIFICATE": {
+        "precision": 0.967,
+        "recall": 0.879,
+        "f1-score": 0.921,
+        "support": 66.0
+      },
+      "CGPA": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9.0
+      },
+      "COUNTRY": {
+        "precision": 1.0,
+        "recall": 0.667,
+        "f1-score": 0.8,
+        "support": 9.0
+      },
+      "DATE": {
+        "precision": 1.0,
+        "recall": 0.723,
+        "f1-score": 0.839,
+        "support": 65.0
+      },
+      "DEADLINE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 25.0
+      },
+      "DEPARTMENT": {
+        "precision": 1.0,
+        "recall": 0.903,
+        "f1-score": 0.949,
+        "support": 93.0
+      },
+      "DOCUMENT": {
+        "precision": 0.978,
+        "recall": 0.964,
+        "f1-score": 0.971,
+        "support": 139.0
+      },
+      "EXAMINATION": {
+        "precision": 0.976,
+        "recall": 0.976,
+        "f1-score": 0.976,
+        "support": 124.0
+      },
+      "FEE": {
+        "precision": 0.978,
+        "recall": 0.967,
+        "f1-score": 0.973,
+        "support": 92.0
+      },
+      "GRADE": {
+        "precision": 1.0,
+        "recall": 0.769,
+        "f1-score": 0.87,
+        "support": 13.0
+      },
+      "HOSTEL": {
+        "precision": 0.333,
+        "recall": 0.2,
+        "f1-score": 0.25,
+        "support": 5.0
+      },
+      "ISSUE": {
+        "precision": 0.972,
+        "recall": 0.963,
+        "f1-score": 0.967,
+        "support": 107.0
+      },
+      "LOCATION": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "ORGANIZATION": {
+        "precision": 1.0,
+        "recall": 0.739,
+        "f1-score": 0.85,
+        "support": 23.0
+      },
+      "PERCENTAGE": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.667,
+        "support": 6.0
+      },
+      "PROGRAM": {
+        "precision": 1.0,
+        "recall": 0.757,
+        "f1-score": 0.862,
+        "support": 37.0
+      },
+      "PURPOSE": {
+        "precision": 1.0,
+        "recall": 0.176,
+        "f1-score": 0.3,
+        "support": 17.0
+      },
+      "SCHOLARSHIP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "SCHOOL": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 41.0
+      },
+      "SEMESTER": {
+        "precision": 1.0,
+        "recall": 0.739,
+        "f1-score": 0.85,
+        "support": 23.0
+      },
+      "STUDENT_NUMBER": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1-score": 0.4,
+        "support": 8.0
+      },
+      "UNIVERSITY": {
+        "precision": 1.0,
+        "recall": 0.912,
+        "f1-score": 0.954,
+        "support": 68.0
+      }
+    },
+    "note": "labels are rule/dictionary-generated (silver); scores measure agreement with them"
+  },
+  "semantic_similarity": {
+    "task_a": "match 629 rule-generated rewordings to their original among 1973 core questions",
+    "task_a_results": [
+      {
+        "method": "tfidf word cosine",
+        "acc@1": 0.9714,
+        "acc@5": 1.0,
+        "mrr": 0.9848
+      },
+      {
+        "method": "tfidf char cosine",
+        "acc@1": 0.9952,
+        "acc@5": 1.0,
+        "mrr": 0.9972
+      },
+      {
+        "method": "minilm embedding cosine",
+        "acc@1": 0.9587,
+        "acc@5": 0.9952,
+        "mrr": 0.975
+      },
+      {
+        "method": "bge-small embedding cosine",
+        "acc@1": 0.9841,
+        "acc@5": 0.9968,
+        "mrr": 0.9906
+      }
+    ],
+    "task_b": "for 303 held-out core questions, retrieve a training question about the same verified fact",
+    "task_b_results": [
+      {
+        "method": "tfidf word cosine",
+        "acc@1": 0.3597,
+        "acc@5": 0.6733
+      },
+      {
+        "method": "minilm embedding cosine",
+        "acc@1": 0.538,
+        "acc@5": 0.8218
+      },
+      {
+        "method": "bge-small embedding cosine",
+        "acc@1": 0.571,
+        "acc@5": 0.835
+      }
+    ]
+  },
+  "retrieval": {
+    "n_queries": 870,
+    "n_passages": 727,
+    "relevance": "passage cites a fact the query is linked to",
+    "comparison": [
+      {
+        "retriever": "bm25",
+        "recall@1": 0.2425,
+        "recall@3": 0.3851,
+        "recall@5": 0.492,
+        "mrr": 0.3576,
+        "recall@3_core": 0.4467
+      },
+      {
+        "retriever": "dense (minilm)",
+        "recall@1": 0.2161,
+        "recall@3": 0.3414,
+        "recall@5": 0.3989,
+        "mrr": 0.3084,
+        "recall@3_core": 0.3505
+      },
+      {
+        "retriever": "hybrid (RRF)",
+        "recall@1": 0.2483,
+        "recall@3": 0.423,
+        "recall@5": 0.5103,
+        "mrr": 0.3742,
+        "recall@3_core": 0.4399
+      },
+      {
+        "retriever": "hybrid + predicted-intent boost",
+        "recall@1": 0.3448,
+        "recall@3": 0.5506,
+        "recall@5": 0.608,
+        "mrr": 0.4713,
+        "recall@3_core": 0.5601
+      },
+      {
+        "retriever": "hybrid + predicted intent & sub-intent boost",
+        "recall@1": 0.3874,
+        "recall@3": 0.6149,
+        "recall@5": 0.6736,
+        "mrr": 0.5241,
+        "recall@3_core": 0.6357
+      }
+    ]
+  },
+  "summarization": {
+    "n_queries": 291,
+    "reference": "gold verified fact(s) linked to the query",
+    "input": "top-3 hybrid passages + facts of the PREDICTED sub-intent's service (lead: passages only)",
+    "comparison": [
+      {
+        "summarizer": "lead",
+        "rouge1": 0.1781,
+        "rouge2": 0.0419,
+        "rougeL": 0.1307,
+        "embedding_similarity": 0.4368,
+        "avg_words": 54.0378
+      },
+      {
+        "summarizer": "textrank",
+        "rouge1": 0.2311,
+        "rouge2": 0.0917,
+        "rougeL": 0.18,
+        "embedding_similarity": 0.5344,
+        "avg_words": 55.6564
+      },
+      {
+        "summarizer": "mmr",
+        "rouge1": 0.4168,
+        "rouge2": 0.3296,
+        "rougeL": 0.3822,
+        "embedding_similarity": 0.7265,
+        "avg_words": 55.3024
+      }
+    ]
+  },
+  "end_to_end": {
+    "n": 291,
+    "intent_acc": 0.8763,
+    "sub_intent_acc": 0.7938,
+    "department_acc": 0.7732,
+    "answer_backed_by_gold_fact": 0.7973,
+    "required_documents_jaccard": 0.799,
+    "relevant_passage_in_top3": 0.6323,
+    "status_counts": {
+      "ready": 170,
+      "needs_information": 83,
+      "needs_confirmation": 30,
+      "oos": 8
+    },
+    "oos_declined_200": 0.95,
+    "latency_ms_median": 100.4,
+    "latency_ms_p95": 219.3
+  },
+  "example": {
+    "query": "I lost my ID card and my SAP ID is 70022300145, what should I do? It's urgent",
+    "intent": "ID_CARDS",
+    "sub_intent": "DUPLICATE_ID_CARD",
+    "answer": "Any grievances related to ID Card should be raised to biometricregistration@svkm.ac.in. Step 1: Log in to the SAP Student Portal Login Details URL: Pro-Tips & Troubleshooting https://sdcspcs.svkm.ac.in:44300/iri/portal Pop-ups Required: You must disable your browser's pop-up blockerfor the User ID: Your 11-digit student SAP number. grievancepage and payment gateway First-time users: The default password is to open correctly.\n\nDepartment: School Academic Office (Course Coordinator / AR / DR).\nRequired documents: none stated in the sources.\nNext step: Apply to the school for a duplicate ID card and pay the prescribed fee.",
+    "entities": [
+      {
+        "label": "ISSUE",
+        "text": "lost",
+        "start": 2,
+        "end": 6,
+        "source": "crf"
+      },
+      {
+        "label": "DOCUMENT",
+        "text": "ID card",
+        "start": 10,
+        "end": 17,
+        "source": "crf"
+      },
+      {
+        "label": "STUDENT_NUMBER",
+        "text": "SAP ID",
+        "start": 25,
+        "end": 31,
+        "source": "crf"
+      },
+      {
+        "label": "DATE",
+        "text": "70022300145",
+        "start": 35,
+        "end": 46,
+        "source": "crf"
+      }
+    ],
+    "service_request": {
+      "intent": "ID_CARDS",
+      "sub_intent": "DUPLICATE_ID_CARD",
+      "department": "School Academic Office (Course Coordinator / AR / DR)",
+      "required_documents": [],
+      "next_action": "Apply to the school for a duplicate ID card and pay the prescribed fee",
+      "extracted_details": {
+        "ISSUE": [
+          "lost"
+        ],
+        "DOCUMENT": [
+          "ID card"
+        ],
+        "STUDENT_NUMBER": [
+          "SAP ID"
+        ],
+        "DATE": [
+          "70022300145"
+        ]
+      },
+      "missing_information": [],
+      "priority": "high",
+      "status": "ready",
+      "supporting_facts": [
+        "F0002"
+      ],
+      "source_urls": [
+        "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "doc_id": "SRC028-P003",
+        "title": "Your Guide to the Exam Revaluation Process (2025-26)",
+        "page": "p. 3",
+        "url": "https://www.nmims.edu/docs/2026/Revised_Revaluation_Process_Guide 2025-26.pdf.pdf",
+        "score": 0.0311
+      },
+      {
+        "doc_id": "SRC059-P005",
+        "title": "SRB Part I - University 2024-25",
+        "page": "p. 5",
+        "url": "https://navimumbai.nmims.edu/docs/SRB-Part-I-University-2024-25.pdf",
+        "score": 0.0305
+      },
+      {
+        "doc_id": "SRC054-P005",
+        "title": "MPSTME Student Resource Book 2024",
+        "page": "p. 5",
+        "url": "https://engineering.nmims.edu/wp-content/uploads/2024/08/SRB-2024.pdf",
+        "score": 0.0299
+      }
+    ]
+  },
+  "runtime_s": 330.9
+}

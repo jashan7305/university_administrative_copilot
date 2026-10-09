@@ -1,0 +1,1301 @@
+{
+  "routing: wrong sub-intent, same intent": [
+    {
+      "query": "can i leave my stff in hostel during summer vacation",
+      "gold": "HOSTEL / HOSTEL_VACATING",
+      "predicted": "HOSTEL / HOSTEL_RULES",
+      "confidence": 0.9967,
+      "sub_confidence": 0.5459,
+      "style": "typo",
+      "plausible_alternative": false
+    },
+    {
+      "query": "want to stay with my friend in hostel, possible?",
+      "gold": "HOSTEL / HOSTEL_ALLOCATION",
+      "predicted": "HOSTEL / HOSTEL_RULES",
+      "confidence": 0.9961,
+      "sub_confidence": 0.5425,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "no TEE subject fail - reexam possible or not",
+      "gold": "EXAMINATIONS / BACKLOG_EXAM",
+      "predicted": "EXAMINATIONS / RE_EXAMINATION",
+      "confidence": 0.9961,
+      "sub_confidence": 0.7215,
+      "style": "abbrev",
+      "plausible_alternative": false
+    },
+    {
+      "query": "want to stay with my frend in hostel, possible?",
+      "gold": "HOSTEL / HOSTEL_ALLOCATION",
+      "predicted": "HOSTEL / HOSTEL_RULES",
+      "confidence": 0.9958,
+      "sub_confidence": 0.435,
+      "style": "typo",
+      "plausible_alternative": false
+    },
+    {
+      "query": "vacation stay hostel fees",
+      "gold": "HOSTEL / HOSTEL_RULES",
+      "predicted": "HOSTEL / HOSTEL_FEES",
+      "confidence": 0.9946,
+      "sub_confidence": 0.4517,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "how to issue books in mpstme library",
+      "gold": "LIBRARY / BOOK_BORROWING",
+      "predicted": "LIBRARY / DIGITAL_RESOURCES",
+      "confidence": 0.9941,
+      "sub_confidence": 0.3398,
+      "style": "original",
+      "plausible_alternative": false
+    }
+  ],
+  "routing: sub-intent outside predicted intent": [
+    {
+      "query": "good morning, a student emailed me asking to recheck his TEE paper, is that allowed?",
+      "gold": "EXAMINATIONS / REVALUATION",
+      "predicted": "EXAMINATIONS / DIGITAL_RESOURCES",
+      "confidence": 0.939,
+      "sub_confidence": 0.1089,
+      "style": "polite",
+      "plausible_alternative": false
+    },
+    {
+      "query": "is wifi available in the hostel rooms",
+      "gold": "HOSTEL / HOSTEL_RULES",
+      "predicted": "HOSTEL / FACILITIES",
+      "confidence": 0.7997,
+      "sub_confidence": 0.3267,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "is wifi availble in the hostel rooms",
+      "gold": "HOSTEL / HOSTEL_RULES",
+      "predicted": "HOSTEL / FACILITIES",
+      "confidence": 0.7993,
+      "sub_confidence": 0.3676,
+      "style": "typo",
+      "plausible_alternative": false
+    },
+    {
+      "query": "is wifi available in the hostel rooms - please guide",
+      "gold": "HOSTEL / HOSTEL_RULES",
+      "predicted": "HOSTEL / FACILITIES",
+      "confidence": 0.7975,
+      "sub_confidence": 0.2725,
+      "style": "polite",
+      "plausible_alternative": false
+    },
+    {
+      "query": "when is hostel security deposit refunded",
+      "gold": "HOSTEL / HOSTEL_REFUND",
+      "predicted": "HOSTEL / FEE_REFUND",
+      "confidence": 0.7821,
+      "sub_confidence": 0.5839,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "Dear Sir/Madam, When is hostel security deposit refunded? Kindly advise.",
+      "gold": "HOSTEL / HOSTEL_REFUND",
+      "predicted": "HOSTEL / FEE_REFUND",
+      "confidence": 0.7078,
+      "sub_confidence": 0.6318,
+      "style": "formal",
+      "plausible_alternative": false
+    }
+  ],
+  "routing: wrong intent": [
+    {
+      "query": "pyq for re exam avaliable?",
+      "gold": "LIBRARY / DIGITAL_RESOURCES",
+      "predicted": "EXAMINATIONS / RE_EXAMINATION",
+      "confidence": 0.9635,
+      "sub_confidence": 0.5142,
+      "style": "typo",
+      "plausible_alternative": false
+    },
+    {
+      "query": "pyq for re exam available?",
+      "gold": "LIBRARY / DIGITAL_RESOURCES",
+      "predicted": "EXAMINATIONS / RE_EXAMINATION",
+      "confidence": 0.9551,
+      "sub_confidence": 0.4995,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "hello, pyq for re exam available?",
+      "gold": "LIBRARY / DIGITAL_RESOURCES",
+      "predicted": "EXAMINATIONS / RE_EXAMINATION",
+      "confidence": 0.9379,
+      "sub_confidence": 0.4538,
+      "style": "polite",
+      "plausible_alternative": false
+    },
+    {
+      "query": "can i have an online counselling session",
+      "gold": "STUDENT_SERVICES / COUNSELLING",
+      "predicted": "STUDENT_WELFARE / MENTAL_HEALTH_SUPPORT",
+      "confidence": 0.9377,
+      "sub_confidence": 0.8302,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "verification ceckbox sap",
+      "gold": "EXAMINATIONS / MARK_VERIFICATION",
+      "predicted": "CERTIFICATES / EDUCATION_VERIFICATION",
+      "confidence": 0.9305,
+      "sub_confidence": 0.647,
+      "style": "typo",
+      "plausible_alternative": false
+    },
+    {
+      "query": "can i have an online counselling session, thanks",
+      "gold": "STUDENT_SERVICES / COUNSELLING",
+      "predicted": "STUDENT_WELFARE / MENTAL_HEALTH_SUPPORT",
+      "confidence": 0.9235,
+      "sub_confidence": 0.7879,
+      "style": "polite",
+      "plausible_alternative": false
+    }
+  ],
+  "routing: false out-of-scope": [
+    {
+      "query": "can my parents do this for me",
+      "gold": "TRANSCRIPTS / DUPLICATE_GRADE_SHEET",
+      "predicted": "out_of_scope / HOSTEL_RULES",
+      "confidence": 0.6906,
+      "sub_confidence": 0.1719,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "what's the deadilne",
+      "gold": "EXAMINATIONS / REVALUATION",
+      "predicted": "out_of_scope / RE_EXAMINATION",
+      "confidence": 0.6414,
+      "sub_confidence": 0.1423,
+      "style": "typo",
+      "plausible_alternative": true
+    },
+    {
+      "query": "can i get a beak",
+      "gold": "ACADEMIC_REGISTRATION / STUDENT_STATUS",
+      "predicted": "out_of_scope / STUDENT_STATUS",
+      "confidence": 0.6272,
+      "sub_confidence": 0.0931,
+      "style": "typo",
+      "plausible_alternative": true
+    },
+    {
+      "query": "what's the deadline",
+      "gold": "EXAMINATIONS / REVALUATION",
+      "predicted": "out_of_scope / LATE_FEE",
+      "confidence": 0.5692,
+      "sub_confidence": 0.1173,
+      "style": "original",
+      "plausible_alternative": false
+    },
+    {
+      "query": "can my parnts do this for me",
+      "gold": "TRANSCRIPTS / DUPLICATE_GRADE_SHEET",
+      "predicted": "out_of_scope / REVALUATION",
+      "confidence": 0.4186,
+      "sub_confidence": 0.1713,
+      "style": "typo",
+      "plausible_alternative": false
+    },
+    {
+      "query": "kitna bunk kar skate",
+      "gold": "ATTENDANCE / ATTENDANCE_REQUIREMENT",
+      "predicted": "out_of_scope / TRANSCRIPT",
+      "confidence": 0.3851,
+      "sub_confidence": 0.0766,
+      "style": "typo",
+      "plausible_alternative": false
+    }
+  ],
+  "routing: missed out-of-scope": [
+    {
+      "query": "what'll an education at boulder state college run",
+      "gold": "out_of_scope / out_of_scope",
+      "predicted": "ACADEMIC_REGISTRATION / ACADEMIC_GUIDELINES",
+      "confidence": 0.5546,
+      "sub_confidence": 0.1849,
+      "style": "clinc150",
+      "plausible_alternative": false
+    }
+  ],
+  "challenge": [
+    {
+      "query": "what is the cutoff for IIT Bombay computer science",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "ACADEMIC_REGISTRATION / DIGITAL_RESOURCES"
+    },
+    {
+      "query": "how do I apply for admission to Mumbai University BCom",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "FEES / ADMISSION_CANCELLATION"
+    },
+    {
+      "query": "explain backpropagation in neural networks",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "EXAMINATIONS / BACKLOG_EXAM"
+    },
+    {
+      "query": "write my internship report introduction",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "STUDENT_SERVICES / PLACEMENT"
+    },
+    {
+      "query": "what is the syllabus of data structures in sem 3",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "EXAMINATIONS / ACADEMIC_CALENDAR"
+    },
+    {
+      "query": "who won the inter college cricket match yesterday",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "STUDENT_SERVICES / STUDENT_STATUS"
+    },
+    {
+      "query": "how to prepare for GATE while doing btech",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "ACADEMIC_REGISTRATION / COURSE_CHANGE"
+    },
+    {
+      "query": "recommend a good laptop for engineering students",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "STUDENT_SERVICES / FACILITIES"
+    },
+    {
+      "query": "what is the CAT exam pattern this year",
+      "category": "near_domain_oos",
+      "gold": "['out_of_scope'] / []",
+      "predicted": "EXAMINATIONS / RE_EXAMINATION"
+    },
+    {
+      "query": "bonafide",
+      "category": "very_short",
+      "gold": "['CERTIFICATES'] / ['BONAFIDE_CERTIFICATE']",
+      "predicted": "out_of_scope / BONAFIDE_CERTIFICATE"
+    },
+    {
+      "query": "pament failed but mony deducted",
+      "category": "heavy_typos",
+      "gold": "['FEES'] / ['FAILED_PAYMENT']",
+      "predicted": "EXAMINATIONS / FAILED_PAYMENT"
+    },
+    {
+      "query": "result kab aayega sem 5 ka",
+      "category": "hinglish",
+      "gold": "['EXAMINATIONS'] / ['EXAM_RESULT']",
+      "predicted": "ACADEMIC_REGISTRATION / ACADEMIC_CALENDAR"
+    },
+    {
+      "query": "form submission",
+      "category": "ambiguous",
+      "gold": "['EXAMINATIONS', 'ACADEMIC_REGISTRATION', 'CERTIFICATES', 'SCHOLARSHIPS'] / []",
+      "predicted": "ATTENDANCE / HOSTEL_APPLICATION"
+    },
+    {
+      "query": "deadline",
+      "category": "ambiguous",
+      "gold": "['FEES', 'EXAMINATIONS', 'ACADEMIC_REGISTRATION', 'SCHOLARSHIPS'] / []",
+      "predicted": "out_of_scope / EXAM_TIMETABLE"
+    },
+    {
+      "query": "my card doesn't beep at the turnstile",
+      "category": "unseen_phrasing",
+      "gold": "['ID_CARDS'] / ['ID_CARD_NOT_WORKING']",
+      "predicted": "out_of_scope / ID_CARD_NOT_WORKING"
+    },
+    {
+      "query": "how do I put my credits into the national credit bank",
+      "category": "unseen_phrasing",
+      "gold": "['ACADEMIC_REGISTRATION'] / ['ACADEMIC_BANK_OF_CREDITS']",
+      "predicted": "out_of_scope / ACADEMIC_BANK_OF_CREDITS"
+    }
+  ],
+  "ner": [
+    {
+      "query": "documents for international exchange application",
+      "gold": [
+        "documents [DOCUMENT]",
+        "international exchange [ACTION]"
+      ],
+      "missed": [
+        "documents [DOCUMENT]",
+        "international exchange [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "who handles name correction - exam dept or admission?",
+      "gold": [
+        "name correction [ACTION]",
+        "exam dept [DEPARTMENT]",
+        "admission [DEPARTMENT]"
+      ],
+      "missed": [
+        "admission [DEPARTMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "dental surgery leave attendance proof",
+      "gold": [
+        "dental surgery [ISSUE]",
+        "attendance [ACTION]",
+        "proof [DOCUMENT]"
+      ],
+      "missed": [
+        "dental surgery [ISSUE]",
+        "attendance [ACTION]",
+        "proof [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "The re-exam application window closed yesterday at 4 pm and I could not apply because I was travelling. Is there any provision for a late application, and what is the fee?",
+      "gold": [
+        "re-exam application [ACTION]",
+        "yesterday [DATE]",
+        "4 pm [DEADLINE]",
+        "late application [ACTION]",
+        "fee [FEE]"
+      ],
+      "missed": [
+        "re-exam application [ACTION]",
+        "4 pm [DEADLINE]",
+        "late application [ACTION]"
+      ],
+      "spurious": [
+        "apply [ACTION]"
+      ],
+      "wrong_type": [
+        "re-exam [pred EXAMINATION]",
+        "late [pred ISSUE]"
+      ]
+    },
+    {
+      "query": "leaving the course: clearance certificate, hostel vacating and refund of deposits",
+      "gold": [
+        "clearance certificate [CERTIFICATE]",
+        "hostel vacating [ACTION]",
+        "refund [ACTION]",
+        "deposits [FEE]"
+      ],
+      "missed": [
+        "hostel vacating [ACTION]",
+        "refund [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "when was nusc formed",
+      "gold": [
+        "nusc [DEPARTMENT]"
+      ],
+      "missed": [
+        "nusc [DEPARTMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "my portal password isn't working and i need to fill the re exam form today",
+      "gold": [
+        "portal password [ORGANIZATION]",
+        "isn't working [ISSUE]",
+        "re exam form [DOCUMENT]",
+        "today [DATE]"
+      ],
+      "missed": [
+        "portal password [ORGANIZATION]",
+        "re exam form [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": [
+        "re exam [pred EXAMINATION]"
+      ]
+    },
+    {
+      "query": "attendance status received yesterday, who do i contact",
+      "gold": [
+        "attendance status [DOCUMENT]",
+        "yesterday [DATE]"
+      ],
+      "missed": [
+        "attendance status [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "lost my fee receipt and also need a refund of excess fee - what do I submit",
+      "gold": [
+        "lost [ISSUE]",
+        "fee receipt [DOCUMENT]",
+        "refund [ACTION]",
+        "excess fee [FEE]"
+      ],
+      "missed": [
+        "refund [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "admission cancel kaise kare",
+      "gold": [
+        "admission [DEPARTMENT]",
+        "cancel [ACTION]"
+      ],
+      "missed": [
+        "admission [DEPARTMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "online mba cancellation refund same rules?",
+      "gold": [
+        "online mba [PROGRAM]",
+        "cancellation [ACTION]",
+        "refund [ACTION]"
+      ],
+      "missed": [
+        "refund [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "result came today, deadline for photocopy?",
+      "gold": [
+        "result [DOCUMENT]",
+        "today [DATE]",
+        "deadline [DEADLINE]",
+        "photocopy [ACTION]"
+      ],
+      "missed": [
+        "result [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "holiday list but lectures scheduled?",
+      "gold": [
+        "holiday list [DOCUMENT]"
+      ],
+      "missed": [
+        "holiday list [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "there's a problem with my marks",
+      "gold": [
+        "problem [ISSUE]",
+        "marks [GRADE]"
+      ],
+      "missed": [
+        "problem [ISSUE]",
+        "marks [GRADE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "readmission fee after a break if fees were already paid",
+      "gold": [
+        "readmission fee [FEE]",
+        "break [ACTION]",
+        "fees [FEE]"
+      ],
+      "missed": [
+        "break [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "excuse for missing reexam registration",
+      "gold": [
+        "missing [ISSUE]",
+        "reexam registration [ACTION]"
+      ],
+      "missed": [
+        "missing [ISSUE]",
+        "reexam registration [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": [
+        "reexam [pred EXAMINATION]"
+      ]
+    },
+    {
+      "query": "can't log in to student portal",
+      "gold": [
+        "can't log in [ISSUE]",
+        "student portal [ORGANIZATION]"
+      ],
+      "missed": [
+        "can't log in [ISSUE]",
+        "student portal [ORGANIZATION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "pyq for re exam available?",
+      "gold": [
+        "pyq [DOCUMENT]",
+        "re exam [EXAMINATION]"
+      ],
+      "missed": [
+        "pyq [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "when do mbatech students go for management internship",
+      "gold": [
+        "mbatech [PROGRAM]",
+        "management internship [ACTION]"
+      ],
+      "missed": [
+        "management internship [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "inquiry committee date for my ufm case, what happens there",
+      "gold": [
+        "inquiry committee [DEPARTMENT]",
+        "ufm case [ISSUE]"
+      ],
+      "missed": [
+        "ufm case [ISSUE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "lost my degree certificate and also need my name corrected on it",
+      "gold": [
+        "lost [ISSUE]",
+        "degree certificate [CERTIFICATE]",
+        "name corrected [ACTION]"
+      ],
+      "missed": [
+        "name corrected [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "is totalling done by software",
+      "gold": [
+        "totalling [ACTION]"
+      ],
+      "missed": [
+        "totalling [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "can a former student raise a grievance with the university",
+      "gold": [
+        "grievance [ISSUE]",
+        "university [UNIVERSITY]"
+      ],
+      "missed": [
+        "grievance [ISSUE]",
+        "university [UNIVERSITY]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "administrative charge for lost library book",
+      "gold": [
+        "administrative charge [FEE]",
+        "lost [ISSUE]",
+        "library book [DOCUMENT]"
+      ],
+      "missed": [
+        "administrative charge [FEE]",
+        "library book [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": [
+        "library [pred DEPARTMENT]"
+      ]
+    },
+    {
+      "query": "need to talk to someone about a problem",
+      "gold": [
+        "problem [ISSUE]"
+      ],
+      "missed": [
+        "problem [ISSUE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "bansi villa ac vs non ac fees",
+      "gold": [
+        "bansi villa [HOSTEL]",
+        "fees [FEE]"
+      ],
+      "missed": [],
+      "spurious": [],
+      "wrong_type": [
+        "ban [pred LOCATION]"
+      ]
+    },
+    {
+      "query": "leave application format for missing classes",
+      "gold": [
+        "leave application [DOCUMENT]",
+        "missing classes [ISSUE]"
+      ],
+      "missed": [
+        "leave application [DOCUMENT]",
+        "missing classes [ISSUE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "can i file a police complaint about something in hostel",
+      "gold": [
+        "police complaint [ACTION]"
+      ],
+      "missed": [
+        "police complaint [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "lost id",
+      "gold": [
+        "lost [ISSUE]",
+        "id [DOCUMENT]"
+      ],
+      "missed": [
+        "id [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "hostel deposit receipt lost, can i still get refund",
+      "gold": [
+        "hostel deposit receipt [DOCUMENT]",
+        "lost [ISSUE]",
+        "refund [ACTION]"
+      ],
+      "missed": [
+        "refund [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "portal username",
+      "gold": [
+        "portal [ORGANIZATION]"
+      ],
+      "missed": [
+        "portal [ORGANIZATION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "hi, can the dean allow me to enter 35 min late in a medical emergency",
+      "gold": [
+        "dean [DEPARTMENT]",
+        "35 min late [ISSUE]",
+        "medical emergency [ISSUE]"
+      ],
+      "missed": [
+        "medical emergency [ISSUE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "hi, leave application format for missing classes",
+      "gold": [
+        "leave application [DOCUMENT]",
+        "missing classes [ISSUE]"
+      ],
+      "missed": [
+        "leave application [DOCUMENT]",
+        "missing classes [ISSUE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "hi sir, university grievance redressal committee chair",
+      "gold": [
+        "university grievance redressal committee [DEPARTMENT]"
+      ],
+      "missed": [
+        "university grievance redressal committee [DEPARTMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "when do i have to vacate hostel after exmas",
+      "gold": [
+        "vacate hostel [ACTION]",
+        "exmas [EXAMINATION]"
+      ],
+      "missed": [
+        "vacate hostel [ACTION]",
+        "exmas [EXAMINATION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "my portal password isn't working and i need to fill the re exam form today, thanks",
+      "gold": [
+        "portal password [ORGANIZATION]",
+        "isn't working [ISSUE]",
+        "re exam form [DOCUMENT]",
+        "today [DATE]"
+      ],
+      "missed": [
+        "portal password [ORGANIZATION]",
+        "re exam form [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": [
+        "re exam [pred EXAMINATION]"
+      ]
+    },
+    {
+      "query": "Dear Sir/Madam, Can I take 5 night outs this month? Kindly advise.",
+      "gold": [
+        "night outs [ACTION]",
+        "this month [DATE]"
+      ],
+      "missed": [
+        "this month [DATE]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "Dear Sir, I met with an accident last week and my right wrsit is in a cast. My end semester examinations begin on 16th November. Kindly guide me on the procedure to obtain a scribe and the documents I need to submit.",
+      "gold": [
+        "accident [ISSUE]",
+        "last week [DATE]",
+        "end semester examinations [EXAMINATION]",
+        "16th November [DATE]",
+        "scribe [ACTION]",
+        "documents [DOCUMENT]"
+      ],
+      "missed": [
+        "accident [ISSUE]",
+        "last week [DATE]",
+        "scribe [ACTION]",
+        "documents [DOCUMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "docs needed for lab deposit refund",
+      "gold": [
+        "docs [DOCUMENT]",
+        "lab deposit [FEE]",
+        "refund [ACTION]"
+      ],
+      "missed": [
+        "docs [DOCUMENT]",
+        "refund [ACTION]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    },
+    {
+      "query": "student grievance commitete 2026",
+      "gold": [
+        "student grievance commitete [DEPARTMENT]",
+        "2026 [DATE]"
+      ],
+      "missed": [
+        "student grievance commitete [DEPARTMENT]"
+      ],
+      "spurious": [],
+      "wrong_type": []
+    }
+  ],
+  "retrieval: routing correct": [
+    {
+      "query": "problem with a faculty, how do i complain",
+      "gold_sub": "STUDENT_GRIEVANCE",
+      "pred_sub": "STUDENT_GRIEVANCE",
+      "rank_of_first_relevant": 9,
+      "routing_correct": true
+    },
+    {
+      "query": "problem with a faculty, how do i complain, pls help",
+      "gold_sub": "STUDENT_GRIEVANCE",
+      "pred_sub": "STUDENT_GRIEVANCE",
+      "rank_of_first_relevant": 12,
+      "routing_correct": true
+    },
+    {
+      "query": "complaint about admin not being resolved, next step",
+      "gold_sub": "STUDENT_GRIEVANCE",
+      "pred_sub": "STUDENT_GRIEVANCE",
+      "rank_of_first_relevant": 6,
+      "routing_correct": true
+    },
+    {
+      "query": "complaint about admin not being resolved, next step. any help?",
+      "gold_sub": "STUDENT_GRIEVANCE",
+      "pred_sub": "STUDENT_GRIEVANCE",
+      "rank_of_first_relevant": 6,
+      "routing_correct": true
+    },
+    {
+      "query": "complaint abt admin not being resolved, next step",
+      "gold_sub": "STUDENT_GRIEVANCE",
+      "pred_sub": "STUDENT_GRIEVANCE",
+      "rank_of_first_relevant": 7,
+      "routing_correct": true
+    },
+    {
+      "query": "how will colelge inform us about lecture cancellations",
+      "gold_sub": "STUDENT_PORTAL",
+      "pred_sub": "STUDENT_PORTAL",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": true
+    },
+    {
+      "query": "my reval application was rejected because i didn't give reasons, will i get my money back?",
+      "gold_sub": "REVALUATION",
+      "pred_sub": "REVALUATION",
+      "rank_of_first_relevant": 5,
+      "routing_correct": true
+    },
+    {
+      "query": "my reval appln was rejected coz i didn't give reasons, will i get my money back?",
+      "gold_sub": "REVALUATION",
+      "pred_sub": "REVALUATION",
+      "rank_of_first_relevant": 4,
+      "routing_correct": true
+    },
+    {
+      "query": "my reval application was rejected beacuse i didn't give reasons, will i get my money back?",
+      "gold_sub": "REVALUATION",
+      "pred_sub": "REVALUATION",
+      "rank_of_first_relevant": 5,
+      "routing_correct": true
+    },
+    {
+      "query": "Dear Sir/Madam, What time does the reval window close on the last day? Kindly advise.",
+      "gold_sub": "REVALUATION",
+      "pred_sub": "REVALUATION",
+      "rank_of_first_relevant": 5,
+      "routing_correct": true
+    },
+    {
+      "query": "makrs kam ho sakte hain reval mein?",
+      "gold_sub": "REVALUATION",
+      "pred_sub": "REVALUATION",
+      "rank_of_first_relevant": 4,
+      "routing_correct": true
+    },
+    {
+      "query": "when do we get our grade sheet",
+      "gold_sub": "STATEMENT_OF_MARKS",
+      "pred_sub": "STATEMENT_OF_MARKS",
+      "rank_of_first_relevant": 8,
+      "routing_correct": true
+    },
+    {
+      "query": "sorry to bother, when do we get our grade sheet",
+      "gold_sub": "STATEMENT_OF_MARKS",
+      "pred_sub": "STATEMENT_OF_MARKS",
+      "rank_of_first_relevant": 9,
+      "routing_correct": true
+    },
+    {
+      "query": "Dear Sir/Madam, When do we get our grade sheet? Kindly advise.",
+      "gold_sub": "STATEMENT_OF_MARKS",
+      "pred_sub": "STATEMENT_OF_MARKS",
+      "rank_of_first_relevant": 9,
+      "routing_correct": true
+    },
+    {
+      "query": "is the statement of grades given every semester or every year?",
+      "gold_sub": "STATEMENT_OF_MARKS",
+      "pred_sub": "STATEMENT_OF_MARKS",
+      "rank_of_first_relevant": 4,
+      "routing_correct": true
+    },
+    {
+      "query": "Dear Sir/Madam, Is the statement of grades given every semester or every year? Kindly advise.",
+      "gold_sub": "STATEMENT_OF_MARKS",
+      "pred_sub": "STATEMENT_OF_MARKS",
+      "rank_of_first_relevant": 4,
+      "routing_correct": true
+    },
+    {
+      "query": "is the statement of grades given every sem or every year?",
+      "gold_sub": "STATEMENT_OF_MARKS",
+      "pred_sub": "STATEMENT_OF_MARKS",
+      "rank_of_first_relevant": 4,
+      "routing_correct": true
+    },
+    {
+      "query": "refund amount less than paid, why - please guide",
+      "gold_sub": "FEE_REFUND",
+      "pred_sub": "FEE_REFUND",
+      "rank_of_first_relevant": 4,
+      "routing_correct": true
+    },
+    {
+      "query": "what is academic bank of credits",
+      "gold_sub": "ACADEMIC_BANK_OF_CREDITS",
+      "pred_sub": "ACADEMIC_BANK_OF_CREDITS",
+      "rank_of_first_relevant": 10,
+      "routing_correct": true
+    },
+    {
+      "query": "Dear Sir/Madam, What is academic bank of credits? Kindly advise.",
+      "gold_sub": "ACADEMIC_BANK_OF_CREDITS",
+      "pred_sub": "ACADEMIC_BANK_OF_CREDITS",
+      "rank_of_first_relevant": 13,
+      "routing_correct": true
+    }
+  ],
+  "retrieval: routing wrong": [
+    {
+      "query": "problem with a fculty, how do i complain",
+      "gold_sub": "STUDENT_GRIEVANCE",
+      "pred_sub": "RE_EXAMINATION",
+      "rank_of_first_relevant": 15,
+      "routing_correct": false
+    },
+    {
+      "query": "how will college inform us about lecture cancellations",
+      "gold_sub": "STUDENT_PORTAL",
+      "pred_sub": "ADMISSION_CANCELLATION",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "sorry to bother, how will college inform us about lecture cancellations",
+      "gold_sub": "STUDENT_PORTAL",
+      "pred_sub": "ADMISSION_CANCELLATION",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "leaving mumbai for a hackathon, do i need to inform someone?",
+      "gold_sub": "ACADEMIC_GUIDELINES",
+      "pred_sub": "ID_CARD_ACCESS",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "leaving mumbai for a hackathon, do i need to inform smeone?",
+      "gold_sub": "ACADEMIC_GUIDELINES",
+      "pred_sub": "BONAFIDE_CERTIFICATE",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "quick question - leaving mumbai for a hackathon, do i need to inform someone?",
+      "gold_sub": "ACADEMIC_GUIDELINES",
+      "pred_sub": "ID_CARD_ACCESS",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "kitna bunk kar sakte",
+      "gold_sub": "ATTENDANCE_REQUIREMENT",
+      "pred_sub": "HOSTEL_FEES",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "kitna bunk kar skate",
+      "gold_sub": "ATTENDANCE_REQUIREMENT",
+      "pred_sub": "TRANSCRIPT",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "quick question - kitna bunk kar sakte",
+      "gold_sub": "ATTENDANCE_REQUIREMENT",
+      "pred_sub": "HOSTEL_FEES",
+      "rank_of_first_relevant": ">20",
+      "routing_correct": false
+    },
+    {
+      "query": "no TEE subject fail - re-exam possible or not",
+      "gold_sub": "BACKLOG_EXAM",
+      "pred_sub": "RE_EXAMINATION",
+      "rank_of_first_relevant": 18,
+      "routing_correct": false
+    },
+    {
+      "query": "no TEE subject fail - reexam possible or not",
+      "gold_sub": "BACKLOG_EXAM",
+      "pred_sub": "RE_EXAMINATION",
+      "rank_of_first_relevant": 19,
+      "routing_correct": false
+    },
+    {
+      "query": "no TEE subject fail - re-exam possible or not, thank you",
+      "gold_sub": "BACKLOG_EXAM",
+      "pred_sub": "RE_EXAMINATION",
+      "rank_of_first_relevant": 20,
+      "routing_correct": false
+    },
+    {
+      "query": "id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",
+      "gold_sub": "EXAM_ELIGIBILITY",
+      "pred_sub": "DUPLICATE_ID_CARD",
+      "rank_of_first_relevant": 6,
+      "routing_correct": false
+    },
+    {
+      "query": "hello, id card got stolen yesterday, exam tomorrow, can i use my aadhaar instead",
+      "gold_sub": "EXAM_ELIGIBILITY",
+      "pred_sub": "DUPLICATE_ID_CARD",
+      "rank_of_first_relevant": 6,
+      "routing_correct": false
+    },
+    {
+      "query": "id card got stolen yesterday, exam tmrw, can i use my aadhaar instead",
+      "gold_sub": "EXAM_ELIGIBILITY",
+      "pred_sub": "DUPLICATE_ID_CARD",
+      "rank_of_first_relevant": 6,
+      "routing_correct": false
+    },
+    {
+      "query": "reavl deadline??",
+      "gold_sub": "REVALUATION",
+      "pred_sub": "RE_EXAMINATION",
+      "rank_of_first_relevant": 18,
+      "routing_correct": false
+    },
+    {
+      "query": "what if i'm absent for 3 weeks with prior intimation to HOD",
+      "gold_sub": "STUDENT_STATUS",
+      "pred_sub": "MEDICAL_ATTENDANCE",
+      "rank_of_first_relevant": 6,
+      "routing_correct": false
+    },
+    {
+      "query": "what if i'm absent for 3 weeks with prior intimaton to HOD",
+      "gold_sub": "STUDENT_STATUS",
+      "pred_sub": "MEDICAL_ATTENDANCE",
+      "rank_of_first_relevant": 5,
+      "routing_correct": false
+    },
+    {
+      "query": "Dear Sir/Madam, What if I'm absent for 3 weeks with prior intimation to HOD? Kindly advise.",
+      "gold_sub": "STUDENT_STATUS",
+      "pred_sub": "MEDICAL_ATTENDANCE",
+      "rank_of_first_relevant": 6,
+      "routing_correct": false
+    },
+    {
+      "query": "can journals be issued?",
+      "gold_sub": "LIBRARY_RULES",
+      "pred_sub": "SCRIBE_WRITER",
+      "rank_of_first_relevant": 5,
+      "routing_correct": false
+    }
+  ],
+  "summarization": [
+    {
+      "query": "leaving mumbai for a hackathon, do i need to inform someone?",
+      "reference": "Students must be in the city on all days of the term; leaving the city requires prior permission from the HOD, Director or Dean.",
+      "llm": "Yes, you should inform the SVKM's NMIMS authorities about your hackathon plans since they have specific guidelines on using computing facilities. Contact them via reportsecurityincidents@svkm.ac.in.",
+      "mmr": "Y ou remain responsible for that person's use of your account and must identify that person to the NMIMS authorities if any breach of university regulations is suspected in connection with that use. 13.22 Selection of Electives: options are available for MPSTME (Mumbai / Shirpur) students to choose Open Electives . 13.6 Email Update: Users need to change/update their email id & contact number for getting r egular notifications.",
+      "unsupported": [],
+      "sim_llm": 0.0959,
+      "sim_mmr": 0.3325
+    },
+    {
+      "query": "broke a chair in hostel, will i be charged?",
+      "reference": "Students must not do repairs themselves; they approach the Registrar who arranges repairs. Damage caused by negligence is recovered from the students.",
+      "llm": "Yes, you may be charged if you break a chair in the hostel according to the policy mentioned above.",
+      "mmr": "33) Charges for any damages to the property as well as to the furniture and fixtures caused by a student/students negligence will be recovered from the student/students staying in the said flat / room. I hereby agree to abide by the rules and regulations of the Hostel in force from time to time.",
+      "unsupported": [],
+      "sim_llm": 0.2221,
+      "sim_mmr": 0.47
+    },
+    {
+      "query": "my attendance is short in one subject",
+      "reference": "Students below 80% in an individual course must take re-admission, either in the same term or for the full year in the next academic year.",
+      "llm": "If your attendance is short in one subject, you should inform the office in writing regarding the same within 3 days of the publication of the attendance record. Contact the school Course Co-ordinator /AR/ DR for any attendance-related queries within 3 days from the receipt of the attendance status.",
+      "mmr": "Attendance requirements are summarised hereunder: 100% Attendance in each subject is expected. Note: Please contact the school Course Co-ordinator /AR/ DR for any attendance-related queries within 3 days from the receipt of the attendance status. All doubts regarding attendance should be clarified with the concerned faculty within the appropriate time (at the end of each class, during recess or at the end of class hours of the day ).",
+      "unsupported": [],
+      "sim_llm": 0.3046,
+      "sim_mmr": 0.4883
+    },
+    {
+      "query": "there's a problem with my marks",
+      "reference": "Verification (retotalling) checks that all answers are evaluated, marks carried forward and totalled correctly; it must be applied for within 3 days of result declaration including holidays.",
+      "llm": "If you have a problem with your marks, you can apply for a statement of marks. The Grace Marks Rule states that grace marks will never be awarded on the ICA component, so check your marks on the portal regularly.",
+      "mmr": "In such case, a student may apply for statement of marks which gives marks and overall percentage obtained. What is the Grace Marks Rule? Any discrepancies in ICA marks should be informed and resolved within two days of publication on the portal. Students are responsible for checking their marks on the portal.",
+      "unsupported": [],
+      "sim_llm": 0.383,
+      "sim_mmr": 0.4559
+    },
+    {
+      "query": "attendance published on monday, can i report a mistake on friday?",
+      "reference": "Attendance is displayed monthly; any discrepancy must be reported to the office in writing within 3 days of publication, after which no claim is entertained.",
+      "llm": "Yes, you can report a mistake on Friday if it was published on Monday.",
+      "mmr": "If a student has any issue or finds any discrepancy in his/her attendance, he/she should inform the office in writing regarding the same within 3 days of the publication of the attendance record. Attendance is displayed monthly; any discrepancy must be reported to the office in writing within 3 days of publication, after which no claim is entertained.",
+      "unsupported": [],
+      "sim_llm": 0.392,
+      "sim_mmr": 0.8764
+    },
+    {
+      "query": "visiting faculty refused to fix my attendance, now what",
+      "reference": "Students must not approach faculty about attendance issues; they apply to the concerned coordinator.",
+      "llm": "Contact the Dean/Director of your campus directly to report the issue.",
+      "mmr": "Students must not approach faculty about attendance issues; they apply to the concerned coordinator. If the student has any issues regarding attendance will noti fy the Dean/Director of the campus in writing. 3.1.5 Students must refrain from approaching the visiting and full-time faculty members for attendance-related issues. Attendance-related queries go to the school Course Co-ordinator, AR or DR within 3 days of receiving the attendance status.",
+      "unsupported": [],
+      "sim_llm": 0.3967,
+      "sim_mmr": 0.7495
+    },
+    {
+      "query": "verification checkbox sap",
+      "reference": "Verification does not require a photocopy first; it is selected directly via 'Apply for Verification of Marks' on the grievance redressal screen.",
+      "llm": "The Verification checkbox on SAP should be checked if you want to verify your answers after completing an exam. This process ensures accuracy by checking each answer against the correct ones provided.",
+      "mmr": "The Alternative Path:Applying for Verification What is Verification? Using SAP as ERP for all examination related activities. After online payment for verification, the bank acknowledgement is mailed to accountant@nmims.edu and edu.verification@nmims.edu. Verification charges (revised 13 Oct 2025, incl.",
+      "unsupported": [],
+      "sim_llm": 0.4018,
+      "sim_mmr": 0.395
+    },
+    {
+      "query": "what happens if a detained student writes the TEE anyway",
+      "reference": "If the term is not granted for attendance shortfall, any appearance in the term-end exam is treated as null and void.",
+      "llm": "If a detained student writes the TEE anyway, they will be excluded from the concerned university examination for five additional examinations according to the rules provided.",
+      "mmr": "Any such material found in the possession of the student will be confiscated. 9.1.23 Students suspected to be guilty of any of the aforesaid acts will be allowed to write their examination only after giving an undertaking in writing that the decision of the University in respect of the reported act of unfair means will be binding on them.",
+      "unsupported": [],
+      "sim_llm": 0.4052,
+      "sim_mmr": 0.3268
+    },
+    {
+      "query": "exam problem",
+      "reference": "After a final or re-exam result, a student unhappy with term-end marks can apply for grievance redressal online on the SAP student portal by paying the prescribed fee.",
+      "llm": "The student should contact the School Examination Office if they have any issues with the re-exam application process. They can reach out via email to examnims@nmims.edu.",
+      "mmr": "Student may also write to School Examination Office in the matter. Open Re-exam Booking ✓ Click on the “Re-exam Booking” tab. ✓ The system will display all failed or ‘’D’’ Grade courses /subjects eligible for re-exam application. The FAQ page lists examnmims@nmims.edu for portal problems with the re-exam application (the examination page lists sapbasis@svkm.ac.in). In such case, the student concerned stands to lose the chance to appear at the re-examination.",
+      "unsupported": [
+        "examnims@nmims.edu"
+      ],
+      "sim_llm": 0.4118,
+      "sim_mmr": 0.5039
+    },
+    {
+      "query": "library timing",
+      "reference": "Main NMIMS library (Mumbai) hours: circulation counter, Bloomberg lab and digital lab Monday to Saturday 8.30 a.m. to 9.50 p.m.; reading hall 6.00 a.m. to 10.00 p.m. all days.",
+      "llm": "The library operates from 8:00 a.m. to 8:00 p.m. Monday through Saturday.",
+      "mmr": "MPSTME library timings: reading hall Monday to Saturday 8.00 a.m. to 8.00 p.m.; circulation section Monday to Saturday 8.30 a.m. to 7.50 p.m. Library Rules and Regulations: 14.1 Use of the Library is conditional on observance of the Rules and Regulations. As the Library is RFID enabled, the issue of the books will be done at self-check-in kiosk only. 14.5 Silence is to be maintained in library areas.",
+      "unsupported": [
+        "8:00",
+        "8:00"
+      ],
+      "sim_llm": 0.424,
+      "sim_mmr": 0.5077
+    },
+    {
+      "query": "SOM letter time required",
+      "reference": "A statement of marks / percentage letter is applied for online with all grade sheets and the degree certificate in one PDF and takes 7 to 10 days.",
+      "llm": "The minimum number of working days required to process a Transcript application is 10 days.",
+      "mmr": "Students must be in the exam hall at least 30 minutes early; latecomers need written approval from the Dean/Director up to 30 minutes after start, and after 30 minutes they cannot write. Written application mentioning reason, correct 10 Days student / Programme details & Signature. 15 Days Please refer the process for the same on NMIMS website. Time lines for various documents: Minimum No. of Working Days Sr.",
+      "unsupported": [],
+      "sim_llm": 0.4421,
+      "sim_mmr": 0.4528
+    },
+    {
+      "query": "more than two KTs in a year — do I have to repeat the whole year?",
+      "reference": "More than two F grades in a year means no promotion; the student either takes re-admission for the full year or takes a 'year back' and only reappears for failed term-end exams, with ICA carried forward.",
+      "llm": "Yes, if you have more than two KTs in a year, you must repeat the entire academic year.",
+      "mmr": "This criterion will apply to the subsequent years also. Students are advised to k eep track of the examination / re - examination timetables. M Tech/MCA year-back students get only two re-exam attempts during the academic year and pay only re-examination fees.",
+      "unsupported": [],
+      "sim_llm": 0.4533,
+      "sim_mmr": 0.4341
+    },
+    {
+      "query": "absent in TEE because of covid, will it show AB on grade sheet",
+      "reference": "A student absent from a semester exam gets 'AB' and can appear in the re-exam; absence from the re-exam forfeits further re-exam chances that academic year.",
+      "llm": "Absentees due to COVID-19 will typically receive an \"AB\" mark on their grade sheets unless they successfully retake the exam through re-examination. For those who do not qualify for re-examination, the absence may affect cumulative GPA calculations. Students should check with the university administration for specific details regarding their situation.",
+      "mmr": "General Examination Rules 9.1.1 A student who remains absent from semester examination/s due to any reason in any Course shall be marked as 'AB' in the result/ grade sheet/ transcript for the Course/s in which he/ she has remained absent. Final Examination Grade Sheet: A Grade sheet is a Statement of Grades obtained by the candidates.",
+      "unsupported": [
+        "19"
+      ],
+      "sim_llm": 0.7063,
+      "sim_mmr": 0.6044
+    },
+    {
+      "query": "reval deadline??",
+      "reference": "Revaluation applications are due within 3 days of result declaration (in the example, by 16.00 hrs); late applications are not entertained.",
+      "llm": "The revaluation deadline is within 3 days of result declaration, with an earlier cutoff time of 16:00 hours. Late applications are not entertained.",
+      "mmr": "Is there a deadline to apply for photocopy and revaluation? The revaluation window is open only 3 days after results and closes at 4 p.m. on the third day; late applications are not accepted.",
+      "unsupported": [
+        "16:00"
+      ],
+      "sim_llm": 0.8911,
+      "sim_mmr": 0.6782
+    },
+    {
+      "query": "counsellor working hours",
+      "reference": "Counsellor timings are Monday to Friday 10 am - 5.30 pm and the 2nd and 4th Saturday 10 am - 5.30 pm; appointments by call or email.",
+      "llm": "The counsellor's working hours are from Monday to Friday from 10 am to 5:30 pm, and the 2nd and 4th Saturdays also have these hours. Appointments can be made via phone or email.",
+      "mmr": "Counsellor timings are Monday to Friday 10 am - 5.30 pm and the 2nd and 4th Saturday 10 am - 5.30 pm; appointments by call or email. Counselling is a space to discuss your concerns with a qualified and experienced professional in a non-judgemental and confidential environment. | Ms.",
+      "unsupported": [
+        "5:30"
+      ],
+      "sim_llm": 0.9084,
+      "sim_mmr": 0.9536
+    }
+  ]
+}
