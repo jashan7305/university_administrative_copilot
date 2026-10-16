@@ -158,23 +158,23 @@ Example: the actual output for one query, produced by `python -m nlp.pipeline.ev
     "intent": "ID_CARDS",
     "in_scope": true,
     "confidence": {
-      "score": 0.8829,
+      "score": 0.9035,
       "level": "high",
-      "method": "top-class probability of the sentence-embedding + TF-IDF ensemble (logistic regression)"
+      "method": "top-class probability of the weighted blend of the fine-tuned transformer and the embedding ensemble"
     },
     "rejection_threshold": 0.25,
     "alternatives": [
       {
         "label": "ID_CARDS",
-        "score": 0.8829
+        "score": 0.9035
       },
       {
         "label": "out_of_scope",
-        "score": 0.0992
+        "score": 0.0807
       },
       {
         "label": "TRANSCRIPTS",
-        "score": 0.0046
+        "score": 0.004
       }
     ]
   },
@@ -182,22 +182,22 @@ Example: the actual output for one query, produced by `python -m nlp.pipeline.ev
     "sub_intent": "DUPLICATE_ID_CARD",
     "department": "School Academic Office (Course Coordinator / AR / DR)",
     "confidence": {
-      "score": 0.781,
+      "score": 0.8024,
       "level": "high",
       "method": "routing model probability of the chosen sub-intent (flat or hierarchical, chosen on validation)"
     },
     "alternatives": [
       {
         "label": "DUPLICATE_ID_CARD",
-        "score": 0.781
+        "score": 0.8024
       },
       {
         "label": "ID_CARD_ACCESS",
-        "score": 0.035
+        "score": 0.0317
       },
       {
         "label": "ID_CARD_NOT_WORKING",
-        "score": 0.0275
+        "score": 0.0248
       }
     ]
   },
@@ -207,16 +207,16 @@ Example: the actual output for one query, produced by `python -m nlp.pipeline.ev
       "text": "lost",
       "start": 2,
       "end": 6,
-      "source": "crf",
-      "confidence": 0.9989
+      "source": "transformer",
+      "confidence": 0.906
     },
     {
       "label": "DOCUMENT",
       "text": "ID card",
       "start": 10,
       "end": 17,
-      "source": "crf",
-      "confidence": 0.9995
+      "source": "transformer",
+      "confidence": 0.9304
     },
     {
       "label": "STUDENT_ID",
@@ -227,35 +227,35 @@ Example: the actual output for one query, produced by `python -m nlp.pipeline.ev
       "confidence": null
     }
   ],
-  "answer": "Any grievances related to ID Card should be raised to biometricregistration@svkm.ac.in. If a student misplaces the original ID card, a duplicate ID card is issued by the school on payment of a prescribed fee. 2.12 In case a student forgets to carry an ID card, they should approach security and complete the process to get the requested access. 9440/- | | 5. | All Urgent Cases | Rs.\n\nDepartment: School Academic Office (Course Coordinator / AR / DR).\nRequired documents: none stated in the sources.\nNext step: Apply to the school for a duplicate ID card and pay the prescribed fee.",
+  "answer": "Any grievances related to the ID Card should be raised to biometricregistration@svkm.ac.in. If the student misplaces the original ID card , a duplicate ID card will be issued by the school by paying a prescribed fee. 2.12 In case a student forgets to carry an ID card, they should approach security and complete the process to get the requested access.\n\nDepartment: School Academic Office (Course Coordinator / AR / DR).\nRequired documents: none stated in the sources.\nNext step: Apply to the school for a duplicate ID card and pay the prescribed fee.",
   "answer_generator": "extractive_mmr",
   "sources": [
     {
       "rank": 1,
-      "doc_id": "SRC025-P001",
-      "title": "Proforma of Indemnity Bond",
-      "page": "p. 1",
-      "url": "https://www.nmims.edu/docs/proforma-indemnity-bond new.pdf",
-      "score": 0.0291,
+      "doc_id": "SRC052-P006",
+      "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+      "page": "p. 6",
+      "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+      "score": 0.0364,
       "relative_score": 1.0
     },
     {
       "rank": 2,
-      "doc_id": "SRC006-P001",
-      "title": "Procedure for Education Verification",
-      "page": "p. 1",
-      "url": "https://nmims.edu/education-verification",
-      "score": 0.0284,
-      "relative_score": 0.9759
-    },
-    {
-      "rank": 3,
       "doc_id": "SRC059-P005",
       "title": "SRB Part I - University 2024-25",
       "page": "p. 5",
       "url": "https://navimumbai.nmims.edu/docs/SRB-Part-I-University-2024-25.pdf",
       "score": 0.028,
-      "relative_score": 0.9622
+      "relative_score": 0.7692
+    },
+    {
+      "rank": 3,
+      "doc_id": "SRC054-P005",
+      "title": "MPSTME Student Resource Book 2024",
+      "page": "p. 5",
+      "url": "https://engineering.nmims.edu/wp-content/uploads/2024/08/SRB-2024.pdf",
+      "score": 0.0279,
+      "relative_score": 0.7665
     }
   ],
   "service_request": {
@@ -290,17 +290,17 @@ Example: the actual output for one query, produced by `python -m nlp.pipeline.ev
     "reason": "Confident routing to School Academic Office (Course Coordinator / AR / DR); all required details are present."
   },
   "timings_ms": {
-    "intent": 69.85,
-    "ner": 4.01,
-    "routing": 45.83,
-    "retrieval": 47.06,
-    "generation": 617.48,
-    "total": 784.23
+    "intent": 12.67,
+    "ner": 8.44,
+    "routing": 10.53,
+    "retrieval": 7.01,
+    "generation": 79.97,
+    "total": 118.63
   },
   "model": {
     "component_version": "1.0.0",
     "schema_version": "1.0",
-    "pipeline": "v2"
+    "pipeline": "v3"
   }
 }
 ```
@@ -335,8 +335,8 @@ measured an expected calibration error of 0.10 for intent and 0.17 for sub-inten
 exactly an 80% chance of being right. They do rank well: the routing threshold of 0.5 was chosen on the validation
 set as the lowest at which automatically routed questions are at least 90% correct. On the test set that kept
 90.7% routing accuracy for the 64% of questions answered automatically. `reports/week6/results.json` gives accuracy
-per level on held-out data for the installed pipeline. With v2 on test_core, intent accuracy is 94.0% at level
-`high` and 58.3% at `medium`, and routing accuracy is 90.0% at `high` and 58.9% at `low`.
+per level on held-out data for the installed pipeline. With v3 on test_core, intent accuracy is 94.3% at level
+`high` and 59.3% at `medium`, and routing accuracy is 90.6% at `high` and 60.0% at `low`.
 
 **Example of a low score doing its job.** For "I need a bonafide certificate for a bank loan, urgently" the
 intent is right (`CERTIFICATES`, 0.94). However, the knowledge base has no verified source for bonafide

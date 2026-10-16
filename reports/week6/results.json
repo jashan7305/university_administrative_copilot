@@ -2,7 +2,7 @@
   "pipeline": {
     "component_version": "1.0.0",
     "schema_version": "1.0",
-    "pipeline": "v2"
+    "pipeline": "v3"
   },
   "test_set": "test_core",
   "n": 365,
@@ -11,121 +11,121 @@
     "intent": [
       {
         "level": "high",
-        "n": 315,
-        "share": 0.863,
-        "intent_accuracy": 0.9397,
-        "mean_confidence": 0.8563
+        "n": 336,
+        "share": 0.9205,
+        "intent_accuracy": 0.9435,
+        "mean_confidence": 0.8478
       },
       {
         "level": "medium",
-        "n": 48,
-        "share": 0.1315,
-        "intent_accuracy": 0.5833,
-        "mean_confidence": 0.4134
+        "n": 27,
+        "share": 0.074,
+        "intent_accuracy": 0.5926,
+        "mean_confidence": 0.4163
       },
       {
         "level": "low",
         "n": 2,
         "share": 0.0055,
         "intent_accuracy": 0.0,
-        "mean_confidence": 0.2329
+        "mean_confidence": 0.2194
       }
     ],
     "routing": [
       {
         "level": "high",
-        "n": 190,
-        "share": 0.6397,
-        "routing_accuracy": 0.9,
-        "mean_confidence": 0.7752
+        "n": 191,
+        "share": 0.6346,
+        "routing_accuracy": 0.9058,
+        "mean_confidence": 0.7872
       },
       {
         "level": "low",
-        "n": 107,
-        "share": 0.3603,
-        "routing_accuracy": 0.5888,
-        "mean_confidence": 0.3166
+        "n": 110,
+        "share": 0.3654,
+        "routing_accuracy": 0.6,
+        "mean_confidence": 0.3332
       }
     ]
   },
   "decisions": [
     {
       "action": "auto_route",
-      "n": 125,
-      "share": 0.3425,
+      "n": 129,
+      "share": 0.3534,
       "gold_out_of_scope": 0,
-      "routing_accuracy_in_scope": 0.896
+      "routing_accuracy_in_scope": 0.8915
     },
     {
       "action": "ask_for_information",
-      "n": 54,
-      "share": 0.1479,
+      "n": 57,
+      "share": 0.1562,
       "gold_out_of_scope": 0,
-      "routing_accuracy_in_scope": 0.9444
+      "routing_accuracy_in_scope": 0.9474
     },
     {
       "action": "refer_to_staff",
-      "n": 86,
-      "share": 0.2356,
+      "n": 90,
+      "share": 0.2466,
       "gold_out_of_scope": 1,
-      "routing_accuracy_in_scope": 0.5882
+      "routing_accuracy_in_scope": 0.5843
     },
     {
       "action": "confirm_with_student",
-      "n": 35,
-      "share": 0.0959,
-      "gold_out_of_scope": 2,
-      "routing_accuracy_in_scope": 0.6364
+      "n": 26,
+      "share": 0.0712,
+      "gold_out_of_scope": 0,
+      "routing_accuracy_in_scope": 0.6923
     },
     {
       "action": "out_of_scope",
-      "n": 65,
-      "share": 0.1781,
-      "gold_out_of_scope": 57,
+      "n": 63,
+      "share": 0.1726,
+      "gold_out_of_scope": 59,
       "routing_accuracy_in_scope": null
     }
   ],
-  "auto_route_precision": 0.896,
+  "auto_route_precision": 0.8915,
   "entities": {
-    "per_query_mean": 0.9836,
-    "learned_entities": 348,
-    "learned_confidence_mean": 0.9954,
-    "learned_confidence_p10": 0.9925
+    "per_query_mean": 1.2137,
+    "learned_entities": 432,
+    "learned_confidence_mean": 0.7503,
+    "learned_confidence_p10": 0.269
   },
   "contract": {
     "outputs_validated": 365,
-    "json_bytes_mean": 2811,
-    "json_bytes_max": 3851
+    "json_bytes_mean": 2864,
+    "json_bytes_max": 4140
   },
   "pipeline_latency_ms": {
-    "p50": 1011.0,
-    "p95": 2116.6
+    "p50": 112.9,
+    "p95": 202.0
   },
   "latency": [
     {
       "call": "analyze",
       "n": 40,
-      "p50_ms": 970.7,
-      "p95_ms": 1923.4
+      "p50_ms": 112.7,
+      "p95_ms": 192.0
     },
     {
       "call": "intent",
       "n": 40,
-      "p50_ms": 88.9,
-      "p95_ms": 113.0
+      "p50_ms": 21.0,
+      "p95_ms": 24.4
     },
     {
       "call": "entities",
       "n": 40,
-      "p50_ms": 1.5,
-      "p95_ms": 3.5
+      "p50_ms": 5.0,
+      "p95_ms": 5.7
     },
     {
       "call": "retrieve",
       "n": 40,
-      "p50_ms": 127.8,
-      "p95_ms": 160.6
+      "p50_ms": 27.6,
+      "p95_ms": 33.0
     }
   ],
-  "runtime_s": 542.9
+  "runtime_s": 81.4
 }

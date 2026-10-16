@@ -1026,8 +1026,9 @@ def week6() -> None:
               "The routing threshold (0.5) was chosen on the v3 validation set; with the v2 models the same value is used.",
               "Sub-intents without a verified NMIMS source (e.g. bonafide certificate) have no service entry, so they "
               "cannot be routed; their routing confidence is low and the decision refers them to staff.",
-              "A full analyze call takes about a second on a laptop CPU, mostly answer generation (embedding-based "
-              "summary); /v1/intent and /v1/retrieve are far faster when no answer text is needed.",
+              f"A full analyze call takes {r['pipeline_latency_ms']['p50']:.0f} ms (median; p95 {r['pipeline_latency_ms']['p95']:.0f} ms) "
+              "on the test laptop, mostly answer generation (embedding-based summary); without a GPU it is several times "
+              "slower. /v1/intent and /v1/retrieve are far faster when no answer text is needed.",
               "No authentication or rate limiting: the API is meant to run behind the university's gateway.",
               "Requests are processed one at a time per worker; run several uvicorn workers for more traffic."):
         doc.b(t)
