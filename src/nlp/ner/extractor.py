@@ -28,9 +28,11 @@ class Entity:
     start: int
     end: int
     source: str = "crf"
+    confidence: float | None = None   # mean per-token tag probability of a learned tagger; None for regex rules
 
     def as_dict(self) -> dict:
-        return {"label": self.label, "text": self.text, "start": self.start, "end": self.end, "source": self.source}
+        return {"label": self.label, "text": self.text, "start": self.start, "end": self.end, "source": self.source,
+                "confidence": self.confidence}
 
 
 def tokenize(text: str) -> list[tuple[str, int, int]]:
@@ -46,27 +48,31 @@ def spans_to_bio(tokens, spans) -> list[str]:
     return tags
 
 
-def bio_to_entities(text, tokens, tags, source="crf") -> list[Entity]:
+def bio_to_entities(text, tokens, tags, source="crf", probs=None) -> list[Entity]:
+    """probs (optional): probability of each token's tag; an entity's confidence is the mean over its tokens."""
+    probs = probs if probs is not None else [None] * len(tags)
     ents, cur = [], None
-    for (tok, s, e), tag in zip(tokens, tags):
+    for (tok, s, e), tag, pr in zip(tokens, tags, probs):
         if tag.startswith("B-") or (tag.startswith("I-") and (cur is None or cur[0] != tag[2:])):
             if cur:
                 ents.append(cur)
-            cur = [tag[2:], s, e]
+            cur = [tag[2:], s, e, [pr]]
         elif tag.startswith("I-") and cur:
             cur[2] = e
+            cur[3].append(pr)
         else:
             if cur:
                 ents.append(cur)
             cur = None
     if cur:
         ents.append(cur)
-    return [Entity(l, text[s:e], s, e, source) for l, s, e in ents]
+    mean = lambda ps: round(sum(ps) / len(ps), 4) if None not in ps else None
+    return [Entity(l, text[s:e], s, e, source, mean(ps)) for l, s, e, ps in ents]
 
 
 def load_annotations(path: Path) -> dict[str, list[dict]]:
     out = defaultdict(list)
-    for line in path.read_text().splitlines():
+    for line in path.read_text(encoding="utf-8").splitlines():
         r = json.loads(line)
         out[r["split"]].append(r)
     return out
@@ -204,7 +210,12 @@ class CRFTagger:
 
     def extract(self, text: str) -> list[Entity]:
         toks = tokenize(text)
-        return bio_to_entities(text, toks, self.tag(toks))
+        if not toks:
+            return []
+        feats = self._featurise(toks)
+        tags = self.crf.predict_single(feats)
+        marginals = self.crf.predict_marginals_single(feats)   # per-token posterior P(tag | sentence)
+        return bio_to_entities(text, toks, tags, probs=[m[t] for m, t in zip(marginals, tags)])
 
 
 # --------------------------------------------------------------------------- combined

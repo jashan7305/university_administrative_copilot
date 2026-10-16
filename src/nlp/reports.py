@@ -1,7 +1,7 @@
 """Build the weekly submission reports (Word) from the saved results, so every number in a report comes from a run.
 
   python -m nlp.reports                    # all reports + code snapshots
-  python -m nlp.reports week2|week3|week4|week5|code
+  python -m nlp.reports week2|week3|week4|week5|week6|code
 Outputs: submissions/weekN/*.docx, and for every week submissions/weekN/code/ (the Python files written that week,
 same paths as in src/) plus submissions/weekN/Group10_WeekN_code.zip for upload.
 """
@@ -864,6 +864,193 @@ def week5() -> None:
     doc.save(SUBMIT / "week5" / "Group10_Week5_Evaluation_Report.docx")
 
 
+def week6() -> None:
+    from nlp.component.schemas import ALL_SCHEMAS
+
+    r = json.loads((REPORTS / "week6" / "results.json").read_text(encoding="utf-8"))
+    w5 = json.loads((REPORTS / "week5" / "results.json").read_text(encoding="utf-8"))
+    ex = json.loads((REPORTS / "week6" / "example_analyze.json").read_text(encoding="utf-8"))
+    pipe = r["pipeline"]
+    doc = Doc()
+    doc.title([("University Administrative Copilot", 24, True), ("Week 6: Reusable NLP Asset", 15, False),
+               ("The NLP model as a reusable component: Python module, HTTP API and CLI with structured input/output, "
+                "confidence scores and documentation", 11, False),
+               (TEAM, 11, False), (f"Repository: {REPO}", 10, False),
+               ("Code: submitted as Group10_Week6_code.zip (and in the repository under src/nlp/component/)", 10, False)])
+
+    doc.h("Summary")
+    doc.p("This week the copilot pipeline built in Weeks 2-5 (intent classification with out-of-scope rejection, "
+          "sub-intent routing, entity extraction, retrieval over official NMIMS sources, grounded answer and service "
+          "request) became one reusable component, nlp.component. Another program can now use it in three ways with "
+          "the same validated input and output: as a Python module (AdminNLP), over HTTP (/v1 endpoints with OpenAPI "
+          "documentation) or from the command line. Every prediction carries a confidence score that says how it was "
+          "computed, and the component turns those scores into a decision the caller can act on (route, ask, confirm, "
+          "refer to staff, or reject).")
+    br = {b["level"]: b for b in r["confidence_bands"]["routing"]}
+    if "high" in br and "low" in br:
+        doc.b(f"On held-out test_core questions, routing accuracy is {br['high']['routing_accuracy']:.1%} in the high "
+              f"confidence band and {br['low']['routing_accuracy']:.1%} in the low band, which the component refers to staff.",
+              "Confidence is meaningful. ")
+    doc.b(f"Requests the component routes automatically go to the correct service {r['auto_route_precision']:.1%} of the time.",
+          "Automatic decisions are reliable. ")
+    doc.b(f"All {r['contract']['outputs_validated']} outputs validated against their schema; {len(ALL_SCHEMAS)} JSON Schemas "
+          "are published in docs/schemas/.", "Stable contract. ")
+    doc.b(f"Numbers in this report were produced with pipeline {pipe['pipeline']} (component {pipe['component_version']}, "
+          f"schema {pipe['schema_version']}).", "Reproducible. ")
+
+    doc.h("1. What the asset is")
+    doc.p("nlp.component is a thin, typed layer over the trained models. It does not retrain or change any model: the "
+          "predictions are those of the Week 4 copilot (v3, or the Week 3 v2 models when v3 is not installed), and the "
+          "evaluation of those models is in the Week 5 report. What it adds is a stable interface, structured outputs, "
+          "confidence scores for every stage, a decision policy, input validation, error handling and documentation.")
+    doc.code("            +------------------------ nlp.component.AdminNLP ------------------------+\n"
+             "  Python -> |  validate input (pydantic)                                             |\n"
+             "  HTTP   -> |  copilot: intent -> routing -> NER -> retrieval -> answer -> request    |\n"
+             "  CLI    -> |  confidence per stage -> decision -> typed output (JSON)                |\n"
+             "            +------------------------------------------------------------------------+")
+    rows = [("Python module", "from nlp.component import AdminNLP; AdminNLP().analyze(text)", "Other Python services, notebooks, batch jobs"),
+            ("HTTP API", "uvicorn backend.main:app; POST /v1/analyze", "Web or mobile front ends, other languages"),
+            ("CLI", 'python -m nlp.component analyze "..."', "Scripts, quick checks, batch files (JSON lines)")]
+    doc.table(pd.DataFrame(rows, columns=["Interface", "How", "For"]), "Table 1. Three ways to use the component", [3, 7.5, 6])
+
+    doc.h("2. Interface")
+    rows = [("analyze", "POST /v1/analyze", "Full pipeline: intent, routing, entities, sources, answer, service request, decision"),
+            ("analyze_batch", "POST /v1/analyze/batch", "Up to 64 queries in one call"),
+            ("classify", "POST /v1/intent", "Intent with out-of-scope rejection; sub-intent routing when in scope"),
+            ("extract_entities", "POST /v1/entities", "Entities with character offsets, source and confidence"),
+            ("retrieve", "POST /v1/retrieve", "Evidence passages from the official NMIMS knowledge base"),
+            ("info", "GET /v1/info", "Labels, thresholds, confidence bands and limits of the loaded models"),
+            ("-", "GET /v1/health", "Liveness, versions, whether the models are loaded")]
+    doc.table(pd.DataFrame(rows, columns=["Python (AdminNLP)", "HTTP", "Returns"]), "Table 2. Calls", [3.3, 4, 9.2])
+    doc.p("Models load lazily on the first call and are shared across calls. The Week 3 endpoints (/intent/classify, "
+          "/copilot/query) are kept unchanged so existing callers keep working.")
+
+    doc.h("3. Structured input and output")
+    rows = [("text", "string, 1-1000 characters, not blank", "The student's request"),
+            ("request_id", "string, optional", "Echoed back, to match responses to requests"),
+            ("options.top_k", "1-13, default 3", "Ranked alternatives for intent and sub-intent"),
+            ("options.k_sources", "1-10, default 3", "Evidence passages to retrieve"),
+            ("options.routing_review_below", "0-1, default 0.5", "Refer to staff below this routing confidence (0 = off)"),
+            ("options.include_timings", "bool, default true", "Per-stage latency")]
+    doc.table(pd.DataFrame(rows, columns=["Input field", "Type / range", "Meaning"]),
+              "Table 3. AnalyzeInput (unknown fields are rejected)", [4.4, 4.6, 7.5])
+    rows = [("intent", "intent, in_scope, confidence {score, level, method}, rejection_threshold, alternatives"),
+            ("routing", "sub_intent, department, confidence, alternatives (null if out of scope)"),
+            ("entities[]", "label, text, start, end, source (rule | crf | transformer), confidence"),
+            ("sources[]", "rank, doc_id, title, page, url, score, relative_score"),
+            ("answer, answer_generator", "Grounded answer and the generator that wrote it"),
+            ("service_request", "department, required_documents, next_action, extracted_details, missing_information, "
+                                "priority, status, supporting_facts, source_urls"),
+            ("decision", "action (auto_route | ask_for_information | confirm_with_student | refer_to_staff | out_of_scope), reason"),
+            ("model", "component_version, schema_version, pipeline"),
+            ("request_id, query, timings_ms", "Echo of the input; per-stage latency")]
+    doc.table(pd.DataFrame(rows, columns=["Output field", "Content"]), "Table 4. AnalyzeOutput", [4, 12.5])
+    doc.p(f"Example (abridged) for \"{ex['query']}\":")
+    short = {"intent": {k: ex["intent"][k] for k in ("intent", "confidence")},
+             "routing": {k: ex["routing"][k] for k in ("sub_intent", "department", "confidence")} if ex["routing"] else None,
+             "entities": ex["entities"], "decision": ex["decision"],
+             "service_request": {k: ex["service_request"][k] for k in ("priority", "status", "missing_information")}
+             if ex["service_request"] else None}
+    doc.code(json.dumps(short, indent=1, ensure_ascii=False))
+
+    doc.h("4. Confidence scores")
+    rows = [("Intent", "intent.confidence.score", "Top-class probability of the intent model (v3: blend of the fine-tuned "
+                                                  "transformer and the embedding ensemble)"),
+            ("Sub-intent routing", "routing.confidence.score", "Routing model probability of the chosen sub-intent"),
+            ("Entities", "entities[].confidence", "Mean per-token tag probability (CRF marginals or transformer softmax); "
+                                                  "null for regex rules, which are deterministic"),
+            ("Retrieval", "sources[].score, relative_score", "Fused retriever score (not a probability) and the score "
+                                                             "relative to the best passage of the same query")]
+    doc.table(pd.DataFrame(rows, columns=["Stage", "Field", "How it is computed"]), "Table 5. Confidence scores", [3, 4.2, 9.3])
+    v3 = {x["system"]: x for x in w5["quantitative"]["comparison"]}.get("Week 4 final (v3)", {})
+    doc.p(f"The Week 5 calibration study measured how far these probabilities are from observed accuracy (ECE on test_core, "
+          f"v3: intent {v3.get('ece_intent', float('nan')):.3f}, sub-intent {v3.get('ece_sub', float('nan')):.3f}). The "
+          "routing probabilities are therefore not used as exact probabilities. They are used as a ranking, with a "
+          "threshold chosen on validation data. Each score is mapped to a level, and the levels drive the decision:")
+    rows = [("Intent", "high", ">= 0.5", "Route without asking"),
+            ("Intent", "medium", "rejection threshold to 0.5", "Ask the student to confirm"),
+            ("Intent", "low", "< rejection threshold", "Out of scope"), ("Routing", "high", ">= 0.5", "Route"),
+            ("Routing", "low", "< 0.5", "Refer to staff (Week 5 abstention fix)")]
+    doc.table(pd.DataFrame(rows, columns=["Score", "Level", "Range", "Effect"]), "Table 6. Confidence levels", [2.5, 2, 5, 7])
+    rows = [(b["level"], b["n"], f"{b['share']:.1%}", f3(b["mean_confidence"]), f"{b['intent_accuracy']:.1%}")
+            for b in r["confidence_bands"]["intent"]]
+    doc.table(pd.DataFrame(rows, columns=["Intent level", "n", "Share", "Mean confidence", "Intent accuracy"]),
+              f"Table 7. Intent accuracy by confidence level (test_core incl. out-of-scope, n = {r['n']}, "
+              f"pipeline {pipe['pipeline']})", [3, 2, 2.5, 3.5, 3.5])
+    rows = [(b["level"], b["n"], f"{b['share']:.1%}", f3(b["mean_confidence"]), f"{b['routing_accuracy']:.1%}")
+            for b in r["confidence_bands"]["routing"]]
+    doc.table(pd.DataFrame(rows, columns=["Routing level", "n", "Share", "Mean confidence", "Routing accuracy"]),
+              "Table 8. Routing accuracy by confidence level (in-scope questions that were routed)", [3, 2, 2.5, 3.5, 3.5])
+
+    doc.h("5. Decisions")
+    doc.p("The decision applies the rules below in this order. The first rule that matches gives the action, and the "
+          "reason field explains it in words.")
+    for t in ("out_of_scope - the intent is rejected (below the threshold, or classified as out of scope);",
+              "confirm_with_student - the intent confidence is medium;",
+              "refer_to_staff - the routing confidence is below routing_review_below;",
+              "ask_for_information - routed, but a detail the service needs is missing (e.g. which certificate);",
+              "auto_route - otherwise."):
+        doc.b(t, numbered=True)
+    rows = [(x["action"], x["n"], f"{x['share']:.1%}", x["gold_out_of_scope"],
+             "-" if x["routing_accuracy_in_scope"] is None else f"{x['routing_accuracy_in_scope']:.1%}") for x in r["decisions"]]
+    doc.table(pd.DataFrame(rows, columns=["Action", "n", "Share", "Truly out of scope", "Routing accuracy (in scope)"]),
+              "Table 9. Decisions on test_core", [4.2, 1.6, 2, 3.5, 4.5])
+
+    doc.h("6. Validation, errors and versioning")
+    rows = [("422 validation_error", "Empty or blank text, text over 1000 characters, unknown field, option out of range, "
+                                     "batch over 64"),
+            ("503 models_unavailable", "Trained models are not on disk; the message gives the training command"),
+            ("200", "Every response validates against its schema (FastAPI response_model)")]
+    doc.table(pd.DataFrame(rows, columns=["Status", "When"]), "Table 10. Errors (body: {error, detail})", [4.5, 12])
+    doc.p(f"Every output carries model.schema_version ({pipe['schema_version']}). Within a major version fields are only "
+          f"added, never renamed or removed. python -m nlp.component schema writes the JSON Schema of all {len(ALL_SCHEMAS)} "
+          "models to docs/schemas/, so client code can be generated or validated without reading Python.")
+
+    doc.h("7. Performance")
+    rows = [(x["call"], x["n"], x["p50_ms"], x["p95_ms"]) for x in r["latency"]]
+    doc.table(pd.DataFrame(rows, columns=["Call", "n", "p50 (ms)", "p95 (ms)"]),
+              f"Table 11. Latency per call (CPU, pipeline {pipe['pipeline']}, models loaded)", [4, 2, 3, 3])
+    doc.p(f"A full analyze response is {r['contract']['json_bytes_mean']:,} bytes of JSON on average "
+          f"(max {r['contract']['json_bytes_max']:,}).")
+
+    doc.h("8. Tests")
+    doc.p("tests/test_week6.py checks the contract on a stub model with fixed probabilities, so it runs on any machine "
+          "without the trained models. It covers every decision path, the confidence levels, entity confidence, options, "
+          "input validation, batch limits, JSON Schema export, the missing-model error, and every HTTP endpoint including "
+          "the error responses. One more test runs the real models when they are on disk.")
+
+    doc.h("9. Limitations and next steps")
+    for t in ("Confidence scores are model probabilities, not calibrated ones (Week 5 ECE above). Temperature scaling on "
+              "the validation set would make them interpretable as probabilities.",
+              "Retrieval scores are only comparable within one query; they are ranks fused across two retrievers.",
+              "The routing threshold (0.5) was chosen on the v3 validation set; with the v2 models the same value is used.",
+              "Sub-intents without a verified NMIMS source (e.g. bonafide certificate) have no service entry, so they "
+              "cannot be routed; their routing confidence is low and the decision refers them to staff.",
+              "A full analyze call takes about a second on a laptop CPU, mostly answer generation (embedding-based "
+              "summary); /v1/intent and /v1/retrieve are far faster when no answer text is needed.",
+              "No authentication or rate limiting: the API is meant to run behind the university's gateway.",
+              "Requests are processed one at a time per worker; run several uvicorn workers for more traffic."):
+        doc.b(t)
+
+    doc.h("10. Code")
+    files = [("src/nlp/component/engine.py", "AdminNLP: the component (confidence, decision, calls)"),
+             ("src/nlp/component/schemas.py", "Structured input/output (pydantic) and schema version"),
+             ("src/nlp/component/__main__.py", "Command line interface; JSON Schema export"),
+             ("src/backend/api/v1.py", "HTTP API /v1"), ("src/backend/main.py", "FastAPI app and error handlers"),
+             ("src/nlp/pipeline/copilot.py", "Routing confidence and alternatives added"),
+             ("src/nlp/ner/extractor.py", "Entity confidence from CRF marginals"),
+             ("src/nlp/ner/transformer_ner.py", "Entity confidence from transformer softmax"),
+             ("src/nlp/pipeline/evaluate_week6.py", "Week 6 checks: confidence bands, decisions, latency"),
+             ("docs/nlp_component.md", "Documentation of the component"), ("tests/test_week6.py", "Tests")]
+    lines = lambda p: sum(1 for _ in open(PROJECT_ROOT / p, encoding="utf-8")) if (PROJECT_ROOT / p).exists() else 0
+    doc.table(pd.DataFrame([(f, desc, lines(f)) for f, desc in files], columns=["File", "Purpose", "Lines"]),
+              "Table 12. Week 6 code", [5.8, 9.2, 1.5])
+    doc.code("uv sync\npython -m nlp.pipeline.evaluate_week6   # checks in this report\n"
+             "python -m nlp.reports week6 code         # this report + code zip\npytest tests/test_week6.py\n"
+             "uvicorn backend.main:app                 # API, documentation at http://127.0.0.1:8000/docs")
+    doc.save(SUBMIT / "week6" / "Group10_Week6_Reusable_NLP_Asset_Report.docx")
+
+
 # --------------------------------------------------------------------------- code snapshots
 
 WEEK_CODE = {
@@ -880,12 +1067,19 @@ WEEK_CODE = {
               "src/nlp/reports.py", "tests/test_week4.py"],
     "week5": ["src/nlp/pipeline/evaluate_week5.py", "data/annotations/challenge.yaml", "reports/week5/failure_notes.yaml",
               "src/nlp/reports.py", "tests/test_week5.py"],
+    "week6": ["src/nlp/component/__init__.py", "src/nlp/component/__main__.py", "src/nlp/component/engine.py",
+              "src/nlp/component/schemas.py", "src/backend/api/v1.py", "src/backend/main.py", "src/nlp/pipeline/copilot.py",
+              "src/nlp/ner/extractor.py", "src/nlp/ner/transformer_ner.py", "src/nlp/pipeline/evaluate_week6.py",
+              "docs/nlp_component.md", "src/nlp/reports.py", "tests/test_week6.py"],
 }
 
 
-def code() -> None:
-    """Copy each week's Python files into submissions/<week>/code/ and zip them for upload."""
+def code(weeks: list[str] | None = None) -> None:
+    """Copy each week's Python files into submissions/<week>/code/ and zip them for upload. Only the given weeks
+    (default: all), so a later edit to a shared file does not silently change an earlier week's submission."""
     for week, files in WEEK_CODE.items():
+        if weeks and week not in weeks:
+            continue
         dest = SUBMIT / week / "code"
         if dest.exists():
             shutil.rmtree(dest)
@@ -904,6 +1098,8 @@ def code() -> None:
 
 
 if __name__ == "__main__":
-    which = sys.argv[1:] or ["week2", "week3", "week4", "week5", "code"]
+    # "week6 code" builds the Week 6 report and snapshots only Week 6; "code" alone snapshots every week
+    which = sys.argv[1:] or ["week2", "week3", "week4", "week5", "week6", "code"]
+    reports = {"week2": week2, "week3": week3, "week4": week4, "week5": week5, "week6": week6}
     for w in which:
-        {"week2": week2, "week3": week3, "week4": week4, "week5": week5, "code": code}[w]()
+        reports[w]() if w != "code" else code([x for x in which if x in reports] if len(which) > 1 else None)

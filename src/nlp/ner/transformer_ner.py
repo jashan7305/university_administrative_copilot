@@ -49,9 +49,10 @@ class TransformerNER:
             labels.append(row)
         return enc, offsets, torch.tensor(labels)
 
-    def _decode(self, text: str, offsets, pred_ids) -> list[Entity]:
+    def _decode(self, text: str, offsets, pred_ids, pred_probs=None) -> list[Entity]:
         ents, cur = [], None
-        for (s, e), pid in zip(offsets, pred_ids):
+        pred_probs = pred_probs if pred_probs is not None else [None] * len(pred_ids)
+        for (s, e), pid, pr in zip(offsets, pred_ids, pred_probs):
             if s == e:
                 continue
             tag = self.id2label[pid]
@@ -64,13 +65,15 @@ class TransformerNER:
             # continuation of the same word (no gap) or an I- tag of the same type extends the current span
             if cur and cur[0] == label and (kind == "I" or s == cur[2]):
                 cur[2] = e
+                cur[3].append(pr)
             else:
                 if cur:
                     ents.append(cur)
-                cur = [label, s, e]
+                cur = [label, s, e, [pr]]
         if cur:
             ents.append(cur)
-        return [Entity(l, text[s:e], s, e, "transformer") for l, s, e in ents]
+        mean = lambda ps: round(sum(ps) / len(ps), 4) if None not in ps else None
+        return [Entity(l, text[s:e], s, e, "transformer", mean(ps)) for l, s, e, ps in ents]
 
     # ------------------------------------------------------------------ train / predict
     def fit(self, records: list[dict], val: list[dict] | None = None) -> "TransformerNER":
@@ -117,8 +120,9 @@ class TransformerNER:
         for i in range(0, len(texts), 64):
             chunk = texts[i:i + 64]
             enc, offsets, _ = self._encode(chunk)
-            pred = self.model(**{k: v.to(self.dev) for k, v in enc.items()}).logits.argmax(-1).cpu().tolist()
-            out += [self._decode(t, o, p) for t, o, p in zip(chunk, offsets, pred)]
+            probs = self.model(**{k: v.to(self.dev) for k, v in enc.items()}).logits.softmax(-1)
+            conf, pred = probs.max(-1)
+            out += [self._decode(t, o, p, c) for t, o, p, c in zip(chunk, offsets, pred.cpu().tolist(), conf.cpu().tolist())]
         return out
 
     def score(self, records: list[dict]) -> float:

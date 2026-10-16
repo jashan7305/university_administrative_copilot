@@ -309,8 +309,8 @@ CONTRADICTED_FACTS = ['F0101', 'F0107', 'F0140', 'F0141', 'F0211', 'F0220', 'F02
 
 @lru_cache(maxsize=1)
 def annotations() -> tuple[dict, dict]:
-    facts_doc = yaml.safe_load((ANNOTATIONS / "facts.yaml").read_text())
-    queries_doc = yaml.safe_load((ANNOTATIONS / "queries.yaml").read_text())
+    facts_doc = yaml.safe_load((ANNOTATIONS / "facts.yaml").read_text(encoding="utf-8"))
+    queries_doc = yaml.safe_load((ANNOTATIONS / "queries.yaml").read_text(encoding="utf-8"))
     return facts_doc, queries_doc
 
 

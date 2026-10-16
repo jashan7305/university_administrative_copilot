@@ -1,0 +1,482 @@
+{
+  "$defs": {
+    "Confidence": {
+      "additionalProperties": false,
+      "properties": {
+        "score": {
+          "description": "Model probability of the returned label.",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        },
+        "level": {
+          "description": "Band of `score` given the component's decision thresholds.",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "method": {
+          "description": "How `score` is computed.",
+          "title": "Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "score",
+        "level",
+        "method"
+      ],
+      "title": "Confidence",
+      "type": "object"
+    },
+    "Decision": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "enum": [
+            "auto_route",
+            "ask_for_information",
+            "confirm_with_student",
+            "refer_to_staff",
+            "out_of_scope"
+          ],
+          "title": "Action",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "action",
+        "reason"
+      ],
+      "title": "Decision",
+      "type": "object"
+    },
+    "EntityResult": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "description": "Entity type, e.g. DOCUMENT, DATE, STUDENT_ID.",
+          "title": "Label",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "start": {
+          "description": "Character offset in the input text (inclusive).",
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "description": "Character offset in the input text (exclusive).",
+          "minimum": 0,
+          "title": "End",
+          "type": "integer"
+        },
+        "source": {
+          "enum": [
+            "rule",
+            "crf",
+            "transformer"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Mean per-token tag probability of the learned tagger; null for regex-rule entities, which are deterministic pattern matches.",
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "label",
+        "text",
+        "start",
+        "end",
+        "source"
+      ],
+      "title": "EntityResult",
+      "type": "object"
+    },
+    "IntentResult": {
+      "additionalProperties": false,
+      "properties": {
+        "intent": {
+          "description": "One of the 12 NMIMS intents, or 'out_of_scope'.",
+          "title": "Intent",
+          "type": "string"
+        },
+        "in_scope": {
+          "title": "In Scope",
+          "type": "boolean"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "rejection_threshold": {
+          "description": "Below this top-class probability the query is out of scope.",
+          "title": "Rejection Threshold",
+          "type": "number"
+        },
+        "alternatives": {
+          "description": "Top-k intents by probability (before rejection).",
+          "items": {
+            "$ref": "#/$defs/ScoredLabel"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        }
+      },
+      "required": [
+        "intent",
+        "in_scope",
+        "confidence",
+        "rejection_threshold",
+        "alternatives"
+      ],
+      "title": "IntentResult",
+      "type": "object"
+    },
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "component_version": {
+          "title": "Component Version",
+          "type": "string"
+        },
+        "schema_version": {
+          "default": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "'v3' (Week 4 fine-tuned models) or 'v2' (Week 3 models).",
+          "title": "Pipeline",
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_version",
+        "pipeline"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    },
+    "RoutingResult": {
+      "additionalProperties": false,
+      "properties": {
+        "sub_intent": {
+          "description": "Specific service, e.g. 'id_card_lost'.",
+          "title": "Sub Intent",
+          "type": "string"
+        },
+        "department": {
+          "title": "Department",
+          "type": "string"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "alternatives": {
+          "items": {
+            "$ref": "#/$defs/ScoredLabel"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        }
+      },
+      "required": [
+        "sub_intent",
+        "department",
+        "confidence",
+        "alternatives"
+      ],
+      "title": "RoutingResult",
+      "type": "object"
+    },
+    "ScoredLabel": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "label",
+        "score"
+      ],
+      "title": "ScoredLabel",
+      "type": "object"
+    },
+    "ServiceRequestResult": {
+      "additionalProperties": false,
+      "properties": {
+        "intent": {
+          "title": "Intent",
+          "type": "string"
+        },
+        "sub_intent": {
+          "title": "Sub Intent",
+          "type": "string"
+        },
+        "department": {
+          "title": "Department",
+          "type": "string"
+        },
+        "required_documents": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Documents",
+          "type": "array"
+        },
+        "next_action": {
+          "title": "Next Action",
+          "type": "string"
+        },
+        "extracted_details": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": "Extracted Details",
+          "type": "object"
+        },
+        "missing_information": {
+          "description": "Questions to ask before the request can be actioned.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Missing Information",
+          "type": "array"
+        },
+        "priority": {
+          "enum": [
+            "high",
+            "normal"
+          ],
+          "title": "Priority",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "ready",
+            "needs_information",
+            "needs_confirmation"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "supporting_facts": {
+          "description": "Ids of the verified NMIMS facts used.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Supporting Facts",
+          "type": "array"
+        },
+        "source_urls": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Urls",
+          "type": "array"
+        }
+      },
+      "required": [
+        "intent",
+        "sub_intent",
+        "department",
+        "required_documents",
+        "next_action",
+        "extracted_details",
+        "missing_information",
+        "priority",
+        "status",
+        "supporting_facts",
+        "source_urls"
+      ],
+      "title": "ServiceRequestResult",
+      "type": "object"
+    },
+    "SourceResult": {
+      "additionalProperties": false,
+      "properties": {
+        "rank": {
+          "minimum": 1,
+          "title": "Rank",
+          "type": "integer"
+        },
+        "doc_id": {
+          "title": "Doc Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "page": {
+          "title": "Page",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "score": {
+          "description": "Retriever score (fused rank score; comparable within one query only).",
+          "title": "Score",
+          "type": "number"
+        },
+        "relative_score": {
+          "description": "score / top score of this query.",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Relative Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "rank",
+        "doc_id",
+        "title",
+        "page",
+        "url",
+        "score",
+        "relative_score"
+      ],
+      "title": "SourceResult",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "request_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Request Id"
+    },
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "intent": {
+      "$ref": "#/$defs/IntentResult"
+    },
+    "routing": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/RoutingResult"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Null when the query is out of scope."
+    },
+    "entities": {
+      "items": {
+        "$ref": "#/$defs/EntityResult"
+      },
+      "title": "Entities",
+      "type": "array"
+    },
+    "answer": {
+      "title": "Answer",
+      "type": "string"
+    },
+    "answer_generator": {
+      "title": "Answer Generator",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/SourceResult"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "service_request": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ServiceRequestResult"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "decision": {
+      "$ref": "#/$defs/Decision"
+    },
+    "timings_ms": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Timings Ms"
+    },
+    "model": {
+      "$ref": "#/$defs/ModelInfo"
+    }
+  },
+  "required": [
+    "request_id",
+    "query",
+    "intent",
+    "routing",
+    "entities",
+    "answer",
+    "answer_generator",
+    "sources",
+    "service_request",
+    "decision",
+    "timings_ms",
+    "model"
+  ],
+  "title": "AnalyzeOutput",
+  "type": "object"
+}

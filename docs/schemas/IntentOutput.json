@@ -1,0 +1,198 @@
+{
+  "$defs": {
+    "Confidence": {
+      "additionalProperties": false,
+      "properties": {
+        "score": {
+          "description": "Model probability of the returned label.",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        },
+        "level": {
+          "description": "Band of `score` given the component's decision thresholds.",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "method": {
+          "description": "How `score` is computed.",
+          "title": "Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "score",
+        "level",
+        "method"
+      ],
+      "title": "Confidence",
+      "type": "object"
+    },
+    "IntentResult": {
+      "additionalProperties": false,
+      "properties": {
+        "intent": {
+          "description": "One of the 12 NMIMS intents, or 'out_of_scope'.",
+          "title": "Intent",
+          "type": "string"
+        },
+        "in_scope": {
+          "title": "In Scope",
+          "type": "boolean"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "rejection_threshold": {
+          "description": "Below this top-class probability the query is out of scope.",
+          "title": "Rejection Threshold",
+          "type": "number"
+        },
+        "alternatives": {
+          "description": "Top-k intents by probability (before rejection).",
+          "items": {
+            "$ref": "#/$defs/ScoredLabel"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        }
+      },
+      "required": [
+        "intent",
+        "in_scope",
+        "confidence",
+        "rejection_threshold",
+        "alternatives"
+      ],
+      "title": "IntentResult",
+      "type": "object"
+    },
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "component_version": {
+          "title": "Component Version",
+          "type": "string"
+        },
+        "schema_version": {
+          "default": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "'v3' (Week 4 fine-tuned models) or 'v2' (Week 3 models).",
+          "title": "Pipeline",
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_version",
+        "pipeline"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    },
+    "RoutingResult": {
+      "additionalProperties": false,
+      "properties": {
+        "sub_intent": {
+          "description": "Specific service, e.g. 'id_card_lost'.",
+          "title": "Sub Intent",
+          "type": "string"
+        },
+        "department": {
+          "title": "Department",
+          "type": "string"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "alternatives": {
+          "items": {
+            "$ref": "#/$defs/ScoredLabel"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        }
+      },
+      "required": [
+        "sub_intent",
+        "department",
+        "confidence",
+        "alternatives"
+      ],
+      "title": "RoutingResult",
+      "type": "object"
+    },
+    "ScoredLabel": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "label",
+        "score"
+      ],
+      "title": "ScoredLabel",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "request_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Request Id"
+    },
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "intent": {
+      "$ref": "#/$defs/IntentResult"
+    },
+    "routing": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/RoutingResult"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "model": {
+      "$ref": "#/$defs/ModelInfo"
+    }
+  },
+  "required": [
+    "request_id",
+    "query",
+    "intent",
+    "routing",
+    "model"
+  ],
+  "title": "IntentOutput",
+  "type": "object"
+}

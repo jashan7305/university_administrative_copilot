@@ -1,0 +1,131 @@
+{
+  "pipeline": {
+    "component_version": "1.0.0",
+    "schema_version": "1.0",
+    "pipeline": "v2"
+  },
+  "test_set": "test_core",
+  "n": 365,
+  "n_in_scope": 305,
+  "confidence_bands": {
+    "intent": [
+      {
+        "level": "high",
+        "n": 315,
+        "share": 0.863,
+        "intent_accuracy": 0.9397,
+        "mean_confidence": 0.8563
+      },
+      {
+        "level": "medium",
+        "n": 48,
+        "share": 0.1315,
+        "intent_accuracy": 0.5833,
+        "mean_confidence": 0.4134
+      },
+      {
+        "level": "low",
+        "n": 2,
+        "share": 0.0055,
+        "intent_accuracy": 0.0,
+        "mean_confidence": 0.2329
+      }
+    ],
+    "routing": [
+      {
+        "level": "high",
+        "n": 190,
+        "share": 0.6397,
+        "routing_accuracy": 0.9,
+        "mean_confidence": 0.7752
+      },
+      {
+        "level": "low",
+        "n": 107,
+        "share": 0.3603,
+        "routing_accuracy": 0.5888,
+        "mean_confidence": 0.3166
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "action": "auto_route",
+      "n": 125,
+      "share": 0.3425,
+      "gold_out_of_scope": 0,
+      "routing_accuracy_in_scope": 0.896
+    },
+    {
+      "action": "ask_for_information",
+      "n": 54,
+      "share": 0.1479,
+      "gold_out_of_scope": 0,
+      "routing_accuracy_in_scope": 0.9444
+    },
+    {
+      "action": "refer_to_staff",
+      "n": 86,
+      "share": 0.2356,
+      "gold_out_of_scope": 1,
+      "routing_accuracy_in_scope": 0.5882
+    },
+    {
+      "action": "confirm_with_student",
+      "n": 35,
+      "share": 0.0959,
+      "gold_out_of_scope": 2,
+      "routing_accuracy_in_scope": 0.6364
+    },
+    {
+      "action": "out_of_scope",
+      "n": 65,
+      "share": 0.1781,
+      "gold_out_of_scope": 57,
+      "routing_accuracy_in_scope": null
+    }
+  ],
+  "auto_route_precision": 0.896,
+  "entities": {
+    "per_query_mean": 0.9836,
+    "learned_entities": 348,
+    "learned_confidence_mean": 0.9954,
+    "learned_confidence_p10": 0.9925
+  },
+  "contract": {
+    "outputs_validated": 365,
+    "json_bytes_mean": 2811,
+    "json_bytes_max": 3851
+  },
+  "pipeline_latency_ms": {
+    "p50": 1011.0,
+    "p95": 2116.6
+  },
+  "latency": [
+    {
+      "call": "analyze",
+      "n": 40,
+      "p50_ms": 970.7,
+      "p95_ms": 1923.4
+    },
+    {
+      "call": "intent",
+      "n": 40,
+      "p50_ms": 88.9,
+      "p95_ms": 113.0
+    },
+    {
+      "call": "entities",
+      "n": 40,
+      "p50_ms": 1.5,
+      "p95_ms": 3.5
+    },
+    {
+      "call": "retrieve",
+      "n": 40,
+      "p50_ms": 127.8,
+      "p95_ms": 160.6
+    }
+  ],
+  "runtime_s": 542.9
+}

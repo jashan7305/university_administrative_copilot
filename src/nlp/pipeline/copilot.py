@@ -77,6 +77,8 @@ class CopilotResponse:
     service_request: dict | None
     generator: str
     timings_ms: dict = field(default_factory=dict)
+    sub_intent_confidence: float = 0.0     # routing model probability of the chosen sub-intent
+    top_sub_intents: list[dict] = field(default_factory=list)
 
 
 # --------------------------------------------------------------------------- answer generation
@@ -157,7 +159,7 @@ class Copilot:
 
         from nlp.intent.finetune import ProbabilityBlend
 
-        meta = json.loads((V3_DIR / "meta.json").read_text())
+        meta = json.loads((V3_DIR / "meta.json").read_text(encoding="utf-8"))
         transformer = TransformerClassifier.load(V3_DIR / "router")
         v2i, v2s = joblib.load(INTENT_PATH)["model"], joblib.load(SUBINTENT_PATH)["model"]
         router = ProbabilityBlend([transformer, v2s], [meta["w_sub"], 1 - meta["w_sub"]])
@@ -169,23 +171,28 @@ class Copilot:
         obj.version = "v3"
         return obj
 
-    def classify(self, text: str) -> tuple[str, float, list[dict]]:
+    def classify(self, text: str, top_k: int = 3) -> tuple[str, float, list[dict]]:
         proba = self.intent_model.predict_proba([text])[0]
         order = np.argsort(-proba)
         intent, conf = self.intent_model.classes_[order[0]], float(proba[order[0]])
         if conf < self.threshold:
             intent = "out_of_scope"
-        return intent, conf, [{"intent": self.intent_model.classes_[i], "score": round(float(proba[i]), 4)} for i in order[:3]]
+        return intent, conf, [{"intent": self.intent_model.classes_[i], "score": round(float(proba[i]), 4)} for i in order[:top_k]]
 
-    def route(self, text: str, intent: str) -> str:
-        """Most probable sub-intent; with the hierarchical strategy only those under the predicted intent count.
-        The strategy (flat or hierarchical) is chosen on validation data in train_eval.py."""
+    def route_scores(self, text: str, intent: str) -> list[tuple[str, float]]:
+        """Candidate sub-intents with the routing model's probabilities, most probable first. With the hierarchical
+        strategy only those under the predicted intent are candidates, else every known sub-intent. The strategy
+        (flat or hierarchical) is chosen on validation data in train_eval.py."""
         proba = self.sub_model.predict_proba([text])[0]
         classes = self.sub_model.classes_
         known = [i for i, s in enumerate(classes) if s in self.services]
         allowed = [i for i in known if self.services[classes[i]].intent == intent]
         pool = allowed if (self.route_strategy == "hierarchical" and allowed) else known
-        return classes[max(pool, key=lambda i: proba[i])]
+        return [(classes[i], float(proba[i])) for i in sorted(pool, key=lambda i: -proba[i])]
+
+    def route(self, text: str, intent: str) -> str:
+        """Most probable sub-intent (see route_scores)."""
+        return self.route_scores(text, intent)[0][0]
 
     def _service_request(self, text: str, conf: float, service: Service, entities) -> ServiceRequest:
         details: dict[str, list[str]] = {}
@@ -201,9 +208,9 @@ class Copilot:
                               service.next_action, details, missing, priority, status, list(service.fact_ids),
                               list(service.sources))
 
-    def run(self, text: str, k: int = 3) -> CopilotResponse:
+    def run(self, text: str, k: int = 3, top_k: int = 3) -> CopilotResponse:
         t, t0 = {}, time.perf_counter()
-        intent, conf, top = self.classify(text)
+        intent, conf, top = self.classify(text, top_k)
         t["intent"] = (time.perf_counter() - t0) * 1000
 
         t0 = time.perf_counter()
@@ -215,7 +222,8 @@ class Copilot:
                                    [], None, "fallback", {a: round(b, 2) for a, b in t.items()})
 
         t0 = time.perf_counter()
-        sub = self.route(text, intent)
+        ranked = self.route_scores(text, intent)
+        sub, sub_conf = ranked[0]
         service = self.services[sub]
         t["routing"] = (time.perf_counter() - t0) * 1000
 
@@ -236,7 +244,8 @@ class Copilot:
         sources = [{"doc_id": h.doc_id, "title": h.chunk.title, "page": h.chunk.section, "url": h.chunk.url,
                     "score": round(h.score, 4)} for h in hits]
         return CopilotResponse(text, intent, sub, round(conf, 4), top, [e.as_dict() for e in entities], answer, sources,
-                               asdict(request), used, {a: round(b, 2) for a, b in t.items()})
+                               asdict(request), used, {a: round(b, 2) for a, b in t.items()}, round(sub_conf, 4),
+                               [{"sub_intent": s, "score": round(p, 4)} for s, p in ranked[:top_k]])
 
 
 @lru_cache(maxsize=1)

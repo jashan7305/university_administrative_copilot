@@ -9,7 +9,7 @@ library, student services, student welfare) and routes them to the right departm
 ```
 ├── src/
 │   ├── backend/     FastAPI app (main.py, api/routes.py)
-│   ├── nlp/         NLP components: intent/, ner/, retrieval/, knowledge/, pipeline/
+│   ├── nlp/         NLP components: intent/, ner/, retrieval/, knowledge/, pipeline/, component/ (reusable asset)
 │   └── dataset/     NMIMS dataset pipeline, one module per phase (see below)
 ├── data/
 │   ├── annotations/ facts.yaml, queries.yaml - curated dataset inputs from official NMIMS sources
@@ -18,7 +18,8 @@ library, student services, student welfare) and routes them to the right departm
 │   ├── final/       released dataset (queries, splits, NER, knowledge base, source inventory)
 │   ├── external/    CLINC150 out-of-scope queries
 │   └── eval/        Week 3 retrieval evaluation queries
-├── reports/         dataset/ (quality report, taxonomy, inventory), week2/, week3/
+├── docs/            nlp_component.md (component documentation), schemas/ (JSON Schemas of its input/output)
+├── reports/         dataset/ (quality report, taxonomy, inventory), week2/ ... week6/
 ├── tests/           test_dataset.py, test_nlp.py, test_api.py
 ├── submissions/     submitted reports per week
 ├── models/          trained models (gitignored)
@@ -46,10 +47,25 @@ How the data is made: facts are extracted from official NMIMS sources (each with
 re-checks); core queries are **written by the project team** from those facts; variants are **rule-generated**
 rewordings; NER labels are rule-based. Details and statistics: `reports/dataset/dataset_quality_report.md`.
 
+## Using the NLP component
+
+The whole pipeline is packaged as one reusable component with typed input/output and confidence scores
+(documentation: [docs/nlp_component.md](docs/nlp_component.md)):
+
+```python
+from nlp.component import AdminNLP
+out = AdminNLP().analyze("I lost my ID card, roll no J054. It's urgent")
+out.intent.confidence.score, out.routing.department, out.decision.action
+```
+```bash
+python -m nlp.component analyze "I lost my ID card"      # CLI, prints JSON
+uvicorn backend.main:app                                  # HTTP: POST /v1/analyze, /v1/intent, /v1/entities, /v1/retrieve
+```
+
 ## Running the API
 
 ```bash
-uvicorn backend.main:app --reload     # http://127.0.0.1:8000  (GET /health, POST /intent/classify, POST /copilot/query)
+uvicorn backend.main:app --reload     # http://127.0.0.1:8000/docs  (/v1/* component API; Week 3 /intent/classify, /copilot/query)
 ```
 Train and evaluate on the NMIMS dataset, then rebuild the weekly reports from the saved results:
 
@@ -75,3 +91,4 @@ pytest
 | 6 Week 3 pipeline v2 on NMIMS data | done - `reports/week3/` |
 | Week 4 improved models (fine-tuned transformer router + NER, fine-tuned vector retrieval, LLM summarization, gold NER set) | done - `reports/week4/`, `python -m nlp.pipeline.compare_week4` |
 | Week 5 evaluation & error analysis (CIs, significance, calibration, robustness, challenge set, failure cases, fixes) | done - `reports/week5/`, `python -m nlp.pipeline.evaluate_week5` |
+| Week 6 reusable NLP asset (module + HTTP API + CLI, structured I/O, confidence scores, decisions, docs) | done - `src/nlp/component/`, `docs/nlp_component.md`, `python -m nlp.pipeline.evaluate_week6` |
