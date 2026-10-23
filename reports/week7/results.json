@@ -491,8 +491,8 @@
   },
   "latency_ms": {
     "n": 24,
-    "p50": 1133.5,
-    "p95": 1305.9,
+    "p50": 174.4,
+    "p95": 194.5,
     "note": "warm, CPU, 5 syllabi per call"
   },
   "demo": {
@@ -519,5 +519,5 @@
       "Reinforcement Learning": "not_eligible"
     }
   },
-  "runtime_s": 416.9
+  "runtime_s": 62.6
 }

@@ -72,6 +72,46 @@
   },
   "syllabi": [
     {
+      "name": "NEW_generative_ai_and_llm_applications.txt",
+      "title": "Generative AI and Large Language Model Applications",
+      "code": null,
+      "course_type": "program_elective",
+      "programs": [
+        "B Tech Artificial Intelligence",
+        "B Tech Computer Engineering",
+        "B Tech Computer Science"
+      ],
+      "open_to_all": null,
+      "level": "UG",
+      "semesters": [
+        6
+      ],
+      "credits": 3,
+      "prerequisites": [
+        "Data Structures and Algorithms",
+        "Machine Learning"
+      ],
+      "topics": [
+        "the transformer architecture and pre-training",
+        "prompting and in-context learning",
+        "retrieval-augmented generation over a document collection",
+        "fine-tuning with parameter-efficient methods (LoRA)",
+        "evaluating generated text and detecting hallucinations",
+        "agents and tool use",
+        "safety",
+        "bias and responsible deployment of generative AI"
+      ],
+      "is_new": true,
+      "fields_found": {
+        "title": "inferred",
+        "course_type": "inferred",
+        "programs": "inferred",
+        "semesters": "inferred",
+        "prerequisites": "inferred"
+      },
+      "parse_confidence": 1.0
+    },
+    {
       "name": "deep_learning.md",
       "title": "Deep Learning",
       "code": "CS-PE-512",
@@ -177,46 +217,6 @@
         "programs": "labelled",
         "semesters": "labelled",
         "prerequisites": "labelled"
-      },
-      "parse_confidence": 1.0
-    },
-    {
-      "name": "NEW_generative_ai_and_llm_applications.txt",
-      "title": "Generative AI and Large Language Model Applications",
-      "code": null,
-      "course_type": "program_elective",
-      "programs": [
-        "B Tech Artificial Intelligence",
-        "B Tech Computer Engineering",
-        "B Tech Computer Science"
-      ],
-      "open_to_all": null,
-      "level": "UG",
-      "semesters": [
-        6
-      ],
-      "credits": 3,
-      "prerequisites": [
-        "Data Structures and Algorithms",
-        "Machine Learning"
-      ],
-      "topics": [
-        "the transformer architecture and pre-training",
-        "prompting and in-context learning",
-        "retrieval-augmented generation over a document collection",
-        "fine-tuning with parameter-efficient methods (LoRA)",
-        "evaluating generated text and detecting hallucinations",
-        "agents and tool use",
-        "safety",
-        "bias and responsible deployment of generative AI"
-      ],
-      "is_new": true,
-      "fields_found": {
-        "title": "inferred",
-        "course_type": "inferred",
-        "programs": "inferred",
-        "semesters": "inferred",
-        "prerequisites": "inferred"
       },
       "parse_confidence": 1.0
     },
@@ -867,7 +867,7 @@
       "B Tech Computer Science, Semester VI has Program Elective-III, Program Elective-IV.",
       "Data Structures and Algorithms: Data Structures and Algorithms (Sem III); Machine Learning: Artificial Intelligence and Machine Learning (Sem IV)",
       "This is a new course: its syllabus was parsed from the proposal provided.",
-      "Semester not given: this is the best fit overall; see per_semester for each semester."
+      "Semester not given: this is the best fit overall; the best course for each semester is listed separately."
     ],
     "runner_up": null
   },

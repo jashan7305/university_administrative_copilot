@@ -1,0 +1,250 @@
+# Elective advisor evaluation cases, labelled by hand from the published MPSTME programme structures (SRC052),
+# the CBCS rules (SRB p. 14) and the syllabi in data/electives/syllabi/.
+#   split: dev       - scenarios looked at while the advisor was built (expect these to pass)
+#          heldout   - written from the rules before the advisor was run on them
+#   expect: per-syllabus status (file stem) -> eligible | not_recommended | needs_review | not_eligible
+#   recommend: file stem of the expected recommendation (null = none should be recommended; omitted = not scored)
+#   program / semesters: expected profile parse
+cases:
+  # ------------------------------------------------------------------ dev
+  - id: D01
+    split: dev
+    topic: artificial_intelligence
+    identity: third year student, computer science program
+    program: B Tech Computer Science
+    semesters: [5, 6]
+    expect: {NEW_generative_ai_and_llm_applications: eligible, deep_learning: eligible,
+             introduction_to_machine_learning_open: not_recommended, natural_language_processing: not_eligible,
+             reinforcement_learning: not_eligible}
+    recommend: NEW_generative_ai_and_llm_applications
+  - id: D02
+    split: dev
+    topic: artificial_intelligence
+    identity: 3rd year B.Tech Computer Engineering, semester VI
+    interests: building LLM apps and RAG
+    program: B Tech Computer Engineering
+    semesters: [6]
+    expect: {NEW_generative_ai_and_llm_applications: eligible, natural_language_processing: eligible,
+             deep_learning: not_eligible, introduction_to_machine_learning_open: not_eligible,
+             reinforcement_learning: not_eligible}
+    recommend: NEW_generative_ai_and_llm_applications
+  - id: D03
+    split: dev
+    topic: artificial_intelligence
+    identity: I'm a third year mechanical engineering student in sem 5
+    program: B Tech Mechanical Engineering
+    semesters: [5]
+    expect: {introduction_to_machine_learning_open: eligible, deep_learning: not_eligible,
+             natural_language_processing: not_eligible, NEW_generative_ai_and_llm_applications: not_eligible,
+             reinforcement_learning: not_eligible}
+    recommend: introduction_to_machine_learning_open
+  - id: D04
+    split: dev
+    topic: artificial_intelligence
+    identity: B Tech AI, third year
+    program: B Tech Artificial Intelligence
+    semesters: [5, 6]
+    expect: {introduction_to_machine_learning_open: not_recommended, NEW_generative_ai_and_llm_applications: not_recommended,
+             deep_learning: not_eligible, natural_language_processing: not_eligible, reinforcement_learning: not_eligible}
+    recommend: null
+  - id: D05
+    split: dev
+    topic: cybersecurity
+    identity: BTech IT final year, semester VII
+    program: B Tech Information Technology
+    semesters: [7]
+    expect: {NEW_cloud_security_engineering: eligible, ethical_hacking: not_eligible, network_security: not_eligible,
+             applied_cryptography: not_eligible, cyber_hygiene_open: not_eligible}
+    recommend: NEW_cloud_security_engineering
+  - id: D06
+    split: dev
+    topic: cybersecurity
+    identity: second year computer science
+    program: B Tech Computer Science
+    semesters: [3, 4]
+    expect: {network_security: not_eligible, applied_cryptography: not_eligible, ethical_hacking: not_eligible,
+             cyber_hygiene_open: not_eligible, NEW_cloud_security_engineering: not_eligible}
+    recommend: null
+  - id: D07
+    split: dev
+    topic: management
+    identity: first year mechanical engineering student
+    program: B Tech Mechanical Engineering
+    semesters: [1, 2]
+    expect: {entrepreneurship_open: not_eligible, financial_management_open: not_eligible, project_management_open: not_eligible,
+             NEW_sustainable_engineering_esg: not_eligible, business_analytics_pg_open: not_eligible}
+    recommend: null
+  - id: D08
+    split: dev
+    topic: management
+    identity: M Tech Data Science (Business Analytics) first year, semester 2
+    program: M Tech Data Science (Business Analytics)
+    semesters: [2]
+    expect: {business_analytics_pg_open: not_eligible, entrepreneurship_open: not_eligible,
+             financial_management_open: not_eligible, project_management_open: not_eligible,
+             NEW_sustainable_engineering_esg: not_eligible}
+    recommend: null
+  - id: D09
+    split: dev
+    topic: management
+    identity: civil engineering 3rd yr sem 6
+    interests: start my own construction company
+    program: B Tech Civil Engineering
+    semesters: [6]
+    expect: {entrepreneurship_open: eligible, NEW_sustainable_engineering_esg: eligible, financial_management_open: not_eligible,
+             business_analytics_pg_open: not_eligible}
+    recommend: entrepreneurship_open
+  - id: D10
+    split: dev
+    topic: management
+    identity: MBA Tech Data Science, 3rd year, sem VI
+    program: MBA Tech Data Science
+    semesters: [6]
+    expect: {NEW_sustainable_engineering_esg: eligible, project_management_open: eligible, entrepreneurship_open: eligible,
+             business_analytics_pg_open: not_eligible}
+
+  # ------------------------------------------------------------------ held out
+  - id: H01
+    split: heldout
+    topic: artificial_intelligence
+    identity: B Tech Information Technology, semester VI
+    program: B Tech Information Technology
+    semesters: [6]
+    expect: {natural_language_processing: eligible, deep_learning: not_eligible,
+             introduction_to_machine_learning_open: not_eligible, reinforcement_learning: not_eligible,
+             NEW_generative_ai_and_llm_applications: not_eligible}
+    recommend: natural_language_processing
+  - id: H02
+    split: heldout
+    topic: artificial_intelligence
+    identity: Computer Engineering student, semester 5
+    program: B Tech Computer Engineering
+    semesters: [5]
+    expect: {deep_learning: eligible, introduction_to_machine_learning_open: not_recommended,
+             natural_language_processing: not_eligible, NEW_generative_ai_and_llm_applications: not_eligible,
+             reinforcement_learning: not_eligible}
+    recommend: deep_learning
+  - id: H03
+    split: heldout
+    topic: artificial_intelligence
+    identity: mechanical engineering, 3rd year, sem VI
+    program: B Tech Mechanical Engineering
+    semesters: [6]
+    expect: {introduction_to_machine_learning_open: not_eligible, deep_learning: not_eligible,
+             natural_language_processing: not_eligible, NEW_generative_ai_and_llm_applications: not_eligible,
+             reinforcement_learning: not_eligible}
+    recommend: null
+  - id: H04
+    split: heldout
+    topic: artificial_intelligence
+    identity: Hi, I am in my 3rd yr of BTech CE (sem 6)
+    interests: text analytics, parsing and tagging language
+    program: B Tech Computer Engineering
+    semesters: [6]
+    expect: {natural_language_processing: eligible, NEW_generative_ai_and_llm_applications: eligible,
+             deep_learning: not_eligible, introduction_to_machine_learning_open: not_eligible,
+             reinforcement_learning: not_eligible}
+    recommend: natural_language_processing
+  - id: H05
+    split: heldout
+    topic: cybersecurity
+    identity: B Tech Computer Science, semester VI
+    interests: securing company networks, firewalls and VPNs
+    program: B Tech Computer Science
+    semesters: [6]
+    expect: {network_security: eligible, cyber_hygiene_open: eligible, applied_cryptography: not_eligible,
+             ethical_hacking: not_eligible, NEW_cloud_security_engineering: not_eligible}
+    recommend: network_security
+  - id: H06
+    split: heldout
+    topic: cybersecurity
+    identity: B Tech Computer Engineering, semester V
+    program: B Tech Computer Engineering
+    semesters: [5]
+    expect: {applied_cryptography: eligible, network_security: not_eligible, cyber_hygiene_open: not_eligible,
+             ethical_hacking: not_eligible, NEW_cloud_security_engineering: not_eligible}
+    recommend: applied_cryptography
+  - id: H07
+    split: heldout
+    topic: cybersecurity
+    identity: information technology, sixth semester
+    program: B Tech Information Technology
+    semesters: [6]
+    expect: {network_security: eligible, cyber_hygiene_open: not_recommended, applied_cryptography: not_eligible,
+             ethical_hacking: not_eligible, NEW_cloud_security_engineering: not_eligible}
+    recommend: network_security
+  - id: H08
+    split: heldout
+    topic: cybersecurity
+    identity: first year computer engineering
+    program: B Tech Computer Engineering
+    semesters: [1, 2]
+    expect: {network_security: not_eligible, cyber_hygiene_open: not_eligible, applied_cryptography: not_eligible,
+             ethical_hacking: not_eligible, NEW_cloud_security_engineering: not_eligible}
+    recommend: null
+  - id: H09
+    split: heldout
+    topic: management
+    identity: B Tech Computer Science, semester V
+    interests: sustainability and climate change
+    program: B Tech Computer Science
+    semesters: [5]
+    expect: {financial_management_open: eligible, NEW_sustainable_engineering_esg: eligible, entrepreneurship_open: not_eligible,
+             project_management_open: not_eligible, business_analytics_pg_open: not_eligible}
+    recommend: NEW_sustainable_engineering_esg
+  - id: H10
+    split: heldout
+    topic: management
+    identity: B Tech Mechanical Engineering, 3rd year, semester VI
+    interests: planning and managing engineering projects
+    program: B Tech Mechanical Engineering
+    semesters: [6]
+    expect: {project_management_open: eligible, entrepreneurship_open: eligible, NEW_sustainable_engineering_esg: eligible,
+             financial_management_open: not_eligible, business_analytics_pg_open: not_eligible}
+    recommend: project_management_open
+  - id: H11
+    split: heldout
+    topic: management
+    identity: second year IT student
+    program: B Tech Information Technology
+    semesters: [3, 4]
+    expect: {project_management_open: not_eligible, entrepreneurship_open: not_eligible, NEW_sustainable_engineering_esg: not_eligible,
+             financial_management_open: not_eligible, business_analytics_pg_open: not_eligible}
+    recommend: null
+  - id: H12
+    split: heldout
+    topic: management
+    identity: B Tech Computer Science and Business Systems, third year, semester VI
+    program: B Tech Computer Science and Business Systems
+    semesters: [6]
+    # a human advisor sees 'Managing Innovation and Entrepreneurship' (CSBS Sem VI, compulsory) as overlapping
+    expect: {entrepreneurship_open: not_recommended, project_management_open: eligible, NEW_sustainable_engineering_esg: eligible,
+             financial_management_open: not_eligible, business_analytics_pg_open: not_eligible}
+  - id: H13
+    split: heldout
+    topic: artificial_intelligence
+    identity: final year B Tech Computer Science student, semester VII
+    program: B Tech Computer Science
+    semesters: [7]
+    # Reinforcement Learning needs Deep Learning, which is not a compulsory CS course
+    expect: {reinforcement_learning: not_eligible, deep_learning: not_eligible, natural_language_processing: not_eligible,
+             NEW_generative_ai_and_llm_applications: not_eligible, introduction_to_machine_learning_open: not_eligible}
+    recommend: null
+
+# Expected parse of each syllabus (fields the advisor needs).
+syllabi:
+  natural_language_processing: {course_type: program_elective, programs: [B Tech Computer Engineering, B Tech Information Technology], semesters: [6], prerequisites: [Machine Learning, Probability and Statistics]}
+  deep_learning: {course_type: program_elective, programs: [B Tech Computer Science, B Tech Computer Engineering, B Tech Information Technology, B Tech Computer Science and Business Systems], semesters: [5], prerequisites: [Machine Learning, Linear Algebra]}
+  introduction_to_machine_learning_open: {course_type: open_elective, open_to_all: UG, semesters: [5], prerequisites: [Probability and Statistics]}
+  reinforcement_learning: {course_type: program_elective, programs: [B Tech Artificial Intelligence, B Tech Computer Science], semesters: [7], prerequisites: [Deep Learning, Probability and Statistics]}
+  NEW_generative_ai_and_llm_applications: {course_type: program_elective, programs: [B Tech Computer Science, B Tech Computer Engineering, B Tech Artificial Intelligence], semesters: [6], prerequisites: [Machine Learning, Data Structures and Algorithms]}
+  network_security: {course_type: program_elective, programs: [B Tech Computer Science, B Tech Computer Engineering, B Tech Information Technology], semesters: [6], prerequisites: [Computer Networks]}
+  applied_cryptography: {course_type: program_elective, programs: [B Tech Computer Science, B Tech Computer Engineering], semesters: [5], prerequisites: [Discrete Mathematics]}
+  ethical_hacking: {course_type: program_elective, programs: [B Tech Computer Science and Engineering (Cybersecurity), B Tech Information Technology], semesters: [7], prerequisites: [Network Security]}
+  cyber_hygiene_open: {course_type: open_elective, open_to_all: UG, semesters: [6], prerequisites: []}
+  NEW_cloud_security_engineering: {course_type: program_elective, programs: [B Tech Computer Science, B Tech Computer Engineering, B Tech Information Technology], semesters: [7], prerequisites: [Computer Networks, Operating Systems]}
+  financial_management_open: {course_type: open_elective, open_to_all: UG, semesters: [5], prerequisites: [Principles of Economics and Management]}
+  entrepreneurship_open: {course_type: open_elective, open_to_all: UG, semesters: [6], prerequisites: []}
+  project_management_open: {course_type: open_elective, open_to_all: UG, semesters: [6], prerequisites: []}
+  business_analytics_pg_open: {course_type: open_elective, open_to_all: PG, semesters: [2], prerequisites: []}
+  NEW_sustainable_engineering_esg: {course_type: open_elective, open_to_all: UG, semesters: [5, 6], prerequisites: []}
