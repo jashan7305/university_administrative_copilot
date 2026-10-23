@@ -1,0 +1,1475 @@
+program,semester,year_of_study,academic_year,s_no,course,lecture,practical,tutorial,credits,category,remark,kind,select_one_group,source_id,page
+B Tech Information Technology,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,7,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,8,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,10,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,1,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,2,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,3,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,4,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,5,Digital Logic Design,2,2,0,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,6,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,7,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,8,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,84
+B Tech Information Technology,2,1,2026-27,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,1,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,2,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,3,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,4,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,5,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,6,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,84
+B Tech Information Technology,3,2,2027-28,7,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,85
+B Tech Information Technology,3,2,2027-28,8,Computer Organization and Architecture,3,0,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,3,2,2027-28,9,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,85
+B Tech Information Technology,3,2,2027-28,10,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,85
+B Tech Information Technology,3,2,2027-28,11,Community Service,0,0,0,0,COMP,,course,False,SRC052,85
+B Tech Information Technology,3,2,2027-28,12,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,2,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,3,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,4,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,5,Foundations of Artificial Intelligence,2,2,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,6,Web Technologies,1,2,0,2,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,7,Introduction to Cybersecurity,2,2,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,8,Data Engineering and Visualization,0,2,0,1,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,9,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,85
+B Tech Information Technology,4,2,2027-28,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,1,System Administration,1,2,0,2,COMP,Only ICA,course,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,2,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,3,Machine Learning Techniques,2,2,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,4,Program Elective-I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,5,Program Elective-II,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,6,Open Elective-I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,7,Open Elective-II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,85
+B Tech Information Technology,5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,85
+B Tech Information Technology,6,3,2028-29,1,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,85
+B Tech Information Technology,6,3,2028-29,2,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,85
+B Tech Information Technology,6,3,2028-29,3,Human Computer Interaction,2,2,0,3,COMP,,course,False,SRC052,85
+B Tech Information Technology,6,3,2028-29,4,Mobile Application Development,0,2,0,1,COMP,Only ICA,course,False,SRC052,85
+B Tech Information Technology,6,3,2028-29,5,Program Elective-III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,85
+B Tech Information Technology,6,3,2028-29,6,Program Elective-IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,86
+B Tech Information Technology,6,3,2028-29,7,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,86
+B Tech Information Technology,6,3,2028-29,8,Open Elective-IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,86
+B Tech Information Technology,6,3,2028-29,9,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,86
+B Tech Information Technology,6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,1,Cloud Computing,2,2,0,3,COMP,,course,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,2,Embedded Systems and IoT,2,2,0,3,COMP,,course,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,3,Program Elective-V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,4,Program Elective-VI,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,5,Open Elective V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,6,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,86
+B Tech Information Technology,7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,86
+MBA Tech Information Technology,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,7,Principles of Management,1,0,0,1,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,8,Engineering Ethics,1,0,0,1,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,9,Indian Knowledge System,1,0,0,0,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,10,Constitution of India,1,0,0,0,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,1,1,2026-27,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,3,Business Communication,0,2,0,1,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,4,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,5,Digital Logic Design,2,2,0,3,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,6,Microeconomics,2,0,0,2,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,7,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,8,Product Realization,1,2,0,2,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only,course,False,SRC052,87
+MBA Tech Information Technology,2,1,2026-27,10,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,87
+MBA Tech Information Technology,3,2,2027-28,1,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,2,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,3,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,4,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,5,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,6,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,7,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,8,Computer Organization and Architecture,3,0,0,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,9,Technical Communication,0,0,1,1,COMP,Only,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,10,Transforming Ideas to Innovation,0,2,0,1,COMP,Only,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,11,Open Elective-I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,12,Community Service,0,0,0,0,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,3,2,2027-28,13,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,1,Business Statistics,3,0,0,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,2,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,3,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,4,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,5,Web Technologies,1,2,0,2,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,6,Foundations of Artificial Intelligence,2,2,0,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,7,Introduction to Cybersecurity,2,2,0,3,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,8,Data Engineering and Visualization,0,2,0,1,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,9,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,10,Open Elective-II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,88
+MBA Tech Information Technology,4,2,2027-28,11,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,88
+MBA Tech Information Technology,5,3,2028-29,1,Macroeconomics,2,0,0,2,COMP,,course,False,SRC052,88
+MBA Tech Information Technology,5,3,2028-29,2,System Administration,1,2,0,2,COMP,Only,course,False,SRC052,88
+MBA Tech Information Technology,5,3,2028-29,3,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,5,3,2028-29,4,Machine Learning Techniques,2,2,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,5,3,2028-29,5,Program Elective-I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,89
+MBA Tech Information Technology,5,3,2028-29,6,Program Elective-II,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,89
+MBA Tech Information Technology,5,3,2028-29,7,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,89
+MBA Tech Information Technology,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,1,Decision Analysis and Modelling,3,0,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,2,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,3,Human Computer Interaction,2,2,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,4,Mobile Application Development,0,2,0,1,COMP,Only,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,5,Program Elective-III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,6,Program Elective-IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,7,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,8,Open Elective-IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,9,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,10,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,6,3,2028-29,11,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,1,Embedded Systems and IoT,2,2,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,2,Program Elective-V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,3,Program Elective-VI,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,4,Operations Management,3,0,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,5,Financial Accounting and Analysis,3,0,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,6,Marketing Management,3,0,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,7,Data Visualisation for Business Decisions,3,0,0,3,COMP,Only,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,8,Technical Internship,0,10,0,5,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,7,4,2029-30,9,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,89
+MBA Tech Information Technology,8,4,2029-30,1,Cloud Computing,2,2,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,8,4,2029-30,2,Business Analytics,3,0,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,8,4,2029-30,3,Logistics and Supplychain Management,2,0,0,2,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,8,4,2029-30,4,Financial Management,3,0,0,3,COMP,,course,False,SRC052,89
+MBA Tech Information Technology,8,4,2029-30,5,B2B Marketing,3,0,0,3,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,8,4,2029-30,6,Organizational Behaviour,3,0,0,3,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,8,4,2029-30,7,Business Research Methods,2,0,0,2,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,8,4,2029-30,8,Entrepreneurship,2,0,0,2,COMP,Only,course,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,1,Management of Technology and Innovation,2,0,0,2,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,2,Human Resource Management,2,0,0,2,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,3,Elective- 1,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,4,Elective- 2,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,5,Elective- 3,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,6,Elective- 4,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,9,5,2030-31,7,Management Internship Program,0,40,0,12,COMP,Only,course,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,1,Strategic Management,3,0,0,3,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,2,Sustainable Business Management Practices,2,0,0,2,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,3,"Contract, Competition and Consumer Laws",2,0,0,2,COMP,,course,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,4,Elective- 5,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,5,Elective- 6,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,6,Elective- 7,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,7,Elective- 8,2,0,0,2,ELEC,,named_elective,False,SRC052,90
+MBA Tech Information Technology,10,5,2030-31,8,Capstone Project,0,10,0,5,COMP,,course,False,SRC052,90
+Diploma in Information Technology,1,1,2026-27,1,Mathematics-I,3,0,1,4,COMP,,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,2,Applied Physics-I,2,0,1,3,COMP,,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,3,Applied Chemistry,2,0,0,2,COMP,,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,4,Engineering Drawing,2,2,0,3,COMP,,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,5,Computer Programming,2,2,0,3,COMP,,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,6,Communication Skills,1,2,0,2,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,7,Engineering Workshop Practice,0,2,0,1,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,8,Applied Physics-I Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,1,1,2026-27,9,Applied Chemistry Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,1,Mathematics-II,3,0,1,4,COMP,,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,2,Applied Physics-II,2,0,1,3,COMP,,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,3,Introduction to Electrical and Electronics Engineering,2,0,1,3,COMP,,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,4,Engineering Mechanics,2,2,1,4,COMP,,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,5,Introduction to Object Oriented Programming,2,2,0,3,COMP,,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,6,Applied Physics-II Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,7,Introduction to Electrical and Electronics Engineering Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,2,1,2026-27,8,Social and Life Skills,1,0,0,1,COMP,Only ICA,course,False,SRC052,91
+Diploma in Information Technology,3,2,2027-28,1,Mathematics-III,3,0,1,4,COMP,,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,2,Data Structures,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,3,Digital Techniques,3,2,0,4,COMP,,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,4,Introduction to Software Development,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,5,Basic Computer Hardware and Troubleshooting,0,2,0,1,COMP,Only ICA,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,6,Basics of Multimedia and Animation,1,2,0,2,COMP,Only ICA,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,7,Computer System Architecture,2,0,0,2,COMP,,course,False,SRC052,92
+Diploma in Information Technology,3,2,2027-28,8,Community Engagement,0,0,0,0,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,1,Introduction to Database Management System,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,2,Python Programming Essentials,0,2,0,1,COMP,Only ICA,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,3,Data Communication and Computer Networks,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,4,Entrepreneurship Development and Startups,2,0,0,2,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,5,Introduction to Operating Systems,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,6,Website Designing,2,2,0,3,COMP,Only ICA,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,7,Microprocessor and Microcontrollers,3,2,0,4,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,8,Data Analysis and Visualization,1,2,0,2,COMP,,course,False,SRC052,92
+Diploma in Information Technology,4,2,2027-28,9,Internship,0,0,0,4,COMP,Only ICA,course,False,SRC052,92
+Diploma in Information Technology,5,3,2028-29,1,Internet Security,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,5,3,2028-29,2,Development and Operations,3,2,0,4,COMP,,course,False,SRC052,92
+Diploma in Information Technology,5,3,2028-29,3,Capstone Project Planning and Execution,0,8,0,4,COMP,Only ICA,course,False,SRC052,92
+Diploma in Information Technology,5,3,2028-29,4,Management Information System,2,2,0,3,COMP,,course,False,SRC052,92
+Diploma in Information Technology,5,3,2028-29,5,Emerging Trends in Information Technology,2,2,1,4,COMP,,course,False,SRC052,92
+Diploma in Information Technology,5,3,2028-29,6,Artificial Intelligence and Machine Learning,2,2,0,3,ELEC,,named_elective,True,SRC052,92
+Diploma in Information Technology,5,3,2028-29,7,Blockchain Technology,2,2,0,3,ELEC,,named_elective,True,SRC052,92
+Diploma in Information Technology,6,3,2028-29,1,In-Plant Training,0,40,0,20,COMP,Only ICA,course,False,SRC052,93
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,7,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,8,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,10,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),1,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,2,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,3,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,4,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,5,Web Technologies,1,2,0,2,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,6,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,7,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,8,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),2,1,2026-27,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,1,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,2,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,3,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,4,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,5,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,6,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,95
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,7,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,8,Computer Architecture,2,0,0,2,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,9,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,10,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,11,Community Service,0,0,0,0,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),3,2,2027-28,12,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,2,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,3,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,4,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,5,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,6,Cybersecurity Fundamentals,2,2,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,7,Cryptography,2,2,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,8,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),4,2,2027-28,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,1,AI and ML for Cybersecurity,2,2,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,2,Vulnerability Assessment and Penetration Testing,2,2,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,3,System Administration,1,2,0,2,COMP,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,4,Program Elective-I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,5,Program Elective-II,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,6,Open Elective-I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,7,Open Elective-II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,1,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,2,Digital Forensics and Incident Response,2,2,0,3,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,3,Mobile Application Development,0,2,0,1,COMP,Only ICA,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,4,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,5,Program Elective-III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,6,Program Elective-IV,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,7,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,96
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,8,Open Elective-IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,9,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,1,Human and Legal Aspects of Cybersecurity,2,0,0,2,COMP,,course,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,2,Cybersecurity Risk Management,2,2,0,3,COMP,,course,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,3,Application Security Testing,2,2,0,3,COMP,,course,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,4,Program Elective-V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,5,Program Elective-VI,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,6,Open Elective V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,7,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,97
+B Tech Computer Science and Engineering (Cybersecurity),7,4,2029-30,8,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,97
+B Tech Computer Engineering,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,3,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,4,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,5,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,6,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,7,English Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,8,Web Development,0,2,2,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,2,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,1,Signals and Systems,2,2,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,2,Computer Organization and Architecture,3,0,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,3,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,4,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,5,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,6,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,7,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,8,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,9,Community Service,0,0,0,0,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,10,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,99
+B Tech Computer Engineering,3,2,2027-28,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,99
+B Tech Computer Engineering,4,2,2027-28,1,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,2,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,3,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,4,Complex Variables and Transforms,3,2,0,4,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,5,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,6,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,7,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,8,Machine Learning,2,2,0,3,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,4,2,2027-28,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,1,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,2,Program Elective - I,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,3,Advanced Linear Algebra,1,2,0,2,COMP,Only ICA,course,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,4,Program Elective - II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,5,Open Elective - I,X,X,X,3,INTD,,open_elective_slot,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,6,Open Elective - II,X,X,X,3,INTD,,open_elective_slot,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,8,Theoretical Computer Science,2,0,1,3,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,1,Transforming Ideas to Innovation,0,2,0,1,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,2,Compiler Design,2,2,0,3,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,3,Artificial Intelligence,2,2,0,3,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,4,Open Elective - III,X,X,X,3,INTD,,open_elective_slot,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,5,Open Elective - IV,X,X,X,3,INTD,,open_elective_slot,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,6,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,7,Program Elective - III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,8,Program Elective - IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,9,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,100
+B Tech Computer Engineering,6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,1,Capstone Project,0,10,0,5,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,2,Distributed Computing,2,2,0,3,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,3,Program Elective-V,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,4,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,5,Open Elective-V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,6,Program Elective-VI,2,2,0,3,COMP,,program_elective_slot,False,SRC052,100
+B Tech Computer Engineering,7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,100
+B Tech Computer Engineering,8,4,2029-30,1,Project,0,20,0,10,COMP,,course,False,SRC052,101
+MBA Tech Computer Engineering,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,10,Principles of Management,1,0,0,1,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,1,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,4,Microeconomics,2,0,0,2,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,5,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,6,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,7,Web Development,0,2,2,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,8,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,9,Business Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,10,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,102
+MBA Tech Computer Engineering,3,2,2027-28,1,Signals and Systems,2,2,0,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,3,2,2027-28,2,Computer Organization and Architecture,3,0,0,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,3,2,2027-28,3,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,102
+MBA Tech Computer Engineering,3,2,2027-28,4,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,3,2,2027-28,5,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,3,2,2027-28,6,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,3,2,2027-28,7,Community Service,0,0,0,0,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,3,2,2027-28,8,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,3,2,2027-28,9,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,3,2,2027-28,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,1,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,2,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,3,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,4,Design and Analysis of Algorithms,3,0,1,4,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,5,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,6,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,7,Machine Learning,2,2,0,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,8,Business Statistics,3,0,0,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,9,Complex Variables and Transforms,3,2,0,4,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,4,2,2027-28,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,1,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,2,Program Elective-I,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,3,Advanced Linear Algebra,1,2,0,2,COMP,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,4,Program Elective-II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,5,Open Elective-I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,6,Open Elective-II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,8,Macro Economics,2,0,0,2,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,9,Theoretical Computer Science,2,0,1,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,5,3,2028-29,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,1,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,2,Compiler Design,2,2,0,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,3,Artificial Intelligence,2,2,0,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,4,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,5,Open Elective-IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,6,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,7,Program Elective-III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,8,Program Elective-IV,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,9,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,10,Decision Analysis and Modelling,3,0,0,3,COMP,,course,False,SRC052,103
+MBA Tech Computer Engineering,6,3,2028-29,11,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,103
+MBA Tech Computer Engineering,7,4,2029-30,1,Technical Internship,0,10,0,5,COMP,Only ICA,course,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,2,Distributed Computing,2,2,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,3,Program Elective-V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,4,Program Elective-VI,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,5,Open Elective-V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,6,Operations Management,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,7,Financial Accounting and Analysis,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,8,Marketing Management,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,9,Data Visualisation for Business Decisions,3,0,0,3,COMP,Only ICA,course,False,SRC052,104
+MBA Tech Computer Engineering,7,4,2029-30,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,1,Business Analytics,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,2,Logistics and Supplychain Management,2,0,0,2,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,3,Financial Management,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,4,B2B Marketing,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,5,Organizational Behaviour,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,6,Business Research Methods,2,0,0,2,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,8,4,2029-30,7,Entrepreneurship,2,0,0,2,COMP,Only ICA,course,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,1,Management of Technology and Innovation,2,0,0,2,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,2,Human Resource Management,2,0,0,2,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,3,Elective- 1,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,4,Elective- 2,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,5,Elective- 3,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,6,Elective- 4,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,9,5,2030-31,7,Management Internship Programme,0,40,0,12,COMP,Only ICA,course,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,1,Strategic Management,3,0,0,3,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,2,Sustainable Business Management Practices,2,0,0,2,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,3,"Contract, Competition and Consumer Laws",2,0,0,2,COMP,,course,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,4,Elective- 5,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,5,Elective- 6,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,6,Elective- 7,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,7,Elective- 8,2,0,0,2,ELEC,,named_elective,False,SRC052,104
+MBA Tech Computer Engineering,10,5,2030-31,8,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,104
+B Tech Computer Science,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,3,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,4,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,5,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,6,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,7,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,8,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,9,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,10,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,2,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,3,Digital Circuits and Computer Architecture,3,2,0,4,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,4,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,5,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,6,Data Extraction and Processing,1,2,0,2,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,7,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,8,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,9,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,10,Community Service,0,0,0,0,COMP,,course,False,SRC052,105
+B Tech Computer Science,3,2,2027-28,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,105
+B Tech Computer Science,4,2,2027-28,1,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,2,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,3,Artificial Intelligence and Machine Learning,3,2,0,4,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,4,Complex Variables and Transforms,3,0,1,4,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,5,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,6,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,7,Theoretical Computer Science,2,0,1,3,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,8,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,106
+B Tech Computer Science,4,2,2027-28,9,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,1,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,2,Program Elective-I,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,3,Program Elective-II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,4,Web Development,0,2,2,3,COMP,,course,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,5,Open Elective-I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,6,Open Elective-II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,106
+B Tech Computer Science,5,3,2028-29,8,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,1,Compiler Design,2,2,0,3,COMP,,course,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,2,Design and Application of Internet of Things,3,2,0,4,COMP,,course,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,3,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,4,Open Elective-IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,5,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,6,Program Elective-III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,7,Program Elective-IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,8,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,106
+B Tech Computer Science,6,3,2028-29,9,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,106
+B Tech Computer Science,7,4,2029-30,1,Capstone Project,0,10,0,5,COMP,,course,False,SRC052,107
+B Tech Computer Science,7,4,2029-30,2,Distributed Computing,2,2,0,3,COMP,,course,False,SRC052,107
+B Tech Computer Science,7,4,2029-30,3,Program Elective-V,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,107
+B Tech Computer Science,7,4,2029-30,4,Program Elective-VI,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,107
+B Tech Computer Science,7,4,2029-30,5,Open Elective-V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,107
+B Tech Computer Science,7,4,2029-30,6,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,107
+B Tech Computer Science,7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,107
+B Tech Computer Science,8,4,2029-30,1,Project,0,20,0,10,COMP,,course,False,SRC052,107
+Diploma in Computer Engineering,1,1,2026-27,1,Mathematics-I,3,0,1,4,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,2,Applied Physics-I,2,0,1,3,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,3,Applied Chemistry,2,0,0,2,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,4,Engineering Drawing,2,2,0,3,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,5,Computer Programming,2,2,0,3,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,6,Communication Skills,1,2,0,2,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,7,Engineering Workshop Practice,0,2,0,1,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,8,Applied Physics-I Lab,0,2,0,1,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,1,1,2026-27,9,Applied Chemistry Lab,0,2,0,1,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,1,Mathematics-II,3,0,1,4,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,2,Applied Physics-II,2,0,1,3,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,3,Introduction to Electrical and Electronics Engineering,2,0,1,3,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,4,Engineering Mechanics,2,2,1,4,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,5,Introduction to Object Oriented Programming,2,2,0,3,COMP,,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,6,Applied Physics-II Lab,0,2,0,1,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,7,Introduction to Electrical and Electronics Engineering Lab,0,2,0,1,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,2,1,2026-27,8,Social and Life Skills,1,0,0,1,COMP,Only,course,False,SRC052,108
+Diploma in Computer Engineering,3,2,2027-28,1,Mathematics-III,3,0,1,4,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,2,Data Structures,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,3,Digital Techniques,3,2,0,4,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,4,Java Programming,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,5,Basic Computer Hardware and Troubleshooting,0,2,0,1,COMP,Only,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,6,Basics of Multimedia and Animation,1,2,0,2,COMP,Only,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,7,Computer System Architecture,2,0,0,2,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,3,2,2027-28,8,Community Engagement,0,0,0,0,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,1,Introduction to Database Management System,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,2,Website Designing,2,2,0,3,COMP,Only,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,3,Data Communication and Computer Networks,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,4,Microprocessor and Microcontrollers,3,2,0,4,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,5,Introduction to Operating Systems,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,6,Entrepreneurship Development and Startups,2,0,0,2,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,7,Internship,0,0,0,4,COMP,Only,course,False,SRC052,109
+Diploma in Computer Engineering,4,2,2027-28,8,Data Analysis and Visualization,1,2,0,2,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,5,3,2028-29,1,Internet Security,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,5,3,2028-29,2,Development and Operations,3,2,0,4,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,5,3,2028-29,3,Capstone Project Planning and Execution,0,8,0,4,COMP,Only,course,False,SRC052,109
+Diploma in Computer Engineering,5,3,2028-29,4,Management Information System,2,2,0,3,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,5,3,2028-29,5,Emerging Trends in Information Technology,2,2,1,4,COMP,,course,False,SRC052,109
+Diploma in Computer Engineering,6,3,2028-29,1,In-Plant Training,0,40,0,20,COMP,Only,course,False,SRC052,109
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,4,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,5,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,6,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,7,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,8,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,9,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,10,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,1,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,2,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,3,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,4,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,5,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,6,Website Designing and Development,1,2,0,2,COMP,,course,False,SRC052,110
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,7,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,8,Digital Circuits and Computer Architecture,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,9,Community Service,0,0,0,0,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,10,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),3,2,2027-28,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,1,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,2,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,3,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,4,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,5,Data Wrangling and Visualization,2,2,0,3,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,6,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,7,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,8,Program Elective-I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),4,2,2027-28,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,1,Artificial Intelligence and Machine Learning,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,2,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,3,Image and Video Processing,2,2,0,3,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,4,Data Analytics using Spreadsheet,0,2,0,1,COMP,Only ICA,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,5,Program Elective-II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,6,Open Elective-I,x,x,x,3,INTD,,open_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,7,Open Elective-II,x,x,x,3,INTD,,open_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,1,Deep Learning: Fundamentals and Applications,3,2,0,4,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,2,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,3,Program Elective-III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,4,Program Elective-IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,5,Open Elective-III,x,x,x,3,INTD,,open_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,6,Open Elective-IV,x,x,x,3,INTD,,open_elective_slot,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,7,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,8,Big Data Analytics for Engineers,2,2,0,3,COMP,,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),6,3,2028-29,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,111
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,1,Computer Vision,2,2,0,3,COMP,,course,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,2,Generative and Agentic AI,2,2,0,3,COMP,,course,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,3,Program Elective-V,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,4,Program Elective-VI,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,5,Open Elective-V,x,x,x,3,INTD,,open_elective_slot,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,6,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,112
+B Tech Computer Science and Engineering (Data Science),7,4,2029-30,1,Project,0,20,0,10,COMP,Only ICA,course,False,SRC052,112
+B Tech Computer Science and Business Systems,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,3,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,4,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,5,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,6,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,7,English Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,8,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,10,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,113
+B Tech Computer Science and Business Systems,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,113
+B Tech Computer Science and Business Systems,3,2,2027-28,1,Theoretical Computer Science,2,0,1,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,2,Computer Organization and Architecture,3,0,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,3,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,4,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,5,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,6,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,7,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,8,Community Service,0,0,0,0,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,9,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,3,2,2027-28,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,1,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,2,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,3,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,4,Compiler Design,2,2,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,5,Machine Learning for Business Systems,2,2,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,6,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,7,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,8,Business Strategy,3,0,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,4,2,2027-28,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,1,Software Engineering,3,2,0,4,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,2,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,3,Program Elective - I,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,4,Program Elective - II,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,5,Open Elective - I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,6,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,5,3,2028-29,8,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,1,Managing Innovation and Entrepreneurship,3,0,0,3,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,2,Financial & Cost Accounting,3,0,1,4,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,3,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,4,Program Elective-III,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,5,Program Elective-IV,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,6,Open Elective-III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,7,Open Elective-IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,8,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,114
+B Tech Computer Science and Business Systems,6,3,2028-29,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,114
+B Tech Computer Science and Business Systems,7,4,2029-30,1,Capstone Project,0,10,0,5,COMP,,course,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,2,Marketing Management and Technology,3,0,0,3,COMP,,course,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,3,Financial Management and Technology,3,0,0,3,COMP,,course,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,4,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,5,Human Resource Management and Technology,2,0,0,2,COMP,,course,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,6,Program Elective-V,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,7,Open Elective V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,115
+B Tech Computer Science and Business Systems,7,4,2029-30,8,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,115
+Master of Computer Applications,1,1,2026-27,1,Operating Systems,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,2,Database Management Systems,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,3,Computer Networks,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,4,Data Structures and Algorithms,3,2,0,4,COMP,,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,5,Java Programming,2,4,0,4,COMP,,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,6,Web Technologies,2,4,0,4,COMP,,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,7,English Communication,0,2,0,1,COMP,Only,course,False,SRC052,116
+Master of Computer Applications,1,1,2026-27,8,Design Thinking,2,0,0,0,COMP,Only,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,2,Software Engineering,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,3,Advanced Web Technologies,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,4,Artificial Intelligence,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,5,Advanced Java,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,6,Data Analysis with Python,2,2,0,3,COMP,,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,7,Mobile Application Development,2,2,0,3,COMP,Only,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,8,Technical Communication,0,0,1,1,COMP,Only,course,False,SRC052,116
+Master of Computer Applications,2,1,2026-27,9,Mini Project,0,4,0,2,COMP,Only,course,False,SRC052,116
+Master of Computer Applications,3,2,2027-28,1,Machine Learning,2,2,0,3,COMP,,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,2,Cloud Computing,2,2,0,3,COMP,,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,3,Cyber Security,2,2,0,3,COMP,,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,4,Microservices and Architecture,2,2,0,3,COMP,,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,5,Department Elective II (Select any one) DevOps,2,2,0,3,ELEC,,named_elective,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,6,Open Elective ( Select any one) Basic Decision making with Spreadsheet,2,2,0,3,INTD,,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,7,Professional Ethics,1,0,0,1,COMP,Only,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,8,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,117
+Master of Computer Applications,3,2,2027-28,9,Capstone Project,0,8,0,4,COMP,Only,course,False,SRC052,117
+Master of Computer Applications,4,2,2027-28,1,Industry Internship / Project,0,30,0,15,COMP,Only,course,False,SRC052,117
+MBA Tech Artificial Intelligence,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,5,Principles of Management,1,0,0,1,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,6,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,7,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,8,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,9,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,2,Intelligent Systems,2,2,0,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,4,Microeconomics,2,0,0,2,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,5,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,6,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,7,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,8,Business Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,10,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,1,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,2,Business Statistics,3,0,0,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,3,Fundamentals of Operating Systems,2,2,0,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,4,Signal and Image Processing,3,2,0,4,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,5,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,6,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,7,Program Elective - I,1,2,0,2,ELEC,Only ICA,program_elective_slot,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,8,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,9,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,119
+MBA Tech Artificial Intelligence,3,2,2027-28,10,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,3,2,2027-28,11,Community Service,0,0,0,0,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,3,2,2027-28,12,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,1,Optimization Methods,2,2,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,2,Machine Learning,3,2,0,4,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,3,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,4,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,5,Computer Architecture,2,0,0,2,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,6,Program Elective - II,1,2,0,2,ELEC,Only ICA,program_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,7,Open Elective - I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,8,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,9,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,10,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,4,2,2027-28,11,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,1,Deep Learning,2,2,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,2,Computer Networks,2,2,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,3,Natural Language Processing,2,2,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,4,Program Elective - III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,5,Program Elective - IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,6,Macroeconomics,2,0,0,2,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,7,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,9,Responsible and Ethical AI,1,0,0,1,COMP,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,10,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,5,3,2028-29,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,1,Advanced Topics in Machine Learning,3,2,0,4,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,2,Computer Vision for AI,2,2,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,3,Program Elective - V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,4,Decision Analysis and Modelling,3,0,0,3,COMP,,course,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,5,Open Elective - III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,6,Open Elective - IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,7,Cloud Computing for AI,0,2,0,1,COMP,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,8,Agile Product Development with DevOps,1,2,0,2,COMP,Only ICA,course,False,SRC052,120
+MBA Tech Artificial Intelligence,6,3,2028-29,9,Program Elective - VI,1,2,0,2,ELEC,Only ICA,program_elective_slot,False,SRC052,121
+MBA Tech Artificial Intelligence,6,3,2028-29,10,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,6,3,2028-29,11,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,1,Program Elective - VII,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,2,Program Elective - VIII,1,2,0,2,ELEC,Only ICA,program_elective_slot,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,3,Operations Management,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,4,Financial Accounting and Analysis,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,5,Marketing Management,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,6,Data Visualisation for Business Decisions,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,7,Open Elective - V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,8,Technical Internship,0,10,0,5,COMP,Only ICA,course,False,SRC052,121
+MBA Tech Artificial Intelligence,7,4,2029-30,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,1,Generative AI,2,2,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,2,Applied Time Series Analysis,2,2,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,3,Business Analytics,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,4,Logistics and Supply chain Management,2,0,0,2,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,5,Financial Management,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,6,B2B Marketing,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,7,Organizational Behaviour,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,8,Business Research Methods,2,0,0,2,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,8,4,2029-30,9,Entrepreneurship,2,0,0,2,COMP,Only ICA,course,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,1,Management of Technology and Innovation,2,0,0,2,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,2,Human Resource Management,2,0,0,2,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,3,Elective- 1,2,0,0,2,ELEC,,named_elective,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,4,Elective- 2,2,0,0,2,ELEC,,named_elective,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,5,Elective- 3,2,0,0,2,ELEC,,named_elective,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,6,Elective- 4,2,0,0,2,ELEC,,named_elective,False,SRC052,121
+MBA Tech Artificial Intelligence,9,5,2030-31,7,Management Internship Program,0,40,0,12,COMP,Only ICA,course,False,SRC052,121
+MBA Tech Artificial Intelligence,10,5,2030-31,1,Strategic Management,3,0,0,3,COMP,,course,False,SRC052,121
+MBA Tech Artificial Intelligence,10,5,2030-31,2,Sustainable Business Management Practices,2,0,0,2,COMP,,course,False,SRC052,122
+MBA Tech Artificial Intelligence,10,5,2030-31,3,"Contract, Competition and Consumer Laws",2,0,0,2,COMP,,course,False,SRC052,122
+MBA Tech Artificial Intelligence,10,5,2030-31,4,Elective- 5,2,0,0,2,ELEC,,named_elective,False,SRC052,122
+MBA Tech Artificial Intelligence,10,5,2030-31,5,Elective- 6,2,0,0,2,ELEC,,named_elective,False,SRC052,122
+MBA Tech Artificial Intelligence,10,5,2030-31,6,Elective- 7,2,0,0,2,ELEC,,named_elective,False,SRC052,122
+MBA Tech Artificial Intelligence,10,5,2030-31,7,Elective- 8,2,0,0,2,ELEC,,named_elective,False,SRC052,122
+MBA Tech Artificial Intelligence,10,5,2030-31,8,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,122
+B Tech Artificial Intelligence,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,1,1,2026-27,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,2,Intelligent Systems,2,2,0,3,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,4,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,5,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,6,Product Realization,1,2,0,2,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,7,English Communication,0,2,0,1,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,8,Environmental Studies,1,0,0,0,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,10,Transforming Ideas to Innovation,0,2,0,1,COMP,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,123
+B Tech Artificial Intelligence,3,2,2027-28,1,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,123
+B Tech Artificial Intelligence,3,2,2027-28,2,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,3,Fundamentals of Operating Systems,2,2,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,4,Signal and Image Processing,3,2,0,4,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,5,Computer Architecture,2,0,0,2,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,6,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,7,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,8,Program Elective - I,1,2,0,2,ELEC,Only,program_elective_slot,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,9,Technical Communication,0,0,1,1,COMP,Only,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,10,Community Service,0,0,0,0,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,3,2,2027-28,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,1,Optimization Methods,2,2,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,2,Machine Learning,3,2,0,4,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,3,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,4,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,5,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,6,Open Elective - I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,7,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,8,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,9,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,10,Program Elective - II,1,2,0,2,ELEC,Only,program_elective_slot,False,SRC052,124
+B Tech Artificial Intelligence,4,2,2027-28,11,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,1,Deep Learning,2,2,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,2,Computer Networks,2,2,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,3,Natural Language Processing,2,2,0,3,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,4,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,5,Program Elective - III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,6,Program Elective - IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,7,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,9,Responsible and Ethical AI,1,0,0,1,COMP,Only,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,10,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,124
+B Tech Artificial Intelligence,5,3,2028-29,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,124
+B Tech Artificial Intelligence,6,3,2028-29,1,Advanced Topics in Machine Learning,3,2,0,4,COMP,,course,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,2,Computer Vision for AI,2,2,0,3,COMP,,course,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,3,Program Elective - V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,4,Open Elective - III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,5,Open Elective - IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,6,Agile Product Development with DevOps,1,2,0,2,COMP,Only,course,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,7,Cloud Computing for AI,0,2,0,1,COMP,Only,course,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,8,Program Elective - VI,1,2,0,2,ELEC,Only,program_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,9,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,125
+B Tech Artificial Intelligence,6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,1,Applied Time Series Analysis,2,2,0,3,COMP,,course,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,2,Generative AI,2,2,0,3,COMP,,course,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,3,Program Elective - VII,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,4,Open Elective - V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,5,Program Elective - VIII,1,2,0,2,ELEC,Only,program_elective_slot,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,6,Capstone Project,0,10,0,5,COMP,Only,course,False,SRC052,125
+B Tech Artificial Intelligence,7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,125
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,1,1,2026-27,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,2,Intelligent Systems,2,2,0,3,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,4,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,5,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,6,Product Realization,1,2,0,2,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,7,English Communication,0,2,0,1,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,8,Environmental Studies,1,0,0,0,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,10,Transforming Ideas to Innovation,0,2,0,1,COMP,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,126
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,1,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,2,Operating Systems,3,2,0,4,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,3,Data Wrangling,1,4,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,4,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,5,Data Visualization and Interpretation,1,2,0,2,COMP,Only ICA,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,6,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,7,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,8,Technical Communication,0,0,1,1,COMP,Only,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,9,Community Service,0,0,0,0,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,10,Program Elective - I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,3,2,2027-28,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,1,Image and Video Processing,2,2,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,2,Machine Learning,3,2,0,4,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,3,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,4,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,5,Design and Analysis of Algorithms,3,2,0,4,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,6,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,7,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,8,Program Elective - II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,9,Open Elective - I,2,2,0,3,INTD,,open_elective_slot,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,10,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,4,2,2027-28,11,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,1,Computer Networks,3,2,0,4,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,2,Deep Learning,2,2,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,3,Responsible and Ethical AI,1,0,0,1,COMP,Only,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,4,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,5,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,6,Program Elective - III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,7,Quantum Machine Learning,2,2,0,3,COMP,,course,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,8,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,127
+B Tech Artificial Intelligence Machine Learning,5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,1,Natural Language Processing,2,2,0,3,COMP,,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,2,Agile Product Development with DevOps,1,2,0,2,COMP,Only,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,3,Big Data Analytics,2,2,0,3,COMP,,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,4,Program Elective - IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,5,Program Elective - V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,6,Open Elective - III,2,2,0,3,INTD,,open_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,7,Open Elective - IV,2,2,0,3,INTD,,open_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,8,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,9,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,1,Applied Time Series Analysis,2,2,0,3,COMP,,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,2,Advanced Topics in Machine Learning,3,2,0,4,COMP,,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,3,Program Elective - VI,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,4,Program Elective - VII,1,2,0,2,ELEC,,program_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,5,Capstone Project,0,10,0,5,COMP,Only,course,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,6,Open Elective - V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,128
+B Tech Artificial Intelligence Machine Learning,7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,128
+MBA Tech Data Science,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,3,Business Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,6,Principles of Management,1,0,0,1,COMP,,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,9,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,10,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,1,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,2,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,4,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,5,Microeconomics,2,0,0,2,COMP,,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,7,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,8,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,9,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,10,Data Wrangling Fundamentals and Practices,0,4,0,2,COMP,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,130
+MBA Tech Data Science,3,2,2027-28,1,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,130
+MBA Tech Data Science,3,2,2027-28,2,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,130
+MBA Tech Data Science,3,2,2027-28,3,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,130
+MBA Tech Data Science,3,2,2027-28,4,Managing Uncertainty,2,2,0,3,COMP,,course,False,SRC052,130
+MBA Tech Data Science,3,2,2027-28,5,Introduction to Data and Signal Analysis,1,2,0,2,COMP,,course,False,SRC052,130
+MBA Tech Data Science,3,2,2027-28,6,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,131
+MBA Tech Data Science,3,2,2027-28,7,Open Elective - I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,131
+MBA Tech Data Science,3,2,2027-28,8,Program Elective - I,1,2,0,2,ELEC,Only ICA,program_elective_slot,False,SRC052,131
+MBA Tech Data Science,3,2,2027-28,9,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,131
+MBA Tech Data Science,3,2,2027-28,10,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,131
+MBA Tech Data Science,3,2,2027-28,11,Community Service,0,0,0,0,COMP,,course,False,SRC052,131
+MBA Tech Data Science,3,2,2027-28,12,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,1,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,2,Computer Systems and Networking,2,2,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,3,Agile-driven Software Testing,2,2,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,4,Stochastic processes and Applications,1,2,0,2,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,5,Statistical Structures in Data and Inference,2,2,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,6,Program Elective - II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,7,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,8,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,9,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,10,Data Handling and Visualization,2,0,0,2,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,11,Macroeconomics,2,0,0,2,COMP,,course,False,SRC052,131
+MBA Tech Data Science,4,2,2027-28,12,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,1,Multi-modal Data Processing and Learning,2,2,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,2,Business Statistics,3,0,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,3,Fundamentals of Embedded Systems and IoT,2,2,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,4,Foundations of Machine Learning,3,2,0,4,COMP,,course,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,5,Program Elective - III,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,6,Program Elective - IV,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,7,Open Elective - III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,131
+MBA Tech Data Science,5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,131
+MBA Tech Data Science,6,3,2028-29,1,Applications of Machine Learning,1,2,0,2,COMP,,course,False,SRC052,131
+MBA Tech Data Science,6,3,2028-29,2,Applied Artificial Intelligence and Agentic System,2,2,0,3,COMP,,course,False,SRC052,131
+MBA Tech Data Science,6,3,2028-29,3,Decision Analysis and Modelling,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,4,Program Elective - V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,5,Open Elective - IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,6,Open Elective - V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,7,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,8,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,9,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,10,Generative AI Systems and Applications,2,2,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,6,3,2028-29,11,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,1,Neural Networks and Deep Learning,2,2,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,2,Speech and Natural Language Processing,1,2,0,2,COMP,,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,3,Operations Management,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,4,Financial Accounting and Analysis,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,5,Marketing Management,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,6,Data Visualisation for Business Decisions,3,0,0,3,COMP,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,7,Program Elective - VI,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,8,Technical Internship,0,10,0,5,COMP,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,7,4,2029-30,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,1,Big Data Analytics,2,2,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,2,Business Analytics,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,3,Logistics and Supply chain Management,2,0,0,2,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,4,Financial Management,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,5,B2B Marketing,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,6,Organizational Behaviour,3,0,0,3,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,7,Business Research Methods,2,0,0,2,COMP,,course,False,SRC052,132
+MBA Tech Data Science,8,4,2029-30,8,Entrepreneurship,2,0,0,2,COMP,Only ICA,course,False,SRC052,132
+MBA Tech Data Science,9,5,2030-31,1,Management of Technology and Innovation,2,0,0,2,COMP,,course,False,SRC052,132
+MBA Tech Data Science,9,5,2030-31,2,Human Resource Management,2,0,0,2,COMP,,course,False,SRC052,132
+MBA Tech Data Science,9,5,2030-31,3,Elective- 1,2,0,0,2,ELEC,,named_elective,False,SRC052,132
+MBA Tech Data Science,9,5,2030-31,4,Elective- 2,2,0,0,2,ELEC,,named_elective,False,SRC052,132
+MBA Tech Data Science,9,5,2030-31,5,Elective- 3,2,0,0,2,ELEC,,named_elective,False,SRC052,132
+MBA Tech Data Science,9,5,2030-31,6,Elective- 4,2,0,0,2,ELEC,,named_elective,False,SRC052,133
+MBA Tech Data Science,9,5,2030-31,7,Management Internship Programme,0,40,0,12,COMP,Only ICA,course,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,1,Strategic Management,3,0,0,3,COMP,,course,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,2,Sustainable Business Management Practices,2,0,0,2,COMP,,course,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,3,"Contract, Competition and Consumer Laws",2,0,0,2,COMP,,course,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,4,Elective- 5,2,0,0,2,ELEC,,named_elective,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,5,Elective- 6,2,0,0,2,ELEC,,named_elective,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,6,Elective- 7,2,0,0,2,ELEC,,named_elective,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,7,Elective- 8,2,0,0,2,ELEC,,named_elective,False,SRC052,133
+MBA Tech Data Science,10,5,2030-31,8,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,133
+B Tech Data Science,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,3,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,6,English Communication,0,2,0,1,COMP,Only,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,7,Engineering Ethics,1,0,0,1,COMP,Only,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,9,Constitution of India,1,0,0,0,COMP,Only,course,False,SRC052,134
+B Tech Data Science,1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,2,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,4,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,5,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,6,Product Realization,1,2,0,2,COMP,Only,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,7,Data Wrangling Fundamentals and Practices,0,4,0,2,COMP,Only,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,8,Essential Electronics Practices,0,2,0,1,COMP,Only,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,9,Technical Communication,0,0,1,1,COMP,Only,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,10,Environmental Studies,1,0,0,0,COMP,Only,course,False,SRC052,134
+B Tech Data Science,2,1,2026-27,11,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,134
+B Tech Data Science,3,2,2027-28,1,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,2,Data Structures and Algorithms,3,0,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,3,Managing Uncertainty,2,2,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,4,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,5,Introduction to Data and Signal Analysis,1,2,0,2,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,6,Object Oriented Programming,2,0,0,2,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,7,Data Handling and Visualization,2,0,0,2,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,8,Object Oriented Programming Lab,0,2,0,1,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,9,Data Structures and Algorithms Lab,0,2,0,1,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,10,Program Elective - I,1,2,0,2,ELEC,Only,program_elective_slot,False,SRC052,135
+B Tech Data Science,3,2,2027-28,11,Community Service,0,0,0,0,COMP,,course,False,SRC052,135
+B Tech Data Science,3,2,2027-28,12,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,1,Optimization Methods,2,2,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,2,Statistical Structures in Data and Inference,2,2,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,3,Fundamentals of Embedded Systems and IoT,2,2,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,4,Stochastic processes and Applications,1,2,0,2,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,5,Program Elective - II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,135
+B Tech Data Science,4,2,2027-28,6,Computer Systems and Networking,2,2,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,7,Database Management Systems,3,0,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,8,Database Management Systems Lab,0,2,0,1,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,9,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,135
+B Tech Data Science,4,2,2027-28,10,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,135
+B Tech Data Science,5,3,2028-29,1,Applied Artificial Intelligence and Agentic System,2,2,0,3,COMP,,course,False,SRC052,135
+B Tech Data Science,5,3,2028-29,2,Foundations of Machine Learning,3,2,0,4,COMP,,course,False,SRC052,135
+B Tech Data Science,5,3,2028-29,3,Program Elective - III,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,135
+B Tech Data Science,5,3,2028-29,4,Program Elective - IV,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,135
+B Tech Data Science,5,3,2028-29,5,Open Elective - I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,135
+B Tech Data Science,5,3,2028-29,6,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,135
+B Tech Data Science,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,135
+B Tech Data Science,5,3,2028-29,8,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,1,Applications of Machine Learning,1,2,0,2,COMP,,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,2,Multi-modal Data Processing and Learning,2,2,0,3,COMP,,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,3,Generative AI Systems and Applications,2,2,0,3,COMP,,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,4,Neural Networks and Deep Learning,2,2,0,3,COMP,,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,5,Program Elective - V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,136
+B Tech Data Science,6,3,2028-29,6,Open Elective - III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,136
+B Tech Data Science,6,3,2028-29,7,Open Elective - IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,136
+B Tech Data Science,6,3,2028-29,8,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,9,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,10,Transforming Ideas to Innovation,0,2,0,1,COMP,Only,course,False,SRC052,136
+B Tech Data Science,6,3,2028-29,11,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,136
+B Tech Data Science,7,4,2029-30,1,Agile-driven Software Testing,2,2,0,3,COMP,,course,False,SRC052,136
+B Tech Data Science,7,4,2029-30,2,Speech and Natural Language Processing,1,2,0,2,COMP,,course,False,SRC052,136
+B Tech Data Science,7,4,2029-30,3,Big Data Analytics,2,2,0,3,COMP,,course,False,SRC052,136
+B Tech Data Science,7,4,2029-30,4,Program Elective - VI,3,2,0,4,ELEC,,program_elective_slot,False,SRC052,136
+B Tech Data Science,7,4,2029-30,5,Open Elective - V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,136
+B Tech Data Science,7,4,2029-30,6,Capstone Project,0,10,0,5,COMP,Only,course,False,SRC052,136
+B Tech Data Science,7,4,2029-30,7,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,136
+M Tech Data Science (Business Analytics),1,1,2026-27,1,Applied Mathematics for Data Science,3,0,0,3,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,2,Programming for Analytics,3,0,0,3,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,3,Applied Machine Learning,3,0,0,3,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,4,Data Engineering,3,0,0,3,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,5,Professional Elective - I (Choose any one) Generative Adversarial Networks,3,0,0,3,ELEC,,named_elective,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,6,Professional Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,7,Lab - 1: Applied Machine Learning Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),1,1,2026-27,8,Lab - 2: Data Science Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,1,Advanced Artificial Intelligence & Deep Learning,3,0,0,3,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,2,Generative AI with Large Language Models,3,0,0,3,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,3,Natural Language Processing,2,0,0,2,COMP,,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,4,Career Development and Professional Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,5,Lab - 3: Building Generative AI based Applications,0,4,0,2,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,6,Lab - 4: Large Language Models Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,7,Technical Seminar - I,0,4,0,2,COMP,Only ICA,course,False,SRC052,137
+M Tech Data Science (Business Analytics),2,1,2026-27,8,Professional Elective - II (Choose any one) Ethics in Data Science,3,0,0,3,ELEC,,named_elective,False,SRC052,138
+M Tech Data Science (Business Analytics),2,1,2026-27,9,Professional Elective - III (Choose any one) Application Architecture & Deployment,3,0,0,3,ELEC,,named_elective,False,SRC052,138
+M Tech Data Science (Business Analytics),3,2,2027-28,1,Capstone Project,3,0,0,12,COMP,Only ICA,course,False,SRC052,138
+M Tech Data Science (Business Analytics),3,2,2027-28,2,Technical Seminar - II,0,24,0,2,COMP,Only ICA,course,False,SRC052,138
+M Tech Data Science (Business Analytics),3,2,2027-28,3,Machine Learning Operations,0,4,0,3,COMP,Only ICA,course,False,SRC052,138
+M Tech Data Science (Business Analytics),4,2,2027-28,1,Industrial Internship with Project,0,32,0,16,COMP,Only ICA,course,False,SRC052,138
+M Tech Artificial Intelligence,1,1,2026-27,1,Applied Statistics and Time Series Forecasting,3,0,0,3,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,2,Advanced Data Analysis and Programming,3,0,0,3,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,3,Data Engineering,3,0,0,3,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,4,Artificial Intelligence with Machine Learning,3,0,0,3,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,5,Natural Language Processing,2,0,0,2,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,6,Professional Elective - I (Choose any one) Application Architecture & Deployment,3,0,0,3,ELEC,,named_elective,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,7,Professional Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,8,Lab – 1: Visual Analytics Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,1,1,2026-27,9,Lab – 2: Artificial Intelligence Machine Learning Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,1,Artificial Intelligence - Deep Learning & Generative AI,3,0,0,3,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,2,Distributed Data Processing,3,0,0,3,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,3,Security Essentials in Applied AI,4,0,0,4,COMP,,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,4,Career Development and Professional Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,5,Lab – 3: Artificial Intelligence Applications Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,6,Lab – 4: Artificial Intelligence Deep Learning & Edge Lab,0,4,0,2,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,7,Technical Seminar - I,0,4,0,2,COMP,Only ICA,course,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,8,Professional Elective - II (Choose any one) Edge Computing,3,0,0,3,ELEC,,named_elective,False,SRC052,139
+M Tech Artificial Intelligence,2,1,2026-27,9,Professional Elective - III (Choose any one) Generative AI,3,0,0,3,ELEC,,named_elective,False,SRC052,139
+M Tech Artificial Intelligence,3,2,2027-28,1,Capstone Project,3,0,0,12,COMP,Only ICA,course,False,SRC052,140
+M Tech Artificial Intelligence,3,2,2027-28,2,Technical Seminar - II,0,24,0,2,COMP,Only ICA,course,False,SRC052,140
+M Tech Artificial Intelligence,3,2,2027-28,3,Machine Learning Operations,0,4,0,3,COMP,Only ICA,course,False,SRC052,140
+M Tech Artificial Intelligence,4,2,2027-28,1,Industrial Internship with Project,0,32,0,16,COMP,Only ICA,course,False,SRC052,140
+Diploma in Computer Science and Engineering,1,1,2026-27,1,Mathematics-I,3,0,1,4,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,2,Applied Physics-I,2,0,1,3,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,3,Applied Chemistry,2,0,0,2,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,4,Engineering Drawing,2,2,0,3,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,5,Computer Programming,2,2,0,3,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,6,Communication Skills,1,2,0,2,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,7,Engineering Workshop Practice,0,2,0,1,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,8,Applied Physics-I Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,1,1,2026-27,9,Applied Chemistry Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,1,Mathematics-II,3,0,1,4,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,2,Applied Physics-II,2,0,1,3,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,3,Introduction to Electrical and Electronics Engineering,2,0,1,3,COMP,-,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,4,Engineering Mechanics,2,2,1,4,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,5,Introduction to Object Oriented Programming,2,2,0,3,COMP,--,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,6,Applied Physics-II Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,7,Introduction to Electrical and Electronics Engineering Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,2,1,2026-27,8,Social and Life Skills,1,0,0,1,COMP,Only ICA,course,False,SRC052,141
+Diploma in Computer Science and Engineering,3,2,2027-28,1,Mathematics-III,3,0,1,4,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,2,Data Structures,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,3,Digital Techniques,3,2,0,4,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,4,Java Programming,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,5,Basic Computer Hardware and Troubleshooting,0,2,0,1,COMP,Only ICA,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,6,Introduction to Statistical Learning for Data Science,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,7,Computer System Architecture,2,0,0,2,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,3,2,2027-28,8,Community Engagement,0,0,0,0,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,1,Introduction to Database Management System,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,2,Website Designing,2,2,0,3,COMP,Only ICA,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,3,Data Communication and Computer Networks,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,4,Introduction to Random Processes,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,5,Introduction to Operating Systems,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,6,Entrepreneurship Development and Startups,2,0,0,2,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,7,Data Analysis and Visualization,1,2,0,2,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,4,2,2027-28,8,Internship,0,0,0,4,COMP,Only ICA,course,False,SRC052,142
+Diploma in Computer Science and Engineering,5,3,2028-29,1,Internet Security,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,5,3,2028-29,2,Development and Operations,3,2,0,4,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,5,3,2028-29,3,Capstone Project Planning and Execution,0,8,0,4,COMP,Only ICA,course,False,SRC052,142
+Diploma in Computer Science and Engineering,5,3,2028-29,4,Management Information System,2,2,0,3,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,5,3,2028-29,5,Emerging Trends in Information Technology,2,2,1,4,COMP,,course,False,SRC052,142
+Diploma in Computer Science and Engineering,6,3,2028-29,1,In-Plant Training,0,40,0,20,COMP,Only ICA,course,False,SRC052,142
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,3,Basic Electrical and Electronics Engineering,3,0,0,3,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,6,Essential Electronics Practices,0,2,0,1,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,7,English Communication,0,2,0,1,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,1,1,2026-27,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,2,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,4,Principles of Economics & management,3,0,0,3,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,5,Programming with Python,1,2,0,2,COMP,,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,6,Product Realization,1,2,0,2,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,7,Transforming Ideas to Innovation,0,2,0,1,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,8,Engineering Ethics,1,0,0,1,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,2,1,2026-27,10,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,144
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,1,Complex Variables and Transforms,3,0,1,4,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,2,Analog Circuits Analysis and Design,3,2,0,4,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,3,Digital Logic Design,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,4,Circuit and Network Theory,3,0,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,5,Signals and Systems,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,6,Data Structures and Algorithms,3,2,0,4,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,7,Technical Communication,0,0,1,1,COMP,Only,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,8,Community Service,0,0,0,0,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,3,2,2027-28,9,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,2,Control System Engineering,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,3,Communication Theory and Systems,3,2,0,4,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,5,Introduction to VLSI Technology,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,6,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,7,Program Elective – I,x,x,x,2,ELEC,,program_elective_slot,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,8,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,4,2,2027-28,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,1,Discrete Time Signal Processing,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,2,Discrete Mathematics,2,0,1,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,3,Computational Methods for Engineers,1,2,0,2,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,4,Computer Communication and Networks,2,2,0,3,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,5,Program Elective – II,x,x,x,3,ELEC,,program_elective_slot,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,6,Open Elective - I,x,x,x,3,INTD,,open_elective_slot,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,7,Open Elective - II,x,x,x,3,INTD,,open_elective_slot,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,9,Coursera,2,0,0,2,COUC,Only,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,5,3,2028-29,10,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,145
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,1,Wireless Communication Technology,2,2,0,3,COMP,,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,3,Interpersonal Skills,0,2,0,1,COMP,Only,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,4,Program Elective – III,x,x,x,3,ELEC,,program_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,5,Program Elective – IV,x,x,x,4,ELEC,,program_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,6,Open Elective - III,x,x,x,3,INTD,,open_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,7,Open Elective - IV,x,x,x,3,INTD,,open_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,8,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,6,3,2028-29,9,Coursera,1,0,0,1,COUC,Only,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,7,4,2029-30,1,Digital Voice and Broadband Communication,2,2,0,3,COMP,,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,7,4,2029-30,2,Fiber Optic Communication and Networks,3,2,0,4,COMP,,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,7,4,2029-30,3,Program Elective – V,x,x,x,4,ELEC,,program_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,7,4,2029-30,4,Program Elective – VI,x,x,x,4,ELEC,,program_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,7,4,2029-30,5,Open Elective - V,x,x,x,3,INTD,,open_elective_slot,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,7,4,2029-30,6,Capstone Project,0,10,0,5,COMP,Only,course,False,SRC052,146
+B Tech Electronics & Telecommunication Engineering Program,8,4,2029-30,1,Project,0,0,0,10,COMP,Only ICA,course,False,SRC052,146
+B Tech Civil Engineering,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,2,Environmental Science,1,0,1,2,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,4,Chemistry,2,2,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,5,Construction Technology,2,0,0,2,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,6,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,7,Engineering Workshop,0,4,0,2,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,8,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,9,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,1,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,3,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,4,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,5,Engineering Mechanics,2,2,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,6,Geology,2,2,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,7,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,8,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,2,1,2026-27,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,1,Complex Variables and Transforms,3,0,1,4,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,2,Strength of Materials,2,2,1,4,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,3,Surveying,2,2,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,4,Transportation Engineering,2,2,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,5,Building Design and Drawing,1,2,0,2,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,6,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,7,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,8,Community Service,0,0,0,0,COMP,,course,False,SRC052,148
+B Tech Civil Engineering,3,2,2027-28,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,148
+B Tech Civil Engineering,4,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,2,Concrete Technology,2,2,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,3,Soil Mechanics,3,2,0,4,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,4,Fluid Mechanics and Hydraulics,2,2,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,5,Theory of Structures,3,0,1,4,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,6,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,7,Program Elective – I,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,8,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,4,2,2027-28,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,1,Design of Reinforced Concrete Structures,2,0,2,4,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,2,Hydraulics and Fluid Machinery,2,2,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,3,Foundation Engineering,2,2,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,4,Program Elective – II,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,5,Open Elective – I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,6,Open Elective – II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,8,Python for Civil Engineering,0,4,0,2,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,5,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,1,Water and Wastewater Engineering,2,2,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,2,Sustainable Buildings,2,0,0,2,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,3,Program Elective – III,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,4,Program Elective – IV,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,5,Open Elective – III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,6,Open Elective – IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,7,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,8,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,9,Design of Steel Structures,3,0,0,3,COMP,,course,False,SRC052,149
+B Tech Civil Engineering,6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,149
+B Tech Civil Engineering,7,4,2029-30,1,Construction Project Management and Finance,3,0,0,3,COMP,,course,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,2,"Quantity Surveying, Estimation and Valuation",3,2,0,4,COMP,,course,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,3,Program Elective – V,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,4,Program Elective – VI,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,5,Open Elective – V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,6,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,7,Building Information Modelling,0,4,0,2,COMP,Only ICA,course,False,SRC052,150
+B Tech Civil Engineering,7,4,2029-30,8,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,150
+B Tech Mechanical Engineering,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,2,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,5,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,6,Engineering Graphics and Design,1,2,0,2,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,7,Essential Electronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,8,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,1,1,2026-27,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,2,Chemistry,3,2,0,3,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,3,Physics,2,2,0,4,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,5,Environmental Science,1,0,1,2,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,6,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,7,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,8,Program Elective - I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,152
+B Tech Mechanical Engineering,2,1,2026-27,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,1,Complex Variables and Transforms,3,0,1,4,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,2,Engineering Mechanics,2,2,0,3,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,3,Materials Engineering,2,2,0,3,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,4,Manufacturing Processes-I,2,0,0,2,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,5,Machine Drawing,2,2,0,3,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,6,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,7,Program Elective - II,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,8,Machine Shop-I,0,2,0,1,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,9,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,10,Community Service,0,0,0,0,COMP,,course,False,SRC052,152
+B Tech Mechanical Engineering,3,2,2027-28,11,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,152
+B Tech Mechanical Engineering,4,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,2,Engineering Thermodynamics,3,0,0,3,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,3,Classical Physics,2,2,0,3,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,4,Manufacturing Processes-II,2,0,0,2,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,5,Strength of Materials,2,2,0,3,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,6,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,7,Program Elective - III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,8,Machine Shop-II,0,2,0,1,COMP,Only ICA,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,9,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,4,2,2027-28,11,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,1,Kinematics and Dynamics of Machines,3,2,0,4,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,2,CAD/CAM/CIM,2,2,0,3,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,3,Applied Thermodynamics,3,2,0,4,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,4,Program Elective - IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,5,Open Elective - I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,6,Open Elective - II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,7,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,5,3,2028-29,8,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,1,Fluid Mechanics and Machinery,3,2,0,4,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,2,Additive Manufacturing,2,2,0,3,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,3,Design of Machine Elements,3,2,0,4,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,4,Program Elective - V,3,0,0,3,ELEC,,program_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,5,Open Elective - III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,6,Open Elective - IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,7,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,8,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,153
+B Tech Mechanical Engineering,6,3,2028-29,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,153
+B Tech Mechanical Engineering,7,4,2029-30,1,Finite Element Analysis,3,2,0,4,COMP,,course,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,2,Mechanical Measurements and Metrology,2,2,0,3,COMP,,course,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,3,Heat Transfer,3,2,0,4,COMP,,course,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,4,Industrial Applications of HVAC,1,2,0,2,COMP,Only ICA,course,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,5,Program Elective - VI,2,0,0,3,ELEC,,program_elective_slot,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,6,Open Elective - V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,7,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,154
+B Tech Mechanical Engineering,7,4,2029-30,8,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,154
+Diploma in Mechanical Engineering,1,1,2026-27,1,Mathematics-I,3,0,1,4,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,2,Applied Physics-I,2,0,1,3,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,3,Applied Chemistry,2,0,0,2,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,4,Engineering Drawing,2,2,0,3,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,5,Computer Programming,2,2,0,3,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,6,Communication Skills,1,2,0,2,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,7,Engineering Workshop Practice,0,2,0,1,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,8,Applied Physics-I Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,1,1,2026-27,9,Applied Chemistry Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,1,Mathematics-II,3,0,1,4,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,2,Applied Physics-II,2,0,1,3,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,3,Introduction to Electrical and Electronics Engineering,2,0,1,3,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,4,Engineering Mechanics,2,2,1,4,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,5,Introduction to Object Oriented Programming,2,2,0,3,COMP,--,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,6,Applied Physics-II Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,7,Introduction to Electrical and Electronics Engineering Lab,0,2,0,1,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,8,Social and Life Skills,1,0,0,1,COMP,Only ICA,course,False,SRC052,155
+Diploma in Mechanical Engineering,2,1,2026-27,1,Mathematics-III,3,0,1,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,2,Elements of Mechanical Engineering,3,0,0,3,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,3,Basic Thermodynamics,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,4,Production Drawing,2,2,0,3,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,5,Solid Mechanics,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,6,Materials Engineering and Metallurgy,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,7,Community Engagement,0,0,0,0,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,1,Basic Manufacturing Processes,3,0,0,3,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,2,Engineering Metrology and Measurement,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,3,Theory of Machines,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,4,Fluid Mechanics and Hydraulic Machinery,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,5,Entrepreneurship Development and Startups,2,0,0,2,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,6,Manufacturing Workshop,0,2,0,1,COMP,Only ICA,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,1,Machine Design,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,2,Manufacturing Management,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,3,Refrigeration and Air Conditioning,3,2,0,4,COMP,,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,4,Capstone Project Planning and Execution,0,8,0,4,COMP,Only ICA,course,False,SRC052,156
+Diploma in Mechanical Engineering,2,1,2026-27,1,In-Plant Training,0,40,0,20,COMP,Only ICA,course,False,SRC052,156
+B Tech Mechatronics Engineering,1,1,2026-27,1,Calculus,3,0,1,4,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,2,Physics,3,2,0,4,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,3,Elements of Biology,2,0,1,3,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,4,Computational Thinking for Problem Solving,3,2,0,4,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,5,Engineering Graphics and Design,1,2,0,2,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,6,Engineering Ethics,1,0,0,1,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,7,Constitution of India,1,0,0,0,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,8,Indian Knowledge System,1,0,0,0,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,1,1,2026-27,9,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,1,Linear Algebra and Differential Equations,3,2,0,4,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,2,Transforming Ideas to Innovation,0,2,0,1,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,3,Quantum Physics,2,2,0,3,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,4,English Communication,0,2,0,1,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,5,Basic Electrical and Electronics Engineering,2,2,0,3,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,6,Essential Mechatronics Practices,0,2,0,1,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,7,Principles of Economics and Management,3,0,0,3,COMP,,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,8,Product Realization,1,2,0,2,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,9,Environmental Studies,1,0,0,0,COMP,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,2,1,2026-27,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,158
+B Tech Mechatronics Engineering,3,2,2027-28,1,Complex Variables and Transforms,3,0,1,4,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,2,Mechanics and Mechanisms,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,3,Management Accounting for Engineers,2,0,0,2,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,4,Data Structures and Algorithms,3,2,0,4,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,5,Digital Logic Design,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,6,Classical Control Systems,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,7,Thermodynamics,2,0,1,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,8,Technical Communication,0,0,1,1,COMP,Only ICA,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,9,Community Service,0,0,0,0,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,3,2,2027-28,10,Coursera,1,0,0,1,COUC,Only ICA,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,1,Probability and Statistics,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,2,Dynamic Systems Modeling,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,3,Microprocessor Systems and Interfacing,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,4,Strength of Solids,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,5,Signals and Image Processing,3,2,0,4,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,6,Electronic Systems,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,7,Materials and Energy Chemistry,2,2,0,3,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,8,Design Experience I,0,2,0,1,COMP,,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,9,Interpersonal Skills,0,2,0,1,COMP,Only ICA,course,False,SRC052,159
+B Tech Mechatronics Engineering,4,2,2027-28,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,159
+B Tech Mechatronics Engineering,5,3,2028-29,1,Industrial Drives,2,2,0,3,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,2,PLCs and Instrumentation,2,2,0,3,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,3,Manufacturing Processes,2,2,0,3,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,4,Program Elective – I,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,5,Program Elective – II,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,6,Open Elective -I,3,0,0,3,INTD,,open_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,7,Open Elective -II,3,0,0,3,INTD,,open_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,8,Design Experience II,0,4,0,2,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,5,3,2028-29,9,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,1,Project Methodology,0,2,0,1,COMP,Only ICA,course,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,2,Supervisory Control and Data Acquisition,2,2,0,3,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,3,Fluid Power Automation,2,2,0,3,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,4,Artificial Intelligence and Machine Learning,2,2,0,3,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,5,Program Elective – III,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,6,Program Elective – IV,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,7,Open Elective -III,3,0,0,3,INTD,,open_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,8,Open Elective -IV,3,0,0,3,INTD,,open_elective_slot,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,9,Design Experience III,0,4,0,2,COMP,,course,False,SRC052,160
+B Tech Mechatronics Engineering,6,3,2028-29,10,Coursera,2,0,0,2,COUC,Only ICA,course,False,SRC052,160
+B Tech Mechatronics Engineering,7,4,2029-30,1,Mechatronic Systems Design,2,2,0,3,COMP,,course,False,SRC052,161
+B Tech Mechatronics Engineering,7,4,2029-30,2,Robotic Systems Design,2,2,0,3,COMP,,course,False,SRC052,161
+B Tech Mechatronics Engineering,7,4,2029-30,3,Capstone Project,0,10,0,5,COMP,Only ICA,course,False,SRC052,161
+B Tech Mechatronics Engineering,7,4,2029-30,4,Program Elective – V,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,161
+B Tech Mechatronics Engineering,7,4,2029-30,5,Program Elective – VI,2,2,0,3,ELEC,,program_elective_slot,False,SRC052,161
+B Tech Mechatronics Engineering,7,4,2029-30,6,Open Elective -V,3,0,0,3,INTD,,open_elective_slot,False,SRC052,161
+B Tech Mechatronics Engineering,7,4,2029-30,7,Coursera,1,0,0,1,COUC,,course,False,SRC052,161

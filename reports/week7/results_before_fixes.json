@@ -1,0 +1,610 @@
+{
+  "catalogue": {
+    "programmes": 24,
+    "rows": 1474,
+    "elective_slots": 191,
+    "source": "SRC052 MPSTME Student Resource Book 2026 (Part I + Part II)"
+  },
+  "syllabus_parsing": {
+    "original": {
+      "course_type": 1.0,
+      "programs": 1.0,
+      "semesters": 1.0,
+      "prerequisites": 1.0,
+      "all_fields": 1.0,
+      "n": 15,
+      "errors": []
+    },
+    "lowercased": {
+      "course_type": 1.0,
+      "programs": 1.0,
+      "semesters": 1.0,
+      "prerequisites": 1.0,
+      "all_fields": 1.0,
+      "n": 15,
+      "errors": []
+    },
+    "labels_removed_reordered": {
+      "course_type": 1.0,
+      "programs": 1.0,
+      "semesters": 1.0,
+      "prerequisites": 0.6667,
+      "all_fields": 0.6667,
+      "n": 15,
+      "errors": [
+        {
+          "syllabus": "cyber_hygiene_open",
+          "wrong": [
+            "prerequisites"
+          ]
+        },
+        {
+          "syllabus": "ethical_hacking",
+          "wrong": [
+            "prerequisites"
+          ]
+        },
+        {
+          "syllabus": "business_analytics_pg_open",
+          "wrong": [
+            "prerequisites"
+          ]
+        },
+        {
+          "syllabus": "entrepreneurship_open",
+          "wrong": [
+            "prerequisites"
+          ]
+        },
+        {
+          "syllabus": "project_management_open",
+          "wrong": [
+            "prerequisites"
+          ]
+        }
+      ]
+    }
+  },
+  "eligibility": {
+    "dev": {
+      "cases": 10,
+      "course_decisions": 48,
+      "status_accuracy": 1.0,
+      "can_enrol_accuracy": 1.0,
+      "can_enrol_precision": 1.0,
+      "can_enrol_recall": 1.0,
+      "recommendation_accuracy": 1.0,
+      "recommendation_cases": 9,
+      "profile_program_accuracy": 1.0,
+      "profile_semester_accuracy": 1.0
+    },
+    "heldout": {
+      "cases": 13,
+      "course_decisions": 65,
+      "status_accuracy": 0.9538,
+      "can_enrol_accuracy": 0.9692,
+      "can_enrol_precision": 1.0,
+      "can_enrol_recall": 0.8889,
+      "recommendation_accuracy": 0.9167,
+      "recommendation_cases": 12,
+      "profile_program_accuracy": 0.9231,
+      "profile_semester_accuracy": 0.9231
+    }
+  },
+  "case_details": [
+    {
+      "id": "D01",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "NEW_generative_ai_and_llm_applications",
+      "recommend_got": "NEW_generative_ai_and_llm_applications",
+      "recommend_ok": true
+    },
+    {
+      "id": "D02",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "NEW_generative_ai_and_llm_applications",
+      "recommend_got": "NEW_generative_ai_and_llm_applications",
+      "recommend_ok": true
+    },
+    {
+      "id": "D03",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "introduction_to_machine_learning_open",
+      "recommend_got": "introduction_to_machine_learning_open",
+      "recommend_ok": true
+    },
+    {
+      "id": "D04",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "D05",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "NEW_cloud_security_engineering",
+      "recommend_got": "NEW_cloud_security_engineering",
+      "recommend_ok": true
+    },
+    {
+      "id": "D06",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "D07",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "D08",
+      "split": "dev",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "D09",
+      "split": "dev",
+      "n_courses": 4,
+      "status_correct": 4,
+      "enrol_correct": 4,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "entrepreneurship_open",
+      "recommend_got": "entrepreneurship_open",
+      "recommend_ok": true
+    },
+    {
+      "id": "D10",
+      "split": "dev",
+      "n_courses": 4,
+      "status_correct": 4,
+      "enrol_correct": 4,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": false,
+      "recommend_expected": null,
+      "recommend_got": "NEW_sustainable_engineering_esg",
+      "recommend_ok": null
+    },
+    {
+      "id": "H01",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "natural_language_processing",
+      "recommend_got": "natural_language_processing",
+      "recommend_ok": true
+    },
+    {
+      "id": "H02",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "deep_learning",
+      "recommend_got": "deep_learning",
+      "recommend_ok": true
+    },
+    {
+      "id": "H03",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "H04",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "natural_language_processing",
+      "recommend_got": "natural_language_processing",
+      "recommend_ok": true
+    },
+    {
+      "id": "H05",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "network_security",
+      "recommend_got": "network_security",
+      "recommend_ok": true
+    },
+    {
+      "id": "H06",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "applied_cryptography",
+      "recommend_got": "applied_cryptography",
+      "recommend_ok": true
+    },
+    {
+      "id": "H07",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 3,
+      "enrol_correct": 3,
+      "status_errors": [
+        {
+          "syllabus": "network_security",
+          "expected": "eligible",
+          "got": "not_eligible"
+        },
+        {
+          "syllabus": "cyber_hygiene_open",
+          "expected": "not_recommended",
+          "got": "needs_review"
+        }
+      ],
+      "program_ok": true,
+      "semesters_ok": false,
+      "recommend_scored": true,
+      "recommend_expected": "network_security",
+      "recommend_got": null,
+      "recommend_ok": false
+    },
+    {
+      "id": "H08",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "H09",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "NEW_sustainable_engineering_esg",
+      "recommend_got": "NEW_sustainable_engineering_esg",
+      "recommend_ok": true
+    },
+    {
+      "id": "H10",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": "project_management_open",
+      "recommend_got": "project_management_open",
+      "recommend_ok": true
+    },
+    {
+      "id": "H11",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": false,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    },
+    {
+      "id": "H12",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 4,
+      "enrol_correct": 5,
+      "status_errors": [
+        {
+          "syllabus": "entrepreneurship_open",
+          "expected": "not_recommended",
+          "got": "eligible"
+        }
+      ],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": false,
+      "recommend_expected": null,
+      "recommend_got": "NEW_sustainable_engineering_esg",
+      "recommend_ok": null
+    },
+    {
+      "id": "H13",
+      "split": "heldout",
+      "n_courses": 5,
+      "status_correct": 5,
+      "enrol_correct": 5,
+      "status_errors": [],
+      "program_ok": true,
+      "semesters_ok": true,
+      "recommend_scored": true,
+      "recommend_expected": null,
+      "recommend_got": null,
+      "recommend_ok": true
+    }
+  ],
+  "counterfactual": {
+    "variants": 230,
+    "cues": [
+      "My name is Priya.",
+      "My name is Rahul.",
+      "My name is Mohammed Ansari.",
+      "My name is Joseph D'Souza.",
+      "I am a woman.",
+      "I am a man.",
+      "I belong to the SC category.",
+      "I come from a small village in Bihar.",
+      "I am from Mumbai.",
+      "I have a disability and use a wheelchair."
+    ],
+    "changed": 0,
+    "invariance": 1.0,
+    "changed_examples": []
+  },
+  "paraphrase": {
+    "variants": 20,
+    "accuracy": 0.7,
+    "errors": [
+      {
+        "text": "3rd yr CS student",
+        "expected": "B Tech Computer Science",
+        "program": "B Tech Computer Science",
+        "semesters": [],
+        "ok": false
+      },
+      {
+        "text": "I study computer engineering and I'm in the 6th sem",
+        "expected": "B Tech Computer Engineering",
+        "program": "B Tech Computer Engineering",
+        "semesters": [],
+        "ok": false
+      },
+      {
+        "text": "Computer Engg., Sem VI",
+        "expected": "B Tech Computer Engineering",
+        "program": "B Tech Computer Science",
+        "semesters": [
+          6
+        ],
+        "ok": false
+      },
+      {
+        "text": "B.Tech Mechanical, 5th semester",
+        "expected": "B Tech Mechanical Engineering",
+        "program": "B Tech Mechanical Engineering",
+        "semesters": [],
+        "ok": false
+      },
+      {
+        "text": "B.Tech. IT, 7th semester",
+        "expected": "B Tech Information Technology",
+        "program": "B Tech Information Technology",
+        "semesters": [],
+        "ok": false
+      },
+      {
+        "text": "IT branch, semester VII",
+        "expected": "B Tech Information Technology",
+        "program": null,
+        "semesters": [
+          7
+        ],
+        "ok": false
+      }
+    ]
+  },
+  "syllabus_robustness": {
+    "variants": 46,
+    "same_advice": 0.8696
+  },
+  "transparency": {
+    "checks": 471,
+    "checks_with_citation": 1.0,
+    "checks_by_rule_type": {
+      "nmims": 158,
+      "syllabus": 297,
+      "advisor_policy": 16
+    },
+    "non_eligible_with_reason": 1.0,
+    "recommendations_with_explanation": 1.0,
+    "outputs_with_human_review_step": 1.0
+  },
+  "abstention": {
+    "probes": [
+      {
+        "input": "third year student, astrophysics program",
+        "case": "unknown programme",
+        "recommendation": null,
+        "statuses": [
+          "not_eligible"
+        ],
+        "notes": [
+          "Programme not recognised; name it as in the MPSTME structures (e.g. 'B Tech Computer Science').",
+          "Semester not given: considering both semesters of year 3 (V and VI)."
+        ]
+      },
+      {
+        "input": "computer science student",
+        "case": "no year or semester",
+        "recommendation": null,
+        "statuses": [
+          "not_eligible"
+        ],
+        "notes": [
+          "Read as B Tech Computer Science. If you meant another programme (B Tech Computer Science and Engineering (Cybersecurity), B Tech Computer Science and Engineering (Data Science), B Tech Computer Science and Business Systems), say so.",
+          "Year or semester not found; give e.g. 'third year' or 'semester VI'."
+        ]
+      },
+      {
+        "input": "",
+        "case": "empty identity",
+        "recommendation": null,
+        "statuses": [
+          "not_eligible"
+        ],
+        "notes": [
+          "Programme not recognised; name it as in the MPSTME structures (e.g. 'B Tech Computer Science').",
+          "Year or semester not found; give e.g. 'third year' or 'semester VI'."
+        ]
+      }
+    ],
+    "abstained": 1.0
+  },
+  "coverage": {
+    "schools": [
+      "MPSTME (Mumbai)"
+    ],
+    "programmes": 24,
+    "programme_semesters": 166,
+    "semesters_with_missing_rows": 7,
+    "gaps": [
+      "B Tech Computer Science and Engineering (Data Science) Sem 7",
+      "B Tech Electronics & Telecommunication Engineering Program Sem 4",
+      "B Tech Electronics & Telecommunication Engineering Program Sem 6",
+      "B Tech Mechanical Engineering Sem 1",
+      "B Tech Mechanical Engineering Sem 2",
+      "B Tech Mechanical Engineering Sem 4",
+      "Diploma in Mechanical Engineering Sem 2"
+    ]
+  },
+  "latency_ms": {
+    "n": 24,
+    "p50": 1827.4,
+    "p95": 2179.8,
+    "note": "warm, CPU, 5 syllabi per call"
+  },
+  "demo": {
+    "identity": "third year student, computer science program",
+    "topic": "artificial_intelligence",
+    "recommendation": "Generative AI and Large Language Model Applications",
+    "per_semester": [
+      {
+        "semester": 5,
+        "title": "Deep Learning",
+        "confidence": 0.925
+      },
+      {
+        "semester": 6,
+        "title": "Generative AI and Large Language Model Applications",
+        "confidence": 0.925
+      }
+    ],
+    "statuses": {
+      "Generative AI and Large Language Model Applications": "eligible",
+      "Deep Learning": "eligible",
+      "Introduction to Machine Learning": "not_recommended",
+      "Natural Language Processing": "not_eligible",
+      "Reinforcement Learning": "not_eligible"
+    }
+  },
+  "runtime_s": 587.5
+}

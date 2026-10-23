@@ -1,0 +1,946 @@
+{
+  "request_id": null,
+  "student": {
+    "program": "B Tech Computer Science",
+    "program_alternatives": [
+      "B Tech Computer Science and Engineering (Cybersecurity)",
+      "B Tech Computer Science and Engineering (Data Science)",
+      "B Tech Computer Science and Business Systems",
+      "Diploma in Computer Science and Engineering",
+      "Diploma in Computer Engineering"
+    ],
+    "program_match": "exact",
+    "degree_level": "UG",
+    "year": 3,
+    "semesters": [
+      5,
+      6
+    ],
+    "completed_courses": [
+      "Calculus",
+      "Physics",
+      "Basic Electrical and Electronics Engineering",
+      "Computational Thinking for Problem Solving",
+      "Engineering Graphics and Design",
+      "Essential Electronics Practices",
+      "Engineering Ethics",
+      "Indian Knowledge System",
+      "Constitution of India",
+      "Coursera",
+      "Linear Algebra and Differential Equations",
+      "Quantum Physics",
+      "Object Oriented Programming",
+      "Object Oriented Programming Lab",
+      "Elements of Biology",
+      "Programming with Python",
+      "Product Realization",
+      "English Communication",
+      "Transforming Ideas to Innovation",
+      "Environmental Studies",
+      "Coursera",
+      "Probability and Statistics",
+      "Principles of Economics and Management",
+      "Digital Circuits and Computer Architecture",
+      "Discrete Mathematics",
+      "Computer Networks",
+      "Data Extraction and Processing",
+      "Technical Communication",
+      "Data Structures and Algorithms",
+      "Data Structures and Algorithms Lab",
+      "Community Service",
+      "Coursera",
+      "Operating Systems",
+      "Database Management Systems",
+      "Artificial Intelligence and Machine Learning",
+      "Complex Variables and Transforms",
+      "Database Management Systems Lab",
+      "Design Experience I",
+      "Theoretical Computer Science",
+      "Design and Analysis of Algorithms",
+      "Coursera"
+    ],
+    "interests": null,
+    "confidence": {
+      "score": 0.85,
+      "level": "high",
+      "method": "programme match (exact / partial) x year or semester found"
+    },
+    "notes": [
+      "Read as B Tech Computer Science. If you meant another programme (B Tech Computer Science and Engineering (Cybersecurity), B Tech Computer Science and Engineering (Data Science), B Tech Computer Science and Business Systems), say so.",
+      "Semester not given: considering both semesters of year 3 (V and VI)."
+    ]
+  },
+  "syllabi": [
+    {
+      "name": "deep_learning.md",
+      "title": "Deep Learning",
+      "code": "CS-PE-512",
+      "course_type": "program_elective",
+      "programs": [
+        "B Tech Computer Science and Business Systems",
+        "B Tech Information Technology",
+        "B Tech Computer Engineering",
+        "B Tech Computer Science"
+      ],
+      "open_to_all": null,
+      "level": "UG",
+      "semesters": [
+        5
+      ],
+      "credits": 4,
+      "prerequisites": [
+        "Machine Learning",
+        "Linear Algebra"
+      ],
+      "topics": [
+        "Neural networks: perceptron, multilayer networks, backpropagation, activation functions.",
+        "Optimisation: SGD, momentum, Adam, batch normalisation, dropout, weight decay.",
+        "Convolutional networks: convolution, pooling, ResNet, transfer learning.",
+        "Sequence models: RNN, LSTM, GRU, sequence-to-sequence learning.",
+        "Practical deep learning: PyTorch, GPUs, experiment tracking."
+      ],
+      "is_new": false,
+      "fields_found": {
+        "title": "labelled",
+        "course_type": "labelled",
+        "programs": "labelled",
+        "semesters": "labelled",
+        "prerequisites": "labelled"
+      },
+      "parse_confidence": 1.0
+    },
+    {
+      "name": "introduction_to_machine_learning_open.md",
+      "title": "Introduction to Machine Learning",
+      "code": "OE-507",
+      "course_type": "open_elective",
+      "programs": [],
+      "open_to_all": "UG",
+      "level": "UG",
+      "semesters": [
+        5
+      ],
+      "credits": 3,
+      "prerequisites": [
+        "Probability and Statistics"
+      ],
+      "topics": [
+        "What is machine learning; supervised and unsupervised learning; the ML workflow.",
+        "Regression: linear regression, regularisation, evaluation.",
+        "Classification: logistic regression, decision trees, k-nearest neighbours.",
+        "Clustering and dimensionality reduction: k-means, PCA.",
+        "Machine learning in engineering practice: case studies, ethics."
+      ],
+      "is_new": false,
+      "fields_found": {
+        "title": "labelled",
+        "course_type": "labelled",
+        "programs": "labelled",
+        "semesters": "labelled",
+        "prerequisites": "labelled"
+      },
+      "parse_confidence": 1.0
+    },
+    {
+      "name": "natural_language_processing.md",
+      "title": "Natural Language Processing",
+      "code": "CE-PE-614",
+      "course_type": "program_elective",
+      "programs": [
+        "B Tech Information Technology",
+        "B Tech Computer Engineering"
+      ],
+      "open_to_all": null,
+      "level": "UG",
+      "semesters": [
+        6
+      ],
+      "credits": 3,
+      "prerequisites": [
+        "Machine Learning",
+        "Probability and Statistics"
+      ],
+      "topics": [
+        "CO1 Pre-process and represent text (tokenisation, n-grams, TF-IDF, word embeddings).",
+        "CO2 Build sequence labelling models for part-of-speech tagging and named entity recognition.",
+        "CO3 Apply transformer encoders to classification and question answering.",
+        "Text processing: tokenisation, morphology, regular expressions, edit distance.",
+        "Language models: n-gram models, smoothing, perplexity.",
+        "Text classification: naive Bayes, logistic regression, evaluation.",
+        "Sequence labelling: HMMs, CRFs, named entity recognition.",
+        "Word embeddings and transformers: word2vec, attention, BERT fine-tuning."
+      ],
+      "is_new": false,
+      "fields_found": {
+        "title": "labelled",
+        "course_type": "labelled",
+        "programs": "labelled",
+        "semesters": "labelled",
+        "prerequisites": "labelled"
+      },
+      "parse_confidence": 1.0
+    },
+    {
+      "name": "NEW_generative_ai_and_llm_applications.txt",
+      "title": "Generative AI and Large Language Model Applications",
+      "code": null,
+      "course_type": "program_elective",
+      "programs": [
+        "B Tech Artificial Intelligence",
+        "B Tech Computer Engineering",
+        "B Tech Computer Science"
+      ],
+      "open_to_all": null,
+      "level": "UG",
+      "semesters": [
+        6
+      ],
+      "credits": 3,
+      "prerequisites": [
+        "Data Structures and Algorithms",
+        "Machine Learning"
+      ],
+      "topics": [
+        "the transformer architecture and pre-training",
+        "prompting and in-context learning",
+        "retrieval-augmented generation over a document collection",
+        "fine-tuning with parameter-efficient methods (LoRA)",
+        "evaluating generated text and detecting hallucinations",
+        "agents and tool use",
+        "safety",
+        "bias and responsible deployment of generative AI"
+      ],
+      "is_new": true,
+      "fields_found": {
+        "title": "inferred",
+        "course_type": "inferred",
+        "programs": "inferred",
+        "semesters": "inferred",
+        "prerequisites": "inferred"
+      },
+      "parse_confidence": 1.0
+    },
+    {
+      "name": "reinforcement_learning.md",
+      "title": "Reinforcement Learning",
+      "code": "AI-PE-721",
+      "course_type": "program_elective",
+      "programs": [
+        "B Tech Artificial Intelligence",
+        "B Tech Computer Science"
+      ],
+      "open_to_all": null,
+      "level": "UG",
+      "semesters": [
+        7
+      ],
+      "credits": 3,
+      "prerequisites": [
+        "Deep Learning",
+        "Probability and Statistics"
+      ],
+      "topics": [
+        "Markov decision processes, returns, value functions, Bellman equations.",
+        "Dynamic programming, Monte Carlo and temporal-difference learning.",
+        "Function approximation, deep Q-networks.",
+        "Policy gradients, actor-critic methods, PPO.",
+        "Applications: games, robotics, recommendation."
+      ],
+      "is_new": false,
+      "fields_found": {
+        "title": "labelled",
+        "course_type": "labelled",
+        "programs": "labelled",
+        "semesters": "labelled",
+        "prerequisites": "labelled"
+      },
+      "parse_confidence": 1.0
+    }
+  ],
+  "assessments": [
+    {
+      "name": "NEW_generative_ai_and_llm_applications.txt",
+      "title": "Generative AI and Large Language Model Applications",
+      "is_new": true,
+      "status": "eligible",
+      "semester": 6,
+      "slot": "Program Elective-III",
+      "checks": [
+        {
+          "id": "level",
+          "label": "Programme level",
+          "status": "pass",
+          "detail": "UG course; you are in a UG programme.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 14,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": "The CBCS offerings of courses will be opted from a UG Program to a UG Program and a PG Program to a PG Program"
+            },
+            {
+              "source": "NEW_generative_ai_and_llm_applications.txt",
+              "title": "Syllabus: Generative AI and Large Language Model Applications",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "program",
+          "label": "Offered to your programme",
+          "status": "pass",
+          "detail": "Offered to B Tech Computer Science.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "NEW_generative_ai_and_llm_applications.txt",
+              "title": "Syllabus: Generative AI and Large Language Model Applications",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "semester",
+          "label": "Semester",
+          "status": "pass",
+          "detail": "Taught in Semester VI; you are in Semester V/VI.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "NEW_generative_ai_and_llm_applications.txt",
+              "title": "Syllabus: Generative AI and Large Language Model Applications",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "slot",
+          "label": "Elective slot in your programme structure",
+          "status": "pass",
+          "detail": "B Tech Computer Science, Semester VI has Program Elective-III, Program Elective-IV.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 106,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "prerequisites",
+          "label": "Prerequisites completed",
+          "status": "pass",
+          "detail": "Data Structures and Algorithms: Data Structures and Algorithms (Sem III); Machine Learning: Artificial Intelligence and Machine Learning (Sem IV)",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "NEW_generative_ai_and_llm_applications.txt",
+              "title": "Syllabus: Generative AI and Large Language Model Applications",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "prerequisite": "Data Structures and Algorithms",
+          "matched_course": "Data Structures and Algorithms",
+          "semester": 3,
+          "score": 1.0,
+          "status": "pass"
+        },
+        {
+          "prerequisite": "Machine Learning",
+          "matched_course": "Artificial Intelligence and Machine Learning",
+          "semester": 4,
+          "score": 1.0,
+          "status": "pass"
+        }
+      ],
+      "fit_score": 0.86,
+      "interest_match": null,
+      "novelty": 0.651,
+      "reasons": [
+        "Offered to B Tech Computer Science.",
+        "B Tech Computer Science, Semester VI has Program Elective-III, Program Elective-IV.",
+        "Data Structures and Algorithms: Data Structures and Algorithms (Sem III); Machine Learning: Artificial Intelligence and Machine Learning (Sem IV)"
+      ]
+    },
+    {
+      "name": "deep_learning.md",
+      "title": "Deep Learning",
+      "is_new": false,
+      "status": "eligible",
+      "semester": 5,
+      "slot": "Program Elective-I",
+      "checks": [
+        {
+          "id": "level",
+          "label": "Programme level",
+          "status": "pass",
+          "detail": "UG course; you are in a UG programme.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 14,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": "The CBCS offerings of courses will be opted from a UG Program to a UG Program and a PG Program to a PG Program"
+            },
+            {
+              "source": "deep_learning.md",
+              "title": "Syllabus: Deep Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "program",
+          "label": "Offered to your programme",
+          "status": "pass",
+          "detail": "Offered to B Tech Computer Science.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "deep_learning.md",
+              "title": "Syllabus: Deep Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "semester",
+          "label": "Semester",
+          "status": "pass",
+          "detail": "Taught in Semester V; you are in Semester V/VI.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "deep_learning.md",
+              "title": "Syllabus: Deep Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "slot",
+          "label": "Elective slot in your programme structure",
+          "status": "pass",
+          "detail": "B Tech Computer Science, Semester V has Program Elective-I, Program Elective-II.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 106,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "prerequisites",
+          "label": "Prerequisites completed",
+          "status": "pass",
+          "detail": "Machine Learning: Artificial Intelligence and Machine Learning (Sem IV); Linear Algebra: Linear Algebra and Differential Equations (Sem II)",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "deep_learning.md",
+              "title": "Syllabus: Deep Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "prerequisite": "Machine Learning",
+          "matched_course": "Artificial Intelligence and Machine Learning",
+          "semester": 4,
+          "score": 1.0,
+          "status": "pass"
+        },
+        {
+          "prerequisite": "Linear Algebra",
+          "matched_course": "Linear Algebra and Differential Equations",
+          "semester": 2,
+          "score": 1.0,
+          "status": "pass"
+        }
+      ],
+      "fit_score": 0.767,
+      "interest_match": null,
+      "novelty": 0.417,
+      "reasons": [
+        "Offered to B Tech Computer Science.",
+        "B Tech Computer Science, Semester V has Program Elective-I, Program Elective-II.",
+        "Machine Learning: Artificial Intelligence and Machine Learning (Sem IV); Linear Algebra: Linear Algebra and Differential Equations (Sem II)"
+      ]
+    },
+    {
+      "name": "introduction_to_machine_learning_open.md",
+      "title": "Introduction to Machine Learning",
+      "is_new": false,
+      "status": "not_recommended",
+      "semester": 5,
+      "slot": "Open Elective-I",
+      "checks": [
+        {
+          "id": "level",
+          "label": "Programme level",
+          "status": "pass",
+          "detail": "UG course; you are in a UG programme.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 14,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": "The CBCS offerings of courses will be opted from a UG Program to a UG Program and a PG Program to a PG Program"
+            },
+            {
+              "source": "introduction_to_machine_learning_open.md",
+              "title": "Syllabus: Introduction to Machine Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "program",
+          "label": "Offered to your programme",
+          "status": "pass",
+          "detail": "Open to all UG programmes.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "introduction_to_machine_learning_open.md",
+              "title": "Syllabus: Introduction to Machine Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "semester",
+          "label": "Semester",
+          "status": "pass",
+          "detail": "Taught in Semester V; you are in Semester V/VI.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "introduction_to_machine_learning_open.md",
+              "title": "Syllabus: Introduction to Machine Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "slot",
+          "label": "Elective slot in your programme structure",
+          "status": "pass",
+          "detail": "B Tech Computer Science, Semester V has Open Elective-I, Open Elective-II.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 106,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "prerequisites",
+          "label": "Prerequisites completed",
+          "status": "pass",
+          "detail": "Probability and Statistics: Probability and Statistics (Sem III)",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "introduction_to_machine_learning_open.md",
+              "title": "Syllabus: Introduction to Machine Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "duplicate",
+          "label": "Not already in your programme",
+          "status": "warn",
+          "detail": "Very similar to 'Artificial Intelligence and Machine Learning', a compulsory course in your Semester IV (similarity 1.00); it would add little.",
+          "rule": "advisor_policy",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 106,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": null
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "prerequisite": "Probability and Statistics",
+          "matched_course": "Probability and Statistics",
+          "semester": 3,
+          "score": 1.0,
+          "status": "pass"
+        }
+      ],
+      "fit_score": 0.6,
+      "interest_match": null,
+      "novelty": 0.0,
+      "reasons": [
+        "Very similar to 'Artificial Intelligence and Machine Learning', a compulsory course in your Semester IV (similarity 1.00); it would add little."
+      ]
+    },
+    {
+      "name": "natural_language_processing.md",
+      "title": "Natural Language Processing",
+      "is_new": false,
+      "status": "not_eligible",
+      "semester": 6,
+      "slot": "Program Elective-III",
+      "checks": [
+        {
+          "id": "level",
+          "label": "Programme level",
+          "status": "pass",
+          "detail": "UG course; you are in a UG programme.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 14,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": "The CBCS offerings of courses will be opted from a UG Program to a UG Program and a PG Program to a PG Program"
+            },
+            {
+              "source": "natural_language_processing.md",
+              "title": "Syllabus: Natural Language Processing",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "program",
+          "label": "Offered to your programme",
+          "status": "fail",
+          "detail": "Offered to B Tech Information Technology, B Tech Computer Engineering; not to B Tech Computer Science.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "natural_language_processing.md",
+              "title": "Syllabus: Natural Language Processing",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "semester",
+          "label": "Semester",
+          "status": "pass",
+          "detail": "Taught in Semester VI; you are in Semester V/VI.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "natural_language_processing.md",
+              "title": "Syllabus: Natural Language Processing",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "slot",
+          "label": "Elective slot in your programme structure",
+          "status": "pass",
+          "detail": "B Tech Computer Science, Semester VI has Program Elective-III, Program Elective-IV.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 106,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "prerequisites",
+          "label": "Prerequisites completed",
+          "status": "pass",
+          "detail": "Machine Learning: Artificial Intelligence and Machine Learning (Sem IV); Probability and Statistics: Probability and Statistics (Sem III)",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "natural_language_processing.md",
+              "title": "Syllabus: Natural Language Processing",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "prerequisite": "Machine Learning",
+          "matched_course": "Artificial Intelligence and Machine Learning",
+          "semester": 4,
+          "score": 1.0,
+          "status": "pass"
+        },
+        {
+          "prerequisite": "Probability and Statistics",
+          "matched_course": "Probability and Statistics",
+          "semester": 3,
+          "score": 1.0,
+          "status": "pass"
+        }
+      ],
+      "fit_score": null,
+      "interest_match": null,
+      "novelty": 0.475,
+      "reasons": [
+        "Offered to B Tech Information Technology, B Tech Computer Engineering; not to B Tech Computer Science."
+      ]
+    },
+    {
+      "name": "reinforcement_learning.md",
+      "title": "Reinforcement Learning",
+      "is_new": false,
+      "status": "not_eligible",
+      "semester": null,
+      "slot": null,
+      "checks": [
+        {
+          "id": "level",
+          "label": "Programme level",
+          "status": "pass",
+          "detail": "UG course; you are in a UG programme.",
+          "rule": "nmims",
+          "citations": [
+            {
+              "source": "SRC052",
+              "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+              "page": 14,
+              "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+              "quote": "The CBCS offerings of courses will be opted from a UG Program to a UG Program and a PG Program to a PG Program"
+            },
+            {
+              "source": "reinforcement_learning.md",
+              "title": "Syllabus: Reinforcement Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "program",
+          "label": "Offered to your programme",
+          "status": "pass",
+          "detail": "Offered to B Tech Computer Science.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "reinforcement_learning.md",
+              "title": "Syllabus: Reinforcement Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "semester",
+          "label": "Semester",
+          "status": "fail",
+          "detail": "Taught in Semester VII; you are in Semester V/VI.",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "reinforcement_learning.md",
+              "title": "Syllabus: Reinforcement Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        },
+        {
+          "id": "prerequisites",
+          "label": "Prerequisites completed",
+          "status": "fail",
+          "detail": "Deep Learning: not found in your completed courses; Probability and Statistics: Probability and Statistics (Sem III)",
+          "rule": "syllabus",
+          "citations": [
+            {
+              "source": "reinforcement_learning.md",
+              "title": "Syllabus: Reinforcement Learning",
+              "page": null,
+              "url": null,
+              "quote": null
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "prerequisite": "Deep Learning",
+          "matched_course": null,
+          "semester": 4,
+          "score": 0.583,
+          "status": "fail"
+        },
+        {
+          "prerequisite": "Probability and Statistics",
+          "matched_course": "Probability and Statistics",
+          "semester": 3,
+          "score": 1.0,
+          "status": "pass"
+        }
+      ],
+      "fit_score": null,
+      "interest_match": null,
+      "novelty": 0.427,
+      "reasons": [
+        "Taught in Semester VII; you are in Semester V/VI.",
+        "Deep Learning: not found in your completed courses; Probability and Statistics: Probability and Statistics (Sem III)"
+      ]
+    }
+  ],
+  "recommendation": {
+    "semester": 6,
+    "course": "NEW_generative_ai_and_llm_applications.txt",
+    "title": "Generative AI and Large Language Model Applications",
+    "slot": "Program Elective-III",
+    "confidence": {
+      "score": 0.925,
+      "level": "high",
+      "method": "syllabus parse confidence x identity confidence x margin over the runner-up"
+    },
+    "why": [
+      "Offered to B Tech Computer Science.",
+      "B Tech Computer Science, Semester VI has Program Elective-III, Program Elective-IV.",
+      "Data Structures and Algorithms: Data Structures and Algorithms (Sem III); Machine Learning: Artificial Intelligence and Machine Learning (Sem IV)",
+      "This is a new course: its syllabus was parsed from the proposal provided.",
+      "Semester not given: this is the best fit overall; see per_semester for each semester."
+    ],
+    "runner_up": null
+  },
+  "per_semester": [
+    {
+      "semester": 5,
+      "course": "deep_learning.md",
+      "title": "Deep Learning",
+      "slot": "Program Elective-I",
+      "confidence": {
+        "score": 0.925,
+        "level": "high",
+        "method": "syllabus parse confidence x identity confidence x margin over the runner-up"
+      },
+      "why": [
+        "Offered to B Tech Computer Science.",
+        "B Tech Computer Science, Semester V has Program Elective-I, Program Elective-II.",
+        "Machine Learning: Artificial Intelligence and Machine Learning (Sem IV); Linear Algebra: Linear Algebra and Differential Equations (Sem II)"
+      ],
+      "runner_up": null
+    },
+    {
+      "semester": 6,
+      "course": "NEW_generative_ai_and_llm_applications.txt",
+      "title": "Generative AI and Large Language Model Applications",
+      "slot": "Program Elective-III",
+      "confidence": {
+        "score": 0.925,
+        "level": "high",
+        "method": "syllabus parse confidence x identity confidence x margin over the runner-up"
+      },
+      "why": [
+        "Offered to B Tech Computer Science.",
+        "B Tech Computer Science, Semester VI has Program Elective-III, Program Elective-IV.",
+        "Data Structures and Algorithms: Data Structures and Algorithms (Sem III); Machine Learning: Artificial Intelligence and Machine Learning (Sem IV)",
+        "This is a new course: its syllabus was parsed from the proposal provided."
+      ],
+      "runner_up": null
+    }
+  ],
+  "overlaps": [],
+  "how_to_enrol": {
+    "department": "School Academic Office (Course Coordinator / AR / DR)",
+    "next_action": "Route your elective choice through the course coordinator or programme chair, or choose open electives on the portal",
+    "rules": [
+      {
+        "source": "F0009",
+        "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+        "page": 6,
+        "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+        "quote": "They must route their option through Course Co-ordinators or Program Chairs"
+      },
+      {
+        "source": "F0089",
+        "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+        "page": 34,
+        "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+        "quote": "options are available for MPSTME (Mumbai / Shirpur) students to choose Open Electives"
+      },
+      {
+        "source": "SRC052",
+        "title": "MPSTME Student Resource Book 2026 (Part I + Part II)",
+        "page": 13,
+        "url": "https://engineering.nmims.edu/wp-content/uploads/2026/08/SRB_2026_compressed.pdf",
+        "quote": "The minimum 15 number of students or 40% of the total number of students, to offer an elective course/s"
+      }
+    ]
+  },
+  "human_review": [
+    "Confirm the choice with your course coordinator or programme chair before registering (F0009).",
+    "Check the programme: read as B Tech Computer Science.",
+    "New courses must be approved and offered in your semester; check with the department."
+  ],
+  "disclaimer": "Advice generated from the published MPSTME programme structures and rules and from the syllabi provided. It is not an enrolment: elective choices are confirmed by the course coordinator or programme chair, and an elective runs only if enough students register.",
+  "schema_version": "1.0"
+}

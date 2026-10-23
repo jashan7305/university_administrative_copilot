@@ -1,7 +1,7 @@
 """Build the weekly submission reports (Word) from the saved results, so every number in a report comes from a run.
 
   python -m nlp.reports                    # all reports + code snapshots
-  python -m nlp.reports week2|week3|week4|week5|week6|code
+  python -m nlp.reports week2|week3|week4|week5|week6|week7|code
 Outputs: submissions/weekN/*.docx, and for every week submissions/weekN/code/ (the Python files written that week,
 same paths as in src/) plus submissions/weekN/Group10_WeekN_code.zip for upload.
 """
@@ -1052,6 +1052,254 @@ def week6() -> None:
     doc.save(SUBMIT / "week6" / "Group10_Week6_Reusable_NLP_Asset_Report.docx")
 
 
+def week7() -> None:
+    r = json.loads((REPORTS / "week7" / "results.json").read_text(encoding="utf-8"))
+    before_p = REPORTS / "week7" / "results_before_fixes.json"
+    b = json.loads(before_p.read_text(encoding="utf-8")) if before_p.exists() else None
+    ex = json.loads((REPORTS / "week7" / "example_advise.json").read_text(encoding="utf-8"))
+    F = REPORTS / "week7" / "figures"
+    E, H = r["eligibility"]["dev"], r["eligibility"]["heldout"]
+    pct = lambda x: "-" if x is None else f"{x:.1%}"
+    doc = Doc()
+    doc.title([("University Administrative Copilot", 24, True),
+               ("Week 7: User Interface, Integration and Responsible AI", 15, False),
+               ("Demo: identifying the right elective from several syllabi (including a new course) and the student's "
+                "academic identity", 11, False),
+               (TEAM, 11, False), (f"Repository: {REPO}", 10, False),
+               ("Code: submitted as Group10_Week7_code.zip (and in the repository)", 10, False)])
+
+    doc.h("Summary")
+    doc.p("Our demo in the University AI Application sequence takes several syllabi on a topic, including the syllabus "
+          "of a new course, and a student's academic identity (for example \"third year student, computer science "
+          "program\"). It returns the elective the student can enrol in. This week we built the elective advisor "
+          "that does this. We also built a web interface for it and for the Week 6 NLP component, an HTTP API, an "
+          "integration layer for other groups' components, documentation, and a measured responsible-AI analysis.")
+    rec = ex["recommendation"]
+    doc.b(f"For the demo input, the advisor recommends {rec['title']} (Semester {rec['semester']}, {rec['slot']}, confidence "
+          f"{rec['confidence']['score']:.2f}). The new course is parsed from a free-text proposal. Each of the other "
+          "courses is excluded with a sourced reason.", "Demo answer. ")
+    doc.b(f"On {H['cases']} held-out cases ({H['course_decisions']} course decisions), {pct(H['status_accuracy'])} of the "
+          f"eligibility decisions are correct and {pct(H['recommendation_accuracy'])} of the recommendations match the "
+          f"expected course. On {E['cases']} development cases, the figures are {pct(E['status_accuracy'])} and "
+          f"{pct(E['recommendation_accuracy'])}.", "Accuracy. ")
+    cf = r["counterfactual"]
+    doc.b(f"Adding a name, gender, religion, caste, region or disability to the student's text changed the advice in "
+          f"{cf['changed']} of {cf['variants']} cases. Every one of {r['transparency']['checks']} checks cites its source, "
+          "and every result asks the course coordinator to confirm.", "Responsible AI. ")
+    doc.b("The advisor can take syllabi from a partner syllabus service and the academic identity from a partner "
+          "student-record service, through a documented contract (one setting per partner). A mock with the same "
+          "contract runs until the partner group's service is connected.", "Integration. ")
+
+    doc.h("1. The demo")
+    doc.p("Input: five syllabi on artificial intelligence (four course outlines and one new-course proposal written as "
+          f"free text) and the identity \"{r['demo']['identity']}\". The advisor reads the identity as "
+          f"{ex['student']['program']}, year {ex['student']['year']}. Because no semester is given, it considers both "
+          "semesters of that year.")
+    rows = []
+    for a in ex["assessments"]:
+        rows.append((a["title"] + (" (new)" if a["is_new"] else ""), a["status"].replace("_", " "),
+                     f"Sem {a['semester']}" if a["semester"] else "-", a["reasons"][0] if a["reasons"] else ""))
+    doc.table(pd.DataFrame(rows, columns=["Course", "Result", "When", "Main reason"]),
+              "Table 1. Demo output: every course checked (Group 10 demo input)", [4.4, 2.4, 1.4, 8.3], size=8)
+    doc.p("Why the recommendation: " + " ".join(rec["why"]))
+    doc.fig(F / "ui_advisor.png", "Figure 1. The elective advisor in the web interface (demo input)")
+
+    doc.h("2. User interface")
+    doc.p("A single web page served by the same FastAPI application at /ui/ (no separate build or install). It has "
+          "four tabs:")
+    for lead, t in (("Elective advisor: ", "enter the identity (free text, or programme, year and semester), optional "
+                     "interests and courses taken. Paste or upload syllabi (PDF, Word, text) or load a sample set. The "
+                     "result shows the recommendation with its confidence and reasons, a per-semester pick, how the "
+                     "identity was read, and every course with its checks and sources. It also shows overlapping "
+                     "courses, how to enrol, what the course coordinator should confirm, and the structured JSON."),
+                    ("Ask the copilot: ", "the Week 6 NLP component (intent, department, entities, grounded answer, "
+                     "decision with confidence)."),
+                    ("Partner integration: ", "fetches syllabi and a student record from the partner services, shows "
+                     "each call (service, URL, latency, live or mock), then the advice."),
+                    ("About and responsible AI: ", "the architecture and the responsible-AI commitments.")):
+        doc.b(t, lead)
+    doc.p("All text from users and syllabi is escaped before it is shown, the layout works on a phone, and the page "
+          "follows the system's light or dark setting.")
+
+    doc.h("3. API integration")
+    rows = [("POST /v1/electives/advise", "identity + syllabi -> eligibility per course, recommendation, citations"),
+            ("POST /v1/electives/parse", "one syllabus (text or base64 PDF/DOCX/TXT) -> structured fields"),
+            ("POST /v1/electives/advise-from-partners", "syllabi and student record from partner services -> advice"),
+            ("GET /v1/electives/programs, /samples", "recognised programmes; demo syllabus sets"),
+            ("POST /v1/analyze, /v1/intent, /v1/entities, /v1/retrieve", "Week 6 NLP component"),
+            ("GET /v1/manifest", "component card for the application's service registry"),
+            ("GET /partner-mock/syllabi, /partner-mock/students/{id}", "stand-in for the partner groups' services")]
+    doc.table(pd.DataFrame(rows, columns=["Endpoint", "Purpose"]), "Table 2. API used by the interface and by other components", [6.5, 10])
+    doc.p("The interface uses only these endpoints, so anything the demo does, another group's application can do "
+          "too. The advisor reuses the copilot's knowledge base: the 'how to enrol' step comes from the "
+          "ELECTIVE_SELECTION service (department, next action, verified facts F0009 and F0089). Inputs and outputs "
+          "are typed pydantic models with JSON Schemas, carry schema_version 1.0, and return errors as {error, detail}.")
+
+    doc.h("4. How the advisor decides")
+    doc.p("The identity is matched to one of the 24 programmes in the official MPSTME programme structures, which we "
+          "parsed from the Student Resource Book 2026 into "
+          f"{r['catalogue']['rows']:,} rows with {r['catalogue']['elective_slots']} elective slots. The student is "
+          "assumed to have completed the compulsory courses of earlier semesters, plus any courses they list. Each "
+          "syllabus is parsed into its type, the programmes it is offered to, its semester, its prerequisites and its "
+          "topics. Formal outlines are read by their labels; free-text proposals by prose patterns, with programme and "
+          "course names recognised against the catalogue. Then seven checks run, each recording which kind of rule it "
+          "is:")
+    rows = [("Level", "UG courses for UG students, PG for PG", "NMIMS rule (SRB p. 14)"),
+            ("Programme", "Offered to the student's programme", "Syllabus"),
+            ("Semester", "Taught in the student's semester", "Syllabus"),
+            ("Slot", "The programme structure has an elective slot of that type in that semester", "NMIMS rule (programme structures)"),
+            ("First year", "First-year UG students cannot opt CBCS (open) courses", "NMIMS rule (SRB p. 14)"),
+            ("Prerequisites", "Each prerequisite matches a completed course (embeddings + word overlap)", "Syllabus"),
+            ("Duplicate", "Not nearly the same as a compulsory course of the programme", "Advisor policy (ours)")]
+    doc.table(pd.DataFrame(rows, columns=["Check", "Condition", "Rule type and source"]), "Table 3. Eligibility checks", [2.6, 8.4, 5.5])
+    doc.p("Any failed check makes the course not eligible. Missing information makes it needs_review, for the course "
+          "coordinator to decide. A duplicate makes it not recommended. Eligible courses are ranked by prerequisite "
+          "fit, novelty and, when given, similarity to the student's interests, and the best course per semester is "
+          "recommended. Its confidence combines how well the syllabus and the identity were read with the margin "
+          "over the runner-up.")
+
+    doc.h("5. Evaluation")
+    doc.p("Test data: 15 syllabi in three topics (artificial intelligence, cybersecurity, management), each topic with "
+          "one new-course proposal in free prose. There are 23 labelled cases, each a student identity with one "
+          "expected status per syllabus and an expected recommendation. Ten cases (dev) were looked at while the "
+          "advisor was built. Thirteen (held out) were labelled from the published rules before the advisor was run "
+          "on them. Syllabi and cases were written by the team; the programme structures and rules are official.")
+    P = r["syllabus_parsing"]
+    rows = [(k.replace("_", " "), pct(v["course_type"]), pct(v["programs"]), pct(v["semesters"]), pct(v["prerequisites"]),
+             pct(v["all_fields"])) for k, v in P.items()]
+    doc.table(pd.DataFrame(rows, columns=["Syllabi", "Type", "Programmes", "Semester", "Prerequisites", "All fields"]),
+              "Table 4. Syllabus parsing accuracy (15 syllabi; the variants change the format, not the content)",
+              [4, 2.2, 2.4, 2.2, 2.6, 2.4])
+    rows = []
+    for split, name in (("dev", "Dev"), ("heldout", "Held out")):
+        for label, src in (("before fixes", b), ("final", r)):
+            if src is None or split not in src["eligibility"]:
+                continue
+            x = src["eligibility"][split]
+            rows.append((f"{name}, {label}", x["cases"], x["course_decisions"], pct(x["status_accuracy"]),
+                         pct(x["can_enrol_precision"]), pct(x["can_enrol_recall"]), pct(x["recommendation_accuracy"]),
+                         pct(x["profile_program_accuracy"])))
+    doc.table(pd.DataFrame(rows, columns=["Cases", "n", "Decisions", "Status acc.", "Can-enrol precision",
+                                          "Can-enrol recall", "Recommendation acc.", "Identity acc."]),
+              "Table 5. Eligibility and recommendation accuracy", [3, 1, 1.6, 1.9, 2.2, 2, 2.4, 1.9], size=8)
+    if b:
+        doc.p("The first evaluation run found four faults: ordinal semesters (\"sixth semester\"), an upper-case branch "
+              "code (\"IT student\"), \"Prerequisites: None\" written in prose, and prerequisites marked as failed "
+              "(instead of unknown) when the programme or semester was missing. All four were fixed, and both runs "
+              "are reported. The held-out numbers after the fixes are therefore no longer fully unseen.")
+    errs = [(d["id"], ", ".join(f"{e['syllabus']}: expected {e['expected']}, got {e['got']}" for e in d["status_errors"]))
+            for d in r["case_details"] if d["status_errors"]]
+    if errs:
+        doc.table(pd.DataFrame(errs, columns=["Case", "Remaining errors"]), "Table 6. Remaining errors", [1.6, 14.9], size=8)
+        doc.p("The remaining error is a known limitation. Duplicates are detected from course titles only, so "
+              "\"Entrepreneurship and New Venture Creation\" is not recognised as overlapping the compulsory "
+              "\"Managing Innovation and Entrepreneurship\" (B Tech CSBS, Semester VI).")
+
+    doc.h("6. Responsible-AI analysis")
+    T, A, PR, SR, C = r["transparency"], r["abstention"], r["paraphrase"], r["syllabus_robustness"], r["coverage"]
+    rows = [("Fairness", "Advice depends on who the student is rather than what they studied",
+             "Only programme, year, semester, courses and optional interests are used",
+             f"{cf['variants']} counterfactual variants (name, gender, religion, caste, region, disability): "
+             f"{cf['changed']} changed ({pct(cf['invariance'])} invariant)"),
+            ("Transparency", "A student cannot see why a course was excluded",
+             "Every check has a detail, a rule type (NMIMS / syllabus / advisor policy) and a source",
+             f"{pct(T['checks_with_citation'])} of {T['checks']} checks cite a source; {pct(T['non_eligible_with_reason'])} "
+             "of exclusions give a reason"),
+            ("Human oversight", "Advice taken as an enrolment",
+             "Output is advice; it lists what the course coordinator must confirm and states the 15 / 40% rule",
+             f"{pct(T['outputs_with_human_review_step'])} of outputs include a human-review step"),
+            ("Reliability", "Different wording gives a different answer",
+             "Catalogue-aware parsing; abbreviations; prose fallback",
+             f"Identity rewordings read correctly: {pct(PR['accuracy'])} of {PR['variants']}; reformatted syllabi "
+             f"give the same advice: {pct(SR['same_advice'])} of {SR['variants']}"),
+            ("Knowing its limits", "Confident advice on input it does not understand",
+             "Unknown programme or missing year: no recommendation, needs_review",
+             f"{pct(A['abstained'])} of unknown-input probes abstain"),
+            ("Privacy", "Student data stored or shared",
+             "Stateless API; nothing logged or stored; partner contract asks for no names, contacts or grades",
+             "By design (no storage code); partner contract in docs/integration.md"),
+            ("Data coverage", "Students outside the covered programmes get wrong advice",
+             "Catalogue limited to MPSTME 2026; unknown programmes are not guessed",
+             f"{C['programmes']} programmes; {C['semesters_with_missing_rows']} of {C['programme_semesters']} "
+             "programme-semesters have rows missing from PDF extraction"),
+            ("Honesty about data", "Sample syllabi taken as official",
+             "Sample syllabi are labelled illustrative everywhere they appear", "UI, docs, data README")]
+    doc.table(pd.DataFrame(rows, columns=["Principle", "Risk", "Mitigation", "Evidence (measured)"]),
+              "Table 7. Responsible-AI analysis", [2.3, 3.6, 5, 5.6], size=8)
+    doc.p("Other risks we considered:")
+    for t in ("Steering: ranking by interests could narrow choices. The advisor therefore shows every eligible course, "
+              "not only the top one, and ranking never overrides eligibility.",
+              "Automation bias: a confident recommendation may not be questioned. The confidence is lowered when the "
+              "runner-up is close, and the 'did you mean' programme alternatives are shown.",
+              "Out-of-date rules: rules change every year. The catalogue is rebuilt from the current Student Resource "
+              "Book with one command, and every rule shows its page.",
+              "Advisor policy versus university rule: our duplicate-content policy is labelled as ours, so it is never "
+              "presented as an NMIMS rule."):
+        doc.b(t)
+
+    doc.h("7. Integration with the University AI application")
+    doc.code("  front ends (this UI, student portal, other groups' apps)\n"
+             "        |  HTTP /v1 (typed JSON, schema_version 1.0)\n"
+             "  Group 10 Administrative Copilot: elective advisor + NLP component + official knowledge\n"
+             "        |  consumes (contracts, one setting each)              ^ offers\n"
+             "  partner syllabus service, partner student records        registration, helpdesk, other agents")
+    doc.p("The component is stateless and runs as one service behind the application's gateway. GET /v1/manifest "
+          "returns its card for a service registry: what it offers (elective recommendation, syllabus parsing, query "
+          "understanding, intent, entities, retrieval) and what it consumes (a syllabus feed and a student academic "
+          "record), with the contract and setting for each.")
+    doc.h("Interaction with another project's component", 2)
+    doc.p("POST /v1/electives/advise-from-partners takes the topic's syllabi from a partner syllabus service and the "
+          "student's programme, year, semester and completed courses from a partner student-record service. It then "
+          "adds any new course syllabus the user pastes, and runs the advisor. The response lists every partner call. "
+          "Both contracts are documented (docs/integration.md). A group whose component produces syllabi, for "
+          "example a curriculum or syllabus-generation component, connects by setting PARTNER_SYLLABUS_URL, or its "
+          "output for a new course can be pasted into the demo directly. Until the partner's service is available, "
+          "a mock that implements the same contract answers (in-process, and over HTTP at /partner-mock), and the "
+          "interface labels these calls 'mock'.")
+
+    doc.h("8. Documentation")
+    for f, d in (("docs/elective_advisor.md", "how the advisor decides, input/output, rules and sources, confidence, limitations"),
+                 ("docs/integration.md", "architecture, what we offer and consume, how to connect a partner"),
+                 ("docs/responsible_ai.md", "the responsible-AI analysis with measurements"),
+                 ("docs/nlp_component.md", "the Week 6 NLP component"),
+                 ("/docs (OpenAPI)", "every endpoint and field, generated from the schemas"),
+                 ("data/electives/README.md", "what is official and what is illustrative")):
+        doc.b(d, f + ": ")
+
+    doc.h("9. Limitations and next steps")
+    for t in ("Only MPSTME (Mumbai) programme structures for 2026 are covered; other schools need their structures added.",
+              "Prerequisites and duplicates are compared by course names, not full syllabus content (Table 6).",
+              "Students with backlogs: the advisor assumes earlier compulsory courses were passed unless the student "
+              "lists what they completed.",
+              "Seat limits, timetable clashes and whether an elective runs (at least 15 students or 40%) are not known "
+              "to the advisor; the course coordinator decides them.",
+              "Next: connect the partner group's syllabus service live, and add real NMIMS elective syllabi as they "
+              "are published."):
+        doc.b(t)
+
+    doc.h("10. Code")
+    files = [("src/nlp/electives/catalog.py", "Official programme structures -> catalogue of courses and elective slots"),
+             ("src/nlp/electives/syllabus.py", "Syllabus parsing (labelled fields and free text)"),
+             ("src/nlp/electives/advisor.py", "Identity parsing, eligibility checks, ranking, recommendation"),
+             ("src/nlp/electives/schemas.py", "Structured input/output of the advisor"),
+             ("src/nlp/integrations/partners.py", "Partner contracts and client"),
+             ("src/nlp/integrations/mock.py", "Mock partner services (same contract)"),
+             ("src/backend/api/electives.py", "Advisor, partner-flow and manifest endpoints"),
+             ("src/backend/static/", "Web interface (index.html, app.js, styles.css)"),
+             ("src/nlp/pipeline/evaluate_week7.py", "Evaluation and responsible-AI measurements"),
+             ("data/electives/", "Demo syllabi (illustrative) and labelled evaluation cases"),
+             ("tests/test_week7.py", "Tests")]
+    lines = lambda p: (sum(1 for _ in open(PROJECT_ROOT / p, encoding="utf-8")) if (PROJECT_ROOT / p).is_file() else
+                       sum(sum(1 for _ in open(f, encoding="utf-8")) for f in (PROJECT_ROOT / p).rglob("*") if f.is_file())
+                       if (PROJECT_ROOT / p).exists() else 0)
+    doc.table(pd.DataFrame([(f, d, lines(f)) for f, d in files], columns=["File", "Purpose", "Lines"]),
+              "Table 8. Week 7 code", [5.6, 9.4, 1.5])
+    doc.code("uv sync\nuvicorn backend.main:app                  # UI http://127.0.0.1:8000/ui/  API /docs\n"
+             "python -m nlp.pipeline.evaluate_week7    # evaluation in this report\n"
+             "python -m nlp.reports week7 code         # this report + code zip\npytest tests/test_week7.py")
+    doc.save(SUBMIT / "week7" / "Group10_Week7_UI_Integration_Responsible_AI_Report.docx")
+
+
 # --------------------------------------------------------------------------- code snapshots
 
 WEEK_CODE = {
@@ -1072,6 +1320,15 @@ WEEK_CODE = {
               "src/nlp/component/schemas.py", "src/backend/api/v1.py", "src/backend/main.py", "src/nlp/pipeline/copilot.py",
               "src/nlp/ner/extractor.py", "src/nlp/ner/transformer_ner.py", "src/nlp/pipeline/evaluate_week6.py",
               "docs/nlp_component.md", "src/nlp/reports.py", "tests/test_week6.py"],
+    "week7": ["src/nlp/electives/__init__.py", "src/nlp/electives/catalog.py", "src/nlp/electives/syllabus.py",
+              "src/nlp/electives/advisor.py", "src/nlp/electives/schemas.py", "src/nlp/integrations/__init__.py",
+              "src/nlp/integrations/partners.py", "src/nlp/integrations/mock.py", "src/backend/api/electives.py",
+              "src/backend/api/partner_mock.py", "src/backend/main.py", "src/backend/static/index.html",
+              "src/backend/static/app.js", "src/backend/static/styles.css", "src/nlp/pipeline/evaluate_week7.py",
+              "data/electives/README.md", "data/electives/eval_cases.yaml", "docs/elective_advisor.md",
+              "docs/integration.md", "docs/responsible_ai.md", "src/nlp/reports.py", "tests/test_week7.py"]
+             + sorted(str(f.relative_to(PROJECT_ROOT)).replace("\\", "/")
+                      for f in (DATA / "electives" / "syllabi").rglob("*.*")),
 }
 
 
@@ -1100,7 +1357,7 @@ def code(weeks: list[str] | None = None) -> None:
 
 if __name__ == "__main__":
     # "week6 code" builds the Week 6 report and snapshots only Week 6; "code" alone snapshots every week
-    which = sys.argv[1:] or ["week2", "week3", "week4", "week5", "week6", "code"]
-    reports = {"week2": week2, "week3": week3, "week4": week4, "week5": week5, "week6": week6}
+    which = sys.argv[1:] or ["week2", "week3", "week4", "week5", "week6", "week7", "code"]
+    reports = {"week2": week2, "week3": week3, "week4": week4, "week5": week5, "week6": week6, "week7": week7}
     for w in which:
         reports[w]() if w != "code" else code([x for x in which if x in reports] if len(which) > 1 else None)

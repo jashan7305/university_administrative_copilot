@@ -8,8 +8,9 @@ library, student services, student welfare) and routes them to the right departm
 
 ```
 ├── src/
-│   ├── backend/     FastAPI app (main.py, api/routes.py)
-│   ├── nlp/         NLP components: intent/, ner/, retrieval/, knowledge/, pipeline/, component/ (reusable asset)
+│   ├── backend/     FastAPI app (main.py, api/), demo UI (static/, served at /ui/)
+│   ├── nlp/         NLP components: intent/, ner/, retrieval/, knowledge/, pipeline/, component/ (reusable asset),
+│   │                electives/ (elective advisor), integrations/ (other groups' components)
 │   └── dataset/     NMIMS dataset pipeline, one module per phase (see below)
 ├── data/
 │   ├── annotations/ facts.yaml, queries.yaml - curated dataset inputs from official NMIMS sources
@@ -18,7 +19,7 @@ library, student services, student welfare) and routes them to the right departm
 │   ├── final/       released dataset (queries, splits, NER, knowledge base, source inventory)
 │   ├── external/    CLINC150 out-of-scope queries
 │   └── eval/        Week 3 retrieval evaluation queries
-├── docs/            nlp_component.md (component documentation), schemas/ (JSON Schemas of its input/output)
+├── docs/            elective_advisor.md, integration.md, responsible_ai.md, nlp_component.md, schemas/
 ├── reports/         dataset/ (quality report, taxonomy, inventory), week2/ ... week6/
 ├── tests/           test_dataset.py, test_nlp.py, test_api.py
 ├── submissions/     submitted reports per week
@@ -46,6 +47,16 @@ Without uv: `python -m venv .venv && source .venv/bin/activate && pip install -r
 How the data is made: facts are extracted from official NMIMS sources (each with a verbatim quote that phase 4
 re-checks); core queries are **written by the project team** from those facts; variants are **rule-generated**
 rewordings; NER labels are rule-based. Details and statistics: `reports/dataset/dataset_quality_report.md`.
+
+## Demo: elective advisor (Week 7)
+
+```bash
+uvicorn backend.main:app      # open http://127.0.0.1:8000/ui/?demo
+```
+Several syllabi on a topic (including a new course) plus the student's academic identity -> the elective the
+student can enrol in, with every course checked against the official MPSTME programme structures and rules.
+See [docs/elective_advisor.md](docs/elective_advisor.md), [docs/integration.md](docs/integration.md) and
+[docs/responsible_ai.md](docs/responsible_ai.md).
 
 ## Using the NLP component
 
@@ -92,3 +103,4 @@ pytest
 | Week 4 improved models (fine-tuned transformer router + NER, fine-tuned vector retrieval, LLM summarization, gold NER set) | done - `reports/week4/`, `python -m nlp.pipeline.compare_week4` |
 | Week 5 evaluation & error analysis (CIs, significance, calibration, robustness, challenge set, failure cases, fixes) | done - `reports/week5/`, `python -m nlp.pipeline.evaluate_week5` |
 | Week 6 reusable NLP asset (module + HTTP API + CLI, structured I/O, confidence scores, decisions, docs) | done - `src/nlp/component/`, `docs/nlp_component.md`, `python -m nlp.pipeline.evaluate_week6` |
+| Week 7 UI, API integration, responsible AI, architecture integration, partner components (elective advisor demo) | done - `src/nlp/electives/`, `src/backend/static/`, `docs/`, `python -m nlp.pipeline.evaluate_week7` |
