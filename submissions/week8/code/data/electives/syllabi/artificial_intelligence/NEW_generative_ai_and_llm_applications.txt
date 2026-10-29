@@ -1,0 +1,15 @@
+NEW COURSE PROPOSAL (Board of Studies, for introduction in 2028-29)
+
+Generative AI and Large Language Model Applications
+
+This new 3-credit course is proposed as a programme elective for third-year (Semester VI) students of
+B.Tech. Computer Science, B.Tech. Computer Engineering and B.Tech. Artificial Intelligence. It will be taught as
+2 hours of lectures and 2 hours of laboratory work per week.
+
+Students joining the course are expected to have completed Machine Learning and Data Structures and Algorithms.
+
+The course teaches students to build applications on top of large language models. Topics: the transformer
+architecture and pre-training; prompting and in-context learning; retrieval-augmented generation over a
+document collection; fine-tuning with parameter-efficient methods (LoRA); evaluating generated text and detecting
+hallucinations; agents and tool use; safety, bias and responsible deployment of generative AI. Students complete a
+team project that ships a small LLM application with an evaluation report.

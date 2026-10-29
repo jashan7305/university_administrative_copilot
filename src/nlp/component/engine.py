@@ -30,6 +30,7 @@ ROUTING_REVIEW_BELOW = Options.model_fields["routing_review_below"].default
 INTENT_METHOD = {
     "v3": "top-class probability of the weighted blend of the fine-tuned transformer and the embedding ensemble",
     "v2": "top-class probability of the sentence-embedding + TF-IDF ensemble (logistic regression)",
+    "demo": "deterministic keyword routing over the verified service catalogue",
 }
 ROUTING_METHOD = "routing model probability of the chosen sub-intent (flat or hierarchical, chosen on validation)"
 

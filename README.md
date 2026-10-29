@@ -1,5 +1,86 @@
 # University Administrative Copilot (NMIMS)
 
+## Quick start: install and run the web app
+
+The final application is a FastAPI web app with a plain HTML/CSS/JavaScript
+interface. Run these commands from the repository root.
+
+### Option A — uv (recommended)
+
+**Linux / macOS**
+
+```bash
+uv sync
+source .venv/bin/activate
+uv run uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+**Windows PowerShell**
+
+```powershell
+uv sync
+.\.venv\Scripts\Activate.ps1
+uv run uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+**Windows Command Prompt**
+
+```bat
+uv sync
+.venv\Scripts\activate.bat
+uv run uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+If `uv` is not installed, install it from <https://docs.astral.sh/uv/>.
+Because `uv run` selects the project environment automatically, the
+activation step is optional when using that command.
+
+### Option B — pip and a virtual environment
+
+**Linux / macOS**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -e .
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+**Windows PowerShell**
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -e .
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+**Windows Command Prompt**
+
+```bat
+py -3 -m venv .venv
+.venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -e .
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+Open the web app at **<http://127.0.0.1:8000/ui/>**. The API documentation
+is at **<http://127.0.0.1:8000/docs>**. The landing screen is the main
+administrative copilot: enter a natural-language request such as “I lost my
+ID card. What should I do?” and select **Get guidance**. The elective advisor,
+partner integration, and responsible-AI views are available in the tabs.
+
+If this is a fresh checkout without the optional gitignored trained model
+artifacts, the browser app uses the repository's verified demo fallback so
+the web experience remains usable. The full trained NLP pipeline is still
+available after running the training commands documented below.
+
 Group 10 (J054, J055, J056, J057, J059). An NLP component that understands NMIMS administrative requests
 (certificates, transcripts, ID cards, hostel, examinations, fees, scholarships, attendance, academic registration,
 library, student services, student welfare) and routes them to the right department with the documents and next step.
@@ -89,8 +170,37 @@ python -m nlp.reports                 # submissions/week2 and week3 reports (Wor
 ## Tests
 
 ```bash
-pytest
+uv run pytest -q
 ```
+
+## Week 8 final delivery
+
+The final delivery includes the working web application, reproducible
+evaluation, report, presentation outline, demonstration runbook, and
+architecture diagram:
+
+- [Final report](docs/week8_final_report.md)
+- [Presentation](docs/final_presentation.md)
+- [Demonstration script](docs/demo_script.md)
+- [Architecture](docs/architecture.md)
+- [Responsible-AI analysis](docs/responsible_ai.md)
+
+Start the final web app with:
+
+```bash
+uv sync
+uv run uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+Then open <http://127.0.0.1:8000/ui/>. The OpenAPI contract is available at
+<http://127.0.0.1:8000/docs>.
+
+The browser app is usable immediately after `uv sync`: when the optional
+gitignored trained model artefacts are absent, `/v1/analyze` uses an explicit
+demo fallback grounded in the repository's verified service catalogue and
+knowledge base. For the full trained pipeline, run the model-training
+commands in [docs/nlp_component.md](docs/nlp_component.md); the fallback does
+not change the reusable NLP component or CLI behaviour.
 
 ## Status
 
@@ -104,3 +214,4 @@ pytest
 | Week 5 evaluation & error analysis (CIs, significance, calibration, robustness, challenge set, failure cases, fixes) | done - `reports/week5/`, `python -m nlp.pipeline.evaluate_week5` |
 | Week 6 reusable NLP asset (module + HTTP API + CLI, structured I/O, confidence scores, decisions, docs) | done - `src/nlp/component/`, `docs/nlp_component.md`, `python -m nlp.pipeline.evaluate_week6` |
 | Week 7 UI, API integration, responsible AI, architecture integration, partner components (elective advisor demo) | done - `src/nlp/electives/`, `src/backend/static/`, `docs/`, `python -m nlp.pipeline.evaluate_week7` |
+| Week 8 finalization (testing, report, README, presentation, demonstration, architecture, final web app) | done - `docs/week8_final_report.md`, `docs/final_presentation.md`, `docs/demo_script.md`, `docs/architecture.md` |

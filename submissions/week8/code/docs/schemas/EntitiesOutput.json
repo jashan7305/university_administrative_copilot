@@ -1,0 +1,124 @@
+{
+  "$defs": {
+    "EntityResult": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "description": "Entity type, e.g. DOCUMENT, DATE, STUDENT_ID.",
+          "title": "Label",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "start": {
+          "description": "Character offset in the input text (inclusive).",
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "description": "Character offset in the input text (exclusive).",
+          "minimum": 0,
+          "title": "End",
+          "type": "integer"
+        },
+        "source": {
+          "enum": [
+            "rule",
+            "crf",
+            "transformer"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Mean per-token tag probability of the learned tagger; null for regex-rule entities, which are deterministic pattern matches.",
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "label",
+        "text",
+        "start",
+        "end",
+        "source"
+      ],
+      "title": "EntityResult",
+      "type": "object"
+    },
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "component_version": {
+          "title": "Component Version",
+          "type": "string"
+        },
+        "schema_version": {
+          "default": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "'v3' (Week 4 fine-tuned models) or 'v2' (Week 3 models).",
+          "title": "Pipeline",
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_version",
+        "pipeline"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "request_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Request Id"
+    },
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "entities": {
+      "items": {
+        "$ref": "#/$defs/EntityResult"
+      },
+      "title": "Entities",
+      "type": "array"
+    },
+    "model": {
+      "$ref": "#/$defs/ModelInfo"
+    }
+  },
+  "required": [
+    "request_id",
+    "query",
+    "entities",
+    "model"
+  ],
+  "title": "EntitiesOutput",
+  "type": "object"
+}

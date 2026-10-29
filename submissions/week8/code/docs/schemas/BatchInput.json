@@ -1,0 +1,94 @@
+{
+  "$defs": {
+    "AnalyzeInput": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "examples": [
+            "I lost my ID card. What should I do?"
+          ],
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "request_id": {
+          "anyOf": [
+            {
+              "maxLength": 128,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Caller's id, echoed back unchanged.",
+          "title": "Request Id"
+        },
+        "options": {
+          "$ref": "#/$defs/Options"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "AnalyzeInput",
+      "type": "object"
+    },
+    "Options": {
+      "additionalProperties": false,
+      "properties": {
+        "top_k": {
+          "default": 3,
+          "description": "Ranked alternatives returned for intent and sub-intent.",
+          "maximum": 13,
+          "minimum": 1,
+          "title": "Top K",
+          "type": "integer"
+        },
+        "k_sources": {
+          "default": 3,
+          "description": "Knowledge-base passages retrieved as evidence.",
+          "maximum": 10,
+          "minimum": 1,
+          "title": "K Sources",
+          "type": "integer"
+        },
+        "routing_review_below": {
+          "default": 0.5,
+          "description": "Refer to staff when the sub-intent confidence is below this value (Week 5: chosen on validation for >= 90% routing accuracy on the questions answered automatically). 0 disables it.",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Routing Review Below",
+          "type": "number"
+        },
+        "include_timings": {
+          "default": true,
+          "description": "Return per-stage latency in milliseconds.",
+          "title": "Include Timings",
+          "type": "boolean"
+        }
+      },
+      "title": "Options",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/AnalyzeInput"
+      },
+      "maxItems": 64,
+      "minItems": 1,
+      "title": "Items",
+      "type": "array"
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "title": "BatchInput",
+  "type": "object"
+}

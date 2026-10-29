@@ -1,0 +1,126 @@
+{
+  "$defs": {
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "component_version": {
+          "title": "Component Version",
+          "type": "string"
+        },
+        "schema_version": {
+          "default": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "'v3' (Week 4 fine-tuned models) or 'v2' (Week 3 models).",
+          "title": "Pipeline",
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_version",
+        "pipeline"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    },
+    "SourceResult": {
+      "additionalProperties": false,
+      "properties": {
+        "rank": {
+          "minimum": 1,
+          "title": "Rank",
+          "type": "integer"
+        },
+        "doc_id": {
+          "title": "Doc Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "page": {
+          "title": "Page",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "score": {
+          "description": "Retriever score (fused rank score; comparable within one query only).",
+          "title": "Score",
+          "type": "number"
+        },
+        "relative_score": {
+          "description": "score / top score of this query.",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Relative Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "rank",
+        "doc_id",
+        "title",
+        "page",
+        "url",
+        "score",
+        "relative_score"
+      ],
+      "title": "SourceResult",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "request_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Request Id"
+    },
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "intent_used": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Intent Used"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/SourceResult"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "model": {
+      "$ref": "#/$defs/ModelInfo"
+    }
+  },
+  "required": [
+    "request_id",
+    "query",
+    "intent_used",
+    "sources",
+    "model"
+  ],
+  "title": "RetrieveOutput",
+  "type": "object"
+}

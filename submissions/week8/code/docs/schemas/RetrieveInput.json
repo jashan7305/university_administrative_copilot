@@ -1,0 +1,53 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "text": {
+      "examples": [
+        "I lost my ID card. What should I do?"
+      ],
+      "maxLength": 1000,
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    },
+    "request_id": {
+      "anyOf": [
+        {
+          "maxLength": 128,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Caller's id, echoed back unchanged.",
+      "title": "Request Id"
+    },
+    "k": {
+      "default": 3,
+      "maximum": 10,
+      "minimum": 1,
+      "title": "K",
+      "type": "integer"
+    },
+    "intent": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional intent whose passages are boosted (else predicted).",
+      "title": "Intent"
+    }
+  },
+  "required": [
+    "text"
+  ],
+  "title": "RetrieveInput",
+  "type": "object"
+}

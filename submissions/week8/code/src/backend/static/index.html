@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Understand, route and action NMIMS administrative requests with Group 10's University Administrative Copilot.">
+  <title>Administrative Copilot - NMIMS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">G10</div>
+    <div>
+      <h1>University Administrative Copilot</h1>
+      <p class="sub">Understand your request · find the right department · know what to do next</p>
+    </div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" class="tab active" data-tab="copilot">Ask the copilot</button>
+    <button role="tab" class="tab" data-tab="advisor">Elective advisor</button>
+    <button role="tab" class="tab" data-tab="partner">Partner integration</button>
+    <button role="tab" class="tab" data-tab="about">About &amp; responsible AI</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ============================================================ copilot -->
+  <section id="copilot" class="panel active">
+    <div class="copilot-hero">
+      <div>
+        <p class="eyebrow">GROUP 10 · NMIMS ADMINISTRATIVE SERVICES</p>
+        <h2>Tell us what you need help with.</h2>
+        <p class="hero-copy">Ask in your own words. The copilot identifies your request, extracts useful details,
+          finds the relevant official guidance, and prepares the next step for you.</p>
+      </div>
+      <div class="hero-proof" aria-label="Copilot capabilities">
+        <span><b>01</b> Understand</span><span><b>02</b> Ground</span><span><b>03</b> Action</span>
+      </div>
+    </div>
+    <div class="copilot-layout">
+      <div class="copilot-input">
+        <div class="card ask-card">
+          <div class="card-heading">
+            <div>
+              <p class="eyebrow">YOUR REQUEST</p>
+              <h3>What can we help you with?</h3>
+            </div>
+            <span class="privacy-note">No data is stored</span>
+          </div>
+          <label for="query" class="sr-only">Your administrative question</label>
+          <textarea id="query" rows="5" placeholder="For example: I lost my ID card. What should I do?">I lost my ID card. What should I do?</textarea>
+          <p class="input-hint">Include your roll number, programme, deadline, or other detail if relevant.</p>
+          <div class="quick-label">Try a common request</div>
+          <div class="chips quick-chips" id="queryExamples"></div>
+          <button class="primary big" id="ask"><span class="button-icon">→</span> Get guidance</button>
+          <p class="error" id="askError" role="alert"></p>
+        </div>
+        <div class="intent-grid" aria-label="Supported services">
+          <div class="intent-card"><span class="intent-icon">ID</span><b>ID cards</b><span>Lost or damaged</span></div>
+          <div class="intent-card"><span class="intent-icon">AC</span><b>Academics</b><span>Registration &amp; exams</span></div>
+          <div class="intent-card"><span class="intent-icon">FE</span><b>Fees &amp; aid</b><span>Fees &amp; scholarships</span></div>
+          <div class="intent-card"><span class="intent-icon">ST</span><b>Student life</b><span>Hostel &amp; attendance</span></div>
+        </div>
+      </div>
+      <div class="col results copilot-results" id="answer" aria-live="polite">
+        <div class="empty result-empty">
+          <div class="empty-mark">✦</div>
+          <h3>Your guidance will appear here</h3>
+          <p>We’ll return the identified service, department, required documents, next action, and official sources.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ elective advisor -->
+  <section id="advisor" class="panel">
+    <div class="intro">
+      <h2>Which elective can I enrol in?</h2>
+      <p>Give several syllabi on a topic, including a new course, and your academic identity. The advisor checks every
+        course against the official MPSTME programme structure and rules, and recommends the one to enrol in, with
+        reasons and sources.</p>
+    </div>
+    <div class="grid">
+      <div class="col inputs">
+        <div class="card">
+          <h3><span class="step">1</span> Student</h3>
+          <label for="identity">Academic identity</label>
+          <textarea id="identity" rows="2">third year student, computer science program</textarea>
+          <details class="adv">
+            <summary>More details (optional)</summary>
+            <label for="program">Programme</label>
+            <select id="program"><option value="">From the text above</option></select>
+            <div class="row2">
+              <div><label for="year">Year</label>
+                <select id="year"><option value="">-</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div>
+              <div><label for="semester">Semester</label>
+                <select id="semester"><option value="">-</option></select></div>
+            </div>
+            <label for="interests">Interests or career goal</label>
+            <input id="interests" placeholder="e.g. building chatbots, network security, my own startup">
+            <label for="completed">Other courses completed (one per line)</label>
+            <textarea id="completed" rows="2" placeholder="e.g. Coursera: Deep Learning Specialization"></textarea>
+          </details>
+        </div>
+
+        <div class="card">
+          <h3><span class="step">2</span> Syllabi</h3>
+          <div class="samples">
+            <span class="muted small">Load a sample set:</span>
+            <div id="sampleButtons" class="chips"></div>
+          </div>
+          <div id="syllabusList" class="syllabi"></div>
+          <div class="actions">
+            <button class="ghost" id="addPaste">+ Paste a syllabus</button>
+            <label class="ghost file">Upload files<input type="file" id="files" multiple accept=".pdf,.docx,.txt,.md"></label>
+          </div>
+          <p class="muted small" id="sampleNote"></p>
+        </div>
+
+        <button class="primary big" id="run">Find my elective</button>
+        <p class="error" id="advError" role="alert"></p>
+      </div>
+
+      <div class="col results" id="results" aria-live="polite">
+        <div class="empty">
+          <p>Results appear here.</p>
+          <p class="muted small">Tip: the sample "Artificial intelligence" set with "third year student, computer
+            science program" is the Week 7 demo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ partner -->
+  <section id="partner" class="panel">
+    <div class="intro">
+      <h2>Interaction with another group's component</h2>
+      <p>The advisor can pull syllabi from a partner <b>syllabus service</b> and the academic identity from a partner
+        <b>student-record service</b>. Any service that follows the contract plugs in with one setting
+        (<code>PARTNER_SYLLABUS_URL</code>, <code>PARTNER_STUDENT_URL</code>). Until then a mock with the same contract
+        answers.</p>
+    </div>
+    <div class="grid">
+      <div class="col inputs">
+        <div class="card">
+          <label for="pStudent">Student id (from the student-record service)</label>
+          <select id="pStudent">
+            <option value="S-1001">S-1001 - B Tech Computer Science, year 3</option>
+            <option value="S-1002">S-1002 - B Tech Computer Engineering, semester VI</option>
+            <option value="S-1003">S-1003 - B Tech Mechanical Engineering, semester V</option>
+          </select>
+          <label for="pTopic">Topic (from the syllabus service)</label>
+          <select id="pTopic"></select>
+          <label for="pInterests">Interests (optional)</label>
+          <input id="pInterests" placeholder="e.g. language models">
+          <label for="pExtra">Add a new syllabus not yet in the partner service (optional)</label>
+          <textarea id="pExtra" rows="4" placeholder="Paste a new course proposal here"></textarea>
+          <button class="primary" id="pRun">Fetch from partners and advise</button>
+          <p class="error" id="pError" role="alert"></p>
+        </div>
+        <div class="card contract">
+          <h3>Contract</h3>
+<pre>GET {PARTNER_SYLLABUS_URL}/syllabi?topic=...
+ -> {"courses": [{"course_id", "title",
+                  "syllabus_text"}]}
+GET {PARTNER_STUDENT_URL}/students/{id}
+ -> {"program", "year", "semester",
+     "completed_courses": [...]}</pre>
+          <p class="muted small">Only programme, year, semester and completed courses are requested: no names,
+            contact details or grades.</p>
+        </div>
+      </div>
+      <div class="col results" id="pResults"><div class="empty"><p>The partner calls and the advice appear here.</p></div></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ about -->
+  <section id="about" class="panel">
+    <div class="intro">
+      <h2>Where this fits in the University AI application</h2>
+    </div>
+    <div class="card">
+      <div class="arch" aria-label="Architecture diagram">
+        <div class="arch-col">
+          <div class="arch-h">Front ends</div>
+          <div class="box">This demo UI</div><div class="box">Student portal / chat</div><div class="box">Other groups' apps</div>
+        </div>
+        <div class="arrow" aria-hidden="true">&rarr;</div>
+        <div class="arch-col main">
+          <div class="arch-h">Group 10: Administrative Copilot (/v1)</div>
+          <div class="box hl">Elective advisor<br><small>syllabus parsing · eligibility rules · ranking</small></div>
+          <div class="box hl">NLP component<br><small>intent · routing · NER · retrieval · answer · decision</small></div>
+          <div class="box">Official knowledge<br><small>programme structures · NMIMS facts · 727 passages</small></div>
+        </div>
+        <div class="arrow" aria-hidden="true">&harr;</div>
+        <div class="arch-col">
+          <div class="arch-h">Other groups' components</div>
+          <div class="box">Syllabus / curriculum service</div><div class="box">Student records</div><div class="box">Registration, timetable, helpdesk</div>
+        </div>
+      </div>
+      <p class="muted small">Component card for the service registry: <a href="/v1/manifest">/v1/manifest</a> ·
+        API documentation: <a href="/docs">/docs</a></p>
+    </div>
+    <div class="card">
+      <h3>Responsible AI, in short</h3>
+      <ul class="clean">
+        <li><b>Advice, not a decision.</b> Every result says the course coordinator confirms the enrolment, and lists what they should check.</li>
+        <li><b>Explained and sourced.</b> Each check names its rule: an NMIMS rule (with page), the syllabus, or our own advising policy.</li>
+        <li><b>No personal attributes used.</b> Only programme, year, semester, completed courses and optional interests. Adding name, gender, religion, caste or region to the text does not change the advice; this is tested.</li>
+        <li><b>Knows its limits.</b> Unknown programme or missing details: no recommendation, "needs review" instead.</li>
+        <li><b>Nothing stored.</b> Requests are not logged or kept.</li>
+        <li><b>Coverage.</b> Only MPSTME programme structures (2026) are in the catalogue; the sample syllabi are illustrative.</li>
+      </ul>
+      <p class="muted small">Full analysis: docs/responsible_ai.md</p>
+    </div>
+  </section>
+</main>
+<footer class="foot muted small">Group 10 · J054, J055, J056, J057, J059 · Advice from published MPSTME rules; confirm with your course coordinator.</footer>
+<script src="app.js"></script>
+</body>
+</html>

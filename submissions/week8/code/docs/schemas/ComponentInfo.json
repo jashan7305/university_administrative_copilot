@@ -1,0 +1,115 @@
+{
+  "$defs": {
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "component_version": {
+          "title": "Component Version",
+          "type": "string"
+        },
+        "schema_version": {
+          "default": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "'v3' (Week 4 fine-tuned models) or 'v2' (Week 3 models).",
+          "title": "Pipeline",
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_version",
+        "pipeline"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    },
+    "Thresholds": {
+      "additionalProperties": false,
+      "properties": {
+        "intent_rejection": {
+          "title": "Intent Rejection",
+          "type": "number"
+        },
+        "intent_confirm_below": {
+          "title": "Intent Confirm Below",
+          "type": "number"
+        },
+        "routing_review_below": {
+          "title": "Routing Review Below",
+          "type": "number"
+        }
+      },
+      "required": [
+        "intent_rejection",
+        "intent_confirm_below",
+        "routing_review_below"
+      ],
+      "title": "Thresholds",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "model": {
+      "$ref": "#/$defs/ModelInfo"
+    },
+    "intents": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Intents",
+      "type": "array"
+    },
+    "sub_intents": {
+      "title": "Sub Intents",
+      "type": "integer"
+    },
+    "entity_labels": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Entity Labels",
+      "type": "array"
+    },
+    "knowledge_base_passages": {
+      "title": "Knowledge Base Passages",
+      "type": "integer"
+    },
+    "thresholds": {
+      "$ref": "#/$defs/Thresholds"
+    },
+    "confidence_levels": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Confidence Levels",
+      "type": "object"
+    },
+    "limits": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Limits",
+      "type": "object"
+    }
+  },
+  "required": [
+    "name",
+    "model",
+    "intents",
+    "sub_intents",
+    "entity_labels",
+    "knowledge_base_passages",
+    "thresholds",
+    "confidence_levels",
+    "limits"
+  ],
+  "title": "ComponentInfo",
+  "type": "object"
+}

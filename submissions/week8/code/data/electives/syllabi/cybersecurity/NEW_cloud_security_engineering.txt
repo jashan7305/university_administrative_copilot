@@ -1,0 +1,9 @@
+Proposed new elective - Cloud Security Engineering (3 credits)
+
+Who can take it: final-year students (Semester VII) of BTech Computer Science, BTech Computer Engineering and
+BTech IT, as a Program Elective.
+Before taking it you should have done Computer Networks and Operating Systems.
+
+What it covers: the shared-responsibility model; identity and access management; securing virtual networks and
+storage; container and Kubernetes security; infrastructure as code scanning; logging, monitoring and incident
+response in the cloud; compliance (ISO 27001, SOC 2). Weekly labs on a public cloud free tier.

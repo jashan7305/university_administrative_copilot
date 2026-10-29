@@ -1,0 +1,24 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "error": {
+      "enum": [
+        "validation_error",
+        "models_unavailable",
+        "internal_error"
+      ],
+      "title": "Error",
+      "type": "string"
+    },
+    "detail": {
+      "title": "Detail",
+      "type": "string"
+    }
+  },
+  "required": [
+    "error",
+    "detail"
+  ],
+  "title": "ErrorOutput",
+  "type": "object"
+}
