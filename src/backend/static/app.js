@@ -143,24 +143,33 @@ $("#run").onclick = async () => {
 };
 
 // ------------------------------------------------------------------ copilot
-const EXAMPLES = ["How do I choose my open elective? Roll no J054", "I lost my ID card, it's urgent",
-  "my attendance is 68% in DBMS, what happens now", "can you recommend a good movie"];
+const EXAMPLES = ["I lost my ID card. What should I do?", "I need a transcript for higher studies",
+  "How do I register for my semester?", "My attendance is 68% in DBMS", "I need help with my scholarship"];
 $("#queryExamples").innerHTML = EXAMPLES.map((q) => `<button class="chip" type="button">${esc(q)}</button>`).join("");
 $("#queryExamples").querySelectorAll("button").forEach((b) => (b.onclick = () => { $("#query").value = b.textContent; $("#ask").click(); }));
 
 $("#ask").onclick = async () => {
   const btn = $("#ask"); $("#askError").textContent = ""; btn.disabled = true; btn.textContent = "Thinking...";
   try {
-    const o = await api("/v1/analyze", { text: $("#query").value });
+    const text = $("#query").value.trim();
+    if (!text) { $("#askError").textContent = "Tell us what you need help with first."; return; }
+    const o = await api("/v1/analyze", { text });
     const ent = o.entities.map((e) => `<span class="chip">${esc(e.label)}: ${esc(e.text)}${e.confidence != null ? ` · ${Math.round(e.confidence * 100)}%` : ""}</span>`).join("");
-    $("#answer").innerHTML = `<div class="card hero ${o.intent.in_scope ? "" : "none"}">
-      <div class="kicker">Decision: ${esc(o.decision.action.replaceAll("_", " "))}</div>
-      <h2>${esc(o.routing ? o.routing.department : "Outside administrative services")}</h2>
-      <div class="meta"><span class="chip">Intent ${esc(o.intent.intent)}</span>${o.routing ? `<span class="chip">${esc(o.routing.sub_intent)}</span>` : ""}</div>
+    const sr = o.service_request;
+    const docs = sr?.required_documents?.length ? `<div class="service-section"><div class="section-label">Required documents</div><ul class="clean">${sr.required_documents.map((d) => `<li>${esc(d)}</li>`).join("")}</ul></div>` : "";
+    const next = sr ? `<div class="next-action"><span class="next-icon">→</span><div><div class="section-label">Next action</div><b>${esc(sr.next_action)}</b></div></div>` : "";
+    const details = sr?.extracted_details && Object.values(sr.extracted_details).flat().length
+      ? `<div class="service-section"><div class="section-label">Details understood</div><div class="chips">${Object.entries(sr.extracted_details).flatMap(([k, values]) => values.map((v) => `<span class="chip">${esc(k.replaceAll("_", " "))}: ${esc(v)}</span>`)).join("")}</div></div>` : "";
+    $("#answer").innerHTML = `<div class="card answer-card hero ${o.intent.in_scope ? "" : "none"}">
+      <div class="answer-top"><div><div class="kicker">${o.intent.in_scope ? "Guidance ready" : "Outside supported services"}</div>
+      <h2>${esc(o.routing ? o.routing.department : "Let’s find the right place")}</h2></div>
+      <span class="status-badge ${o.decision.action === "auto_route" ? "ready" : "review"}">${esc(o.decision.action.replaceAll("_", " "))}</span></div>
+      <div class="meta"><span class="chip">Intent · ${esc(o.intent.intent.replaceAll("_", " "))}</span>${o.routing ? `<span class="chip">Service · ${esc(o.routing.sub_intent.replaceAll("_", " "))}</span>` : ""}</div>
       ${confBar(o.intent.confidence)}<p class="muted small">${esc(o.decision.reason)}</p></div>
-      <div class="card"><h3>Answer</h3><p class="answer-text">${esc(o.answer)}</p>${ent ? `<h3>Entities</h3><div class="chips">${ent}</div>` : ""}
-      ${o.sources.length ? `<h3>Sources</h3><ul class="clean">${o.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a> <span class="muted small">${esc(s.page)}</span></li>`).join("")}</ul>` : ""}
-      <details><summary class="muted small">Structured output (JSON)</summary><pre class="json">${esc(JSON.stringify(o, null, 2))}</pre></details></div>`;
+      <div class="card guidance-card"><div class="section-label">Answer</div><p class="answer-text">${esc(o.answer)}</p>${next}${docs}${details}
+      ${ent ? `<div class="service-section"><div class="section-label">Information extracted</div><div class="chips">${ent}</div></div>` : ""}
+      ${o.sources.length ? `<div class="service-section sources-section"><div class="section-label">Official sources</div><ul class="source-list">${o.sources.map((s) => `<li><span class="source-rank">${s.rank}</span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a> <span class="muted small">${esc(s.page)}</span></li>`).join("")}</ul></div>` : ""}
+      <details><summary class="muted small">View structured service request</summary><pre class="json">${esc(JSON.stringify(sr || o, null, 2))}</pre></details></div>`;
   } catch (e) { $("#askError").textContent = e.message; }
   finally { btn.disabled = false; btn.textContent = "Ask"; }
 };
@@ -194,9 +203,10 @@ $("#pRun").onclick = async () => {
     $("#sampleButtons").querySelectorAll("button").forEach((b) => (b.onclick = () => loadSample(b.dataset.t)));
     $("#pTopic").innerHTML = topics.map((t) => `<option value="${esc(t)}">${esc(TOPIC_LABEL[t] || t)}</option>`).join("");
     loadSample("artificial_intelligence");
-    // ?tab=copilot|partner|about opens a tab; ?demo also runs that tab (default: the Group 10 elective demo)
+    // ?tab=copilot|advisor|partner|about opens a tab; ?demo runs that tab
     const q = new URLSearchParams(location.search);
     if (q.get("tab")) document.querySelector(`.tab[data-tab="${CSS.escape(q.get("tab"))}"]`)?.click();
-    if (q.has("demo")) ({ copilot: $("#ask"), partner: $("#pRun") }[q.get("tab")] || $("#run")).click();
+    if (q.has("demo")) ({ copilot: $("#ask"), partner: $("#pRun"), advisor: $("#run") }[q.get("tab")] || $("#ask")).click();
+    else if (q.get("tab") === "copilot") $("#query").focus();
   } catch (e) { $("#advError").textContent = "Could not reach the API: " + e.message; }
 })();

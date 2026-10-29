@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Elective Advisor - NMIMS Copilot</title>
+  <meta name="description" content="Understand, route and action NMIMS administrative requests with Group 10's University Administrative Copilot.">
+  <title>Administrative Copilot - NMIMS</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,20 +13,68 @@
     <div class="logo" aria-hidden="true">G10</div>
     <div>
       <h1>University Administrative Copilot</h1>
-      <p class="sub">Group 10 · NMIMS MPSTME · part of the University AI application</p>
+      <p class="sub">Understand your request · find the right department · know what to do next</p>
     </div>
   </div>
   <nav class="tabs" role="tablist">
-    <button role="tab" class="tab active" data-tab="advisor">Elective advisor</button>
-    <button role="tab" class="tab" data-tab="copilot">Ask the copilot</button>
+    <button role="tab" class="tab active" data-tab="copilot">Ask the copilot</button>
+    <button role="tab" class="tab" data-tab="advisor">Elective advisor</button>
     <button role="tab" class="tab" data-tab="partner">Partner integration</button>
     <button role="tab" class="tab" data-tab="about">About &amp; responsible AI</button>
   </nav>
 </header>
 
 <main>
+  <!-- ============================================================ copilot -->
+  <section id="copilot" class="panel active">
+    <div class="copilot-hero">
+      <div>
+        <p class="eyebrow">GROUP 10 · NMIMS ADMINISTRATIVE SERVICES</p>
+        <h2>Tell us what you need help with.</h2>
+        <p class="hero-copy">Ask in your own words. The copilot identifies your request, extracts useful details,
+          finds the relevant official guidance, and prepares the next step for you.</p>
+      </div>
+      <div class="hero-proof" aria-label="Copilot capabilities">
+        <span><b>01</b> Understand</span><span><b>02</b> Ground</span><span><b>03</b> Action</span>
+      </div>
+    </div>
+    <div class="copilot-layout">
+      <div class="copilot-input">
+        <div class="card ask-card">
+          <div class="card-heading">
+            <div>
+              <p class="eyebrow">YOUR REQUEST</p>
+              <h3>What can we help you with?</h3>
+            </div>
+            <span class="privacy-note">No data is stored</span>
+          </div>
+          <label for="query" class="sr-only">Your administrative question</label>
+          <textarea id="query" rows="5" placeholder="For example: I lost my ID card. What should I do?">I lost my ID card. What should I do?</textarea>
+          <p class="input-hint">Include your roll number, programme, deadline, or other detail if relevant.</p>
+          <div class="quick-label">Try a common request</div>
+          <div class="chips quick-chips" id="queryExamples"></div>
+          <button class="primary big" id="ask"><span class="button-icon">→</span> Get guidance</button>
+          <p class="error" id="askError" role="alert"></p>
+        </div>
+        <div class="intent-grid" aria-label="Supported services">
+          <div class="intent-card"><span class="intent-icon">ID</span><b>ID cards</b><span>Lost or damaged</span></div>
+          <div class="intent-card"><span class="intent-icon">AC</span><b>Academics</b><span>Registration &amp; exams</span></div>
+          <div class="intent-card"><span class="intent-icon">FE</span><b>Fees &amp; aid</b><span>Fees &amp; scholarships</span></div>
+          <div class="intent-card"><span class="intent-icon">ST</span><b>Student life</b><span>Hostel &amp; attendance</span></div>
+        </div>
+      </div>
+      <div class="col results copilot-results" id="answer" aria-live="polite">
+        <div class="empty result-empty">
+          <div class="empty-mark">✦</div>
+          <h3>Your guidance will appear here</h3>
+          <p>We’ll return the identified service, department, required documents, next action, and official sources.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============================================================ elective advisor -->
-  <section id="advisor" class="panel active">
+  <section id="advisor" class="panel">
     <div class="intro">
       <h2>Which elective can I enrol in?</h2>
       <p>Give several syllabi on a topic, including a new course, and your academic identity. The advisor checks every
@@ -81,23 +130,6 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- ============================================================ copilot -->
-  <section id="copilot" class="panel">
-    <div class="intro">
-      <h2>Ask the copilot</h2>
-      <p>The Week 6 NLP component: intent, routing to the right department, entities, an answer grounded in official
-        NMIMS sources, and a decision with confidence.</p>
-    </div>
-    <div class="card">
-      <label for="query">Your question</label>
-      <textarea id="query" rows="2">How do I choose my open elective? Roll no J054</textarea>
-      <div class="chips" id="queryExamples"></div>
-      <button class="primary" id="ask">Ask</button>
-      <p class="error" id="askError" role="alert"></p>
-    </div>
-    <div id="answer"></div>
   </section>
 
   <!-- ============================================================ partner -->

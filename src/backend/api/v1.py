@@ -2,7 +2,8 @@
 nlp.component.schemas, so the OpenAPI page (/docs) documents every field. Errors use ErrorOutput."""
 from fastapi import APIRouter, Depends
 
-from nlp.component import COMPONENT_VERSION, SCHEMA_VERSION, AdminNLP, get_component
+from nlp.component import COMPONENT_VERSION, SCHEMA_VERSION, AdminNLP, ModelsUnavailable, get_component
+from nlp.component.demo import DemoCopilot
 from nlp.component.schemas import (
     AnalyzeInput, AnalyzeOutput, BatchInput, BatchOutput, ComponentInfo, EntitiesOutput, ErrorOutput, IntentInput,
     IntentOutput, RetrieveInput, RetrieveOutput, TextInput,
@@ -16,7 +17,14 @@ router = APIRouter(prefix="/v1", tags=["nlp component v1"], responses=ERRORS)
 
 def nlp() -> AdminNLP:
     """Dependency, so tests and other deployments can inject their own component."""
-    return get_component()
+    component = get_component()
+    try:
+        component.copilot
+    except ModelsUnavailable:
+        # A fresh clone has no gitignored model artefacts. Keep the browser
+        # demo usable with the verified catalogue until models are trained.
+        return AdminNLP(copilot=DemoCopilot(), pipeline="demo")
+    return component
 
 
 @router.get("/health")
