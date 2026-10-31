@@ -11,3 +11,6 @@ data/sources/
 
 # superseded Week 2 generated-data code and data (kept local only)
 archive/
+
+# other groups' files (kept locally, not part of this repository)
+Group9_*
